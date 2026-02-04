@@ -148,4 +148,11 @@ extension TimeInterval {
     static func months(_ months: Int) -> TimeInterval {
         return TimeInterval(months * 30 * 86400)
     }
+    
+    #if DEBUG
+    // 테스트 (분 단위)
+    static func minutes(_ minutes: Int) -> TimeInterval {
+        return TimeInterval(minutes * 60)
+    }
+    #endif
 }

@@ -25,6 +25,10 @@ struct CooldownTemplate: Identifiable {
 // MARK: - 기본 제공 템플릿들
 
 enum TemplateCategory: String, CaseIterable {
+    #if DEBUG
+    case test = "🍏 테스트"
+    case test2 = "🍎 테스트2"
+    #endif
     case travel = "🌏 여행"
     case shopping = "🛍️ 쇼핑"
     case food = "🍔 음식"
@@ -35,6 +39,30 @@ enum TemplateCategory: String, CaseIterable {
     
     var templates: [CooldownTemplate] {
         switch self {
+            #if DEBUG
+        case .test:
+            return [
+                CooldownTemplate(
+                    name: "테스트",
+                    emoji: "🍏",
+                    cooldownDuration: .minutes(1),
+                    estimatedCost: nil,
+                    category: rawValue,
+                    description: "테스트 템플릿"
+                )
+            ]
+        case .test2:
+            return [
+                CooldownTemplate(
+                    name: "테스트2",
+                    emoji: "🍎",
+                    cooldownDuration: .minutes(2),
+                    estimatedCost: nil,
+                    category: rawValue,
+                    description: "테스트 템플릿2"
+                )
+            ]
+            #endif
         case .travel:
             return [
                 CooldownTemplate(
