@@ -22,6 +22,7 @@ final class CooldownManager {
     /// 알림 권한 상태
     var notificationPermissionGranted = false
     var notificationPermissionDenied = false
+    var hasAskedForNotification = false
 
     private var modelContext: ModelContext?
     private var timerCancellable: AnyCancellable?
@@ -234,6 +235,9 @@ final class CooldownManager {
         // 쿨타임 종료 알림 예약
         if notificationPermissionGranted {
             scheduleCooldownEndNotification(for: item)
+        } else if !notificationPermissionDenied && !hasAskedForNotification {
+            // 첫 아이템 사용 시 자동으로 권한 요청
+            requestNotificationPermission()
         }
 
         saveContext()
@@ -265,6 +269,7 @@ final class CooldownManager {
                 case .denied:
                     self?.notificationPermissionGranted = false
                     self?.notificationPermissionDenied = true
+                    self?.hasAskedForNotification = true
                 case .notDetermined:
                     self?.notificationPermissionGranted = false
                     self?.notificationPermissionDenied = false
@@ -276,14 +281,25 @@ final class CooldownManager {
     }
 
     func requestNotificationPermission() {
+        hasAskedForNotification = true
+        
         NotificationManager.shared.requestPermission { [weak self] granted in
             DispatchQueue.main.async {
                 self?.notificationPermissionGranted = granted
                 self?.notificationPermissionDenied = !granted
                 if granted {
                     NotificationManager.shared.setupNotificationCategories()
+                    // 권한 승인 시 현재 쿨타임 중인 모든 아이템 알림 예약
+                    self?.rescheduleAllNotifications()
                 }
             }
+        }
+    }
+    
+    // 권한 승인 시 현재 쿨타임 중인 모든 아이템 알림 예약
+    private func rescheduleAllNotifications() {
+        for item in onCooldownItems {
+            scheduleCooldownEndNotification(for: item)
         }
     }
 
