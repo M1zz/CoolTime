@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3ACA702F34C57E007487C7 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ACA6F2F34C570007487C7 /* ToastView.swift */; };
 		9C61BFBA2EDD56D200BC5930 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */; };
 		9C61BFBC2EDD56D200BC5930 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */; };
 		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -54,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B3ACA6F2F34C570007487C7 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -187,6 +189,7 @@
 		B7A00005007 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2B3ACA6F2F34C570007487C7 /* ToastView.swift */,
 				B7A0000200A /* CooldownCircle.swift */,
 				B7A0000200B /* ItemCard.swift */,
 				B7A00002010 /* UseItemSheet.swift */,
@@ -315,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3ACA702F34C57E007487C7 /* ToastView.swift in Sources */,
 				B7A00001001 /* CoolTimeApp.swift in Sources */,
 				B7A00001003 /* CooldownItem.swift in Sources */,
 				B7A00001004 /* CooldownTemplate.swift in Sources */,
