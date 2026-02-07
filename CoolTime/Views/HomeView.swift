@@ -8,9 +8,12 @@ struct HomeView: View {
     @State private var manager = CooldownManager()
     @State private var selectedItem: CooldownItem?
     @State private var showOnboarding = !UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
-
+    @State private var showToast = false
+    @State private var toastMessage = ""
+    
     var body: some View {
-        NavigationStack {
+        ZStack(alignment: .top) {
+            NavigationStack {
             ScrollView {
                 VStack(spacing: 20) {
                     // 알림 권한 배너
@@ -87,48 +90,73 @@ struct HomeView: View {
                     get: { selectedItem != nil },
                     set: { if !$0 { selectedItem = nil } }
                 )) { note, cost in
+                    let wasCooldown = item.isOnCooldown
                     manager.useItem(item, note: note, actualCost: cost)
+
+                    if wasCooldown {
+                        toastMessage = "'\(item.name)' 쿨타임을 깼습니다"
+                        withAnimation { showToast = true }
+
+                        Task {
+                            try? await Task.sleep(nanoseconds: 1_000_000_000)
+                            await MainActor.run {
+                                withAnimation { showToast = false }
+                            }
+                        }
+                    }
                 }
             }
             .fullScreenCover(isPresented: $showOnboarding) {
                 OnboardingView(isPresented: $showOnboarding)
             }
         }
-        .onAppear {
-            manager.setModelContext(modelContext)
+            .onAppear {
+                manager.setModelContext(modelContext)
+            }
+
+            if showToast {
+                ToastView(
+                    message: toastMessage,
+                    icon: "bolt.fill",
+                    color: AppTheme.warning
+                )
+                .transition(.move(edge: .top).combined(with: .opacity))
+                .padding(.top, 60)
+                .zIndex(1)
+            }
         }
     }
-
+    
     // MARK: - Computed Properties
-
+    
     private var displayedAvailableItems: [CooldownItem] {
         manager.searchText.isEmpty ? manager.availableItems : manager.filteredAvailableItems
     }
-
+    
     private var displayedOnCooldownItems: [CooldownItem] {
         manager.searchText.isEmpty ? manager.onCooldownItems : manager.filteredOnCooldownItems
     }
-
+    
     // MARK: - Notification Permission Banner
-
+    
     private var notificationPermissionBanner: some View {
         HStack(spacing: 12) {
             Image(systemName: "bell.slash.fill")
                 .font(.title2)
                 .foregroundStyle(AppTheme.warning)
-
+            
             VStack(alignment: .leading, spacing: 2) {
                 Text("알림이 꺼져있어요")
                     .font(.subheadline)
                     .fontWeight(.semibold)
-
+                
                 Text("쿨타임 종료 알림을 받으려면 설정에서 켜주세요")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
-
+            
             Spacer()
-
+            
             Button(action: { manager.openNotificationSettings() }) {
                 Text("설정")
                     .font(.caption)
@@ -151,17 +179,17 @@ struct HomeView: View {
         .accessibilityElement(children: .combine)
         .accessibilityLabel("알림이 꺼져있습니다. 설정 버튼을 눌러 알림을 켜세요")
     }
-
+    
     // MARK: - Search Bar
-
+    
     private var searchBar: some View {
         HStack(spacing: 12) {
             Image(systemName: "magnifyingglass")
                 .foregroundStyle(.secondary)
-
+            
             TextField("아이템 검색...", text: $manager.searchText)
                 .textFieldStyle(.plain)
-
+            
             if !manager.searchText.isEmpty {
                 Button(action: { manager.searchText = "" }) {
                     Image(systemName: "xmark.circle.fill")
@@ -180,9 +208,9 @@ struct HomeView: View {
                 .stroke(AppTheme.borderColor(for: colorScheme), lineWidth: 1)
         )
     }
-
+    
     // MARK: - Summary Section
-
+    
     private var summarySection: some View {
         VStack(spacing: 12) {
             HStack(spacing: 12) {
@@ -194,7 +222,7 @@ struct HomeView: View {
                     colorScheme: colorScheme
                 )
                 .accessibilityLabel("준수율 \(Int(manager.overallComplianceRate * 100))퍼센트")
-
+                
                 SummaryCard(
                     title: "예상 절약",
                     value: "₩\(manager.monthlySavings.formatted())",
@@ -204,7 +232,7 @@ struct HomeView: View {
                 )
                 .accessibilityLabel("이번 달 예상 절약 금액 \(manager.monthlySavings)원")
             }
-
+            
             HStack(spacing: 12) {
                 SummaryCard(
                     title: "사용 가능",
@@ -214,7 +242,7 @@ struct HomeView: View {
                     colorScheme: colorScheme
                 )
                 .accessibilityLabel("사용 가능한 아이템 \(manager.availableItems.count)개")
-
+                
                 SummaryCard(
                     title: "쿨타임 중",
                     value: "\(manager.onCooldownItems.count)개",
@@ -226,9 +254,9 @@ struct HomeView: View {
             }
         }
     }
-
+    
     // MARK: - Available Section
-
+    
     private var availableSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(spacing: 6) {
@@ -238,9 +266,9 @@ struct HomeView: View {
                 Text("사용 가능")
                     .font(.headline)
                     .fontWeight(.bold)
-
+                
                 Spacer()
-
+                
                 Text("\(displayedAvailableItems.count)")
                     .font(.subheadline)
                     .fontWeight(.bold)
@@ -252,7 +280,7 @@ struct HomeView: View {
             }
             .accessibilityElement(children: .combine)
             .accessibilityLabel("사용 가능 \(displayedAvailableItems.count)개")
-
+            
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
                     ForEach(displayedAvailableItems) { item in
@@ -266,9 +294,9 @@ struct HomeView: View {
             }
         }
     }
-
+    
     // MARK: - Cooldown Section
-
+    
     private var cooldownSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(spacing: 6) {
@@ -278,9 +306,9 @@ struct HomeView: View {
                 Text("쿨타임 중")
                     .font(.headline)
                     .fontWeight(.bold)
-
+                
                 Spacer()
-
+                
                 Text("\(displayedOnCooldownItems.count)")
                     .font(.subheadline)
                     .fontWeight(.bold)
@@ -292,7 +320,7 @@ struct HomeView: View {
             }
             .accessibilityElement(children: .combine)
             .accessibilityLabel("쿨타임 중 \(displayedOnCooldownItems.count)개")
-
+            
             LazyVStack(spacing: 12) {
                 ForEach(displayedOnCooldownItems) { item in
                     ItemCard(
@@ -306,7 +334,7 @@ struct HomeView: View {
                         } label: {
                             Label("삭제", systemImage: "trash")
                         }
-
+                        
                         Button {
                             manager.resetCooldown(item)
                         } label: {
@@ -319,19 +347,19 @@ struct HomeView: View {
             }
         }
     }
-
+    
     // MARK: - No Search Results
-
+    
     private var noSearchResultsView: some View {
         VStack(spacing: 16) {
             Image(systemName: "magnifyingglass")
                 .font(.system(size: 50))
                 .foregroundStyle(.secondary)
-
+            
             Text("'\(manager.searchText)' 검색 결과 없음")
                 .font(.headline)
                 .foregroundStyle(.secondary)
-
+            
             Text("다른 키워드로 검색해보세요")
                 .font(.subheadline)
                 .foregroundStyle(.tertiary)
@@ -340,24 +368,24 @@ struct HomeView: View {
         .accessibilityElement(children: .combine)
         .accessibilityLabel("검색 결과 없음")
     }
-
+    
     // MARK: - Empty State
-
+    
     private var emptyState: some View {
         VStack(spacing: 20) {
             Image(systemName: "sparkles")
                 .font(.system(size: 70))
                 .foregroundStyle(AppTheme.readyGradient)
-
+            
             Text("아직 쿨타임이 없어요")
                 .font(.title2)
                 .fontWeight(.bold)
-
+            
             Text("템플릿에서 추가하거나\n직접 만들어보세요")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
-
+            
             HStack(spacing: 12) {
                 Button(action: { manager.showingTemplates = true }) {
                     HStack {
@@ -373,7 +401,7 @@ struct HomeView: View {
                             .stroke(AppTheme.warning, lineWidth: 2)
                     )
                 }
-
+                
                 Button(action: { manager.showingAddSheet = true }) {
                     HStack {
                         Image(systemName: "plus")
@@ -397,7 +425,7 @@ struct SummaryCard: View {
     let icon: String
     let color: Color
     let colorScheme: ColorScheme
-
+    
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 6) {
@@ -405,15 +433,15 @@ struct SummaryCard: View {
                     .font(.caption)
                     .fontWeight(.semibold)
                     .foregroundStyle(.secondary)
-
+                
                 Text(value)
                     .font(.title3)
                     .fontWeight(.bold)
                     .foregroundStyle(.primary)
             }
-
+            
             Spacer()
-
+            
             Image(systemName: icon)
                 .font(.title)
                 .fontWeight(.semibold)

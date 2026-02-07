@@ -16,6 +16,7 @@ struct UseItemSheet: View {
     @Environment(\.colorScheme) private var colorScheme
     @State private var note: String = ""
     @State private var actualCost: String = ""
+    @State private var showConfirmationAlert = false
     @FocusState private var isNoteFocused: Bool
 
     private var isOnCooldown: Bool {
@@ -56,6 +57,12 @@ struct UseItemSheet: View {
                         isPresented = false
                     }
                 }
+            }
+            .alert("쿨타임 깨기", isPresented: $showConfirmationAlert) {
+                Button("취소", role: .cancel) { }
+                Button("쿨타임 깨기", role: .destructive) { executeUse() }
+            } message: {
+                Text("정말 지금 사용하시겠어요?\n쿨타임이 처음부터 다시 시작되고, 준수율에 기록됩니다.")
             }
         }
         .presentationDetents([.medium, .large])
@@ -200,9 +207,11 @@ struct UseItemSheet: View {
 
     private var useButton: some View {
         Button(action: {
-            let cost = Int(actualCost)
-            onUse(note.isEmpty ? nil : note, cost)
-            isPresented = false
+            if isOnCooldown {
+                showConfirmationAlert = true
+            } else {
+                executeUse()
+            }
         }) {
             HStack {
                 Image(systemName: isOnCooldown ? "bolt.fill" : "checkmark")
@@ -218,6 +227,17 @@ struct UseItemSheet: View {
             )
         }
         .accessibilityLabel(isOnCooldown ? "쿨타임 깨고 사용하기" : "사용 완료")
+    }
+    
+    // MARK: - Execute Use
+    
+    private func executeUse() {
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(isOnCooldown ? .warning : .success)
+        
+        let cost = Int(actualCost)
+        onUse(note.isEmpty ? nil : note, cost)
+        isPresented = false
     }
 }
 
