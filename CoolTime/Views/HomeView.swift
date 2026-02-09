@@ -259,10 +259,21 @@ struct HomeView: View {
                         ItemCardCompact(item: item) {
                             selectedItem = item
                         }
+                        .contextMenu {
+                            Button(role: .destructive) {
+                                withAnimation {
+                                    manager.deleteItem(item)
+                                }
+                            } label: {
+                                Label("삭제", systemImage: "trash")
+                            }
+                        }
                         .accessibilityLabel("\(item.emoji) \(item.name), 사용 가능")
                         .accessibilityHint("탭하여 사용하기")
                     }
                 }
+                .padding(.vertical, 10)
+                .padding(.horizontal, 2)
             }
         }
     }
