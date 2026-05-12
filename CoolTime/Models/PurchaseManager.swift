@@ -17,12 +17,17 @@ final class PurchaseManager {
 
     private var listenerTask: Task<Void, Never>?
 
+    // TestFlight 환경 여부 (sandboxReceipt 경로로 감지)
+    static var isTestFlight: Bool {
+        Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt"
+    }
+
     private init() {
-        isPro = UserDefaults.standard.bool(forKey: "cooltime.isPro")
+        isPro = Self.isTestFlight || UserDefaults.standard.bool(forKey: "cooltime.isPro")
         listenerTask = Self.startTransactionListener(manager: self)
         Task {
             await loadProducts()
-            await refreshEntitlements()
+            if !Self.isTestFlight { await refreshEntitlements() }
         }
     }
 
