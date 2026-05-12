@@ -3,7 +3,10 @@ import SwiftUI
 /// 커스텀 아이템 추가 화면
 struct AddItemView: View {
     @Environment(\.dismiss) private var dismiss
+    @Environment(PurchaseManager.self) private var purchaseManager
     var manager: CooldownManager
+
+    @State private var showingPaywall = false
     
     @State private var name = ""
     @State private var emoji = "⭐"
@@ -169,17 +172,30 @@ struct AddItemView: View {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("취소") { dismiss() }
                 }
-                
+
                 ToolbarItem(placement: .confirmationAction) {
                     Button("추가") {
-                        addItem()
+                        handleAdd()
                     }
                     .disabled(name.isEmpty)
                 }
             }
+            .sheet(isPresented: $showingPaywall) {
+                PaywallView(trigger: .itemLimit)
+                    .environment(purchaseManager)
+            }
         }
     }
     
+    private var cooldownPreviewText: String {
+        switch cooldownUnit {
+        case .hours:  return String(format: NSLocalizedString("%d시간마다", comment: ""), cooldownValue)
+        case .days:   return String(format: NSLocalizedString("%d일마다", comment: ""), cooldownValue)
+        case .weeks:  return String(format: NSLocalizedString("%d주마다", comment: ""), cooldownValue)
+        case .months: return String(format: NSLocalizedString("%d개월마다", comment: ""), cooldownValue)
+        }
+    }
+
     private var previewCircle: some View {
         VStack(spacing: 8) {
             ZStack {
@@ -206,24 +222,25 @@ struct AddItemView: View {
                 .font(.caption)
                 .foregroundStyle(name.isEmpty ? .secondary : .primary)
             
-            Text("\(cooldownValue)\(cooldownUnit.rawValue)마다")
+            Text(verbatim: cooldownPreviewText)
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }
     }
     
-    private func addItem() {
+    private func handleAdd() {
+        guard manager.canAddItem else {
+            showingPaywall = true
+            return
+        }
         let duration = cooldownUnit.toSeconds(cooldownValue)
-        let cost = Int(estimatedCost)
-        
         let item = CooldownItem(
             name: name,
             emoji: emoji,
             cooldownDuration: duration,
-            estimatedCost: cost,
+            estimatedCost: Int(estimatedCost),
             category: category
         )
-        
         manager.addItem(item)
         dismiss()
     }

@@ -5,6 +5,7 @@ import WidgetKit
 @main
 struct CoolTimeApp: App {
     @Environment(\.scenePhase) private var scenePhase
+    @State private var purchaseManager = PurchaseManager.shared
 
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
@@ -26,13 +27,14 @@ struct CoolTimeApp: App {
     }()
 
     init() {
-        // 알림 카테고리 설정
         NotificationManager.shared.setupNotificationCategories()
+        _ = PurchaseManager.shared
     }
 
     var body: some Scene {
         WindowGroup {
             HomeView()
+                .environment(purchaseManager)
         }
         .modelContainer(sharedModelContainer)
         .onChange(of: scenePhase) { _, newPhase in

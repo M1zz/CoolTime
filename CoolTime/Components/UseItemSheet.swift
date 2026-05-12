@@ -83,7 +83,7 @@ struct UseItemSheet: View {
             if isOnCooldown {
                 HStack(spacing: 4) {
                     Image(systemName: "clock.fill")
-                    Text("남은 시간: \(item.remainingCooldown.cooldownFormatted)")
+                    Text(String(format: NSLocalizedString("남은 시간: %@", comment: ""), item.remainingCooldown.cooldownFormatted))
                 }
                 .font(.subheadline)
                 .foregroundStyle(AppTheme.cooldown)
@@ -103,7 +103,9 @@ struct UseItemSheet: View {
                 .fill(AppTheme.cardBackground(for: colorScheme))
         )
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(item.emoji) \(item.name), \(isOnCooldown ? "쿨타임 \(item.remainingCooldown.cooldownFormatted) 남음" : "사용 가능")")
+        .accessibilityLabel(isOnCooldown
+            ? String(format: NSLocalizedString("%@ %@, 쿨타임 %@ 남음", comment: ""), item.emoji, item.name, item.remainingCooldown.cooldownFormatted)
+            : String(format: NSLocalizedString("%@ %@, 사용 가능", comment: ""), item.emoji, item.name))
     }
 
     // MARK: - Cooldown Warning
@@ -177,7 +179,7 @@ struct UseItemSheet: View {
                 Spacer()
 
                 if let estimated = item.estimatedCost {
-                    Text("예상: ₩\(estimated.formatted())")
+                    Text(String(format: NSLocalizedString("예상: ₩%@", comment: ""), estimated.formatted()))
                         .font(.caption)
                         .foregroundStyle(.tertiary)
                 }

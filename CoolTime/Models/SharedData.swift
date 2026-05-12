@@ -55,6 +55,7 @@ struct WidgetDataStore {
 
     private static let itemsKey = "widget_cooldown_items"
     private static let statsKey = "widget_stats"
+    private static let isProKey = "widget_isPro"
 
     // MARK: - Items
 
@@ -97,6 +98,16 @@ struct WidgetDataStore {
         }
         return stats
     }
+
+    // MARK: - Pro Status
+
+    static func saveIsPro(_ isPro: Bool) {
+        sharedDefaults?.set(isPro, forKey: isProKey)
+    }
+
+    static func loadIsPro() -> Bool {
+        sharedDefaults?.bool(forKey: isProKey) ?? false
+    }
 }
 
 /// 위젯용 통계 데이터
@@ -106,6 +117,7 @@ struct WidgetStats: Codable {
     var onCooldownCount: Int = 0
     var complianceRate: Double = 1.0
     var monthlySavings: Int = 0
+    var isPro: Bool = false
 }
 
 // MARK: - TimeInterval Extension for Widget

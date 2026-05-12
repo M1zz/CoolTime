@@ -85,6 +85,11 @@ final class CooldownManager {
         return savings
     }
 
+    /// 아이템 추가 가능 여부 (무료: 5개 제한)
+    var canAddItem: Bool {
+        items.count < PurchaseManager.freeItemLimit || PurchaseManager.shared.isPro
+    }
+
     /// 전체 준수율
     var overallComplianceRate: Double {
         let activeItems = items.filter { $0.totalUseCount > 0 }
@@ -358,7 +363,8 @@ final class CooldownManager {
             availableCount: availableItems.count,
             onCooldownCount: onCooldownItems.count,
             complianceRate: overallComplianceRate,
-            monthlySavings: monthlySavings
+            monthlySavings: monthlySavings,
+            isPro: PurchaseManager.shared.isPro
         )
         WidgetDataStore.saveStats(stats)
 

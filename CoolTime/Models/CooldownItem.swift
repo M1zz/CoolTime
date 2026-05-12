@@ -120,15 +120,15 @@ extension TimeInterval {
         let hours = (totalSeconds % 86400) / 3600
         let minutes = (totalSeconds % 3600) / 60
         let seconds = totalSeconds % 60
-        
+
         if days > 0 {
-            return "\(days)일 \(hours)시간"
+            return String(format: NSLocalizedString("%d일 %d시간", comment: ""), days, hours)
         } else if hours > 0 {
-            return "\(hours)시간 \(minutes)분"
+            return String(format: NSLocalizedString("%d시간 %d분", comment: ""), hours, minutes)
         } else if minutes > 0 {
-            return "\(minutes)분 \(seconds)초"
+            return String(format: NSLocalizedString("%d분 %d초", comment: ""), minutes, seconds)
         } else {
-            return "\(seconds)초"
+            return String(format: NSLocalizedString("%d초", comment: ""), seconds)
         }
     }
     

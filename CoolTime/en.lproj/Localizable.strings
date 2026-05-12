@@ -1,0 +1,197 @@
+/* ===== HomeView ===== */
+"쿨타임" = "Cooldown";
+"통계 보기" = "Statistics";
+"템플릿에서 추가" = "Add from Templates";
+"새 쿨타임 추가" = "Add New Cooldown";
+
+/* Notification banner */
+"알림이 꺼져있어요" = "Notifications Off";
+"쿨타임 종료 알림을 받으려면 설정에서 켜주세요" = "Enable in Settings to receive cooldown notifications";
+"설정" = "Settings";
+"알림이 꺼져있습니다. 설정 버튼을 눌러 알림을 켜세요" = "Notifications are off. Tap Settings to enable.";
+
+/* Search */
+"아이템 검색..." = "Search items...";
+"검색어 지우기" = "Clear search";
+
+/* Summary cards */
+"준수율" = "Compliance";
+"예상 절약" = "Est. Savings";
+"사용 가능" = "Available";
+"쿨타임 중" = "On Cooldown";
+"아이템 슬롯" = "Item Slots";
+
+/* Summary card values */
+"%lld개" = "%lld";
+"%lld개 남음" = "%lld left";
+
+/* Summary card accessibility */
+"준수율 %lld퍼센트" = "%lld%% compliance";
+"이번 달 예상 절약 금액 %lld원" = "₩%lld est. savings this month";
+"사용 가능한 아이템 %lld개" = "%lld items available";
+"쿨타임 중인 아이템 %lld개" = "%lld items on cooldown";
+
+/* Section headers */
+"사용 가능 %lld개" = "%lld available";
+"쿨타임 중 %lld개" = "%lld on cooldown";
+
+/* Context menu */
+"삭제" = "Delete";
+"쿨타임 리셋" = "Reset Cooldown";
+
+/* Item accessibility */
+"%@ %@, 사용 가능" = "%1$@ %2$@, available";
+"%@ %@, 쿨타임 %@ 남음" = "%1$@ %2$@, %3$@ remaining";
+"탭하여 사용하기" = "Tap to use";
+"탭하여 쿨타임 깨기, 길게 눌러 더 많은 옵션" = "Tap to break cooldown, hold for more options";
+
+/* Search results */
+"'%@' 검색 결과 없음" = "No results for '%@'";
+"검색 결과 없음" = "No Results";
+"다른 키워드로 검색해보세요" = "Try a different keyword";
+
+/* Empty state */
+"아직 쿨타임이 없어요" = "No Cooldowns Yet";
+"템플릿에서 추가하거나\n직접 만들어보세요" = "Add from templates\nor create your own";
+"아직 쿨타임이 없습니다. 템플릿에서 추가하거나 직접 만들어보세요" = "No cooldowns yet. Add from templates or create your own.";
+"템플릿" = "Templates";
+"직접 추가" = "Add Custom";
+
+/* Toast */
+"'%@' 쿨타임을 깼습니다" = "'%@' cooldown broken";
+
+/* ===== AddItemView ===== */
+"기본 정보" = "Basic Info";
+"이름" = "Name";
+"아이콘" = "Icon";
+"카테고리" = "Category";
+"쿨타임 주기" = "Cooldown Period";
+"값" = "Value";
+"단위" = "Unit";
+"예상 비용 (선택)" = "Estimated Cost (Optional)";
+"비용을 입력하면 절약 금액을 계산해드려요" = "Enter cost to calculate your savings";
+"새 쿨타임" = "New Cooldown";
+"취소" = "Cancel";
+"추가" = "Add";
+
+/* Cooldown units */
+"시간" = "hr";
+"일" = "day";
+"주" = "wk";
+"개월" = "mo";
+
+/* Quick select buttons */
+"3일" = "3 days";
+"1주" = "1 week";
+"2주" = "2 weeks";
+"1개월" = "1 month";
+"2개월" = "2 months";
+
+/* Cooldown preview */
+"%d시간마다" = "every %d hr";
+"%d일마다" = "every %d days";
+"%d주마다" = "every %d wks";
+"%d개월마다" = "every %d mo";
+
+/* ===== TemplatesView ===== */
+"추천 템플릿" = "Recommended Templates";
+"자주 사용하는 쿨타임 항목들이에요\n탭해서 바로 추가하세요" = "Common cooldown items\nTap to add instantly";
+"'%@' 추가됨" = "'%@' added";
+
+/* Template categories */
+"🌏 여행" = "🌏 Travel";
+"🛍️ 쇼핑" = "🛍️ Shopping";
+"🍔 음식" = "🍔 Food";
+"🎮 엔터테인먼트" = "🎮 Entertainment";
+"💅 라이프스타일" = "💅 Lifestyle";
+"🏃 건강" = "🏃 Health";
+"💰 금융" = "💰 Finance";
+"기타" = "Other";
+"완료" = "Done";
+
+/* Template cooldown format */
+"%d개월" = "%d mo";
+"%d주" = "%d wk";
+"%d일" = "%d d";
+
+/* ===== StatsView ===== */
+"통계" = "Statistics";
+"전체 준수율" = "Overall Compliance";
+"총 아이템" = "Items";
+"총 사용" = "Uses";
+"깬 횟수" = "Breaks";
+"아이템별 준수율" = "Compliance by Item";
+"카테고리별" = "By Category";
+"최근 활동" = "Recent Activity";
+"7일" = "7 days";
+"아직 활동이 없어요" = "No activity yet";
+"%lld회 사용" = "%lld uses";
+"상세 사용 이력" = "Usage History";
+"아직 기록이 없어요" = "No records yet";
+"쿨타임 깨기" = "Break Cooldown";
+"Pro에서 전체 이력을 확인하세요" = "Unlock full history with Pro";
+"아이템 상세" = "Item Details";
+"쿨타임 깬 횟수" = "Breaks";
+"총 지출 (추정)" = "Total Spent (Est.)";
+"%lld회" = "%lld×";
+
+/* ===== UseItemSheet ===== */
+"사용하기" = "Use Now";
+"정말 지금 사용하시겠어요?\n쿨타임이 처음부터 다시 시작되고, 준수율에 기록됩니다." = "Use it now?\nYour cooldown resets and this will be recorded as a break.";
+"남은 시간: %@" = "Remaining: %@";
+"쿨타임 중입니다!" = "On Cooldown!";
+"지금 사용하면 준수율이 낮아집니다" = "Using now will lower your compliance rate";
+"경고: 쿨타임 중입니다. 지금 사용하면 준수율이 낮아집니다" = "Warning: On cooldown. Using now will lower your compliance rate.";
+"메모 (선택)" = "Note (Optional)";
+"왜 사용하나요?" = "Why are you using this?";
+"실제 비용 (선택)" = "Actual Cost (Optional)";
+"예상: ₩%@" = "Est. ₩%@";
+"사용 완료" = "Done";
+"쿨타임 깨고 사용하기" = "Break cooldown and use";
+
+/* ===== PaywallView ===== */
+"아이템을 더 추가하려면" = "To add more items";
+"전체 기록을 확인하려면" = "To view full history";
+"위젯을 사용하려면" = "To use widgets";
+"더 강력한 의지력이 필요해요" = "Need stronger willpower";
+"자기절제의 다음 단계" = "Next level of self-control";
+"무료 플랜은 아이템 3개까지 지원해요.\nPro로 업그레이드해 무제한 추가하세요." = "Free plan supports up to 3 items.\nUpgrade to Pro for unlimited.";
+"7일 이전의 기록과 심층 통계는\nPro에서 확인할 수 있어요." = "Full history and in-depth stats\nare available with Pro.";
+"홈·잠금화면 위젯으로 쿨타임을\n언제나 한눈에 확인하세요." = "Check cooldowns anytime\nwith home & lock screen widgets.";
+"쿨타임을 자주 깨고 있어요.\nPro의 강화된 도구로 습관을 바꿔보세요." = "You're breaking cooldowns often.\nChange habits with Pro's enhanced tools.";
+"더 많은 기능으로 진짜 변화를\n만들어보세요." = "Make real change\nwith more features.";
+"무제한 아이템" = "Unlimited Items";
+"원하는 만큼 쿨타임을 등록하세요" = "Add as many cooldowns as you want";
+"전체 통계 & 이력" = "Full Stats & History";
+"나의 모든 습관 변화를 추적하세요" = "Track all your habit changes";
+"홈·잠금화면 위젯" = "Home & Lock Screen Widgets";
+"언제 어디서든 쿨타임을 확인하세요" = "Check cooldowns anywhere, anytime";
+"스마트 알림" = "Smart Notifications";
+"쿨타임 종료 전 미리 알림을 받으세요" = "Get notified before cooldowns end";
+"오류" = "Error";
+"확인" = "OK";
+"평생 이용권" = "Lifetime License";
+"한 번만 결제" = "One-Time Purchase";
+"개발자를 응원하고 평생 Pro를 누리세요" = "Support the developer and enjoy Pro forever";
+"구매 복원" = "Restore Purchase";
+"결제는 Apple ID 계정으로 청구되며,\n한 번만 결제하면 평생 이용할 수 있어요." = "Charged to your Apple ID.\nOne payment, use forever.";
+"평생 이용권 구매" = "Get Lifetime License";
+
+/* ===== OnboardingView ===== */
+"쿨타임으로\n충동을 관리하세요" = "Manage impulses\nwith Cooldowns";
+"게임의 스킬 쿨타임처럼\n소비와 행동에 대기 시간을 설정해요" = "Like game skill cooldowns,\nset waiting periods for spending & habits";
+"절약 금액을\n확인하세요" = "Track your\nsavings";
+"쿨타임을 지킬 때마다\n얼마나 절약했는지 알려드려요" = "See how much you save\nevery time you honor a cooldown";
+"나만의 통계로\n습관을 분석하세요" = "Analyze habits\nwith your stats";
+"준수율과 카테고리별 통계로\n더 나은 습관을 만들어가요" = "Build better habits with\ncompliance rates and category stats";
+"알림으로\n놓치지 마세요" = "Never miss\na cooldown";
+"쿨타임이 끝나면 알려드릴게요\n위젯으로도 확인할 수 있어요" = "Get notified when cooldowns end\nand check anytime via widgets";
+"시작하기" = "Get Started";
+"다음" = "Next";
+"건너뛰기" = "Skip";
+
+/* ===== Time format ===== */
+"%d일 %d시간" = "%1$dd %2$dh";
+"%d시간 %d분" = "%1$dh %2$dm";
+"%d분 %d초" = "%1$dm %2$ds";
+"%d초" = "%ds";
