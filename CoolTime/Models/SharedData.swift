@@ -118,6 +118,8 @@ struct WidgetStats: Codable {
     var complianceRate: Double = 1.0
     var monthlySavings: Int = 0
     var isPro: Bool = false
+    var streakDays: Int = 0          // 충동 없이 이어온 연속 일수
+    var lastSync: Date? = nil        // 앱이 마지막으로 위젯 데이터를 쓴 시각 (진단용)
 }
 
 // MARK: - TimeInterval Extension for Widget

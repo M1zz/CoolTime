@@ -132,6 +132,20 @@ extension TimeInterval {
         }
     }
     
+    /// 게임 스킬 아이콘 중앙에 표시할 간결한 남은 시간 (가장 큰 단위 하나만)
+    var compactCooldownFormatted: String {
+        let total = Int(self)
+        if total >= 86400 {
+            return String(format: NSLocalizedString("%d일", comment: ""), total / 86400)
+        } else if total >= 3600 {
+            return String(format: NSLocalizedString("%d시간", comment: ""), total / 3600)
+        } else if total >= 60 {
+            return String(format: NSLocalizedString("%d분", comment: ""), total / 60)
+        } else {
+            return String(format: NSLocalizedString("%d초", comment: ""), total)
+        }
+    }
+
     /// 쿨타임 기간 설정용 (일/시간 단위)
     static func days(_ days: Int) -> TimeInterval {
         return TimeInterval(days * 86400)

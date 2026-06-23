@@ -49,11 +49,38 @@ enum AppTheme {
         endPoint: .trailing
     )
 
+    // MARK: - High-Contrast Solid Colors (저시력 대응)
+
+    /// 사용 가능 (라이트에서 충분한 대비를 위해 톤 다운한 진한 그린)
+    static let readyStrong = Color(red: 0.0, green: 0.55, blue: 0.30)
+
+    /// 기다리는 중 (진한 블루)
+    static let waitingStrong = Color(red: 0.10, green: 0.35, blue: 0.85)
+
+    // MARK: - Status (단일 소스 of truth)
+
+    /// 아이템 상태를 (텍스트, SF심볼, 색)으로 표현 — 행/시트/위젯이 모두 공유
+    /// 색에만 의존하지 않도록 항상 텍스트 + 심볼을 함께 노출한다.
+    struct StatusStyle {
+        let text: LocalizedStringKey
+        let symbol: String
+        let color: Color
+    }
+
+    static func status(isOnCooldown: Bool, remainingText: String) -> StatusStyle {
+        if isOnCooldown {
+            // "내가 이걸 한 지 얼마 안 됐네 = 아직" 을 가장 단순하게 전달
+            return StatusStyle(text: "아직이에요", symbol: "hourglass", color: waitingStrong)
+        } else {
+            return StatusStyle(text: "사용 가능", symbol: "checkmark.circle.fill", color: readyStrong)
+        }
+    }
+
     // MARK: - Semantic Colors
 
     /// 준수율 색상
     static func complianceColor(for rate: Double) -> Color {
-        if rate >= 0.8 { return ready }
+        if rate >= 0.8 { return readyStrong }
         if rate >= 0.5 { return warning }
         return danger
     }
@@ -161,5 +188,36 @@ extension View {
                 Capsule()
                     .fill(gradient)
             )
+    }
+}
+
+// MARK: - Haptics
+
+/// 앱 전역 햅틱 헬퍼
+enum Haptics {
+    static func impact(_ style: UIImpactFeedbackGenerator.FeedbackStyle = .medium) {
+        UIImpactFeedbackGenerator(style: style).impactOccurred()
+    }
+
+    static func notify(_ type: UINotificationFeedbackGenerator.FeedbackType) {
+        UINotificationFeedbackGenerator().notificationOccurred(type)
+    }
+
+    static func selection() {
+        UISelectionFeedbackGenerator().selectionChanged()
+    }
+}
+
+// MARK: - Pressable Button Style
+
+/// 누르면 살짝 작아지는 타일 버튼 스타일 (Reduce Motion이면 정적)
+struct PressableTileStyle: ButtonStyle {
+    var reduceMotion: Bool = false
+
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed && !reduceMotion ? 0.95 : 1.0)
+            .animation(reduceMotion ? nil : .spring(response: 0.3, dampingFraction: 0.6),
+                       value: configuration.isPressed)
     }
 }

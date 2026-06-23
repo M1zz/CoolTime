@@ -10,31 +10,20 @@ import SwiftUI
 struct OnboardingView: View {
     @Binding var isPresented: Bool
     @State private var currentPage = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private let pages: [OnboardingPage] = [
         OnboardingPage(
-            emoji: "⏰",
-            title: "쿨타임으로\n충동을 관리하세요",
-            description: "게임의 스킬 쿨타임처럼\n소비와 행동에 대기 시간을 설정해요",
-            color: AppTheme.cooldown
+            emoji: "💸",
+            title: "또 지르고\n후회했나요?",
+            description: "배달·쇼핑·구독에 ‘쿨타임’을 걸어\n충동을 한 박자 멈춰요",
+            color: AppTheme.waitingStrong
         ),
         OnboardingPage(
-            emoji: "💰",
-            title: "절약 금액을\n확인하세요",
-            description: "쿨타임을 지킬 때마다\n얼마나 절약했는지 알려드려요",
-            color: AppTheme.ready
-        ),
-        OnboardingPage(
-            emoji: "📊",
-            title: "나만의 통계로\n습관을 분석하세요",
-            description: "준수율과 카테고리별 통계로\n더 나은 습관을 만들어가요",
-            color: AppTheme.cooldownAccent
-        ),
-        OnboardingPage(
-            emoji: "🔔",
-            title: "알림으로\n놓치지 마세요",
-            description: "쿨타임이 끝나면 알려드릴게요\n위젯으로도 확인할 수 있어요",
-            color: AppTheme.warning
+            emoji: "✋",
+            title: "지를 땐\n‘아직이에요’",
+            description: "샀으면 한 번 눌러요.\n다음까지 아낀 돈이 쌓여요",
+            color: AppTheme.readyStrong
         )
     ]
 
@@ -45,12 +34,14 @@ struct OnboardingView: View {
                 ForEach(0..<pages.count, id: \.self) { index in
                     Circle()
                         .fill(index == currentPage ? pages[currentPage].color : Color.gray.opacity(0.3))
-                        .frame(width: 8, height: 8)
-                        .scaleEffect(index == currentPage ? 1.2 : 1.0)
-                        .animation(.spring(response: 0.3), value: currentPage)
+                        .frame(width: 10, height: 10)
+                        .scaleEffect(reduceMotion ? 1.0 : (index == currentPage ? 1.2 : 1.0))
+                        .animation(reduceMotion ? nil : .spring(response: 0.3), value: currentPage)
                 }
             }
             .padding(.top, 20)
+            .accessibilityElement()
+            .accessibilityLabel("\(pages.count)페이지 중 \(currentPage + 1)페이지")
 
             // 페이지 컨텐츠
             TabView(selection: $currentPage) {

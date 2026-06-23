@@ -1,267 +1,299 @@
 import SwiftUI
 
-/// 커스텀 아이템 추가 화면
+/// 쿨타임 추가 화면 — 인지 부담 최소화.
+/// 필수는 "이름"과 "주기"뿐. 아이콘/비용은 접어둔 선택 항목.
 struct AddItemView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(PurchaseManager.self) private var purchaseManager
     var manager: CooldownManager
 
+    /// nil이면 추가, 값이 있으면 그 항목을 수정
+    var editingItem: CooldownItem? = nil
+
+    @State private var didLoad = false
     @State private var showingPaywall = false
-    
+    @State private var showingTemplates = false
+
+    private var isEditing: Bool { editingItem != nil }
+
     @State private var name = ""
     @State private var emoji = "⭐"
-    @State private var category = "기타"
     @State private var estimatedCost = ""
-    
-    // 쿨타임 설정
-    @State private var cooldownValue = 3
-    @State private var cooldownUnit: CooldownUnit = .days
-    
-    @State private var showEmojiPicker = false
-    
-    enum CooldownUnit: String, CaseIterable {
+
+    // 쿨타임 주기 (초). 프리셋 또는 직접 설정으로 채움.
+    @State private var cooldownDuration: TimeInterval = .days(3)
+    @State private var showCustom = false
+    @State private var showMore = false
+
+    // 직접 설정용
+    @State private var customValue = 3
+    @State private var customUnit: CooldownUnit = .days
+
+    enum CooldownUnit: String, CaseIterable, Identifiable {
         case hours = "시간"
         case days = "일"
         case weeks = "주"
         case months = "개월"
-        
+        var id: String { rawValue }
+
         func toSeconds(_ value: Int) -> TimeInterval {
             switch self {
-            case .hours: return TimeInterval(value * 3600)
-            case .days: return TimeInterval(value * 86400)
-            case .weeks: return TimeInterval(value * 7 * 86400)
-            case .months: return TimeInterval(value * 30 * 86400)
+            case .hours:  return TimeInterval(value) * 3600
+            case .days:   return TimeInterval(value) * 86400
+            case .weeks:  return TimeInterval(value) * 7 * 86400
+            case .months: return TimeInterval(value) * 30 * 86400
             }
         }
     }
-    
-    private let categories = [
-        "🌏 여행", "🛍️ 쇼핑", "🍔 음식", "🎮 엔터테인먼트",
-        "💅 라이프스타일", "🏃 건강", "💰 금융", "기타"
+
+    private struct Preset: Identifiable {
+        let id = UUID()
+        let label: LocalizedStringKey
+        let duration: TimeInterval
+    }
+
+    private let presets: [Preset] = [
+        Preset(label: "1일", duration: .days(1)),
+        Preset(label: "3일", duration: .days(3)),
+        Preset(label: "1주", duration: .weeks(1)),
+        Preset(label: "2주", duration: .weeks(2)),
+        Preset(label: "1달", duration: .months(1))
     ]
-    
-    private let popularEmojis = [
-        "✈️", "🛍️", "🍔", "☕", "🍺", "🎮", "🚕", "💳",
-        "🍕", "🎬", "💅", "💆", "🏨", "🎤", "📱", "👕",
-        "🍰", "🌙", "😴", "🍖", "📈", "🎰", "⭐", "🔥"
-    ]
-    
+
+    private let popularEmojis = ["⭐", "☕️", "🍔", "🛍️", "✈️", "🎮", "🍺", "🚕", "💳", "📱", "🍕", "💆"]
+
     var body: some View {
         NavigationStack {
             Form {
-                // 미리보기
+                // 추천에서 고르기 (추가할 때만)
+                if !isEditing {
+                    Section {
+                        Button { showingTemplates = true } label: {
+                            Label("추천에서 고르기", systemImage: "sparkles")
+                                .font(.headline)
+                        }
+                        .accessibilityHint("자주 쓰는 쿨타임을 목록에서 바로 추가해요")
+                    }
+                }
+
+                // 이름
+                Section("이름") {
+                    TextField("예: 배달음식, 커피", text: $name)
+                        .font(.body)
+                        .accessibilityLabel("이름")
+                }
+
+                // 쿨타임 주기
                 Section {
-                    HStack {
-                        Spacer()
-                        previewCircle
-                        Spacer()
-                    }
-                    .listRowBackground(Color.clear)
-                }
-                
-                // 기본 정보
-                Section("기본 정보") {
-                    // 이름
-                    TextField("이름", text: $name)
-                    
-                    // 이모지 선택
-                    HStack {
-                        Text("아이콘")
-                        Spacer()
-                        Button(action: { showEmojiPicker.toggle() }) {
-                            Text(emoji)
-                                .font(.title)
+                    presetGrid
+
+                    Toggle("직접 설정", isOn: $showCustom.animation())
+                        .font(.headline)
+
+                    if showCustom {
+                        Stepper(value: $customValue, in: 1...60) {
+                            Text("\(customValue) \(customUnit.rawValue)")
+                                .font(.body)
                         }
-                    }
-                    
-                    if showEmojiPicker {
-                        LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 8), spacing: 8) {
-                            ForEach(popularEmojis, id: \.self) { e in
-                                Button(action: {
-                                    emoji = e
-                                    showEmojiPicker = false
-                                }) {
-                                    Text(e)
-                                        .font(.title2)
-                                        .padding(4)
-                                        .background(
-                                            emoji == e ?
-                                            Color.blue.opacity(0.2) :
-                                            Color.clear
-                                        )
-                                        .cornerRadius(4)
-                                }
-                            }
-                        }
-                        .padding(.vertical, 8)
-                    }
-                    
-                    // 카테고리
-                    Picker("카테고리", selection: $category) {
-                        ForEach(categories, id: \.self) { cat in
-                            Text(cat).tag(cat)
-                        }
-                    }
-                }
-                
-                // 쿨타임 설정
-                Section("쿨타임 주기") {
-                    HStack {
-                        Picker("값", selection: $cooldownValue) {
-                            ForEach(1...60, id: \.self) { value in
-                                Text("\(value)").tag(value)
-                            }
-                        }
-                        .pickerStyle(.wheel)
-                        .frame(width: 80, height: 100)
-                        .clipped()
-                        
-                        Picker("단위", selection: $cooldownUnit) {
-                            ForEach(CooldownUnit.allCases, id: \.self) { unit in
+                        .onChange(of: customValue) { applyCustom() }
+                        .accessibilityLabel("주기 값 \(customValue) \(customUnit.rawValue)")
+
+                        Picker("단위", selection: $customUnit) {
+                            ForEach(CooldownUnit.allCases) { unit in
                                 Text(unit.rawValue).tag(unit)
                             }
                         }
-                        .pickerStyle(.wheel)
-                        .frame(height: 100)
-                        .clipped()
+                        .pickerStyle(.segmented)
+                        .onChange(of: customUnit) { applyCustom() }
                     }
-                    
-                    // 빠른 선택
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 8) {
-                            QuickSelectButton(label: "3일") {
-                                cooldownValue = 3
-                                cooldownUnit = .days
-                            }
-                            QuickSelectButton(label: "1주") {
-                                cooldownValue = 1
-                                cooldownUnit = .weeks
-                            }
-                            QuickSelectButton(label: "2주") {
-                                cooldownValue = 2
-                                cooldownUnit = .weeks
-                            }
-                            QuickSelectButton(label: "1개월") {
-                                cooldownValue = 1
-                                cooldownUnit = .months
-                            }
-                            QuickSelectButton(label: "2개월") {
-                                cooldownValue = 2
-                                cooldownUnit = .months
-                            }
+                } header: {
+                    Text("얼마나 참을까요?")
+                } footer: {
+                    Text("선택한 주기: \(cooldownDuration.cooldownFormatted)")
+                        .font(.subheadline)
+                }
+
+                // 더보기 (선택): 아이콘 + 예상 비용
+                Section {
+                    Toggle("아이콘·비용 추가", isOn: $showMore.animation())
+                        .font(.headline)
+
+                    if showMore {
+                        emojiPicker
+
+                        HStack {
+                            Text("예상 비용")
+                            Spacer()
+                            Text("₩")
+                                .foregroundStyle(.secondary)
+                            TextField("0", text: $estimatedCost)
+                                .keyboardType(.numberPad)
+                                .multilineTextAlignment(.trailing)
+                                .frame(maxWidth: 120)
+                                .accessibilityLabel("예상 비용, 원")
                         }
                     }
-                }
-                
-                // 비용 (선택)
-                Section("예상 비용 (선택)") {
-                    HStack {
-                        Text("₩")
-                        TextField("0", text: $estimatedCost)
-                            .keyboardType(.numberPad)
+                } footer: {
+                    if showMore {
+                        Text("비용을 적으면 아낀 돈을 기록에서 보여드려요")
+                            .font(.subheadline)
                     }
-                    
-                    Text("비용을 입력하면 절약 금액을 계산해드려요")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
                 }
             }
-            .navigationTitle("새 쿨타임")
+            .navigationTitle(isEditing ? "쿨타임 수정" : "쿨타임 추가")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("취소") { dismiss() }
                 }
-
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("추가") {
-                        handleAdd()
-                    }
-                    .disabled(name.isEmpty)
+                    Button(isEditing ? "저장" : "추가") { handleSave() }
+                        .disabled(name.trimmingCharacters(in: .whitespaces).isEmpty)
+                        .fontWeight(.bold)
                 }
             }
-            .sheet(isPresented: $showingPaywall) {
-                PaywallView(trigger: .itemLimit)
-                    .environment(purchaseManager)
+            .onAppear(perform: prefillIfEditing)
+            .sheet(isPresented: $showingTemplates) {
+                TemplatesView(manager: manager).environment(purchaseManager)
             }
-        }
-    }
-    
-    private var cooldownPreviewText: String {
-        switch cooldownUnit {
-        case .hours:  return String(format: NSLocalizedString("%d시간마다", comment: ""), cooldownValue)
-        case .days:   return String(format: NSLocalizedString("%d일마다", comment: ""), cooldownValue)
-        case .weeks:  return String(format: NSLocalizedString("%d주마다", comment: ""), cooldownValue)
-        case .months: return String(format: NSLocalizedString("%d개월마다", comment: ""), cooldownValue)
+            .sheet(isPresented: $showingPaywall) {
+                PaywallView(trigger: .itemLimit).environment(purchaseManager)
+            }
         }
     }
 
-    private var previewCircle: some View {
-        VStack(spacing: 8) {
-            ZStack {
-                Circle()
-                    .fill(Color(.secondarySystemBackground))
-                    .frame(width: 80, height: 80)
-                
-                Circle()
-                    .stroke(
-                        LinearGradient(
-                            colors: [.green, .cyan],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        ),
-                        lineWidth: 3
-                    )
-                    .frame(width: 74, height: 74)
-                
-                Text(emoji)
-                    .font(.system(size: 36))
+    // MARK: - Preset Grid
+
+    private var presetGrid: some View {
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 90), spacing: 10)], spacing: 10) {
+            ForEach(presets) { preset in
+                let selected = !showCustom && cooldownDuration == preset.duration
+                Button {
+                    withAnimation {
+                        showCustom = false
+                        cooldownDuration = preset.duration
+                    }
+                } label: {
+                    Text(preset.label)
+                        .font(.headline)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 12)
+                        .foregroundStyle(selected ? .white : .primary)
+                        .background(
+                            RoundedRectangle(cornerRadius: 12)
+                                .fill(selected ? AppTheme.waitingStrong : Color(.secondarySystemBackground))
+                        )
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 12)
+                                .stroke(selected ? AppTheme.waitingStrong : Color(.separator), lineWidth: selected ? 0 : 1)
+                        )
+                }
+                .buttonStyle(.plain)
+                .accessibilityAddTraits(selected ? [.isButton, .isSelected] : .isButton)
             }
-            
-            Text(name.isEmpty ? "이름" : name)
-                .font(.caption)
-                .foregroundStyle(name.isEmpty ? .secondary : .primary)
-            
-            Text(verbatim: cooldownPreviewText)
-                .font(.caption2)
+        }
+        .padding(.vertical, 4)
+    }
+
+    // MARK: - Emoji Picker
+
+    private var emojiPicker: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("아이콘")
+                .font(.subheadline)
                 .foregroundStyle(.secondary)
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 44), spacing: 8)], spacing: 8) {
+                ForEach(popularEmojis, id: \.self) { e in
+                    Button { emoji = e } label: {
+                        Text(e)
+                            .font(.title2)
+                            .frame(width: 44, height: 44)
+                            .background(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .fill(emoji == e ? AppTheme.readyStrong.opacity(0.2) : Color.clear)
+                            )
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(emoji == e ? AppTheme.readyStrong : Color.clear, lineWidth: 2)
+                            )
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("아이콘 \(e)")
+                    .accessibilityAddTraits(emoji == e ? [.isButton, .isSelected] : .isButton)
+                }
+            }
+        }
+        .padding(.vertical, 4)
+    }
+
+    // MARK: - Actions
+
+    private func applyCustom() {
+        cooldownDuration = customUnit.toSeconds(customValue)
+    }
+
+    /// 수정 모드면 기존 값으로 폼을 채운다 (한 번만)
+    private func prefillIfEditing() {
+        guard !didLoad else { return }
+        didLoad = true
+        guard let item = editingItem else { return }
+        name = item.name
+        emoji = item.emoji
+        estimatedCost = item.estimatedCost.map(String.init) ?? ""
+        cooldownDuration = item.cooldownDuration
+        showMore = item.estimatedCost != nil || item.emoji != "⭐"
+
+        // 주기가 프리셋과 다르면 '직접 설정'으로 펼치고 값/단위를 역산
+        if !presets.contains(where: { $0.duration == item.cooldownDuration }) {
+            showCustom = true
+            let (value, unit) = decompose(item.cooldownDuration)
+            customValue = value
+            customUnit = unit
         }
     }
-    
-    private func handleAdd() {
+
+    /// 초 → (값, 단위) 가장 큰 딱 떨어지는 단위로
+    private func decompose(_ seconds: TimeInterval) -> (Int, CooldownUnit) {
+        let s = Int(seconds)
+        if s % (30 * 86400) == 0 { return (max(1, s / (30 * 86400)), .months) }
+        if s % (7 * 86400) == 0 { return (max(1, s / (7 * 86400)), .weeks) }
+        if s % 86400 == 0 { return (max(1, s / 86400), .days) }
+        return (max(1, s / 3600), .hours)
+    }
+
+    private func handleSave() {
+        let trimmed = name.trimmingCharacters(in: .whitespaces)
+
+        if let item = editingItem {
+            // 수정
+            item.name = trimmed
+            item.emoji = emoji
+            item.cooldownDuration = cooldownDuration
+            item.estimatedCost = Int(estimatedCost)
+            manager.updateItem(item)
+            UIAccessibility.post(notification: .announcement, argument: "\(trimmed) 수정했어요")
+            dismiss()
+            return
+        }
+
+        // 추가
         guard manager.canAddItem else {
             showingPaywall = true
             return
         }
-        let duration = cooldownUnit.toSeconds(cooldownValue)
         let item = CooldownItem(
-            name: name,
+            name: trimmed,
             emoji: emoji,
-            cooldownDuration: duration,
-            estimatedCost: Int(estimatedCost),
-            category: category
+            cooldownDuration: cooldownDuration,
+            estimatedCost: Int(estimatedCost)
         )
         manager.addItem(item)
+        UIAccessibility.post(notification: .announcement, argument: "\(trimmed) 추가했어요")
         dismiss()
-    }
-}
-
-struct QuickSelectButton: View {
-    let label: String
-    let action: () -> Void
-    
-    var body: some View {
-        Button(action: action) {
-            Text(label)
-                .font(.caption)
-                .padding(.horizontal, 12)
-                .padding(.vertical, 6)
-                .background(Color(.tertiarySystemBackground))
-                .cornerRadius(8)
-        }
     }
 }
 
 #Preview {
     AddItemView(manager: CooldownManager())
+        .environment(PurchaseManager.shared)
 }

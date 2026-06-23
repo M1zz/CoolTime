@@ -40,6 +40,16 @@ final class CooldownManager {
         items.filter { !$0.isOnCooldown && $0.isActive }
     }
 
+    /// 사용 가능 아이템 (이름 가나다순 — VoiceOver에서 예측 가능한 순서)
+    var readyItems: [CooldownItem] {
+        availableItems.sorted { $0.name.localizedCaseInsensitiveCompare($1.name) == .orderedAscending }
+    }
+
+    /// 기다리는 아이템 (곧 풀리는 순서대로 — 가장 가까운 것부터)
+    var waitingItems: [CooldownItem] {
+        onCooldownItems.sorted { $0.remainingCooldown < $1.remainingCooldown }
+    }
+
     /// 검색 필터링된 아이템
     var filteredItems: [CooldownItem] {
         if searchText.isEmpty {
@@ -90,6 +100,23 @@ final class CooldownManager {
         items.count < PurchaseManager.freeItemLimit || PurchaseManager.shared.isPro
     }
 
+    /// 충동을 깨지 않고 이어온 연속 일수 (스트릭).
+    /// 마지막으로 쿨타임을 깬 날 이후 며칠째인지. 깬 적 없으면 첫 항목 만든 날부터.
+    var streakDays: Int {
+        let cal = Calendar.current
+        let breakDates = items.flatMap { $0.usageHistory }.filter { $0.brokeCooldown }.map { $0.date }
+        let start: Date
+        if let lastBreak = breakDates.max() {
+            start = lastBreak
+        } else if let firstCreated = items.map({ $0.createdAt }).min() {
+            start = firstCreated
+        } else {
+            return 0
+        }
+        let days = cal.dateComponents([.day], from: cal.startOfDay(for: start), to: cal.startOfDay(for: Date())).day ?? 0
+        return max(0, days)
+    }
+
     /// 전체 준수율
     var overallComplianceRate: Double {
         let activeItems = items.filter { $0.totalUseCount > 0 }
@@ -115,7 +142,43 @@ final class CooldownManager {
     func setModelContext(_ context: ModelContext) {
         self.modelContext = context
         fetchItems()
+        #if DEBUG
+        seedSampleDataIfNeeded()
+        #endif
     }
+
+    #if DEBUG
+    /// 미리보기/스크린샷용 샘플 데이터. `-SeedSampleData` 실행 인자가 있고 비어 있을 때만 동작.
+    private func seedSampleDataIfNeeded() {
+        guard ProcessInfo.processInfo.arguments.contains("-SeedSampleData"),
+              items.isEmpty, let context = modelContext else { return }
+
+        let coffee = CooldownItem(name: "커피", emoji: "☕️", cooldownDuration: .days(1), estimatedCost: 5000)
+        let book = CooldownItem(name: "책 구매", emoji: "📚", cooldownDuration: .weeks(1), estimatedCost: 20000)
+
+        let delivery = CooldownItem(name: "배달음식", emoji: "🍕", cooldownDuration: .days(3), estimatedCost: 25000)
+        delivery.lastUsedDate = Date().addingTimeInterval(-86400)
+        delivery.totalUseCount = 5
+        delivery.usageHistory = (1...5).map {
+            UsageRecord(date: Date().addingTimeInterval(Double(-86400 * $0)), note: nil, cost: nil, brokeCooldown: false)
+        }
+        let shopping = CooldownItem(name: "온라인 쇼핑", emoji: "🛍️", cooldownDuration: .weeks(2), estimatedCost: 50000)
+        shopping.lastUsedDate = Date().addingTimeInterval(-86400 * 3)
+        shopping.totalUseCount = 2
+        shopping.usageHistory = (1...2).map {
+            UsageRecord(date: Date().addingTimeInterval(Double(-86400 * 3 * $0)), note: nil, cost: nil, brokeCooldown: false)
+        }
+
+        // 스트릭 데모: 14일 전부터 시작, 깬 적 없음 → "14일째 충동 없이"
+        let items = [coffee, book, delivery, shopping]
+        items.forEach {
+            $0.createdAt = Date().addingTimeInterval(-86400 * 14)
+            context.insert($0)
+        }
+        try? context.save()
+        fetchItems()
+    }
+    #endif
 
     // MARK: - App Lifecycle
 
@@ -350,7 +413,8 @@ final class CooldownManager {
                 id: item.id,
                 name: item.name,
                 emoji: item.emoji,
-                cooldownDuration: item.cooldownDuration,
+                // 비정상 float면 JSON 인코딩이 통째로 실패하므로 방어
+                cooldownDuration: item.cooldownDuration.isFinite ? item.cooldownDuration : 0,
                 lastUsedDate: item.lastUsedDate,
                 estimatedCost: item.estimatedCost,
                 category: item.category
@@ -364,7 +428,9 @@ final class CooldownManager {
             onCooldownCount: onCooldownItems.count,
             complianceRate: overallComplianceRate,
             monthlySavings: monthlySavings,
-            isPro: PurchaseManager.shared.isPro
+            isPro: PurchaseManager.shared.isPro,
+            streakDays: streakDays,
+            lastSync: Date()
         )
         WidgetDataStore.saveStats(stats)
 

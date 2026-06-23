@@ -17,18 +17,32 @@ final class PurchaseManager {
 
     private var listenerTask: Task<Void, Never>?
 
-    // TestFlight 환경 여부 (sandboxReceipt 경로로 감지)
-    static var isTestFlight: Bool {
-        Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt"
+    /// TestFlight(샌드박스) 환경 여부 — StoreKit 2 AppTransaction으로 감지 (iOS 16+)
+    static func detectTestFlight() async -> Bool {
+        guard let result = try? await AppTransaction.shared,
+              case .verified(let appTransaction) = result else { return false }
+        return appTransaction.environment == .sandbox
     }
 
     private init() {
-        isPro = Self.isTestFlight || UserDefaults.standard.bool(forKey: "cooltime.isPro")
+        #if DEBUG
+        // 개발 빌드(Xcode 실행)에서는 개발자 본인을 위해 Pro 자동 활성화.
+        // StoreKit을 호출하지 않으므로 샌드박스 로그인 팝업도 뜨지 않는다.
+        // 릴리스/앱스토어 빌드는 이 분기가 컴파일되지 않아 실제 결제가 필요하다.
+        isPro = true
+        #else
+        isPro = UserDefaults.standard.bool(forKey: "cooltime.isPro")
         listenerTask = Self.startTransactionListener(manager: self)
         Task {
             await loadProducts()
-            if !Self.isTestFlight { await refreshEntitlements() }
+            // TestFlight 빌드면 Pro 자동 활성화, 아니면 실제 구매 내역 확인
+            if await Self.detectTestFlight() {
+                await MainActor.run { isPro = true }
+            } else {
+                await refreshEntitlements()
+            }
         }
+        #endif
     }
 
     deinit {

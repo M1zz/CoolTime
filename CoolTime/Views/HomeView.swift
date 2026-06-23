@@ -1,160 +1,323 @@
 import SwiftUI
 import SwiftData
 
-/// 메인 홈 화면
+/// 메인 홈 화면 — 섹션 구분 없는 단일 그리드(사용 가능 → 대기 순).
+/// 타일 모양만으로 상태를 알 수 있어 헤더를 두지 않는다. 인지 부담 최소화.
 struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(PurchaseManager.self) private var purchaseManager
     @State private var manager = CooldownManager()
-    @State private var selectedItem: CooldownItem?
+
     @State private var showOnboarding = !UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
     @State private var showToast = false
     @State private var toastMessage = ""
     @State private var showingPaywall = false
     @State private var paywallTrigger: PaywallTrigger = .general
 
+    // 통합 액션: 타일을 탭하면 "했어요?" 확인
+    @State private var pendingItem: CooldownItem?
+    // 길게 눌러 "수정" → 편집 시트
+    @State private var editingItem: CooldownItem?
+
+    // 1초마다 화면 갱신(카운트다운/와이프) + 사용 가능 전환 감지(햅틱)
+    @State private var now = Date()
+    @State private var knownReadyIDs: Set<UUID> = []
+    private let ticker = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+
+    // 고정 2열 그리드
+    private let columns = [
+        GridItem(.flexible(), spacing: 14),
+        GridItem(.flexible(), spacing: 14)
+    ]
+
     var body: some View {
         ZStack(alignment: .top) {
             NavigationStack {
-            ScrollView {
-                VStack(spacing: 20) {
-                    // 알림 권한 배너
-                    if manager.notificationPermissionDenied {
-                        notificationPermissionBanner
+                content
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar(.hidden, for: .navigationBar)
+                    .safeAreaInset(edge: .bottom) { bottomBar }
+                    .sheet(isPresented: $manager.showingAddSheet) {
+                        AddItemView(manager: manager).environment(purchaseManager)
                     }
-
-                    // 요약 카드
-                    summarySection
-
-                    // 검색 바 (아이템이 있을 때만)
-                    if !manager.items.isEmpty {
-                        searchBar
+                    .sheet(item: $editingItem) { item in
+                        AddItemView(manager: manager, editingItem: item).environment(purchaseManager)
                     }
-
-                    // 사용 가능한 아이템들
-                    if !displayedAvailableItems.isEmpty {
-                        availableSection
+                    .sheet(isPresented: $manager.showingStats) {
+                        StatsView(manager: manager).environment(purchaseManager)
                     }
-
-                    // 쿨타임 중인 아이템들
-                    if !displayedOnCooldownItems.isEmpty {
-                        cooldownSection
+                    .sheet(isPresented: $showingPaywall) {
+                        PaywallView(trigger: paywallTrigger).environment(purchaseManager)
                     }
-
-                    // 검색 결과 없음
-                    if !manager.searchText.isEmpty && displayedAvailableItems.isEmpty && displayedOnCooldownItems.isEmpty {
-                        noSearchResultsView
-                    }
-
-                    // 빈 상태
-                    if manager.items.isEmpty {
-                        emptyState
-                    }
-                }
-                .padding()
-            }
-            .background(AppTheme.pageBackground(for: colorScheme))
-            .navigationTitle("쿨타임")
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button(action: { manager.showingStats = true }) {
-                        Image(systemName: "chart.bar.fill")
-                            .foregroundStyle(AppTheme.cooldown)
-                    }
-                    .accessibilityLabel("통계 보기")
-                }
-
-                ToolbarItemGroup(placement: .topBarTrailing) {
-                    // Pro 배지
-                    if purchaseManager.isPro {
-                        Text("PRO")
-                            .font(.caption2)
-                            .fontWeight(.heavy)
-                            .kerning(0.5)
-                            .foregroundStyle(.white)
-                            .padding(.horizontal, 7)
-                            .padding(.vertical, 3)
-                            .background(Capsule().fill(AppTheme.readyGradient))
-                    }
-
-                    Button(action: { manager.showingTemplates = true }) {
-                        Image(systemName: "sparkles")
-                            .foregroundStyle(AppTheme.warning)
-                    }
-                    .accessibilityLabel("템플릿에서 추가")
-
-                    Button(action: handleAddButtonTap) {
-                        Image(systemName: "plus.circle.fill")
-                            .foregroundStyle(AppTheme.ready)
-                    }
-                    .accessibilityLabel("새 쿨타임 추가")
-                }
-            }
-            .sheet(isPresented: $manager.showingAddSheet) {
-                AddItemView(manager: manager)
-                    .environment(purchaseManager)
-            }
-            .sheet(isPresented: $manager.showingTemplates) {
-                TemplatesView(manager: manager)
-                    .environment(purchaseManager)
-            }
-            .sheet(isPresented: $manager.showingStats) {
-                StatsView(manager: manager)
-                    .environment(purchaseManager)
-            }
-            .sheet(isPresented: $showingPaywall) {
-                PaywallView(trigger: paywallTrigger)
-                    .environment(purchaseManager)
-            }
-            .sheet(item: $selectedItem) { item in
-                UseItemSheet(item: item, isPresented: .init(
-                    get: { selectedItem != nil },
-                    set: { if !$0 { selectedItem = nil } }
-                )) { note, cost in
-                    let wasCooldown = item.isOnCooldown
-                    manager.useItem(item, note: note, actualCost: cost)
-
-                    if wasCooldown {
-                        toastMessage = String(format: NSLocalizedString("'%@' 쿨타임을 깼습니다", comment: ""), item.name)
-                        withAnimation { showToast = true }
-
-                        Task {
-                            try? await Task.sleep(nanoseconds: 1_500_000_000)
-                            await MainActor.run {
-                                withAnimation { showToast = false }
-                                // 쿨타임을 3회 이상 깼고 Pro가 아니면 업그레이드 유도
-                                if item.breakCount >= 3 && !purchaseManager.isPro {
-                                    paywallTrigger = .breakFeedback
-                                    showingPaywall = true
-                                }
-                            }
+                    .confirmationDialog(
+                        confirmTitle,
+                        isPresented: confirmBinding,
+                        titleVisibility: .visible
+                    ) {
+                        Button("했어요") { performUse() }
+                        Button("취소", role: .cancel) { pendingItem = nil }
+                    } message: {
+                        if let item = pendingItem, item.isOnCooldown {
+                            Text("아직 \(item.remainingCooldown.cooldownFormatted) 남았어요. 지금 하면 쿨타임이 처음부터 다시 시작돼요.")
                         }
                     }
-                }
+                    .fullScreenCover(isPresented: $showOnboarding) {
+                        OnboardingView(isPresented: $showOnboarding)
+                    }
             }
-            .fullScreenCover(isPresented: $showOnboarding) {
-                OnboardingView(isPresented: $showOnboarding)
-            }
-        }
             .onAppear {
                 manager.setModelContext(modelContext)
+                knownReadyIDs = Set(manager.readyItems.map(\.id))
+                #if DEBUG
+                if ProcessInfo.processInfo.arguments.contains("-OpenStats") {
+                    manager.showingStats = true
+                }
+                if ProcessInfo.processInfo.arguments.contains("-OpenEdit") {
+                    editingItem = manager.waitingItems.first ?? manager.readyItems.first
+                }
+                #endif
+            }
+            .onReceive(ticker) { date in
+                let current = Set(manager.readyItems.map(\.id))
+                let newlyReady = current.subtracting(knownReadyIDs)
+                // 쿨타임이 끝나 새로 사용 가능해진 아이템이 있으면 햅틱 + 부드러운 재배치
+                withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.8)) {
+                    now = date
+                }
+                if !newlyReady.isEmpty {
+                    Haptics.notify(.success)
+                }
+                knownReadyIDs = current
             }
 
             if showToast {
-                ToastView(
-                    message: toastMessage,
-                    icon: "bolt.fill",
-                    color: AppTheme.warning
-                )
-                .transition(.move(edge: .top).combined(with: .opacity))
-                .padding(.top, 60)
-                .zIndex(1)
+                ToastView(message: toastMessage, icon: "bolt.fill", color: AppTheme.warning)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+                    .padding(.top, 60)
+                    .zIndex(1)
             }
         }
     }
 
+    // MARK: - Content
+
+    @ViewBuilder
+    private var content: some View {
+        if manager.items.isEmpty {
+            emptyState
+        } else {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    if manager.notificationPermissionDenied {
+                        notificationPermissionRow
+                    }
+
+                    // 섹션 구분 없이 단일 그리드 — 타일 모양만으로 상태를 알 수 있다.
+                    // 정렬: 사용 가능한 것 먼저, 그다음 곧 풀리는 순서.
+                    LazyVGrid(columns: columns, spacing: 14) {
+                        ForEach(displayItems) { item in
+                            tileButton(for: item)
+                        }
+                    }
+                }
+                .padding(16)
+            }
+        }
+    }
+
+    // 사용 가능 → 대기(곧 풀리는 순) 순으로 한 줄에 합친 목록
+    private var displayItems: [CooldownItem] {
+        manager.readyItems + manager.waitingItems
+    }
+
+    // MARK: - Grid Tile
+
+    private func tileButton(for item: CooldownItem) -> some View {
+        Button {
+            Haptics.impact(.light)
+            pendingItem = item
+        } label: {
+            CooldownTile(item: item)
+        }
+        .buttonStyle(PressableTileStyle(reduceMotion: reduceMotion))
+        .contextMenu {
+            Button {
+                Haptics.impact(.light)
+                editingItem = item
+            } label: {
+                Label("수정", systemImage: "pencil")
+            }
+
+            if item.isOnCooldown {
+                Button {
+                    Haptics.impact(.rigid)
+                    withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.8)) {
+                        manager.resetCooldown(item)
+                    }
+                    knownReadyIDs = Set(manager.readyItems.map(\.id))
+                    announce("\(item.name) 쿨타임을 초기화했어요")
+                } label: {
+                    Label("쿨타임 리셋", systemImage: "arrow.counterclockwise")
+                }
+            }
+
+            Button(role: .destructive) {
+                deleteWithAnnounce(item)
+            } label: {
+                Label("삭제", systemImage: "trash")
+            }
+        }
+    }
+
+
+    // MARK: - Bottom Bar (상단 버튼들을 하단으로 이동)
+
+    private var bottomBar: some View {
+        HStack(spacing: 12) {
+            Button { manager.showingStats = true } label: {
+                Label("기록", systemImage: "chart.bar.fill")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 15)
+                    .foregroundStyle(AppTheme.waitingStrong)
+                    .background(
+                        RoundedRectangle(cornerRadius: 16)
+                            .fill(AppTheme.waitingStrong.opacity(0.12))
+                    )
+            }
+            .buttonStyle(PressableTileStyle(reduceMotion: reduceMotion))
+            .accessibilityLabel("기록 보기")
+
+            Button { handleAddButtonTap() } label: {
+                Label("추가", systemImage: "plus")
+                    .font(.headline)
+                    .fontWeight(.bold)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 15)
+                    .foregroundStyle(.white)
+                    .background(
+                        RoundedRectangle(cornerRadius: 16)
+                            .fill(AppTheme.readyStrong)
+                    )
+            }
+            .buttonStyle(PressableTileStyle(reduceMotion: reduceMotion))
+            .accessibilityLabel("쿨타임 추가")
+        }
+        .padding(.horizontal, 16)
+        .padding(.top, 10)
+        .padding(.bottom, 6)
+        .background(.bar)
+    }
+
+    // MARK: - Notification Row
+
+    private var notificationPermissionRow: some View {
+        Button { manager.openNotificationSettings() } label: {
+            HStack(spacing: 12) {
+                Image(systemName: "bell.slash.fill")
+                    .font(.title3)
+                    .foregroundStyle(AppTheme.warning)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("알림이 꺼져 있어요")
+                        .font(.headline)
+                        .foregroundStyle(.primary)
+                    Text("쿨타임이 끝나면 알려드리도록 설정에서 켜주세요")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .foregroundStyle(.tertiary)
+                    .accessibilityHidden(true)
+            }
+            .padding(16)
+            .background(
+                RoundedRectangle(cornerRadius: 16)
+                    .fill(AppTheme.cardBackground(for: colorScheme))
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 16)
+                    .stroke(AppTheme.warning.opacity(0.4), lineWidth: 1.5)
+            )
+        }
+        .buttonStyle(.plain)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("알림이 꺼져 있어요. 두 번 탭하면 설정으로 이동해요")
+    }
+
+    // MARK: - Empty State
+
+    private var emptyState: some View {
+        // 추가 방법은 하단 '추가' 버튼 하나뿐이므로, 빈 화면은 그곳을 가리키기만 한다.
+        VStack(spacing: 16) {
+            Image(systemName: "hourglass")
+                .font(.system(size: 64))
+                .foregroundStyle(.secondary)
+                .accessibilityHidden(true)
+
+            Text("아래 ‘추가’로\n첫 쿨타임을 만들어 보세요")
+                .font(.title3)
+                .fontWeight(.semibold)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+        }
+        .padding(32)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("쿨타임이 없어요. 아래 추가 버튼으로 첫 쿨타임을 만들어 보세요")
+    }
+
     // MARK: - Actions
+
+    private var confirmTitle: Text {
+        guard let item = pendingItem else { return Text("") }
+        return Text("\(item.name), 했어요?")
+    }
+
+    private var confirmBinding: Binding<Bool> {
+        Binding(get: { pendingItem != nil }, set: { if !$0 { pendingItem = nil } })
+    }
+
+    private func performUse() {
+        guard let item = pendingItem else { return }
+        let wasCooldown = item.isOnCooldown
+        // 쿨타임 중 사용(깸)이면 경고 햅틱, 평소 사용이면 성공 햅틱
+        Haptics.notify(wasCooldown ? .warning : .success)
+        withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.8)) {
+            manager.useItem(item)
+        }
+        knownReadyIDs = Set(manager.readyItems.map(\.id))
+        pendingItem = nil
+
+        if wasCooldown {
+            toastMessage = String(format: NSLocalizedString("'%@' 쿨타임을 다시 시작했어요", comment: ""), item.name)
+            withAnimation { showToast = true } // ToastView가 음성 안내까지 처리
+            Task {
+                try? await Task.sleep(nanoseconds: 1_500_000_000)
+                await MainActor.run {
+                    withAnimation { showToast = false }
+                    if item.breakCount >= 3 && !purchaseManager.isPro {
+                        paywallTrigger = .breakFeedback
+                        showingPaywall = true
+                    }
+                }
+            }
+        } else {
+            announce(String(format: NSLocalizedString("'%@' 사용을 기록했어요", comment: ""), item.name))
+        }
+    }
+
+    private func deleteWithAnnounce(_ item: CooldownItem) {
+        let name = item.name
+        Haptics.impact(.medium)
+        withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.8)) {
+            manager.deleteItem(item)
+        }
+        knownReadyIDs = Set(manager.readyItems.map(\.id))
+        announce("\(name) 삭제했어요")
+    }
 
     private func handleAddButtonTap() {
         if manager.canAddItem {
@@ -165,412 +328,8 @@ struct HomeView: View {
         }
     }
 
-    // MARK: - Computed Properties
-
-    private var displayedAvailableItems: [CooldownItem] {
-        manager.searchText.isEmpty ? manager.availableItems : manager.filteredAvailableItems
-    }
-
-    private var displayedOnCooldownItems: [CooldownItem] {
-        manager.searchText.isEmpty ? manager.onCooldownItems : manager.filteredOnCooldownItems
-    }
-
-    // MARK: - Notification Permission Banner
-
-    private var notificationPermissionBanner: some View {
-        HStack(spacing: 12) {
-            Image(systemName: "bell.slash.fill")
-                .font(.title2)
-                .foregroundStyle(AppTheme.warning)
-
-            VStack(alignment: .leading, spacing: 2) {
-                Text("알림이 꺼져있어요")
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-
-                Text("쿨타임 종료 알림을 받으려면 설정에서 켜주세요")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-            }
-
-            Spacer()
-
-            Button(action: { manager.openNotificationSettings() }) {
-                Text("설정")
-                    .font(.caption)
-                    .fontWeight(.bold)
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 6)
-                    .background(Capsule().fill(AppTheme.warning))
-            }
-        }
-        .padding(16)
-        .background(
-            RoundedRectangle(cornerRadius: 16)
-                .fill(AppTheme.cardBackground(for: colorScheme))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 16)
-                .stroke(AppTheme.warning.opacity(0.3), lineWidth: 1)
-        )
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("알림이 꺼져있습니다. 설정 버튼을 눌러 알림을 켜세요")
-    }
-
-    // MARK: - Search Bar
-
-    private var searchBar: some View {
-        HStack(spacing: 12) {
-            Image(systemName: "magnifyingglass")
-                .foregroundStyle(.secondary)
-
-            TextField("아이템 검색...", text: $manager.searchText)
-                .textFieldStyle(.plain)
-
-            if !manager.searchText.isEmpty {
-                Button(action: { manager.searchText = "" }) {
-                    Image(systemName: "xmark.circle.fill")
-                        .foregroundStyle(.secondary)
-                }
-                .accessibilityLabel("검색어 지우기")
-            }
-        }
-        .padding(12)
-        .background(
-            RoundedRectangle(cornerRadius: 12)
-                .fill(AppTheme.cardBackground(for: colorScheme))
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 12)
-                .stroke(AppTheme.borderColor(for: colorScheme), lineWidth: 1)
-        )
-    }
-
-    // MARK: - Summary Section
-
-    private var summarySection: some View {
-        VStack(spacing: 12) {
-            HStack(spacing: 12) {
-                SummaryCard(
-                    title: "준수율",
-                    value: "\(Int(manager.overallComplianceRate * 100))%",
-                    icon: "checkmark.shield.fill",
-                    color: AppTheme.complianceColor(for: manager.overallComplianceRate),
-                    colorScheme: colorScheme
-                )
-                .accessibilityLabel(Text("준수율 \(Int(manager.overallComplianceRate * 100))퍼센트"))
-
-                SummaryCard(
-                    title: "예상 절약",
-                    value: "₩\(manager.monthlySavings.formatted())",
-                    icon: "wonsign.circle.fill",
-                    color: AppTheme.ready,
-                    colorScheme: colorScheme
-                )
-                .accessibilityLabel(Text("이번 달 예상 절약 금액 \(manager.monthlySavings)원"))
-            }
-
-            HStack(spacing: 12) {
-                SummaryCard(
-                    title: "사용 가능",
-                    value: "\(manager.availableItems.count)개",
-                    icon: "checkmark.circle.fill",
-                    color: AppTheme.ready,
-                    colorScheme: colorScheme
-                )
-                .accessibilityLabel(Text("사용 가능한 아이템 \(manager.availableItems.count)개"))
-
-                // 무료 아이템 남은 슬롯 표시
-                if !purchaseManager.isPro {
-                    itemSlotCard
-                } else {
-                    SummaryCard(
-                        title: "쿨타임 중",
-                        value: "\(manager.onCooldownItems.count)개",
-                        icon: "clock.fill",
-                        color: AppTheme.cooldown,
-                        colorScheme: colorScheme
-                    )
-                    .accessibilityLabel(Text("쿨타임 중인 아이템 \(manager.onCooldownItems.count)개"))
-                }
-            }
-        }
-    }
-
-    private var itemSlotCard: some View {
-        let used = manager.items.count
-        let limit = PurchaseManager.freeItemLimit
-        let remaining = max(0, limit - used)
-
-        return Button {
-            paywallTrigger = .itemLimit
-            showingPaywall = true
-        } label: {
-            HStack {
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("아이템 슬롯")
-                        .font(.caption)
-                        .fontWeight(.semibold)
-                        .foregroundStyle(.secondary)
-
-                    Text("\(remaining)개 남음")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                        .foregroundStyle(remaining == 0 ? AppTheme.danger : .primary)
-                }
-
-                Spacer()
-
-                VStack(spacing: 4) {
-                    Image(systemName: remaining == 0 ? "lock.fill" : "square.grid.2x2.fill")
-                        .font(.title)
-                        .fontWeight(.semibold)
-                        .foregroundStyle(remaining == 0 ? AppTheme.danger : AppTheme.cooldown)
-
-                    Text("\(used)/\(limit)")
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
-                }
-            }
-            .padding(16)
-            .background(
-                RoundedRectangle(cornerRadius: 16)
-                    .fill(AppTheme.cardBackground(for: colorScheme))
-                    .shadow(
-                        color: AppTheme.shadowColor(for: colorScheme),
-                        radius: 8,
-                        y: 4
-                    )
-            )
-            .overlay(
-                RoundedRectangle(cornerRadius: 16)
-                    .stroke(
-                        remaining == 0 ? AppTheme.danger.opacity(0.5) : AppTheme.cooldown.opacity(0.4),
-                        lineWidth: remaining == 0 ? 2 : 1.5
-                    )
-            )
-        }
-        .buttonStyle(.plain)
-    }
-
-    // MARK: - Available Section
-
-    private var availableSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 6) {
-                Image(systemName: "sparkles")
-                    .font(.headline)
-                    .foregroundStyle(AppTheme.ready)
-                Text("사용 가능")
-                    .font(.headline)
-                    .fontWeight(.bold)
-
-                Spacer()
-
-                Text("\(displayedAvailableItems.count)")
-                    .font(.subheadline)
-                    .fontWeight(.bold)
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 4)
-                    .background(Capsule().fill(AppTheme.ready))
-                    .accessibilityHidden(true)
-            }
-            .accessibilityElement(children: .combine)
-            .accessibilityLabel(Text("사용 가능 \(displayedAvailableItems.count)개"))
-
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 12) {
-                    ForEach(displayedAvailableItems) { item in
-                        ItemCardCompact(item: item) {
-                            selectedItem = item
-                        }
-                        .contextMenu {
-                            Button(role: .destructive) {
-                                withAnimation {
-                                    manager.deleteItem(item)
-                                }
-                            } label: {
-                                Label("삭제", systemImage: "trash")
-                            }
-                        }
-                        .accessibilityLabel(String(format: NSLocalizedString("%@ %@, 사용 가능", comment: ""), item.emoji, item.name))
-                        .accessibilityHint("탭하여 사용하기")
-                    }
-                }
-                .padding(.vertical, 10)
-                .padding(.horizontal, 2)
-            }
-        }
-    }
-
-    // MARK: - Cooldown Section
-
-    private var cooldownSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 6) {
-                Image(systemName: "clock.fill")
-                    .font(.headline)
-                    .foregroundStyle(AppTheme.cooldown)
-                Text("쿨타임 중")
-                    .font(.headline)
-                    .fontWeight(.bold)
-
-                Spacer()
-
-                Text("\(displayedOnCooldownItems.count)")
-                    .font(.subheadline)
-                    .fontWeight(.bold)
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 4)
-                    .background(Capsule().fill(AppTheme.cooldown))
-                    .accessibilityHidden(true)
-            }
-            .accessibilityElement(children: .combine)
-            .accessibilityLabel(Text("쿨타임 중 \(displayedOnCooldownItems.count)개"))
-
-            LazyVStack(spacing: 12) {
-                ForEach(displayedOnCooldownItems) { item in
-                    ItemCard(
-                        item: item,
-                        onUse: { selectedItem = item },
-                        onBreak: { selectedItem = item }
-                    )
-                    .contextMenu {
-                        Button(role: .destructive) {
-                            manager.deleteItem(item)
-                        } label: {
-                            Label("삭제", systemImage: "trash")
-                        }
-
-                        Button {
-                            manager.resetCooldown(item)
-                        } label: {
-                            Label("쿨타임 리셋", systemImage: "arrow.counterclockwise")
-                        }
-                    }
-                    .accessibilityLabel(String(format: NSLocalizedString("%@ %@, 쿨타임 %@ 남음", comment: ""), item.emoji, item.name, item.remainingCooldown.cooldownFormatted))
-                    .accessibilityHint("탭하여 쿨타임 깨기, 길게 눌러 더 많은 옵션")
-                }
-            }
-        }
-    }
-
-    // MARK: - No Search Results
-
-    private var noSearchResultsView: some View {
-        VStack(spacing: 16) {
-            Image(systemName: "magnifyingglass")
-                .font(.system(size: 50))
-                .foregroundStyle(.secondary)
-
-            Text("'\(manager.searchText)' 검색 결과 없음")
-                .font(.headline)
-                .foregroundStyle(.secondary)
-
-            Text("다른 키워드로 검색해보세요")
-                .font(.subheadline)
-                .foregroundStyle(.tertiary)
-        }
-        .padding(.vertical, 40)
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("검색 결과 없음")
-    }
-
-    // MARK: - Empty State
-
-    private var emptyState: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "sparkles")
-                .font(.system(size: 70))
-                .foregroundStyle(AppTheme.readyGradient)
-
-            Text("아직 쿨타임이 없어요")
-                .font(.title2)
-                .fontWeight(.bold)
-
-            Text("템플릿에서 추가하거나\n직접 만들어보세요")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-
-            HStack(spacing: 12) {
-                Button(action: { manager.showingTemplates = true }) {
-                    HStack {
-                        Image(systemName: "sparkles")
-                        Text("템플릿")
-                    }
-                    .fontWeight(.semibold)
-                    .foregroundStyle(AppTheme.warning)
-                    .padding(.horizontal, 20)
-                    .padding(.vertical, 12)
-                    .background(
-                        Capsule()
-                            .stroke(AppTheme.warning, lineWidth: 2)
-                    )
-                }
-
-                Button(action: handleAddButtonTap) {
-                    HStack {
-                        Image(systemName: "plus")
-                        Text("직접 추가")
-                    }
-                    .appGradientButtonStyle()
-                }
-            }
-        }
-        .padding(.vertical, 60)
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("아직 쿨타임이 없습니다. 템플릿에서 추가하거나 직접 만들어보세요")
-    }
-}
-
-// MARK: - Summary Card
-
-struct SummaryCard: View {
-    let title: LocalizedStringKey
-    let value: String
-    let icon: String
-    let color: Color
-    let colorScheme: ColorScheme
-
-    var body: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 6) {
-                Text(title)
-                    .font(.caption)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(.secondary)
-
-                Text(verbatim: value)
-                    .font(.title3)
-                    .fontWeight(.bold)
-                    .foregroundStyle(.primary)
-            }
-
-            Spacer()
-
-            Image(systemName: icon)
-                .font(.title)
-                .fontWeight(.semibold)
-                .foregroundStyle(color)
-        }
-        .padding(16)
-        .background(
-            RoundedRectangle(cornerRadius: 16)
-                .fill(AppTheme.cardBackground(for: colorScheme))
-                .shadow(
-                    color: AppTheme.shadowColor(for: colorScheme),
-                    radius: 8,
-                    y: 4
-                )
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 16)
-                .stroke(color.opacity(0.4), lineWidth: 1.5)
-        )
+    private func announce(_ message: String) {
+        UIAccessibility.post(notification: .announcement, argument: message)
     }
 }
 

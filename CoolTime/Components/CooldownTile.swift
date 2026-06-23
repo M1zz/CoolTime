@@ -1,0 +1,201 @@
+//
+//  CooldownTile.swift
+//  CoolTime
+//
+//  게임 스킬 쿨타임 아이콘 스타일 타일.
+//  - 사용 가능: 밝게 활성화(풀컬러 + 빛나는 테두리)
+//  - 사용 직후: 어둡게 비활성화 + 시계 방향 라디얼 와이프로 차오름 + 남은 시간 숫자
+//  저시력/시각장애 대응: 큰 글씨, 고대비, 색+심볼+텍스트 3중 표기, 상태 먼저 읽는 단일 요소.
+//
+
+import SwiftUI
+
+struct CooldownTile: View {
+    @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    let item: CooldownItem
+
+    private let iconSize: CGFloat = 96
+    private let iconCorner: CGFloat = 18
+
+    private var isReady: Bool { !item.isOnCooldown }
+
+    private var style: AppTheme.StatusStyle {
+        AppTheme.status(isOnCooldown: item.isOnCooldown,
+                        remainingText: item.remainingCooldown.cooldownFormatted)
+    }
+
+    /// "N일 N시간 남음" — 접근성/하단 라벨용 (전체 표기)
+    private var remainingString: String {
+        String(format: NSLocalizedString("%@ 남음", comment: ""),
+               item.remainingCooldown.cooldownFormatted)
+    }
+
+    var body: some View {
+        VStack(spacing: 12) {
+            skillIcon
+
+            Text(item.name)
+                .font(.headline)
+                .fontWeight(.bold)
+                .foregroundStyle(.primary)
+                .multilineTextAlignment(.center)
+                .lineLimit(2)
+                .frame(maxWidth: .infinity)
+
+            Label {
+                statusText
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .multilineTextAlignment(.center)
+            } icon: {
+                Image(systemName: style.symbol)
+                    .font(.subheadline)
+            }
+            .foregroundStyle(style.color)
+            .labelStyle(.titleAndIcon)
+        }
+        .padding(14)
+        .frame(maxWidth: .infinity, minHeight: 200)
+        .background(
+            RoundedRectangle(cornerRadius: 20)
+                .fill(AppTheme.cardBackground(for: colorScheme))
+        )
+        // 카드 경계는 의미를 갖지 않으므로 중립 헤어라인만 (상태색은 아이콘 테두리 한 곳에만)
+        .overlay(
+            RoundedRectangle(cornerRadius: 20)
+                .stroke(Color.primary.opacity(0.07), lineWidth: 1)
+        )
+        .contentShape(RoundedRectangle(cornerRadius: 20))
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(accessibilityLabel)
+        .accessibilityHint("두 번 탭하면 했어요로 기록해요")
+        .accessibilityAddTraits(.isButton)
+    }
+
+    // MARK: - Skill Icon
+
+    private var skillIcon: some View {
+        ZStack {
+            // 어두운 슬롯 배경 (게임 아이콘 느낌)
+            RoundedRectangle(cornerRadius: iconCorner)
+                .fill(slotBackground)
+
+            // 1) 비활성화 베이스 — 어둡고 채도 낮은 이모지 (꺼진 상태)
+            Text(item.emoji)
+                .font(.system(size: 46))
+                .saturation(0.12)
+                .opacity(0.32)
+
+            // 2) 활성화 레이어 — 경과한 만큼 시계 방향으로 밝게 차오름
+            //    progress 0(막 사용=완전히 꺼짐) → 1(준비됨=완전히 밝음)
+            Text(item.emoji)
+                .font(.system(size: 46))
+                .clipShape(ActivationWedge(progress: isReady ? 1 : item.cooldownProgress))
+                .animation(reduceMotion ? nil : .linear(duration: 1.0), value: item.cooldownProgress)
+
+            // 남은 시간 — 크게 중앙 위에 (쿨타임 중)
+            if !isReady {
+                Text(item.remainingCooldown.compactCooldownFormatted)
+                    .font(.system(size: 26, weight: .heavy, design: .rounded))
+                    .foregroundStyle(.white)
+                    .shadow(color: .black.opacity(0.8), radius: 2, y: 1)
+                    .minimumScaleFactor(0.6)
+                    .lineLimit(1)
+                    .padding(.horizontal, 6)
+            }
+
+            // 테두리 = 상태의 답. 사용 가능이면 또렷하게(할 수 있다), 대기면 옅게(아직).
+            RoundedRectangle(cornerRadius: iconCorner)
+                .stroke(style.color.opacity(isReady ? 1.0 : 0.3),
+                        lineWidth: isReady ? 3 : 1.5)
+        }
+        .frame(width: iconSize, height: iconSize)
+        .accessibilityHidden(true)
+    }
+
+    private var slotBackground: Color {
+        // 어두운 슬레이트 슬롯 — 밝은 이모지가 대비되어 활성/비활성이 명확
+        colorScheme == .dark
+            ? Color(red: 0.10, green: 0.10, blue: 0.13)
+            : Color(red: 0.16, green: 0.17, blue: 0.22)
+    }
+
+    @ViewBuilder
+    private var statusText: some View {
+        // 사용 가능: "사용 가능" / 대기: "아직이에요" — 정확한 남은 시간은 아이콘 숫자 + VoiceOver로 전달
+        Text(style.text)
+    }
+
+    // MARK: - Accessibility
+
+    private var accessibilityLabel: Text {
+        if isReady {
+            return Text(style.text) + Text(verbatim: ", ") + Text(verbatim: item.name)
+        } else {
+            return Text(style.text)
+                + Text(verbatim: ", ")
+                + Text(verbatim: remainingString)
+                + Text(verbatim: ", ")
+                + Text(verbatim: item.name)
+        }
+    }
+}
+
+// MARK: - Activation Wedge (시계 방향으로 차오르는 부채꼴)
+
+/// 게임 스킬 쿨타임처럼, 12시 방향에서 시작해 경과한 만큼 시계 방향으로 밝게 차오르는 부채꼴.
+/// 이 모양으로 "밝은 이모지"를 잘라내면, 꺼진 상태에서 시계 방향으로 활성화되는 효과가 난다.
+/// progress: 0(막 사용함, 아무것도 안 보임) → 1(준비됨, 전체가 보임)
+/// Shape로 만들어 progress 변화 시 부드럽게 보간된다.
+struct ActivationWedge: Shape {
+    var progress: Double
+
+    var animatableData: Double {
+        get { progress }
+        set { progress = newValue }
+    }
+
+    func path(in rect: CGRect) -> Path {
+        let center = CGPoint(x: rect.midX, y: rect.midY)
+        // 모서리까지 덮도록 대각선 절반 반지름
+        let radius = (rect.width * rect.width + rect.height * rect.height).squareRoot() / 2 + 2
+
+        var path = Path()
+        path.move(to: center)
+        // 12시(-90°)에서 시계 방향으로 progress 만큼
+        path.addArc(
+            center: center,
+            radius: radius,
+            startAngle: .degrees(-90),
+            endAngle: .degrees(-90 + 360 * progress),
+            clockwise: false
+        )
+        path.closeSubpath()
+        return path
+    }
+}
+
+// MARK: - Preview
+
+#Preview {
+    ScrollView {
+        LazyVGrid(columns: [GridItem(.flexible(), spacing: 14), GridItem(.flexible(), spacing: 14)], spacing: 14) {
+            CooldownTile(item: CooldownItem(name: "커피", emoji: "☕️", cooldownDuration: .days(2)))
+
+            CooldownTile(item: {
+                let item = CooldownItem(name: "배달음식", emoji: "🍕", cooldownDuration: .days(3))
+                item.lastUsedDate = Date().addingTimeInterval(-86400)
+                return item
+            }())
+
+            CooldownTile(item: {
+                let item = CooldownItem(name: "온라인 쇼핑", emoji: "🛍️", cooldownDuration: .hours(6))
+                item.lastUsedDate = Date().addingTimeInterval(-3600)
+                return item
+            }())
+        }
+        .padding()
+    }
+}

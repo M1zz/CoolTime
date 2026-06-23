@@ -30,6 +30,8 @@
 		B7A00001011 /* ItemCardCompact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002011 /* ItemCardCompact.swift */; };
 		B7A00001012 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002012 /* PurchaseManager.swift */; };
 		B7A00001013 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002013 /* PaywallView.swift */; };
+		B7A00001014 /* CooldownRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002014 /* CooldownRow.swift */; };
+		B7A00001015 /* CooldownTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002015 /* CooldownTile.swift */; };
 		CC000001001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC000003001 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		B7A00002011 /* ItemCardCompact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardCompact.swift; sourceTree = "<group>"; };
 		B7A00002012 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		B7A00002013 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		B7A00002014 /* CooldownRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownRow.swift; sourceTree = "<group>"; };
+		B7A00002015 /* CooldownTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownTile.swift; sourceTree = "<group>"; };
 		B7A00003001 /* CoolTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC000002001 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CC000002002 /* ko */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -95,18 +99,6 @@
 			target = 9C61BFB62EDD56D200BC5930 /* widgetExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXVariantGroup section */
-		CC000003001 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC000002001 /* en */,
-				CC000002002 /* ko */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9C61BFBD2EDD56D200BC5930 /* widget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9C61BFCE2EDD56D300BC5930 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = widget; sourceTree = "<group>"; };
@@ -214,6 +206,8 @@
 				2B3ACA6F2F34C570007487C7 /* ToastView.swift */,
 				B7A0000200A /* CooldownCircle.swift */,
 				B7A0000200B /* ItemCard.swift */,
+				B7A00002014 /* CooldownRow.swift */,
+				B7A00002015 /* CooldownTile.swift */,
 				B7A00002010 /* UseItemSheet.swift */,
 				B7A00002011 /* ItemCardCompact.swift */,
 			);
@@ -280,7 +274,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					9C61BFB62EDD56D200BC5930 = {
 						CreatedOnToolsVersion = 26.1.1;
@@ -352,6 +346,8 @@
 				B7A00001009 /* StatsView.swift in Sources */,
 				B7A0000100A /* CooldownCircle.swift in Sources */,
 				B7A0000100B /* ItemCard.swift in Sources */,
+				B7A00001014 /* CooldownRow.swift in Sources */,
+				B7A00001015 /* CooldownTile.swift in Sources */,
 				B7A0000100C /* NotificationManager.swift in Sources */,
 				B7A0000100D /* SharedData.swift in Sources */,
 				B7A0000100E /* AppTheme.swift in Sources */,
@@ -373,6 +369,18 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CC000003001 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC000002001 /* en */,
+				CC000002002 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		9C61BFD02EDD56D300BC5930 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -381,7 +389,6 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
@@ -393,6 +400,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -412,7 +420,6 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
@@ -424,6 +431,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -441,6 +449,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -471,6 +480,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -494,6 +504,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -504,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -534,6 +546,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -550,6 +563,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -562,7 +576,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "쿨타임";
@@ -578,6 +591,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
+				CODE_SIGN_ENTITLEMENTS = CoolTime/CoolTime.entitlements;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -595,7 +609,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "쿨타임";
@@ -611,6 +624,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
+				CODE_SIGN_ENTITLEMENTS = CoolTime/CoolTime.entitlements;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

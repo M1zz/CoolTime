@@ -190,6 +190,82 @@
 "다음" = "Next";
 "건너뛰기" = "Skip";
 
+/* ===== Redesign (2026) — single-list, unified action ===== */
+
+/* HomeView toolbar & sections */
+"기록 보기" = "History";
+"쿨타임 추가" = "Add Cooldown";
+"지금 할 수 있어요" = "Ready Now";
+"기다리는 중" = "Waiting";
+
+/* Notification row */
+"알림이 꺼져 있어요" = "Notifications Off";
+"쿨타임이 끝나면 알려드리도록 설정에서 켜주세요" = "Turn on in Settings to be notified when a cooldown ends";
+"알림이 꺼져 있어요. 두 번 탭하면 설정으로 이동해요" = "Notifications are off. Double tap to open Settings.";
+
+/* Unified action */
+"했어요" = "Did It";
+"%@, 했어요?" = "Did you do %@?";
+"아직 %@ 남았어요. 지금 하면 쿨타임이 처음부터 다시 시작돼요." = "%@ left. Doing it now restarts the cooldown from the beginning.";
+
+/* Announcements & toast */
+"'%@' 쿨타임을 다시 시작했어요" = "'%@' cooldown restarted";
+"'%@' 사용을 기록했어요" = "Recorded '%@'";
+"%@ 삭제했어요" = "Deleted %@";
+"%@ 쿨타임을 초기화했어요" = "Reset cooldown for %@";
+"%@ 추가했어요" = "Added %@";
+
+/* Empty state */
+"아래 ‘추가’로\n첫 쿨타임을 만들어 보세요" = "Tap ‘Add’ below\nto create your first cooldown";
+"쿨타임이 없어요. 아래 추가 버튼으로 첫 쿨타임을 만들어 보세요" = "No cooldowns yet. Use the Add button below to create your first one.";
+
+/* CooldownRow / Tile */
+"두 번 탭하면 했어요로 기록해요" = "Double tap to record it as done";
+"%@ 남음" = "%@ left";
+"아직이에요" = "Not yet";
+
+/* Compact time (skill-icon center) */
+"%d시간" = "%dh";
+"%d분" = "%dm";
+
+/* AddItemView (simplified) */
+"추천에서 고르기" = "Choose from Suggestions";
+"자주 쓰는 쿨타임을 목록에서 바로 추가해요" = "Add common cooldowns straight from a list";
+"예: 배달음식, 커피" = "e.g. Delivery, Coffee";
+"얼마나 참을까요?" = "How long will you hold back?";
+"직접 설정" = "Custom";
+"선택한 주기: %@" = "Selected: %@";
+"%lld %@" = "%1$lld %2$@";
+"주기 값 %lld %@" = "Period value %1$lld %2$@";
+"아이콘·비용 추가" = "Add Icon & Cost";
+"예상 비용" = "Estimated Cost";
+"비용을 적으면 아낀 돈을 기록에서 보여드려요" = "Add a cost and we'll show the money you saved in History";
+"예상 비용, 원" = "Estimated cost, won";
+"아이콘 %@" = "Icon %@";
+"1일" = "1 day";
+"1달" = "1 month";
+
+/* OnboardingView (impulse-spending) */
+"또 지르고\n후회했나요?" = "Bought it again\nand regretted it?";
+"배달·쇼핑·구독에 ‘쿨타임’을 걸어\n충동을 한 박자 멈춰요" = "Put a ‘cooldown’ on delivery, shopping & subscriptions\nto pause the impulse";
+"지를 땐\n‘아직이에요’" = "About to buy?\n‘Not yet.’";
+"샀으면 한 번 눌러요.\n다음까지 아낀 돈이 쌓여요" = "Tap once when you buy.\nThe money you save adds up till next time";
+"%lld페이지 중 %lld페이지" = "Page %2$lld of %1$lld";
+
+/* StatsView savings + streak */
+"이번 달 아낀 돈" = "Saved this month";
+"%lld일째 충동 없이" = "%lld days impulse-free";
+"오늘부터 다시" = "Starting again today";
+
+/* StatsView (simplified) */
+"기록" = "History";
+"지금까지 한 기록" = "What you've done";
+"마지막 %@" = "Last %@";
+"%lld번" = "%lld×";
+"아직 한 번도 안 했어요" = "Not done yet";
+"전체 내역" = "Full history";
+"Pro에서 전체 사용 내역 보기" = "See full history with Pro";
+
 /* ===== Time format ===== */
 "%d일 %d시간" = "%1$dd %2$dh";
 "%d시간 %d분" = "%1$dh %2$dm";

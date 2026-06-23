@@ -9,6 +9,7 @@ struct CooldownCircle: View {
 
     @State private var isAnimating = false
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var progress: Double {
         item.cooldownProgress
@@ -76,15 +77,15 @@ struct CooldownCircle: View {
                     .rotationEffect(.degrees(-90))
             }
 
-            // 준비됨 글로우 효과
+            // 준비됨 글로우 효과 (Reduce Motion이면 정적으로 표시)
             if isReady {
                 Circle()
                     .stroke(AppTheme.ready, lineWidth: 3)
                     .frame(width: size + 6, height: size + 6)
                     .blur(radius: 6)
-                    .opacity(isAnimating ? 0.8 : 0.3)
+                    .opacity(reduceMotion ? 0.5 : (isAnimating ? 0.8 : 0.3))
                     .animation(
-                        .easeInOut(duration: 1.2).repeatForever(autoreverses: true),
+                        reduceMotion ? nil : .easeInOut(duration: 1.2).repeatForever(autoreverses: true),
                         value: isAnimating
                     )
             }
@@ -112,7 +113,7 @@ struct CooldownCircle: View {
             onTap?()
         }
         .onAppear {
-            isAnimating = true
+            if !reduceMotion { isAnimating = true }
         }
     }
 }
