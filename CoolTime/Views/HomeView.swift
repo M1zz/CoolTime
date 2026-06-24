@@ -11,8 +11,11 @@ struct HomeView: View {
     @State private var manager = CooldownManager()
 
     @State private var showOnboarding = !UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
+    @State private var showingAutomationGuide = false
     @State private var showToast = false
     @State private var toastMessage = ""
+    @State private var toastIcon = "bolt.fill"
+    @State private var toastColor = AppTheme.warning
     @State private var showingPaywall = false
     @State private var paywallTrigger: PaywallTrigger = .general
 
@@ -56,15 +59,31 @@ struct HomeView: View {
                         isPresented: confirmBinding,
                         titleVisibility: .visible
                     ) {
-                        Button("했어요") { performUse() }
-                        Button("취소", role: .cancel) { pendingItem = nil }
+                        if let item = pendingItem, item.isOnCooldown {
+                            Button("참았어요 ✊") { performResist() }
+                            Button("그냥 샀어요", role: .destructive) { performUse() }
+                            Button("취소", role: .cancel) { pendingItem = nil }
+                        } else {
+                            Button("했어요") { performUse() }
+                            Button("취소", role: .cancel) { pendingItem = nil }
+                        }
                     } message: {
                         if let item = pendingItem, item.isOnCooldown {
-                            Text("아직 \(item.remainingCooldown.cooldownFormatted) 남았어요. 지금 하면 쿨타임이 처음부터 다시 시작돼요.")
+                            Text("아직 \(item.remainingCooldown.cooldownFormatted) 남았어요. 여기서 참으면 충동을 이긴 걸로 기록돼요.")
                         }
                     }
                     .fullScreenCover(isPresented: $showOnboarding) {
                         OnboardingView(isPresented: $showOnboarding)
+                    }
+                    .sheet(isPresented: $showingAutomationGuide) {
+                        AutomationGuideView()
+                    }
+                    .onChange(of: showOnboarding) { _, isShowing in
+                        // 온보딩이 막 끝났으면 자동화 가이드를 한 번 띄운다
+                        if !isShowing, UserDefaults.standard.bool(forKey: "pendingAutomationGuide") {
+                            UserDefaults.standard.set(false, forKey: "pendingAutomationGuide")
+                            showingAutomationGuide = true
+                        }
                     }
             }
             .onAppear {
@@ -93,7 +112,7 @@ struct HomeView: View {
             }
 
             if showToast {
-                ToastView(message: toastMessage, icon: "bolt.fill", color: AppTheme.warning)
+                ToastView(message: toastMessage, icon: toastIcon, color: toastColor)
                     .transition(.move(edge: .top).combined(with: .opacity))
                     .padding(.top, 60)
                     .zIndex(1)
@@ -273,7 +292,26 @@ struct HomeView: View {
 
     private var confirmTitle: Text {
         guard let item = pendingItem else { return Text("") }
-        return Text("\(item.name), 했어요?")
+        return item.isOnCooldown ? Text("\(item.name), 지금 어떻게 할까요?")
+                                 : Text("\(item.name), 했어요?")
+    }
+
+    private func performResist() {
+        guard let item = pendingItem else { return }
+        Haptics.notify(.success)
+        withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.8)) {
+            manager.resistItem(item)
+        }
+        let name = item.name
+        pendingItem = nil
+        toastMessage = String(format: NSLocalizedString("'%@' 참았어요. 잘했어요!", comment: ""), name)
+        toastIcon = "hand.raised.fill"
+        toastColor = AppTheme.readyStrong
+        withAnimation { showToast = true }
+        Task {
+            try? await Task.sleep(nanoseconds: 1_500_000_000)
+            await MainActor.run { withAnimation { showToast = false } }
+        }
     }
 
     private var confirmBinding: Binding<Bool> {
@@ -293,6 +331,8 @@ struct HomeView: View {
 
         if wasCooldown {
             toastMessage = String(format: NSLocalizedString("'%@' 쿨타임을 다시 시작했어요", comment: ""), item.name)
+            toastIcon = "bolt.fill"
+            toastColor = AppTheme.warning
             withAnimation { showToast = true } // ToastView가 음성 안내까지 처리
             Task {
                 try? await Task.sleep(nanoseconds: 1_500_000_000)

@@ -108,6 +108,32 @@ struct WidgetDataStore {
     static func loadIsPro() -> Bool {
         sharedDefaults?.bool(forKey: isProKey) ?? false
     }
+
+    // MARK: - Action Queue (위젯 버튼 → 앱 반영)
+
+    private static let pendingBuyKey = "pending_purchases"
+    private static let pendingResistKey = "pending_resists"
+
+    /// "샀어요": 스냅샷 쿨타임 즉시 재시작 + 큐 적재
+    static func recordPurchase(itemId: UUID) {
+        guard let defaults = sharedDefaults else { return }
+        var items = loadItems()
+        if let idx = items.firstIndex(where: { $0.id == itemId }) {
+            items[idx].lastUsedDate = Date()
+            saveItems(items)
+        }
+        var pending = defaults.array(forKey: pendingBuyKey) as? [String] ?? []
+        pending.append(itemId.uuidString)
+        defaults.set(pending, forKey: pendingBuyKey)
+    }
+
+    /// "참았어요": 쿨타임 그대로, 참은 기록만 큐 적재
+    static func recordResist(itemId: UUID) {
+        guard let defaults = sharedDefaults else { return }
+        var pending = defaults.array(forKey: pendingResistKey) as? [String] ?? []
+        pending.append(itemId.uuidString)
+        defaults.set(pending, forKey: pendingResistKey)
+    }
 }
 
 /// 위젯용 통계 데이터

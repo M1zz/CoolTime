@@ -148,16 +148,17 @@ final class CooldownManager {
         applyPendingPurchases()
     }
 
-    /// App Intent("샀어요")가 큐에 적은 구매를 실제 항목에 반영 (쿨타임 재시작 + 기록)
+    /// 위젯/인텐트가 큐에 적은 행동을 실제 항목에 반영
     private func applyPendingPurchases() {
-        let ids = WidgetDataStore.consumePendingPurchases()
-        guard !ids.isEmpty else { return }
+        let buys = WidgetDataStore.consumePendingPurchases()
+        let resists = WidgetDataStore.consumePendingResists()
+        guard !buys.isEmpty || !resists.isEmpty else { return }
         var changed = false
-        for id in ids {
-            if let item = items.first(where: { $0.id == id }) {
-                item.use()
-                changed = true
-            }
+        for id in buys {
+            if let item = items.first(where: { $0.id == id }) { item.use(); changed = true }
+        }
+        for id in resists {
+            if let item = items.first(where: { $0.id == id }) { item.resist(); changed = true }
         }
         if changed {
             saveContext()
@@ -180,9 +181,11 @@ final class CooldownManager {
         delivery.usageHistory = (1...5).map {
             UsageRecord(date: Date().addingTimeInterval(Double(-86400 * $0)), note: nil, cost: nil, brokeCooldown: false)
         }
+        delivery.resistCount = 8
         let shopping = CooldownItem(name: "온라인 쇼핑", emoji: "🛍️", cooldownDuration: .weeks(2), estimatedCost: 50000)
         shopping.lastUsedDate = Date().addingTimeInterval(-86400 * 3)
         shopping.totalUseCount = 2
+        shopping.resistCount = 3
         shopping.usageHistory = (1...2).map {
             UsageRecord(date: Date().addingTimeInterval(Double(-86400 * 3 * $0)), note: nil, cost: nil, brokeCooldown: false)
         }
@@ -333,6 +336,18 @@ final class CooldownManager {
     /// 쿨타임 깨기 (쿨타임 중에 사용)
     func breakCooldown(_ item: CooldownItem, note: String? = nil) {
         useItem(item, note: "⚠️ 쿨타임 중 사용: \(note ?? "")")
+    }
+
+    /// 참았어요 — 쿨타임 중 충동을 이겨낸 것을 기록 (쿨타임 유지)
+    func resistItem(_ item: CooldownItem) {
+        item.resist()
+        saveContext()
+        fetchItems()
+    }
+
+    /// 전체 참은 횟수
+    var totalResistCount: Int {
+        items.reduce(0) { $0 + $1.resistCount }
     }
 
     /// 쿨타임 리셋

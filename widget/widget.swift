@@ -1,5 +1,6 @@
 import WidgetKit
 import SwiftUI
+import AppIntents
 
 // MARK: - Design Tokens
 
@@ -55,14 +56,7 @@ private struct EmptyWidgetView: View {
         VStack(spacing: 6) {
             Image(systemName: "hourglass").font(.title3).foregroundStyle(.secondary)
             Text("쿨타임 없음").font(.caption).foregroundStyle(.secondary)
-            // 진단: 앱이 센 항목 수(stats.totalItems) vs 위젯이 읽은 항목(0)
-            if stats.lastSync == nil {
-                Text("앱그룹 미연결").font(.caption2).foregroundStyle(.orange)
-            } else {
-                Text("동기화 · 저장 \(stats.totalItems)")
-                    .font(.caption2)
-                    .foregroundStyle(stats.totalItems > 0 ? Color.red : Color.secondary)
-            }
+            Text("앱에서 추가").font(.caption2).foregroundStyle(.tertiary)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
@@ -267,13 +261,31 @@ private struct InterventionLarge: View {
             }
 
             if let h = entry.hero {
-                HStack(spacing: 14) {
-                    WidgetSkillIcon(item: h, size: 60)
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("아직이에요").font(.caption).fontWeight(.bold).foregroundStyle(ctHold)
-                        Text(h.name).font(.headline).fontWeight(.bold).lineLimit(1)
+                VStack(spacing: 10) {
+                    HStack(spacing: 14) {
+                        WidgetSkillIcon(item: h, size: 60)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("아직이에요").font(.caption).fontWeight(.bold).foregroundStyle(ctHold)
+                            Text(h.name).font(.headline).fontWeight(.bold).lineLimit(1)
+                        }
+                        Spacer()
                     }
-                    Spacer()
+                    // 앱 안 열고 위젯에서 바로 기록
+                    HStack(spacing: 8) {
+                        Button(intent: ResistIntent(itemId: h.id.uuidString)) {
+                            Label("참았어요", systemImage: "hand.raised.fill")
+                                .font(.caption).fontWeight(.bold)
+                                .frame(maxWidth: .infinity)
+                        }
+                        .tint(ctSave)
+                        Button(intent: BuyIntent(itemId: h.id.uuidString)) {
+                            Label("샀어요", systemImage: "cart.fill")
+                                .font(.caption).fontWeight(.bold)
+                                .frame(maxWidth: .infinity)
+                        }
+                        .tint(.secondary)
+                    }
+                    .buttonStyle(.borderedProminent)
                 }
                 .padding(14)
                 .background(ctHold.opacity(0.10), in: RoundedRectangle(cornerRadius: 16))

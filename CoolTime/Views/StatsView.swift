@@ -114,22 +114,36 @@ struct StatsView: View {
                 .accessibilityElement(children: .combine)
                 .accessibilityLabel("이번 달 아낀 돈 \(manager.monthlySavings)원")
 
-                // 스트릭
-                Label {
-                    if manager.streakDays > 0 {
-                        Text("\(manager.streakDays)일째 충동 없이")
-                            .font(.subheadline).fontWeight(.semibold)
-                    } else {
-                        Text("오늘부터 다시")
-                            .font(.subheadline).fontWeight(.semibold)
+                HStack(spacing: 16) {
+                    // 스트릭
+                    Label {
+                        if manager.streakDays > 0 {
+                            Text("\(manager.streakDays)일째")
+                                .font(.subheadline).fontWeight(.semibold)
+                        } else {
+                            Text("오늘부터")
+                                .font(.subheadline).fontWeight(.semibold)
+                        }
+                    } icon: {
+                        Image(systemName: "flame.fill")
                     }
-                } icon: {
-                    Image(systemName: "flame.fill")
+                    .foregroundStyle(AppTheme.warning)
+                    .accessibilityLabel(manager.streakDays > 0
+                        ? "\(manager.streakDays)일째 충동 없이"
+                        : "오늘부터 다시 시작")
+
+                    // 참은 횟수 (충동을 이긴 횟수)
+                    if manager.totalResistCount > 0 {
+                        Label {
+                            Text("\(manager.totalResistCount)번 참음")
+                                .font(.subheadline).fontWeight(.semibold)
+                        } icon: {
+                            Image(systemName: "hand.raised.fill")
+                        }
+                        .foregroundStyle(AppTheme.waitingStrong)
+                        .accessibilityLabel("충동을 \(manager.totalResistCount)번 이겼어요")
+                    }
                 }
-                .foregroundStyle(AppTheme.warning)
-                .accessibilityLabel(manager.streakDays > 0
-                    ? "\(manager.streakDays)일째 충동 없이 이어가는 중"
-                    : "오늘부터 다시 시작")
             }
             .padding(.vertical, 6)
         }

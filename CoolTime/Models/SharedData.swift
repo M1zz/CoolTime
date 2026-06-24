@@ -109,11 +109,12 @@ struct WidgetDataStore {
         sharedDefaults?.bool(forKey: isProKey) ?? false
     }
 
-    // MARK: - Purchase Queue (App Intents → 앱 반영)
+    // MARK: - Action Queue (App Intents/위젯 → 앱 반영)
 
-    private static let pendingKey = "pending_purchases"
+    private static let pendingBuyKey = "pending_purchases"
+    private static let pendingResistKey = "pending_resists"
 
-    /// 인텐트("샀어요")에서 호출: 스냅샷의 쿨타임을 즉시 재시작하고, 앱이 반영하도록 큐에 적재
+    /// "샀어요": 스냅샷의 쿨타임을 즉시 재시작하고, 앱이 반영하도록 큐에 적재
     static func recordPurchase(itemId: UUID) {
         guard let defaults = sharedDefaults else { return }
         var items = loadItems()
@@ -121,16 +122,30 @@ struct WidgetDataStore {
             items[idx].lastUsedDate = Date()
             saveItems(items)
         }
-        var pending = defaults.array(forKey: pendingKey) as? [String] ?? []
+        var pending = defaults.array(forKey: pendingBuyKey) as? [String] ?? []
         pending.append(itemId.uuidString)
-        defaults.set(pending, forKey: pendingKey)
+        defaults.set(pending, forKey: pendingBuyKey)
     }
 
-    /// 앱이 실행 시 호출: 큐를 비우고 반영할 항목 id들을 돌려줌
+    /// "참았어요": 쿨타임은 그대로, 참은 기록만 큐에 적재
+    static func recordResist(itemId: UUID) {
+        guard let defaults = sharedDefaults else { return }
+        var pending = defaults.array(forKey: pendingResistKey) as? [String] ?? []
+        pending.append(itemId.uuidString)
+        defaults.set(pending, forKey: pendingResistKey)
+    }
+
     static func consumePendingPurchases() -> [UUID] {
         guard let defaults = sharedDefaults else { return [] }
-        let pending = defaults.array(forKey: pendingKey) as? [String] ?? []
-        defaults.removeObject(forKey: pendingKey)
+        let pending = defaults.array(forKey: pendingBuyKey) as? [String] ?? []
+        defaults.removeObject(forKey: pendingBuyKey)
+        return pending.compactMap { UUID(uuidString: $0) }
+    }
+
+    static func consumePendingResists() -> [UUID] {
+        guard let defaults = sharedDefaults else { return [] }
+        let pending = defaults.array(forKey: pendingResistKey) as? [String] ?? []
+        defaults.removeObject(forKey: pendingResistKey)
         return pending.compactMap { UUID(uuidString: $0) }
     }
 }

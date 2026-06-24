@@ -22,8 +22,14 @@ struct OnboardingView: View {
         OnboardingPage(
             emoji: "✋",
             title: "지를 땐\n‘아직이에요’",
-            description: "샀으면 한 번 눌러요.\n다음까지 아낀 돈이 쌓여요",
+            description: "참았으면 ‘참았어요’, 샀으면 ‘샀어요’.\n참은 만큼 아낀 돈이 쌓여요",
             color: AppTheme.readyStrong
+        ),
+        OnboardingPage(
+            emoji: "📲",
+            title: "지를 때\n폰이 먼저 말려줘요",
+            description: "배달·쇼핑 앱을 열면 CoolTime이 먼저\n‘아직이에요’라고 물어보게 할 수 있어요",
+            color: AppTheme.waitingStrong
         )
     ]
 
@@ -92,6 +98,8 @@ struct OnboardingView: View {
 
     private func completeOnboarding() {
         UserDefaults.standard.set(true, forKey: "hasCompletedOnboarding")
+        // 온보딩 직후 자동화 가이드를 한 번 노출 (채택률)
+        UserDefaults.standard.set(true, forKey: "pendingAutomationGuide")
         isPresented = false
     }
 }

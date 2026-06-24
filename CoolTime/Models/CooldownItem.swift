@@ -17,6 +17,8 @@ final class CooldownItem {
     // 통계용
     var totalUseCount: Int              // 총 사용 횟수
     var breakCount: Int                 // 쿨타임 깬 횟수
+    var resistCount: Int = 0            // 쿨타임 중 참은 횟수 (충동을 이긴 횟수)
+    var lastResistDate: Date?           // 마지막으로 참은 시각
     var usageHistory: [UsageRecord]     // 사용 기록
     
     init(
@@ -37,6 +39,8 @@ final class CooldownItem {
         self.createdAt = Date()
         self.totalUseCount = 0
         self.breakCount = 0
+        self.resistCount = 0
+        self.lastResistDate = nil
         self.usageHistory = []
     }
     
@@ -97,6 +101,12 @@ final class CooldownItem {
     /// 쿨타임 리셋
     func resetCooldown() {
         lastUsedDate = nil
+    }
+
+    /// 참았어요 — 쿨타임 중 충동을 이겨낸 순간을 기록 (쿨타임은 그대로)
+    func resist() {
+        resistCount += 1
+        lastResistDate = Date()
     }
 }
 
