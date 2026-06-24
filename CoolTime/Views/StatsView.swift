@@ -79,6 +79,13 @@ struct StatsView: View {
             .sheet(isPresented: $showingAutomation) {
                 AutomationGuideView()
             }
+            .onAppear {
+                #if DEBUG
+                if ProcessInfo.processInfo.arguments.contains("-OpenGuide") {
+                    showingAutomation = true
+                }
+                #endif
+            }
         }
     }
 
