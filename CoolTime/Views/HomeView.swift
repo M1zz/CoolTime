@@ -6,6 +6,7 @@ import SwiftData
 struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.scenePhase) private var scenePhase
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(PurchaseManager.self) private var purchaseManager
     @State private var manager = CooldownManager()
@@ -97,6 +98,13 @@ struct HomeView: View {
                     editingItem = manager.waitingItems.first ?? manager.readyItems.first
                 }
                 #endif
+            }
+            .onChange(of: scenePhase) { _, phase in
+                // 포그라운드 복귀 시 위젯 버튼이 큐에 적은 행동(참았어요/샀어요)을 반영
+                if phase == .active {
+                    manager.setModelContext(modelContext)
+                    knownReadyIDs = Set(manager.readyItems.map(\.id))
+                }
             }
             .onReceive(ticker) { date in
                 let current = Set(manager.readyItems.map(\.id))
