@@ -15,6 +15,8 @@ struct CooldownTile: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     let item: CooldownItem
+    var onUse: () -> Void = {}
+    var onResist: () -> Void = {}
 
     private let iconSize: CGFloat = 96
     private let iconCorner: CGFloat = 18
@@ -33,28 +35,19 @@ struct CooldownTile: View {
     }
 
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 10) {
             skillIcon
+                .accessibilityHidden(true)
 
             Text(item.name)
                 .font(.headline)
                 .fontWeight(.bold)
                 .foregroundStyle(.primary)
                 .multilineTextAlignment(.center)
-                .lineLimit(2)
+                .lineLimit(1)
                 .frame(maxWidth: .infinity)
 
-            Label {
-                statusText
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .multilineTextAlignment(.center)
-            } icon: {
-                Image(systemName: style.symbol)
-                    .font(.subheadline)
-            }
-            .foregroundStyle(style.color)
-            .labelStyle(.titleAndIcon)
+            actionButtons
         }
         .padding(14)
         .frame(maxWidth: .infinity, minHeight: 200)
@@ -62,16 +55,52 @@ struct CooldownTile: View {
             RoundedRectangle(cornerRadius: 20)
                 .fill(AppTheme.cardBackground(for: colorScheme))
         )
-        // 카드 경계는 의미를 갖지 않으므로 중립 헤어라인만 (상태색은 아이콘 테두리 한 곳에만)
         .overlay(
             RoundedRectangle(cornerRadius: 20)
                 .stroke(Color.primary.opacity(0.07), lineWidth: 1)
         )
-        .contentShape(RoundedRectangle(cornerRadius: 20))
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(accessibilityLabel)
-        .accessibilityHint("두 번 탭하면 했어요로 기록해요")
-        .accessibilityAddTraits(.isButton)
+    }
+
+    // MARK: - Action Buttons
+
+    @ViewBuilder
+    private var actionButtons: some View {
+        if isReady {
+            Button(action: onUse) {
+                Label("했어요", systemImage: "checkmark")
+                    .font(.subheadline).fontWeight(.bold)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 9)
+                    .foregroundStyle(.white)
+                    .background(Capsule().fill(AppTheme.readyStrong))
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("\(item.name) 했어요")
+        } else {
+            HStack(spacing: 8) {
+                Button(action: onResist) {
+                    Label("참았어요", systemImage: "hand.raised.fill")
+                        .font(.caption).fontWeight(.bold)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 9)
+                        .foregroundStyle(.white)
+                        .background(Capsule().fill(AppTheme.readyStrong))
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("\(item.name) 참았어요")
+
+                Button(action: onUse) {
+                    Image(systemName: "cart.fill")
+                        .font(.caption).fontWeight(.bold)
+                        .frame(width: 38)
+                        .padding(.vertical, 9)
+                        .foregroundStyle(.secondary)
+                        .background(Capsule().fill(Color(.tertiarySystemBackground)))
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("\(item.name) 그냥 샀어요")
+            }
+        }
     }
 
     // MARK: - Skill Icon

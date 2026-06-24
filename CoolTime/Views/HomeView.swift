@@ -20,8 +20,6 @@ struct HomeView: View {
     @State private var showingPaywall = false
     @State private var paywallTrigger: PaywallTrigger = .general
 
-    // 통합 액션: 타일을 탭하면 "했어요?" 확인
-    @State private var pendingItem: CooldownItem?
     // 길게 눌러 "수정" → 편집 시트
     @State private var editingItem: CooldownItem?
 
@@ -54,24 +52,6 @@ struct HomeView: View {
                     }
                     .sheet(isPresented: $showingPaywall) {
                         PaywallView(trigger: paywallTrigger).environment(purchaseManager)
-                    }
-                    .confirmationDialog(
-                        confirmTitle,
-                        isPresented: confirmBinding,
-                        titleVisibility: .visible
-                    ) {
-                        if let item = pendingItem, item.isOnCooldown {
-                            Button("참았어요 ✊") { performResist() }
-                            Button("그냥 샀어요", role: .destructive) { performUse() }
-                            Button("취소", role: .cancel) { pendingItem = nil }
-                        } else {
-                            Button("했어요") { performUse() }
-                            Button("취소", role: .cancel) { pendingItem = nil }
-                        }
-                    } message: {
-                        if let item = pendingItem, item.isOnCooldown {
-                            Text("아직 \(item.remainingCooldown.cooldownFormatted) 남았어요. 여기서 참으면 충동을 이긴 걸로 기록돼요.")
-                        }
                     }
                     .fullScreenCover(isPresented: $showOnboarding) {
                         OnboardingView(isPresented: $showOnboarding)
@@ -162,13 +142,11 @@ struct HomeView: View {
     // MARK: - Grid Tile
 
     private func tileButton(for item: CooldownItem) -> some View {
-        Button {
-            Haptics.impact(.light)
-            pendingItem = item
-        } label: {
-            CooldownTile(item: item)
-        }
-        .buttonStyle(PressableTileStyle(reduceMotion: reduceMotion))
+        CooldownTile(
+            item: item,
+            onUse: { performUse(item) },
+            onResist: { performResist(item) }
+        )
         .contextMenu {
             Button {
                 Haptics.impact(.light)
@@ -298,21 +276,12 @@ struct HomeView: View {
 
     // MARK: - Actions
 
-    private var confirmTitle: Text {
-        guard let item = pendingItem else { return Text("") }
-        return item.isOnCooldown ? Text("\(item.name), 지금 어떻게 할까요?")
-                                 : Text("\(item.name), 했어요?")
-    }
-
-    private func performResist() {
-        guard let item = pendingItem else { return }
+    private func performResist(_ item: CooldownItem) {
         Haptics.notify(.success)
         withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.8)) {
             manager.resistItem(item)
         }
-        let name = item.name
-        pendingItem = nil
-        toastMessage = String(format: NSLocalizedString("'%@' 참았어요. 잘했어요!", comment: ""), name)
+        toastMessage = String(format: NSLocalizedString("'%@' 참았어요. 잘했어요!", comment: ""), item.name)
         toastIcon = "hand.raised.fill"
         toastColor = AppTheme.readyStrong
         withAnimation { showToast = true }
@@ -322,12 +291,7 @@ struct HomeView: View {
         }
     }
 
-    private var confirmBinding: Binding<Bool> {
-        Binding(get: { pendingItem != nil }, set: { if !$0 { pendingItem = nil } })
-    }
-
-    private func performUse() {
-        guard let item = pendingItem else { return }
+    private func performUse(_ item: CooldownItem) {
         let wasCooldown = item.isOnCooldown
         // 쿨타임 중 사용(깸)이면 경고 햅틱, 평소 사용이면 성공 햅틱
         Haptics.notify(wasCooldown ? .warning : .success)
@@ -335,7 +299,6 @@ struct HomeView: View {
             manager.useItem(item)
         }
         knownReadyIDs = Set(manager.readyItems.map(\.id))
-        pendingItem = nil
 
         if wasCooldown {
             toastMessage = String(format: NSLocalizedString("'%@' 쿨타임을 다시 시작했어요", comment: ""), item.name)
