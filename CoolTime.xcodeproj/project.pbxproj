@@ -20,6 +20,7 @@
 		B7A00001007 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002007 /* AddItemView.swift */; };
 		B7A00001008 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002008 /* TemplatesView.swift */; };
 		B7A00001009 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002009 /* StatsView.swift */; };
+		B7A00001017 /* AutomationGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002017 /* AutomationGuideView.swift */; };
 		B7A0000100A /* CooldownCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0000200A /* CooldownCircle.swift */; };
 		B7A0000100B /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0000200B /* ItemCard.swift */; };
 		B7A0000100C /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0000200C /* NotificationManager.swift */; };
@@ -32,6 +33,7 @@
 		B7A00001013 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002013 /* PaywallView.swift */; };
 		B7A00001014 /* CooldownRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002014 /* CooldownRow.swift */; };
 		B7A00001015 /* CooldownTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002015 /* CooldownTile.swift */; };
+		B7A00001016 /* CoolTimeIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002016 /* CoolTimeIntents.swift */; };
 		CC000001001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC000003001 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,7 @@
 		B7A00002007 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		B7A00002008 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
 		B7A00002009 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B7A00002017 /* AutomationGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationGuideView.swift; sourceTree = "<group>"; };
 		B7A0000200A /* CooldownCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownCircle.swift; sourceTree = "<group>"; };
 		B7A0000200B /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
 		B7A0000200C /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		B7A00002013 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		B7A00002014 /* CooldownRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownRow.swift; sourceTree = "<group>"; };
 		B7A00002015 /* CooldownTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownTile.swift; sourceTree = "<group>"; };
+		B7A00002016 /* CoolTimeIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../Intents/CoolTimeIntents.swift"; sourceTree = "<group>"; };
 		B7A00003001 /* CoolTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC000002001 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CC000002002 /* ko */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -194,6 +198,7 @@
 				B7A00002007 /* AddItemView.swift */,
 				B7A00002008 /* TemplatesView.swift */,
 				B7A00002009 /* StatsView.swift */,
+				B7A00002017 /* AutomationGuideView.swift */,
 				B7A0000200F /* OnboardingView.swift */,
 				B7A00002013 /* PaywallView.swift */,
 			);
@@ -208,6 +213,7 @@
 				B7A0000200B /* ItemCard.swift */,
 				B7A00002014 /* CooldownRow.swift */,
 				B7A00002015 /* CooldownTile.swift */,
+				B7A00002016 /* CoolTimeIntents.swift */,
 				B7A00002010 /* UseItemSheet.swift */,
 				B7A00002011 /* ItemCardCompact.swift */,
 			);
@@ -344,10 +350,12 @@
 				B7A00001007 /* AddItemView.swift in Sources */,
 				B7A00001008 /* TemplatesView.swift in Sources */,
 				B7A00001009 /* StatsView.swift in Sources */,
+				B7A00001017 /* AutomationGuideView.swift in Sources */,
 				B7A0000100A /* CooldownCircle.swift in Sources */,
 				B7A0000100B /* ItemCard.swift in Sources */,
 				B7A00001014 /* CooldownRow.swift in Sources */,
 				B7A00001015 /* CooldownTile.swift in Sources */,
+				B7A00001016 /* CoolTimeIntents.swift in Sources */,
 				B7A0000100C /* NotificationManager.swift in Sources */,
 				B7A0000100D /* SharedData.swift in Sources */,
 				B7A0000100E /* AppTheme.swift in Sources */,

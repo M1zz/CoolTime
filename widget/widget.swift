@@ -68,19 +68,54 @@ private struct EmptyWidgetView: View {
     }
 }
 
-/// 충전(쿨타임 진행) 링 — 앱과 같은 은유
-private struct ChargeRing: View {
-    let progress: Double
-    let emoji: String
+/// 12시에서 시계방향으로 차오르는 부채꼴 (앱 타일과 동일)
+private struct ActivationWedge: Shape {
+    var progress: Double
+    func path(in rect: CGRect) -> Path {
+        let center = CGPoint(x: rect.midX, y: rect.midY)
+        let radius = (rect.width * rect.width + rect.height * rect.height).squareRoot() / 2 + 2
+        var path = Path()
+        path.move(to: center)
+        path.addArc(center: center, radius: radius,
+                    startAngle: .degrees(-90),
+                    endAngle: .degrees(-90 + 360 * progress),
+                    clockwise: false)
+        path.closeSubpath()
+        return path
+    }
+}
+
+/// 게임 스킬 쿨타임 아이콘 — 이모지를 깔고(ZStack), 어두운 비활성 상태에서
+/// 시계방향으로 밝게 차오르며, 남은 시간 글자를 위에 얹는다. 앱 타일과 동일.
+private struct WidgetSkillIcon: View {
+    let item: WidgetCooldownItem
     let size: CGFloat
+    private var corner: CGFloat { size * 0.24 }
+
     var body: some View {
         ZStack {
-            Circle().stroke(ctHold.opacity(0.2), lineWidth: size * 0.10)
-            Circle()
-                .trim(from: 0, to: progress)
-                .stroke(ctHold, style: StrokeStyle(lineWidth: size * 0.10, lineCap: .round))
-                .rotationEffect(.degrees(-90))
-            Text(emoji).font(.system(size: size * 0.42))
+            RoundedRectangle(cornerRadius: corner)
+                .fill(Color(red: 0.13, green: 0.13, blue: 0.17))
+
+            // 비활성 베이스 (어둡고 채도 낮은 이모지)
+            Text(item.emoji)
+                .font(.system(size: size * 0.5))
+                .saturation(0.12).opacity(0.32)
+
+            // 활성화 레이어 — 경과한 만큼 시계방향으로 밝게
+            Text(item.emoji)
+                .font(.system(size: size * 0.5))
+                .clipShape(ActivationWedge(progress: item.cooldownProgress))
+
+            // 남은 시간 — 아이콘 위 중앙
+            Text(item.remainingCooldown.widgetFormatted)
+                .font(.system(size: size * 0.24, weight: .heavy, design: .rounded))
+                .foregroundStyle(.white)
+                .shadow(color: .black.opacity(0.85), radius: 2, y: 1)
+                .minimumScaleFactor(0.6).lineLimit(1)
+
+            RoundedRectangle(cornerRadius: corner)
+                .stroke(ctHold.opacity(0.7), lineWidth: 2)
         }
         .frame(width: size, height: size)
     }
@@ -126,19 +161,16 @@ private struct InterventionSmall: View {
         else { savedView }
     }
 
-    // 아직 참는 중 → 이모지 + "아직 N일" 만
+    // 아직 참는 중 → 스킬 아이콘(이모지 깔고 시계방향 활성화 + 남은시간) + 이름
     private func holdView(_ item: WidgetCooldownItem) -> some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text(item.emoji).font(.system(size: 46))
-            Spacer()
+        VStack(spacing: 8) {
+            WidgetSkillIcon(item: item, size: 84)
             Text(item.name)
-                .font(.subheadline).fontWeight(.semibold)
+                .font(.caption).fontWeight(.semibold)
                 .lineLimit(1).minimumScaleFactor(0.8)
-            Text("아직 \(item.remainingCooldown.widgetFormatted)")
-                .font(.title2).fontWeight(.bold).foregroundStyle(ctHold)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-        .padding(16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .padding(12)
     }
 
     // 다 가능 → 스트릭/절약 한 줄씩
@@ -174,12 +206,12 @@ private struct InterventionMedium: View {
 
     private var content: some View {
         HStack(spacing: 16) {
-            // 왼쪽: 히어로 하나 — 이모지 링 + "아직 N일"
+            // 왼쪽: 히어로 하나 — 스킬 아이콘 + 이름
             if let h = entry.hero {
-                VStack(spacing: 8) {
-                    ChargeRing(progress: h.cooldownProgress, emoji: h.emoji, size: 64)
-                    Text("아직 \(h.remainingCooldown.widgetFormatted)")
-                        .font(.headline).fontWeight(.bold).foregroundStyle(ctHold)
+                VStack(spacing: 6) {
+                    WidgetSkillIcon(item: h, size: 72)
+                    Text(h.name)
+                        .font(.caption).fontWeight(.semibold)
                         .lineLimit(1).minimumScaleFactor(0.8)
                 }
                 .frame(maxWidth: .infinity)
@@ -236,11 +268,10 @@ private struct InterventionLarge: View {
 
             if let h = entry.hero {
                 HStack(spacing: 14) {
-                    ChargeRing(progress: h.cooldownProgress, emoji: h.emoji, size: 56)
+                    WidgetSkillIcon(item: h, size: 60)
                     VStack(alignment: .leading, spacing: 2) {
+                        Text("아직이에요").font(.caption).fontWeight(.bold).foregroundStyle(ctHold)
                         Text(h.name).font(.headline).fontWeight(.bold).lineLimit(1)
-                        Text("아직 \(h.remainingCooldown.widgetFormatted)")
-                            .font(.title3).fontWeight(.bold).foregroundStyle(ctHold)
                     }
                     Spacer()
                 }
@@ -373,14 +404,35 @@ struct CoolTimeAccessoryView: View {
 
 // MARK: - Previews
 
+private func sampleEntry() -> CoolTimeEntry {
+    let items = [
+        WidgetCooldownItem(id: UUID(), name: "온라인 쇼핑", emoji: "🛍️",
+                           cooldownDuration: 14 * 86400,
+                           lastUsedDate: Date().addingTimeInterval(-4 * 86400),
+                           estimatedCost: 50000, category: "기타"),
+        WidgetCooldownItem(id: UUID(), name: "배달음식", emoji: "🍕",
+                           cooldownDuration: 3 * 86400,
+                           lastUsedDate: Date().addingTimeInterval(-86400),
+                           estimatedCost: 25000, category: "기타")
+    ]
+    return CoolTimeEntry(date: .now, items: items,
+                         stats: WidgetStats(totalItems: 2, onCooldownCount: 2,
+                                            monthlySavings: 305000, isPro: true,
+                                            streakDays: 14, lastSync: Date()))
+}
+
 #Preview("Small", as: .systemSmall) {
     CoolTimeWidget()
-} timeline: {
-    CoolTimeEntry(date: .now, items: [], stats: WidgetStats(isPro: true))
-}
+} timeline: { sampleEntry() }
+
+#Preview("Medium", as: .systemMedium) {
+    CoolTimeWidget()
+} timeline: { sampleEntry() }
+
+#Preview("Large", as: .systemLarge) {
+    CoolTimeWidget()
+} timeline: { sampleEntry() }
 
 #Preview("Lock Rectangular", as: .accessoryRectangular) {
     CoolTimeAccessoryWidget()
-} timeline: {
-    CoolTimeEntry(date: .now, items: [], stats: WidgetStats(isPro: true))
-}
+} timeline: { sampleEntry() }

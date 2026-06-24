@@ -145,6 +145,24 @@ final class CooldownManager {
         #if DEBUG
         seedSampleDataIfNeeded()
         #endif
+        applyPendingPurchases()
+    }
+
+    /// App Intent("샀어요")가 큐에 적은 구매를 실제 항목에 반영 (쿨타임 재시작 + 기록)
+    private func applyPendingPurchases() {
+        let ids = WidgetDataStore.consumePendingPurchases()
+        guard !ids.isEmpty else { return }
+        var changed = false
+        for id in ids {
+            if let item = items.first(where: { $0.id == id }) {
+                item.use()
+                changed = true
+            }
+        }
+        if changed {
+            saveContext()
+            fetchItems()
+        }
     }
 
     #if DEBUG

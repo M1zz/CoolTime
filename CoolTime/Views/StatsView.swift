@@ -8,6 +8,7 @@ struct StatsView: View {
     var manager: CooldownManager
 
     @State private var showingPaywall = false
+    @State private var showingAutomation = false
 
     var body: some View {
         NavigationStack {
@@ -17,6 +18,14 @@ struct StatsView: View {
                 } else {
                     List {
                         savingsHero
+
+                        Section {
+                            Button { showingAutomation = true } label: {
+                                Label("지를 때 자동으로 멈추기", systemImage: "hand.raised.fill")
+                                    .font(.headline)
+                            }
+                            .accessibilityHint("배달·쇼핑 앱 열 때 자동으로 묻게 설정해요")
+                        }
 
                         Section {
                             ForEach(sortedItems) { item in
@@ -66,6 +75,9 @@ struct StatsView: View {
             }
             .sheet(isPresented: $showingPaywall) {
                 PaywallView(trigger: .statsHistory).environment(purchaseManager)
+            }
+            .sheet(isPresented: $showingAutomation) {
+                AutomationGuideView()
             }
         }
     }
