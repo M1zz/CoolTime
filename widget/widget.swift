@@ -19,7 +19,16 @@ struct CoolTimeEntry: TimelineEntry {
         items.filter { $0.isOnCooldown }.sorted { $0.remainingCooldown < $1.remainingCooldown }
     }
 
-    /// 지금 "지를" 위험이 가장 큰 항목 = 돈이 가장 많이 걸린, 아직 참는 중인 것
+    /// 지금 사용 가능한 항목 (이름순)
+    var ready: [WidgetCooldownItem] {
+        items.filter { !$0.isOnCooldown }
+            .sorted { $0.name.localizedCaseInsensitiveCompare($1.name) == .orderedAscending }
+    }
+
+    /// 쿨타임 중인 것 먼저(곧 풀리는 순) → 그다음 사용 가능
+    var ordered: [WidgetCooldownItem] { waiting + ready }
+
+    /// 지를 위험이 가장 큰 항목 = 돈이 가장 많이 걸린 대기 항목
     var hero: WidgetCooldownItem? {
         waiting.max(by: { ($0.estimatedCost ?? 0) < ($1.estimatedCost ?? 0) }) ?? waiting.first
     }
@@ -85,6 +94,7 @@ private struct WidgetSkillIcon: View {
     let item: WidgetCooldownItem
     let size: CGFloat
     private var corner: CGFloat { size * 0.24 }
+    private var isReady: Bool { !item.isOnCooldown }
 
     var body: some View {
         ZStack {
@@ -96,22 +106,63 @@ private struct WidgetSkillIcon: View {
                 .font(.system(size: size * 0.5))
                 .saturation(0.12).opacity(0.32)
 
-            // 활성화 레이어 — 경과한 만큼 시계방향으로 밝게
+            // 활성화 레이어 — 경과한 만큼 시계방향으로 밝게 (사용 가능이면 꽉 참)
             Text(item.emoji)
                 .font(.system(size: size * 0.5))
-                .clipShape(ActivationWedge(progress: item.cooldownProgress))
+                .clipShape(ActivationWedge(progress: isReady ? 1 : item.cooldownProgress))
 
-            // 남은 시간 — 아이콘 위 중앙
-            Text(item.remainingCooldown.widgetFormatted)
-                .font(.system(size: size * 0.24, weight: .heavy, design: .rounded))
-                .foregroundStyle(.white)
-                .shadow(color: .black.opacity(0.85), radius: 2, y: 1)
-                .minimumScaleFactor(0.6).lineLimit(1)
+            // 쿨타임 중일 때만 남은 시간 오버레이
+            if !isReady {
+                Text(item.remainingCooldown.widgetFormatted)
+                    .font(.system(size: size * 0.24, weight: .heavy, design: .rounded))
+                    .foregroundStyle(.white)
+                    .shadow(color: .black.opacity(0.85), radius: 2, y: 1)
+                    .minimumScaleFactor(0.6).lineLimit(1)
+            }
 
             RoundedRectangle(cornerRadius: corner)
-                .stroke(ctHold.opacity(0.7), lineWidth: 2)
+                .stroke((isReady ? ctSave : ctHold).opacity(isReady ? 0.9 : 0.7),
+                        lineWidth: isReady ? 3 : 2)
         }
         .frame(width: size, height: size)
+    }
+}
+
+/// 상태에 맞는 액션 버튼. full=true면 대기 항목에 참았어요/그냥 샀어요 둘 다,
+/// full=false면 대표 액션 하나(대기=참음, 사용가능=스킬 사용).
+private struct WidgetActionButtons: View {
+    let item: WidgetCooldownItem
+    var full: Bool = true
+
+    private var id: String { item.id.uuidString }
+
+    var body: some View {
+        if item.isOnCooldown {
+            if full {
+                HStack(spacing: 6) {
+                    Button(intent: ResistIntent(itemId: id)) {
+                        Label("참았어요", systemImage: "hand.raised.fill")
+                            .font(.caption2).fontWeight(.bold).frame(maxWidth: .infinity)
+                    }.tint(ctSave)
+                    Button(intent: BuyIntent(itemId: id)) {
+                        Label("그냥 샀어요", systemImage: "cart.fill")
+                            .font(.caption2).fontWeight(.bold).frame(maxWidth: .infinity)
+                    }.tint(.gray)
+                }
+                .buttonStyle(.borderedProminent)
+            } else {
+                Button(intent: ResistIntent(itemId: id)) {
+                    Label("참음", systemImage: "hand.raised.fill").font(.caption2).fontWeight(.bold)
+                }
+                .buttonStyle(.borderedProminent).tint(ctSave)
+            }
+        } else {
+            Button(intent: BuyIntent(itemId: id)) {
+                Label("스킬 사용", systemImage: "bolt.fill").font(.caption2).fontWeight(.bold)
+                    .frame(maxWidth: full ? .infinity : nil)
+            }
+            .buttonStyle(.borderedProminent).tint(ctSave)
+        }
     }
 }
 
@@ -199,38 +250,30 @@ private struct InterventionMedium: View {
     }
 
     private var content: some View {
-        HStack(spacing: 16) {
-            // 왼쪽: 히어로 하나 — 스킬 아이콘 + 이름
-            if let h = entry.hero {
-                VStack(spacing: 6) {
-                    WidgetSkillIcon(item: h, size: 72)
-                    Text(h.name)
-                        .font(.caption).fontWeight(.semibold)
-                        .lineLimit(1).minimumScaleFactor(0.8)
+        let target = entry.hero ?? entry.ready.first
+        return HStack(spacing: 14) {
+            if let t = target {
+                WidgetSkillIcon(item: t, size: 64)
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(t.isOnCooldown ? "아직이에요" : "지금 가능")
+                        .font(.caption).fontWeight(.bold)
+                        .foregroundStyle(t.isOnCooldown ? ctHold : ctSave)
+                    Text(t.name).font(.headline).fontWeight(.bold).lineLimit(1)
+                    WidgetActionButtons(item: t, full: true)
                 }
-                .frame(maxWidth: .infinity)
+                .frame(maxWidth: .infinity, alignment: .leading)
             } else {
                 VStack(spacing: 8) {
-                    Image(systemName: "checkmark.seal.fill").font(.system(size: 44)).foregroundStyle(ctSave)
-                    Text("충동 없이").font(.headline).fontWeight(.bold)
+                    Image(systemName: "checkmark.seal.fill").font(.system(size: 40)).foregroundStyle(ctSave)
+                    if entry.stats.monthlySavings > 0 {
+                        Text("₩\(entry.stats.monthlySavings.formatted()) 아낌")
+                            .font(.subheadline).fontWeight(.bold).foregroundStyle(ctSave)
+                    } else {
+                        Text("충동 없이 가는 중").font(.headline).fontWeight(.bold)
+                    }
                 }
                 .frame(maxWidth: .infinity)
             }
-
-            Divider()
-
-            // 오른쪽: 스트릭 + 이번 달 절약
-            VStack(alignment: .leading, spacing: 6) {
-                if entry.stats.streakDays > 0 {
-                    Text("🔥 \(entry.stats.streakDays)일째").font(.headline).fontWeight(.bold)
-                }
-                Spacer().frame(height: 2)
-                Text("₩\(entry.stats.monthlySavings.formatted())")
-                    .font(.title3).fontWeight(.bold).foregroundStyle(ctSave)
-                    .lineLimit(1).minimumScaleFactor(0.7)
-                Text("이번 달 아낌").font(.caption2).foregroundStyle(.secondary)
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding(16)
     }
@@ -260,48 +303,36 @@ private struct InterventionLarge: View {
                 }
             }
 
+            // 히어로 (가장 돈 걸린 대기 항목) — 큰 버튼 둘
             if let h = entry.hero {
                 VStack(spacing: 10) {
                     HStack(spacing: 14) {
-                        WidgetSkillIcon(item: h, size: 60)
+                        WidgetSkillIcon(item: h, size: 56)
                         VStack(alignment: .leading, spacing: 2) {
                             Text("아직이에요").font(.caption).fontWeight(.bold).foregroundStyle(ctHold)
                             Text(h.name).font(.headline).fontWeight(.bold).lineLimit(1)
                         }
                         Spacer()
                     }
-                    // 앱 안 열고 위젯에서 바로 기록
-                    HStack(spacing: 8) {
-                        Button(intent: ResistIntent(itemId: h.id.uuidString)) {
-                            Label("참았어요", systemImage: "hand.raised.fill")
-                                .font(.caption).fontWeight(.bold)
-                                .frame(maxWidth: .infinity)
-                        }
-                        .tint(ctSave)
-                        Button(intent: BuyIntent(itemId: h.id.uuidString)) {
-                            Label("샀어요", systemImage: "cart.fill")
-                                .font(.caption).fontWeight(.bold)
-                                .frame(maxWidth: .infinity)
-                        }
-                        .tint(.secondary)
-                    }
-                    .buttonStyle(.borderedProminent)
+                    WidgetActionButtons(item: h, full: true)
                 }
-                .padding(14)
+                .padding(12)
                 .background(ctHold.opacity(0.10), in: RoundedRectangle(cornerRadius: 16))
             }
 
-            Divider()
-
-            // 나머지 참는 항목 — 짧게
-            VStack(spacing: 10) {
-                ForEach(entry.waiting.dropFirst().prefix(4)) { item in
+            // 나머지 항목들 — 스킬 바(각자 액션 버튼)
+            VStack(spacing: 8) {
+                ForEach(entry.ordered.filter { $0.id != entry.hero?.id }.prefix(entry.hero == nil ? 5 : 3)) { item in
                     HStack(spacing: 10) {
-                        Text(item.emoji).font(.title3)
-                        Text(item.name).font(.subheadline).lineLimit(1)
+                        WidgetSkillIcon(item: item, size: 38)
+                        VStack(alignment: .leading, spacing: 1) {
+                            Text(item.name).font(.subheadline).fontWeight(.medium).lineLimit(1)
+                            Text(item.isOnCooldown ? "아직 \(item.remainingCooldown.widgetFormatted)" : "사용 가능")
+                                .font(.caption2)
+                                .foregroundStyle(item.isOnCooldown ? ctHold : ctSave)
+                        }
                         Spacer()
-                        Text("아직 \(item.remainingCooldown.widgetFormatted)")
-                            .font(.subheadline).fontWeight(.bold).foregroundStyle(ctHold)
+                        WidgetActionButtons(item: item, full: false)
                     }
                 }
             }
@@ -425,10 +456,14 @@ private func sampleEntry() -> CoolTimeEntry {
         WidgetCooldownItem(id: UUID(), name: "배달음식", emoji: "🍕",
                            cooldownDuration: 3 * 86400,
                            lastUsedDate: Date().addingTimeInterval(-86400),
-                           estimatedCost: 25000, category: "기타")
+                           estimatedCost: 25000, category: "기타"),
+        WidgetCooldownItem(id: UUID(), name: "커피", emoji: "☕️",
+                           cooldownDuration: 86400,
+                           lastUsedDate: Date().addingTimeInterval(-2 * 86400),
+                           estimatedCost: 5000, category: "기타")
     ]
     return CoolTimeEntry(date: .now, items: items,
-                         stats: WidgetStats(totalItems: 2, onCooldownCount: 2,
+                         stats: WidgetStats(totalItems: 3, onCooldownCount: 2,
                                             monthlySavings: 305000, isPro: true,
                                             streakDays: 14, lastSync: Date()))
 }
