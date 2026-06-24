@@ -206,13 +206,24 @@ private struct InterventionSmall: View {
         else { savedView }
     }
 
-    // 아직 참는 중 → 스킬 아이콘(이모지 깔고 시계방향 활성화 + 남은시간) + 이름
+    // 아직 참는 중 → 작은 스킬 아이콘 + 액션 버튼 (이름 텍스트는 생략해 자리 확보)
     private func holdView(_ item: WidgetCooldownItem) -> some View {
         VStack(spacing: 8) {
-            WidgetSkillIcon(item: item, size: 84)
-            Text(item.name)
-                .font(.caption).fontWeight(.semibold)
-                .lineLimit(1).minimumScaleFactor(0.8)
+            WidgetSkillIcon(item: item, size: 50)
+            VStack(spacing: 5) {
+                Button(intent: ResistIntent(itemId: item.id.uuidString)) {
+                    Label("참았어요", systemImage: "hand.raised.fill")
+                        .font(.caption2).fontWeight(.bold).frame(maxWidth: .infinity)
+                }
+                .tint(ctSave)
+                Button(intent: BuyIntent(itemId: item.id.uuidString)) {
+                    Label("그냥 샀어요", systemImage: "cart.fill")
+                        .font(.caption2).fontWeight(.bold).frame(maxWidth: .infinity)
+                }
+                .tint(.gray)
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.small)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding(12)
