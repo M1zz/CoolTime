@@ -66,41 +66,33 @@ struct CooldownTile: View {
     @ViewBuilder
     private var actionButtons: some View {
         if isReady {
-            Button(action: onUse) {
-                Label("했어요", systemImage: "checkmark")
-                    .font(.subheadline).fontWeight(.bold)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 9)
-                    .foregroundStyle(.white)
-                    .background(Capsule().fill(AppTheme.readyStrong))
-            }
-            .buttonStyle(.plain)
-            .accessibilityLabel("\(item.name) 했어요")
+            pillButton("했어요", systemImage: "checkmark",
+                       color: AppTheme.readyStrong, action: onUse)
+                .accessibilityLabel("\(item.name) 했어요")
         } else {
             HStack(spacing: 8) {
-                Button(action: onResist) {
-                    Label("참았어요", systemImage: "hand.raised.fill")
-                        .font(.caption).fontWeight(.bold)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 9)
-                        .foregroundStyle(.white)
-                        .background(Capsule().fill(AppTheme.readyStrong))
-                }
-                .buttonStyle(.plain)
-                .accessibilityLabel("\(item.name) 참았어요")
-
-                Button(action: onUse) {
-                    Image(systemName: "cart.fill")
-                        .font(.caption).fontWeight(.bold)
-                        .frame(width: 38)
-                        .padding(.vertical, 9)
-                        .foregroundStyle(.secondary)
-                        .background(Capsule().fill(Color(.tertiarySystemBackground)))
-                }
-                .buttonStyle(.plain)
-                .accessibilityLabel("\(item.name) 그냥 샀어요")
+                pillButton("참았어요", systemImage: "hand.raised.fill",
+                           color: AppTheme.readyStrong, action: onResist)
+                    .accessibilityLabel("\(item.name) 참았어요")
+                pillButton("샀어요", systemImage: "cart.fill",
+                           color: AppTheme.danger, action: onUse)
+                    .accessibilityLabel("\(item.name) 그냥 샀어요")
             }
         }
+    }
+
+    private func pillButton(_ title: LocalizedStringKey, systemImage: String,
+                            color: Color, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Label(title, systemImage: systemImage)
+                .font(.caption).fontWeight(.bold)
+                .lineLimit(1).minimumScaleFactor(0.8)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 9)
+                .foregroundStyle(.white)
+                .background(Capsule().fill(color))
+        }
+        .buttonStyle(.plain)
     }
 
     // MARK: - Skill Icon

@@ -5,7 +5,8 @@ import AppIntents
 // MARK: - Design Tokens
 
 private let ctHold = Color(red: 0.10, green: 0.35, blue: 0.85)   // 아직 / 참는 중
-private let ctSave = Color(red: 0.00, green: 0.55, blue: 0.30)   // 아낀 돈
+private let ctSave = Color(red: 0.00, green: 0.55, blue: 0.30)   // 아낀 돈 / 참았어요
+private let ctDanger = Color(red: 0.85, green: 0.25, blue: 0.25) // 그냥 샀어요
 
 // MARK: - Timeline Entry
 
@@ -154,7 +155,7 @@ private struct WidgetActionButtons: View {
                     Button(intent: BuyIntent(itemId: id)) {
                         Image(systemName: "cart.fill")
                             .font(.callout).frame(maxWidth: .infinity)
-                    }.tint(.gray)
+                    }.tint(ctDanger)
                 }
             }
             .buttonStyle(.borderedProminent)
