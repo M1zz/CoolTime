@@ -160,14 +160,22 @@ struct StatsView: View {
                 Text(item.name)
                     .font(.headline)
 
-                if let last = item.lastUsedDate {
-                    Text(String(format: NSLocalizedString("마지막 %@", comment: ""), relativeText(last)))
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                } else {
-                    Text("아직 한 번도 안 했어요")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                HStack(spacing: 8) {
+                    if let last = item.lastUsedDate {
+                        Text(String(format: NSLocalizedString("마지막 %@", comment: ""), relativeText(last)))
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    } else {
+                        Text("아직 한 번도 안 했어요")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
+                    // 항목별 참은 횟수
+                    if item.resistCount > 0 {
+                        Label("\(item.resistCount)", systemImage: "hand.raised.fill")
+                            .font(.caption).fontWeight(.semibold)
+                            .foregroundStyle(AppTheme.readyStrong)
+                    }
                 }
             }
 

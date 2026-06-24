@@ -127,9 +127,12 @@ struct WidgetDataStore {
         defaults.set(pending, forKey: pendingBuyKey)
     }
 
-    /// "참았어요": 쿨타임 그대로, 참은 기록만 큐 적재
+    /// "참았어요": 쿨타임 그대로, 큐 적재 + 스냅샷 카운터 즉시 +1(위젯 피드백)
     static func recordResist(itemId: UUID) {
         guard let defaults = sharedDefaults else { return }
+        var stats = loadStats()
+        stats.totalResist += 1
+        saveStats(stats)
         var pending = defaults.array(forKey: pendingResistKey) as? [String] ?? []
         pending.append(itemId.uuidString)
         defaults.set(pending, forKey: pendingResistKey)
@@ -145,6 +148,7 @@ struct WidgetStats: Codable {
     var monthlySavings: Int = 0
     var isPro: Bool = false
     var streakDays: Int = 0          // 충동 없이 이어온 연속 일수
+    var totalResist: Int = 0         // 충동을 이긴(참은) 총 횟수
     var lastSync: Date? = nil        // 앱이 마지막으로 위젯 데이터를 쓴 시각 (진단용)
 }
 

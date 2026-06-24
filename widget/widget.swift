@@ -211,8 +211,13 @@ private struct InterventionSmall: View {
 
     // 아직 참는 중 → 작은 스킬 아이콘 + 심볼 액션 버튼 (이름 텍스트 생략)
     private func holdView(_ item: WidgetCooldownItem) -> some View {
-        VStack(spacing: 10) {
-            WidgetSkillIcon(item: item, size: 58)
+        VStack(spacing: 8) {
+            // 참은 횟수 — 버튼 누르면 즉시 +1 되는 피드백
+            Label("\(entry.stats.totalResist)", systemImage: "hand.raised.fill")
+                .font(.caption2).fontWeight(.bold).foregroundStyle(ctSave)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+                .opacity(entry.stats.totalResist > 0 ? 1 : 0)
+            WidgetSkillIcon(item: item, size: 52)
             WidgetActionButtons(item: item, full: true)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -256,9 +261,16 @@ private struct InterventionMedium: View {
             if let t = target {
                 WidgetSkillIcon(item: t, size: 64)
                 VStack(alignment: .leading, spacing: 6) {
-                    Text(t.isOnCooldown ? "아직이에요" : "지금 가능")
-                        .font(.caption).fontWeight(.bold)
-                        .foregroundStyle(t.isOnCooldown ? ctHold : ctSave)
+                    HStack {
+                        Text(t.isOnCooldown ? "아직이에요" : "지금 가능")
+                            .font(.caption).fontWeight(.bold)
+                            .foregroundStyle(t.isOnCooldown ? ctHold : ctSave)
+                        Spacer()
+                        if entry.stats.totalResist > 0 {
+                            Label("\(entry.stats.totalResist)", systemImage: "hand.raised.fill")
+                                .font(.caption2).fontWeight(.bold).foregroundStyle(ctSave)
+                        }
+                    }
                     Text(t.name).font(.headline).fontWeight(.bold).lineLimit(1)
                     WidgetActionButtons(item: t, full: true)
                 }
@@ -292,8 +304,12 @@ private struct InterventionLarge: View {
 
     private var content: some View {
         VStack(alignment: .leading, spacing: 12) {
-            HStack {
+            HStack(spacing: 8) {
                 Text("충동 멈춤").font(.title3).fontWeight(.bold)
+                if entry.stats.totalResist > 0 {
+                    Label("\(entry.stats.totalResist)", systemImage: "hand.raised.fill")
+                        .font(.subheadline).fontWeight(.bold).foregroundStyle(ctSave)
+                }
                 Spacer()
                 if entry.stats.monthlySavings > 0 {
                     VStack(alignment: .trailing, spacing: 0) {

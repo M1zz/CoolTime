@@ -463,6 +463,7 @@ final class CooldownManager {
             monthlySavings: monthlySavings,
             isPro: PurchaseManager.shared.isPro,
             streakDays: streakDays,
+            totalResist: totalResistCount,
             lastSync: Date()
         )
         WidgetDataStore.saveStats(stats)
