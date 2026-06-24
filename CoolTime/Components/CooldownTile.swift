@@ -82,33 +82,42 @@ struct CooldownTile: View {
             RoundedRectangle(cornerRadius: iconCorner)
                 .fill(slotBackground)
 
-            // 1) 비활성화 베이스 — 어둡고 채도 낮은 이모지 (꺼진 상태)
+            // 1) 비활성화 베이스 — 거의 꺼진 상태(대비 강화)
             Text(item.emoji)
                 .font(.system(size: 46))
-                .saturation(0.12)
-                .opacity(0.32)
+                .saturation(0)
+                .opacity(0.14)
 
             // 2) 활성화 레이어 — 경과한 만큼 시계 방향으로 밝게 차오름
-            //    progress 0(막 사용=완전히 꺼짐) → 1(준비됨=완전히 밝음)
             Text(item.emoji)
                 .font(.system(size: 46))
                 .clipShape(ActivationWedge(progress: isReady ? 1 : item.cooldownProgress))
                 .animation(reduceMotion ? nil : .linear(duration: 1.0), value: item.cooldownProgress)
 
-            // 남은 시간 — 크게 중앙 위에 (쿨타임 중)
+            // 3) 시계방향 진행 링 — "얼마나 찼는지"를 명확히 (쿨타임 중)
             if !isReady {
-                Text(item.remainingCooldown.compactCooldownFormatted)
-                    .font(.system(size: 26, weight: .heavy, design: .rounded))
-                    .foregroundStyle(.white)
-                    .shadow(color: .black.opacity(0.8), radius: 2, y: 1)
-                    .minimumScaleFactor(0.6)
-                    .lineLimit(1)
-                    .padding(.horizontal, 6)
+                Circle()
+                    .trim(from: 0, to: item.cooldownProgress)
+                    .stroke(style.color, style: StrokeStyle(lineWidth: 4, lineCap: .round))
+                    .rotationEffect(.degrees(-90))
+                    .padding(3)
+                    .animation(reduceMotion ? nil : .linear(duration: 1.0), value: item.cooldownProgress)
             }
 
-            // 테두리 = 상태의 답. 사용 가능이면 또렷하게(할 수 있다), 대기면 옅게(아직).
+            // 남은 시간 — 중앙 아래쪽(이모지 가림 최소화)
+            if !isReady {
+                Text(item.remainingCooldown.compactCooldownFormatted)
+                    .font(.system(size: 22, weight: .heavy, design: .rounded))
+                    .foregroundStyle(.white)
+                    .shadow(color: .black.opacity(0.9), radius: 2, y: 1)
+                    .minimumScaleFactor(0.6)
+                    .lineLimit(1)
+                    .offset(y: iconSize * 0.22)
+            }
+
+            // 테두리
             RoundedRectangle(cornerRadius: iconCorner)
-                .stroke(style.color.opacity(isReady ? 1.0 : 0.3),
+                .stroke(style.color.opacity(isReady ? 1.0 : 0.25),
                         lineWidth: isReady ? 3 : 1.5)
         }
         .frame(width: iconSize, height: iconSize)

@@ -101,28 +101,35 @@ private struct WidgetSkillIcon: View {
             RoundedRectangle(cornerRadius: corner)
                 .fill(Color(red: 0.13, green: 0.13, blue: 0.17))
 
-            // 비활성 베이스 (어둡고 채도 낮은 이모지)
+            // 비활성 베이스 — 거의 꺼진 상태(대비 강화)
             Text(item.emoji)
                 .font(.system(size: size * 0.5))
-                .saturation(0.12).opacity(0.32)
+                .saturation(0).opacity(0.14)
 
             // 활성화 레이어 — 경과한 만큼 시계방향으로 밝게 (사용 가능이면 꽉 참)
             Text(item.emoji)
                 .font(.system(size: size * 0.5))
                 .clipShape(ActivationWedge(progress: isReady ? 1 : item.cooldownProgress))
 
-            // 쿨타임 중일 때만 남은 시간 오버레이
+            // 시계방향 진행 링 (쿨타임 중)
             if !isReady {
+                Circle()
+                    .trim(from: 0, to: item.cooldownProgress)
+                    .stroke(ctHold, style: StrokeStyle(lineWidth: size * 0.06, lineCap: .round))
+                    .rotationEffect(.degrees(-90))
+                    .padding(size * 0.05)
+
                 Text(item.remainingCooldown.widgetFormatted)
-                    .font(.system(size: size * 0.24, weight: .heavy, design: .rounded))
+                    .font(.system(size: size * 0.2, weight: .heavy, design: .rounded))
                     .foregroundStyle(.white)
-                    .shadow(color: .black.opacity(0.85), radius: 2, y: 1)
+                    .shadow(color: .black.opacity(0.9), radius: 2, y: 1)
                     .minimumScaleFactor(0.6).lineLimit(1)
+                    .offset(y: size * 0.22)
             }
 
             RoundedRectangle(cornerRadius: corner)
-                .stroke((isReady ? ctSave : ctHold).opacity(isReady ? 0.9 : 0.7),
-                        lineWidth: isReady ? 3 : 2)
+                .stroke((isReady ? ctSave : ctHold).opacity(isReady ? 0.9 : 0.25),
+                        lineWidth: isReady ? 3 : 1.5)
         }
         .frame(width: size, height: size)
     }
