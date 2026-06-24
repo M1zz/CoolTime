@@ -33,6 +33,7 @@
 		B7A00001014 /* CooldownRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002014 /* CooldownRow.swift */; };
 		B7A00001015 /* CooldownTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002015 /* CooldownTile.swift */; };
 		B7A00001016 /* ../Intents/CoolTimeIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002016 /* ../Intents/CoolTimeIntents.swift */; };
+		B7A00001018 /* WidgetActionIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002018 /* WidgetActionIntents.swift */; };
 		B7A00001017 /* AutomationGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002017 /* AutomationGuideView.swift */; };
 		CC000001001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC000003001 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -88,6 +89,7 @@
 		B7A00002014 /* CooldownRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownRow.swift; sourceTree = "<group>"; };
 		B7A00002015 /* CooldownTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownTile.swift; sourceTree = "<group>"; };
 		B7A00002016 /* ../Intents/CoolTimeIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../Intents/CoolTimeIntents.swift; sourceTree = "<group>"; };
+		B7A00002018 /* WidgetActionIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WidgetActionIntents.swift; path = ../../widget/WidgetActionIntents.swift; sourceTree = "<group>"; };
 		B7A00002017 /* AutomationGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationGuideView.swift; sourceTree = "<group>"; };
 		B7A00003001 /* CoolTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC000002001 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				B7A00002014 /* CooldownRow.swift */,
 				B7A00002015 /* CooldownTile.swift */,
 				B7A00002016 /* ../Intents/CoolTimeIntents.swift */,
+				B7A00002018 /* WidgetActionIntents.swift */,
 				B7A00002010 /* UseItemSheet.swift */,
 				B7A00002011 /* ItemCardCompact.swift */,
 			);
@@ -356,6 +359,7 @@
 				B7A00001014 /* CooldownRow.swift in Sources */,
 				B7A00001015 /* CooldownTile.swift in Sources */,
 				B7A00001016 /* ../Intents/CoolTimeIntents.swift in Sources */,
+				B7A00001018 /* WidgetActionIntents.swift in Sources */,
 				B7A0000100C /* NotificationManager.swift in Sources */,
 				B7A0000100D /* SharedData.swift in Sources */,
 				B7A0000100E /* AppTheme.swift in Sources */,
