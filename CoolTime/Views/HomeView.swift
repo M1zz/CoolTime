@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 /// 메인 홈 화면
 struct HomeView: View {
@@ -51,12 +52,18 @@ struct HomeView: View {
             .background(AppTheme.pageBackground(for: colorScheme))
             .navigationTitle("쿨타임")
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItemGroup(placement: .topBarLeading) {
                     Button(action: { manager.showingStats = true }) {
                         Image(systemName: "chart.bar.fill")
                             .foregroundStyle(AppTheme.cooldown)
                     }
                     .accessibilityLabel("통계 보기")
+
+                    Button(action: { manager.showingSettings = true }) {
+                        Image(systemName: "gearshape.fill")
+                            .foregroundStyle(.secondary)
+                    }
+                    .accessibilityLabel("설정")
                 }
 
                 ToolbarItemGroup(placement: .topBarTrailing) {
@@ -81,6 +88,9 @@ struct HomeView: View {
             }
             .sheet(isPresented: $manager.showingStats) {
                 StatsView(manager: manager)
+            }
+            .sheet(isPresented: $manager.showingSettings) {
+                SettingsView()
             }
             .sheet(item: $selectedItem) { item in
                 UseItemSheet(item: item, isPresented: .init(
@@ -433,6 +443,51 @@ struct SummaryCard: View {
             RoundedRectangle(cornerRadius: 16)
                 .stroke(color.opacity(0.4), lineWidth: 1.5)
         )
+    }
+}
+
+// MARK: - Settings View
+
+/// 설정 화면 (개발자 문의 포함)
+struct SettingsView: View {
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                DeveloperContactSection()
+                Section {
+                    LeeoSupportSection<CoolTimeSpec>()
+                } header: {
+                    Text("지원")
+                }
+            }
+            .navigationTitle("설정")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("완료") { dismiss() }
+                }
+            }
+        }
+    }
+}
+
+// MARK: - 개발자 문의
+struct DeveloperContactSection: View {
+    var body: some View {
+        Section {
+            Link(destination: URL(string: "mailto:leeo@kakao.com")!) {
+                Label("이메일로 문의하기", systemImage: "envelope")
+            }
+            Link(destination: URL(string: "https://instagram.com/lee25_ios")!) {
+                Label("인스타그램 DM (@lee25_ios)", systemImage: "paperplane")
+            }
+        } header: {
+            Text("개발자에게 문의")
+        } footer: {
+            Text("버그 제보와 기능 제안을 환영합니다.")
+        }
     }
 }
 

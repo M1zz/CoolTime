@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */; };
+		7E0390B931D7C9EF59A6686C /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2E19A2083D3D4C5000D551 /* LeeoKit */; };
 		9C61BFBA2EDD56D200BC5930 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */; };
 		9C61BFBC2EDD56D200BC5930 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */; };
 		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -54,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeSpec.swift; sourceTree = "<group>"; };
 		9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -78,7 +81,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9C61BFCE2EDD56D300BC5930 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		9C61BFCE2EDD56D300BC5930 /* Exceptions for "widget" folder in "widgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -88,7 +91,18 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9C61BFBD2EDD56D200BC5930 /* widget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9C61BFCE2EDD56D300BC5930 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = widget; sourceTree = "<group>"; };
+		9C61BFBD2EDD56D200BC5930 /* widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9C61BFCE2EDD56D300BC5930 /* Exceptions for "widget" folder in "widgetExtension" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0390B931D7C9EF59A6686C /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 				B7A00005007 /* Components */,
 				B7A00005008 /* Theme */,
 				B7A00002002 /* Assets.xcassets */,
+				7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */,
 			);
 			path = CoolTime;
 			sourceTree = "<group>";
@@ -222,8 +238,6 @@
 				9C61BFBD2EDD56D200BC5930 /* widget */,
 			);
 			name = widgetExtension;
-			packageProductDependencies = (
-			);
 			productName = widgetExtension;
 			productReference = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -243,6 +257,9 @@
 				9C61BFCC2EDD56D300BC5930 /* PBXTargetDependency */,
 			);
 			name = CoolTime;
+			packageProductDependencies = (
+				2E2E19A2083D3D4C5000D551 /* LeeoKit */,
+			);
 			productName = CoolTime;
 			productReference = B7A00003001 /* CoolTime.app */;
 			productType = "com.apple.product-type.application";
@@ -275,6 +292,9 @@
 				ko,
 			);
 			mainGroup = B7A00005001;
+			packageReferences = (
+				29EA0694BBDDE083318C34FD /* XCLocalSwiftPackageReference "LeeoKit" */,
+			);
 			productRefGroup = B7A00005003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -331,6 +351,7 @@
 				B7A0000100F /* OnboardingView.swift in Sources */,
 				B7A00001010 /* UseItemSheet.swift in Sources */,
 				B7A00001011 /* ItemCardCompact.swift in Sources */,
+				7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +644,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		29EA0694BBDDE083318C34FD /* XCLocalSwiftPackageReference "LeeoKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LeeoKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E2E19A2083D3D4C5000D551 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29EA0694BBDDE083318C34FD /* XCLocalSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7A00008001 /* Project object */;
 }
