@@ -11,9 +11,12 @@ struct CoolTimeApp: App {
         let schema = Schema([
             CooldownItem.self,
         ])
+        // 앱 데이터는 기기에만 둔다. entitlements 의 iCloud 컨테이너(FeedbackHub)는 피드백 전송용이라,
+        // 지정하지 않으면 SwiftData 가 그 컨테이너로 CloudKit 동기화를 켜려다 스키마 검사에서 실패한다.
         let modelConfiguration = ModelConfiguration(
             schema: schema,
-            isStoredInMemoryOnly: false
+            isStoredInMemoryOnly: false,
+            cloudKitDatabase: .none
         )
 
         do {
