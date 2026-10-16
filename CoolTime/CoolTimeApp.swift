@@ -32,8 +32,8 @@ struct CoolTimeApp: App {
     init() {
         // 알림 카테고리 설정
         NotificationManager.shared.setupNotificationCategories()
-        // 앱 실행 등록 (리뷰/만족도 프롬프트 게이팅용)
-        LeeoEngagement.shared.registerLaunch()
+        // 앱 실행 등록(리뷰/만족도 프롬프트 게이팅) · 크래시 진단 · 익명 사용 통계 (FeedbackHub)
+        LeeoKit.bootstrap(CoolTimeSpec.self)
     }
 
     var body: some Scene {
