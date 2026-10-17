@@ -12,6 +12,7 @@
 		9C61BFBA2EDD56D200BC5930 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */; };
 		9C61BFBC2EDD56D200BC5930 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */; };
 		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */; };
 		B7A00001001 /* CoolTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002001 /* CoolTimeApp.swift */; };
 		B7A00001002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A00002002 /* Assets.xcassets */; };
 		B7A00001003 /* CooldownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002003 /* CooldownItem.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeRoadmap.swift; sourceTree = "<group>"; };
 		7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeSpec.swift; sourceTree = "<group>"; };
 		9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -156,6 +158,7 @@
 				B7A00005008 /* Theme */,
 				B7A00002002 /* Assets.xcassets */,
 				7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */,
+				210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */,
 			);
 			path = CoolTime;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				B7A00001010 /* UseItemSheet.swift in Sources */,
 				B7A00001011 /* ItemCardCompact.swift in Sources */,
 				7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */,
+				A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +554,6 @@
 		B7A00009003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CoolTime/CoolTime.entitlements;
@@ -560,6 +563,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "쿨타임";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -585,7 +589,6 @@
 		B7A00009004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CoolTime/CoolTime.entitlements;
@@ -595,6 +598,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "쿨타임";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -655,7 +659,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.16.1;
+				minimumVersion = 3.20.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -461,6 +461,9 @@ struct SettingsView: View {
                 } header: {
                     Text("지원")
                 }
+                Section {
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
+                }
             }
             .navigationTitle("설정")
             .navigationBarTitleDisplayMode(.inline)
