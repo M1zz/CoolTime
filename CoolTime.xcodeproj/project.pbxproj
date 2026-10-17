@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51B9D52994CE9C3BCF6146DC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F8001F068C8CE41802E8A319 /* Localizable.xcstrings */; };
 		7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */; };
 		7E0390B931D7C9EF59A6686C /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2E19A2083D3D4C5000D551 /* LeeoKit */; };
 		9C61BFBA2EDD56D200BC5930 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */; };
@@ -80,6 +81,7 @@
 		B7A00002010 /* UseItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseItemSheet.swift; sourceTree = "<group>"; };
 		B7A00002011 /* ItemCardCompact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardCompact.swift; sourceTree = "<group>"; };
 		B7A00003001 /* CoolTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8001F068C8CE41802E8A319 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -159,6 +161,7 @@
 				B7A00002002 /* Assets.xcassets */,
 				7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */,
 				210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */,
+				F8001F068C8CE41802E8A319 /* Localizable.xcstrings */,
 			);
 			path = CoolTime;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A00001002 /* Assets.xcassets in Resources */,
+				51B9D52994CE9C3BCF6146DC /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
