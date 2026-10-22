@@ -3,6 +3,12 @@
   "strings" : {
     "%lld%% 준수" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodržování %lld %%"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -91,6 +97,36 @@
     },
     "%lld개" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položka"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položky"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položky"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položek"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -287,6 +323,36 @@
     },
     "%lld개 아이템" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položka"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položky"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položky"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld položek"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -483,6 +549,12 @@
     },
     "%lld분" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -571,6 +643,12 @@
     },
     "%lld시간" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -659,6 +737,12 @@
     },
     "%lld일" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -747,6 +831,12 @@
     },
     "+%lld개 더" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld dalších"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -835,6 +925,12 @@
     },
     "✅ %lld개 사용 가능" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ K dispozici: %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -923,6 +1019,12 @@
     },
     "곧!" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Už brzy!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1011,6 +1113,12 @@
     },
     "다음 쿨타임 종료 시간" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konec další čekací doby"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1099,6 +1207,12 @@
     },
     "대기 중" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čeká"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1301,12 @@
     },
     "모두 사용 가능" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše je k dispozici"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1275,6 +1395,12 @@
     },
     "모두 사용 가능!" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše je k dispozici!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1363,6 +1489,12 @@
     },
     "사용 가능" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "K dispozici"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1451,6 +1583,12 @@
     },
     "아이템 추가" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat položku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1539,6 +1677,12 @@
     },
     "이번 달 ₩%@ 절약" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tento měsíc ušetřeno ₩%@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1627,6 +1771,12 @@
     },
     "쿨타임" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1715,6 +1865,12 @@
     },
     "쿨타임 중" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V čekací době"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1803,6 +1959,12 @@
     },
     "쿨타임 현황을 한눈에 확인하세요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekací doby na první pohled"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

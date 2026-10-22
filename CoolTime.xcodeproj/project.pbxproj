@@ -308,6 +308,7 @@
 				"pt-BR",
 				th,
 				vi,
+				cs,
 			);
 			mainGroup = B7A00005001;
 			packageReferences = (

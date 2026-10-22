@@ -88,3 +88,9 @@ Novas páginas de privacidade e ajuda
 Đã sửa lỗi để ứng dụng ổn định hơn
 Giờ có thể gửi phản hồi trong ứng dụng
 Thêm trang quyền riêng tư và trợ giúp
+
+### 앱스토어 (cs)
+
+Opravili jsme chyby pro stabilnější chod
+Zpětnou vazbu pošleš přímo v aplikaci
+Nové stránky o soukromí a nápovědě

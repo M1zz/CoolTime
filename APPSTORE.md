@@ -769,3 +769,58 @@ Thông báo và tiện ích
 Nhận thông báo khi thời gian chờ đi được nửa chặng và khi kết thúc, rồi xem thời gian còn lại ngay trên tiện ích Màn hình chính và Màn hình khóa.
 
 Dữ liệu chỉ lưu trên thiết bị này và không cần tài khoản.
+
+## cs
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/cs/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/cs/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/cs/
+
+### 이름
+
+CoolTime: čekej, než utratíš
+
+### 부제
+
+Chvilku počkej před nákupem
+
+### 키워드
+
+úspory,návyky,sebeovládání,rozpočet,peníze,výzva,bez výdajů,rozvoz,káva,alkohol,časovač,cíle,finance
+
+### 프로모션 텍스트
+
+Nastav čekací dobu u toho, co si chceš odepřít. Sleduj, kolik zbývá, než to smíš znovu, a vypěstuj si návyk klidně čekat.
+
+### 설명
+
+Rozvoz jídla, nakupování, zákusky v kavárně. Když tě popadne chuť utrácet, nastav na to čekací dobu jako u schopnosti ve hře.
+CoolTime je aplikace pro spotřební návyky: počkáš, až čekací doba skončí, a uvidíš, kolik jsi ušetřil(a) tím, že ses ovládl(a).
+
+Nastav čekací dobu
+U každé položky zvol název, emoji, jak dlouho počkat, než ji použiješ znovu, a kolik stojí jedno použití. Běžné doby jako 3 dny, 1 týden nebo 1 měsíc vybereš jedním klepnutím.
+
+Co můžeš použít, na první pohled
+Úvodní obrazovka odděluje dostupné položky od těch v čekací době a kruhový ukazatel se zmenšuje podle zbývajícího času.
+
+Ještě jedno zastavení před porušením
+Když se pokusíš položku použít během čekací doby, aplikace ukáže zbývající čas a upozorní, že se sníží míra dodržování. Pokud ji přesto potřebuješ, můžeš přidat poznámku a skutečnou cenu.
+
+Míra dodržování a odhadované úspory
+Podívej se, jak často jsi čekací doby dodržel(a) a kolik jsi tento měsíc ušetřil(a). Statistiky ukazují dodržování podle položek a kategorií i historii používání.
+
+Doporučené šablony
+Jedním klepnutím přidej běžné čekací doby pro cestování, nákupy, jídlo, zábavu, životní styl, zdraví a finance.
+
+Oznámení a widgety
+Dostaneš upozornění v polovině čekací doby i na jejím konci a zbývající čas uvidíš přímo ve widgetech na ploše a na zamčené obrazovce.
+
+Záznamy se ukládají jen do tohoto zařízení a nepotřebuješ žádný účet.
