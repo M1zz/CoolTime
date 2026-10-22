@@ -1043,3 +1043,58 @@ Notifikasi dan widget
 Dapatkan pemberitahuan saat waktu jeda sudah setengah jalan dan saat selesai, lalu lihat sisa waktu langsung di widget Layar Utama dan Layar Kunci.
 
 Catatanmu hanya disimpan di perangkat ini dan tidak perlu akun.
+
+## nb
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/nb/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/nb/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/nb/
+
+### 이름
+
+CoolTime: Vent før du kjøper
+
+### 부제
+
+Pause før du bruker penger
+
+### 키워드
+
+sparing,vaner,selvkontroll,budsjett,penger,utfordring,pengefri,levering,kaffe,alkohol,tidtaker,mål
+
+### 프로모션 텍스트
+
+Sett en ventetid på det du vil holde igjen på. Se hvor lenge det er til du kan igjen, og bygg vanen med å vente rolig.
+
+### 설명
+
+Matlevering, shopping, desserter på kafé. Når lysten til å bruke penger melder seg, sett en ventetid på den som på en evne i et spill.
+CoolTime er en app for forbruksvaner: Du venter til ventetiden er over, og ser hvor mye du har spart på å holde igjen.
+
+Sett en ventetid
+For hvert element velger du et navn, en emoji, hvor lenge du vil vente før du bruker det igjen, og hva det koster hver gang. Vanlige perioder som 3 dager, 1 uke eller 1 måned velger du med ett trykk.
+
+Se på et blikk hva som er klart
+Startskjermen deler elementene i de som er klare, og de som er i ventetid, og en sirkulær måler krymper etter hvert som tiden går.
+
+Én pause til før du bryter den
+Hvis du prøver å bruke noe i en ventetid, viser appen gjenstående tid og forteller at etterlevelsesprosenten din synker. Hvis du likevel trenger det, kan du skrive et notat og den faktiske prisen.
+
+Etterlevelsesprosent og anslått sparing
+Se hvor ofte du har overholdt ventetidene og hvor mye du har spart denne måneden. Statistikken viser etterlevelse per element og kategori, pluss bruksloggen din.
+
+Anbefalte maler
+Legg til vanlige ventetider for reiser, shopping, mat, underholdning, livsstil, helse og økonomi med ett trykk.
+
+Varsler og widgeter
+Få beskjed når ventetiden er halvveis og når den er over, og se gjenstående tid rett i widgeter på Hjem-skjermen og låseskjermen.
+
+Registreringene lagres bare på denne enheten, og du trenger ingen konto.

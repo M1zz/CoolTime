@@ -81,6 +81,12 @@
             "value" : "%lld%% 준수"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etterlevelse %lld%%"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -329,6 +335,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개"
+          }
+        },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld element"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementer"
+                }
+              }
+            }
           }
         },
         "pt-BR" : {
@@ -617,6 +641,24 @@
             "value" : "%lld개 아이템"
           }
         },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld element"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementer"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -771,6 +813,12 @@
             "value" : "%lld분"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -887,6 +935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld시간"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld t"
           }
         },
         "pt-BR" : {
@@ -1007,6 +1061,12 @@
             "value" : "%lld일"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1123,6 +1183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "+%lld개 더"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld til"
           }
         },
         "pt-BR" : {
@@ -1243,6 +1309,12 @@
             "value" : "✅ %lld개 사용 가능"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld klare"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1359,6 +1431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "곧!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snart!"
           }
         },
         "pt-BR" : {
@@ -1479,6 +1557,12 @@
             "value" : "다음 쿨타임 종료 시간"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste ventetid slutter"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1595,6 +1679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "대기 중"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter"
           }
         },
         "pt-BR" : {
@@ -1715,6 +1805,12 @@
             "value" : "모두 사용 가능"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er klart"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1831,6 +1927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모두 사용 가능!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er klart!"
           }
         },
         "pt-BR" : {
@@ -1951,6 +2053,12 @@
             "value" : "사용 가능"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2067,6 +2175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이템 추가"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til element"
           }
         },
         "pt-BR" : {
@@ -2187,6 +2301,12 @@
             "value" : "이번 달 ₩%@ 절약"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ spart denne måneden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2303,6 +2423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
           }
         },
         "pt-BR" : {
@@ -2423,6 +2549,12 @@
             "value" : "쿨타임 중"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I ventetid"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2539,6 +2671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 현황을 한눈에 확인하세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ventetidene dine på et blikk"
           }
         },
         "pt-BR" : {

@@ -118,3 +118,9 @@ Uudet tietosuoja- ja ohjesivut
 Perbaikan agar aplikasi lebih stabil
 Kini bisa kirim masukan lewat aplikasi
 Halaman privasi dan bantuan baru
+
+### 앱스토어 (nb)
+
+Rettet feil for mer stabil drift
+Du kan nå sende tilbakemelding i appen
+Nye sider for personvern og hjelp
