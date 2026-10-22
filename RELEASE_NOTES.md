@@ -23,6 +23,12 @@ Fixed issues for more reliable launches
 You can now send feedback in the app
 Added new privacy policy and help pages
 
+### 앱스토어 (zh-Hans)
+
+修复问题，让应用运行更稳定
+现在可以直接在应用内发送意见反馈
+新增了隐私政策和帮助页面
+
 ### 앱스토어 (ja)
 
 アプリがより安定して動くように修正しました

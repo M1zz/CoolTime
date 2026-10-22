@@ -297,6 +297,7 @@
 				Base,
 				ko,
 				"en-GB",
+				"zh-Hans",
 				ja,
 			);
 			mainGroup = B7A00005001;

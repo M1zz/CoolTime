@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "%lld%% 준수"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遵守率 %lld%%"
+          }
         }
       }
     },
@@ -77,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld个"
           }
         }
       }
@@ -130,6 +142,12 @@
             "state" : "translated",
             "value" : "%lld개 아이템"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld个项目"
+          }
         }
       }
     },
@@ -157,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld분"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
           }
         }
       }
@@ -186,6 +210,12 @@
             "state" : "translated",
             "value" : "%lld시간"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld小时"
+          }
         }
       }
     },
@@ -213,6 +243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld일"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld天"
           }
         }
       }
@@ -242,6 +278,12 @@
             "state" : "translated",
             "value" : "+%lld개 더"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还有%lld个"
+          }
         }
       }
     },
@@ -269,6 +311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ %lld개 사용 가능"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld个可使用"
           }
         }
       }
@@ -298,6 +346,12 @@
             "state" : "translated",
             "value" : "곧!"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "马上！"
+          }
         }
       }
     },
@@ -325,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음 쿨타임 종료 시간"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一个冷却结束时间"
           }
         }
       }
@@ -354,6 +414,12 @@
             "state" : "translated",
             "value" : "대기 중"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等待中"
+          }
         }
       }
     },
@@ -381,6 +447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모두 사용 가능"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部可使用"
           }
         }
       }
@@ -410,6 +482,12 @@
             "state" : "translated",
             "value" : "모두 사용 가능!"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部可使用！"
+          }
         }
       }
     },
@@ -437,6 +515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용 가능"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可使用"
           }
         }
       }
@@ -466,6 +550,12 @@
             "state" : "translated",
             "value" : "아이템 추가"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加项目"
+          }
         }
       }
     },
@@ -493,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이번 달 ₩%@ 절약"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本月节省 ₩%@"
           }
         }
       }
@@ -522,6 +618,12 @@
             "state" : "translated",
             "value" : "쿨타임"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷却时间"
+          }
         }
       }
     },
@@ -550,6 +652,12 @@
             "state" : "translated",
             "value" : "쿨타임 중"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷却中"
+          }
         }
       }
     },
@@ -577,6 +685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 현황을 한눈에 확인하세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷却情况一目了然"
           }
         }
       }
