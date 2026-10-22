@@ -714,3 +714,58 @@ CoolTime คือแอปสร้างนิสัยการใช้จ�
 รับการแจ้งเตือนเมื่อคูลดาวน์ผ่านครึ่งทางและเมื่อจบ แล้วดูเวลาที่เหลือได้ทันทีจากวิดเจ็ตบนหน้าจอโฮมและหน้าจอล็อก
 
 บันทึกถูกเก็บไว้ในอุปกรณ์เครื่องนี้เท่านั้น ไม่ต้องมีบัญชี
+
+## vi
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/vi/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/vi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/vi/
+
+### 이름
+
+CoolTime: Chờ rồi hãy mua
+
+### 부제
+
+Dừng lại trước khi chi tiêu
+
+### 키워드
+
+tiết kiệm,thói quen,tự chủ,ngân sách,tài chính,thử thách,đồ ăn giao,cà phê,rượu bia,hẹn giờ,mục tiêu
+
+### 프로모션 텍스트
+
+Đặt thời gian chờ cho những điều bạn muốn kiềm chế. Xem còn bao lâu nữa mới được làm lại và tạo thói quen kiên nhẫn chờ đợi.
+
+### 설명
+
+Đặt đồ ăn, mua sắm, món tráng miệng ở quán cà phê. Khi muốn chi tiêu, hãy đặt thời gian chờ như hồi chiêu của một kỹ năng trong game.
+CoolTime là ứng dụng xây dựng thói quen chi tiêu: bạn chờ đến khi hết thời gian chờ, rồi xem mình đã tiết kiệm được bao nhiêu nhờ kiềm chế.
+
+Đặt thời gian chờ
+Với mỗi mục, chọn tên, biểu tượng cảm xúc, thời gian chờ trước khi dùng lại và chi phí mỗi lần. Các khoảng thời gian phổ biến như 3 ngày, 1 tuần, 1 tháng chọn được bằng một lần chạm.
+
+Biết ngay mục nào dùng được
+Màn hình chính tách riêng các mục dùng được và các mục đang chờ, cùng một vòng tròn thu nhỏ dần theo thời gian còn lại.
+
+Thêm một lần dừng lại trước khi phá vỡ
+Nếu bạn định dùng trong lúc đang chờ, ứng dụng hiển thị thời gian còn lại và báo rằng tỷ lệ tuân thủ sẽ giảm. Nếu vẫn cần dùng, bạn có thể thêm ghi chú và chi phí thực tế.
+
+Tỷ lệ tuân thủ và số tiền tiết kiệm ước tính
+Xem bạn giữ đúng thời gian chờ thường xuyên đến đâu và tháng này tiết kiệm được bao nhiêu. Thống kê cho thấy mức tuân thủ theo từng mục và danh mục, cùng lịch sử sử dụng.
+
+Mẫu đề xuất
+Thêm bằng một lần chạm các thời gian chờ phổ biến về du lịch, mua sắm, ăn uống, giải trí, lối sống, sức khỏe và tài chính.
+
+Thông báo và tiện ích
+Nhận thông báo khi thời gian chờ đi được nửa chặng và khi kết thúc, rồi xem thời gian còn lại ngay trên tiện ích Màn hình chính và Màn hình khóa.
+
+Dữ liệu chỉ lưu trên thiết bị này và không cần tài khoản.

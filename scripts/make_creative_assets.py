@@ -21,7 +21,7 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일. 쿨타임은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
+STORE = {"ko": "ko", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -43,6 +43,7 @@ SEARCH = {
     "pt-BR": ("Timer CoolTime", "O que você segura<br>fica no bolso", "Delivery e compras esperam a recarga terminar"),
     "ru": ("Таймер CoolTime", "Что сдержали —<br>то и сэкономили", "Доставка и шопинг подождут конца перезарядки"),
     "th": ("ตัวจับเวลา CoolTime", "ยั้งใจได้เท่าไร<br>เงินก็เหลือเท่านั้น", "เดลิเวอรี่กับช้อปปิ้งต้องรอให้คูลดาวน์จบ"),
+    "vi": ("Hẹn giờ CoolTime", "Kiềm chế được bao nhiêu<br>tiền còn bấy nhiêu", "Đồ ăn giao và mua sắm chờ hết thời gian chờ"),
 }
 
 # 헤더 — 처음 온 사람에게 한 가지 약속: 지르고 싶을 때 게임 스킬처럼 쿨타임을 건다.
@@ -58,6 +59,7 @@ HEADER = {
     "pt-BR": ("Recarga de gastos", "Primeiro a recarga,<br>depois a compra"),
     "ru": ("Перезарядка трат", "Сначала перезарядка,<br>потом покупка"),
     "th": ("คูลดาวน์การใช้จ่าย", "คูลดาวน์ก่อน<br>แล้วค่อยซื้อ"),
+    "vi": ("Thời gian chờ chi tiêu", "Chờ trước,<br>mua sau"),
 }
 
 # 바탕 · 글자색은 앱 화면(AppTheme)과 같다: 밝은 회색 페이지, 에메랄드 그린(사용 가능),

@@ -82,3 +82,9 @@ Novas páginas de privacidade e ajuda
 แก้ไขให้แอปทำงานเสถียรขึ้น
 ส่งความคิดเห็นได้ในแอปแล้ว
 เปิดหน้านโยบายความเป็นส่วนตัวและวิธีใช้
+
+### 앱스토어 (vi)
+
+Đã sửa lỗi để ứng dụng ổn định hơn
+Giờ có thể gửi phản hồi trong ứng dụng
+Thêm trang quyền riêng tư và trợ giúp

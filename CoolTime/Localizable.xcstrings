@@ -69,6 +69,12 @@
             "value" : "%@ %@ ใช้ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, dùng được"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ เหลือคูลดาวน์ %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, còn %@ thời gian chờ"
           }
         },
         "zh-Hans" : {
@@ -233,6 +245,12 @@
             "value" : "%@ ครึ่งทางแล้ว!"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Được nửa chặng đường!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ คูลดาวน์จบแล้ว!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Hết thời gian chờ!"
           }
         },
         "zh-Hans" : {
@@ -397,6 +421,12 @@
             "value" : "ผ่านครึ่งทางของคูลดาวน์ %@ แล้ว! อดทนอีกนิด 💪"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn đã đi qua nửa thời gian chờ của %@! Cố thêm chút nữa nhé 💪"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คูลดาวน์ของ%@จบแล้ว ใช้ได้เลย!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian chờ của %@ đã hết. Giờ bạn có thể dùng rồi!"
           }
         },
         "zh-Hans" : {
@@ -669,6 +705,12 @@
             "value" : "%lld รายการ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mục"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -749,6 +791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld เดือน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld tháng"
           }
         },
         "zh-Hans" : {
@@ -941,6 +989,12 @@
             "value" : "ทุก %lld เดือน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi %lld tháng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1021,6 +1075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld นาที"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld phút"
           }
         },
         "zh-Hans" : {
@@ -1105,6 +1165,12 @@
             "value" : "%lld นาที %lld วิ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld phút %lld giây"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1253,12 @@
             "value" : "%lld ชม."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld giờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1267,6 +1339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld ชม. %lld นาที"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld giờ %lld phút"
           }
         },
         "zh-Hans" : {
@@ -1459,6 +1537,12 @@
             "value" : "ทุก %lld ชั่วโมง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi %lld giờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1541,6 +1625,12 @@
             "value" : "%lld วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ngày"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1621,6 +1711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld วัน %lld ชม."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ngày %lld giờ"
           }
         },
         "zh-Hans" : {
@@ -1813,6 +1909,12 @@
             "value" : "ทุก %lld วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi %lld ngày"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1893,6 +1995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld สัปดาห์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld tuần"
           }
         },
         "zh-Hans" : {
@@ -2085,6 +2193,12 @@
             "value" : "ทุก %lld สัปดาห์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi %lld tuần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2165,6 +2279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld วิ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld giây"
           }
         },
         "zh-Hans" : {
@@ -2357,6 +2477,12 @@
             "value" : "%lld ครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2547,6 +2673,12 @@
             "value" : "ใช้ %lld ครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng %lld lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2627,6 +2759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบผลลัพธ์สำหรับ “%@”"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có kết quả cho “%@”"
           }
         },
         "zh-Hans" : {
@@ -2711,6 +2849,12 @@
             "value" : "1 เดือน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 tháng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2791,6 +2935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 สัปดาห์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 tuần"
           }
         },
         "zh-Hans" : {
@@ -2875,6 +3025,12 @@
             "value" : "2 เดือน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 tháng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2957,6 +3113,12 @@
             "value" : "2 สัปดาห์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 tuần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3037,6 +3199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 วัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 ngày"
           }
         },
         "zh-Hans" : {
@@ -3122,6 +3290,12 @@
             "value" : "ล็อกด้วย Face ID"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa bằng Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3203,6 +3377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อให้ประวัติของคุณเป็นส่วนตัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa ứng dụng bằng Face ID hoặc Touch ID để giữ lịch sử của bạn riêng tư."
           }
         },
         "zh-Hans" : {
@@ -3288,6 +3468,12 @@
             "value" : "บันทึกการใช้ได้ทันทีด้วยการบอก Siri หรือเรียกใช้คำสั่งลัด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi lại một lượt dùng ngay bằng cách nói với Siri hoặc chạy phím tắt."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3369,6 +3555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri และคำสั่งลัด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri và Phím tắt"
           }
         },
         "zh-Hans" : {
@@ -3454,6 +3646,12 @@
             "value" : "รองรับ VoiceOver ได้ดียิ่งขึ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ VoiceOver tốt hơn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3534,6 +3732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giá trị"
           }
         },
         "zh-Hans" : {
@@ -3618,6 +3822,12 @@
             "value" : "ติดต่อนักพัฒนา"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ nhà phát triển"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3698,6 +3908,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เดือน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tháng"
           }
         },
         "zh-Hans" : {
@@ -3782,6 +3998,12 @@
             "value" : "ข้าม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3862,6 +4084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบผลลัพธ์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có kết quả"
           }
         },
         "zh-Hans" : {
@@ -3946,6 +4174,12 @@
             "value" : "ล้างคำค้นหา"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa từ khóa tìm kiếm"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4026,6 +4260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เติมเงินในเกม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nạp tiền game"
           }
         },
         "zh-Hans" : {
@@ -4110,6 +4350,12 @@
             "value" : "เติมเงินในเกมทุก 2 สัปดาห์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nạp tiền game 2 tuần một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4190,6 +4436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เหมือนคูลดาวน์สกิลในเกม\nตั้งเวลารอให้การใช้จ่ายและนิสัยของคุณ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giống thời gian hồi chiêu trong game,\nhãy đặt thời gian chờ cho chi tiêu và thói quen"
           }
         },
         "zh-Hans" : {
@@ -4274,6 +4526,12 @@
             "value" : "คำเตือน: กำลังคูลดาวน์ ถ้าใช้ตอนนี้ อัตราการรักษาวินัยจะลดลง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảnh báo: đang trong thời gian chờ. Nếu dùng ngay bây giờ, tỷ lệ tuân thủ sẽ giảm"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4354,6 +4612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สู้ต่อไป 💪"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cố lên nào 💪"
           }
         },
         "zh-Hans" : {
@@ -4438,6 +4702,12 @@
             "value" : "ช้อปปิ้งชิ้นใหญ่ (₩100,000 ขึ้นไป)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mua sắm lớn (từ ₩100.000)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4518,6 +4788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใกล้แล้ว!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sắp xong!"
           }
         },
         "zh-Hans" : {
@@ -4602,6 +4878,12 @@
             "value" : "ดูการแสดง 2 เดือนครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem biểu diễn 2 tháng một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4682,6 +4964,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เที่ยวในประเทศ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du lịch trong nước"
           }
         },
         "zh-Hans" : {
@@ -4767,6 +5055,12 @@
             "value" : "หน้าจอจัดเรียงใหม่อย่างเป็นระเบียบแทนที่จะถูกตัดเมื่อขยายขนาดตัวอักษร"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình tự sắp xếp gọn gàng thay vì bị cắt khi bạn phóng to chữ."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4848,6 +5142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซิงค์ข้ามอุปกรณ์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ giữa các thiết bị"
           }
         },
         "zh-Hans" : {
@@ -4932,6 +5232,12 @@
             "value" : "ข้อมูลพื้นฐาน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông tin cơ bản"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5012,6 +5318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฝ่าฝืน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phá vỡ"
           }
         },
         "zh-Hans" : {
@@ -5096,6 +5408,12 @@
             "value" : "จำนวนครั้งที่ฝ่าฝืน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số lần phá vỡ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5176,6 +5494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วิเคราะห์นิสัยของคุณ\nด้วยสถิติเฉพาะตัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phân tích thói quen\nbằng thống kê của riêng bạn"
           }
         },
         "zh-Hans" : {
@@ -5260,6 +5584,12 @@
             "value" : "ไว้ทีหลัง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Để sau"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5340,6 +5670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เวลาที่เหลือ: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian còn lại: %@"
           }
         },
         "zh-Hans" : {
@@ -5425,6 +5761,12 @@
             "value" : "ลบข้อมูลทั้งหมดของคุณ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ dữ liệu của bạn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5505,6 +5847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำเล็บ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Làm móng"
           }
         },
         "zh-Hans" : {
@@ -5589,6 +5937,12 @@
             "value" : "ทำเล็บทุก 3 สัปดาห์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Làm móng 3 tuần một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5669,6 +6023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูซีรีส์รวดเดียว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cày phim liên tục"
           }
         },
         "zh-Hans" : {
@@ -5753,6 +6113,12 @@
             "value" : "ลองใช้คำค้นอื่น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy thử từ khóa khác"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5833,6 +6199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถัดไป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp"
           }
         },
         "zh-Hans" : {
@@ -5917,6 +6289,12 @@
             "value" : "วันโกงอาหารสัปดาห์ละครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày ăn thoải mái khi ăn kiêng mỗi tuần một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5999,6 +6377,12 @@
             "value" : "หน่วย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đơn vị"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6079,6 +6463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ของหวานทุก 4 วัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ ngọt 4 ngày một lần"
           }
         },
         "zh-Hans" : {
@@ -6164,6 +6554,12 @@
             "value" : "ทุกอย่างยังอ่านออกได้ แม้เปิดเพิ่มคอนทราสต์หรือแยกสีได้ยาก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi thứ vẫn dễ đọc, kể cả khi bật Tăng độ tương phản hoặc khi khó phân biệt màu."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6245,6 +6641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้แอปได้หลายภาษามากขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
           }
         },
         "zh-Hans" : {
@@ -6330,6 +6732,12 @@
             "value" : "ภาษาเพิ่มเติม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm ngôn ngữ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6410,6 +6818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ของหวาน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Món tráng miệng"
           }
         },
         "zh-Hans" : {
@@ -6494,6 +6908,12 @@
             "value" : "ล็อตเตอรี่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xổ số"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6574,6 +6994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อตเตอรี่สัปดาห์ละครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xổ số mỗi tuần một lần"
           }
         },
         "zh-Hans" : {
@@ -6658,6 +7084,12 @@
             "value" : "นวด/สปา"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massage/spa"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6738,6 +7170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นวดทุก 2 สัปดาห์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massage 2 tuần một lần"
           }
         },
         "zh-Hans" : {
@@ -6822,6 +7260,12 @@
             "value" : "บันทึก (ไม่บังคับ)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi chú (không bắt buộc)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6902,6 +7346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทุกอย่างกำลังคูลดาวน์ รออยู่: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi mục đều đang trong thời gian chờ. Đang đợi: %lld"
           }
         },
         "zh-Hans" : {
@@ -6986,6 +7436,12 @@
             "value" : "ดูซีรีส์รวดเดียวทุก 3 วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cày phim liên tục 3 ngày một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7066,6 +7522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ร้านทำผม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiệm làm tóc"
           }
         },
         "zh-Hans" : {
@@ -7150,6 +7612,12 @@
             "value" : "ทำผมเดือนละครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Làm tóc mỗi tháng một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7232,6 +7700,12 @@
             "value" : "สั่งเดลิเวอรี่ทุก 3 วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt đồ ăn 3 ngày một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7312,6 +7786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เดลิเวอรี่อาหาร"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ ăn giao tận nơi"
           }
         },
         "zh-Hans" : {
@@ -7397,6 +7877,12 @@
             "value" : "สำรองข้อมูลและส่งออก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao lưu và xuất dữ liệu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7477,6 +7963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยินดีรับรายงานข้อผิดพลาดและข้อเสนอแนะฟีเจอร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rất hoan nghênh báo lỗi và đề xuất tính năng."
           }
         },
         "zh-Hans" : {
@@ -7562,6 +8054,12 @@
             "value" : "สีและคอนทราสต์ที่สบายตาขึ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu sắc và độ tương phản dễ nhìn hơn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7642,6 +8140,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใส่ค่าใช้จ่ายแล้วเราจะคำนวณเงินที่คุณประหยัดได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập chi phí để chúng tôi tính số tiền bạn đã tiết kiệm"
           }
         },
         "zh-Hans" : {
@@ -7726,6 +8230,12 @@
             "value" : "ใช้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7808,6 +8318,12 @@
             "value" : "ใช้ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng được"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7888,6 +8404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ได้ (%lld)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng được (%lld)"
           }
         },
         "zh-Hans" : {
@@ -8080,6 +8602,12 @@
             "value" : "%lld รายการที่ใช้ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mục dùng được"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8160,6 +8688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ได้: %lld · กำลังคูลดาวน์: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng được: %lld · Đang chờ: %lld"
           }
         },
         "zh-Hans" : {
@@ -8244,6 +8778,12 @@
             "value" : "เสร็จสิ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8324,6 +8864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng"
           }
         },
         "zh-Hans" : {
@@ -8408,6 +8954,12 @@
             "value" : "ลบ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8488,6 +9040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกโดยละเอียด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lịch sử chi tiết"
           }
         },
         "zh-Hans" : {
@@ -8572,6 +9130,12 @@
             "value" : "คูลดาวน์ใหม่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian chờ mới"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8652,6 +9216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มคูลดาวน์ใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm thời gian chờ mới"
           }
         },
         "zh-Hans" : {
@@ -8736,6 +9306,12 @@
             "value" : "การตั้งค่า"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8816,6 +9392,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดื่มแอลกอฮอล์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uống rượu bia"
           }
         },
         "zh-Hans" : {
@@ -8900,6 +9482,12 @@
             "value" : "ชั่วโมง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8982,6 +9570,12 @@
             "value" : "เริ่มต้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9062,6 +9656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่าใช้จ่ายจริง (ไม่บังคับ)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chi phí thực tế (không bắt buộc)"
           }
         },
         "zh-Hans" : {
@@ -9147,6 +9747,12 @@
             "value" : "เคล็ดลับที่เป็นประโยชน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mẹo hữu ích"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9227,6 +9833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไอคอน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biểu tượng"
           }
         },
         "zh-Hans" : {
@@ -9311,6 +9923,12 @@
             "value" : "รายการ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mục"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9393,6 +10011,12 @@
             "value" : "ค้นหารายการ..."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm mục..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9473,6 +10097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การรักษาวินัยแยกตามรายการ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuân thủ theo mục"
           }
         },
         "zh-Hans" : {
@@ -9558,6 +10188,12 @@
             "value" : "ใช้ฟีเจอร์หลักด้วยคีย์บอร์ดอย่างเดียวบน iPad หรือ Mac"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng các tính năng chính chỉ với bàn phím trên iPad hoặc Mac."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9639,6 +10275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูคูลดาวน์เดียวกันบน iPhone และ iPad"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem cùng các thời gian chờ trên iPhone và iPad."
           }
         },
         "zh-Hans" : {
@@ -9723,6 +10365,12 @@
             "value" : "ยังไม่มีคูลดาวน์ ลองเพิ่มดูสิ!"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có thời gian chờ nào. Hãy thử thêm một mục!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9803,6 +10451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีคูลดาวน์ เพิ่มจากเทมเพลตหรือสร้างเองได้เลย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có thời gian chờ nào. Hãy thêm từ mẫu hoặc tự tạo"
           }
         },
         "zh-Hans" : {
@@ -9887,6 +10541,12 @@
             "value" : "ยังไม่มีคูลดาวน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có thời gian chờ nào"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9967,6 +10627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีกิจกรรม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có hoạt động"
           }
         },
         "zh-Hans" : {
@@ -10051,6 +10717,12 @@
             "value" : "ไม่พลาด\nการแจ้งเตือน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không bỏ lỡ\nthông báo nào"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10133,6 +10805,12 @@
             "value" : "การแจ้งเตือนปิดอยู่ แตะปุ่มการตั้งค่าเพื่อเปิด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông báo đang tắt. Hãy chạm nút Cài đặt để bật"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10213,6 +10891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การแจ้งเตือนปิดอยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông báo đang tắt"
           }
         },
         "zh-Hans" : {
@@ -10298,6 +10982,12 @@
             "value" : "คำแนะนำเบา ๆ เกี่ยวกับฟีเจอร์ที่มีประโยชน์ ในจังหวะที่คุณต้องการ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gợi ý nhẹ nhàng về các tính năng hữu ích, đúng lúc bạn cần."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10380,6 +11070,12 @@
             "value" : "มื้อดึก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ăn khuya"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10460,6 +11156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มื้อดึกทุก 5 วัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ăn khuya 5 ngày một lần"
           }
         },
         "zh-Hans" : {
@@ -10545,6 +11247,12 @@
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะเห็นว่ามีอะไรใหม่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu mở ứng dụng sau khi cập nhật, bạn sẽ thấy có gì mới."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10626,6 +11334,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มีอะไรใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có gì mới"
           }
         },
         "zh-Hans" : {
@@ -10710,6 +11424,12 @@
             "value" : "โรงภาพยนตร์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rạp chiếu phim"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10790,6 +11510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูหนังทุก 2 สัปดาห์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem phim 2 tuần một lần"
           }
         },
         "zh-Hans" : {
@@ -10874,6 +11600,12 @@
             "value" : "ค่าใช้จ่ายโดยประมาณ (ไม่บังคับ)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chi phí dự kiến (không bắt buộc)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10954,6 +11686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประหยัด (ประมาณ)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiết kiệm (ước tính)"
           }
         },
         "zh-Hans" : {
@@ -11038,6 +11776,12 @@
             "value" : "ประมาณ: ₩%@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dự kiến: ₩%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11118,6 +11862,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คูลดาวน์วันนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian chờ hôm nay"
           }
         },
         "zh-Hans" : {
@@ -11202,6 +11952,12 @@
             "value" : "ซื้อเสื้อผ้า"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mua quần áo"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11282,6 +12038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เสื้อผ้าทุก 2 สัปดาห์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quần áo 2 tuần một lần"
           }
         },
         "zh-Hans" : {
@@ -11366,6 +12128,12 @@
             "value" : "เสร็จสิ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11446,6 +12214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำไมถึงใช้?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vì sao bạn dùng?"
           }
         },
         "zh-Hans" : {
@@ -11530,6 +12304,12 @@
             "value" : "ทานข้าวนอกบ้าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ăn ngoài"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11612,6 +12392,12 @@
             "value" : "ทานข้าวนอกบ้านสัปดาห์ละครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ăn ngoài mỗi tuần một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11692,6 +12478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันพักจากการออกกำลังกายทุก 3 วัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày nghỉ tập luyện 3 ngày một lần"
           }
         },
         "zh-Hans" : {
@@ -11777,6 +12569,12 @@
             "value" : "ลดการเคลื่อนไหว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giảm chuyển động"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11858,6 +12656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bật Giảm chuyển động, hiệu ứng trên màn hình sẽ dịu hơn."
           }
         },
         "zh-Hans" : {
@@ -11943,6 +12747,12 @@
             "value" : "ลบประวัติคูลดาวน์ทั้งหมดได้ในแอปทุกเมื่อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ lịch sử thời gian chờ ngay trong ứng dụng bất cứ khi nào bạn muốn."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12023,6 +12833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดื่มแอลกอฮอล์ทุก 3 วัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uống rượu bia 3 ngày một lần"
           }
         },
         "zh-Hans" : {
@@ -12107,6 +12923,12 @@
             "value" : "ชื่อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12187,6 +13009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อทางอีเมล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ qua email"
           }
         },
         "zh-Hans" : {
@@ -12271,6 +13099,12 @@
             "value" : "เดือนนี้ประหยัดได้ประมาณ %lld วอน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số tiền tiết kiệm ước tính tháng này: %lld won"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12351,6 +13185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส่ง DM ทาง Instagram (@lee25_ios)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhắn tin Instagram (@lee25_ios)"
           }
         },
         "zh-Hans" : {
@@ -12435,6 +13275,12 @@
             "value" : "วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12515,6 +13361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คูลดาวน์ที่ใช้บ่อย\nแตะเพื่อเพิ่มได้ทันที"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các thời gian chờ thường dùng\nChạm vào một mục để thêm ngay"
           }
         },
         "zh-Hans" : {
@@ -12599,6 +13451,12 @@
             "value" : "อุปกรณ์อิเล็กทรอนิกส์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ điện tử"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12679,6 +13537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อุปกรณ์อิเล็กทรอนิกส์ทุก 6 เดือน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ điện tử 6 tháng một lần"
           }
         },
         "zh-Hans" : {
@@ -12763,6 +13627,12 @@
             "value" : "การรักษาวินัยโดยรวม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuân thủ chung"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12843,6 +13713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูว่าคุณ\nประหยัดได้เท่าไร"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem bạn\nđã tiết kiệm được bao nhiêu"
           }
         },
         "zh-Hans" : {
@@ -12927,6 +13803,12 @@
             "value" : "สัปดาห์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13007,6 +13889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซื้อขายหุ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giao dịch chứng khoán"
           }
         },
         "zh-Hans" : {
@@ -13091,6 +13979,12 @@
             "value" : "การรักษาวินัย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuân thủ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13171,6 +14065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อัตราการรักษาวินัย %lld เปอร์เซ็นต์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tỷ lệ tuân thủ %lld phần trăm"
           }
         },
         "zh-Hans" : {
@@ -13255,6 +14155,12 @@
             "value" : "อัตราการรักษาวินัยและสถิติแยกหมวดหมู่\nช่วยสร้างนิสัยที่ดีขึ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tỷ lệ tuân thủ và thống kê theo danh mục\ngiúp bạn xây dựng thói quen tốt hơn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13335,6 +14241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ตอนนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ngay"
           }
         },
         "zh-Hans" : {
@@ -13419,6 +14331,12 @@
             "value" : "ถ้าใช้ตอนนี้ อัตราการรักษาวินัยจะลดลง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nếu dùng ngay bây giờ, tỷ lệ tuân thủ sẽ giảm"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13499,6 +14417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วยเหลือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ"
           }
         },
         "zh-Hans" : {
@@ -13583,6 +14507,12 @@
             "value" : "เพิ่มเอง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự thêm"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13663,6 +14593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ทั้งหมด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tổng lượt dùng"
           }
         },
         "zh-Hans" : {
@@ -13747,6 +14683,12 @@
             "value" : "รายการทั้งหมด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tổng số mục"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13827,6 +14769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่าใช้จ่ายรวม (ประมาณ)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tổng chi tiêu (ước tính)"
           }
         },
         "zh-Hans" : {
@@ -13911,6 +14859,12 @@
             "value" : "กิจกรรมล่าสุด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoạt động gần đây"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13991,6 +14945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm"
           }
         },
         "zh-Hans" : {
@@ -14075,6 +15035,12 @@
             "value" : "เทมเพลตแนะนำ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mẫu đề xuất"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14155,6 +15121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลี่ยงการซื้อขายตามอารมณ์ สัปดาห์ละครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tránh giao dịch bốc đồng, mỗi tuần một lần"
           }
         },
         "zh-Hans" : {
@@ -14239,6 +15211,12 @@
             "value" : "ซื้อตามอารมณ์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mua sắm bốc đồng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14319,6 +15297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซื้อตามอารมณ์สัปดาห์ละครั้งเท่านั้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mua sắm bốc đồng chỉ mỗi tuần một lần"
           }
         },
         "zh-Hans" : {
@@ -14403,6 +15387,12 @@
             "value" : "ยกเลิก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14483,6 +15473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันโกงอาหาร"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày ăn thoải mái"
           }
         },
         "zh-Hans" : {
@@ -14567,6 +15563,12 @@
             "value" : "หมวดหมู่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Danh mục"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14647,6 +15649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แยกตามหมวดหมู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theo danh mục"
           }
         },
         "zh-Hans" : {
@@ -14731,6 +15739,12 @@
             "value" : "คาเฟ่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quán cà phê"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14811,6 +15825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กาแฟวันเว้นวัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cà phê cách ngày"
           }
         },
         "zh-Hans" : {
@@ -14895,6 +15915,12 @@
             "value" : "คอนเสิร์ต/การแสดง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hòa nhạc/biểu diễn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14972,6 +15998,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -15060,6 +16092,12 @@
             "value" : "บันทึกประวัติคูลดาวน์เป็นไฟล์และนำกลับมาใช้ภายหลังได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu lịch sử thời gian chờ vào một tệp và khôi phục lại sau."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15140,6 +16178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฝ่าฝืนคูลดาวน์และใช้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phá thời gian chờ và dùng"
           }
         },
         "zh-Hans" : {
@@ -15224,6 +16268,12 @@
             "value" : "ฝ่าฝืนคูลดาวน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phá thời gian chờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15304,6 +16354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จำนวนครั้งที่ฝ่าฝืนคูลดาวน์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số lần phá thời gian chờ"
           }
         },
         "zh-Hans" : {
@@ -15388,6 +16444,12 @@
             "value" : "รีเซ็ตคูลดาวน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt lại thời gian chờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15468,6 +16530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดในการตั้งค่าเพื่อรับการแจ้งเตือนเมื่อคูลดาวน์จบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật trong Cài đặt để nhận thông báo khi thời gian chờ kết thúc"
           }
         },
         "zh-Hans" : {
@@ -15552,6 +16620,12 @@
             "value" : "ระยะเวลาคูลดาวน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thời gian chờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15634,6 +16708,12 @@
             "value" : "กำลังคูลดาวน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15714,6 +16794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังคูลดาวน์ (%lld)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ (%lld)"
           }
         },
         "zh-Hans" : {
@@ -15906,6 +16992,12 @@
             "value" : "%lld รายการที่กำลังคูลดาวน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mục đang trong thời gian chờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15986,6 +17078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังคูลดาวน์!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang trong thời gian chờ!"
           }
         },
         "zh-Hans" : {
@@ -16070,6 +17168,12 @@
             "value" : "คุมแรงกระตุ้น\nด้วยคูลดาวน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiểm soát cơn bốc đồng\nbằng thời gian chờ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16152,6 +17256,12 @@
             "value" : "ทุกครั้งที่คุณรักษาคูลดาวน์ได้\nเราจะบอกว่าคุณประหยัดได้เท่าไร"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi lần bạn giữ đúng thời gian chờ,\nchúng tôi cho bạn biết đã tiết kiệm được bao nhiêu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16232,6 +17342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เราจะแจ้งเมื่อคูลดาวน์จบ\nดูผ่านวิดเจ็ตได้ด้วย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chúng tôi sẽ báo khi thời gian chờ kết thúc\nBạn cũng có thể xem trên tiện ích"
           }
         },
         "zh-Hans" : {
@@ -16317,6 +17433,12 @@
             "value" : "เลย์เอาต์สำหรับตัวอักษรขนาดใหญ่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bố cục cho chữ lớn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16397,6 +17519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่าใช้จ่ายก้อนใหญ่เดือนละครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khoản chi lớn mỗi tháng một lần"
           }
         },
         "zh-Hans" : {
@@ -16482,6 +17610,12 @@
             "value" : "ควบคุมด้วยคีย์บอร์ด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển bằng bàn phím"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16562,6 +17696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แท็กซี่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxi"
           }
         },
         "zh-Hans" : {
@@ -16646,6 +17786,12 @@
             "value" : "นั่งแท็กซี่ทุก 3 วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đi taxi 3 ngày một lần"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16726,6 +17872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะเพื่อใช้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm để dùng"
           }
         },
         "zh-Hans" : {
@@ -16810,6 +17962,12 @@
             "value" : "แตะเพื่อฝ่าฝืนคูลดาวน์ กดค้างเพื่อดูตัวเลือกเพิ่มเติม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm để phá thời gian chờ, chạm và giữ để xem thêm tùy chọn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16890,6 +18048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เทมเพลต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mẫu"
           }
         },
         "zh-Hans" : {
@@ -16974,6 +18138,12 @@
             "value" : "เพิ่มจากเทมเพลต"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm từ mẫu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17054,6 +18224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มจากเทมเพลต\nหรือสร้างเอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm từ mẫu\nhoặc tự tạo"
           }
         },
         "zh-Hans" : {
@@ -17138,6 +18314,12 @@
             "value" : "สถิติ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thống kê"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17218,6 +18400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูสถิติ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem thống kê"
           }
         },
         "zh-Hans" : {
@@ -17302,6 +18490,12 @@
             "value" : "ฟาสต์ฟู้ด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ ăn nhanh"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17382,6 +18576,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฟาสต์ฟู้ดทุก 5 วัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ ăn nhanh 5 ngày một lần"
           }
         },
         "zh-Hans" : {
@@ -17467,6 +18667,12 @@
             "value" : "เลย์เอาต์สำหรับ iPhone แบบพับได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bố cục cho iPhone gập"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17548,6 +18754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้หน้าจอกว้างของ iPhone แบบพับได้เป็นสองแผงเคียงข้างกัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng màn hình rộng của iPhone gập như hai ngăn cạnh nhau."
           }
         },
         "zh-Hans" : {
@@ -17632,6 +18844,12 @@
             "value" : "เที่ยวในประเทศเดือนละครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi tháng một chuyến du lịch trong nước"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17712,6 +18930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เที่ยวต่างประเทศ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du lịch nước ngoài"
           }
         },
         "zh-Hans" : {
@@ -17796,6 +19020,12 @@
             "value" : "เที่ยวต่างประเทศ 2 เดือนครั้งก็เพียงพอแล้ว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du lịch nước ngoài 2 tháng một lần là quá đủ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17878,6 +19108,12 @@
             "value" : "พักโรงแรม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nghỉ dưỡng khách sạn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17958,6 +19194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พักผ่อนที่โรงแรมทุก 3 สัปดาห์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nghỉ dưỡng khách sạn 3 tuần một lần"
           }
         },
         "zh-Hans" : {
@@ -18043,6 +19285,12 @@
             "value" : "VoiceOver อ่านทุกปุ่มและทุกรายละเอียดตามลำดับที่ถูกต้อง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver đọc từng nút và từng chi tiết theo đúng thứ tự."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18123,6 +19371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันพักผ่อน (เว้นการออกกำลังกาย)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày nghỉ (bỏ buổi tập)"
           }
         },
         "zh-Hans" : {
