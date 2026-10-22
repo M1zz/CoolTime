@@ -33,6 +33,12 @@
             "value" : "%@ %@, disponible"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, disponibile"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -89,6 +95,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, recharge : %@ restantes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, ricarica: mancano %@"
           }
         },
         "ja" : {
@@ -149,6 +161,12 @@
             "value" : "%@ À mi-parcours !"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ A metà strada!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -205,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Recharge terminée !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Ricarica terminata!"
           }
         },
         "ja" : {
@@ -265,6 +289,12 @@
             "value" : "Vous avez passé la moitié de la recharge de %@ ! Tenez bon 💪"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai superato metà della ricarica di %@! Tieni duro 💪"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -321,6 +351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le temps de recharge de %@ est terminé. Vous pouvez l’utiliser !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ricarica di %@ è terminata. Ora puoi usarlo!"
           }
         },
         "ja" : {
@@ -441,6 +477,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementi"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -497,6 +551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld mois"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mesi"
           }
         },
         "ja" : {
@@ -617,6 +677,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld mese"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld mesi"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -670,6 +748,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -733,6 +817,12 @@
             "value" : "%lld min %lld s"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -791,6 +881,12 @@
             "value" : "%lld h"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -844,6 +940,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h %lld min"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h %lld min"
@@ -967,6 +1069,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld ora"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld ore"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1025,6 +1145,12 @@
             "value" : "%lld j"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld g"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1081,6 +1207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld j %lld h"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld g %lld h"
           }
         },
         "ja" : {
@@ -1201,6 +1333,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld giorno"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld giorni"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1257,6 +1407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld sem."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sett."
           }
         },
         "ja" : {
@@ -1377,6 +1533,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld settimana"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ogni %lld settimane"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1430,6 +1604,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld s"
@@ -1553,6 +1733,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld volta"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld volte"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1671,6 +1869,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld uso"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld usi"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1727,6 +1943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun résultat pour « %@ »"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun risultato per “%@”"
           }
         },
         "ja" : {
@@ -1787,6 +2009,12 @@
             "value" : "1 mois"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 mese"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1843,6 +2071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 sem."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 sett."
           }
         },
         "ja" : {
@@ -1903,6 +2137,12 @@
             "value" : "2 mois"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 mesi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1961,6 +2201,12 @@
             "value" : "2 sem."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 sett."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2017,6 +2263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 j"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 g"
           }
         },
         "ja" : {
@@ -2078,6 +2330,12 @@
             "value" : "Verrouillage par Face ID"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocco con Face ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2135,6 +2393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verrouillez l’app avec Face ID ou Touch ID pour garder votre historique privé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocca l’app con Face ID o Touch ID per mantenere privata la tua cronologia."
           }
         },
         "ja" : {
@@ -2196,6 +2460,12 @@
             "value" : "Enregistrez une utilisation instantanément en le demandant à Siri ou avec un raccourci."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registra un uso al volo chiedendolo a Siri o con un comando rapido."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2253,6 +2523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri et Raccourcis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri e Comandi rapidi"
           }
         },
         "ja" : {
@@ -2314,6 +2590,12 @@
             "value" : "Meilleure prise en charge de VoiceOver"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Migliore supporto a VoiceOver"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2370,6 +2652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valeur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valore"
           }
         },
         "ja" : {
@@ -2430,6 +2718,12 @@
             "value" : "Contacter le développeur"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contatta lo sviluppatore"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2486,6 +2780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mois"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesi"
           }
         },
         "ja" : {
@@ -2546,6 +2846,12 @@
             "value" : "Passer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2602,6 +2908,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun résultat"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun risultato"
           }
         },
         "ja" : {
@@ -2662,6 +2974,12 @@
             "value" : "Effacer la recherche"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella ricerca"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2718,6 +3036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Achats dans les jeux"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquisti nei giochi"
           }
         },
         "ja" : {
@@ -2778,6 +3102,12 @@
             "value" : "Achats dans les jeux toutes les 2 semaines"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquisti nei giochi ogni 2 settimane"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2834,6 +3164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comme la recharge d’une compétence dans un jeu,\ndéfinissez un temps d’attente pour vos dépenses et habitudes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come la ricarica di un’abilità in un gioco,\nimposta un tempo di attesa per spese e abitudini"
           }
         },
         "ja" : {
@@ -2894,6 +3230,12 @@
             "value" : "Attention : en recharge. Si vous l’utilisez maintenant, votre taux de respect baissera"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attenzione: in ricarica. Se lo usi ora, il tuo tasso di rispetto calerà"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2950,6 +3292,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continuez 💪"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua così 💪"
           }
         },
         "ja" : {
@@ -3010,6 +3358,12 @@
             "value" : "Gros achat (plus de 100 000 ₩)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquisto importante (oltre 100.000 ₩)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3066,6 +3420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bientôt !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quasi!"
           }
         },
         "ja" : {
@@ -3126,6 +3486,12 @@
             "value" : "Un spectacle tous les 2 mois"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uno spettacolo ogni 2 mesi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3182,6 +3548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voyage dans le pays"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viaggio nel paese"
           }
         },
         "ja" : {
@@ -3243,6 +3615,12 @@
             "value" : "Les écrans se réorganisent proprement au lieu d’être coupés quand vous agrandissez le texte."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le schermate si riorganizzano in modo ordinato invece di venire tagliate quando ingrandisci il testo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3300,6 +3678,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronisation entre appareils"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizzazione tra dispositivi"
           }
         },
         "ja" : {
@@ -3360,6 +3744,12 @@
             "value" : "Informations de base"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informazioni di base"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3416,6 +3806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rompre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rompi"
           }
         },
         "ja" : {
@@ -3476,6 +3872,12 @@
             "value" : "Fois rompues"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volte rotte"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3532,6 +3934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analysez vos habitudes\navec vos propres statistiques"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analizza le tue abitudini\ncon statistiche tutte tue"
           }
         },
         "ja" : {
@@ -3592,6 +4000,12 @@
             "value" : "Plus tard"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più tardi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3648,6 +4062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Temps restant : %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo rimanente: %@"
           }
         },
         "ja" : {
@@ -3709,6 +4129,12 @@
             "value" : "Supprimer toutes vos données"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina tutti i tuoi dati"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3765,6 +4191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manucure"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nail art"
           }
         },
         "ja" : {
@@ -3825,6 +4257,12 @@
             "value" : "Manucure toutes les 3 semaines"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nail art ogni 3 settimane"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3881,6 +4319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marathon de séries"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maratona di serie"
           }
         },
         "ja" : {
@@ -3941,6 +4385,12 @@
             "value" : "Essayez un autre mot-clé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prova con un’altra parola chiave"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3997,6 +4447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suivant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
           }
         },
         "ja" : {
@@ -4057,6 +4513,12 @@
             "value" : "Un jour de triche au régime par semaine"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sgarro della dieta una volta a settimana"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4115,6 +4577,12 @@
             "value" : "Unité"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unità"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4171,6 +4639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Des sucreries tous les 4 jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dolci ogni 4 giorni"
           }
         },
         "ja" : {
@@ -4232,6 +4706,12 @@
             "value" : "Tout reste lisible, même avec Augmenter le contraste ou si les couleurs sont difficiles à distinguer."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto resta leggibile, anche con Aumenta contrasto o se è difficile distinguere i colori."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4289,6 +4769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez l’app dans d’autres langues."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa l’app in più lingue."
           }
         },
         "ja" : {
@@ -4350,6 +4836,12 @@
             "value" : "Plus de langues"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più lingue"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4406,6 +4898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dessert"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dolci"
           }
         },
         "ja" : {
@@ -4466,6 +4964,12 @@
             "value" : "Loto"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotteria"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4522,6 +5026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loto une fois par semaine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotteria una volta a settimana"
           }
         },
         "ja" : {
@@ -4582,6 +5092,12 @@
             "value" : "Massage / spa"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massaggio / spa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4638,6 +5154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massage toutes les 2 semaines"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massaggio ogni 2 settimane"
           }
         },
         "ja" : {
@@ -4698,6 +5220,12 @@
             "value" : "Note (facultatif)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota (facoltativa)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4754,6 +5282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout est en recharge. En attente : %lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto è in ricarica. In attesa: %lld"
           }
         },
         "ja" : {
@@ -4814,6 +5348,12 @@
             "value" : "Marathon de séries tous les 3 jours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maratona di serie ogni 3 giorni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4870,6 +5410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coiffeur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parrucchiere"
           }
         },
         "ja" : {
@@ -4930,6 +5476,12 @@
             "value" : "Coiffeur une fois par mois"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parrucchiere una volta al mese"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4988,6 +5540,12 @@
             "value" : "Livraison tous les 3 jours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consegna a domicilio ogni 3 giorni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5044,6 +5602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Repas livré"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cibo a domicilio"
           }
         },
         "ja" : {
@@ -5105,6 +5669,12 @@
             "value" : "Sauvegarde et export"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup ed esportazione"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5161,6 +5731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les signalements de bugs et les idées de fonctionnalités sont les bienvenus."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segnalazioni di bug e idee per nuove funzioni sono benvenute."
           }
         },
         "ja" : {
@@ -5222,6 +5798,12 @@
             "value" : "Couleurs et contraste plus confortables"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colori e contrasto più comodi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5278,6 +5860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saisissez un coût et nous calculerons vos économies"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inserisci un costo e calcoleremo quanto risparmi"
           }
         },
         "ja" : {
@@ -5338,6 +5926,12 @@
             "value" : "Utiliser"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5396,6 +5990,12 @@
             "value" : "Disponible"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibile"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5452,6 +6052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponibles (%lld)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibili (%lld)"
           }
         },
         "ja" : {
@@ -5572,6 +6178,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento disponibile"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementi disponibili"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5628,6 +6252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponibles : %lld · En recharge : %lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibili: %lld · In ricarica: %lld"
           }
         },
         "ja" : {
@@ -5688,6 +6318,12 @@
             "value" : "Terminé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fatto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5744,6 +6380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utiliser"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa"
           }
         },
         "ja" : {
@@ -5804,6 +6446,12 @@
             "value" : "Supprimer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5860,6 +6508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Historique détaillé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cronologia dettagliata"
           }
         },
         "ja" : {
@@ -5920,6 +6574,12 @@
             "value" : "Nouveau temps de recharge"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuova ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5976,6 +6636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter un nouveau temps de recharge"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi una nuova ricarica"
           }
         },
         "ja" : {
@@ -6036,6 +6702,12 @@
             "value" : "Réglages"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6092,6 +6764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alcool"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alcol"
           }
         },
         "ja" : {
@@ -6152,6 +6830,12 @@
             "value" : "Heures"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ore"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6210,6 +6894,12 @@
             "value" : "Commencer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6266,6 +6956,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coût réel (facultatif)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costo effettivo (facoltativo)"
           }
         },
         "ja" : {
@@ -6327,6 +7023,12 @@
             "value" : "Astuces pratiques"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggerimenti utili"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6383,6 +7085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Icône"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Icona"
           }
         },
         "ja" : {
@@ -6443,6 +7151,12 @@
             "value" : "Élément"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elemento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6501,6 +7215,12 @@
             "value" : "Rechercher des éléments…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerca elementi..."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6557,6 +7277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respect par élément"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rispetto per elemento"
           }
         },
         "ja" : {
@@ -6618,6 +7344,12 @@
             "value" : "Utilisez les fonctions principales avec le seul clavier sur iPad ou Mac."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa le funzioni principali con la sola tastiera su iPad o Mac."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6675,6 +7407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retrouvez les mêmes recharges sur votre iPhone et votre iPad."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedi le stesse ricariche su iPhone e iPad."
           }
         },
         "ja" : {
@@ -6735,6 +7473,12 @@
             "value" : "Aucun temps de recharge pour l’instant. Essayez d’en ajouter un !"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna ricarica. Prova ad aggiungerne una!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6791,6 +7535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun temps de recharge pour l’instant. Ajoutez-en un depuis les modèles ou créez le vôtre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna ricarica. Aggiungine una dai modelli o creane una tua"
           }
         },
         "ja" : {
@@ -6851,6 +7601,12 @@
             "value" : "Aucun temps de recharge pour l’instant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6907,6 +7663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune activité pour l’instant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna attività"
           }
         },
         "ja" : {
@@ -6967,6 +7729,12 @@
             "value" : "Ne manquez plus\nune notification"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non perderti\nnessuna notifica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7025,6 +7793,12 @@
             "value" : "Les notifications sont désactivées. Touchez le bouton Réglages pour les activer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le notifiche sono disattivate. Tocca il pulsante Impostazioni per attivarle"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7081,6 +7855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les notifications sont désactivées"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le notifiche sono disattivate"
           }
         },
         "ja" : {
@@ -7142,6 +7922,12 @@
             "value" : "De discrets conseils sur les fonctions utiles, juste au bon moment."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggerimenti discreti sulle funzioni utili, proprio quando servono."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7200,6 +7986,12 @@
             "value" : "Grignotage de nuit"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spuntino notturno"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7256,6 +8048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grignotage de nuit tous les 5 jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spuntino notturno ogni 5 giorni"
           }
         },
         "ja" : {
@@ -7317,6 +8115,12 @@
             "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La prima volta che apri l’app dopo un aggiornamento, scopri le novità."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7374,6 +8178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouveautés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novità"
           }
         },
         "ja" : {
@@ -7434,6 +8244,12 @@
             "value" : "Cinéma"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cinema"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7490,6 +8306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cinéma toutes les 2 semaines"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cinema ogni 2 settimane"
           }
         },
         "ja" : {
@@ -7550,6 +8372,12 @@
             "value" : "Coût estimé (facultatif)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costo stimato (facoltativo)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7606,6 +8434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Économies est."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risparmio stim."
           }
         },
         "ja" : {
@@ -7666,6 +8500,12 @@
             "value" : "Estimé : ₩%@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stimato: ₩%@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7722,6 +8562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recharges du jour"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricariche di oggi"
           }
         },
         "ja" : {
@@ -7782,6 +8628,12 @@
             "value" : "Achats de vêtements"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shopping di vestiti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7838,6 +8690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Des vêtements toutes les 2 semaines"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vestiti ogni 2 settimane"
           }
         },
         "ja" : {
@@ -7898,6 +8756,12 @@
             "value" : "Terminé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fine"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7954,6 +8818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pourquoi l’utilisez-vous ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perché lo usi?"
           }
         },
         "ja" : {
@@ -8014,6 +8884,12 @@
             "value" : "Restaurant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ristorante"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8072,6 +8948,12 @@
             "value" : "Restaurant une fois par semaine"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ristorante una volta a settimana"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8128,6 +9010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un jour de repos sportif tous les 3 jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un giorno di riposo dall’allenamento ogni 3 giorni"
           }
         },
         "ja" : {
@@ -8189,6 +9077,12 @@
             "value" : "Réduire les animations"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riduci movimento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8246,6 +9140,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avec Réduire les animations activé, les effets à l’écran sont plus doux."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con Riduci movimento attivo, gli effetti sullo schermo sono più calmi."
           }
         },
         "ja" : {
@@ -8307,6 +9207,12 @@
             "value" : "Effacez tout votre historique de recharges depuis l’app quand vous le souhaitez."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella l’intera cronologia delle ricariche dall’app quando vuoi."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8363,6 +9269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alcool tous les 3 jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alcol ogni 3 giorni"
           }
         },
         "ja" : {
@@ -8423,6 +9335,12 @@
             "value" : "Nom"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8479,6 +9397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écrire par e-mail"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi via e-mail"
           }
         },
         "ja" : {
@@ -8539,6 +9463,12 @@
             "value" : "Économies estimées ce mois-ci : %lld wons"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risparmio stimato questo mese: %lld won"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8595,6 +9525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Message Instagram (@lee25_ios)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM su Instagram (@lee25_ios)"
           }
         },
         "ja" : {
@@ -8655,6 +9591,12 @@
             "value" : "Jours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giorni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8711,6 +9653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recharges courantes\nTouchez-en une pour l’ajouter aussitôt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricariche comuni\nTocca per aggiungerne una subito"
           }
         },
         "ja" : {
@@ -8771,6 +9719,12 @@
             "value" : "Électronique"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elettronica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8827,6 +9781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De l’électronique tous les 6 mois"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elettronica ogni 6 mesi"
           }
         },
         "ja" : {
@@ -8887,6 +9847,12 @@
             "value" : "Respect global"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rispetto complessivo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8943,6 +9909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voyez combien\nvous avez économisé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scopri quanto\nhai risparmiato"
           }
         },
         "ja" : {
@@ -9003,6 +9975,12 @@
             "value" : "Semaines"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settimane"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9059,6 +10037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bourse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trading azionario"
           }
         },
         "ja" : {
@@ -9119,6 +10103,12 @@
             "value" : "Respect"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rispetto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9175,6 +10165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taux de respect : %lld pour cent"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasso di rispetto: %lld per cento"
           }
         },
         "ja" : {
@@ -9235,6 +10231,12 @@
             "value" : "Le taux de respect et les statistiques par catégorie\nvous aident à prendre de meilleures habitudes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tasso di rispetto e le statistiche per categoria\nti aiutano a costruire abitudini migliori"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9291,6 +10293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utiliser maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa ora"
           }
         },
         "ja" : {
@@ -9351,6 +10359,12 @@
             "value" : "Si vous l’utilisez maintenant, votre taux de respect baissera"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se lo usi ora, il tuo tasso di rispetto calerà"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9407,6 +10421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistenza"
           }
         },
         "ja" : {
@@ -9467,6 +10487,12 @@
             "value" : "Ajouter le vôtre"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi la tua"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9523,6 +10549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisations au total"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usi totali"
           }
         },
         "ja" : {
@@ -9583,6 +10615,12 @@
             "value" : "Éléments au total"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elementi totali"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9639,6 +10677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dépenses totales (est.)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spesa totale (stim.)"
           }
         },
         "ja" : {
@@ -9699,6 +10743,12 @@
             "value" : "Activité récente"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attività recente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9755,6 +10805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi"
           }
         },
         "ja" : {
@@ -9815,6 +10871,12 @@
             "value" : "Modèles recommandés"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modelli consigliati"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9871,6 +10933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Évitez les ordres impulsifs, une fois par semaine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Evita il trading impulsivo, una volta a settimana"
           }
         },
         "ja" : {
@@ -9931,6 +10999,12 @@
             "value" : "Achat impulsif"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquisto impulsivo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9987,6 +11061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Achats impulsifs une seule fois par semaine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquisti impulsivi solo una volta a settimana"
           }
         },
         "ja" : {
@@ -10047,6 +11127,12 @@
             "value" : "Annuler"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10103,6 +11189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jour de triche"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sgarro"
           }
         },
         "ja" : {
@@ -10163,6 +11255,12 @@
             "value" : "Catégorie"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categoria"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10219,6 +11317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Par catégorie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per categoria"
           }
         },
         "ja" : {
@@ -10279,6 +11383,12 @@
             "value" : "Café"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10335,6 +11445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un café tous les deux jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caffè a giorni alterni"
           }
         },
         "ja" : {
@@ -10395,6 +11511,12 @@
             "value" : "Concert / spectacle"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concerto / spettacolo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10448,6 +11570,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -10512,6 +11640,12 @@
             "value" : "Enregistrez votre historique de recharges dans un fichier et retrouvez-le plus tard."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva la cronologia delle ricariche in un file e ripristinala più tardi."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10568,6 +11702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rompre la recharge et utiliser"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rompi la ricarica e usa"
           }
         },
         "ja" : {
@@ -10628,6 +11768,12 @@
             "value" : "Rompre le temps de recharge"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rompi il tempo di ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10684,6 +11830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recharges rompues"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricariche rotte"
           }
         },
         "ja" : {
@@ -10744,6 +11896,12 @@
             "value" : "Réinitialiser la recharge"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azzera ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10800,6 +11958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activez-les dans Réglages pour être prévenu à la fin d’une recharge"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attivale in Impostazioni per ricevere un avviso alla fine di una ricarica"
           }
         },
         "ja" : {
@@ -10860,6 +12024,12 @@
             "value" : "Durée de la recharge"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durata della ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10918,6 +12088,12 @@
             "value" : "En recharge"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10974,6 +12150,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En recharge (%lld)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In ricarica (%lld)"
           }
         },
         "ja" : {
@@ -11094,6 +12276,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento in ricarica"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementi in ricarica"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11150,6 +12350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En recharge !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In ricarica!"
           }
         },
         "ja" : {
@@ -11210,6 +12416,12 @@
             "value" : "Maîtrisez vos impulsions\navec des temps de recharge"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestisci gli impulsi\ncon i tempi di ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11268,6 +12480,12 @@
             "value" : "Chaque fois que vous respectez une recharge,\nnous vous montrons combien vous avez économisé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogni volta che rispetti una ricarica,\nti mostriamo quanto hai risparmiato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11324,6 +12542,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nous vous prévenons à la fin d’une recharge\nVous pouvez aussi la voir dans le widget"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ti avvisiamo quando una ricarica termina\nPuoi controllare anche dal widget"
           }
         },
         "ja" : {
@@ -11385,6 +12609,12 @@
             "value" : "Présentations pour grands textes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout per testo grande"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11441,6 +12671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les grosses dépenses, une fois par mois"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le spese grosse una volta al mese"
           }
         },
         "ja" : {
@@ -11502,6 +12738,12 @@
             "value" : "Contrôle au clavier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controllo da tastiera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11555,6 +12797,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxi"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
@@ -11618,6 +12866,12 @@
             "value" : "Taxi tous les 3 jours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxi ogni 3 giorni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11674,6 +12928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez pour utiliser"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca per usare"
           }
         },
         "ja" : {
@@ -11734,6 +12994,12 @@
             "value" : "Touchez pour rompre la recharge, maintenez pour plus d’options"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca per rompere la ricarica, tieni premuto per altre opzioni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11790,6 +13056,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modèles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modelli"
           }
         },
         "ja" : {
@@ -11850,6 +13122,12 @@
             "value" : "Ajouter depuis les modèles"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi dai modelli"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11906,6 +13184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajoutez-en un depuis les modèles\nou créez le vôtre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungine una dai modelli\no creane una tua"
           }
         },
         "ja" : {
@@ -11966,6 +13250,12 @@
             "value" : "Statistiques"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistiche"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12022,6 +13312,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voir les statistiques"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedi statistiche"
           }
         },
         "ja" : {
@@ -12082,6 +13378,12 @@
             "value" : "Fast-food"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12138,6 +13440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast-food tous les 5 jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food ogni 5 giorni"
           }
         },
         "ja" : {
@@ -12199,6 +13507,12 @@
             "value" : "Présentation pour iPhone pliable"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout per iPhone pieghevole"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12256,6 +13570,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez le grand écran d’un iPhone pliable en deux volets côte à côte."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa il grande schermo di un iPhone pieghevole come due pannelli affiancati."
           }
         },
         "ja" : {
@@ -12316,6 +13636,12 @@
             "value" : "Un voyage dans le pays par mois"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un viaggio nel paese al mese"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12372,6 +13698,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voyage à l’étranger"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viaggio all’estero"
           }
         },
         "ja" : {
@@ -12432,6 +13764,12 @@
             "value" : "Un voyage à l’étranger tous les 2 mois suffit largement"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un viaggio all’estero ogni 2 mesi è più che sufficiente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12490,6 +13828,12 @@
             "value" : "Séjour à l’hôtel"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausa in hotel"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12546,6 +13890,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une pause à l’hôtel toutes les 3 semaines"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una pausa in hotel ogni 3 settimane"
           }
         },
         "ja" : {
@@ -12607,6 +13957,12 @@
             "value" : "VoiceOver lit chaque bouton et chaque détail, dans le bon ordre."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver legge ogni pulsante e ogni dettaglio, nell’ordine giusto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12663,6 +14019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jour de repos (sans sport)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giorno di riposo (salta l’allenamento)"
           }
         },
         "ja" : {

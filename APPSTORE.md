@@ -494,3 +494,58 @@ Notifications et widgets
 Recevez une notification à la moitié de la recharge et à sa fin, et consultez le temps restant directement dans les widgets de l’écran d’accueil et de l’écran verrouillé.
 
 Vos données restent sur cet appareil et aucun compte n’est nécessaire.
+
+## it
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/it/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/it/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/it/
+
+### 이름
+
+CoolTime: freno agli acquisti
+
+### 부제
+
+Aspetta prima di spendere
+
+### 키워드
+
+risparmio,abitudini,autocontrollo,budget,soldi,sfida,no spese,consegna,caffè,alcol,timer,obiettivi
+
+### 프로모션 텍스트
+
+Imposta un tempo di ricarica su ciò che vuoi limitare. Guarda quanto manca prima di poterlo rifare e crea l’abitudine di aspettare con calma.
+
+### 설명
+
+Cibo a domicilio, shopping, dolci al bar. Quando ti viene voglia di spendere, imposta un tempo di ricarica come su un’abilità di un gioco.
+CoolTime è un’app per le abitudini di consumo: aspetti la fine della ricarica e vedi quanto hai risparmiato resistendo.
+
+Imposta un tempo di ricarica
+Per ogni elemento scegli un nome, un’emoji, quanto aspettare prima di riusarlo e quanto costa ogni volta. I periodi più usati, come 3 giorni, 1 settimana o 1 mese, si scelgono con un tocco.
+
+Cosa puoi usare, a colpo d’occhio
+La schermata iniziale separa gli elementi disponibili da quelli in ricarica e un indicatore circolare si riduce con il tempo rimanente.
+
+Un’ultima pausa prima di rompere
+Se provi a usare un elemento durante la ricarica, l’app mostra il tempo rimanente e ti avvisa che il tuo tasso di rispetto calerà. Se ti serve comunque, puoi lasciare una nota e il costo effettivo.
+
+Tasso di rispetto e risparmio stimato
+Guarda quanto spesso hai rispettato le ricariche e quanto hai risparmiato questo mese. Le statistiche mostrano il rispetto per elemento e per categoria, oltre alla cronologia d’uso.
+
+Modelli consigliati
+Aggiungi con un tocco le ricariche più comuni per viaggi, shopping, cibo, intrattenimento, stile di vita, salute e finanza.
+
+Notifiche e widget
+Ricevi una notifica a metà ricarica e alla fine, e controlla il tempo rimanente direttamente nei widget della schermata Home e del blocco schermo.
+
+I tuoi dati restano su questo dispositivo e non serve alcun account.

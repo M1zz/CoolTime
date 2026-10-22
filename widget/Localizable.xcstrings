@@ -33,6 +33,12 @@
             "value" : "Respect : %lld %%"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rispetto %lld%%"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -146,6 +152,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld éléments"
+                }
+              }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementi"
                 }
               }
             }
@@ -269,6 +293,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementi"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -322,6 +364,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -385,6 +433,12 @@
             "value" : "%lld h"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -441,6 +495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld j"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld g"
           }
         },
         "ja" : {
@@ -501,6 +561,12 @@
             "value" : "+%lld de plus"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld altri"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -557,6 +623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ %lld disponibles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld disponibili"
           }
         },
         "ja" : {
@@ -617,6 +689,12 @@
             "value" : "Bientôt !"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quasi!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -673,6 +751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prochaine fin de recharge"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prossima fine ricarica"
           }
         },
         "ja" : {
@@ -733,6 +817,12 @@
             "value" : "En attente"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In attesa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -789,6 +879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout est disponible"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto disponibile"
           }
         },
         "ja" : {
@@ -849,6 +945,12 @@
             "value" : "Tout est disponible !"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto disponibile!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -905,6 +1007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponible"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibile"
           }
         },
         "ja" : {
@@ -965,6 +1073,12 @@
             "value" : "Ajouter un élément"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi elemento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1023,6 +1137,12 @@
             "value" : "₩%@ économisés ce mois-ci"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ risparmiati questo mese"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1076,6 +1196,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -1139,6 +1265,12 @@
             "value" : "En recharge"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In ricarica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1195,6 +1327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vos recharges en un coup d’œil"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le tue ricariche a colpo d’occhio"
           }
         },
         "ja" : {

@@ -58,3 +58,9 @@ Neue Datenschutz- und Hilfeseiten
 Bugs corrigés pour plus de stabilité
 Envoyez vos avis depuis l’app
 Nouvelles pages de confidentialité
+
+### 앱스토어 (it)
+
+Corretti problemi per più stabilità
+Ora puoi inviare feedback dall’app
+Nuove pagine di privacy e assistenza
