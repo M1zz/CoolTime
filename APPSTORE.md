@@ -1098,3 +1098,58 @@ Varsler og widgeter
 Få beskjed når ventetiden er halvveis og når den er over, og se gjenstående tid rett i widgeter på Hjem-skjermen og låseskjermen.
 
 Registreringene lagres bare på denne enheten, og du trenger ingen konto.
+
+## nl
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/nl/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/nl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/nl/
+
+### 이름
+
+CoolTime: Wacht voor je koopt
+
+### 부제
+
+Pauze voor je geld uitgeeft
+
+### 키워드
+
+sparen,gewoontes,zelfbeheersing,budget,geld,uitdaging,geldloos,bezorging,koffie,alcohol,timer,doelen
+
+### 프로모션 텍스트
+
+Zet een wachttijd op wat je wilt uitstellen. Zie hoe lang het nog duurt tot het weer mag en bouw de gewoonte op om rustig te wachten.
+
+### 설명
+
+Maaltijdbezorging, winkelen, toetjes in het café. Als de zin om geld uit te geven toeslaat, zet er dan een wachttijd op, zoals bij een skill in een game.
+CoolTime is een app voor uitgavegewoontes: je wacht tot de wachttijd voorbij is en ziet hoeveel je hebt bespaard door je in te houden.
+
+Stel een wachttijd in
+Kies voor elk item een naam, een emoji, hoe lang je wacht voordat je het weer gebruikt en wat het elke keer kost. Gangbare periodes zoals 3 dagen, 1 week of 1 maand kies je met één tik.
+
+In één oogopslag wat beschikbaar is
+Het beginscherm scheidt beschikbare items van items in wachttijd, en een cirkelvormige meter wordt kleiner naarmate de tijd verstrijkt.
+
+Nog één pauze voordat je hem doorbreekt
+Als je iets probeert te gebruiken tijdens de wachttijd, toont de app de resterende tijd en waarschuwt dat je naleefpercentage daalt. Als je het toch nodig hebt, kun je een notitie en de werkelijke kosten toevoegen.
+
+Naleefpercentage en geschatte besparing
+Zie hoe vaak je je wachttijden hebt nageleefd en hoeveel je deze maand hebt bespaard. De statistieken tonen naleving per item en categorie, plus je gebruiksgeschiedenis.
+
+Aanbevolen sjablonen
+Voeg met één tik gangbare wachttijden toe voor reizen, winkelen, eten, entertainment, levensstijl, gezondheid en financiën.
+
+Meldingen en widgets
+Krijg een melding als de wachttijd halverwege is en als hij afloopt, en zie de resterende tijd direct in widgets op het beginscherm en het toegangsscherm.
+
+Je vastleggingen blijven alleen op dit apparaat en je hebt geen account nodig.

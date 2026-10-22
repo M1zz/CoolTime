@@ -124,3 +124,9 @@ Halaman privasi dan bantuan baru
 Rettet feil for mer stabil drift
 Du kan nå sende tilbakemelding i appen
 Nye sider for personvern og hjelp
+
+### 앱스토어 (nl)
+
+Problemen opgelost voor stabielere start
+Je kunt nu feedback sturen in de app
+Nieuwe privacy- en hulppagina’s
