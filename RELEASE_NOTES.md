@@ -10,3 +10,9 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 앱이 더 안정적으로 실행되도록 고쳤어요
 앱 안에서 바로 의견을 보낼 수 있어요
 개인정보처리방침과 도움말 페이지를 새로 열었어요
+
+### 앱스토어 (en)
+
+Fixed issues for more reliable launches
+You can now send feedback in the app
+Added new privacy policy and help pages

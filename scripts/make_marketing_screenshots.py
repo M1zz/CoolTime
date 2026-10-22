@@ -17,14 +17,14 @@ CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 W, H = 1242, 2688   # 이 계정의 아이폰 제출 규격
 
 # 앱 언어 → App Store 로케일
-STORE = {"ko": "ko"}
+STORE = {"ko": "ko", "en": "en"}
 
 # 파일 · 배치 · 언어별 (헤드라인, 보조 문장)
 SHOTS = [
-    ("01-home.png",      "hero-bleed",  {"ko": ("지르기 전에<br>쿨타임부터", "배달도 쇼핑도 쿨타임이 끝나야 다시")}),
-    ("02-break.png",     "left-text",   {"ko": ("쿨타임 중엔<br>한 번 더 멈칫", "깨면 준수율이 내려간다고 알려줘요")}),
-    ("03-stats.png",     "text-bottom", {"ko": ("얼마나 참았는지<br>숫자로 보여요", "아이템별 준수율과 사용 기록을 한눈에")}),
-    ("04-templates.png", "dark",        {"ko": ("여행부터 배달까지<br>탭 한 번으로 추가", "자주 쓰는 쿨타임을 골라 바로 시작해요")}),
+    ("01-home.png",      "hero-bleed",  {"ko": ("지르기 전에<br>쿨타임부터", "배달도 쇼핑도 쿨타임이 끝나야 다시"), "en": ("Cooldown first,<br>then splurge", "Delivery and shopping wait until the cooldown ends")}),
+    ("02-break.png",     "left-text",   {"ko": ("쿨타임 중엔<br>한 번 더 멈칫", "깨면 준수율이 내려간다고 알려줘요"), "en": ("One more pause<br>during a cooldown", "We warn you that breaking it lowers your compliance")}),
+    ("03-stats.png",     "text-bottom", {"ko": ("얼마나 참았는지<br>숫자로 보여요", "아이템별 준수율과 사용 기록을 한눈에"), "en": ("See how long<br>you held out", "Compliance by item and your usage history at a glance")}),
+    ("04-templates.png", "dark",        {"ko": ("여행부터 배달까지<br>탭 한 번으로 추가", "자주 쓰는 쿨타임을 골라 바로 시작해요"), "en": ("From travel to delivery<br>add with one tap", "Pick common cooldowns and start right away")}),
 ]
 
 # 색은 헤더·검색 결과 그림(make_creative_assets.py)과 맞춘다.

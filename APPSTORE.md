@@ -54,3 +54,58 @@ https://m1zz.github.io/CoolTime/
 쿨타임이 절반 지났을 때와 끝났을 때 알림을 보내고, 홈 화면과 잠금 화면 위젯에서 남은 시간을 바로 봅니다.
 
 기록은 이 기기에만 저장되며 계정이 필요 없습니다.
+
+## en
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/en/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/en/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/en/
+
+### 이름
+
+CoolTime: Spending Cooldown
+
+### 부제
+
+Wait before you impulse buy
+
+### 키워드
+
+habit,budget,savings,self control,no spend,frugal,delivery,coffee,shopping,discipline,tracker,money
+
+### 프로모션 텍스트
+
+Put a cooldown on the things you want to hold off on. See how long until it's okay again, and build the habit of waiting calmly.
+
+### 설명
+
+Food delivery, shopping, café desserts. When the urge to splurge hits, put a cooldown on it like a skill in a game.
+CoolTime is a spending habit app: wait until the cooldown ends, then see how much you saved by holding off.
+
+Set a cooldown
+For each item, choose a name, an emoji, how long to wait before using it again and what it costs each time. Common lengths like 3 days, 1 week or 1 month are one tap away.
+
+See what's ready at a glance
+The home screen separates items you can use now from items on cooldown, and a circular gauge shrinks as the time runs down.
+
+One more pause before you break it
+If you try to use something during its cooldown, the app shows the time left and tells you your compliance rate will drop. If you still need it, you can add a note and the actual cost.
+
+Compliance rate and estimated savings
+See how often you kept your cooldowns and how much you saved this month. Stats show compliance by item and by category, plus your usage history.
+
+Recommended templates
+Add common cooldowns for travel, shopping, food, entertainment, lifestyle, health and finance with a single tap.
+
+Notifications and widgets
+Get a notification when a cooldown is halfway through and when it ends, and check the time left right on your Home Screen and Lock Screen widgets.
+
+Your records stay on this device, and no account is needed.
