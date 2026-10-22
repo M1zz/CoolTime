@@ -57,6 +57,12 @@
             "value" : "%@ %@, disponível"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, доступно"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -125,6 +131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, recarga: faltam %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, до конца перезарядки: %@"
           }
         },
         "zh-Hans" : {
@@ -197,6 +209,12 @@
             "value" : "%@ Metade do caminho!"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Половина пути!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -265,6 +283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Recarga concluída!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Перезарядка закончилась!"
           }
         },
         "zh-Hans" : {
@@ -337,6 +361,12 @@
             "value" : "Você passou da metade da recarga de %@! Falta pouco, continue firme 💪"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Половина перезарядки «%@» позади! Ещё немного, держитесь 💪"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -405,6 +435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A recarga de %@ terminou. Agora você já pode usar!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезарядка «%@» закончилась. Теперь можно использовать!"
           }
         },
         "zh-Hans" : {
@@ -561,6 +597,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемент"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемента"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элементов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемента"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -629,6 +695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld mês"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld мес."
           }
         },
         "zh-Hans" : {
@@ -785,6 +857,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждый %lld месяц"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld месяца"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld месяцев"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld месяца"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -853,6 +955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld мин"
           }
         },
         "zh-Hans" : {
@@ -925,6 +1033,12 @@
             "value" : "%lld min %lld s"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld мин %lld с"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -995,6 +1109,12 @@
             "value" : "%lld h"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ч"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1063,6 +1183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h %lld min"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ч %lld мин"
           }
         },
         "zh-Hans" : {
@@ -1219,6 +1345,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждый %lld час"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld часа"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld часов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld часа"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1289,6 +1445,12 @@
             "value" : "%lld d"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld д"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1357,6 +1519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d %lld h"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld д %lld ч"
           }
         },
         "zh-Hans" : {
@@ -1513,6 +1681,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждый %lld день"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld дня"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld дней"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld дня"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1581,6 +1779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld sem"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld нед."
           }
         },
         "zh-Hans" : {
@@ -1737,6 +1941,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждую %lld неделю"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld недели"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld недель"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Каждые %lld недели"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1805,6 +2039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld s"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld с"
           }
         },
         "zh-Hans" : {
@@ -1956,6 +2196,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld vezes"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld раз"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld раза"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld раз"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld раза"
                 }
               }
             }
@@ -2115,6 +2385,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld использование"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld использования"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld использований"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld использования"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2183,6 +2483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhum resultado para “%@”"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ничего не найдено по запросу «%@»"
           }
         },
         "zh-Hans" : {
@@ -2255,6 +2561,12 @@
             "value" : "1 mês"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 мес."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2323,6 +2635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 sem"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 нед."
           }
         },
         "zh-Hans" : {
@@ -2395,6 +2713,12 @@
             "value" : "2 meses"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 мес."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2465,6 +2789,12 @@
             "value" : "2 sem"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 нед."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2533,6 +2863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 d"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 д"
           }
         },
         "zh-Hans" : {
@@ -2606,6 +2942,12 @@
             "value" : "Bloqueio com Face ID"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Блокировка по Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2675,6 +3017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloqueie o app com Face ID ou Touch ID para manter seu histórico privado."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заблокируйте приложение с помощью Face ID или Touch ID, чтобы ваша история оставалась личной."
           }
         },
         "zh-Hans" : {
@@ -2748,6 +3096,12 @@
             "value" : "Registre um uso na hora pedindo à Siri ou executando um atalho."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мгновенно записывайте использование через Siri или быструю команду."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2817,6 +3171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri e Atalhos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri и быстрые команды"
           }
         },
         "zh-Hans" : {
@@ -2890,6 +3250,12 @@
             "value" : "Melhor suporte ao VoiceOver"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Улучшенная поддержка VoiceOver"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2958,6 +3324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valor"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значение"
           }
         },
         "zh-Hans" : {
@@ -3030,6 +3402,12 @@
             "value" : "Falar com o desenvolvedor"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Связаться с разработчиком"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3098,6 +3476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meses"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Месяцы"
           }
         },
         "zh-Hans" : {
@@ -3170,6 +3554,12 @@
             "value" : "Pular"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3238,6 +3628,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhum resultado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ничего не найдено"
           }
         },
         "zh-Hans" : {
@@ -3310,6 +3706,12 @@
             "value" : "Limpar busca"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить поиск"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3378,6 +3780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compras em jogos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покупки в играх"
           }
         },
         "zh-Hans" : {
@@ -3450,6 +3858,12 @@
             "value" : "Compras em jogos a cada 2 semanas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покупки в играх — раз в 2 недели"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3518,6 +3932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Como a recarga de uma habilidade em um jogo,\ndefina um tempo de espera para gastos e hábitos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Как перезарядка умений в играх,\nзадайте время ожидания для трат и привычек"
           }
         },
         "zh-Hans" : {
@@ -3590,6 +4010,12 @@
             "value" : "Aviso: em recarga. Se usar agora, sua taxa de cumprimento vai cair"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Внимание: идёт перезарядка. Если использовать сейчас, процент соблюдения снизится"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3658,6 +4084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continue assim 💪"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Так держать 💪"
           }
         },
         "zh-Hans" : {
@@ -3730,6 +4162,12 @@
             "value" : "Compra grande (acima de ₩100.000)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крупная покупка (от ₩100 000)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3798,6 +4236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Já já!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скоро!"
           }
         },
         "zh-Hans" : {
@@ -3870,6 +4314,12 @@
             "value" : "Um show a cada 2 meses"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шоу — раз в 2 месяца"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3938,6 +4388,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viagem nacional"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поездка по стране"
           }
         },
         "zh-Hans" : {
@@ -4011,6 +4467,12 @@
             "value" : "As telas se reorganizam direitinho em vez de serem cortadas quando você aumenta o texto."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экраны аккуратно перестраиваются, а не обрезаются, когда вы увеличиваете текст."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4080,6 +4542,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sincronização entre dispositivos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Синхронизация между устройствами"
           }
         },
         "zh-Hans" : {
@@ -4152,6 +4620,12 @@
             "value" : "Informações básicas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основное"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4220,6 +4694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quebrar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нарушить"
           }
         },
         "zh-Hans" : {
@@ -4292,6 +4772,12 @@
             "value" : "Vezes quebradas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нарушений"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4360,6 +4846,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analise seus hábitos\ncom estatísticas próprias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Анализируйте привычки\nпо своей статистике"
           }
         },
         "zh-Hans" : {
@@ -4432,6 +4924,12 @@
             "value" : "Depois"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позже"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4500,6 +4998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tempo restante: %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Осталось: %@"
           }
         },
         "zh-Hans" : {
@@ -4573,6 +5077,12 @@
             "value" : "Apagar todos os seus dados"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить все данные"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4641,6 +5151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manicure"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маникюр"
           }
         },
         "zh-Hans" : {
@@ -4713,6 +5229,12 @@
             "value" : "Manicure a cada 3 semanas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маникюр — раз в 3 недели"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4781,6 +5303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maratona de séries"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Марафон сериалов"
           }
         },
         "zh-Hans" : {
@@ -4853,6 +5381,12 @@
             "value" : "Tente outra palavra-chave"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Попробуйте другое ключевое слово"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4921,6 +5455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avançar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далее"
           }
         },
         "zh-Hans" : {
@@ -4993,6 +5533,12 @@
             "value" : "Dia do lixo da dieta uma vez por semana"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Читмил на диете — раз в неделю"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5063,6 +5609,12 @@
             "value" : "Unidade"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Единица"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5131,6 +5683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doces a cada 4 dias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сладкое — раз в 4 дня"
           }
         },
         "zh-Hans" : {
@@ -5204,6 +5762,12 @@
             "value" : "Tudo continua legível, mesmo com Aumentar Contraste ligado ou se for difícil distinguir as cores."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё остаётся читаемым даже при включённом повышении контрастности или если трудно различать цвета."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5273,6 +5837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use o app em mais idiomas."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пользуйтесь приложением на большем числе языков."
           }
         },
         "zh-Hans" : {
@@ -5346,6 +5916,12 @@
             "value" : "Mais idiomas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Больше языков"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5414,6 +5990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sobremesa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Десерты"
           }
         },
         "zh-Hans" : {
@@ -5486,6 +6068,12 @@
             "value" : "Loteria"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лотерея"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5554,6 +6142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loteria uma vez por semana"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лотерея — раз в неделю"
           }
         },
         "zh-Hans" : {
@@ -5626,6 +6220,12 @@
             "value" : "Massagem / spa"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Массаж / спа"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5694,6 +6294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massagem a cada 2 semanas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Массаж — раз в 2 недели"
           }
         },
         "zh-Hans" : {
@@ -5766,6 +6372,12 @@
             "value" : "Observação (opcional)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заметка (необязательно)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5834,6 +6446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tudo está em recarga. Aguardando: %lld"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё на перезарядке. В ожидании: %lld"
           }
         },
         "zh-Hans" : {
@@ -5906,6 +6524,12 @@
             "value" : "Maratona de séries a cada 3 dias"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Марафон сериалов — раз в 3 дня"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5974,6 +6598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cabeleireiro"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Парикмахерская"
           }
         },
         "zh-Hans" : {
@@ -6046,6 +6676,12 @@
             "value" : "Cabeleireiro uma vez por mês"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Парикмахерская — раз в месяц"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6116,6 +6752,12 @@
             "value" : "Delivery a cada 3 dias"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доставка еды — раз в 3 дня"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6184,6 +6826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delivery de comida"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доставка еды"
           }
         },
         "zh-Hans" : {
@@ -6257,6 +6905,12 @@
             "value" : "Backup e exportação"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резервное копирование и экспорт"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6325,6 +6979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Relatos de bugs e sugestões de recursos são bem-vindos."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сообщения об ошибках и идеи новых функций приветствуются."
           }
         },
         "zh-Hans" : {
@@ -6398,6 +7058,12 @@
             "value" : "Cores e contraste mais confortáveis"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобные цвета и контраст"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6466,6 +7132,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informe o custo e calculamos quanto você economizou"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Укажите стоимость, и мы подсчитаем, сколько вы сэкономили"
           }
         },
         "zh-Hans" : {
@@ -6538,6 +7210,12 @@
             "value" : "Usar"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использовать"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6608,6 +7286,12 @@
             "value" : "Disponível"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6676,6 +7360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponíveis (%lld)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно (%lld)"
           }
         },
         "zh-Hans" : {
@@ -6832,6 +7522,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld доступный элемент"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld доступных элемента"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld доступных элементов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld доступного элемента"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6900,6 +7620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponíveis: %lld · Em recarga: %lld"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно: %lld · На перезарядке: %lld"
           }
         },
         "zh-Hans" : {
@@ -6972,6 +7698,12 @@
             "value" : "Concluído"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7040,6 +7772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использовать"
           }
         },
         "zh-Hans" : {
@@ -7112,6 +7850,12 @@
             "value" : "Excluir"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7180,6 +7924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Histórico detalhado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подробная история"
           }
         },
         "zh-Hans" : {
@@ -7252,6 +8002,12 @@
             "value" : "Nova recarga"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая перезарядка"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7320,6 +8076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adicionar nova recarga"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить новую перезарядку"
           }
         },
         "zh-Hans" : {
@@ -7392,6 +8154,12 @@
             "value" : "Ajustes"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7460,6 +8228,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bebida alcoólica"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Алкоголь"
           }
         },
         "zh-Hans" : {
@@ -7532,6 +8306,12 @@
             "value" : "Horas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Часы"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7602,6 +8382,12 @@
             "value" : "Começar"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7670,6 +8456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Custo real (opcional)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фактическая стоимость (необязательно)"
           }
         },
         "zh-Hans" : {
@@ -7743,6 +8535,12 @@
             "value" : "Dicas úteis"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полезные советы"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7811,6 +8609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ícone"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значок"
           }
         },
         "zh-Hans" : {
@@ -7883,6 +8687,12 @@
             "value" : "Item"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Элемент"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7953,6 +8763,12 @@
             "value" : "Buscar itens..."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск элементов…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8021,6 +8837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cumprimento por item"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Соблюдение по элементам"
           }
         },
         "zh-Hans" : {
@@ -8094,6 +8916,12 @@
             "value" : "Use os principais recursos só com o teclado no iPad ou no Mac."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пользуйтесь основными функциями только с клавиатуры на iPad или Mac."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8163,6 +8991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veja as mesmas recargas no iPhone e no iPad."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Смотрите одни и те же перезарядки на iPhone и iPad."
           }
         },
         "zh-Hans" : {
@@ -8235,6 +9069,12 @@
             "value" : "Ainda não há recargas. Que tal adicionar uma?"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезарядок пока нет. Попробуйте добавить!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8303,6 +9143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ainda não há recargas. Adicione uma dos modelos ou crie a sua"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезарядок пока нет. Добавьте из шаблонов или создайте свою"
           }
         },
         "zh-Hans" : {
@@ -8375,6 +9221,12 @@
             "value" : "Ainda não há recargas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезарядок пока нет"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8443,6 +9295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ainda não há atividade"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активности пока нет"
           }
         },
         "zh-Hans" : {
@@ -8515,6 +9373,12 @@
             "value" : "Não perca\nnenhum aviso"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не пропускайте\nуведомления"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8585,6 +9449,12 @@
             "value" : "As notificações estão desativadas. Toque no botão Ajustes para ativá-las"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уведомления выключены. Нажмите кнопку «Настройки», чтобы включить их"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8653,6 +9523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "As notificações estão desativadas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уведомления выключены"
           }
         },
         "zh-Hans" : {
@@ -8726,6 +9602,12 @@
             "value" : "Dicas discretas sobre recursos úteis, na hora certa."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ненавязчивые подсказки о полезных функциях — именно тогда, когда они нужны."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8796,6 +9678,12 @@
             "value" : "Lanche da madrugada"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ночной перекус"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8864,6 +9752,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lanche da madrugada a cada 5 dias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ночной перекус — раз в 5 дней"
           }
         },
         "zh-Hans" : {
@@ -8937,6 +9831,12 @@
             "value" : "Na primeira vez que abrir o app depois de uma atualização, veja as novidades."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При первом запуске после обновления узнайте, что нового."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9006,6 +9906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novidades"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что нового"
           }
         },
         "zh-Hans" : {
@@ -9078,6 +9984,12 @@
             "value" : "Cinema"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кино"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9146,6 +10058,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cinema a cada 2 semanas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кино — раз в 2 недели"
           }
         },
         "zh-Hans" : {
@@ -9218,6 +10136,12 @@
             "value" : "Custo estimado (opcional)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидаемая стоимость (необязательно)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9286,6 +10210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Economia est."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эконом. (оценка)"
           }
         },
         "zh-Hans" : {
@@ -9358,6 +10288,12 @@
             "value" : "Estimado: ₩%@"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидалось: ₩%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9426,6 +10362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recargas de hoje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезарядки на сегодня"
           }
         },
         "zh-Hans" : {
@@ -9498,6 +10440,12 @@
             "value" : "Compras de roupas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покупка одежды"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9566,6 +10514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Roupas a cada 2 semanas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одежда — раз в 2 недели"
           }
         },
         "zh-Hans" : {
@@ -9638,6 +10592,12 @@
             "value" : "Concluir"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9706,6 +10666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Por que você vai usar?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зачем вы это используете?"
           }
         },
         "zh-Hans" : {
@@ -9778,6 +10744,12 @@
             "value" : "Comer fora"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ужин вне дома"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9848,6 +10820,12 @@
             "value" : "Comer fora uma vez por semana"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ужин вне дома — раз в неделю"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9916,6 +10894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Um dia de descanso do treino a cada 3 dias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День отдыха от тренировок — раз в 3 дня"
           }
         },
         "zh-Hans" : {
@@ -9989,6 +10973,12 @@
             "value" : "Reduzir movimento"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уменьшение движения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10058,6 +11048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Com Reduzir Movimento ligado, os efeitos na tela ficam mais calmos."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если включить «Уменьшение движения», эффекты на экране станут спокойнее."
           }
         },
         "zh-Hans" : {
@@ -10131,6 +11127,12 @@
             "value" : "Apague todo o histórico de recargas dentro do app quando quiser."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В любой момент удалите всю историю перезарядок прямо в приложении."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10199,6 +11201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bebida alcoólica a cada 3 dias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Алкоголь — раз в 3 дня"
           }
         },
         "zh-Hans" : {
@@ -10271,6 +11279,12 @@
             "value" : "Nome"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10339,6 +11353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enviar e-mail"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Написать на почту"
           }
         },
         "zh-Hans" : {
@@ -10411,6 +11431,12 @@
             "value" : "Economia estimada neste mês: %lld wons"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оценка экономии в этом месяце: %lld вон"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10479,6 +11505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DM no Instagram (@lee25_ios)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сообщение в Instagram (@lee25_ios)"
           }
         },
         "zh-Hans" : {
@@ -10551,6 +11583,12 @@
             "value" : "Dias"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дни"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10619,6 +11657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recargas comuns\nToque em uma para adicionar na hora"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Частые перезарядки\nНажмите, чтобы сразу добавить"
           }
         },
         "zh-Hans" : {
@@ -10691,6 +11735,12 @@
             "value" : "Eletrônicos"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Электроника"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10759,6 +11809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eletrônicos a cada 6 meses"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Электроника — раз в 6 месяцев"
           }
         },
         "zh-Hans" : {
@@ -10831,6 +11887,12 @@
             "value" : "Cumprimento geral"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общее соблюдение"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10899,6 +11961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veja quanto\nvocê economizou"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Узнайте,\nсколько вы сэкономили"
           }
         },
         "zh-Hans" : {
@@ -10971,6 +12039,12 @@
             "value" : "Semanas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недели"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11039,6 +12113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Day trade"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Торговля акциями"
           }
         },
         "zh-Hans" : {
@@ -11111,6 +12191,12 @@
             "value" : "Cumprimento"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Соблюдение"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11179,6 +12265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxa de cumprimento: %lld por cento"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Процент соблюдения: %lld%%"
           }
         },
         "zh-Hans" : {
@@ -11251,6 +12343,12 @@
             "value" : "Taxa de cumprimento e estatísticas por categoria\najudam a criar hábitos melhores"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Процент соблюдения и статистика по категориям\nпомогут выработать лучшие привычки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11319,6 +12417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usar agora"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использовать сейчас"
           }
         },
         "zh-Hans" : {
@@ -11391,6 +12495,12 @@
             "value" : "Se usar agora, sua taxa de cumprimento vai cair"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если использовать сейчас, процент соблюдения снизится"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11459,6 +12569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suporte"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддержка"
           }
         },
         "zh-Hans" : {
@@ -11531,6 +12647,12 @@
             "value" : "Adicionar a sua"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить свою"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11599,6 +12721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total de usos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всего использований"
           }
         },
         "zh-Hans" : {
@@ -11671,6 +12799,12 @@
             "value" : "Total de itens"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всего элементов"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11739,6 +12873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gasto total (est.)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всего потрачено (оценка)"
           }
         },
         "zh-Hans" : {
@@ -11811,6 +12951,12 @@
             "value" : "Atividade recente"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недавняя активность"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11879,6 +13025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adicionar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить"
           }
         },
         "zh-Hans" : {
@@ -11951,6 +13103,12 @@
             "value" : "Modelos recomendados"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендуемые шаблоны"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12019,6 +13177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Evite operar por impulso, uma vez por semana"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без импульсивных сделок — раз в неделю"
           }
         },
         "zh-Hans" : {
@@ -12091,6 +13255,12 @@
             "value" : "Compra por impulso"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импульсивная покупка"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12159,6 +13329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compras por impulso só uma vez por semana"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импульсивные покупки — только раз в неделю"
           }
         },
         "zh-Hans" : {
@@ -12231,6 +13407,12 @@
             "value" : "Cancelar"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12299,6 +13481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dia do lixo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Читмил"
           }
         },
         "zh-Hans" : {
@@ -12371,6 +13559,12 @@
             "value" : "Categoria"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Категория"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12439,6 +13633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Por categoria"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По категориям"
           }
         },
         "zh-Hans" : {
@@ -12511,6 +13711,12 @@
             "value" : "Cafeteria"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кафе"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12579,6 +13785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Café a cada dois dias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кофе — через день"
           }
         },
         "zh-Hans" : {
@@ -12651,6 +13863,12 @@
             "value" : "Show / espetáculo"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Концерт / шоу"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12716,6 +13934,12 @@
           }
         },
         "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -12792,6 +14016,12 @@
             "value" : "Salve o histórico de recargas em um arquivo e traga de volta depois."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраните историю перезарядок в файл и восстановите её позже."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12860,6 +14090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quebrar recarga e usar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прервать перезарядку и использовать"
           }
         },
         "zh-Hans" : {
@@ -12932,6 +14168,12 @@
             "value" : "Quebrar recarga"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прервать перезарядку"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13000,6 +14242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recargas quebradas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прерванные перезарядки"
           }
         },
         "zh-Hans" : {
@@ -13072,6 +14320,12 @@
             "value" : "Reiniciar recarga"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить перезарядку"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13140,6 +14394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ative nos Ajustes para receber avisos quando uma recarga terminar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включите их в настройках, чтобы получать оповещения об окончании перезарядки"
           }
         },
         "zh-Hans" : {
@@ -13212,6 +14472,12 @@
             "value" : "Duração da recarga"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Длительность перезарядки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13282,6 +14548,12 @@
             "value" : "Em recarga"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На перезарядке"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13350,6 +14622,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Em recarga (%lld)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На перезарядке (%lld)"
           }
         },
         "zh-Hans" : {
@@ -13506,6 +14784,36 @@
             }
           }
         },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемент на перезарядке"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемента на перезарядке"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элементов на перезарядке"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемента на перезарядке"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13574,6 +14882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Em recarga!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идёт перезарядка!"
           }
         },
         "zh-Hans" : {
@@ -13646,6 +14960,12 @@
             "value" : "Controle seus impulsos\ncom recargas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Держите импульсы под контролем\nс помощью перезарядок"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13716,6 +15036,12 @@
             "value" : "Toda vez que você cumpre uma recarga,\nmostramos quanto você economizou"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждый раз, когда вы выдерживаете перезарядку,\nмы показываем, сколько вы сэкономили"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13784,6 +15110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avisamos quando uma recarga terminar\nVocê também pode conferir no widget"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мы сообщим, когда закончится перезарядка\nПроверить можно и в виджете"
           }
         },
         "zh-Hans" : {
@@ -13857,6 +15189,12 @@
             "value" : "Layouts para texto maior"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Макеты для крупного текста"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13925,6 +15263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gastos grandes uma vez por mês"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крупные траты — раз в месяц"
           }
         },
         "zh-Hans" : {
@@ -13998,6 +15342,12 @@
             "value" : "Controle por teclado"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Управление с клавиатуры"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14066,6 +15416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Táxi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Такси"
           }
         },
         "zh-Hans" : {
@@ -14138,6 +15494,12 @@
             "value" : "Táxi a cada 3 dias"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Такси — раз в 3 дня"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14206,6 +15568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toque para usar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажмите, чтобы использовать"
           }
         },
         "zh-Hans" : {
@@ -14278,6 +15646,12 @@
             "value" : "Toque para quebrar a recarga; mantenha pressionado para mais opções"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажмите, чтобы прервать перезарядку; удерживайте для других действий"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14346,6 +15720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modelos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шаблоны"
           }
         },
         "zh-Hans" : {
@@ -14418,6 +15798,12 @@
             "value" : "Adicionar dos modelos"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить из шаблонов"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14486,6 +15872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adicione uma dos modelos\nou crie a sua"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавьте из шаблонов\nили создайте свою"
           }
         },
         "zh-Hans" : {
@@ -14558,6 +15950,12 @@
             "value" : "Estatísticas"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Статистика"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14626,6 +16024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ver estatísticas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Статистика"
           }
         },
         "zh-Hans" : {
@@ -14698,6 +16102,12 @@
             "value" : "Fast food"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фастфуд"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14766,6 +16176,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast food a cada 5 dias"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фастфуд — раз в 5 дней"
           }
         },
         "zh-Hans" : {
@@ -14839,6 +16255,12 @@
             "value" : "Layout para iPhone dobrável"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Макет для складного iPhone"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14908,6 +16330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use a tela larga de um iPhone dobrável como dois painéis lado a lado."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Используйте широкий экран складного iPhone в виде двух панелей рядом."
           }
         },
         "zh-Hans" : {
@@ -14980,6 +16408,12 @@
             "value" : "Uma viagem nacional por mês"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одна поездка по стране в месяц"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15048,6 +16482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viagem internacional"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поездка за границу"
           }
         },
         "zh-Hans" : {
@@ -15120,6 +16560,12 @@
             "value" : "Uma viagem internacional a cada 2 meses já é suficiente"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поездка за границу раз в 2 месяца — более чем достаточно"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15190,6 +16636,12 @@
             "value" : "Hotel para relaxar"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отдых в отеле"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15258,6 +16710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uma pausa em hotel a cada 3 semanas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отдых в отеле раз в 3 недели"
           }
         },
         "zh-Hans" : {
@@ -15331,6 +16789,12 @@
             "value" : "O VoiceOver lê cada botão e cada detalhe, na ordem certa."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver озвучивает каждую кнопку и каждую деталь в правильном порядке."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15399,6 +16863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dia de descanso (sem treino)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "День отдыха (пропуск тренировки)"
           }
         },
         "zh-Hans" : {

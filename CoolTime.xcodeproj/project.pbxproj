@@ -300,6 +300,7 @@
 				"zh-Hans",
 				"zh-Hant",
 				ja,
+				ru,
 				es,
 				de,
 				fr,
