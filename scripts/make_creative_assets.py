@@ -20,8 +20,8 @@ RAW = ROOT / "docs" / "screenshots" / "raw" / "creative"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일. 쿨타임은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko", "tr": "tr", "sv": "sv", "pl": "pl", "nl": "nl", "nb": "nb", "id": "id", "fi": "fi", "el": "el", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
+# 앱 언어 코드 = App Store Connect 로케일.
+STORE = {}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -36,23 +36,25 @@ SEARCH = {
     "en": ("CoolTime timer", "Save what<br>you hold back", "Delivery and shopping wait until the cooldown ends"),
     "en-GB": ("CoolTime timer", "Save what<br>you hold back", "Takeaways and shopping wait until the cooldown ends"),
     "ja": ("クールタイム タイマー", "我慢した分<br>お金が残る", "デリバリーも買い物もクールタイムが終わってから"),
-    "es": ("Temporizador CoolTime", "Lo que aguantas<br>es dinero que queda", "Compras y comida a domicilio esperan al fin de la espera"),
-    "de": ("CoolTime Timer", "Was du dir verkneifst,<br>bleibt im Geldbeutel", "Lieferdienst und Shopping erst nach der Abklingzeit"),
-    "fr": ("Minuteur CoolTime", "Ce que vous retenez<br>reste dans votre poche", "Livraison et shopping attendent la fin de la recharge"),
+    "zh-Hans": ("CoolTime 冷却计时", "忍住多少<br>就省下多少", "外卖和购物，都等冷却结束再说"),
+    "zh-Hant": ("CoolTime 冷卻計時", "忍住多少<br>就省下多少", "外送和購物，都等冷卻結束再說"),
+    "es": ("Temporizador CoolTime", "Lo que aguantas,<br>lo ahorras", "Compras y comida a domicilio esperan al fin de la espera"),
+    "de": ("CoolTime Timer", "Nicht gekauft,<br>schon gespart", "Lieferdienst und Shopping erst nach der Abklingzeit"),
+    "fr": ("Minuteur CoolTime", "Moins d’achats,<br>plus d’économies", "Livraison et shopping attendent la fin de la recharge"),
     "it": ("Timer CoolTime", "Quello che eviti<br>resta in tasca", "Consegne e shopping aspettano la fine della ricarica"),
     "pt-BR": ("Timer CoolTime", "O que você segura<br>fica no bolso", "Delivery e compras esperam a recarga terminar"),
     "ru": ("Таймер CoolTime", "Что сдержали —<br>то и сэкономили", "Доставка и шопинг подождут конца перезарядки"),
     "th": ("ตัวจับเวลา CoolTime", "ยั้งใจได้เท่าไร<br>เงินก็เหลือเท่านั้น", "เดลิเวอรี่กับช้อปปิ้งต้องรอให้คูลดาวน์จบ"),
-    "vi": ("Hẹn giờ CoolTime", "Kiềm chế được bao nhiêu<br>tiền còn bấy nhiêu", "Đồ ăn giao và mua sắm chờ hết thời gian chờ"),
+    "vi": ("Hẹn giờ CoolTime", "Kiềm chế được,<br>tiền còn lại", "Đồ ăn giao và mua sắm chờ hết thời gian chờ"),
     "cs": ("Časovač CoolTime", "Co vydržíš,<br>to ušetříš", "Rozvoz i nákupy počkají na konec čekací doby"),
-    "da": ("CoolTime-timer", "Det, du holder igen med,<br>bliver i pungen", "Levering og shopping venter, til ventetiden er slut"),
-    "el": ("Χρονόμετρο CoolTime", "Ό,τι συγκρατείς<br>μένει στην τσέπη σου", "Το delivery και τα ψώνια περιμένουν το τέλος της αναμονής"),
+    "da": ("CoolTime-timer", "Det, du lader være,<br>sparer du", "Levering og shopping venter, til ventetiden er slut"),
+    "el": ("Χρονόμετρο CoolTime", "Ό,τι αντέχεις,<br>το κερδίζεις", "Το delivery και τα ψώνια περιμένουν το τέλος της αναμονής"),
     "fi": ("CoolTime-ajastin", "Minkä maltat jättää,<br>se jää taskuun", "Kotiinkuljetus ja ostokset odottavat odotusajan loppua"),
-    "id": ("Timer CoolTime", "Yang kamu tahan<br>jadi uang yang tersisa", "Pesan antar dan belanja menunggu waktu jeda selesai"),
-    "nb": ("CoolTime-tidtaker", "Det du holder igjen,<br>blir i lommeboken", "Levering og shopping venter til ventetiden er over"),
-    "nl": ("CoolTime-timer", "Wat je laat liggen,<br>blijft in je portemonnee", "Bezorging en winkelen wachten tot de wachttijd voorbij is"),
-    "pl": ("Minutnik CoolTime", "Co przetrzymasz,<br>to zostaje w kieszeni", "Dostawa i zakupy czekają do końca czasu oczekiwania"),
-    "sv": ("CoolTime-timer", "Det du håller igen på<br>blir kvar i plånboken", "Leverans och shopping väntar tills väntetiden är slut"),
+    "id": ("Timer CoolTime", "Tahan diri,<br>uang pun tersisa", "Pesan antar dan belanja menunggu waktu jeda selesai"),
+    "nb": ("CoolTime-tidtaker", "Det du lar være,<br>sparer du", "Levering og shopping venter til ventetiden er over"),
+    "nl": ("CoolTime-timer", "Niet gekocht,<br>al bespaard", "Bezorging en winkelen wachten tot de wachttijd voorbij is"),
+    "pl": ("Minutnik CoolTime", "Co przetrzymasz,<br>to zaoszczędzisz", "Dostawa i zakupy czekają do końca czasu oczekiwania"),
+    "sv": ("CoolTime-timer", "Det du avstår,<br>sparar du", "Leverans och shopping väntar tills väntetiden är slut"),
     "tr": ("CoolTime sayaç", "Tuttuğun kadar<br>para cebinde kalır", "Sipariş ve alışveriş, bekleme süresi bitince"),
 }
 
@@ -62,6 +64,8 @@ HEADER = {
     "en": ("Spending cooldown", "Cooldown first,<br>then splurge"),
     "en-GB": ("Spending cooldown", "Cooldown first,<br>then splurge"),
     "ja": ("消費クールタイム", "買う前に<br>クールタイムから"),
+    "zh-Hans": ("消费冷却", "先冷却<br>再剁手"),
+    "zh-Hant": ("消費冷卻", "先冷卻<br>再下手"),
     "es": ("Espera de gastos", "Primero la espera,<br>luego el capricho"),
     "de": ("Ausgaben-Abklingzeit", "Erst Abklingzeit,<br>dann kaufen"),
     "fr": ("Recharge des dépenses", "La recharge d’abord,<br>l’achat ensuite"),
@@ -88,13 +92,17 @@ BASE_CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
 html,body { width:%(W)dpx; height:%(H)dpx; overflow:hidden; }
 body { background:#F2F2F7; position:relative;
-  font-family:-apple-system, "SF Pro Display", "Apple SD Gothic Neo", sans-serif; }
+  font-family:"SF Pro Display", -apple-system, "Apple SD Gothic Neo", sans-serif; }  /* SF Pro 먼저: -apple-system 은 é · á 를 다른 글꼴로 그린다 */
+:lang(zh-Hans) body, body:lang(zh-Hans) { font-family:-apple-system, "PingFang SC", sans-serif; }
+:lang(zh-Hant) body, body:lang(zh-Hant) { font-family:-apple-system, "PingFang TC", sans-serif; }
+:lang(ja) body, body:lang(ja) { font-family:-apple-system, "Hiragino Sans", sans-serif; }
 .glow { position:absolute; border-radius:50%%; filter:blur(170px); pointer-events:none; }
 .text { position:absolute; display:flex; flex-direction:column; justify-content:center; }
 .eyebrow { font-weight:800; color:#1FB860; letter-spacing:-0.01em; line-height:1.15; }
 .headline { font-weight:800; color:#16161A; letter-spacing:-0.03em; line-height:1.12; text-wrap:balance; }
 .sub { font-weight:500; color:#76767E; letter-spacing:-0.01em; line-height:1.35; text-wrap:balance; }
 :lang(ko) .headline, :lang(ko) .sub, :lang(ko) .eyebrow { word-break:keep-all; }
+:lang(ja) .headline, :lang(ja) .sub, :lang(ja) .eyebrow { word-break:auto-phrase; }
 .phone { position:absolute; background:#1b1b1f; border:6px solid #c9c9d1; padding:40px; border-radius:190px;
   box-shadow: 0 60px 160px rgba(40,40,80,.28), 0 0 0 2px #2a2a2f inset; }
 .phone img { width:100%%; display:block; border-radius:152px; }
