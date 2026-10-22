@@ -57,6 +57,12 @@
             "value" : "%@ %@, disponible"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, bisa dipakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, recharge : %@ restantes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, waktu jeda tersisa %@"
           }
         },
         "it" : {
@@ -281,6 +293,12 @@
             "value" : "%@ À mi-parcours !"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Sudah setengah jalan!"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -391,6 +409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Recharge terminée !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Waktu jeda selesai!"
           }
         },
         "it" : {
@@ -505,6 +529,12 @@
             "value" : "Vous avez passé la moitié de la recharge de %@ ! Tenez bon 💪"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu jeda %@ sudah lewat setengah! Tahan sebentar lagi 💪"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -615,6 +645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le temps de recharge de %@ est terminé. Vous pouvez l’utiliser !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu jeda %@ sudah selesai. Sekarang kamu bisa memakainya!"
           }
         },
         "it" : {
@@ -849,6 +885,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld item"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -1007,6 +1049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld mois"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld bln"
           }
         },
         "it" : {
@@ -1217,6 +1265,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap %lld bulan"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -1377,6 +1431,12 @@
             "value" : "%lld min"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mnt"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1487,6 +1547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min %lld s"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mnt %lld dtk"
           }
         },
         "it" : {
@@ -1601,6 +1667,12 @@
             "value" : "%lld h"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld jam"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1711,6 +1783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h %lld min"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld jam %lld mnt"
           }
         },
         "it" : {
@@ -1921,6 +1999,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap %lld jam"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -2081,6 +2165,12 @@
             "value" : "%lld j"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hari"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2191,6 +2281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld j %lld h"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hari %lld jam"
           }
         },
         "it" : {
@@ -2401,6 +2497,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap %lld hari"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -2559,6 +2661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld sem."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mgg"
           }
         },
         "it" : {
@@ -2769,6 +2877,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap %lld minggu"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -2927,6 +3041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld s"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dtk"
           }
         },
         "it" : {
@@ -3159,6 +3279,12 @@
                 }
               }
             }
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kali"
           }
         },
         "it" : {
@@ -3441,6 +3567,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dipakai %lld kali"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -3601,6 +3733,12 @@
             "value" : "Aucun résultat pour « %@ »"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada hasil untuk “%@”"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3711,6 +3849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 mois"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 bln"
           }
         },
         "it" : {
@@ -3825,6 +3969,12 @@
             "value" : "1 sem."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 mgg"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3935,6 +4085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 mois"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 bln"
           }
         },
         "it" : {
@@ -4049,6 +4205,12 @@
             "value" : "2 sem."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 mgg"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4159,6 +4321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 j"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 hari"
           }
         },
         "it" : {
@@ -4274,6 +4442,12 @@
             "value" : "Verrouillage par Face ID"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci Face ID"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4385,6 +4559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verrouillez l’app avec Face ID ou Touch ID pour garder votre historique privé."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci aplikasi dengan Face ID atau Touch ID agar riwayatmu tetap pribadi."
           }
         },
         "it" : {
@@ -4500,6 +4680,12 @@
             "value" : "Enregistrez une utilisation instantanément en le demandant à Siri ou avec un raccourci."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat pemakaian seketika dengan meminta Siri atau menjalankan pintasan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4611,6 +4797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri et Raccourcis"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri dan Pintasan"
           }
         },
         "it" : {
@@ -4726,6 +4918,12 @@
             "value" : "Meilleure prise en charge de VoiceOver"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan VoiceOver yang lebih baik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4836,6 +5034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valeur"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nilai"
           }
         },
         "it" : {
@@ -4950,6 +5154,12 @@
             "value" : "Contacter le développeur"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hubungi pengembang"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5060,6 +5270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mois"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bulan"
           }
         },
         "it" : {
@@ -5174,6 +5390,12 @@
             "value" : "Passer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lewati"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5284,6 +5506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun résultat"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada hasil"
           }
         },
         "it" : {
@@ -5398,6 +5626,12 @@
             "value" : "Effacer la recherche"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus pencarian"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5508,6 +5742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Achats dans les jeux"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pembelian dalam game"
           }
         },
         "it" : {
@@ -5622,6 +5862,12 @@
             "value" : "Achats dans les jeux toutes les 2 semaines"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pembelian dalam game 2 minggu sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5732,6 +5978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comme la recharge d’une compétence dans un jeu,\ndéfinissez un temps d’attente pour vos dépenses et habitudes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seperti waktu jeda skill di dalam game,\natur waktu tunggu untuk pengeluaran dan kebiasaanmu"
           }
         },
         "it" : {
@@ -5846,6 +6098,12 @@
             "value" : "Attention : en recharge. Si vous l’utilisez maintenant, votre taux de respect baissera"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peringatan: sedang dalam waktu jeda. Jika dipakai sekarang, tingkat kepatuhanmu akan turun"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5956,6 +6214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continuez 💪"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semangat terus 💪"
           }
         },
         "it" : {
@@ -6070,6 +6334,12 @@
             "value" : "Gros achat (plus de 100 000 ₩)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belanja besar (di atas ₩100.000)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6180,6 +6450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bientôt !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebentar lagi!"
           }
         },
         "it" : {
@@ -6294,6 +6570,12 @@
             "value" : "Un spectacle tous les 2 mois"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pertunjukan 2 bulan sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6404,6 +6686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voyage dans le pays"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perjalanan dalam negeri"
           }
         },
         "it" : {
@@ -6519,6 +6807,12 @@
             "value" : "Les écrans se réorganisent proprement au lieu d’être coupés quand vous agrandissez le texte."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layar tertata ulang dengan rapi, bukan terpotong, saat kamu memperbesar teks."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6630,6 +6924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronisation entre appareils"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinkronisasi antarperangkat"
           }
         },
         "it" : {
@@ -6744,6 +7044,12 @@
             "value" : "Informations de base"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info dasar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6854,6 +7160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rompre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Langgar"
           }
         },
         "it" : {
@@ -6968,6 +7280,12 @@
             "value" : "Fois rompues"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jumlah pelanggaran"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7078,6 +7396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analysez vos habitudes\navec vos propres statistiques"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analisis kebiasaanmu\ndengan statistik sendiri"
           }
         },
         "it" : {
@@ -7192,6 +7516,12 @@
             "value" : "Plus tard"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nanti"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7302,6 +7632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Temps restant : %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sisa waktu: %@"
           }
         },
         "it" : {
@@ -7417,6 +7753,12 @@
             "value" : "Supprimer toutes vos données"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua datamu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7527,6 +7869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manucure"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nail art"
           }
         },
         "it" : {
@@ -7641,6 +7989,12 @@
             "value" : "Manucure toutes les 3 semaines"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nail art 3 minggu sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7751,6 +8105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marathon de séries"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton serial"
           }
         },
         "it" : {
@@ -7865,6 +8225,12 @@
             "value" : "Essayez un autre mot-clé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coba kata kunci lain"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7975,6 +8341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suivant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berikutnya"
           }
         },
         "it" : {
@@ -8089,6 +8461,12 @@
             "value" : "Un jour de triche au régime par semaine"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day diet seminggu sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8201,6 +8579,12 @@
             "value" : "Unité"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satuan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8311,6 +8695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Des sucreries tous les 4 jours"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makanan manis 4 hari sekali"
           }
         },
         "it" : {
@@ -8426,6 +8816,12 @@
             "value" : "Tout reste lisible, même avec Augmenter le contraste ou si les couleurs sont difficiles à distinguer."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semuanya tetap terbaca, bahkan dengan Tingkatkan Kontras aktif atau saat warna sulit dibedakan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8537,6 +8933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez l’app dans d’autres langues."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gunakan aplikasi dalam lebih banyak bahasa."
           }
         },
         "it" : {
@@ -8652,6 +9054,12 @@
             "value" : "Plus de langues"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih banyak bahasa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8762,6 +9170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dessert"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makanan penutup"
           }
         },
         "it" : {
@@ -8876,6 +9290,12 @@
             "value" : "Loto"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotre"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8986,6 +9406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loto une fois par semaine"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotre seminggu sekali"
           }
         },
         "it" : {
@@ -9100,6 +9526,12 @@
             "value" : "Massage / spa"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pijat / spa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9210,6 +9642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massage toutes les 2 semaines"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pijat 2 minggu sekali"
           }
         },
         "it" : {
@@ -9324,6 +9762,12 @@
             "value" : "Note (facultatif)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan (opsional)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9434,6 +9878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout est en recharge. En attente : %lld"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua item sedang dalam waktu jeda. Menunggu: %lld"
           }
         },
         "it" : {
@@ -9548,6 +9998,12 @@
             "value" : "Marathon de séries tous les 3 jours"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton serial 3 hari sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9658,6 +10114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coiffeur"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salon rambut"
           }
         },
         "it" : {
@@ -9772,6 +10234,12 @@
             "value" : "Coiffeur une fois par mois"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salon rambut sebulan sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9884,6 +10352,12 @@
             "value" : "Livraison tous les 3 jours"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesan antar 3 hari sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9994,6 +10468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Repas livré"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesan antar makanan"
           }
         },
         "it" : {
@@ -10109,6 +10589,12 @@
             "value" : "Sauvegarde et export"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cadangan dan ekspor"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10219,6 +10705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les signalements de bugs et les idées de fonctionnalités sont les bienvenus."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laporan bug dan usulan fitur sangat kami harapkan."
           }
         },
         "it" : {
@@ -10334,6 +10826,12 @@
             "value" : "Couleurs et contraste plus confortables"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna dan kontras yang lebih nyaman"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10444,6 +10942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saisissez un coût et nous calculerons vos économies"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan biaya dan kami akan menghitung berapa yang kamu hemat"
           }
         },
         "it" : {
@@ -10558,6 +11062,12 @@
             "value" : "Utiliser"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10670,6 +11180,12 @@
             "value" : "Disponible"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bisa dipakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10780,6 +11296,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponibles (%lld)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bisa dipakai (%lld)"
           }
         },
         "it" : {
@@ -11014,6 +11536,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld item bisa dipakai"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -11174,6 +11702,12 @@
             "value" : "Disponibles : %lld · En recharge : %lld"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bisa dipakai: %lld · Dalam waktu jeda: %lld"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11284,6 +11818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terminé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
           }
         },
         "it" : {
@@ -11398,6 +11938,12 @@
             "value" : "Utiliser"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11508,6 +12054,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
           }
         },
         "it" : {
@@ -11622,6 +12174,12 @@
             "value" : "Historique détaillé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan terperinci"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11732,6 +12290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouveau temps de recharge"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu jeda baru"
           }
         },
         "it" : {
@@ -11846,6 +12410,12 @@
             "value" : "Ajouter un nouveau temps de recharge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah waktu jeda baru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11956,6 +12526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réglages"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
           }
         },
         "it" : {
@@ -12070,6 +12646,12 @@
             "value" : "Alcool"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minum alkohol"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12180,6 +12762,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heures"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jam"
           }
         },
         "it" : {
@@ -12294,6 +12882,12 @@
             "value" : "Commencer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12404,6 +12998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coût réel (facultatif)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biaya sebenarnya (opsional)"
           }
         },
         "it" : {
@@ -12519,6 +13119,12 @@
             "value" : "Astuces pratiques"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tips berguna"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12629,6 +13235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Icône"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikon"
           }
         },
         "it" : {
@@ -12743,6 +13355,12 @@
             "value" : "Élément"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Item"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12855,6 +13473,12 @@
             "value" : "Rechercher des éléments…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cari item..."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12965,6 +13589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respect par élément"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kepatuhan per item"
           }
         },
         "it" : {
@@ -13080,6 +13710,12 @@
             "value" : "Utilisez les fonctions principales avec le seul clavier sur iPad ou Mac."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gunakan fitur utama hanya dengan keyboard di iPad atau Mac."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13191,6 +13827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retrouvez les mêmes recharges sur votre iPhone et votre iPad."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat waktu jeda yang sama di iPhone dan iPad."
           }
         },
         "it" : {
@@ -13305,6 +13947,12 @@
             "value" : "Aucun temps de recharge pour l’instant. Essayez d’en ajouter un !"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada waktu jeda. Coba tambahkan satu!"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13415,6 +14063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun temps de recharge pour l’instant. Ajoutez-en un depuis les modèles ou créez le vôtre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada waktu jeda. Tambahkan dari templat atau buat sendiri"
           }
         },
         "it" : {
@@ -13529,6 +14183,12 @@
             "value" : "Aucun temps de recharge pour l’instant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada waktu jeda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13639,6 +14299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune activité pour l’instant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada aktivitas"
           }
         },
         "it" : {
@@ -13753,6 +14419,12 @@
             "value" : "Ne manquez plus\nune notification"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jangan lewatkan\nnotifikasi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13865,6 +14537,12 @@
             "value" : "Les notifications sont désactivées. Touchez le bouton Réglages pour les activer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifikasi nonaktif. Ketuk tombol Pengaturan untuk mengaktifkannya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13975,6 +14653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les notifications sont désactivées"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifikasi nonaktif"
           }
         },
         "it" : {
@@ -14090,6 +14774,12 @@
             "value" : "De discrets conseils sur les fonctions utiles, juste au bon moment."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Petunjuk halus tentang fitur berguna, tepat saat kamu membutuhkannya."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14202,6 +14892,12 @@
             "value" : "Grignotage de nuit"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camilan tengah malam"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14312,6 +15008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grignotage de nuit tous les 5 jours"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camilan tengah malam 5 hari sekali"
           }
         },
         "it" : {
@@ -14427,6 +15129,12 @@
             "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat pertama membuka aplikasi setelah pembaruan, lihat apa yang baru."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14538,6 +15246,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouveautés"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang baru"
           }
         },
         "it" : {
@@ -14652,6 +15366,12 @@
             "value" : "Cinéma"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bioskop"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14762,6 +15482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cinéma toutes les 2 semaines"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nonton film 2 minggu sekali"
           }
         },
         "it" : {
@@ -14876,6 +15602,12 @@
             "value" : "Coût estimé (facultatif)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perkiraan biaya (opsional)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14986,6 +15718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Économies est."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perkiraan hemat"
           }
         },
         "it" : {
@@ -15100,6 +15838,12 @@
             "value" : "Estimé : ₩%@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perkiraan: ₩%@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15210,6 +15954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recharges du jour"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu jeda hari ini"
           }
         },
         "it" : {
@@ -15324,6 +16074,12 @@
             "value" : "Achats de vêtements"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belanja pakaian"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15434,6 +16190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Des vêtements toutes les 2 semaines"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakaian 2 minggu sekali"
           }
         },
         "it" : {
@@ -15548,6 +16310,12 @@
             "value" : "Terminé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15658,6 +16426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pourquoi l’utilisez-vous ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenapa kamu memakainya?"
           }
         },
         "it" : {
@@ -15772,6 +16546,12 @@
             "value" : "Restaurant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makan di luar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15884,6 +16664,12 @@
             "value" : "Restaurant une fois par semaine"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makan di luar seminggu sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15994,6 +16780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un jour de repos sportif tous les 3 jours"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari istirahat olahraga 3 hari sekali"
           }
         },
         "it" : {
@@ -16109,6 +16901,12 @@
             "value" : "Réduire les animations"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurangi Gerakan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16220,6 +17018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avec Réduire les animations activé, les effets à l’écran sont plus doux."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengan Kurangi Gerakan aktif, efek layar menjadi lebih tenang."
           }
         },
         "it" : {
@@ -16335,6 +17139,12 @@
             "value" : "Effacez tout votre historique de recharges depuis l’app quand vous le souhaitez."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus seluruh riwayat waktu jeda dari dalam aplikasi kapan pun kamu mau."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16445,6 +17255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alcool tous les 3 jours"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkohol 3 hari sekali"
           }
         },
         "it" : {
@@ -16559,6 +17375,12 @@
             "value" : "Nom"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16669,6 +17491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écrire par e-mail"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirim email"
           }
         },
         "it" : {
@@ -16783,6 +17611,12 @@
             "value" : "Économies estimées ce mois-ci : %lld wons"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perkiraan penghematan bulan ini: %lld won"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16893,6 +17727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Message Instagram (@lee25_ios)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM Instagram (@lee25_ios)"
           }
         },
         "it" : {
@@ -17007,6 +17847,12 @@
             "value" : "Jours"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17117,6 +17963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recharges courantes\nTouchez-en une pour l’ajouter aussitôt"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu jeda yang umum\nKetuk salah satunya untuk langsung menambahkannya"
           }
         },
         "it" : {
@@ -17231,6 +18083,12 @@
             "value" : "Électronique"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17341,6 +18199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De l’électronique tous les 6 mois"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronik 6 bulan sekali"
           }
         },
         "it" : {
@@ -17455,6 +18319,12 @@
             "value" : "Respect global"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kepatuhan keseluruhan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17565,6 +18435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voyez combien\nvous avez économisé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat berapa banyak\nyang sudah kamu hemat"
           }
         },
         "it" : {
@@ -17679,6 +18555,12 @@
             "value" : "Semaines"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minggu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17789,6 +18671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bourse"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jual beli saham"
           }
         },
         "it" : {
@@ -17903,6 +18791,12 @@
             "value" : "Respect"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kepatuhan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18013,6 +18907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taux de respect : %lld pour cent"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tingkat kepatuhan %lld persen"
           }
         },
         "it" : {
@@ -18127,6 +19027,12 @@
             "value" : "Le taux de respect et les statistiques par catégorie\nvous aident à prendre de meilleures habitudes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tingkat kepatuhan dan statistik per kategori\nmembantumu membangun kebiasaan yang lebih baik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18237,6 +19143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utiliser maintenant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai sekarang"
           }
         },
         "it" : {
@@ -18351,6 +19263,12 @@
             "value" : "Si vous l’utilisez maintenant, votre taux de respect baissera"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika dipakai sekarang, tingkat kepatuhanmu akan turun"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18461,6 +19379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan"
           }
         },
         "it" : {
@@ -18575,6 +19499,12 @@
             "value" : "Ajouter le vôtre"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah sendiri"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18685,6 +19615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisations au total"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total pemakaian"
           }
         },
         "it" : {
@@ -18799,6 +19735,12 @@
             "value" : "Éléments au total"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total item"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18909,6 +19851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dépenses totales (est.)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total pengeluaran (perkiraan)"
           }
         },
         "it" : {
@@ -19023,6 +19971,12 @@
             "value" : "Activité récente"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivitas terbaru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19133,6 +20087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah"
           }
         },
         "it" : {
@@ -19247,6 +20207,12 @@
             "value" : "Modèles recommandés"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Templat yang disarankan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19357,6 +20323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Évitez les ordres impulsifs, une fois par semaine"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hindari transaksi impulsif, seminggu sekali"
           }
         },
         "it" : {
@@ -19471,6 +20443,12 @@
             "value" : "Achat impulsif"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belanja impulsif"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19581,6 +20559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Achats impulsifs une seule fois par semaine"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belanja impulsif hanya seminggu sekali"
           }
         },
         "it" : {
@@ -19695,6 +20679,12 @@
             "value" : "Annuler"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batal"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19805,6 +20795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jour de triche"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day"
           }
         },
         "it" : {
@@ -19919,6 +20915,12 @@
             "value" : "Catégorie"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20029,6 +21031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Par catégorie"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per kategori"
           }
         },
         "it" : {
@@ -20143,6 +21151,12 @@
             "value" : "Café"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafe"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20253,6 +21267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un café tous les deux jours"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopi dua hari sekali"
           }
         },
         "it" : {
@@ -20367,6 +21387,12 @@
             "value" : "Concert / spectacle"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konser / pertunjukan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20474,6 +21500,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -20592,6 +21624,12 @@
             "value" : "Enregistrez votre historique de recharges dans un fichier et retrouvez-le plus tard."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan riwayat waktu jeda ke file dan pulihkan nanti."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20702,6 +21740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rompre la recharge et utiliser"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Langgar waktu jeda dan pakai"
           }
         },
         "it" : {
@@ -20816,6 +21860,12 @@
             "value" : "Rompre le temps de recharge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Langgar waktu jeda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20926,6 +21976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recharges rompues"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jumlah pelanggaran waktu jeda"
           }
         },
         "it" : {
@@ -21040,6 +22096,12 @@
             "value" : "Réinitialiser la recharge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setel ulang waktu jeda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21150,6 +22212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activez-les dans Réglages pour être prévenu à la fin d’une recharge"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktifkan di Pengaturan untuk mendapat pemberitahuan saat waktu jeda selesai"
           }
         },
         "it" : {
@@ -21264,6 +22332,12 @@
             "value" : "Durée de la recharge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lama waktu jeda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21376,6 +22450,12 @@
             "value" : "En recharge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalam waktu jeda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21486,6 +22566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En recharge (%lld)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalam waktu jeda (%lld)"
           }
         },
         "it" : {
@@ -21720,6 +22806,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld item dalam waktu jeda"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -21880,6 +22972,12 @@
             "value" : "En recharge !"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedang dalam waktu jeda!"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21990,6 +23088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maîtrisez vos impulsions\navec des temps de recharge"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kendalikan dorongan impulsif\ndengan waktu jeda"
           }
         },
         "it" : {
@@ -22104,6 +23208,12 @@
             "value" : "Chaque fois que vous respectez une recharge,\nnous vous montrons combien vous avez économisé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap kali kamu mematuhi waktu jeda,\nkami tunjukkan berapa yang kamu hemat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22214,6 +23324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nous vous prévenons à la fin d’une recharge\nVous pouvez aussi la voir dans le widget"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kami akan memberi tahu saat waktu jeda selesai\nKamu juga bisa melihatnya di widget"
           }
         },
         "it" : {
@@ -22329,6 +23445,12 @@
             "value" : "Présentations pour grands textes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tata letak untuk teks besar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22439,6 +23561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les grosses dépenses, une fois par mois"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengeluaran besar sebulan sekali"
           }
         },
         "it" : {
@@ -22554,6 +23682,12 @@
             "value" : "Contrôle au clavier"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrol dengan keyboard"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22664,6 +23798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksi"
           }
         },
         "it" : {
@@ -22778,6 +23918,12 @@
             "value" : "Taxi tous les 3 jours"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksi 3 hari sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22888,6 +24034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez pour utiliser"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk untuk memakai"
           }
         },
         "it" : {
@@ -23002,6 +24154,12 @@
             "value" : "Touchez pour rompre la recharge, maintenez pour plus d’options"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk untuk melanggar waktu jeda, tekan lama untuk opsi lainnya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23112,6 +24270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modèles"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Templat"
           }
         },
         "it" : {
@@ -23226,6 +24390,12 @@
             "value" : "Ajouter depuis les modèles"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah dari templat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23336,6 +24506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajoutez-en un depuis les modèles\nou créez le vôtre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambahkan dari templat\natau buat sendiri"
           }
         },
         "it" : {
@@ -23450,6 +24626,12 @@
             "value" : "Statistiques"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23560,6 +24742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voir les statistiques"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat statistik"
           }
         },
         "it" : {
@@ -23674,6 +24862,12 @@
             "value" : "Fast-food"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makanan cepat saji"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23784,6 +24978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast-food tous les 5 jours"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makanan cepat saji 5 hari sekali"
           }
         },
         "it" : {
@@ -23899,6 +25099,12 @@
             "value" : "Présentation pour iPhone pliable"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tata letak iPhone lipat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24010,6 +25216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez le grand écran d’un iPhone pliable en deux volets côte à côte."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gunakan layar lebar iPhone lipat sebagai dua panel berdampingan."
           }
         },
         "it" : {
@@ -24124,6 +25336,12 @@
             "value" : "Un voyage dans le pays par mois"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satu perjalanan dalam negeri per bulan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24234,6 +25452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voyage à l’étranger"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perjalanan luar negeri"
           }
         },
         "it" : {
@@ -24348,6 +25572,12 @@
             "value" : "Un voyage à l’étranger tous les 2 mois suffit largement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perjalanan luar negeri 2 bulan sekali sudah lebih dari cukup"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24460,6 +25690,12 @@
             "value" : "Séjour à l’hôtel"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menginap di hotel"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24570,6 +25806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une pause à l’hôtel toutes les 3 semaines"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bersantai di hotel 3 minggu sekali"
           }
         },
         "it" : {
@@ -24685,6 +25927,12 @@
             "value" : "VoiceOver lit chaque bouton et chaque détail, dans le bon ordre."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver membacakan setiap tombol dan detail dengan urutan yang benar."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24795,6 +26043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jour de repos (sans sport)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari istirahat (lewati olahraga)"
           }
         },
         "it" : {

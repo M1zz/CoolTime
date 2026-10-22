@@ -112,3 +112,9 @@ Nye sider om privatliv og hjælp
 Virheitä korjattu, toiminta vakaampaa
 Palautteen voi lähettää sovelluksessa
 Uudet tietosuoja- ja ohjesivut
+
+### 앱스토어 (id)
+
+Perbaikan agar aplikasi lebih stabil
+Kini bisa kirim masukan lewat aplikasi
+Halaman privasi dan bantuan baru

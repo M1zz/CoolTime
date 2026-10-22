@@ -57,6 +57,12 @@
             "value" : "Respect : %lld %%"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kepatuhan %lld%%"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -287,6 +293,12 @@
                 }
               }
             }
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld item"
           }
         },
         "it" : {
@@ -569,6 +581,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld item"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -729,6 +747,12 @@
             "value" : "%lld min"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mnt"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -839,6 +863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld jam"
           }
         },
         "it" : {
@@ -953,6 +983,12 @@
             "value" : "%lld j"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hari"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1063,6 +1099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "+%lld de plus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld lagi"
           }
         },
         "it" : {
@@ -1177,6 +1219,12 @@
             "value" : "✅ %lld disponibles"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld bisa dipakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1287,6 +1335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bientôt !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebentar lagi!"
           }
         },
         "it" : {
@@ -1401,6 +1455,12 @@
             "value" : "Prochaine fin de recharge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu jeda berikutnya berakhir"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1511,6 +1571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En attente"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menunggu"
           }
         },
         "it" : {
@@ -1625,6 +1691,12 @@
             "value" : "Tout est disponible"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua bisa dipakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1735,6 +1807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout est disponible !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua bisa dipakai!"
           }
         },
         "it" : {
@@ -1849,6 +1927,12 @@
             "value" : "Disponible"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bisa dipakai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1959,6 +2043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter un élément"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah item"
           }
         },
         "it" : {
@@ -2073,6 +2163,12 @@
             "value" : "₩%@ économisés ce mois-ci"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bulan ini hemat ₩%@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2180,6 +2276,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -2297,6 +2399,12 @@
             "value" : "En recharge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalam waktu jeda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2407,6 +2515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vos recharges en un coup d’œil"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu jeda dalam sekali lihat"
           }
         },
         "it" : {

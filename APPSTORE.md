@@ -988,3 +988,58 @@ Ilmoitukset ja widgetit
 Saat ilmoituksen, kun odotusajasta on kulunut puolet ja kun se päättyy, ja näet jäljellä olevan ajan suoraan kotinäytön ja lukitusnäytön widgeteistä.
 
 Kirjauksesi tallennetaan vain tälle laitteelle, eikä tiliä tarvita.
+
+## id
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/id/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/id/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/id/
+
+### 이름
+
+CoolTime: Tunda Sebelum Beli
+
+### 부제
+
+Jeda sebelum belanja
+
+### 키워드
+
+hemat,tabungan,kebiasaan,kontrol diri,anggaran,uang,tantangan,tanpa belanja,pesan antar,kopi,timer
+
+### 프로모션 텍스트
+
+Beri waktu jeda pada hal yang ingin kamu tahan. Lihat sisa waktu sampai boleh lagi, lalu bangun kebiasaan menunggu dengan tenang.
+
+### 설명
+
+Pesan antar makanan, belanja, makanan penutup di kafe. Saat ingin sekali menghabiskan uang, beri waktu jeda seperti skill di dalam game.
+CoolTime adalah aplikasi kebiasaan belanja: kamu menunggu sampai waktu jeda selesai, lalu melihat berapa banyak yang berhasil kamu hemat karena menahan diri.
+
+Atur waktu jeda
+Untuk tiap item, pilih nama, emoji, lama menunggu sebelum dipakai lagi, dan biaya setiap kali dipakai. Jangka waktu umum seperti 3 hari, 1 minggu, atau 1 bulan bisa dipilih dengan sekali ketuk.
+
+Lihat sekilas apa yang bisa dipakai
+Layar utama memisahkan item yang bisa dipakai dari yang sedang dalam waktu jeda, dan pengukur melingkar mengecil seiring sisa waktu.
+
+Satu jeda lagi sebelum melanggar
+Jika kamu mencoba memakai sesuatu saat waktu jeda, aplikasi menampilkan sisa waktunya dan memberi tahu bahwa tingkat kepatuhanmu akan turun. Jika tetap perlu, kamu bisa menambahkan catatan dan biaya sebenarnya.
+
+Tingkat kepatuhan dan perkiraan hemat
+Lihat seberapa sering kamu mematuhi waktu jeda dan berapa banyak yang kamu hemat bulan ini. Statistik menampilkan kepatuhan per item dan per kategori, serta riwayat pemakaian.
+
+Templat yang disarankan
+Tambahkan waktu jeda umum untuk perjalanan, belanja, makanan, hiburan, gaya hidup, kesehatan, dan keuangan dengan sekali ketuk.
+
+Notifikasi dan widget
+Dapatkan pemberitahuan saat waktu jeda sudah setengah jalan dan saat selesai, lalu lihat sisa waktu langsung di widget Layar Utama dan Layar Kunci.
+
+Catatanmu hanya disimpan di perangkat ini dan tidak perlu akun.

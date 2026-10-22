@@ -21,7 +21,7 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일. 쿨타임은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko", "fi": "fi", "el": "el", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
+STORE = {"ko": "ko", "id": "id", "fi": "fi", "el": "el", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -48,6 +48,7 @@ SEARCH = {
     "da": ("CoolTime-timer", "Det, du holder igen med,<br>bliver i pungen", "Levering og shopping venter, til ventetiden er slut"),
     "el": ("Χρονόμετρο CoolTime", "Ό,τι συγκρατείς<br>μένει στην τσέπη σου", "Το delivery και τα ψώνια περιμένουν το τέλος της αναμονής"),
     "fi": ("CoolTime-ajastin", "Minkä maltat jättää,<br>se jää taskuun", "Kotiinkuljetus ja ostokset odottavat odotusajan loppua"),
+    "id": ("Timer CoolTime", "Yang kamu tahan<br>jadi uang yang tersisa", "Pesan antar dan belanja menunggu waktu jeda selesai"),
 }
 
 # 헤더 — 처음 온 사람에게 한 가지 약속: 지르고 싶을 때 게임 스킬처럼 쿨타임을 건다.
@@ -68,6 +69,7 @@ HEADER = {
     "da": ("Ventetid på forbrug", "Først ventetid,<br>så køb"),
     "el": ("Αναμονή δαπανών", "Πρώτα αναμονή,<br>μετά αγορά"),
     "fi": ("Kulutuksen odotusaika", "Ensin odotusaika,<br>sitten osto"),
+    "id": ("Waktu jeda belanja", "Waktu jeda dulu,<br>baru beli"),
 }
 
 # 바탕 · 글자색은 앱 화면(AppTheme)과 같다: 밝은 회색 페이지, 에메랄드 그린(사용 가능),
