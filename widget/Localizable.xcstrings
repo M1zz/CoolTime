@@ -27,6 +27,12 @@
             "value" : "%lld%% de cumplimiento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respect : %lld %%"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -122,6 +128,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld elementos"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld élément"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld éléments"
                 }
               }
             }
@@ -227,6 +251,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld élément"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld éléments"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -274,6 +316,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -331,6 +379,12 @@
             "value" : "%lld h"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -381,6 +435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld j"
           }
         },
         "ja" : {
@@ -435,6 +495,12 @@
             "value" : "+%lld más"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld de plus"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -482,6 +548,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld disponibles"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ %lld disponibles"
@@ -539,6 +611,12 @@
             "value" : "¡Ya casi!"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bientôt !"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -589,6 +667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fin de la próxima espera"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prochaine fin de recharge"
           }
         },
         "ja" : {
@@ -643,6 +727,12 @@
             "value" : "En espera"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En attente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -693,6 +783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todo disponible"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout est disponible"
           }
         },
         "ja" : {
@@ -747,6 +843,12 @@
             "value" : "¡Todo disponible!"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout est disponible !"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -794,6 +896,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponible"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponible"
@@ -851,6 +959,12 @@
             "value" : "Añadir elemento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un élément"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -903,6 +1017,12 @@
             "value" : "₩%@ ahorrados este mes"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ économisés ce mois-ci"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -950,6 +1070,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -1007,6 +1133,12 @@
             "value" : "En espera"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En recharge"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1057,6 +1189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tus esperas de un vistazo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos recharges en un coup d’œil"
           }
         },
         "ja" : {

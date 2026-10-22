@@ -52,3 +52,9 @@ Nuevas páginas de privacidad y ayuda
 Fehler behoben für stabilere Starts
 Feedback jetzt direkt in der App senden
 Neue Datenschutz- und Hilfeseiten
+
+### 앱스토어 (fr)
+
+Bugs corrigés pour plus de stabilité
+Envoyez vos avis depuis l’app
+Nouvelles pages de confidentialité

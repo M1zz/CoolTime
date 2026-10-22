@@ -302,6 +302,7 @@
 				ja,
 				es,
 				de,
+				fr,
 			);
 			mainGroup = B7A00005001;
 			packageReferences = (

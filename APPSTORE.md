@@ -439,3 +439,58 @@ Mitteilungen und Widgets
 Du erhältst eine Mitteilung, wenn die Hälfte der Abklingzeit um ist und wenn sie endet, und siehst die verbleibende Zeit direkt in den Widgets auf Home- und Sperrbildschirm.
 
 Deine Daten bleiben auf diesem Gerät, ein Konto brauchst du nicht.
+
+## fr
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/fr/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/fr/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/fr/
+
+### 이름
+
+CoolTime : frein aux achats
+
+### 부제
+
+Patientez avant de dépenser
+
+### 키워드
+
+économies,habitudes,maîtrise,budget,argent,défi,sans dépense,livraison,café,alcool,minuteur
+
+### 프로모션 텍스트
+
+Placez un temps de recharge sur ce que vous voulez retenir. Voyez le temps restant avant de pouvoir recommencer et prenez l’habitude d’attendre sereinement.
+
+### 설명
+
+Repas livrés, shopping, desserts au café. Quand l’envie de craquer vous prend, posez-y un temps de recharge, comme sur une compétence de jeu.
+CoolTime est une app d’habitudes de consommation : vous attendez la fin de la recharge, puis vous voyez combien vous avez économisé en vous retenant.
+
+Définissez un temps de recharge
+Pour chaque élément, choisissez un nom, un emoji, le délai avant de pouvoir le réutiliser et le coût de chaque utilisation. Les délais courants, comme 3 jours, 1 semaine ou 1 mois, se choisissent d’une touche.
+
+Ce qui est disponible, d’un coup d’œil
+L’écran d’accueil sépare les éléments disponibles de ceux en recharge, et une jauge circulaire diminue avec le temps restant.
+
+Une dernière pause avant de rompre
+Si vous essayez d’utiliser un élément pendant sa recharge, l’app affiche le temps restant et vous prévient que votre taux de respect va baisser. Si vous en avez quand même besoin, vous pouvez laisser une note et le coût réel.
+
+Taux de respect et économies estimées
+Voyez à quelle fréquence vous avez respecté vos recharges et combien vous avez économisé ce mois-ci. Les statistiques montrent le respect par élément et par catégorie, ainsi que votre historique d’utilisation.
+
+Modèles recommandés
+Ajoutez d’une touche des recharges courantes pour les voyages, le shopping, la nourriture, les loisirs, le style de vie, la santé et la finance.
+
+Notifications et widgets
+Recevez une notification à la moitié de la recharge et à sa fin, et consultez le temps restant directement dans les widgets de l’écran d’accueil et de l’écran verrouillé.
+
+Vos données restent sur cet appareil et aucun compte n’est nécessaire.
