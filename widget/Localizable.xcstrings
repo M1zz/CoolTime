@@ -45,6 +45,12 @@
             "value" : "%lld%% de cumplimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noudattaminen %lld %%"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -242,6 +248,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld elementos"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohde"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohdetta"
                 }
               }
             }
@@ -509,6 +533,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohde"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohdetta"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -675,6 +717,12 @@
             "value" : "%lld min"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -779,6 +827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld t"
           }
         },
         "fr" : {
@@ -887,6 +941,12 @@
             "value" : "%lld d"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pv"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -991,6 +1051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "+%lld más"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld lisää"
           }
         },
         "fr" : {
@@ -1099,6 +1165,12 @@
             "value" : "✅ %lld disponibles"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld käytettävissä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1203,6 +1275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Ya casi!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pian!"
           }
         },
         "fr" : {
@@ -1311,6 +1389,12 @@
             "value" : "Fin de la próxima espera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraavan odotusajan päättyminen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1415,6 +1499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En espera"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odottaa"
           }
         },
         "fr" : {
@@ -1523,6 +1613,12 @@
             "value" : "Todo disponible"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki käytettävissä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1627,6 +1723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Todo disponible!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki käytettävissä!"
           }
         },
         "fr" : {
@@ -1735,6 +1837,12 @@
             "value" : "Disponible"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytettävissä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1839,6 +1947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir elemento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kohde"
           }
         },
         "fr" : {
@@ -1947,6 +2061,12 @@
             "value" : "₩%@ ahorrados este mes"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ säästetty tässä kuussa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2048,6 +2168,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -2159,6 +2285,12 @@
             "value" : "En espera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotusajalla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2263,6 +2395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tus esperas de un vistazo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotusajat yhdellä silmäyksellä"
           }
         },
         "fr" : {

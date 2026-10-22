@@ -45,6 +45,12 @@
             "value" : "%@ %@, disponible"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, käytettävissä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, quedan %@ de espera"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, odotusaikaa jäljellä %@"
           }
         },
         "fr" : {
@@ -257,6 +269,12 @@
             "value" : "%@ ¡A medio camino!"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Puoliväli saavutettu!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -361,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ ¡Espera terminada!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Odotusaika päättyi!"
           }
         },
         "fr" : {
@@ -469,6 +493,12 @@
             "value" : "¡Has pasado la mitad de la espera de %@! Aguanta un poco más 💪"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: odotusajasta on kulunut puolet! Jaksa vielä vähän 💪"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,6 +603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ ha terminado su espera. ¡Ya puedes usarlo!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: odotusaika on päättynyt. Voit nyt käyttää sitä!"
           }
         },
         "fr" : {
@@ -777,6 +813,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohde"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohdetta"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -941,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld m"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kk"
           }
         },
         "fr" : {
@@ -1133,6 +1193,12 @@
             }
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joka %lld. kuukausi"
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -1299,6 +1365,12 @@
             "value" : "%lld min"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1400,6 +1472,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min %lld s"
@@ -1511,6 +1589,12 @@
             "value" : "%lld h"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld t"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1615,6 +1699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h %lld min"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld t %lld min"
           }
         },
         "fr" : {
@@ -1807,6 +1897,12 @@
             }
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joka %lld. tunti"
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -1973,6 +2069,12 @@
             "value" : "%lld d"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pv"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2077,6 +2179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d %lld h"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pv %lld t"
           }
         },
         "fr" : {
@@ -2269,6 +2377,12 @@
             }
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joka %lld. päivä"
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -2433,6 +2547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld sem"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld vk"
           }
         },
         "fr" : {
@@ -2625,6 +2745,12 @@
             }
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joka %lld. viikko"
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -2786,6 +2912,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld s"
@@ -2988,6 +3120,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld veces"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kerta"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kertaa"
                 }
               }
             }
@@ -3255,6 +3405,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld käyttökerta"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld käyttökertaa"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -3421,6 +3589,12 @@
             "value" : "Sin resultados para «%@»"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei tuloksia haulle “%@”"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3525,6 +3699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 mes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 kk"
           }
         },
         "fr" : {
@@ -3633,6 +3813,12 @@
             "value" : "1 sem"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 vk"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3737,6 +3923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 meses"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 kk"
           }
         },
         "fr" : {
@@ -3845,6 +4037,12 @@
             "value" : "2 sem"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 vk"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3949,6 +4147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 d"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 pv"
           }
         },
         "fr" : {
@@ -4058,6 +4262,12 @@
             "value" : "Bloqueo con Face ID"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID -lukitus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4163,6 +4373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloquea la app con Face ID o Touch ID para mantener privado tu historial."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukitse sovellus Face ID:llä tai Touch ID:llä, jotta historiasi pysyy yksityisenä."
           }
         },
         "fr" : {
@@ -4272,6 +4488,12 @@
             "value" : "Registra un uso al instante pidiéndoselo a Siri o con un atajo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa käyttökerta heti pyytämällä Siriä tai suorittamalla pikakomennon."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4377,6 +4599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri y Atajos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri ja Pikakomennot"
           }
         },
         "fr" : {
@@ -4486,6 +4714,12 @@
             "value" : "Mejor compatibilidad con VoiceOver"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parempi VoiceOver-tuki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4590,6 +4824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valor"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvo"
           }
         },
         "fr" : {
@@ -4698,6 +4938,12 @@
             "value" : "Contactar con el desarrollador"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota yhteyttä kehittäjään"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4802,6 +5048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meses"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuukaudet"
           }
         },
         "fr" : {
@@ -4910,6 +5162,12 @@
             "value" : "Omitir"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohita"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5014,6 +5272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin resultados"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei tuloksia"
           }
         },
         "fr" : {
@@ -5122,6 +5386,12 @@
             "value" : "Borrar búsqueda"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyhjennä haku"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5226,6 +5496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compras en juegos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pelien sisäiset ostot"
           }
         },
         "fr" : {
@@ -5334,6 +5610,12 @@
             "value" : "Compras en juegos cada 2 semanas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pelien sisäiset ostot kahden viikon välein"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5438,6 +5720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Como la recarga de una habilidad en un juego,\nponle un tiempo de espera a tus gastos y hábitos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuten pelin taidon latausaika,\nasetat odotusajan menoille ja tottumuksille"
           }
         },
         "fr" : {
@@ -5546,6 +5834,12 @@
             "value" : "Aviso: en espera. Si lo usas ahora, bajará tu tasa de cumplimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varoitus: odotusaika käynnissä. Jos käytät sen nyt, noudattamisprosenttisi laskee"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5650,6 +5944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sigue así 💪"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka samaan malliin 💪"
           }
         },
         "fr" : {
@@ -5758,6 +6058,12 @@
             "value" : "Compra grande (más de ₩100.000)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iso ostos (yli ₩100 000)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5862,6 +6168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Ya casi!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pian!"
           }
         },
         "fr" : {
@@ -5970,6 +6282,12 @@
             "value" : "Espectáculos cada 2 meses"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esitys kahden kuukauden välein"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6074,6 +6392,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viaje nacional"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kotimaanmatka"
           }
         },
         "fr" : {
@@ -6183,6 +6507,12 @@
             "value" : "Las pantallas se reorganizan en lugar de recortarse al aumentar el tamaño del texto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näkymät järjestyvät siististi uudelleen sen sijaan, että ne leikkautuisivat, kun suurennat tekstiä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6288,6 +6618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sincronización entre dispositivos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronointi laitteiden välillä"
           }
         },
         "fr" : {
@@ -6396,6 +6732,12 @@
             "value" : "Información básica"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perustiedot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6500,6 +6842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Romper"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riko"
           }
         },
         "fr" : {
@@ -6608,6 +6956,12 @@
             "value" : "Veces que rompiste"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikkomiskertoja"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6712,6 +7066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analiza tus hábitos\ncon tus propias estadísticas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analysoi tottumuksiasi\nomilla tilastoillasi"
           }
         },
         "fr" : {
@@ -6820,6 +7180,12 @@
             "value" : "Más tarde"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myöhemmin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6924,6 +7290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiempo restante: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikaa jäljellä: %@"
           }
         },
         "fr" : {
@@ -7033,6 +7405,12 @@
             "value" : "Borrar todos tus datos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki tietosi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7137,6 +7515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manicura"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kynsien laitto"
           }
         },
         "fr" : {
@@ -7245,6 +7629,12 @@
             "value" : "Manicura cada 3 semanas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kynnet kolmen viikon välein"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7349,6 +7739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maratón de series"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarjamaraton"
           }
         },
         "fr" : {
@@ -7457,6 +7853,12 @@
             "value" : "Prueba con otra palabra clave"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kokeile toista hakusanaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7561,6 +7963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava"
           }
         },
         "fr" : {
@@ -7669,6 +8077,12 @@
             "value" : "Un día libre de dieta a la semana"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieetin cheat day kerran viikossa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7775,6 +8189,12 @@
             "value" : "Unidad"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksikkö"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7879,6 +8299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dulces cada 4 días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makeaa neljän päivän välein"
           }
         },
         "fr" : {
@@ -7988,6 +8414,12 @@
             "value" : "Todo sigue siendo legible, incluso con Aumentar contraste o si te cuesta distinguir los colores."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki pysyy luettavana, vaikka Lisää kontrastia olisi päällä tai värien erottaminen olisi vaikeaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8093,6 +8525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la app en más idiomas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä sovellusta useammilla kielillä."
           }
         },
         "fr" : {
@@ -8202,6 +8640,12 @@
             "value" : "Más idiomas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kieliä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8306,6 +8750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Postre"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jälkiruoka"
           }
         },
         "fr" : {
@@ -8414,6 +8864,12 @@
             "value" : "Lotería"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8518,6 +8974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lotería una vez a la semana"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotto kerran viikossa"
           }
         },
         "fr" : {
@@ -8626,6 +9088,12 @@
             "value" : "Masaje / spa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieronta / kylpylä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8730,6 +9198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Masaje cada 2 semanas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hieronta kahden viikon välein"
           }
         },
         "fr" : {
@@ -8838,6 +9312,12 @@
             "value" : "Nota (opcional)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muistiinpano (valinnainen)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8942,6 +9422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todo está en espera. Pendientes: %lld"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki on odotusajalla. Odottaa: %lld"
           }
         },
         "fr" : {
@@ -9050,6 +9536,12 @@
             "value" : "Maratón de series cada 3 días"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarjamaraton kolmen päivän välein"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9154,6 +9646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Peluquería"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kampaamo"
           }
         },
         "fr" : {
@@ -9262,6 +9760,12 @@
             "value" : "Peluquería una vez al mes"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kampaamo kerran kuussa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9368,6 +9872,12 @@
             "value" : "A domicilio cada 3 días"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruokatoimitus kolmen päivän välein"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9472,6 +9982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comida a domicilio"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruoan kotiinkuljetus"
           }
         },
         "fr" : {
@@ -9581,6 +10097,12 @@
             "value" : "Copia de seguridad y exportación"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varmuuskopiointi ja vienti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9685,6 +10207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Los avisos de errores y las ideas para nuevas funciones son bienvenidos."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virheraportit ja ominaisuusehdotukset ovat tervetulleita."
           }
         },
         "fr" : {
@@ -9794,6 +10322,12 @@
             "value" : "Colores y contraste más cómodos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miellyttävämmät värit ja kontrasti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9898,6 +10432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Introduce un coste y calcularemos cuánto ahorras"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syötä hinta, niin laskemme paljonko säästit"
           }
         },
         "fr" : {
@@ -10006,6 +10546,12 @@
             "value" : "Usar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10112,6 +10658,12 @@
             "value" : "Disponible"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytettävissä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10216,6 +10768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disponibles (%lld)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytettävissä (%lld)"
           }
         },
         "fr" : {
@@ -10420,6 +10978,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld käytettävissä oleva kohde"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld käytettävissä olevaa kohdetta"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -10586,6 +11162,12 @@
             "value" : "Disponibles: %lld · En espera: %lld"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytettävissä: %lld · Odotusajalla: %lld"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10690,6 +11272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hecho"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
           }
         },
         "fr" : {
@@ -10798,6 +11386,12 @@
             "value" : "Usar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10902,6 +11496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
           }
         },
         "fr" : {
@@ -11010,6 +11610,12 @@
             "value" : "Historial detallado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksityiskohtainen historia"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11114,6 +11720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nueva espera"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi odotusaika"
           }
         },
         "fr" : {
@@ -11222,6 +11834,12 @@
             "value" : "Añadir una espera nueva"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää uusi odotusaika"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11326,6 +11944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
           }
         },
         "fr" : {
@@ -11434,6 +12058,12 @@
             "value" : "Beber alcohol"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkoholi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11538,6 +12168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnit"
           }
         },
         "fr" : {
@@ -11646,6 +12282,12 @@
             "value" : "Empezar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11750,6 +12392,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coste real (opcional)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todellinen hinta (valinnainen)"
           }
         },
         "fr" : {
@@ -11859,6 +12507,12 @@
             "value" : "Consejos útiles"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hyödyllisiä vinkkejä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11963,6 +12617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Icono"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvake"
           }
         },
         "fr" : {
@@ -12071,6 +12731,12 @@
             "value" : "Elemento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohde"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12177,6 +12843,12 @@
             "value" : "Buscar elementos..."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hae kohteita..."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12281,6 +12953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cumplimiento por elemento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noudattaminen kohteittain"
           }
         },
         "fr" : {
@@ -12390,6 +13068,12 @@
             "value" : "Usa las funciones principales solo con el teclado en el iPad o el Mac."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä tärkeimpiä toimintoja pelkällä näppäimistöllä iPadilla tai Macilla."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12495,6 +13179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Consulta las mismas esperas en tu iPhone y tu iPad."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näe samat odotusajat iPhonessa ja iPadissa."
           }
         },
         "fr" : {
@@ -12603,6 +13293,12 @@
             "value" : "Aún no tienes esperas. ¡Prueba a añadir una!"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä odotusaikoja. Kokeile lisätä yksi!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12707,6 +13403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay esperas. Añade una desde las plantillas o crea la tuya"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä odotusaikoja. Lisää malleista tai luo oma"
           }
         },
         "fr" : {
@@ -12815,6 +13517,12 @@
             "value" : "Aún no hay esperas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä odotusaikoja"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12919,6 +13627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay actividad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä toimintaa"
           }
         },
         "fr" : {
@@ -13027,6 +13741,12 @@
             "value" : "Que no se te pase\nningún aviso"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Älä jätä\nyhtään ilmoitusta väliin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13133,6 +13853,12 @@
             "value" : "Las notificaciones están desactivadas. Toca el botón de Ajustes para activarlas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmoitukset ovat pois päältä. Ota ne käyttöön napauttamalla Asetukset-painiketta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13237,6 +13963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Las notificaciones están desactivadas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmoitukset ovat pois päältä"
           }
         },
         "fr" : {
@@ -13346,6 +14078,12 @@
             "value" : "Pistas discretas sobre funciones útiles, justo cuando las necesitas."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienovaraisia vinkkejä hyödyllisistä toiminnoista juuri silloin, kun tarvitset niitä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13452,6 +14190,12 @@
             "value" : "Cena tardía"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yöpala"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13556,6 +14300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cena tardía cada 5 días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yöpala viiden päivän välein"
           }
         },
         "fr" : {
@@ -13665,6 +14415,12 @@
             "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun avaat sovelluksen ensimmäisen kerran päivityksen jälkeen, näet mikä on uutta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13770,6 +14526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novedades"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uutta"
           }
         },
         "fr" : {
@@ -13878,6 +14640,12 @@
             "value" : "Cine"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elokuvateatteri"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13982,6 +14750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cine cada 2 semanas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elokuvia kahden viikon välein"
           }
         },
         "fr" : {
@@ -14090,6 +14864,12 @@
             "value" : "Coste previsto (opcional)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvioitu hinta (valinnainen)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14194,6 +14974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ahorro est."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvioitu säästö"
           }
         },
         "fr" : {
@@ -14302,6 +15088,12 @@
             "value" : "Previsto: ₩%@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvio: ₩%@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14406,6 +15198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esperas de hoy"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivän odotusajat"
           }
         },
         "fr" : {
@@ -14514,6 +15312,12 @@
             "value" : "Compras de ropa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaatteiden osto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14618,6 +15422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ropa cada 2 semanas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaatteita kahden viikon välein"
           }
         },
         "fr" : {
@@ -14726,6 +15536,12 @@
             "value" : "Hecho"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14830,6 +15646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Por qué lo usas?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miksi käytät sen?"
           }
         },
         "fr" : {
@@ -14938,6 +15760,12 @@
             "value" : "Comer fuera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ravintolassa syöminen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15044,6 +15872,12 @@
             "value" : "Comer fuera una vez a la semana"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ravintolassa kerran viikossa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15148,6 +15982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un día sin entrenar cada 3 días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treenilepopäivä kolmen päivän välein"
           }
         },
         "fr" : {
@@ -15257,6 +16097,12 @@
             "value" : "Reducir movimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vähennä liikettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15362,6 +16208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con Reducir movimiento activado, los efectos de pantalla son más suaves."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun Vähennä liikettä on päällä, näytön tehosteet rauhoittuvat."
           }
         },
         "fr" : {
@@ -15471,6 +16323,12 @@
             "value" : "Borra todo tu historial de esperas desde la app cuando quieras."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista koko odotusaikahistoriasi sovelluksessa milloin tahansa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15575,6 +16433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alcohol cada 3 días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkoholia kolmen päivän välein"
           }
         },
         "fr" : {
@@ -15683,6 +16547,12 @@
             "value" : "Nombre"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15787,6 +16657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribir por correo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä sähköpostia"
           }
         },
         "fr" : {
@@ -15895,6 +16771,12 @@
             "value" : "Ahorro estimado este mes: %lld wones"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvioitu säästö tässä kuussa: %lld wonia"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15999,6 +16881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "MD de Instagram (@lee25_ios)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-viesti (@lee25_ios)"
           }
         },
         "fr" : {
@@ -16107,6 +16995,12 @@
             "value" : "Días"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivät"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16211,6 +17105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esperas habituales\nToca una para añadirla al instante"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yleiset odotusajat\nNapauta yhtä lisätäksesi sen heti"
           }
         },
         "fr" : {
@@ -16319,6 +17219,12 @@
             "value" : "Electrónica"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektroniikka"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16423,6 +17329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Electrónica cada 6 meses"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektroniikkaa kuuden kuukauden välein"
           }
         },
         "fr" : {
@@ -16531,6 +17443,12 @@
             "value" : "Cumplimiento total"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kokonaisnoudattaminen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16635,6 +17553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descubre cuánto\nhas ahorrado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katso, kuinka paljon\nolet säästänyt"
           }
         },
         "fr" : {
@@ -16743,6 +17667,12 @@
             "value" : "Semanas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viikot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16847,6 +17777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bolsa"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osakekauppa"
           }
         },
         "fr" : {
@@ -16955,6 +17891,12 @@
             "value" : "Cumplimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noudattaminen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17059,6 +18001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cumplimiento: %lld por ciento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noudattamisprosentti: %lld prosenttia"
           }
         },
         "fr" : {
@@ -17167,6 +18115,12 @@
             "value" : "Con tu tasa de cumplimiento y las estadísticas por categoría\ncrearás mejores hábitos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noudattamisprosentti ja luokkakohtaiset tilastot\nauttavat rakentamaan parempia tottumuksia"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17271,6 +18225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usar ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä nyt"
           }
         },
         "fr" : {
@@ -17379,6 +18339,12 @@
             "value" : "Si lo usas ahora, bajará tu tasa de cumplimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos käytät sen nyt, noudattamisprosenttisi laskee"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17483,6 +18449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ayuda"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuki"
           }
         },
         "fr" : {
@@ -17591,6 +18563,12 @@
             "value" : "Añadir la tuya"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää oma"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17695,6 +18673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usos en total"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käyttökertoja yhteensä"
           }
         },
         "fr" : {
@@ -17803,6 +18787,12 @@
             "value" : "Elementos en total"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohteita yhteensä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17907,6 +18897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gasto total (est.)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menot yhteensä (arvio)"
           }
         },
         "fr" : {
@@ -18015,6 +19011,12 @@
             "value" : "Actividad reciente"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeisin toiminta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18119,6 +19121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää"
           }
         },
         "fr" : {
@@ -18227,6 +19235,12 @@
             "value" : "Plantillas recomendadas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suositellut mallit"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18331,6 +19345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Evita operar por impulso, una vez a la semana"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vältä heräteostoksia pörssissä, kerran viikossa"
           }
         },
         "fr" : {
@@ -18439,6 +19459,12 @@
             "value" : "Compra impulsiva"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heräteostos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18543,6 +19569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compras impulsivas solo una vez a la semana"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heräteostoksia vain kerran viikossa"
           }
         },
         "fr" : {
@@ -18651,6 +19683,12 @@
             "value" : "Cancelar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18755,6 +19793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Día libre de dieta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day"
           }
         },
         "fr" : {
@@ -18863,6 +19907,12 @@
             "value" : "Categoría"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luokka"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18967,6 +20017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Por categoría"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luokittain"
           }
         },
         "fr" : {
@@ -19075,6 +20131,12 @@
             "value" : "Cafetería"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kahvila"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19179,6 +20241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Café cada dos días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kahvi joka toinen päivä"
           }
         },
         "fr" : {
@@ -19287,6 +20355,12 @@
             "value" : "Concierto / espectáculo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konsertti / esitys"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19388,6 +20462,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -19500,6 +20580,12 @@
             "value" : "Guarda tu historial de esperas en un archivo y recupéralo más tarde."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna odotusaikahistoriasi tiedostoon ja palauta se myöhemmin."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19604,6 +20690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Romper espera y usar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riko odotusaika ja käytä"
           }
         },
         "fr" : {
@@ -19712,6 +20804,12 @@
             "value" : "Romper espera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riko odotusaika"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19816,6 +20914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esperas rotas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikotut odotusajat"
           }
         },
         "fr" : {
@@ -19924,6 +21028,12 @@
             "value" : "Reiniciar espera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nollaa odotusaika"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20028,6 +21138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actívalas en Ajustes para recibir avisos cuando termine una espera"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ne käyttöön Asetuksissa, jotta saat ilmoituksen odotusajan päättyessä"
           }
         },
         "fr" : {
@@ -20136,6 +21252,12 @@
             "value" : "Duración de la espera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotusajan pituus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20242,6 +21364,12 @@
             "value" : "En espera"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotusajalla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20346,6 +21474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En espera (%lld)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotusajalla (%lld)"
           }
         },
         "fr" : {
@@ -20550,6 +21684,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohde odotusajalla"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld kohdetta odotusajalla"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -20716,6 +21868,12 @@
             "value" : "¡En espera!"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odotusaika käynnissä!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20820,6 +21978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Controla tus impulsos\ncon tiempos de espera"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallitse mielihalujasi\nodotusajoilla"
           }
         },
         "fr" : {
@@ -20928,6 +22092,12 @@
             "value" : "Cada vez que cumples una espera,\nte mostramos cuánto has ahorrado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joka kerta kun noudatat odotusaikaa,\nnäytämme kuinka paljon säästit"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21032,6 +22202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Te avisamos cuando termina una espera\nTambién puedes verlo en el widget"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerromme, kun odotusaika päättyy\nVoit tarkistaa sen myös widgetistä"
           }
         },
         "fr" : {
@@ -21141,6 +22317,12 @@
             "value" : "Diseños para texto grande"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asettelut suuremmalle tekstille"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21245,6 +22427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un gran gasto al mes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isot menot kerran kuussa"
           }
         },
         "fr" : {
@@ -21354,6 +22542,12 @@
             "value" : "Control con teclado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näppäimistöohjaus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21458,6 +22652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksi"
           }
         },
         "fr" : {
@@ -21566,6 +22766,12 @@
             "value" : "Taxi cada 3 días"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksi kolmen päivän välein"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21670,6 +22876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca para usar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta käyttääksesi"
           }
         },
         "fr" : {
@@ -21778,6 +22990,12 @@
             "value" : "Toca para romper la espera; mantén pulsado para ver más opciones"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta rikkoaksesi odotusajan, pidä painettuna nähdäksesi lisää vaihtoehtoja"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21882,6 +23100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plantillas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mallit"
           }
         },
         "fr" : {
@@ -21990,6 +23214,12 @@
             "value" : "Añadir desde plantillas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää malleista"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22094,6 +23324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añade una desde las plantillas\no crea la tuya"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää malleista\ntai luo oma"
           }
         },
         "fr" : {
@@ -22202,6 +23438,12 @@
             "value" : "Estadísticas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilastot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22306,6 +23548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ver estadísticas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä tilastot"
           }
         },
         "fr" : {
@@ -22414,6 +23662,12 @@
             "value" : "Comida rápida"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaruoka"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22518,6 +23772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comida rápida cada 5 días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikaruokaa viiden päivän välein"
           }
         },
         "fr" : {
@@ -22627,6 +23887,12 @@
             "value" : "Diseño para iPhone plegable"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taittuvan iPhonen asettelu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22732,6 +23998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la pantalla ancha de un iPhone plegable como dos paneles en paralelo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä taittuvan iPhonen leveää näyttöä kahtena rinnakkaisena ruutuna."
           }
         },
         "fr" : {
@@ -22840,6 +24112,12 @@
             "value" : "Un viaje nacional al mes"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksi kotimaanmatka kuukaudessa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22944,6 +24222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viaje al extranjero"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulkomaanmatka"
           }
         },
         "fr" : {
@@ -23052,6 +24336,12 @@
             "value" : "Un viaje al extranjero cada 2 meses es más que suficiente"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulkomaanmatka kahden kuukauden välein riittää hyvin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23158,6 +24448,12 @@
             "value" : "Escapada de hotel"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotellilomailu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23262,6 +24558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un capricho de hotel cada 3 semanas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotellilepo kolmen viikon välein"
           }
         },
         "fr" : {
@@ -23371,6 +24673,12 @@
             "value" : "VoiceOver lee todos los botones y detalles, en el orden correcto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lukee jokaisen painikkeen ja tiedon oikeassa järjestyksessä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23475,6 +24783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Día de descanso (sin entrenar)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lepopäivä (treeni väliin)"
           }
         },
         "fr" : {

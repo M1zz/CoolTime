@@ -106,3 +106,9 @@ Nye sider om privatliv og hjælp
 Διορθώσαμε σφάλματα για σταθερότητα
 Στείλε σχόλια μέσα από την εφαρμογή
 Νέες σελίδες απορρήτου και βοήθειας
+
+### 앱스토어 (fi)
+
+Virheitä korjattu, toiminta vakaampaa
+Palautteen voi lähettää sovelluksessa
+Uudet tietosuoja- ja ohjesivut

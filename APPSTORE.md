@@ -933,3 +933,58 @@ Delivery, ψώνια, γλυκά στο καφέ. Όταν σου έρθει η 
 Λάβε ειδοποίηση όταν η αναμονή φτάσει στη μέση και όταν τελειώσει, και δες τον χρόνο που απομένει κατευθείαν στα γραφικά στοιχεία της Αρχικής οθόνης και της οθόνης κλειδώματος.
 
 Οι καταγραφές αποθηκεύονται μόνο σε αυτή τη συσκευή και δεν χρειάζεσαι λογαριασμό.
+
+## fi
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/fi/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/fi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/fi/
+
+### 이름
+
+CoolTime: Odota ennen ostoa
+
+### 부제
+
+Tauko ennen kuin kulutat
+
+### 키워드
+
+säästäminen,tottumukset,itsekuri,budjetti,raha,haaste,rahaton,kotiinkuljetus,kahvi,alkoholi,ajastin
+
+### 프로모션 텍스트
+
+Aseta odotusaika asioille, joita haluat hillitä. Näe, paljonko aikaa on jäljellä, ja opettele odottamaan rauhassa.
+
+### 설명
+
+Ruoan kotiinkuljetus, shoppailu, kahvilan jälkiruoat. Kun kulutushimo iskee, aseta sille odotusaika kuten pelin taidolle.
+CoolTime on kulutustottumusten sovellus: odotat, kunnes odotusaika päättyy, ja näet, kuinka paljon säästit malttamalla.
+
+Aseta odotusaika
+Valitse jokaiselle kohteelle nimi, emoji, kuinka kauan odotat ennen seuraavaa käyttöä ja paljonko se maksaa kerralla. Yleiset ajat, kuten 3 päivää, 1 viikko tai 1 kuukausi, valitset yhdellä napautuksella.
+
+Näe yhdellä silmäyksellä, mikä on käytettävissä
+Aloitusnäkymä erottaa käytettävissä olevat kohteet odotusajalla olevista, ja pyöreä mittari pienenee jäljellä olevan ajan mukana.
+
+Vielä yksi tauko ennen rikkomista
+Jos yrität käyttää jotakin odotusajan aikana, sovellus näyttää jäljellä olevan ajan ja kertoo, että noudattamisprosenttisi laskee. Jos tarvitset sitä silti, voit kirjoittaa muistiin syyn ja todellisen hinnan.
+
+Noudattamisprosentti ja arvioitu säästö
+Näe, kuinka usein olet noudattanut odotusaikoja ja kuinka paljon olet säästänyt tässä kuussa. Tilastoista näet noudattamisen kohteittain ja luokittain sekä käyttöhistoriasi.
+
+Suositellut mallit
+Lisää yhdellä napautuksella yleisiä odotusaikoja matkailuun, ostoksiin, ruokaan, viihteeseen, elämäntapaan, terveyteen ja talouteen.
+
+Ilmoitukset ja widgetit
+Saat ilmoituksen, kun odotusajasta on kulunut puolet ja kun se päättyy, ja näet jäljellä olevan ajan suoraan kotinäytön ja lukitusnäytön widgeteistä.
+
+Kirjauksesi tallennetaan vain tälle laitteelle, eikä tiliä tarvita.
