@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "%@ %@，可使用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@，可使用"
+          }
         }
       }
     },
@@ -66,6 +72,12 @@
             "state" : "translated",
             "value" : "%@ %@，冷却剩余 %@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@，冷卻剩餘 %@"
+          }
         }
       }
     },
@@ -96,6 +108,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 已完成一半！"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 已完成一半！"
@@ -134,6 +152,12 @@
             "state" : "translated",
             "value" : "%@ 冷却结束！"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 冷卻結束！"
+          }
         }
       }
     },
@@ -168,6 +192,12 @@
             "state" : "translated",
             "value" : "%@的冷却已经过半！再坚持一下 💪"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@的冷卻已經過半！再加把勁 💪"
+          }
         }
       }
     },
@@ -201,6 +231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@的冷却结束了，现在可以使用啦！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@的冷卻結束了，現在可以使用囉！"
           }
         }
       }
@@ -260,6 +296,12 @@
             "state" : "translated",
             "value" : "%lld个"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個"
+          }
         }
       }
     },
@@ -293,6 +335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld个月"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個月"
           }
         }
       }
@@ -352,6 +400,12 @@
             "state" : "translated",
             "value" : "每%lld个月"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每%lld個月"
+          }
         }
       }
     },
@@ -382,6 +436,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld分"
@@ -420,6 +480,12 @@
             "state" : "translated",
             "value" : "%lld分%lld秒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分%lld秒"
+          }
         }
       }
     },
@@ -454,6 +520,12 @@
             "state" : "translated",
             "value" : "%lld小时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld小時"
+          }
         }
       }
     },
@@ -487,6 +559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld小时%lld分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld小時%lld分"
           }
         }
       }
@@ -546,6 +624,12 @@
             "state" : "translated",
             "value" : "每%lld小时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每%lld小時"
+          }
         }
       }
     },
@@ -576,6 +660,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld天"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld天"
@@ -613,6 +703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld天%lld小时"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld天%lld小時"
           }
         }
       }
@@ -672,6 +768,12 @@
             "state" : "translated",
             "value" : "每%lld天"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每%lld天"
+          }
         }
       }
     },
@@ -705,6 +807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld周"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld週"
           }
         }
       }
@@ -764,6 +872,12 @@
             "state" : "translated",
             "value" : "每%lld周"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每%lld週"
+          }
         }
       }
     },
@@ -794,6 +908,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld秒"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld秒"
@@ -856,6 +976,12 @@
             "state" : "translated",
             "value" : "%lld次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld次"
+          }
         }
       }
     },
@@ -914,6 +1040,12 @@
             "state" : "translated",
             "value" : "使用%lld次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用%lld次"
+          }
         }
       }
     },
@@ -947,6 +1079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有“%@”的搜索结果"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到「%@」的搜尋結果"
           }
         }
       }
@@ -982,6 +1120,12 @@
             "state" : "translated",
             "value" : "1个月"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個月"
+          }
         }
       }
     },
@@ -1015,6 +1159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1周"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1週"
           }
         }
       }
@@ -1050,6 +1200,12 @@
             "state" : "translated",
             "value" : "2个月"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2個月"
+          }
         }
       }
     },
@@ -1084,6 +1240,12 @@
             "state" : "translated",
             "value" : "2周"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2週"
+          }
         }
       }
     },
@@ -1114,6 +1276,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3天"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "3天"
@@ -1153,6 +1321,12 @@
             "state" : "translated",
             "value" : "Face ID 锁定"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID 鎖定"
+          }
         }
       }
     },
@@ -1187,6 +1361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用 Face ID 或触控 ID 锁定应用，保护你的冷却记录。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用 Face ID 或 Touch ID 鎖定 App，保護你的冷卻記錄。"
           }
         }
       }
@@ -1223,6 +1403,12 @@
             "state" : "translated",
             "value" : "对 Siri 说一声或运行快捷指令，立即记录一次使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "對 Siri 說一聲或執行捷徑，立即記錄一次使用。"
+          }
         }
       }
     },
@@ -1257,6 +1443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri 与快捷指令"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri 與捷徑"
           }
         }
       }
@@ -1293,6 +1485,12 @@
             "state" : "translated",
             "value" : "让旁白更好用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讓旁白更好用"
+          }
         }
       }
     },
@@ -1326,6 +1524,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "数值"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "數值"
           }
         }
       }
@@ -1361,6 +1565,12 @@
             "state" : "translated",
             "value" : "联系开发者"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聯絡開發者"
+          }
         }
       }
     },
@@ -1394,6 +1604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "个月"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "個月"
           }
         }
       }
@@ -1429,6 +1645,12 @@
             "state" : "translated",
             "value" : "跳过"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "略過"
+          }
         }
       }
     },
@@ -1462,6 +1684,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有搜索结果"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有搜尋結果"
           }
         }
       }
@@ -1497,6 +1725,12 @@
             "state" : "translated",
             "value" : "清除搜索词"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除搜尋字詞"
+          }
         }
       }
     },
@@ -1530,6 +1764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "游戏充值"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊戲課金"
           }
         }
       }
@@ -1565,6 +1805,12 @@
             "state" : "translated",
             "value" : "游戏充值每两周一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊戲課金每兩週一次"
+          }
         }
       }
     },
@@ -1598,6 +1844,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "就像游戏里的技能冷却，\n给消费和行为设定等待时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "就像遊戲裡的技能冷卻，\n為消費與行為設定等待時間"
           }
         }
       }
@@ -1633,6 +1885,12 @@
             "state" : "translated",
             "value" : "警告：冷却中。现在使用会降低遵守率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警告：冷卻中。現在使用會降低遵守率"
+          }
         }
       }
     },
@@ -1666,6 +1924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "继续加油 💪"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續加油 💪"
           }
         }
       }
@@ -1701,6 +1965,12 @@
             "state" : "translated",
             "value" : "大额购物（10万韩元以上）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高價購物（10萬韓元以上）"
+          }
         }
       }
     },
@@ -1734,6 +2004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "马上！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快了！"
           }
         }
       }
@@ -1769,6 +2045,12 @@
             "state" : "translated",
             "value" : "演出每两个月一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "演出每兩個月一次"
+          }
         }
       }
     },
@@ -1802,6 +2084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "国内旅行"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "國內旅遊"
           }
         }
       }
@@ -1838,6 +2126,12 @@
             "state" : "translated",
             "value" : "放大字体后，界面也会重新排版，不会被截断。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放大字體後，畫面也會重新排版，不會被截斷。"
+          }
         }
       }
     },
@@ -1873,6 +2167,12 @@
             "state" : "translated",
             "value" : "跨设备同步"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跨裝置同步"
+          }
         }
       }
     },
@@ -1907,6 +2207,12 @@
             "state" : "translated",
             "value" : "基本信息"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "基本資料"
+          }
         }
       }
     },
@@ -1937,6 +2243,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打破"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "打破"
@@ -1975,6 +2287,12 @@
             "state" : "translated",
             "value" : "打破次数"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打破次數"
+          }
         }
       }
     },
@@ -2008,6 +2326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用专属统计\n分析你的习惯"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用專屬統計\n分析你的習慣"
           }
         }
       }
@@ -2043,6 +2367,12 @@
             "state" : "translated",
             "value" : "稍后"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "稍後"
+          }
         }
       }
     },
@@ -2076,6 +2406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "剩余时间：%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剩餘時間：%@"
           }
         }
       }
@@ -2112,6 +2448,12 @@
             "state" : "translated",
             "value" : "一键清除我的数据"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次清除我的資料"
+          }
         }
       }
     },
@@ -2142,6 +2484,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美甲"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "美甲"
@@ -2180,6 +2528,12 @@
             "state" : "translated",
             "value" : "美甲每三周一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美甲每三週一次"
+          }
         }
       }
     },
@@ -2213,6 +2567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刷剧"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追劇"
           }
         }
       }
@@ -2248,6 +2608,12 @@
             "state" : "translated",
             "value" : "换个关键词试试"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "換個關鍵字試試"
+          }
         }
       }
     },
@@ -2278,6 +2644,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下一步"
@@ -2316,6 +2688,12 @@
             "state" : "translated",
             "value" : "减肥放纵餐每周一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "減肥欺騙餐每週一次"
+          }
         }
       }
     },
@@ -2350,6 +2728,12 @@
             "state" : "translated",
             "value" : "单位"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "單位"
+          }
         }
       }
     },
@@ -2380,6 +2764,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "甜食每四天一次"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "甜食每四天一次"
@@ -2419,6 +2809,12 @@
             "state" : "translated",
             "value" : "即使提高对比度，或不易分辨颜色，也能看清内容。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使提高對比，或不易分辨顏色，也能看清內容。"
+          }
         }
       }
     },
@@ -2453,6 +2849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "让你能用更多语言使用这款应用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讓你能用更多語言使用這個 App。"
           }
         }
       }
@@ -2489,6 +2891,12 @@
             "state" : "translated",
             "value" : "更多语言"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多語言"
+          }
         }
       }
     },
@@ -2522,6 +2930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "甜点"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "甜點"
           }
         }
       }
@@ -2557,6 +2971,12 @@
             "state" : "translated",
             "value" : "彩票"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "樂透"
+          }
         }
       }
     },
@@ -2590,6 +3010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "彩票每周一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "樂透每週一次"
           }
         }
       }
@@ -2625,6 +3051,12 @@
             "state" : "translated",
             "value" : "按摩/水疗"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按摩／SPA"
+          }
         }
       }
     },
@@ -2658,6 +3090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "按摩每两周一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按摩每兩週一次"
           }
         }
       }
@@ -2693,6 +3131,12 @@
             "state" : "translated",
             "value" : "备注（可选）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "備註（選填）"
+          }
         }
       }
     },
@@ -2726,6 +3170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "所有项目都在冷却中。等待中：%lld个"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有項目都在冷卻中。等待中：%lld個"
           }
         }
       }
@@ -2761,6 +3211,12 @@
             "state" : "translated",
             "value" : "刷剧每三天一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追劇每三天一次"
+          }
         }
       }
     },
@@ -2794,6 +3250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "美发店"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美髮沙龍"
           }
         }
       }
@@ -2829,6 +3291,12 @@
             "state" : "translated",
             "value" : "美发每月一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美髮每月一次"
+          }
         }
       }
     },
@@ -2863,6 +3331,12 @@
             "state" : "translated",
             "value" : "外卖每三天一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外送每三天一次"
+          }
         }
       }
     },
@@ -2896,6 +3370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "外卖"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外送"
           }
         }
       }
@@ -2932,6 +3412,12 @@
             "state" : "translated",
             "value" : "备份与导出"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "備份與匯出"
+          }
         }
       }
     },
@@ -2965,6 +3451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "欢迎反馈问题和功能建议。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歡迎回報問題與提出功能建議。"
           }
         }
       }
@@ -3001,6 +3493,12 @@
             "state" : "translated",
             "value" : "更易读的颜色与对比度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更易閱讀的顏色與對比"
+          }
         }
       }
     },
@@ -3035,6 +3533,12 @@
             "state" : "translated",
             "value" : "输入花费后，会为你计算节省的金额"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輸入花費後，會為你計算省下的金額"
+          }
         }
       }
     },
@@ -3065,6 +3569,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用"
@@ -3103,6 +3613,12 @@
             "state" : "translated",
             "value" : "可使用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可使用"
+          }
         }
       }
     },
@@ -3133,6 +3649,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可使用（%lld）"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "可使用（%lld）"
@@ -3195,6 +3717,12 @@
             "state" : "translated",
             "value" : "可使用的项目 %lld个"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可使用的項目 %lld個"
+          }
         }
       }
     },
@@ -3229,6 +3757,12 @@
             "state" : "translated",
             "value" : "可使用：%lld个 · 冷却中：%lld个"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可使用：%lld個・冷卻中：%lld個"
+          }
         }
       }
     },
@@ -3259,6 +3793,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用完成"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用完成"
@@ -3297,6 +3837,12 @@
             "state" : "translated",
             "value" : "使用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用"
+          }
         }
       }
     },
@@ -3330,6 +3876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除"
           }
         }
       }
@@ -3365,6 +3917,12 @@
             "state" : "translated",
             "value" : "详细记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "詳細記錄"
+          }
         }
       }
     },
@@ -3398,6 +3956,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新建冷却"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增冷卻"
           }
         }
       }
@@ -3433,6 +3997,12 @@
             "state" : "translated",
             "value" : "添加新冷却"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增冷卻"
+          }
         }
       }
     },
@@ -3467,6 +4037,12 @@
             "state" : "translated",
             "value" : "设置"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
         }
       }
     },
@@ -3497,6 +4073,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喝酒"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "喝酒"
@@ -3535,6 +4117,12 @@
             "state" : "translated",
             "value" : "小时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小時"
+          }
         }
       }
     },
@@ -3568,6 +4156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "开始使用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始使用"
           }
         }
       }
@@ -3603,6 +4197,12 @@
             "state" : "translated",
             "value" : "实际花费（可选）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "實際花費（選填）"
+          }
         }
       }
     },
@@ -3634,6 +4234,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用小技巧"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用小技巧"
@@ -3672,6 +4278,12 @@
             "state" : "translated",
             "value" : "图标"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圖示"
+          }
         }
       }
     },
@@ -3705,6 +4317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "项目"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目"
           }
         }
       }
@@ -3740,6 +4358,12 @@
             "state" : "translated",
             "value" : "搜索项目..."
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜尋項目⋯"
+          }
         }
       }
     },
@@ -3773,6 +4397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "各项目遵守率"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各項目遵守率"
           }
         }
       }
@@ -3809,6 +4439,12 @@
             "state" : "translated",
             "value" : "在 iPad 或 Mac 上，只用键盘就能操作主要功能。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 iPad 或 Mac 上，只用鍵盤就能操作主要功能。"
+          }
         }
       }
     },
@@ -3844,6 +4480,12 @@
             "state" : "translated",
             "value" : "在 iPhone 和 iPad 上接着查看同样的冷却。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 iPhone 和 iPad 上接著查看同樣的冷卻。"
+          }
         }
       }
     },
@@ -3877,6 +4519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "还没有冷却项目。快来添加吧！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有冷卻項目。快來新增吧！"
           }
         }
       }
@@ -3912,6 +4560,12 @@
             "state" : "translated",
             "value" : "还没有冷却项目。从模板添加，或者自己创建吧"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有冷卻項目。從範本新增，或自己建立吧"
+          }
         }
       }
     },
@@ -3945,6 +4599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "还没有冷却项目"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有冷卻項目"
           }
         }
       }
@@ -3980,6 +4640,12 @@
             "state" : "translated",
             "value" : "还没有活动"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有活動"
+          }
         }
       }
     },
@@ -4013,6 +4679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用通知\n不再错过"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用通知\n不再錯過"
           }
         }
       }
@@ -4048,6 +4720,12 @@
             "state" : "translated",
             "value" : "通知已关闭。请点按设置按钮开启通知"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知已關閉。請點選設定按鈕開啟通知"
+          }
         }
       }
     },
@@ -4081,6 +4759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "通知已关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知已關閉"
           }
         }
       }
@@ -4117,6 +4801,12 @@
             "state" : "translated",
             "value" : "在合适的时机，悄悄提示你值得了解的功能。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在適當的時機，輕輕提示你值得認識的功能。"
+          }
         }
       }
     },
@@ -4151,6 +4841,12 @@
             "state" : "translated",
             "value" : "夜宵"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宵夜"
+          }
         }
       }
     },
@@ -4184,6 +4880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "夜宵每五天一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宵夜每五天一次"
           }
         }
       }
@@ -4220,6 +4922,12 @@
             "state" : "translated",
             "value" : "更新后首次打开时，告诉你新增了什么。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新後第一次開啟時，告訴你新增了什麼。"
+          }
         }
       }
     },
@@ -4255,6 +4963,12 @@
             "state" : "translated",
             "value" : "更新内容"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新內容"
+          }
         }
       }
     },
@@ -4288,6 +5002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电影院"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電影院"
           }
         }
       }
@@ -4323,6 +5043,12 @@
             "state" : "translated",
             "value" : "电影每两周看一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電影每兩週看一次"
+          }
         }
       }
     },
@@ -4356,6 +5082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "预计花费（可选）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預估花費（選填）"
           }
         }
       }
@@ -4391,6 +5123,12 @@
             "state" : "translated",
             "value" : "预计节省"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預估節省"
+          }
         }
       }
     },
@@ -4424,6 +5162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "预计：₩%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預估：₩%@"
           }
         }
       }
@@ -4459,6 +5203,12 @@
             "state" : "translated",
             "value" : "今日冷却"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日冷卻"
+          }
         }
       }
     },
@@ -4492,6 +5242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "买衣服"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "買衣服"
           }
         }
       }
@@ -4527,6 +5283,12 @@
             "state" : "translated",
             "value" : "衣服每两周买一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衣服每兩週買一次"
+          }
         }
       }
     },
@@ -4557,6 +5319,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
@@ -4595,6 +5363,12 @@
             "state" : "translated",
             "value" : "为什么要使用？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為什麼要使用？"
+          }
         }
       }
     },
@@ -4628,6 +5402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下馆子"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外食"
           }
         }
       }
@@ -4663,6 +5443,12 @@
             "state" : "translated",
             "value" : "下馆子每周一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外食每週一次"
+          }
         }
       }
     },
@@ -4696,6 +5482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "运动休息日每三天一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "運動休息日每三天一次"
           }
         }
       }
@@ -4732,6 +5524,12 @@
             "state" : "translated",
             "value" : "减弱动态效果"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "減少動態效果"
+          }
         }
       }
     },
@@ -4766,6 +5564,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "开启“减弱动态效果”后，屏幕效果会更平缓。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟「減少動態效果」後，畫面效果會更平緩。"
           }
         }
       }
@@ -4802,6 +5606,12 @@
             "state" : "translated",
             "value" : "你可以随时在应用内清除全部冷却记录。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你可以隨時在 App 內清除全部冷卻記錄。"
+          }
         }
       }
     },
@@ -4832,6 +5642,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喝酒每三天一次"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "喝酒每三天一次"
@@ -4870,6 +5686,12 @@
             "state" : "translated",
             "value" : "名称"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名稱"
+          }
         }
       }
     },
@@ -4903,6 +5725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发邮件咨询"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以電子郵件聯絡"
           }
         }
       }
@@ -4938,6 +5766,12 @@
             "state" : "translated",
             "value" : "本月预计节省金额 %lld 韩元"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本月預估節省金額 %lld 韓元"
+          }
         }
       }
     },
@@ -4972,6 +5806,12 @@
             "state" : "translated",
             "value" : "Instagram 私信 (@lee25_ios)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram 私訊 (@lee25_ios)"
+          }
         }
       }
     },
@@ -5002,6 +5842,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "天"
@@ -5040,6 +5886,12 @@
             "state" : "translated",
             "value" : "常用的冷却项目\n点按即可立即添加"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常用的冷卻項目\n點一下即可立刻新增"
+          }
         }
       }
     },
@@ -5073,6 +5925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电子产品"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3C 產品"
           }
         }
       }
@@ -5108,6 +5966,12 @@
             "state" : "translated",
             "value" : "电子产品每半年买一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3C 產品每半年買一次"
+          }
         }
       }
     },
@@ -5141,6 +6005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "总体遵守率"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整體遵守率"
           }
         }
       }
@@ -5176,6 +6046,12 @@
             "state" : "translated",
             "value" : "查看你\n节省了多少钱"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查看你\n省下了多少錢"
+          }
         }
       }
     },
@@ -5210,6 +6086,12 @@
             "state" : "translated",
             "value" : "周"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "週"
+          }
         }
       }
     },
@@ -5240,6 +6122,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "股票交易"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "股票交易"
@@ -5278,6 +6166,12 @@
             "state" : "translated",
             "value" : "遵守率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遵守率"
+          }
         }
       }
     },
@@ -5308,6 +6202,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遵守率百分之%lld"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "遵守率百分之%lld"
@@ -5346,6 +6246,12 @@
             "state" : "translated",
             "value" : "通过遵守率和分类统计，\n养成更好的习惯"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透過遵守率與分類統計，\n養成更好的習慣"
+          }
         }
       }
     },
@@ -5376,6 +6282,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即使用"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "立即使用"
@@ -5414,6 +6326,12 @@
             "state" : "translated",
             "value" : "现在使用会降低遵守率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在使用會降低遵守率"
+          }
         }
       }
     },
@@ -5447,6 +6365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "支持"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援"
           }
         }
       }
@@ -5482,6 +6406,12 @@
             "state" : "translated",
             "value" : "手动添加"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手動新增"
+          }
         }
       }
     },
@@ -5515,6 +6445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "总使用次数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "總使用次數"
           }
         }
       }
@@ -5550,6 +6486,12 @@
             "state" : "translated",
             "value" : "项目总数"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目總數"
+          }
         }
       }
     },
@@ -5583,6 +6525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "总支出（估算）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "總支出（估算）"
           }
         }
       }
@@ -5618,6 +6566,12 @@
             "state" : "translated",
             "value" : "最近活动"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近期活動"
+          }
         }
       }
     },
@@ -5651,6 +6605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增"
           }
         }
       }
@@ -5686,6 +6646,12 @@
             "state" : "translated",
             "value" : "推荐模板"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推薦範本"
+          }
         }
       }
     },
@@ -5719,6 +6685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "防止冲动交易，每周一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "避免衝動交易，每週一次"
           }
         }
       }
@@ -5754,6 +6726,12 @@
             "state" : "translated",
             "value" : "冲动消费"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衝動購物"
+          }
         }
       }
     },
@@ -5788,6 +6766,12 @@
             "state" : "translated",
             "value" : "冲动消费每周只允许一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衝動購物每週只准一次"
+          }
         }
       }
     },
@@ -5818,6 +6802,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -5856,6 +6846,12 @@
             "state" : "translated",
             "value" : "放纵日"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欺騙日"
+          }
         }
       }
     },
@@ -5889,6 +6885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "类别"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "類別"
           }
         }
       }
@@ -5924,6 +6926,12 @@
             "state" : "translated",
             "value" : "按类别"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "依類別"
+          }
         }
       }
     },
@@ -5958,6 +6966,12 @@
             "state" : "translated",
             "value" : "咖啡馆"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "咖啡廳"
+          }
         }
       }
     },
@@ -5988,6 +7002,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "咖啡隔天喝一次"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "咖啡隔天喝一次"
@@ -6026,6 +7046,12 @@
             "state" : "translated",
             "value" : "演唱会/演出"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "演唱會／演出"
+          }
         }
       }
     },
@@ -6059,6 +7085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冷却时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻時間"
           }
         }
       }
@@ -6095,6 +7127,12 @@
             "state" : "translated",
             "value" : "将冷却记录保存为文件，之后可以再导入。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "將冷卻記錄儲存成檔案，之後可以再匯入。"
+          }
         }
       }
     },
@@ -6128,6 +7166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打破冷却并使用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打破冷卻並使用"
           }
         }
       }
@@ -6163,6 +7207,12 @@
             "state" : "translated",
             "value" : "打破冷却"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打破冷卻"
+          }
         }
       }
     },
@@ -6196,6 +7246,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打破冷却次数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打破冷卻次數"
           }
         }
       }
@@ -6231,6 +7287,12 @@
             "state" : "translated",
             "value" : "重置冷却"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設冷卻"
+          }
         }
       }
     },
@@ -6264,6 +7326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要接收冷却结束提醒，请在设置中开启通知"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "若要接收冷卻結束提醒，請在設定中開啟通知"
           }
         }
       }
@@ -6299,6 +7367,12 @@
             "state" : "translated",
             "value" : "冷却周期"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻週期"
+          }
         }
       }
     },
@@ -6333,6 +7407,12 @@
             "state" : "translated",
             "value" : "冷却中"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻中"
+          }
         }
       }
     },
@@ -6366,6 +7446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冷却中（%lld）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻中（%lld）"
           }
         }
       }
@@ -6425,6 +7511,12 @@
             "state" : "translated",
             "value" : "冷却中的项目 %lld个"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻中的項目 %lld個"
+          }
         }
       }
     },
@@ -6458,6 +7550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冷却中！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻中！"
           }
         }
       }
@@ -6493,6 +7591,12 @@
             "state" : "translated",
             "value" : "用冷却时间\n管理冲动"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用冷卻時間\n管理衝動"
+          }
         }
       }
     },
@@ -6527,6 +7631,12 @@
             "state" : "translated",
             "value" : "每遵守一次冷却，\n就告诉你省下了多少"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每遵守一次冷卻，\n就告訴你省下了多少"
+          }
         }
       }
     },
@@ -6560,6 +7670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冷却结束时会提醒你\n也可以在小组件中查看"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻結束時會提醒你\n也可以在小工具中查看"
           }
         }
       }
@@ -6596,6 +7712,12 @@
             "state" : "translated",
             "value" : "适配大字体的界面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "適合大字體的畫面"
+          }
         }
       }
     },
@@ -6629,6 +7751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大额支出每月一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大額支出每月一次"
           }
         }
       }
@@ -6665,6 +7793,12 @@
             "state" : "translated",
             "value" : "键盘操控"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍵盤操控"
+          }
         }
       }
     },
@@ -6698,6 +7832,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打车"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計程車"
           }
         }
       }
@@ -6733,6 +7873,12 @@
             "state" : "translated",
             "value" : "打车每三天一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "計程車每三天一次"
+          }
         }
       }
     },
@@ -6766,6 +7912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "点按即可使用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "點一下即可使用"
           }
         }
       }
@@ -6801,6 +7953,12 @@
             "state" : "translated",
             "value" : "点按可打破冷却，长按查看更多选项"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "點一下可打破冷卻，長按可查看更多選項"
+          }
         }
       }
     },
@@ -6834,6 +7992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "模板"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "範本"
           }
         }
       }
@@ -6869,6 +8033,12 @@
             "state" : "translated",
             "value" : "从模板添加"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從範本新增"
+          }
         }
       }
     },
@@ -6902,6 +8072,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "从模板添加，\n或者自己创建吧"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從範本新增，\n或自己建立吧"
           }
         }
       }
@@ -6937,6 +8113,12 @@
             "state" : "translated",
             "value" : "统计"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "統計"
+          }
         }
       }
     },
@@ -6970,6 +8152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查看统计"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視統計"
           }
         }
       }
@@ -7005,6 +8193,12 @@
             "state" : "translated",
             "value" : "快餐"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速食"
+          }
         }
       }
     },
@@ -7038,6 +8232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "快餐每五天一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速食每五天一次"
           }
         }
       }
@@ -7074,6 +8274,12 @@
             "state" : "translated",
             "value" : "可折叠 iPhone 布局"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可摺疊 iPhone 版面"
+          }
         }
       }
     },
@@ -7109,6 +8315,12 @@
             "state" : "translated",
             "value" : "在可折叠 iPhone 上，把宽屏分成左右两栏使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在可摺疊 iPhone 上，把寬螢幕分成左右兩欄使用。"
+          }
         }
       }
     },
@@ -7142,6 +8354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "每月一次国内旅行"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每月一次國內旅遊"
           }
         }
       }
@@ -7177,6 +8395,12 @@
             "state" : "translated",
             "value" : "出国旅行"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出國旅遊"
+          }
         }
       }
     },
@@ -7210,6 +8434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "出国旅行每两个月一次就够了"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出國旅遊每兩個月一次就夠了"
           }
         }
       }
@@ -7245,6 +8475,12 @@
             "state" : "translated",
             "value" : "酒店度假"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "飯店度假"
+          }
         }
       }
     },
@@ -7278,6 +8514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "酒店放松每三周一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "飯店放鬆每三週一次"
           }
         }
       }
@@ -7314,6 +8556,12 @@
             "state" : "translated",
             "value" : "旁白会按正确的顺序，完整朗读每个按钮和内容。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旁白會依正確的順序，完整朗讀每個按鈕與內容。"
+          }
         }
       }
     },
@@ -7347,6 +8595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "休息日（不运动）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "休息日（不運動）"
           }
         }
       }

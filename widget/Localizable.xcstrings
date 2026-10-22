@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "遵守率 %lld%%"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遵守率 %lld%%"
+          }
         }
       }
     },
@@ -89,6 +95,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld个"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個"
           }
         }
       }
@@ -148,6 +160,12 @@
             "state" : "translated",
             "value" : "%lld个项目"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個項目"
+          }
         }
       }
     },
@@ -178,6 +196,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld分"
@@ -216,6 +240,12 @@
             "state" : "translated",
             "value" : "%lld小时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld小時"
+          }
         }
       }
     },
@@ -246,6 +276,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld天"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld天"
@@ -284,6 +320,12 @@
             "state" : "translated",
             "value" : "还有%lld个"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還有%lld個"
+          }
         }
       }
     },
@@ -317,6 +359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ %lld个可使用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld個可使用"
           }
         }
       }
@@ -352,6 +400,12 @@
             "state" : "translated",
             "value" : "马上！"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快了！"
+          }
         }
       }
     },
@@ -386,6 +440,12 @@
             "state" : "translated",
             "value" : "下一个冷却结束时间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一個冷卻結束時間"
+          }
         }
       }
     },
@@ -416,6 +476,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等待中"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "等待中"
@@ -454,6 +520,12 @@
             "state" : "translated",
             "value" : "全部可使用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部可使用"
+          }
         }
       }
     },
@@ -484,6 +556,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部可使用！"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "全部可使用！"
@@ -522,6 +600,12 @@
             "state" : "translated",
             "value" : "可使用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可使用"
+          }
         }
       }
     },
@@ -555,6 +639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加项目"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增項目"
           }
         }
       }
@@ -590,6 +680,12 @@
             "state" : "translated",
             "value" : "本月节省 ₩%@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本月省下 ₩%@"
+          }
         }
       }
     },
@@ -623,6 +719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冷却时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻時間"
           }
         }
       }
@@ -658,6 +760,12 @@
             "state" : "translated",
             "value" : "冷却中"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻中"
+          }
         }
       }
     },
@@ -691,6 +799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "冷却情况一目了然"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷卻狀況一目瞭然"
           }
         }
       }

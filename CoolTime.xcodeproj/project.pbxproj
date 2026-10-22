@@ -298,6 +298,7 @@
 				ko,
 				"en-GB",
 				"zh-Hans",
+				"zh-Hant",
 				ja,
 			);
 			mainGroup = B7A00005001;
