@@ -63,6 +63,12 @@
             "value" : "Соблюдение: %lld%%"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รักษาวินัย %lld%%"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -245,6 +251,12 @@
                 }
               }
             }
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld รายการ"
           }
         },
         "zh-Hans" : {
@@ -431,6 +443,12 @@
             }
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld รายการ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -505,6 +523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld мин"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld นาที"
           }
         },
         "zh-Hans" : {
@@ -583,6 +607,12 @@
             "value" : "%lld ч"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ชม."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -657,6 +687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld д"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld วัน"
           }
         },
         "zh-Hans" : {
@@ -735,6 +771,12 @@
             "value" : "Ещё %lld"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อีก %lld รายการ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -809,6 +851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ Доступно: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ ใช้ได้ %lld รายการ"
           }
         },
         "zh-Hans" : {
@@ -887,6 +935,12 @@
             "value" : "Скоро!"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใกล้แล้ว!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -961,6 +1015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Окончание следующей перезарядки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คูลดาวน์ถัดไปจะจบเมื่อ"
           }
         },
         "zh-Hans" : {
@@ -1039,6 +1099,12 @@
             "value" : "В ожидании"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังรอ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1113,6 +1179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Всё доступно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ได้ทั้งหมด"
           }
         },
         "zh-Hans" : {
@@ -1191,6 +1263,12 @@
             "value" : "Всё доступно!"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ได้ทั้งหมด!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1265,6 +1343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доступно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ได้"
           }
         },
         "zh-Hans" : {
@@ -1343,6 +1427,12 @@
             "value" : "Добавить элемент"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มรายการ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1419,6 +1509,12 @@
             "value" : "Сэкономлено в этом месяце: ₩%@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เดือนนี้ประหยัด ₩%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1490,6 +1586,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -1571,6 +1673,12 @@
             "value" : "На перезарядке"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังคูลดาวน์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1645,6 +1753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Все перезарядки с первого взгляда"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูคูลดาวน์ได้ในพริบตา"
           }
         },
         "zh-Hans" : {

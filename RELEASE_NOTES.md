@@ -76,3 +76,9 @@ Nuove pagine di privacy e assistenza
 Corrigimos problemas de estabilidade
 Agora dá para enviar feedback no app
 Novas páginas de privacidade e ajuda
+
+### 앱스토어 (th)
+
+แก้ไขให้แอปทำงานเสถียรขึ้น
+ส่งความคิดเห็นได้ในแอปแล้ว
+เปิดหน้านโยบายความเป็นส่วนตัวและวิธีใช้
