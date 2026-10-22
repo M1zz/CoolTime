@@ -1208,3 +1208,58 @@ Powiadomienia i widżety
 Dostaniesz powiadomienie w połowie czasu oczekiwania i po jego zakończeniu, a pozostały czas sprawdzisz w widżetach na ekranie początkowym i ekranie blokady.
 
 Zapisy są przechowywane tylko na tym urządzeniu i nie potrzebujesz konta.
+
+## sv
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/sv/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/sv/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/sv/
+
+### 이름
+
+CoolTime: Vänta innan du köper
+
+### 부제
+
+Paus innan du spenderar
+
+### 키워드
+
+sparande,vanor,självkontroll,budget,pengar,utmaning,spendera inte,leverans,kaffe,alkohol,timer,mål
+
+### 프로모션 텍스트
+
+Sätt en väntetid på det du vill hålla igen på. Se hur länge det är kvar tills du får igen, och bygg vanan att vänta lugnt.
+
+### 설명
+
+Matleverans, shopping, efterrätter på fik. När lusten att spendera slår till, sätt en väntetid på den som på en förmåga i ett spel.
+CoolTime är en app för konsumtionsvanor: du väntar tills väntetiden är slut och ser hur mycket du sparat genom att hålla igen.
+
+Sätt en väntetid
+För varje objekt väljer du ett namn, en emoji, hur länge du vill vänta innan du använder det igen och vad det kostar varje gång. Vanliga perioder som 3 dagar, 1 vecka eller 1 månad väljer du med ett tryck.
+
+Se i en blick vad som är redo
+Startskärmen delar upp objekten i dem som är redo och dem som är i väntetid, och en cirkulär mätare krymper allteftersom tiden går.
+
+En paus till innan du bryter den
+Om du försöker använda något under väntetiden visar appen återstående tid och varnar för att din följsamhet sjunker. Om du ändå behöver det kan du skriva en anteckning och den verkliga kostnaden.
+
+Följsamhet och uppskattad besparing
+Se hur ofta du har hållit väntetiderna och hur mycket du sparat den här månaden. Statistiken visar följsamhet per objekt och kategori samt din användningshistorik.
+
+Rekommenderade mallar
+Lägg till vanliga väntetider för resor, shopping, mat, underhållning, livsstil, hälsa och ekonomi med ett tryck.
+
+Aviseringar och widgetar
+Få en avisering när väntetiden är halvvägs och när den tar slut, och se återstående tid direkt i widgetar på hemskärmen och låsskärmen.
+
+Dina registreringar sparas bara på den här enheten, och du behöver inget konto.

@@ -136,3 +136,9 @@ Nieuwe privacy- en hulppagina’s
 Poprawiliśmy błędy dla stabilnej pracy
 Opinię wyślesz teraz w aplikacji
 Nowe strony prywatności i pomocy
+
+### 앱스토어 (sv)
+
+Rättade fel för stabilare körning
+Du kan nu skicka feedback i appen
+Nya sidor om integritet och hjälp

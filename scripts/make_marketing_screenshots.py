@@ -17,7 +17,7 @@ CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 W, H = 1242, 2688   # 이 계정의 아이폰 제출 규격
 
 # 앱 언어 → App Store 로케일
-STORE = {"ko": "ko", "pl": "pl", "nl": "nl", "nb": "nb", "id": "id", "fi": "fi", "el": "el", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
+STORE = {"ko": "ko", "sv": "sv", "pl": "pl", "nl": "nl", "nb": "nb", "id": "id", "fi": "fi", "el": "el", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
 
 # 파일 · 배치 · 언어별 (헤드라인, 보조 문장)
 SHOTS = [

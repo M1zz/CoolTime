@@ -111,6 +111,12 @@
             "value" : "Соблюдение: %lld%%"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Följsamhet %lld%%"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -458,6 +464,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld элемента"
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld objekt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld objekt"
                 }
               }
             }
@@ -815,6 +839,24 @@
             }
           }
         },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld objekt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld objekt"
+                }
+              }
+            }
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -949,6 +991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld мин"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         },
         "th" : {
@@ -1087,6 +1135,12 @@
             "value" : "%lld ч"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld tim"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1221,6 +1275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld д"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
           }
         },
         "th" : {
@@ -1359,6 +1419,12 @@
             "value" : "Ещё %lld"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld till"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1493,6 +1559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ Доступно: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld redo"
           }
         },
         "th" : {
@@ -1631,6 +1703,12 @@
             "value" : "Скоро!"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snart!"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1765,6 +1843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Окончание следующей перезарядки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa väntetid slutar"
           }
         },
         "th" : {
@@ -1903,6 +1987,12 @@
             "value" : "В ожидании"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2037,6 +2127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Всё доступно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt redo"
           }
         },
         "th" : {
@@ -2175,6 +2271,12 @@
             "value" : "Всё доступно!"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt redo!"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2309,6 +2411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доступно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redo"
           }
         },
         "th" : {
@@ -2447,6 +2555,12 @@
             "value" : "Добавить элемент"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till objekt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2583,6 +2697,12 @@
             "value" : "Сэкономлено в этом месяце: ₩%@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ sparat den här månaden"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2714,6 +2834,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -2855,6 +2981,12 @@
             "value" : "На перезарядке"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I väntetid"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2989,6 +3121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Все перезарядки с первого взгляда"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dina väntetider i en blick"
           }
         },
         "th" : {
