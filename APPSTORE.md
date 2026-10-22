@@ -329,3 +329,58 @@ https://m1zz.github.io/CoolTime/ja/
 クールタイムが半分過ぎたときと終わったときに通知し、ホーム画面とロック画面のウィジェットで残り時間をすぐに確認できます。
 
 記録はこの端末にだけ保存され、アカウントは不要です。
+
+## es
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/es/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/es/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/es/
+
+### 이름
+
+CoolTime: espera y ahorra
+
+### 부제
+
+Frena las compras impulsivas
+
+### 키워드
+
+ahorro,hábitos,autocontrol,presupuesto,dinero,reto,sin gastos,café,alcohol,temporizador,metas
+
+### 프로모션 텍스트
+
+Pon un tiempo de espera a lo que quieres controlar. Mira cuánto falta para poder volver a hacerlo y crea el hábito de esperar con calma.
+
+### 설명
+
+Comida a domicilio, compras, postres de cafetería. Cuando te entren ganas de gastar, ponle un tiempo de espera como a una habilidad de un juego.
+CoolTime es una app de hábitos de consumo: esperas hasta que termina el tiempo y ves cuánto has ahorrado por aguantar.
+
+Pon un tiempo de espera
+Para cada elemento, elige un nombre, un emoji, cuánto esperar antes de volver a usarlo y cuánto cuesta cada vez. Los periodos más habituales, como 3 días, 1 semana o 1 mes, se eligen con un toque.
+
+Lo que puedes usar, de un vistazo
+La pantalla de inicio separa los elementos disponibles de los que están en espera, y un indicador circular va menguando con el tiempo restante.
+
+Una pausa más antes de romperlo
+Si intentas usar algo durante su espera, la app te muestra el tiempo que queda y te avisa de que bajará tu tasa de cumplimiento. Si aun así lo necesitas, puedes añadir una nota y el coste real.
+
+Tasa de cumplimiento y ahorro estimado
+Mira cuántas esperas has respetado y cuánto has ahorrado este mes. En las estadísticas ves el cumplimiento por elemento y por categoría, además de tu historial de uso.
+
+Plantillas recomendadas
+Añade con un toque esperas habituales de viajes, compras, comida, ocio, estilo de vida, salud y finanzas.
+
+Notificaciones y widgets
+Recibe un aviso cuando la espera llega a la mitad y cuando termina, y consulta el tiempo restante en los widgets de la pantalla de inicio y de bloqueo.
+
+Tus registros se guardan solo en este dispositivo y no necesitas cuenta.

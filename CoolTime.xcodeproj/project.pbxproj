@@ -300,6 +300,7 @@
 				"zh-Hans",
 				"zh-Hant",
 				ja,
+				es,
 			);
 			mainGroup = B7A00005001;
 			packageReferences = (

@@ -15,6 +15,12 @@
             "value" : "%@ %@, ready"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, disponible"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53,6 +59,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, cooldown %@ left"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, quedan %@ de espera"
           }
         },
         "ja" : {
@@ -95,6 +107,12 @@
             "value" : "%@ Halfway there!"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ¡A medio camino!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -133,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Cooldown over!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ¡Espera terminada!"
           }
         },
         "ja" : {
@@ -175,6 +199,12 @@
             "value" : "You're halfway through the %@ cooldown! Hang in there 💪"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Has pasado la mitad de la espera de %@! Aguanta un poco más 💪"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -213,6 +243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ is ready. You can use it now!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ha terminado su espera. ¡Ya puedes usarlo!"
           }
         },
         "ja" : {
@@ -279,6 +315,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementos"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -317,6 +371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldmo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld m"
           }
         },
         "ja" : {
@@ -383,6 +443,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld mes"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld meses"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -421,6 +499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         },
         "ja" : {
@@ -463,6 +547,12 @@
             "value" : "%lldm %llds"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -503,6 +593,12 @@
             "value" : "%lldh"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -541,6 +637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldh %lldm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h %lld min"
           }
         },
         "ja" : {
@@ -607,6 +709,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld hora"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld horas"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -647,6 +767,12 @@
             "value" : "%lldd"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -685,6 +811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldd %lldh"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d %lld h"
           }
         },
         "ja" : {
@@ -751,6 +883,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld día"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld días"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -789,6 +939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldw"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sem"
           }
         },
         "ja" : {
@@ -855,6 +1011,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld semana"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cada %lld semanas"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -893,6 +1067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%llds"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
           }
         },
         "ja" : {
@@ -954,6 +1134,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld times"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld vez"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld veces"
                 }
               }
             }
@@ -1023,6 +1221,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld uso"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld usos"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1061,6 +1277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No results for “%@”"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin resultados para «%@»"
           }
         },
         "ja" : {
@@ -1103,6 +1325,12 @@
             "value" : "1mo"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 mes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1141,6 +1369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1w"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 sem"
           }
         },
         "ja" : {
@@ -1183,6 +1417,12 @@
             "value" : "2mo"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 meses"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1223,6 +1463,12 @@
             "value" : "2w"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 sem"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1261,6 +1507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3d"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 d"
           }
         },
         "ja" : {
@@ -1304,6 +1556,12 @@
             "value" : "Face ID lock"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueo con Face ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1343,6 +1601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock the app with Face ID or Touch ID to keep your history private."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloquea la app con Face ID o Touch ID para mantener privado tu historial."
           }
         },
         "ja" : {
@@ -1386,6 +1650,12 @@
             "value" : "Log a use instantly by asking Siri or running a shortcut."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registra un uso al instante pidiéndoselo a Siri o con un atajo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1425,6 +1695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri and Shortcuts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri y Atajos"
           }
         },
         "ja" : {
@@ -1468,6 +1744,12 @@
             "value" : "Better VoiceOver support"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejor compatibilidad con VoiceOver"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1506,6 +1788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Value"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valor"
           }
         },
         "ja" : {
@@ -1548,6 +1836,12 @@
             "value" : "Contact the developer"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contactar con el desarrollador"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1586,6 +1880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Months"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meses"
           }
         },
         "ja" : {
@@ -1628,6 +1928,12 @@
             "value" : "Skip"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omitir"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1666,6 +1972,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No results"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin resultados"
           }
         },
         "ja" : {
@@ -1708,6 +2020,12 @@
             "value" : "Clear search"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar búsqueda"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1746,6 +2064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In-game purchases"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras en juegos"
           }
         },
         "ja" : {
@@ -1788,6 +2112,12 @@
             "value" : "In-game purchases every 2 weeks"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras en juegos cada 2 semanas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1826,6 +2156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Like skill cooldowns in a game,\nset a waiting time on spending and habits"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Como la recarga de una habilidad en un juego,\nponle un tiempo de espera a tus gastos y hábitos"
           }
         },
         "ja" : {
@@ -1868,6 +2204,12 @@
             "value" : "Warning: on cooldown. Using it now will lower your compliance rate"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aviso: en espera. Si lo usas ahora, bajará tu tasa de cumplimiento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1906,6 +2248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep going 💪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sigue así 💪"
           }
         },
         "ja" : {
@@ -1948,6 +2296,12 @@
             "value" : "Big purchase (₩100,000+)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compra grande (más de ₩100.000)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1986,6 +2340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soon!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Ya casi!"
           }
         },
         "ja" : {
@@ -2028,6 +2388,12 @@
             "value" : "Live shows every 2 months"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espectáculos cada 2 meses"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2066,6 +2432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Domestic trip"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viaje nacional"
           }
         },
         "ja" : {
@@ -2109,6 +2481,12 @@
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las pantallas se reorganizan en lugar de recortarse al aumentar el tamaño del texto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2148,6 +2526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sync across devices"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronización entre dispositivos"
           }
         },
         "ja" : {
@@ -2190,6 +2574,12 @@
             "value" : "Basics"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información básica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2228,6 +2618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Break"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romper"
           }
         },
         "ja" : {
@@ -2270,6 +2666,12 @@
             "value" : "Times broken"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veces que rompiste"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2308,6 +2710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analyse your habits\nwith your own stats"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analiza tus hábitos\ncon tus propias estadísticas"
           }
         },
         "ja" : {
@@ -2350,6 +2758,12 @@
             "value" : "Later"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más tarde"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2388,6 +2802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time left: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo restante: %@"
           }
         },
         "ja" : {
@@ -2431,6 +2851,12 @@
             "value" : "Delete all your data"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar todos tus datos"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2469,6 +2895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nail art"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manicura"
           }
         },
         "ja" : {
@@ -2511,6 +2943,12 @@
             "value" : "Nails every 3 weeks"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manicura cada 3 semanas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2549,6 +2987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binge-watching"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maratón de series"
           }
         },
         "ja" : {
@@ -2591,6 +3035,12 @@
             "value" : "Try a different keyword"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prueba con otra palabra clave"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2629,6 +3079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente"
           }
         },
         "ja" : {
@@ -2671,6 +3127,12 @@
             "value" : "Diet cheat day once a week"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un día libre de dieta a la semana"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2711,6 +3173,12 @@
             "value" : "Unit"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unidad"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2749,6 +3217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sweets every 4 days"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dulces cada 4 días"
           }
         },
         "ja" : {
@@ -2792,6 +3266,12 @@
             "value" : "Everything stays readable, even with Increase Contrast on or if colors are hard to tell apart."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo sigue siendo legible, incluso con Aumentar contraste o si te cuesta distinguir los colores."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2831,6 +3311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the app in more languages."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa la app en más idiomas."
           }
         },
         "ja" : {
@@ -2874,6 +3360,12 @@
             "value" : "More languages"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más idiomas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2912,6 +3404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dessert"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Postre"
           }
         },
         "ja" : {
@@ -2954,6 +3452,12 @@
             "value" : "Lottery"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotería"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2992,6 +3496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lottery once a week"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotería una vez a la semana"
           }
         },
         "ja" : {
@@ -3034,6 +3544,12 @@
             "value" : "Massage / spa"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masaje / spa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3072,6 +3588,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massage every 2 weeks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masaje cada 2 semanas"
           }
         },
         "ja" : {
@@ -3114,6 +3636,12 @@
             "value" : "Note (optional)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota (opcional)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3152,6 +3680,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everything is on cooldown. Waiting: %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo está en espera. Pendientes: %lld"
           }
         },
         "ja" : {
@@ -3194,6 +3728,12 @@
             "value" : "Binge-watching every 3 days"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maratón de series cada 3 días"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3232,6 +3772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hairdresser"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peluquería"
           }
         },
         "ja" : {
@@ -3274,6 +3820,12 @@
             "value" : "Hairdresser once a month"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peluquería una vez al mes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3314,6 +3866,12 @@
             "value" : "Takeaways every 3 days"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A domicilio cada 3 días"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3352,6 +3910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Food delivery"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comida a domicilio"
           }
         },
         "ja" : {
@@ -3395,6 +3959,12 @@
             "value" : "Backup and export"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia de seguridad y exportación"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3433,6 +4003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bug reports and feature ideas are welcome."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los avisos de errores y las ideas para nuevas funciones son bienvenidos."
           }
         },
         "ja" : {
@@ -3476,6 +4052,12 @@
             "value" : "Easier colors and contrast"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colores y contraste más cómodos"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3514,6 +4096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter a cost and we'll work out what you saved"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduce un coste y calcularemos cuánto ahorras"
           }
         },
         "ja" : {
@@ -3556,6 +4144,12 @@
             "value" : "Use"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3596,6 +4190,12 @@
             "value" : "Ready"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponible"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3634,6 +4234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready (%lld)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibles (%lld)"
           }
         },
         "ja" : {
@@ -3700,6 +4306,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento disponible"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementos disponibles"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3738,6 +4362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready: %lld · On cooldown: %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibles: %lld · En espera: %lld"
           }
         },
         "ja" : {
@@ -3780,6 +4410,12 @@
             "value" : "Done"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3818,6 +4454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use it"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar"
           }
         },
         "ja" : {
@@ -3860,6 +4502,12 @@
             "value" : "Delete"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3898,6 +4546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detailed log"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historial detallado"
           }
         },
         "ja" : {
@@ -3940,6 +4594,12 @@
             "value" : "New Cooldown"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3978,6 +4638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a new cooldown"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir una espera nueva"
           }
         },
         "ja" : {
@@ -4020,6 +4686,12 @@
             "value" : "Settings"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4058,6 +4730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drinking"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beber alcohol"
           }
         },
         "ja" : {
@@ -4100,6 +4778,12 @@
             "value" : "Hours"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4140,6 +4824,12 @@
             "value" : "Get Started"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4178,6 +4868,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actual cost (optional)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coste real (opcional)"
           }
         },
         "ja" : {
@@ -4221,6 +4917,12 @@
             "value" : "Handy tips"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consejos útiles"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4259,6 +4961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Icon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Icono"
           }
         },
         "ja" : {
@@ -4301,6 +5009,12 @@
             "value" : "Item"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elemento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4341,6 +5055,12 @@
             "value" : "Search items..."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar elementos..."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4379,6 +5099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compliance by item"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumplimiento por elemento"
           }
         },
         "ja" : {
@@ -4422,6 +5148,12 @@
             "value" : "Use the main features with just a keyboard on iPad or Mac."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa las funciones principales solo con el teclado en el iPad o el Mac."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4461,6 +5193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See the same cooldowns on your iPhone and iPad."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consulta las mismas esperas en tu iPhone y tu iPad."
           }
         },
         "ja" : {
@@ -4503,6 +5241,12 @@
             "value" : "No cooldowns yet. Try adding one!"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no tienes esperas. ¡Prueba a añadir una!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4541,6 +5285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No cooldowns yet. Add one from templates or create your own"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay esperas. Añade una desde las plantillas o crea la tuya"
           }
         },
         "ja" : {
@@ -4583,6 +5333,12 @@
             "value" : "No cooldowns yet"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay esperas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4621,6 +5377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No activity yet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay actividad"
           }
         },
         "ja" : {
@@ -4663,6 +5425,12 @@
             "value" : "Never miss\na notification"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Que no se te pase\nningún aviso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4703,6 +5471,12 @@
             "value" : "Notifications are off. Tap the Settings button to turn them on"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las notificaciones están desactivadas. Toca el botón de Ajustes para activarlas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4741,6 +5515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notifications are off"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las notificaciones están desactivadas"
           }
         },
         "ja" : {
@@ -4784,6 +5564,12 @@
             "value" : "Gentle hints about useful features, right when you need them."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pistas discretas sobre funciones útiles, justo cuando las necesitas."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4824,6 +5610,12 @@
             "value" : "Late-night snack"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cena tardía"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4862,6 +5654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Late-night snacks every 5 days"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cena tardía cada 5 días"
           }
         },
         "ja" : {
@@ -4905,6 +5703,12 @@
             "value" : "The first time you open the app after an update, see what’s new."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4944,6 +5748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novedades"
           }
         },
         "ja" : {
@@ -4986,6 +5796,12 @@
             "value" : "Cinema"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cine"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5024,6 +5840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Films every 2 weeks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cine cada 2 semanas"
           }
         },
         "ja" : {
@@ -5066,6 +5888,12 @@
             "value" : "Estimated cost (optional)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coste previsto (opcional)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5104,6 +5932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Est. savings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahorro est."
           }
         },
         "ja" : {
@@ -5146,6 +5980,12 @@
             "value" : "Estimated: ₩%@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previsto: ₩%@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5184,6 +6024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Today's cooldowns"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperas de hoy"
           }
         },
         "ja" : {
@@ -5226,6 +6072,12 @@
             "value" : "Clothes shopping"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras de ropa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5264,6 +6116,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clothes once every 2 weeks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ropa cada 2 semanas"
           }
         },
         "ja" : {
@@ -5306,6 +6164,12 @@
             "value" : "Done"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5344,6 +6208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Why are you using it?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Por qué lo usas?"
           }
         },
         "ja" : {
@@ -5386,6 +6256,12 @@
             "value" : "Eating out"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comer fuera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5426,6 +6302,12 @@
             "value" : "Eating out once a week"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comer fuera una vez a la semana"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5464,6 +6346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A workout rest day every 3 days"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un día sin entrenar cada 3 días"
           }
         },
         "ja" : {
@@ -5507,6 +6395,12 @@
             "value" : "Reduce Motion"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducir movimiento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5546,6 +6440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "With Reduce Motion on, screen effects calm down."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con Reducir movimiento activado, los efectos de pantalla son más suaves."
           }
         },
         "ja" : {
@@ -5589,6 +6489,12 @@
             "value" : "Erase your entire cooldown history from within the app whenever you like."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borra todo tu historial de esperas desde la app cuando quieras."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5627,6 +6533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drinking every 3 days"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alcohol cada 3 días"
           }
         },
         "ja" : {
@@ -5669,6 +6581,12 @@
             "value" : "Name"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5707,6 +6625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Email the developer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribir por correo"
           }
         },
         "ja" : {
@@ -5749,6 +6673,12 @@
             "value" : "Estimated savings this month: ₩%lld"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahorro estimado este mes: %lld wones"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5787,6 +6717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MD de Instagram (@lee25_ios)"
           }
         },
         "ja" : {
@@ -5829,6 +6765,12 @@
             "value" : "Days"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Días"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5867,6 +6809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Common cooldown items\nTap one to add it right away"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperas habituales\nToca una para añadirla al instante"
           }
         },
         "ja" : {
@@ -5909,6 +6857,12 @@
             "value" : "Gadgets"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrónica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5947,6 +6901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gadgets once every 6 months"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Electrónica cada 6 meses"
           }
         },
         "ja" : {
@@ -5989,6 +6949,12 @@
             "value" : "Overall compliance"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumplimiento total"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6027,6 +6993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See how much\nyou've saved"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descubre cuánto\nhas ahorrado"
           }
         },
         "ja" : {
@@ -6069,6 +7041,12 @@
             "value" : "Weeks"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semanas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6107,6 +7085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stock trading"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolsa"
           }
         },
         "ja" : {
@@ -6149,6 +7133,12 @@
             "value" : "Compliance"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumplimiento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6187,6 +7177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compliance %lld percent"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumplimiento: %lld por ciento"
           }
         },
         "ja" : {
@@ -6229,6 +7225,12 @@
             "value" : "Compliance rate and category stats\nhelp you build better habits"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con tu tasa de cumplimiento y las estadísticas por categoría\ncrearás mejores hábitos"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6267,6 +7269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use now"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar ahora"
           }
         },
         "ja" : {
@@ -6309,6 +7317,12 @@
             "value" : "Using it now will lower your compliance rate"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si lo usas ahora, bajará tu tasa de cumplimiento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6347,6 +7361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda"
           }
         },
         "ja" : {
@@ -6389,6 +7409,12 @@
             "value" : "Add your own"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir la tuya"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6427,6 +7453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total uses"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usos en total"
           }
         },
         "ja" : {
@@ -6469,6 +7501,12 @@
             "value" : "Total items"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elementos en total"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6507,6 +7545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total spent (est.)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gasto total (est.)"
           }
         },
         "ja" : {
@@ -6549,6 +7593,12 @@
             "value" : "Recent activity"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actividad reciente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6587,6 +7637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir"
           }
         },
         "ja" : {
@@ -6629,6 +7685,12 @@
             "value" : "Recommended templates"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plantillas recomendadas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6667,6 +7729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avoid impulse trades, once a week"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Evita operar por impulso, una vez a la semana"
           }
         },
         "ja" : {
@@ -6709,6 +7777,12 @@
             "value" : "Impulse buy"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compra impulsiva"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6747,6 +7821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impulse buys only once a week"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras impulsivas solo una vez a la semana"
           }
         },
         "ja" : {
@@ -6789,6 +7869,12 @@
             "value" : "Cancel"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6827,6 +7913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheat day"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día libre de dieta"
           }
         },
         "ja" : {
@@ -6869,6 +7961,12 @@
             "value" : "Category"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categoría"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6907,6 +8005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "By category"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por categoría"
           }
         },
         "ja" : {
@@ -6949,6 +8053,12 @@
             "value" : "Café"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cafetería"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6987,6 +8097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coffee every other day"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café cada dos días"
           }
         },
         "ja" : {
@@ -7029,6 +8145,12 @@
             "value" : "Concert / show"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concierto / espectáculo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7064,6 +8186,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -7110,6 +8238,12 @@
             "value" : "Save your cooldown history to a file and bring it back later."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda tu historial de esperas en un archivo y recupéralo más tarde."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7148,6 +8282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Break cooldown and use"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romper espera y usar"
           }
         },
         "ja" : {
@@ -7190,6 +8330,12 @@
             "value" : "Break cooldown"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romper espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7228,6 +8374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cooldown breaks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperas rotas"
           }
         },
         "ja" : {
@@ -7270,6 +8422,12 @@
             "value" : "Reset cooldown"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7308,6 +8466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Turn them on in Settings to get cooldown alerts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actívalas en Ajustes para recibir avisos cuando termine una espera"
           }
         },
         "ja" : {
@@ -7350,6 +8514,12 @@
             "value" : "Cooldown length"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duración de la espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7390,6 +8560,12 @@
             "value" : "On cooldown"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7428,6 +8604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On cooldown (%lld)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En espera (%lld)"
           }
         },
         "ja" : {
@@ -7494,6 +8676,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento en espera"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementos en espera"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7532,6 +8732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On cooldown!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡En espera!"
           }
         },
         "ja" : {
@@ -7574,6 +8780,12 @@
             "value" : "Manage impulses\nwith cooldowns"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controla tus impulsos\ncon tiempos de espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7614,6 +8826,12 @@
             "value" : "Every time you keep a cooldown,\nwe show how much you saved"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada vez que cumples una espera,\nte mostramos cuánto has ahorrado"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7652,6 +8870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "We'll let you know when a cooldown ends\nYou can check from the widget too"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te avisamos cuando termina una espera\nTambién puedes verlo en el widget"
           }
         },
         "ja" : {
@@ -7695,6 +8919,12 @@
             "value" : "Layouts for larger text"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseños para texto grande"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7733,6 +8963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Big spending, once a month"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un gran gasto al mes"
           }
         },
         "ja" : {
@@ -7776,6 +9012,12 @@
             "value" : "Keyboard control"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control con teclado"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7811,6 +9053,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxi"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
@@ -7856,6 +9104,12 @@
             "value" : "Taxi every 3 days"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxi cada 3 días"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7894,6 +9148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap to use"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca para usar"
           }
         },
         "ja" : {
@@ -7936,6 +9196,12 @@
             "value" : "Tap to break the cooldown, touch and hold for more options"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca para romper la espera; mantén pulsado para ver más opciones"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7974,6 +9240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Templates"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plantillas"
           }
         },
         "ja" : {
@@ -8016,6 +9288,12 @@
             "value" : "Add from templates"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir desde plantillas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8054,6 +9332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add one from templates\nor create your own"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añade una desde las plantillas\no crea la tuya"
           }
         },
         "ja" : {
@@ -8096,6 +9380,12 @@
             "value" : "Stats"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estadísticas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8134,6 +9424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "View stats"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver estadísticas"
           }
         },
         "ja" : {
@@ -8176,6 +9472,12 @@
             "value" : "Fast food"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comida rápida"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8214,6 +9516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast food every 5 days"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comida rápida cada 5 días"
           }
         },
         "ja" : {
@@ -8257,6 +9565,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseño para iPhone plegable"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8296,6 +9610,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa la pantalla ancha de un iPhone plegable como dos paneles en paralelo."
           }
         },
         "ja" : {
@@ -8338,6 +9658,12 @@
             "value" : "One domestic trip a month"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un viaje nacional al mes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8376,6 +9702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Overseas trip"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viaje al extranjero"
           }
         },
         "ja" : {
@@ -8418,6 +9750,12 @@
             "value" : "An overseas trip once every 2 months is plenty"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un viaje al extranjero cada 2 meses es más que suficiente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8458,6 +9796,12 @@
             "value" : "Hotel staycation"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escapada de hotel"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8496,6 +9840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A hotel getaway every 3 weeks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un capricho de hotel cada 3 semanas"
           }
         },
         "ja" : {
@@ -8539,6 +9889,12 @@
             "value" : "VoiceOver reads every button and detail, in the right order."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lee todos los botones y detalles, en el orden correcto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8577,6 +9933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rest day (skip workout)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Día de descanso (sin entrenar)"
           }
         },
         "ja" : {

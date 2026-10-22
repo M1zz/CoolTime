@@ -15,6 +15,12 @@
             "value" : "%lld%% compliance"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%% de cumplimiento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74,6 +80,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld items"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementos"
                 }
               }
             }
@@ -143,6 +167,24 @@
             }
           }
         },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elemento"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld elementos"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -181,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldm"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         },
         "ja" : {
@@ -223,6 +271,12 @@
             "value" : "%lldh"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -261,6 +315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldd"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
           }
         },
         "ja" : {
@@ -303,6 +363,12 @@
             "value" : "+%lld more"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld más"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -341,6 +407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ %lld ready"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld disponibles"
           }
         },
         "ja" : {
@@ -383,6 +455,12 @@
             "value" : "Soon!"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Ya casi!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -421,6 +499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next cooldown end"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fin de la próxima espera"
           }
         },
         "ja" : {
@@ -463,6 +547,12 @@
             "value" : "Waiting"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -501,6 +591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All ready"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo disponible"
           }
         },
         "ja" : {
@@ -543,6 +639,12 @@
             "value" : "All ready!"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Todo disponible!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -581,6 +683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponible"
           }
         },
         "ja" : {
@@ -623,6 +731,12 @@
             "value" : "Add an item"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir elemento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -663,6 +777,12 @@
             "value" : "₩%@ saved this month"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ ahorrados este mes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -698,6 +818,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -743,6 +869,12 @@
             "value" : "On cooldown"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En espera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -781,6 +913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See your cooldowns at a glance"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus esperas de un vistazo"
           }
         },
         "ja" : {

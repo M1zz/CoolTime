@@ -40,3 +40,9 @@ Added new privacy policy and help pages
 アプリがより安定して動くように修正しました
 アプリ内から直接ご意見を送れます
 プライバシーポリシーとヘルプページを公開しました
+
+### 앱스토어 (es)
+
+Corregimos fallos para mejorar la app
+Ya puedes enviar comentarios en la app
+Nuevas páginas de privacidad y ayuda
