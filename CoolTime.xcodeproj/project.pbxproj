@@ -310,6 +310,7 @@
 				vi,
 				cs,
 				da,
+				el,
 			);
 			mainGroup = B7A00005001;
 			packageReferences = (

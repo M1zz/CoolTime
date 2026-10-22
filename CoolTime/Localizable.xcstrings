@@ -21,6 +21,12 @@
             "value" : "%@ %@, verfügbar"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, διαθέσιμο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, noch %@ Abklingzeit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, αναμονή: απομένουν %@"
           }
         },
         "en" : {
@@ -221,6 +233,12 @@
             "value" : "%@ Halbzeit!"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Στα μισά!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -319,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Abklingzeit vorbei!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Η αναμονή τελείωσε!"
           }
         },
         "en" : {
@@ -421,6 +445,12 @@
             "value" : "Die Hälfte der Abklingzeit von %@ ist geschafft! Halte durch 💪"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέρασες τη μισή αναμονή για «%@»! Κράτα γερά 💪"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Abklingzeit von %@ ist vorbei. Du kannst es jetzt nutzen!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η αναμονή για «%@» τελείωσε. Τώρα μπορείς να το χρησιμοποιήσεις!"
           }
         },
         "en" : {
@@ -664,6 +700,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld Einträge"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχείο"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχεία"
                 }
               }
             }
@@ -865,6 +919,12 @@
             "value" : "%lld Mon."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld μ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -996,6 +1056,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Alle %lld Monate"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld μήνα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld μήνες"
                 }
               }
             }
@@ -1197,6 +1275,12 @@
             "value" : "%lld Min."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld λ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1295,6 +1379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Min. %lld Sek."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld λ. %lld δ."
           }
         },
         "en" : {
@@ -1397,6 +1487,12 @@
             "value" : "%lld Std."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ώ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1495,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Std. %lld Min."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ώ. %lld λ."
           }
         },
         "en" : {
@@ -1628,6 +1730,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Alle %lld Stunden"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld ώρα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld ώρες"
                 }
               }
             }
@@ -1829,6 +1949,12 @@
             "value" : "%lld T"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ημ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1927,6 +2053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld T %lld Std."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ημ. %lld ώ."
           }
         },
         "en" : {
@@ -2060,6 +2192,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Alle %lld Tage"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld ημέρα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld ημέρες"
                 }
               }
             }
@@ -2261,6 +2411,12 @@
             "value" : "%lld Wo."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld εβδ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2392,6 +2548,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Alle %lld Wochen"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld εβδομάδα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Κάθε %lld εβδομάδες"
                 }
               }
             }
@@ -2593,6 +2767,12 @@
             "value" : "%lld Sek."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld δ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2736,6 +2916,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld Mal"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld φορά"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld φορές"
                 }
               }
             }
@@ -2985,6 +3183,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld χρήση"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld χρήσεις"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -3181,6 +3397,12 @@
             "value" : "Keine Ergebnisse für „%@“"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα αποτέλεσμα για «%@»"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3279,6 +3501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 Mon."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 μήνας"
           }
         },
         "en" : {
@@ -3381,6 +3609,12 @@
             "value" : "1 Wo."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 εβδ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3479,6 +3713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 Mon."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 μήνες"
           }
         },
         "en" : {
@@ -3581,6 +3821,12 @@
             "value" : "2 Wo."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 εβδ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3679,6 +3925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 T"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 ημ."
           }
         },
         "en" : {
@@ -3782,6 +4034,12 @@
             "value" : "Face-ID-Sperre"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωμα με Face ID"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3881,6 +4139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sperre die App mit Face ID oder Touch ID, damit dein Verlauf privat bleibt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωσε την εφαρμογή με Face ID ή Touch ID για να μένει το ιστορικό σου ιδιωτικό."
           }
         },
         "en" : {
@@ -3984,6 +4248,12 @@
             "value" : "Erfasse eine Nutzung sofort per Siri oder mit einem Kurzbefehl."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατάγραψε μια χρήση αμέσως ζητώντας το από τη Siri ή εκτελώντας μια συντόμευση."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4083,6 +4353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri und Kurzbefehle"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri και Συντομεύσεις"
           }
         },
         "en" : {
@@ -4186,6 +4462,12 @@
             "value" : "Bessere VoiceOver-Unterstützung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλύτερη υποστήριξη VoiceOver"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4284,6 +4566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τιμή"
           }
         },
         "en" : {
@@ -4386,6 +4674,12 @@
             "value" : "Entwickler kontaktieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία με τον προγραμματιστή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4484,6 +4778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Monate"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μήνες"
           }
         },
         "en" : {
@@ -4586,6 +4886,12 @@
             "value" : "Überspringen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παράλειψη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4684,6 +4990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine Ergebnisse"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα αποτέλεσμα"
           }
         },
         "en" : {
@@ -4786,6 +5098,12 @@
             "value" : "Suche löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκκαθάριση αναζήτησης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4884,6 +5202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In-Game-Käufe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αγορές σε παιχνίδια"
           }
         },
         "en" : {
@@ -4986,6 +5310,12 @@
             "value" : "In-Game-Käufe alle 2 Wochen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αγορές σε παιχνίδια κάθε 2 εβδομάδες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5084,6 +5414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wie bei der Abklingzeit einer Fähigkeit im Spiel\nlegst du eine Wartezeit für Ausgaben und Gewohnheiten fest"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όπως ο χρόνος επαναφόρτισης μιας ικανότητας σε ένα παιχνίδι,\nόρισε χρόνο αναμονής για τα έξοδα και τις συνήθειές σου"
           }
         },
         "en" : {
@@ -5186,6 +5522,12 @@
             "value" : "Achtung: Abklingzeit läuft. Wenn du es jetzt nutzt, sinkt deine Einhaltungsquote"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσοχή: σε αναμονή. Αν το χρησιμοποιήσεις τώρα, το ποσοστό τήρησης θα μειωθεί"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5284,6 +5626,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weiter so 💪"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχισε έτσι 💪"
           }
         },
         "en" : {
@@ -5386,6 +5734,12 @@
             "value" : "Große Anschaffung (ab ₩100.000)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεγάλη αγορά (άνω των ₩100.000)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5484,6 +5838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gleich!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύντομα!"
           }
         },
         "en" : {
@@ -5586,6 +5946,12 @@
             "value" : "Live-Shows alle 2 Monate"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παράσταση κάθε 2 μήνες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5684,6 +6050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inlandsreise"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ταξίδι εντός χώρας"
           }
         },
         "en" : {
@@ -5787,6 +6159,12 @@
             "value" : "Bildschirme ordnen sich bei größerer Schrift sauber neu an, statt abgeschnitten zu werden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι οθόνες αναδιατάσσονται καλαίσθητα αντί να κόβονται όταν μεγαλώνεις το κείμενο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5886,6 +6264,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geräteübergreifende Synchronisierung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συγχρονισμός μεταξύ συσκευών"
           }
         },
         "en" : {
@@ -5988,6 +6372,12 @@
             "value" : "Grunddaten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βασικά στοιχεία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6086,6 +6476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παραβίαση"
           }
         },
         "en" : {
@@ -6188,6 +6584,12 @@
             "value" : "Gebrochen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φορές παραβίασης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6286,6 +6688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analysiere deine Gewohnheiten\nmit eigenen Statistiken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανάλυσε τις συνήθειές σου\nμε δικά σου στατιστικά"
           }
         },
         "en" : {
@@ -6388,6 +6796,12 @@
             "value" : "Später"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αργότερα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6486,6 +6900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verbleibende Zeit: %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρόνος που απομένει: %@"
           }
         },
         "en" : {
@@ -6589,6 +7009,12 @@
             "value" : "Alle deine Daten löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των δεδομένων σου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6687,6 +7113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nageldesign"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νύχια"
           }
         },
         "en" : {
@@ -6789,6 +7221,12 @@
             "value" : "Nageldesign alle 3 Wochen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νύχια κάθε 3 εβδομάδες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6887,6 +7325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serienmarathon"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μαραθώνιος σειρών"
           }
         },
         "en" : {
@@ -6989,6 +7433,12 @@
             "value" : "Versuche es mit einem anderen Suchbegriff"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δοκίμασε άλλη λέξη-κλειδί"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7087,6 +7537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επόμενο"
           }
         },
         "en" : {
@@ -7189,6 +7645,12 @@
             "value" : "Diät-Cheat-Day einmal pro Woche"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day στη δίαιτα μία φορά την εβδομάδα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7289,6 +7751,12 @@
             "value" : "Einheit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μονάδα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7387,6 +7855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Süßes alle 4 Tage"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γλυκά κάθε 4 ημέρες"
           }
         },
         "en" : {
@@ -7490,6 +7964,12 @@
             "value" : "Alles bleibt lesbar, auch mit „Kontrast erhöhen“ oder wenn Farben schwer zu unterscheiden sind."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα παραμένουν ευανάγνωστα, ακόμη και με αυξημένη αντίθεση ή αν δυσκολεύεσαι να ξεχωρίσεις χρώματα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7589,6 +8069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutze die App in weiteren Sprachen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε την εφαρμογή σε περισσότερες γλώσσες."
           }
         },
         "en" : {
@@ -7692,6 +8178,12 @@
             "value" : "Weitere Sprachen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερες γλώσσες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7790,6 +8282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dessert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιδόρπιο"
           }
         },
         "en" : {
@@ -7892,6 +8390,12 @@
             "value" : "Lotto"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λαχείο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7990,6 +8494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lotto einmal pro Woche"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λαχείο μία φορά την εβδομάδα"
           }
         },
         "en" : {
@@ -8092,6 +8602,12 @@
             "value" : "Massage / Spa"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μασάζ / spa"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8190,6 +8706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massage alle 2 Wochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μασάζ κάθε 2 εβδομάδες"
           }
         },
         "en" : {
@@ -8292,6 +8814,12 @@
             "value" : "Notiz (optional)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωση (προαιρετικά)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8390,6 +8918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles ist in Abklingzeit. Wartend: %lld"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα είναι σε αναμονή. Σε αναμονή: %lld"
           }
         },
         "en" : {
@@ -8492,6 +9026,12 @@
             "value" : "Serienmarathon alle 3 Tage"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μαραθώνιος σειρών κάθε 3 ημέρες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8590,6 +9130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Friseur"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κομμωτήριο"
           }
         },
         "en" : {
@@ -8692,6 +9238,12 @@
             "value" : "Friseur einmal im Monat"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κομμωτήριο μία φορά τον μήνα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8792,6 +9344,12 @@
             "value" : "Lieferdienst alle 3 Tage"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delivery κάθε 3 ημέρες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8890,6 +9448,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Essenslieferung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delivery φαγητού"
           }
         },
         "en" : {
@@ -8993,6 +9557,12 @@
             "value" : "Sicherung und Export"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντίγραφο ασφαλείας και εξαγωγή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9091,6 +9661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fehlermeldungen und Funktionsvorschläge sind willkommen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι αναφορές σφαλμάτων και οι ιδέες για νέες λειτουργίες είναι ευπρόσδεκτες."
           }
         },
         "en" : {
@@ -9194,6 +9770,12 @@
             "value" : "Angenehmere Farben und Kontraste"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα χρώματα και αντίθεση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9292,6 +9874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gib die Kosten ein, dann berechnen wir, wie viel du gespart hast"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βάλε ένα κόστος και θα υπολογίσουμε πόσα εξοικονόμησες"
           }
         },
         "en" : {
@@ -9394,6 +9982,12 @@
             "value" : "Nutzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9494,6 +10088,12 @@
             "value" : "Verfügbar"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαθέσιμο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9592,6 +10192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verfügbar (%lld)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαθέσιμα (%lld)"
           }
         },
         "en" : {
@@ -9737,6 +10343,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld verfügbare Einträge"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld διαθέσιμο στοιχείο"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld διαθέσιμα στοιχεία"
                 }
               }
             }
@@ -9938,6 +10562,12 @@
             "value" : "Verfügbar: %lld · In Abklingzeit: %lld"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαθέσιμα: %lld · Σε αναμονή: %lld"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10036,6 +10666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fertig"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τέλος"
           }
         },
         "en" : {
@@ -10138,6 +10774,12 @@
             "value" : "Nutzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10236,6 +10878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή"
           }
         },
         "en" : {
@@ -10338,6 +10986,12 @@
             "value" : "Detaillierter Verlauf"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αναλυτικό ιστορικό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10436,6 +11090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neue Abklingzeit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέα αναμονή"
           }
         },
         "en" : {
@@ -10538,6 +11198,12 @@
             "value" : "Neue Abklingzeit hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη νέας αναμονής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10636,6 +11302,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einstellungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
           }
         },
         "en" : {
@@ -10738,6 +11410,12 @@
             "value" : "Alkohol trinken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αλκοόλ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10836,6 +11514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stunden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ώρες"
           }
         },
         "en" : {
@@ -10938,6 +11622,12 @@
             "value" : "Los geht’s"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκίνα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11036,6 +11726,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tatsächliche Kosten (optional)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πραγματικό κόστος (προαιρετικά)"
           }
         },
         "en" : {
@@ -11139,6 +11835,12 @@
             "value" : "Praktische Tipps"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήσιμες συμβουλές"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11237,6 +11939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Symbol"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εικονίδιο"
           }
         },
         "en" : {
@@ -11339,6 +12047,12 @@
             "value" : "Eintrag"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στοιχείο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11439,6 +12153,12 @@
             "value" : "Einträge suchen ..."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αναζήτηση στοιχείων..."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11537,6 +12257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einhaltung nach Eintrag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τήρηση ανά στοιχείο"
           }
         },
         "en" : {
@@ -11640,6 +12366,12 @@
             "value" : "Nutze die wichtigsten Funktionen auf dem iPad oder Mac nur mit der Tastatur."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε τις βασικές λειτουργίες μόνο με πληκτρολόγιο σε iPad ή Mac."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11739,6 +12471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sieh dieselben Abklingzeiten auf deinem iPhone und iPad."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δες τις ίδιες αναμονές στο iPhone και στο iPad."
           }
         },
         "en" : {
@@ -11841,6 +12579,12 @@
             "value" : "Noch keine Abklingzeiten. Leg doch eine an!"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμη αναμονές. Δοκίμασε να προσθέσεις μία!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11939,6 +12683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Abklingzeiten. Füge eine aus den Vorlagen hinzu oder erstelle selbst eine"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμη αναμονές. Πρόσθεσε μία από τα πρότυπα ή δημιούργησε τη δική σου"
           }
         },
         "en" : {
@@ -12041,6 +12791,12 @@
             "value" : "Noch keine Abklingzeiten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμη αναμονές"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12139,6 +12895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Aktivität"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχει ακόμη δραστηριότητα"
           }
         },
         "en" : {
@@ -12241,6 +13003,12 @@
             "value" : "Verpasse\nnichts mehr"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μην χάσεις\nκαμία ειδοποίηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12341,6 +13109,12 @@
             "value" : "Mitteilungen sind aus. Tippe auf „Einstellungen“, um sie einzuschalten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι ειδοποιήσεις είναι απενεργοποιημένες. Πάτησε το κουμπί Ρυθμίσεις για να τις ενεργοποιήσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12439,6 +13213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mitteilungen sind aus"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι ειδοποιήσεις είναι απενεργοποιημένες"
           }
         },
         "en" : {
@@ -12542,6 +13322,12 @@
             "value" : "Dezente Hinweise auf nützliche Funktionen, genau dann, wenn du sie brauchst."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διακριτικές υποδείξεις για χρήσιμες λειτουργίες, ακριβώς όταν τις χρειάζεσαι."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12642,6 +13428,12 @@
             "value" : "Mitternachtssnack"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βραδινό σνακ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12740,6 +13532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mitternachtssnack alle 5 Tage"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βραδινό σνακ κάθε 5 ημέρες"
           }
         },
         "en" : {
@@ -12843,6 +13641,12 @@
             "value" : "Beim ersten Öffnen nach einem Update siehst du, was neu ist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που ανοίγεις την εφαρμογή μετά από μια ενημέρωση, δες τι νέο υπάρχει."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12942,6 +13746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neuigkeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι νέο υπάρχει"
           }
         },
         "en" : {
@@ -13044,6 +13854,12 @@
             "value" : "Kino"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κινηματογράφος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13142,6 +13958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kino alle 2 Wochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σινεμά κάθε 2 εβδομάδες"
           }
         },
         "en" : {
@@ -13244,6 +14066,12 @@
             "value" : "Geschätzte Kosten (optional)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκτιμώμενο κόστος (προαιρετικά)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13342,6 +14170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesch. Ersparnis"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκτ. εξοικονόμηση"
           }
         },
         "en" : {
@@ -13444,6 +14278,12 @@
             "value" : "Geschätzt: ₩%@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκτίμηση: ₩%@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13542,6 +14382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abklingzeiten heute"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι αναμονές της ημέρας"
           }
         },
         "en" : {
@@ -13644,6 +14490,12 @@
             "value" : "Kleidung kaufen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αγορά ρούχων"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13742,6 +14594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kleidung alle 2 Wochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρούχα κάθε 2 εβδομάδες"
           }
         },
         "en" : {
@@ -13844,6 +14702,12 @@
             "value" : "Fertig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τέλος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13942,6 +14806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Warum nutzt du es?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γιατί το χρησιμοποιείς;"
           }
         },
         "en" : {
@@ -14044,6 +14914,12 @@
             "value" : "Essen gehen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έξοδος για φαγητό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14144,6 +15020,12 @@
             "value" : "Essen gehen einmal pro Woche"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έξοδος για φαγητό μία φορά την εβδομάδα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14242,6 +15124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ein Ruhetag alle 3 Tage"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μία ημέρα ξεκούρασης από την προπόνηση κάθε 3 ημέρες"
           }
         },
         "en" : {
@@ -14345,6 +15233,12 @@
             "value" : "Bewegung reduzieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μείωση κίνησης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14444,6 +15338,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mit „Bewegung reduzieren“ werden Bildschirmeffekte ruhiger."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με ενεργή τη Μείωση κίνησης, τα εφέ στην οθόνη γίνονται πιο ήρεμα."
           }
         },
         "en" : {
@@ -14547,6 +15447,12 @@
             "value" : "Lösche deinen gesamten Verlauf jederzeit direkt in der App."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διέγραψε όλο το ιστορικό αναμονών από την εφαρμογή όποτε θέλεις."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14645,6 +15551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alkohol alle 3 Tage"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αλκοόλ κάθε 3 ημέρες"
           }
         },
         "en" : {
@@ -14747,6 +15659,12 @@
             "value" : "Name"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όνομα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14845,6 +15763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Per E-Mail kontaktieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποστολή email"
           }
         },
         "en" : {
@@ -14947,6 +15871,12 @@
             "value" : "Geschätzte Ersparnis diesen Monat: %lld Won"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκτιμώμενη εξοικονόμηση αυτόν τον μήνα: %lld γουόν"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15045,6 +15975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram-DM (@lee25_ios)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μήνυμα στο Instagram (@lee25_ios)"
           }
         },
         "en" : {
@@ -15147,6 +16083,12 @@
             "value" : "Tage"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ημέρες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15245,6 +16187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Häufige Abklingzeiten\nTippe auf eine, um sie sofort hinzuzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνηθισμένες αναμονές\nΠάτησε μία για άμεση προσθήκη"
           }
         },
         "en" : {
@@ -15347,6 +16295,12 @@
             "value" : "Elektronik"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ηλεκτρονικά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15445,6 +16399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elektronik alle 6 Monate"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ηλεκτρονικά κάθε 6 μήνες"
           }
         },
         "en" : {
@@ -15547,6 +16507,12 @@
             "value" : "Gesamte Einhaltung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνολική τήρηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15645,6 +16611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sieh, wie viel\ndu gespart hast"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δες πόσα\nεξοικονόμησες"
           }
         },
         "en" : {
@@ -15747,6 +16719,12 @@
             "value" : "Wochen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εβδομάδες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15845,6 +16823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aktienhandel"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συναλλαγές μετοχών"
           }
         },
         "en" : {
@@ -15947,6 +16931,12 @@
             "value" : "Einhaltung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τήρηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16045,6 +17035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einhaltungsquote %lld Prozent"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ποσοστό τήρησης: %lld τοις εκατό"
           }
         },
         "en" : {
@@ -16147,6 +17143,12 @@
             "value" : "Mit Einhaltungsquote und Kategorie-Statistiken\nbaust du bessere Gewohnheiten auf"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το ποσοστό τήρησης και τα στατιστικά ανά κατηγορία\nσε βοηθούν να χτίσεις καλύτερες συνήθειες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16245,6 +17247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jetzt nutzen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήση τώρα"
           }
         },
         "en" : {
@@ -16347,6 +17355,12 @@
             "value" : "Wenn du es jetzt nutzt, sinkt deine Einhaltungsquote"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν το χρησιμοποιήσεις τώρα, το ποσοστό τήρησης θα μειωθεί"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16445,6 +17459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη"
           }
         },
         "en" : {
@@ -16547,6 +17567,12 @@
             "value" : "Selbst hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη δικής σου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16645,6 +17671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutzungen insgesamt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνολο χρήσεων"
           }
         },
         "en" : {
@@ -16747,6 +17779,12 @@
             "value" : "Einträge insgesamt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνολο στοιχείων"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16845,6 +17883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesamtausgaben (gesch.)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνολικά έξοδα (εκτίμηση)"
           }
         },
         "en" : {
@@ -16947,6 +17991,12 @@
             "value" : "Letzte Aktivität"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσφατη δραστηριότητα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17045,6 +18095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη"
           }
         },
         "en" : {
@@ -17147,6 +18203,12 @@
             "value" : "Empfohlene Vorlagen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προτεινόμενα πρότυπα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17245,6 +18307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine Spontankäufe an der Börse, einmal pro Woche"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόφυγε τις παρορμητικές συναλλαγές, μία φορά την εβδομάδα"
           }
         },
         "en" : {
@@ -17347,6 +18415,12 @@
             "value" : "Spontankauf"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παρορμητική αγορά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17445,6 +18519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spontankäufe nur einmal pro Woche"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παρορμητικές αγορές μόνο μία φορά την εβδομάδα"
           }
         },
         "en" : {
@@ -17547,6 +18627,12 @@
             "value" : "Abbrechen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17645,6 +18731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheat Day"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day"
           }
         },
         "en" : {
@@ -17747,6 +18839,12 @@
             "value" : "Kategorie"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατηγορία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17845,6 +18943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nach Kategorie"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανά κατηγορία"
           }
         },
         "en" : {
@@ -17947,6 +19051,12 @@
             "value" : "Café"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καφέ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18045,6 +19155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaffee jeden zweiten Tag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καφές μέρα παρά μέρα"
           }
         },
         "en" : {
@@ -18147,6 +19263,12 @@
             "value" : "Konzert / Show"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συναυλία / παράσταση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18242,6 +19364,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -18348,6 +19476,12 @@
             "value" : "Speichere deinen Verlauf in einer Datei und stelle ihn später wieder her."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευσε το ιστορικό αναμονών σε αρχείο και επανάφερέ το αργότερα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18446,6 +19580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abklingzeit brechen und nutzen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παραβίαση αναμονής και χρήση"
           }
         },
         "en" : {
@@ -18548,6 +19688,12 @@
             "value" : "Abklingzeit brechen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παραβίαση αναμονής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18646,6 +19792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gebrochene Abklingzeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παραβιασμένες αναμονές"
           }
         },
         "en" : {
@@ -18748,6 +19900,12 @@
             "value" : "Abklingzeit zurücksetzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφορά αναμονής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18846,6 +20004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schalte sie in den Einstellungen ein, um Hinweise zum Ende der Abklingzeit zu erhalten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενεργοποίησέ τες στις Ρυθμίσεις για να ειδοποιείσαι όταν τελειώνει μια αναμονή"
           }
         },
         "en" : {
@@ -18948,6 +20112,12 @@
             "value" : "Dauer der Abklingzeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάρκεια αναμονής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19048,6 +20218,12 @@
             "value" : "In Abklingzeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε αναμονή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19146,6 +20322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In Abklingzeit (%lld)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε αναμονή (%lld)"
           }
         },
         "en" : {
@@ -19291,6 +20473,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld Einträge in Abklingzeit"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχείο σε αναμονή"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχεία σε αναμονή"
                 }
               }
             }
@@ -19492,6 +20692,12 @@
             "value" : "Abklingzeit läuft!"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε αναμονή!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19590,6 +20796,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impulse im Griff\nmit Abklingzeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έλεγξε τις παρορμήσεις\nμε αναμονές"
           }
         },
         "en" : {
@@ -19692,6 +20904,12 @@
             "value" : "Jedes Mal, wenn du eine Abklingzeit einhältst,\nzeigen wir dir, wie viel du gespart hast"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάθε φορά που τηρείς μια αναμονή,\nσου δείχνουμε πόσα εξοικονόμησες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19790,6 +21008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wir sagen dir Bescheid, wenn eine Abklingzeit endet\nAuch im Widget kannst du nachsehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα σε ειδοποιούμε όταν τελειώνει μια αναμονή\nΜπορείς να τη δεις και από το γραφικό στοιχείο"
           }
         },
         "en" : {
@@ -19893,6 +21117,12 @@
             "value" : "Layouts für größere Schrift"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διατάξεις για μεγαλύτερο κείμενο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19991,6 +21221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Große Ausgaben einmal im Monat"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεγάλα έξοδα μία φορά τον μήνα"
           }
         },
         "en" : {
@@ -20094,6 +21330,12 @@
             "value" : "Tastatursteuerung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χειρισμός με πληκτρολόγιο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20192,6 +21434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ταξί"
           }
         },
         "en" : {
@@ -20294,6 +21542,12 @@
             "value" : "Taxi alle 3 Tage"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ταξί κάθε 3 ημέρες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20392,6 +21646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zum Nutzen tippen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πάτησε για χρήση"
           }
         },
         "en" : {
@@ -20494,6 +21754,12 @@
             "value" : "Tippen, um die Abklingzeit zu brechen; gedrückt halten für weitere Optionen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πάτησε για να παραβιάσεις την αναμονή, κράτησε πατημένο για περισσότερες επιλογές"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20592,6 +21858,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorlagen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρότυπα"
           }
         },
         "en" : {
@@ -20694,6 +21966,12 @@
             "value" : "Aus Vorlagen hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη από πρότυπα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20792,6 +22070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Füge eine aus den Vorlagen hinzu\noder erstelle selbst eine"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσθεσε μία από τα πρότυπα\nή δημιούργησε τη δική σου"
           }
         },
         "en" : {
@@ -20894,6 +22178,12 @@
             "value" : "Statistiken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στατιστικά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20992,6 +22282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Statistiken ansehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προβολή στατιστικών"
           }
         },
         "en" : {
@@ -21094,6 +22390,12 @@
             "value" : "Fast Food"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21192,6 +22494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast Food alle 5 Tage"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food κάθε 5 ημέρες"
           }
         },
         "en" : {
@@ -21295,6 +22603,12 @@
             "value" : "Layout für faltbares iPhone"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάταξη για αναδιπλούμενο iPhone"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21394,6 +22708,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutze den breiten Bildschirm eines faltbaren iPhone als zwei nebeneinanderliegende Bereiche."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε την ευρεία οθόνη ενός αναδιπλούμενου iPhone ως δύο πλαίσια δίπλα-δίπλα."
           }
         },
         "en" : {
@@ -21496,6 +22816,12 @@
             "value" : "Eine Inlandsreise im Monat"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένα ταξίδι εντός χώρας τον μήνα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21594,6 +22920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auslandsreise"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ταξίδι στο εξωτερικό"
           }
         },
         "en" : {
@@ -21696,6 +23028,12 @@
             "value" : "Eine Auslandsreise alle 2 Monate reicht völlig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένα ταξίδι στο εξωτερικό κάθε 2 μήνες είναι υπεραρκετό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21796,6 +23134,12 @@
             "value" : "Hotel-Auszeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαμονή σε ξενοδοχείο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21894,6 +23238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotel-Entspannung alle 3 Wochen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκούραση σε ξενοδοχείο κάθε 3 εβδομάδες"
           }
         },
         "en" : {
@@ -21997,6 +23347,12 @@
             "value" : "VoiceOver liest jede Taste und jedes Detail in der richtigen Reihenfolge vor."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το VoiceOver διαβάζει κάθε κουμπί και λεπτομέρεια, με τη σωστή σειρά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22095,6 +23451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ruhetag (Training ausfallen lassen)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ημέρα ξεκούρασης (παράλειψη προπόνησης)"
           }
         },
         "en" : {

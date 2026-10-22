@@ -100,3 +100,9 @@ Nové stránky o soukromí a nápovědě
 Rettet fejl, så appen kører mere stabilt
 Du kan nu sende feedback i appen
 Nye sider om privatliv og hjælp
+
+### 앱스토어 (el)
+
+Διορθώσαμε σφάλματα για σταθερότητα
+Στείλε σχόλια μέσα από την εφαρμογή
+Νέες σελίδες απορρήτου και βοήθειας

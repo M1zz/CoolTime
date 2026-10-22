@@ -21,6 +21,12 @@
             "value" : "%lld %% Einhaltung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τήρηση %lld%%"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -164,6 +170,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld Einträge"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχείο"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχεία"
                 }
               }
             }
@@ -413,6 +437,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχείο"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld στοιχεία"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -609,6 +651,12 @@
             "value" : "%lld Min."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld λ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -707,6 +755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Std."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ώ."
           }
         },
         "en" : {
@@ -809,6 +863,12 @@
             "value" : "%lld T"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ημ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -907,6 +967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "+%lld weitere"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld ακόμη"
           }
         },
         "en" : {
@@ -1009,6 +1075,12 @@
             "value" : "✅ %lld verfügbar"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld διαθέσιμα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1107,6 +1179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gleich!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύντομα!"
           }
         },
         "en" : {
@@ -1209,6 +1287,12 @@
             "value" : "Nächstes Ende einer Abklingzeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λήξη επόμενης αναμονής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1307,6 +1391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wartend"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε αναμονή"
           }
         },
         "en" : {
@@ -1409,6 +1499,12 @@
             "value" : "Alles verfügbar"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα διαθέσιμα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1507,6 +1603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles verfügbar!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα διαθέσιμα!"
           }
         },
         "en" : {
@@ -1609,6 +1711,12 @@
             "value" : "Verfügbar"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαθέσιμο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1707,6 +1815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eintrag hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη στοιχείου"
           }
         },
         "en" : {
@@ -1809,6 +1923,12 @@
             "value" : "₩%@ diesen Monat gespart"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξοικονόμηση ₩%@ αυτόν τον μήνα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1904,6 +2024,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -2009,6 +2135,12 @@
             "value" : "In Abklingzeit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε αναμονή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2107,6 +2239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deine Abklingzeiten auf einen Blick"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι αναμονές με μια ματιά"
           }
         },
         "en" : {
