@@ -15,6 +15,12 @@
             "value" : "%@ %@, ready"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@、使えます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +41,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, cooldown %@ left"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@、クールタイム残り%@"
           }
         },
         "ko" : {
@@ -59,6 +71,12 @@
             "value" : "%@ Halfway there!"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 折り返し地点！"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -79,6 +97,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Cooldown over!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ クールタイム終了！"
           }
         },
         "ko" : {
@@ -103,6 +127,12 @@
             "value" : "You're halfway through the %@ cooldown! Hang in there 💪"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のクールタイムが半分過ぎました！あと少し、がんばって 💪"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ is ready. You can use it now!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のクールタイムが終わりました。もう使えます！"
           }
         },
         "ko" : {
@@ -171,6 +207,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -191,6 +233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldmo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldか月"
           }
         },
         "ko" : {
@@ -239,6 +287,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldか月ごと"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldm"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
           }
         },
         "ko" : {
@@ -283,6 +343,12 @@
             "value" : "%lldm %llds"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分%lld秒"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -305,6 +371,12 @@
             "value" : "%lldh"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld時間"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -325,6 +397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldh %lldm"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld時間%lld分"
           }
         },
         "ko" : {
@@ -373,6 +451,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld時間ごと"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -395,6 +479,12 @@
             "value" : "%lldd"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld日"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -415,6 +505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldd %lldh"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld日%lld時間"
           }
         },
         "ko" : {
@@ -463,6 +559,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld日ごと"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -483,6 +585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldw"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld週"
           }
         },
         "ko" : {
@@ -531,6 +639,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld週間ごと"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -551,6 +665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%llds"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld秒"
           }
         },
         "ko" : {
@@ -599,6 +719,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -645,6 +771,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld回使用"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -665,6 +797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No results for “%@”"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」の検索結果はありません"
           }
         },
         "ko" : {
@@ -689,6 +827,12 @@
             "value" : "1mo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1か月"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -709,6 +853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1w"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1週間"
           }
         },
         "ko" : {
@@ -733,6 +883,12 @@
             "value" : "2mo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2か月"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -755,6 +911,12 @@
             "value" : "2w"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2週間"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -775,6 +937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3d"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3日"
           }
         },
         "ko" : {
@@ -800,6 +968,12 @@
             "value" : "Face ID lock"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID ロック"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -821,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock the app with Face ID or Touch ID to keep your history private."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID または Touch ID でアプリをロックして、クールタイムの記録を守れます。"
           }
         },
         "ko" : {
@@ -846,6 +1026,12 @@
             "value" : "Log a use instantly by asking Siri or running a shortcut."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri に話しかけたりショートカットを使ったりして、すぐに使用を記録できます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -867,6 +1053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri and Shortcuts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri とショートカット"
           }
         },
         "ko" : {
@@ -892,6 +1084,12 @@
             "value" : "Better VoiceOver support"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver をもっと使いやすく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -912,6 +1110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Value"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数値"
           }
         },
         "ko" : {
@@ -936,6 +1140,12 @@
             "value" : "Contact the developer"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開発者に問い合わせる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -956,6 +1166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Months"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "か月"
           }
         },
         "ko" : {
@@ -980,6 +1196,12 @@
             "value" : "Skip"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキップ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1000,6 +1222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No results"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索結果なし"
           }
         },
         "ko" : {
@@ -1024,6 +1252,12 @@
             "value" : "Clear search"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索ワードを消去"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1044,6 +1278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In-game purchases"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲーム課金"
           }
         },
         "ko" : {
@@ -1068,6 +1308,12 @@
             "value" : "In-game purchases every 2 weeks"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲーム課金は2週間に1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1088,6 +1334,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Like skill cooldowns in a game,\nset a waiting time on spending and habits"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲームのスキルのクールタイムのように\n消費や行動に待ち時間を設定します"
           }
         },
         "ko" : {
@@ -1112,6 +1364,12 @@
             "value" : "Warning: on cooldown. Using it now will lower your compliance rate"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警告: クールタイム中です。今使うと達成率が下がります"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1132,6 +1390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep going 💪"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その調子 💪"
           }
         },
         "ko" : {
@@ -1156,6 +1420,12 @@
             "value" : "Big purchase (₩100,000+)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高額な買い物（10万ウォン以上）"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1176,6 +1446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soon!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まもなく！"
           }
         },
         "ko" : {
@@ -1200,6 +1476,12 @@
             "value" : "Live shows every 2 months"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライブは2か月に1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1220,6 +1502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Domestic trip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "国内旅行"
           }
         },
         "ko" : {
@@ -1245,6 +1533,12 @@
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字サイズを大きくしても、表示が切れずに見やすくレイアウトされます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1266,6 +1560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sync across devices"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デバイス間の同期"
           }
         },
         "ko" : {
@@ -1290,6 +1590,12 @@
             "value" : "Basics"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "基本情報"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1310,6 +1616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Break"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解除"
           }
         },
         "ko" : {
@@ -1334,6 +1646,12 @@
             "value" : "Times broken"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解除した回数"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1354,6 +1672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analyse your habits\nwith your own stats"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分だけの統計で\n習慣を分析"
           }
         },
         "ko" : {
@@ -1378,6 +1702,12 @@
             "value" : "Later"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あとで"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1398,6 +1728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time left: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残り時間: %@"
           }
         },
         "ko" : {
@@ -1423,6 +1759,12 @@
             "value" : "Delete all your data"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データをまとめて消去"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1443,6 +1785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nail art"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネイル"
           }
         },
         "ko" : {
@@ -1467,6 +1815,12 @@
             "value" : "Nails every 3 weeks"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネイルは3週間に1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1487,6 +1841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binge-watching"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一気見"
           }
         },
         "ko" : {
@@ -1511,6 +1871,12 @@
             "value" : "Try a different keyword"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別のキーワードで検索してみてください"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1531,6 +1897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
           }
         },
         "ko" : {
@@ -1555,6 +1927,12 @@
             "value" : "Diet cheat day once a week"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダイエットのチートは週1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1577,6 +1955,12 @@
             "value" : "Unit"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "単位"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1597,6 +1981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sweets every 4 days"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "甘いものは4日に1回"
           }
         },
         "ko" : {
@@ -1622,6 +2012,12 @@
             "value" : "Everything stays readable, even with Increase Contrast on or if colors are hard to tell apart."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを高めたり、色の区別がつきにくくても、内容を読み取れます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1643,6 +2039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the app in more languages."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "より多くの言語でアプリを使えるようにします。"
           }
         },
         "ko" : {
@@ -1668,6 +2070,12 @@
             "value" : "More languages"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "対応言語を追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1688,6 +2096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dessert"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デザート"
           }
         },
         "ko" : {
@@ -1712,6 +2126,12 @@
             "value" : "Lottery"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宝くじ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1732,6 +2152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lottery once a week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宝くじは週1回"
           }
         },
         "ko" : {
@@ -1756,6 +2182,12 @@
             "value" : "Massage / spa"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マッサージ・スパ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1776,6 +2208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massage every 2 weeks"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マッサージは2週間に1回"
           }
         },
         "ko" : {
@@ -1800,6 +2238,12 @@
             "value" : "Note (optional)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メモ（任意）"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1820,6 +2264,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everything is on cooldown. Waiting: %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべてクールタイム中です。待機中: %lld件"
           }
         },
         "ko" : {
@@ -1844,6 +2294,12 @@
             "value" : "Binge-watching every 3 days"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一気見は3日に1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1864,6 +2320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hairdresser"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美容室"
           }
         },
         "ko" : {
@@ -1888,6 +2350,12 @@
             "value" : "Hairdresser once a month"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美容室は月に1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1910,6 +2378,12 @@
             "value" : "Takeaways every 3 days"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デリバリーは3日に1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1930,6 +2404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Food delivery"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デリバリー"
           }
         },
         "ko" : {
@@ -1955,6 +2435,12 @@
             "value" : "Backup and export"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バックアップと書き出し"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1975,6 +2461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bug reports and feature ideas are welcome."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不具合の報告や機能のご提案をお待ちしています。"
           }
         },
         "ko" : {
@@ -2000,6 +2492,12 @@
             "value" : "Easier colors and contrast"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2020,6 +2518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter a cost and we'll work out what you saved"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金額を入力すると節約額を計算します"
           }
         },
         "ko" : {
@@ -2044,6 +2548,12 @@
             "value" : "Use"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使う"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2066,6 +2576,12 @@
             "value" : "Ready"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使える"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2086,6 +2602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready (%lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使える（%lld）"
           }
         },
         "ko" : {
@@ -2134,6 +2656,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使えるアイテム %lld件"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2154,6 +2682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready: %lld · On cooldown: %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使える: %lld件・クールタイム中: %lld件"
           }
         },
         "ko" : {
@@ -2178,6 +2712,12 @@
             "value" : "Done"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用完了"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2198,6 +2738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use it"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使う"
           }
         },
         "ko" : {
@@ -2222,6 +2768,12 @@
             "value" : "Delete"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2242,6 +2794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detailed log"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "詳細な記録"
           }
         },
         "ko" : {
@@ -2266,6 +2824,12 @@
             "value" : "New Cooldown"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいクールタイム"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2286,6 +2850,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a new cooldown"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいクールタイムを追加"
           }
         },
         "ko" : {
@@ -2310,6 +2880,12 @@
             "value" : "Settings"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2330,6 +2906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drinking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お酒"
           }
         },
         "ko" : {
@@ -2354,6 +2936,12 @@
             "value" : "Hours"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2376,6 +2964,12 @@
             "value" : "Get Started"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2396,6 +2990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actual cost (optional)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実際の金額（任意）"
           }
         },
         "ko" : {
@@ -2421,6 +3021,12 @@
             "value" : "Handy tips"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使い方のヒント"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2441,6 +3047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Icon"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイコン"
           }
         },
         "ko" : {
@@ -2465,6 +3077,12 @@
             "value" : "Item"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイテム"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2487,6 +3105,12 @@
             "value" : "Search items..."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイテムを検索..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2507,6 +3131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compliance by item"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイテム別の達成率"
           }
         },
         "ko" : {
@@ -2532,6 +3162,12 @@
             "value" : "Use the main features with just a keyboard on iPad or Mac."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad や Mac で、キーボードだけで主な機能を操作できます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2553,6 +3189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See the same cooldowns on your iPhone and iPad."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone と iPad で同じクールタイムを続けて見られます。"
           }
         },
         "ko" : {
@@ -2577,6 +3219,12 @@
             "value" : "No cooldowns yet. Try adding one!"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだクールタイムがありません。追加してみましょう！"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2597,6 +3245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No cooldowns yet. Add one from templates or create your own"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだクールタイムがありません。テンプレートから追加するか、自分で作ってみましょう"
           }
         },
         "ko" : {
@@ -2621,6 +3275,12 @@
             "value" : "No cooldowns yet"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだクールタイムがありません"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2641,6 +3301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No activity yet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだアクティビティがありません"
           }
         },
         "ko" : {
@@ -2665,6 +3331,12 @@
             "value" : "Never miss\na notification"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知で\n見逃さない"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2687,6 +3359,12 @@
             "value" : "Notifications are off. Tap the Settings button to turn them on"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知がオフです。設定ボタンを押してオンにしてください"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2707,6 +3385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notifications are off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知がオフです"
           }
         },
         "ko" : {
@@ -2732,6 +3416,12 @@
             "value" : "Gentle hints about useful features, right when you need them."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "便利な機能を、ちょうどよいタイミングでそっとお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2754,6 +3444,12 @@
             "value" : "Late-night snack"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜食"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2774,6 +3470,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Late-night snacks every 5 days"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜食は5日に1回"
           }
         },
         "ko" : {
@@ -2799,6 +3501,12 @@
             "value" : "The first time you open the app after an update, see what’s new."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2820,6 +3528,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
           }
         },
         "ko" : {
@@ -2844,6 +3558,12 @@
             "value" : "Cinema"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "映画館"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2864,6 +3584,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Films every 2 weeks"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "映画は2週間に1回"
           }
         },
         "ko" : {
@@ -2888,6 +3614,12 @@
             "value" : "Estimated cost (optional)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "予想金額（任意）"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2908,6 +3640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Est. savings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "節約見込み"
           }
         },
         "ko" : {
@@ -2932,6 +3670,12 @@
             "value" : "Estimated: ₩%@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "予想: ₩%@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2952,6 +3696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Today's cooldowns"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日のクールタイム"
           }
         },
         "ko" : {
@@ -2976,6 +3726,12 @@
             "value" : "Clothes shopping"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服の買い物"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2996,6 +3752,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clothes once every 2 weeks"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服は2週間に1回"
           }
         },
         "ko" : {
@@ -3020,6 +3782,12 @@
             "value" : "Done"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3040,6 +3808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Why are you using it?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なぜ使いますか？"
           }
         },
         "ko" : {
@@ -3064,6 +3838,12 @@
             "value" : "Eating out"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外食"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3086,6 +3866,12 @@
             "value" : "Eating out once a week"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外食は週1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3106,6 +3892,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A workout rest day every 3 days"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "運動の休みは3日に1回"
           }
         },
         "ko" : {
@@ -3131,6 +3923,12 @@
             "value" : "Reduce Motion"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3152,6 +3950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "With Reduce Motion on, screen effects calm down."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「視差効果を減らす」をオンにすると、画面の動きが穏やかになります。"
           }
         },
         "ko" : {
@@ -3177,6 +3981,12 @@
             "value" : "Erase your entire cooldown history from within the app whenever you like."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ご希望であれば、アプリ内でクールタイムの記録をすべて消去できます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3197,6 +4007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drinking every 3 days"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お酒は3日に1回"
           }
         },
         "ko" : {
@@ -3221,6 +4037,12 @@
             "value" : "Name"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3241,6 +4063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Email the developer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールで問い合わせる"
           }
         },
         "ko" : {
@@ -3265,6 +4093,12 @@
             "value" : "Estimated savings this month: ₩%lld"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今月の節約見込み額 %lld ウォン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3282,6 +4116,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
@@ -3309,6 +4149,12 @@
             "value" : "Days"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3329,6 +4175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Common cooldown items\nTap one to add it right away"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "よく使うクールタイムのアイテムです\nタップするとすぐ追加できます"
           }
         },
         "ko" : {
@@ -3353,6 +4205,12 @@
             "value" : "Gadgets"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "家電・ガジェット"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3373,6 +4231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gadgets once every 6 months"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ガジェットは半年に1回"
           }
         },
         "ko" : {
@@ -3397,6 +4261,12 @@
             "value" : "Overall compliance"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全体の達成率"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3417,6 +4287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See how much\nyou've saved"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "節約できた金額を\n確認しましょう"
           }
         },
         "ko" : {
@@ -3441,6 +4317,12 @@
             "value" : "Weeks"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "週"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3461,6 +4343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stock trading"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "株の売買"
           }
         },
         "ko" : {
@@ -3485,6 +4373,12 @@
             "value" : "Compliance"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "達成率"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3505,6 +4399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compliance %lld percent"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "達成率 %lld パーセント"
           }
         },
         "ko" : {
@@ -3529,6 +4429,12 @@
             "value" : "Compliance rate and category stats\nhelp you build better habits"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "達成率とカテゴリ別の統計で\nより良い習慣をつくりましょう"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3549,6 +4455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ使う"
           }
         },
         "ko" : {
@@ -3573,6 +4485,12 @@
             "value" : "Using it now will lower your compliance rate"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今使うと達成率が下がります"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3593,6 +4511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポート"
           }
         },
         "ko" : {
@@ -3617,6 +4541,12 @@
             "value" : "Add your own"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分で追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3637,6 +4567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total uses"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用回数"
           }
         },
         "ko" : {
@@ -3661,6 +4597,12 @@
             "value" : "Total items"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイテム数"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3681,6 +4623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total spent (est.)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支出合計（推定）"
           }
         },
         "ko" : {
@@ -3705,6 +4653,12 @@
             "value" : "Recent activity"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近のアクティビティ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3725,6 +4679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
           }
         },
         "ko" : {
@@ -3749,6 +4709,12 @@
             "value" : "Recommended templates"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "おすすめテンプレート"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3769,6 +4735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avoid impulse trades, once a week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衝動的な売買を防ぐため週1回"
           }
         },
         "ko" : {
@@ -3793,6 +4765,12 @@
             "value" : "Impulse buy"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衝動買い"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3813,6 +4791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impulse buys only once a week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衝動買いは週に1回だけ"
           }
         },
         "ko" : {
@@ -3837,6 +4821,12 @@
             "value" : "Cancel"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3857,6 +4847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheat day"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チートデイ"
           }
         },
         "ko" : {
@@ -3881,6 +4877,12 @@
             "value" : "Category"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カテゴリ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3901,6 +4903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "By category"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カテゴリ別"
           }
         },
         "ko" : {
@@ -3925,6 +4933,12 @@
             "value" : "Café"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カフェ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3945,6 +4959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coffee every other day"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コーヒーは2日に1回"
           }
         },
         "ko" : {
@@ -3969,6 +4989,12 @@
             "value" : "Concert / show"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コンサート・ライブ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3989,6 +5015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイム"
           }
         },
         "ko" : {
@@ -4014,6 +5046,12 @@
             "value" : "Save your cooldown history to a file and bring it back later."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムの記録をファイルに保存して、あとで読み込めます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4034,6 +5072,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Break cooldown and use"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムを解除して使う"
           }
         },
         "ko" : {
@@ -4058,6 +5102,12 @@
             "value" : "Break cooldown"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムを解除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4078,6 +5128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cooldown breaks"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムを解除した回数"
           }
         },
         "ko" : {
@@ -4102,6 +5158,12 @@
             "value" : "Reset cooldown"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムをリセット"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4122,6 +5184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Turn them on in Settings to get cooldown alerts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイム終了の通知を受け取るには、設定でオンにしてください"
           }
         },
         "ko" : {
@@ -4146,6 +5214,12 @@
             "value" : "Cooldown length"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムの期間"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4168,6 +5242,12 @@
             "value" : "On cooldown"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイム中"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4188,6 +5268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On cooldown (%lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイム中（%lld）"
           }
         },
         "ko" : {
@@ -4236,6 +5322,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイム中のアイテム %lld件"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4256,6 +5348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On cooldown!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイム中です！"
           }
         },
         "ko" : {
@@ -4280,6 +5378,12 @@
             "value" : "Manage impulses\nwith cooldowns"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムで\n衝動をコントロール"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4302,6 +5406,12 @@
             "value" : "Every time you keep a cooldown,\nwe show how much you saved"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムを守るたびに\nどれだけ節約できたかをお知らせします"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4322,6 +5432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "We'll let you know when a cooldown ends\nYou can check from the widget too"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クールタイムが終わったらお知らせします\nウィジェットでも確認できます"
           }
         },
         "ko" : {
@@ -4347,6 +5463,12 @@
             "value" : "Layouts for larger text"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4367,6 +5489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Big spending, once a month"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな出費は月に1回"
           }
         },
         "ko" : {
@@ -4392,6 +5520,12 @@
             "value" : "Keyboard control"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボード操作"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4412,6 +5546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タクシー"
           }
         },
         "ko" : {
@@ -4436,6 +5576,12 @@
             "value" : "Taxi every 3 days"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タクシーは3日に1回"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4456,6 +5602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap to use"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップして使う"
           }
         },
         "ko" : {
@@ -4480,6 +5632,12 @@
             "value" : "Tap to break the cooldown, touch and hold for more options"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップでクールタイムを解除、長押しでその他のオプション"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4500,6 +5658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Templates"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テンプレート"
           }
         },
         "ko" : {
@@ -4524,6 +5688,12 @@
             "value" : "Add from templates"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テンプレートから追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4544,6 +5714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add one from templates\nor create your own"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テンプレートから追加するか、\n自分で作ってみましょう"
           }
         },
         "ko" : {
@@ -4568,6 +5744,12 @@
             "value" : "Stats"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "統計"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4588,6 +5770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "View stats"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "統計を見る"
           }
         },
         "ko" : {
@@ -4612,6 +5800,12 @@
             "value" : "Fast food"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファストフード"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4632,6 +5826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast food every 5 days"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファストフードは5日に1回"
           }
         },
         "ko" : {
@@ -4657,6 +5857,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみ iPhone の画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4678,6 +5884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみ iPhone では、広い画面を左右2つに分けて使えます。"
           }
         },
         "ko" : {
@@ -4702,6 +5914,12 @@
             "value" : "One domestic trip a month"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月に1回の国内旅行"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4722,6 +5940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Overseas trip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海外旅行"
           }
         },
         "ko" : {
@@ -4746,6 +5970,12 @@
             "value" : "An overseas trip once every 2 months is plenty"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海外旅行は2か月に1回で十分"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4768,6 +5998,12 @@
             "value" : "Hotel staycation"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホテルステイ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4788,6 +6024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A hotel getaway every 3 weeks"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホテルでの癒やしは3週間に1回"
           }
         },
         "ko" : {
@@ -4813,6 +6055,12 @@
             "value" : "VoiceOver reads every button and detail, in the right order."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver がボタンや内容を漏れなく、正しい順序で読み上げます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4833,6 +6081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rest day (skip workout)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "休息の日（運動をお休み）"
           }
         },
         "ko" : {

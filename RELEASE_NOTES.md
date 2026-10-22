@@ -22,3 +22,9 @@ Added new privacy policy and help pages
 Fixed issues for more reliable launches
 You can now send feedback in the app
 Added new privacy policy and help pages
+
+### 앱스토어 (ja)
+
+アプリがより安定して動くように修正しました
+アプリ内から直接ご意見を送れます
+プライバシーポリシーとヘルプページを公開しました

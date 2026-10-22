@@ -21,7 +21,7 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일. 쿨타임은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko", "en-GB": "en-GB", "en": "en"}
+STORE = {"ko": "ko", "ja": "ja", "en-GB": "en-GB", "en": "en"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -35,6 +35,7 @@ SEARCH = {
     "ko": ("쿨타임 타이머", "참은 만큼<br>돈이 남아요", "배달도 쇼핑도 쿨타임이 끝나야 다시"),
     "en": ("CoolTime timer", "Save what<br>you hold back", "Delivery and shopping wait until the cooldown ends"),
     "en-GB": ("CoolTime timer", "Save what<br>you hold back", "Takeaways and shopping wait until the cooldown ends"),
+    "ja": ("クールタイム タイマー", "我慢した分<br>お金が残る", "デリバリーも買い物もクールタイムが終わってから"),
 }
 
 # 헤더 — 처음 온 사람에게 한 가지 약속: 지르고 싶을 때 게임 스킬처럼 쿨타임을 건다.
@@ -42,6 +43,7 @@ HEADER = {
     "ko": ("소비 쿨타임", "지르기 전에<br>쿨타임부터"),
     "en": ("Spending cooldown", "Cooldown first,<br>then splurge"),
     "en-GB": ("Spending cooldown", "Cooldown first,<br>then splurge"),
+    "ja": ("消費クールタイム", "買う前に<br>クールタイムから"),
 }
 
 # 바탕 · 글자색은 앱 화면(AppTheme)과 같다: 밝은 회색 페이지, 에메랄드 그린(사용 가능),
