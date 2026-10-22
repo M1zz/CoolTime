@@ -123,6 +123,12 @@
             "value" : "%@ %@ ใช้ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, kullanılabilir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,6 +269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ เหลือคูลดาวน์ %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, bekleme süresi: %@ kaldı"
           }
         },
         "vi" : {
@@ -407,6 +419,12 @@
             "value" : "%@ ครึ่งทางแล้ว!"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Yarı yola geldin!"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -547,6 +565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ คูลดาวน์จบแล้ว!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Bekleme süresi bitti!"
           }
         },
         "vi" : {
@@ -691,6 +715,12 @@
             "value" : "ผ่านครึ่งทางของคูลดาวน์ %@ แล้ว! อดทนอีกนิด 💪"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ bekleme süresinin yarısı geçti! Biraz daha dayan 💪"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -831,6 +861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คูลดาวน์ของ%@จบแล้ว ใช้ได้เลย!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ için bekleme süresi bitti. Artık kullanabilirsin!"
           }
         },
         "vi" : {
@@ -1203,6 +1239,12 @@
             "value" : "%lld รายการ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld öğe"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1343,6 +1385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld เดือน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ay"
           }
         },
         "vi" : {
@@ -1655,6 +1703,12 @@
             "value" : "ทุก %lld เดือน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her %lld ayda bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1795,6 +1849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld นาที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dk"
           }
         },
         "vi" : {
@@ -1939,6 +1999,12 @@
             "value" : "%lld นาที %lld วิ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dk %lld sn"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2081,6 +2147,12 @@
             "value" : "%lld ชม."
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sa"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2221,6 +2293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld ชม. %lld นาที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sa %lld dk"
           }
         },
         "vi" : {
@@ -2521,6 +2599,12 @@
             "value" : "ทุก %lld ชั่วโมง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her %lld saatte bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2663,6 +2747,12 @@
             "value" : "%lld วัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld gün"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2803,6 +2893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld วัน %lld ชม."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld gün %lld sa"
           }
         },
         "vi" : {
@@ -3115,6 +3211,12 @@
             "value" : "ทุก %lld วัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her %lld günde bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3255,6 +3357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld สัปดาห์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hf"
           }
         },
         "vi" : {
@@ -3567,6 +3675,12 @@
             "value" : "ทุก %lld สัปดาห์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her %lld haftada bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3707,6 +3821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld วิ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sn"
           }
         },
         "vi" : {
@@ -4065,6 +4185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld ครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kez"
           }
         },
         "vi" : {
@@ -4437,6 +4563,12 @@
             "value" : "ใช้ %lld ครั้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kez kullanıldı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4577,6 +4709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบผลลัพธ์สำหรับ “%@”"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” için sonuç yok"
           }
         },
         "vi" : {
@@ -4721,6 +4859,12 @@
             "value" : "1 เดือน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ay"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4861,6 +5005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 สัปดาห์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 hf"
           }
         },
         "vi" : {
@@ -5005,6 +5155,12 @@
             "value" : "2 เดือน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 ay"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5147,6 +5303,12 @@
             "value" : "2 สัปดาห์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 hf"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5287,6 +5449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 วัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 gün"
           }
         },
         "vi" : {
@@ -5432,6 +5600,12 @@
             "value" : "ล็อกด้วย Face ID"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID kilidi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5573,6 +5747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อให้ประวัติของคุณเป็นส่วนตัว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geçmişini gizli tutmak için uygulamayı Face ID veya Touch ID ile kilitle."
           }
         },
         "vi" : {
@@ -5718,6 +5898,12 @@
             "value" : "บันทึกการใช้ได้ทันทีด้วยการบอก Siri หรือเรียกใช้คำสั่งลัด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri'ye söyleyerek veya bir kısayol çalıştırarak kullanımı anında kaydet."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5859,6 +6045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri และคำสั่งลัด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri ve Kısayollar"
           }
         },
         "vi" : {
@@ -6004,6 +6196,12 @@
             "value" : "รองรับ VoiceOver ได้ดียิ่งขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha iyi VoiceOver desteği"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6144,6 +6342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Değer"
           }
         },
         "vi" : {
@@ -6288,6 +6492,12 @@
             "value" : "ติดต่อนักพัฒนา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geliştiriciyle iletişime geç"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6428,6 +6638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เดือน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay"
           }
         },
         "vi" : {
@@ -6572,6 +6788,12 @@
             "value" : "ข้าม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6712,6 +6934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบผลลัพธ์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonuç yok"
           }
         },
         "vi" : {
@@ -6856,6 +7084,12 @@
             "value" : "ล้างคำค้นหา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aramayı temizle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6996,6 +7230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เติมเงินในเกม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyun içi satın alma"
           }
         },
         "vi" : {
@@ -7140,6 +7380,12 @@
             "value" : "เติมเงินในเกมทุก 2 สัปดาห์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyun içi satın alma iki haftada bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7280,6 +7526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เหมือนคูลดาวน์สกิลในเกม\nตั้งเวลารอให้การใช้จ่ายและนิสัยของคุณ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyundaki bir yeteneğin bekleme süresi gibi,\nharcamalarına ve alışkanlıklarına bekleme süresi koy"
           }
         },
         "vi" : {
@@ -7424,6 +7676,12 @@
             "value" : "คำเตือน: กำลังคูลดาวน์ ถ้าใช้ตอนนี้ อัตราการรักษาวินัยจะลดลง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uyarı: bekleme süresinde. Şimdi kullanırsan uyum oranın düşer"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7564,6 +7822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สู้ต่อไป 💪"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Böyle devam 💪"
           }
         },
         "vi" : {
@@ -7708,6 +7972,12 @@
             "value" : "ช้อปปิ้งชิ้นใหญ่ (₩100,000 ขึ้นไป)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük alışveriş (₩100.000 üzeri)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7848,6 +8118,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใกล้แล้ว!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çok yakında!"
           }
         },
         "vi" : {
@@ -7992,6 +8268,12 @@
             "value" : "ดูการแสดง 2 เดือนครั้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gösteri iki ayda bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8132,6 +8414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เที่ยวในประเทศ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yurt içi seyahat"
           }
         },
         "vi" : {
@@ -8277,6 +8565,12 @@
             "value" : "หน้าจอจัดเรียงใหม่อย่างเป็นระเบียบแทนที่จะถูกตัดเมื่อขยายขนาดตัวอักษร"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metni büyüttüğünde ekranlar kesilmek yerine düzgünce yeniden yerleşir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8418,6 +8712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซิงค์ข้ามอุปกรณ์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cihazlar arası senkronizasyon"
           }
         },
         "vi" : {
@@ -8562,6 +8862,12 @@
             "value" : "ข้อมูลพื้นฐาน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temel bilgiler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8702,6 +9008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฝ่าฝืน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boz"
           }
         },
         "vi" : {
@@ -8846,6 +9158,12 @@
             "value" : "จำนวนครั้งที่ฝ่าฝืน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bozma sayısı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8986,6 +9304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วิเคราะห์นิสัยของคุณ\nด้วยสถิติเฉพาะตัว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alışkanlıklarını\nkendi istatistiklerinle analiz et"
           }
         },
         "vi" : {
@@ -9130,6 +9454,12 @@
             "value" : "ไว้ทีหลัง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonra"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9270,6 +9600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เวลาที่เหลือ: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalan süre: %@"
           }
         },
         "vi" : {
@@ -9415,6 +9751,12 @@
             "value" : "ลบข้อมูลทั้งหมดของคุณ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm verilerini sil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9555,6 +9897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำเล็บ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tırnak bakımı"
           }
         },
         "vi" : {
@@ -9699,6 +10047,12 @@
             "value" : "ทำเล็บทุก 3 สัปดาห์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tırnak bakımı üç haftada bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9839,6 +10193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูซีรีส์รวดเดียว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dizi maratonu"
           }
         },
         "vi" : {
@@ -9983,6 +10343,12 @@
             "value" : "ลองใช้คำค้นอื่น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başka bir anahtar kelime dene"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10123,6 +10489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถัดไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İleri"
           }
         },
         "vi" : {
@@ -10267,6 +10639,12 @@
             "value" : "วันโกงอาหารสัปดาห์ละครั้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diyette kaçamak günü haftada bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10409,6 +10787,12 @@
             "value" : "หน่วย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birim"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10549,6 +10933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ของหวานทุก 4 วัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tatlılar dört günde bir"
           }
         },
         "vi" : {
@@ -10694,6 +11084,12 @@
             "value" : "ทุกอย่างยังอ่านออกได้ แม้เปิดเพิ่มคอนทราสต์หรือแยกสีได้ยาก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrastı Artır açıkken veya renkleri ayırt etmek zorsa bile her şey okunabilir kalır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10835,6 +11231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้แอปได้หลายภาษามากขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı daha fazla dilde kullan."
           }
         },
         "vi" : {
@@ -10980,6 +11382,12 @@
             "value" : "ภาษาเพิ่มเติม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla dil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11120,6 +11528,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ของหวาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tatlı"
           }
         },
         "vi" : {
@@ -11264,6 +11678,12 @@
             "value" : "ล็อตเตอรี่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piyango"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11404,6 +11824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อตเตอรี่สัปดาห์ละครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piyango haftada bir"
           }
         },
         "vi" : {
@@ -11548,6 +11974,12 @@
             "value" : "นวด/สปา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masaj / spa"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11688,6 +12120,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นวดทุก 2 สัปดาห์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masaj iki haftada bir"
           }
         },
         "vi" : {
@@ -11832,6 +12270,12 @@
             "value" : "บันทึก (ไม่บังคับ)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not (isteğe bağlı)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11972,6 +12416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทุกอย่างกำลังคูลดาวน์ รออยู่: %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her şey bekleme süresinde. Bekleyen: %lld"
           }
         },
         "vi" : {
@@ -12116,6 +12566,12 @@
             "value" : "ดูซีรีส์รวดเดียวทุก 3 วัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dizi maratonu üç günde bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12256,6 +12712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ร้านทำผม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuaför"
           }
         },
         "vi" : {
@@ -12400,6 +12862,12 @@
             "value" : "ทำผมเดือนละครั้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuaför ayda bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12542,6 +13010,12 @@
             "value" : "สั่งเดลิเวอรี่ทุก 3 วัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üç günde bir sipariş"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12682,6 +13156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เดลิเวอรี่อาหาร"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemek siparişi"
           }
         },
         "vi" : {
@@ -12827,6 +13307,12 @@
             "value" : "สำรองข้อมูลและส่งออก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yedekleme ve dışa aktarma"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12967,6 +13453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยินดีรับรายงานข้อผิดพลาดและข้อเสนอแนะฟีเจอร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata bildirimleri ve özellik önerileri memnuniyetle karşılanır."
           }
         },
         "vi" : {
@@ -13112,6 +13604,12 @@
             "value" : "สีและคอนทราสต์ที่สบายตาขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha rahat renkler ve kontrast"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13252,6 +13750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใส่ค่าใช้จ่ายแล้วเราจะคำนวณเงินที่คุณประหยัดได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir maliyet gir, ne kadar biriktirdiğini hesaplayalım"
           }
         },
         "vi" : {
@@ -13396,6 +13900,12 @@
             "value" : "ใช้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullan"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13538,6 +14048,12 @@
             "value" : "ใช้ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanılabilir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13678,6 +14194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ได้ (%lld)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanılabilir (%lld)"
           }
         },
         "vi" : {
@@ -14050,6 +14572,12 @@
             "value" : "%lld รายการที่ใช้ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kullanılabilir öğe"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14190,6 +14718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ได้: %lld · กำลังคูลดาวน์: %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanılabilir: %lld · Bekleme süresinde: %lld"
           }
         },
         "vi" : {
@@ -14334,6 +14868,12 @@
             "value" : "เสร็จสิ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14474,6 +15014,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullan"
           }
         },
         "vi" : {
@@ -14618,6 +15164,12 @@
             "value" : "ลบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14758,6 +15310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกโดยละเอียด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayrıntılı geçmiş"
           }
         },
         "vi" : {
@@ -14902,6 +15460,12 @@
             "value" : "คูลดาวน์ใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni bekleme süresi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15042,6 +15606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มคูลดาวน์ใหม่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni bekleme süresi ekle"
           }
         },
         "vi" : {
@@ -15186,6 +15756,12 @@
             "value" : "การตั้งค่า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15326,6 +15902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดื่มแอลกอฮอล์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkol"
           }
         },
         "vi" : {
@@ -15470,6 +16052,12 @@
             "value" : "ชั่วโมง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15612,6 +16200,12 @@
             "value" : "เริ่มต้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15752,6 +16346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่าใช้จ่ายจริง (ไม่บังคับ)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerçek maliyet (isteğe bağlı)"
           }
         },
         "vi" : {
@@ -15897,6 +16497,12 @@
             "value" : "เคล็ดลับที่เป็นประโยชน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faydalı ipuçları"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16037,6 +16643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไอคอน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simge"
           }
         },
         "vi" : {
@@ -16181,6 +16793,12 @@
             "value" : "รายการ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğe"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16323,6 +16941,12 @@
             "value" : "ค้นหารายการ..."
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğe ara..."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16463,6 +17087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การรักษาวินัยแยกตามรายการ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğeye göre uyum"
           }
         },
         "vi" : {
@@ -16608,6 +17238,12 @@
             "value" : "ใช้ฟีเจอร์หลักด้วยคีย์บอร์ดอย่างเดียวบน iPad หรือ Mac"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad veya Mac'te ana özellikleri yalnızca klavyeyle kullan."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16749,6 +17385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูคูลดาวน์เดียวกันบน iPhone และ iPad"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone ve iPad'inde aynı bekleme sürelerini gör."
           }
         },
         "vi" : {
@@ -16893,6 +17535,12 @@
             "value" : "ยังไม่มีคูลดาวน์ ลองเพิ่มดูสิ!"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz bekleme süresi yok. Bir tane eklemeyi dene!"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17033,6 +17681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีคูลดาวน์ เพิ่มจากเทมเพลตหรือสร้างเองได้เลย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz bekleme süresi yok. Şablonlardan ekle veya kendin oluştur"
           }
         },
         "vi" : {
@@ -17177,6 +17831,12 @@
             "value" : "ยังไม่มีคูลดาวน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz bekleme süresi yok"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17317,6 +17977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีกิจกรรม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz etkinlik yok"
           }
         },
         "vi" : {
@@ -17461,6 +18127,12 @@
             "value" : "ไม่พลาด\nการแจ้งเตือน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir bildirimi\nkaçırma"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17603,6 +18275,12 @@
             "value" : "การแจ้งเตือนปิดอยู่ แตะปุ่มการตั้งค่าเพื่อเปิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildirimler kapalı. Açmak için Ayarlar düğmesine dokun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17743,6 +18421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การแจ้งเตือนปิดอยู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildirimler kapalı"
           }
         },
         "vi" : {
@@ -17888,6 +18572,12 @@
             "value" : "คำแนะนำเบา ๆ เกี่ยวกับฟีเจอร์ที่มีประโยชน์ ในจังหวะที่คุณต้องการ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faydalı özelliklere dair nazik ipuçları, tam ihtiyaç duyduğun anda."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18030,6 +18720,12 @@
             "value" : "มื้อดึก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece atıştırması"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18170,6 +18866,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มื้อดึกทุก 5 วัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece atıştırması beş günde bir"
           }
         },
         "vi" : {
@@ -18315,6 +19017,12 @@
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะเห็นว่ามีอะไรใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncellemeden sonra uygulamayı ilk açtığında nelerin yeni olduğunu gör."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18456,6 +19164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มีอะไรใหม่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler"
           }
         },
         "vi" : {
@@ -18600,6 +19314,12 @@
             "value" : "โรงภาพยนตร์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinema"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18740,6 +19460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูหนังทุก 2 สัปดาห์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinema iki haftada bir"
           }
         },
         "vi" : {
@@ -18884,6 +19610,12 @@
             "value" : "ค่าใช้จ่ายโดยประมาณ (ไม่บังคับ)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tahmini maliyet (isteğe bağlı)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19024,6 +19756,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประหยัด (ประมาณ)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tahmini tasarruf"
           }
         },
         "vi" : {
@@ -19168,6 +19906,12 @@
             "value" : "ประมาณ: ₩%@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tahmini: ₩%@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19308,6 +20052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คูลดาวน์วันนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugünün bekleme süreleri"
           }
         },
         "vi" : {
@@ -19452,6 +20202,12 @@
             "value" : "ซื้อเสื้อผ้า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kıyafet alışverişi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19592,6 +20348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เสื้อผ้าทุก 2 สัปดาห์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kıyafet iki haftada bir"
           }
         },
         "vi" : {
@@ -19736,6 +20498,12 @@
             "value" : "เสร็จสิ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19876,6 +20644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำไมถึงใช้?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neden kullanıyorsun?"
           }
         },
         "vi" : {
@@ -20020,6 +20794,12 @@
             "value" : "ทานข้าวนอกบ้าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dışarıda yemek"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20162,6 +20942,12 @@
             "value" : "ทานข้าวนอกบ้านสัปดาห์ละครั้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dışarıda yemek haftada bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20302,6 +21088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันพักจากการออกกำลังกายทุก 3 วัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üç günde bir antrenmansız gün"
           }
         },
         "vi" : {
@@ -20447,6 +21239,12 @@
             "value" : "ลดการเคลื่อนไหว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi Azalt"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20588,6 +21386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi Azalt açıkken ekran efektleri sakinleşir."
           }
         },
         "vi" : {
@@ -20733,6 +21537,12 @@
             "value" : "ลบประวัติคูลดาวน์ทั้งหมดได้ในแอปทุกเมื่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dilediğin zaman tüm bekleme süresi geçmişini uygulama içinden sil."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20873,6 +21683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดื่มแอลกอฮอล์ทุก 3 วัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkol üç günde bir"
           }
         },
         "vi" : {
@@ -21017,6 +21833,12 @@
             "value" : "ชื่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ad"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21157,6 +21979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อทางอีเมล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-posta gönder"
           }
         },
         "vi" : {
@@ -21301,6 +22129,12 @@
             "value" : "เดือนนี้ประหยัดได้ประมาณ %lld วอน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu ay tahmini tasarruf: %lld won"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21441,6 +22275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส่ง DM ทาง Instagram (@lee25_ios)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
           }
         },
         "vi" : {
@@ -21585,6 +22425,12 @@
             "value" : "วัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gün"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21725,6 +22571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คูลดาวน์ที่ใช้บ่อย\nแตะเพื่อเพิ่มได้ทันที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yaygın bekleme süreleri\nHemen eklemek için birine dokun"
           }
         },
         "vi" : {
@@ -21869,6 +22721,12 @@
             "value" : "อุปกรณ์อิเล็กทรอนิกส์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronik"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22009,6 +22867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อุปกรณ์อิเล็กทรอนิกส์ทุก 6 เดือน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronik altı ayda bir"
           }
         },
         "vi" : {
@@ -22153,6 +23017,12 @@
             "value" : "การรักษาวินัยโดยรวม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genel uyum"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22293,6 +23163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูว่าคุณ\nประหยัดได้เท่าไร"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne kadar biriktirdiğini\ngör"
           }
         },
         "vi" : {
@@ -22437,6 +23313,12 @@
             "value" : "สัปดาห์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hafta"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22577,6 +23459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซื้อขายหุ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hisse alım satımı"
           }
         },
         "vi" : {
@@ -22721,6 +23609,12 @@
             "value" : "การรักษาวินัย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uyum"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22861,6 +23755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อัตราการรักษาวินัย %lld เปอร์เซ็นต์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uyum oranı yüzde %lld"
           }
         },
         "vi" : {
@@ -23005,6 +23905,12 @@
             "value" : "อัตราการรักษาวินัยและสถิติแยกหมวดหมู่\nช่วยสร้างนิสัยที่ดีขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uyum oranı ve kategoriye göre istatistikler\ndaha iyi alışkanlıklar edinmene yardımcı olur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23145,6 +24051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi kullan"
           }
         },
         "vi" : {
@@ -23289,6 +24201,12 @@
             "value" : "ถ้าใช้ตอนนี้ อัตราการรักษาวินัยจะลดลง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi kullanırsan uyum oranın düşer"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23429,6 +24347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วยเหลือ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destek"
           }
         },
         "vi" : {
@@ -23573,6 +24497,12 @@
             "value" : "เพิ่มเอง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kendin ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23713,6 +24643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ทั้งหมด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplam kullanım"
           }
         },
         "vi" : {
@@ -23857,6 +24793,12 @@
             "value" : "รายการทั้งหมด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplam öğe"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23997,6 +24939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่าใช้จ่ายรวม (ประมาณ)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplam harcama (tahmini)"
           }
         },
         "vi" : {
@@ -24141,6 +25089,12 @@
             "value" : "กิจกรรมล่าสุด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son etkinlik"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24281,6 +25235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่ม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekle"
           }
         },
         "vi" : {
@@ -24425,6 +25385,12 @@
             "value" : "เทมเพลตแนะนำ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önerilen şablonlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24565,6 +25531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลี่ยงการซื้อขายตามอารมณ์ สัปดาห์ละครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anlık işlemlerden kaçın, haftada bir"
           }
         },
         "vi" : {
@@ -24709,6 +25681,12 @@
             "value" : "ซื้อตามอารมณ์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anlık alışveriş"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24849,6 +25827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซื้อตามอารมณ์สัปดาห์ละครั้งเท่านั้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anlık alışveriş haftada yalnızca bir"
           }
         },
         "vi" : {
@@ -24993,6 +25977,12 @@
             "value" : "ยกเลิก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25133,6 +26123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันโกงอาหาร"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaçamak günü"
           }
         },
         "vi" : {
@@ -25277,6 +26273,12 @@
             "value" : "หมวดหมู่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25417,6 +26419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แยกตามหมวดหมู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategoriye göre"
           }
         },
         "vi" : {
@@ -25561,6 +26569,12 @@
             "value" : "คาเฟ่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafe"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25701,6 +26715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กาแฟวันเว้นวัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kahve iki günde bir"
           }
         },
         "vi" : {
@@ -25845,6 +26865,12 @@
             "value" : "คอนเสิร์ต/การแสดง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konser / gösteri"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25982,6 +27008,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -26130,6 +27162,12 @@
             "value" : "บันทึกประวัติคูลดาวน์เป็นไฟล์และนำกลับมาใช้ภายหลังได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresi geçmişini bir dosyaya kaydet ve sonra geri yükle."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26270,6 +27308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฝ่าฝืนคูลดาวน์และใช้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresini boz ve kullan"
           }
         },
         "vi" : {
@@ -26414,6 +27458,12 @@
             "value" : "ฝ่าฝืนคูลดาวน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresini boz"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26554,6 +27604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จำนวนครั้งที่ฝ่าฝืนคูลดาวน์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bozulan bekleme süreleri"
           }
         },
         "vi" : {
@@ -26698,6 +27754,12 @@
             "value" : "รีเซ็ตคูลดาวน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresini sıfırla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26838,6 +27900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดในการตั้งค่าเพื่อรับการแจ้งเตือนเมื่อคูลดาวน์จบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresi bittiğinde haberdar olmak için Ayarlar'dan aç"
           }
         },
         "vi" : {
@@ -26982,6 +28050,12 @@
             "value" : "ระยะเวลาคูลดาวน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresi uzunluğu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27124,6 +28198,12 @@
             "value" : "กำลังคูลดาวน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresinde"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27264,6 +28344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังคูลดาวน์ (%lld)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresinde (%lld)"
           }
         },
         "vi" : {
@@ -27636,6 +28722,12 @@
             "value" : "%lld รายการที่กำลังคูลดาวน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresinde %lld öğe"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27776,6 +28868,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังคูลดาวน์!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresinde!"
           }
         },
         "vi" : {
@@ -27920,6 +29018,12 @@
             "value" : "คุมแรงกระตุ้น\nด้วยคูลดาวน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dürtülerini bekleme süreleriyle\nyönet"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28062,6 +29166,12 @@
             "value" : "ทุกครั้งที่คุณรักษาคูลดาวน์ได้\nเราจะบอกว่าคุณประหยัดได้เท่าไร"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir bekleme süresine uyduğun her seferde\nne kadar biriktirdiğini gösteririz"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28202,6 +29312,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เราจะแจ้งเมื่อคูลดาวน์จบ\nดูผ่านวิดเจ็ตได้ด้วย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresi bittiğinde sana haber veririz\nWidget'tan da kontrol edebilirsin"
           }
         },
         "vi" : {
@@ -28347,6 +29463,12 @@
             "value" : "เลย์เอาต์สำหรับตัวอักษรขนาดใหญ่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük metne uygun düzenler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28487,6 +29609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค่าใช้จ่ายก้อนใหญ่เดือนละครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük harcamalar ayda bir"
           }
         },
         "vi" : {
@@ -28632,6 +29760,12 @@
             "value" : "ควบคุมด้วยคีย์บอร์ด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klavye kontrolü"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28772,6 +29906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แท็กซี่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksi"
           }
         },
         "vi" : {
@@ -28916,6 +30056,12 @@
             "value" : "นั่งแท็กซี่ทุก 3 วัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksi üç günde bir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29056,6 +30202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะเพื่อใช้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanmak için dokun"
           }
         },
         "vi" : {
@@ -29200,6 +30352,12 @@
             "value" : "แตะเพื่อฝ่าฝืนคูลดาวน์ กดค้างเพื่อดูตัวเลือกเพิ่มเติม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekleme süresini bozmak için dokun, diğer seçenekler için basılı tut"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29340,6 +30498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เทมเพลต"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şablonlar"
           }
         },
         "vi" : {
@@ -29484,6 +30648,12 @@
             "value" : "เพิ่มจากเทมเพลต"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şablonlardan ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29624,6 +30794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มจากเทมเพลต\nหรือสร้างเอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şablonlardan ekle\nveya kendin oluştur"
           }
         },
         "vi" : {
@@ -29768,6 +30944,12 @@
             "value" : "สถิติ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstatistikler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29908,6 +31090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูสถิติ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstatistikleri gör"
           }
         },
         "vi" : {
@@ -30052,6 +31240,12 @@
             "value" : "ฟาสต์ฟู้ด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30192,6 +31386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฟาสต์ฟู้ดทุก 5 วัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food beş günde bir"
           }
         },
         "vi" : {
@@ -30337,6 +31537,12 @@
             "value" : "เลย์เอาต์สำหรับ iPhone แบบพับได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone düzeni"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30478,6 +31684,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้หน้าจอกว้างของ iPhone แบบพับได้เป็นสองแผงเคียงข้างกัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone'un geniş ekranını yan yana iki bölme olarak kullan."
           }
         },
         "vi" : {
@@ -30622,6 +31834,12 @@
             "value" : "เที่ยวในประเทศเดือนละครั้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayda bir yurt içi seyahat"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30762,6 +31980,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เที่ยวต่างประเทศ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yurt dışı seyahati"
           }
         },
         "vi" : {
@@ -30906,6 +32130,12 @@
             "value" : "เที่ยวต่างประเทศ 2 เดือนครั้งก็เพียงพอแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İki ayda bir yurt dışı seyahati fazlasıyla yeter"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31048,6 +32278,12 @@
             "value" : "พักโรงแรม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otel tatili"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31188,6 +32424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พักผ่อนที่โรงแรมทุก 3 สัปดาห์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üç haftada bir otelde dinlenme"
           }
         },
         "vi" : {
@@ -31333,6 +32575,12 @@
             "value" : "VoiceOver อ่านทุกปุ่มและทุกรายละเอียดตามลำดับที่ถูกต้อง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver her düğmeyi ve ayrıntıyı doğru sırayla okur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31473,6 +32721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันพักผ่อน (เว้นการออกกำลังกาย)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinlenme günü (antrenmanı atla)"
           }
         },
         "vi" : {

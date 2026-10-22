@@ -21,7 +21,7 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일. 쿨타임은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko", "sv": "sv", "pl": "pl", "nl": "nl", "nb": "nb", "id": "id", "fi": "fi", "el": "el", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
+STORE = {"ko": "ko", "tr": "tr", "sv": "sv", "pl": "pl", "nl": "nl", "nb": "nb", "id": "id", "fi": "fi", "el": "el", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -53,6 +53,7 @@ SEARCH = {
     "nl": ("CoolTime-timer", "Wat je laat liggen,<br>blijft in je portemonnee", "Bezorging en winkelen wachten tot de wachttijd voorbij is"),
     "pl": ("Minutnik CoolTime", "Co przetrzymasz,<br>to zostaje w kieszeni", "Dostawa i zakupy czekają do końca czasu oczekiwania"),
     "sv": ("CoolTime-timer", "Det du håller igen på<br>blir kvar i plånboken", "Leverans och shopping väntar tills väntetiden är slut"),
+    "tr": ("CoolTime sayaç", "Tuttuğun kadar<br>para cebinde kalır", "Sipariş ve alışveriş, bekleme süresi bitince"),
 }
 
 # 헤더 — 처음 온 사람에게 한 가지 약속: 지르고 싶을 때 게임 스킬처럼 쿨타임을 건다.
@@ -78,6 +79,7 @@ HEADER = {
     "nl": ("Wachttijd voor uitgaven", "Eerst wachttijd,<br>dan kopen"),
     "pl": ("Czas oczekiwania dla wydatków", "Najpierw czas oczekiwania,<br>potem zakup"),
     "sv": ("Väntetid för utgifter", "Först väntetid,<br>sedan köp"),
+    "tr": ("Harcama bekleme süresi", "Önce bekleme süresi,<br>sonra alışveriş"),
 }
 
 # 바탕 · 글자색은 앱 화면(AppTheme)과 같다: 밝은 회색 페이지, 에메랄드 그린(사용 가능),

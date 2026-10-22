@@ -1263,3 +1263,58 @@ Aviseringar och widgetar
 Få en avisering när väntetiden är halvvägs och när den tar slut, och se återstående tid direkt i widgetar på hemskärmen och låsskärmen.
 
 Dina registreringar sparas bara på den här enheten, och du behöver inget konto.
+
+## tr
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/tr/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/tr/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/tr/
+
+### 이름
+
+CoolTime: Almadan Önce Bekle
+
+### 부제
+
+Harcamadan önce bir mola
+
+### 키워드
+
+tasarruf,birikim,alışkanlık,özdenetim,bütçe,para,meydan okuma,harcamasız,sipariş,kahve,alkol,sayaç
+
+### 프로모션 텍스트
+
+Kendini tutmak istediğin şeylere bekleme süresi koy. Tekrar yapabilmene ne kadar kaldığını gör ve sakince bekleme alışkanlığı edin.
+
+### 설명
+
+Yemek siparişi, alışveriş, kafede tatlı. Harcama isteği geldiğinde, ona oyundaki bir yetenek gibi bekleme süresi koy.
+CoolTime bir harcama alışkanlığı uygulamasıdır: bekleme süresi bitene kadar beklersin ve kendini tutarak ne kadar biriktirdiğini görürsün.
+
+Bekleme süresi koy
+Her öğe için bir ad, bir emoji, tekrar kullanmadan önce ne kadar bekleyeceğini ve her seferinde ne kadar tuttuğunu seç. 3 gün, 1 hafta veya 1 ay gibi yaygın süreleri tek dokunuşla seçersin.
+
+Neyin kullanılabilir olduğunu tek bakışta gör
+Ana ekran kullanılabilir öğeleri bekleme süresindekilerden ayırır ve dairesel bir gösterge kalan süreyle birlikte küçülür.
+
+Bozmadan önce bir mola daha
+Bekleme süresi içinde bir şeyi kullanmaya çalışırsan uygulama kalan süreyi gösterir ve uyum oranının düşeceğini söyler. Yine de gerekiyorsa bir not ve gerçek maliyeti ekleyebilirsin.
+
+Uyum oranı ve tahmini tasarruf
+Bekleme sürelerine ne sıklıkla uyduğunu ve bu ay ne kadar biriktirdiğini gör. İstatistikler öğeye ve kategoriye göre uyumu ve kullanım geçmişini gösterir.
+
+Önerilen şablonlar
+Seyahat, alışveriş, yemek, eğlence, yaşam tarzı, sağlık ve finans için yaygın bekleme sürelerini tek dokunuşla ekle.
+
+Bildirimler ve widget'lar
+Bekleme süresi yarıya geldiğinde ve bittiğinde bildirim al, kalan süreyi doğrudan Ana Ekran ve Kilit Ekranı widget'larından gör.
+
+Kayıtların yalnızca bu cihazda saklanır ve hesap gerekmez.

@@ -142,3 +142,9 @@ Nowe strony prywatności i pomocy
 Rättade fel för stabilare körning
 Du kan nu skicka feedback i appen
 Nya sidor om integritet och hjälp
+
+### 앱스토어 (tr)
+
+Hatalar giderilerek uygulama dengelendi
+Uygulamadan geri bildirim gönderilebilir
+Gizlilik ve yardım sayfaları eklendi
