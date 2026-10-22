@@ -14,6 +14,14 @@ struct ItemCardCompact: View {
 
     @Environment(\.colorScheme) private var colorScheme
 
+    private var useLabel: some View {
+        Text("사용")
+            .font(.caption)
+            .fontWeight(.semibold)
+            .lineLimit(1)
+            .fixedSize()
+    }
+
     var body: some View {
         Button(action: onTap) {
             VStack(spacing: 8) {
@@ -26,6 +34,7 @@ struct ItemCardCompact: View {
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .lineLimit(1)
+                    .minimumScaleFactor(0.7)
 
                 // 예상 비용 (있을 때만)
                 if let cost = item.estimatedCost {
@@ -35,15 +44,20 @@ struct ItemCardCompact: View {
                 }
 
                 // 사용 버튼
-                HStack(spacing: 4) {
+                // 말이 긴 언어(러시아어 "Использовать")는 카드 폭에 안 들어간다 — 글만, 그래도 안 되면 체크만 둔다.
+                ViewThatFits(in: .horizontal) {
+                    HStack(spacing: 4) {
+                        Image(systemName: "checkmark")
+                            .font(.caption)
+                        useLabel
+                    }
+                    useLabel
                     Image(systemName: "checkmark")
                         .font(.caption)
-                    Text("사용")
-                        .font(.caption)
-                        .fontWeight(.semibold)
+                        .fontWeight(.bold)
                 }
                 .foregroundStyle(.white)
-                .padding(.horizontal, 12)
+                .padding(.horizontal, 10)
                 .padding(.vertical, 6)
                 .background(
                     Capsule()

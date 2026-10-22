@@ -106,8 +106,26 @@ struct HomeView: View {
         }
         .onAppear {
             manager.setModelContext(modelContext)
+            #if DEBUG
+            openScreenshotScreen()
+            #endif
         }
     }
+
+    #if DEBUG
+    /// 스크린샷 캡처용 — `-screenshotScreen` 에 적힌 화면을 연다 (CoolTimeApp.swift 의 ScreenshotSeed).
+    private func openScreenshotScreen() {
+        guard let screen = ScreenshotSeed.screen else { return }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            switch screen {
+            case "break": selectedItem = manager.onCooldownItems.first { $0.emoji == "👕" }
+            case "stats": manager.showingStats = true
+            case "templates": manager.showingTemplates = true
+            default: break
+            }
+        }
+    }
+    #endif
 
     // MARK: - Computed Properties
 
@@ -218,7 +236,7 @@ struct HomeView: View {
             HStack(spacing: 12) {
                 SummaryCard(
                     title: String(localized: "사용 가능"),
-                    value: "\(manager.availableItems.count)개",
+                    value: String(localized: "\(manager.availableItems.count)개"),
                     icon: "checkmark.circle.fill",
                     color: AppTheme.ready,
                     colorScheme: colorScheme
@@ -227,7 +245,7 @@ struct HomeView: View {
 
                 SummaryCard(
                     title: String(localized: "쿨타임 중"),
-                    value: "\(manager.onCooldownItems.count)개",
+                    value: String(localized: "\(manager.onCooldownItems.count)개"),
                     icon: "clock.fill",
                     color: AppTheme.cooldown,
                     colorScheme: colorScheme
@@ -420,6 +438,8 @@ struct SummaryCard: View {
                     .font(.title3)
                     .fontWeight(.bold)
                     .foregroundStyle(.primary)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
             }
 
             Spacer()

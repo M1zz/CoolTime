@@ -49,7 +49,7 @@ struct TemplatesView: View {
     
     private func categorySection(_ category: TemplateCategory) -> some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text(category.rawValue)
+            Text(CategoryName.localized(category.rawValue))
                 .font(.headline)
             
             LazyVGrid(columns: [

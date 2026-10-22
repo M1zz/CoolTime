@@ -285,3 +285,29 @@ struct Templates {
         category.templates
     }
 }
+
+// MARK: - 카테고리 표시 이름
+
+/// 카테고리는 저장소에 한국어("🌏 여행", "기타")로 남아 있다(기존 데이터 호환).
+/// 화면에 보일 때만 그 언어로 바꾼다. 모르는 값(사용자가 만든 것)은 그대로 둔다.
+enum CategoryName {
+    static func localized(_ stored: String) -> String {
+        let parts = stored.split(separator: " ", maxSplits: 1).map(String.init)
+        // "🌏 여행" 처럼 앞에 이모지가 붙은 값은 이모지를 두고 낱말만 바꾼다.
+        let hasEmojiPrefix = parts.count == 2 && !parts[0].unicodeScalars.contains { $0.properties.isAlphabetic }
+        let (prefix, word) = hasEmojiPrefix ? (parts[0] + " ", parts[1]) : ("", stored)
+        let name: String
+        switch word {
+        case "여행": name = String(localized: "여행")
+        case "쇼핑": name = String(localized: "쇼핑")
+        case "음식": name = String(localized: "음식")
+        case "엔터테인먼트": name = String(localized: "엔터테인먼트")
+        case "라이프스타일": name = String(localized: "라이프스타일")
+        case "건강": name = String(localized: "건강")
+        case "금융": name = String(localized: "금융")
+        case "기타": name = String(localized: "기타")
+        default: return stored
+        }
+        return prefix + name
+    }
+}

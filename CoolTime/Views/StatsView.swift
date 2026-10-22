@@ -65,6 +65,10 @@ struct StatsView: View {
                     Text("전체 준수율")
                         .font(.caption)
                         .foregroundStyle(.secondary)
+                        .multilineTextAlignment(.center)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.7)
+                        .frame(maxWidth: 92)
                 }
             }
             
@@ -184,7 +188,7 @@ struct StatsView: View {
             
             ForEach(manager.statsByCategory(), id: \.category) { stat in
                 HStack {
-                    Text(stat.category)
+                    Text(CategoryName.localized(stat.category))
                         .font(.subheadline)
                     
                     Spacer()

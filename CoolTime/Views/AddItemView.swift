@@ -105,7 +105,7 @@ struct AddItemView: View {
                     // 카테고리
                     Picker("카테고리", selection: $category) {
                         ForEach(categories, id: \.self) { cat in
-                            Text(cat).tag(cat)
+                            Text(CategoryName.localized(cat)).tag(cat)
                         }
                     }
                 }
