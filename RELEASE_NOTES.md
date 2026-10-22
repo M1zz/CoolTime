@@ -46,3 +46,9 @@ Added new privacy policy and help pages
 Corregimos fallos para mejorar la app
 Ya puedes enviar comentarios en la app
 Nuevas páginas de privacidad y ayuda
+
+### 앱스토어 (de)
+
+Fehler behoben für stabilere Starts
+Feedback jetzt direkt in der App senden
+Neue Datenschutz- und Hilfeseiten

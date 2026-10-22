@@ -301,6 +301,7 @@
 				"zh-Hant",
 				ja,
 				es,
+				de,
 			);
 			mainGroup = B7A00005001;
 			packageReferences = (

@@ -384,3 +384,58 @@ Notificaciones y widgets
 Recibe un aviso cuando la espera llega a la mitad y cuando termina, y consulta el tiempo restante en los widgets de la pantalla de inicio y de bloqueo.
 
 Tus registros se guardan solo en este dispositivo y no necesitas cuenta.
+
+## de
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/de/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/de/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/de/
+
+### 이름
+
+CoolTime: Kaufimpulse bremsen
+
+### 부제
+
+Warten, bevor du Geld ausgibst
+
+### 키워드
+
+Sparen,Gewohnheit,Selbstkontrolle,Budget,Finanzen,Timer,Lieferdienst,Kaffee,Alkohol,Disziplin
+
+### 프로모션 텍스트
+
+Leg eine Abklingzeit auf das, worauf du verzichten möchtest. Sieh, wie lange es noch dauert, und gewöhne dir an, gelassen zu warten.
+
+### 설명
+
+Essen bestellen, Shopping, Dessert im Café. Wenn du Lust hast, Geld auszugeben, gib dem Ganzen eine Abklingzeit wie einer Fähigkeit im Spiel.
+CoolTime ist eine App für Konsumgewohnheiten: Du wartest, bis die Abklingzeit endet, und siehst, wie viel du durch Verzicht gespart hast.
+
+Abklingzeit festlegen
+Wähle für jeden Eintrag einen Namen, ein Emoji, wie lange du bis zur nächsten Nutzung wartest und was es jedes Mal kostet. Gängige Zeiträume wie 3 Tage, 1 Woche oder 1 Monat wählst du mit einem Tipp.
+
+Auf einen Blick: Was ist verfügbar?
+Auf dem Startbildschirm sind verfügbare Einträge und Einträge in Abklingzeit getrennt, und ein Ringdiagramm schrumpft mit der verbleibenden Zeit.
+
+Noch ein Moment, bevor du sie brichst
+Willst du etwas während der Abklingzeit nutzen, zeigt die App die verbleibende Zeit und weist darauf hin, dass deine Einhaltungsquote sinkt. Wenn du es trotzdem brauchst, kannst du eine Notiz und die tatsächlichen Kosten hinterlegen.
+
+Einhaltungsquote und geschätzte Ersparnis
+Sieh, wie oft du Abklingzeiten eingehalten hast und wie viel du diesen Monat gespart hast. In den Statistiken findest du die Einhaltung nach Eintrag und Kategorie sowie deinen Nutzungsverlauf.
+
+Empfohlene Vorlagen
+Füge gängige Abklingzeiten zu Reisen, Shopping, Essen, Unterhaltung, Lifestyle, Gesundheit und Finanzen mit einem Tipp hinzu.
+
+Mitteilungen und Widgets
+Du erhältst eine Mitteilung, wenn die Hälfte der Abklingzeit um ist und wenn sie endet, und siehst die verbleibende Zeit direkt in den Widgets auf Home- und Sperrbildschirm.
+
+Deine Daten bleiben auf diesem Gerät, ein Konto brauchst du nicht.
