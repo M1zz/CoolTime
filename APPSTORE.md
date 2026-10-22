@@ -1153,3 +1153,58 @@ Meldingen en widgets
 Krijg een melding als de wachttijd halverwege is en als hij afloopt, en zie de resterende tijd direct in widgets op het beginscherm en het toegangsscherm.
 
 Je vastleggingen blijven alleen op dit apparaat en je hebt geen account nodig.
+
+## pl
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/pl/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/pl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/pl/
+
+### 이름
+
+CoolTime: Czekaj, zanim kupisz
+
+### 부제
+
+Pauza przed wydatkiem
+
+### 키워드
+
+oszczędzanie,nawyki,samokontrola,budżet,pieniądze,wyzwanie,bez wydatków,dostawa,kawa,alkohol
+
+### 프로모션 텍스트
+
+Ustaw czas oczekiwania na to, czego chcesz sobie odmówić. Zobacz, ile zostało do kolejnego razu, i wyrób nawyk spokojnego czekania.
+
+### 설명
+
+Dostawa jedzenia, zakupy, desery w kawiarni. Gdy najdzie Cię ochota na wydatek, ustaw na nią czas oczekiwania jak na umiejętność w grze.
+CoolTime to aplikacja o nawykach wydawania pieniędzy: czekasz, aż skończy się czas oczekiwania, i widzisz, ile zaoszczędziłeś(-aś), powstrzymując się.
+
+Ustaw czas oczekiwania
+Dla każdej pozycji wybierz nazwę, emoji, jak długo czekać przed ponownym użyciem i ile kosztuje jedno użycie. Popularne okresy, jak 3 dni, 1 tydzień lub 1 miesiąc, wybierzesz jednym stuknięciem.
+
+Co możesz użyć – na pierwszy rzut oka
+Ekran główny oddziela pozycje dostępne od tych w czasie oczekiwania, a okrągły wskaźnik maleje wraz z upływem czasu.
+
+Jeszcze jedna pauza przed złamaniem
+Gdy spróbujesz użyć czegoś w czasie oczekiwania, aplikacja pokaże pozostały czas i ostrzeże, że spadnie Twój wskaźnik przestrzegania. Jeśli mimo to tego potrzebujesz, możesz dodać notatkę i rzeczywisty koszt.
+
+Wskaźnik przestrzegania i szacowane oszczędności
+Zobacz, jak często dotrzymujesz czasów oczekiwania i ile zaoszczędziłeś(-aś) w tym miesiącu. Statystyki pokazują przestrzeganie według pozycji i kategorii oraz historię użycia.
+
+Polecane szablony
+Dodaj jednym stuknięciem popularne czasy oczekiwania dla podróży, zakupów, jedzenia, rozrywki, stylu życia, zdrowia i finansów.
+
+Powiadomienia i widżety
+Dostaniesz powiadomienie w połowie czasu oczekiwania i po jego zakończeniu, a pozostały czas sprawdzisz w widżetach na ekranie początkowym i ekranie blokady.
+
+Zapisy są przechowywane tylko na tym urządzeniu i nie potrzebujesz konta.

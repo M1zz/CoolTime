@@ -130,3 +130,9 @@ Nye sider for personvern og hjelp
 Problemen opgelost voor stabielere start
 Je kunt nu feedback sturen in de app
 Nieuwe privacy- en hulppagina’s
+
+### 앱스토어 (pl)
+
+Poprawiliśmy błędy dla stabilnej pracy
+Opinię wyślesz teraz w aplikacji
+Nowe strony prywatności i pomocy

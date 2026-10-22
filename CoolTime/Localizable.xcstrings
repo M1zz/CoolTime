@@ -93,6 +93,12 @@
             "value" : "%@ %@, beschikbaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, dostępne"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,6 +227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, wachttijd: nog %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, czas oczekiwania: zostało %@"
           }
         },
         "pt-BR" : {
@@ -353,6 +365,12 @@
             "value" : "%@ Halverwege!"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Połowa za Tobą!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -481,6 +499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Wachttijd voorbij!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Czas oczekiwania minął!"
           }
         },
         "pt-BR" : {
@@ -613,6 +637,12 @@
             "value" : "Je bent halverwege de wachttijd van %@! Hou vol 💪"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minęła połowa czasu oczekiwania dla „%@”! Wytrzymaj jeszcze trochę 💪"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -741,6 +771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De wachttijd van %@ is voorbij. Je kunt het nu gebruiken!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czas oczekiwania dla „%@” minął. Teraz możesz tego użyć!"
           }
         },
         "pt-BR" : {
@@ -1029,6 +1065,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycja"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycje"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycji"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycji"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -1193,6 +1259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld mnd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mies."
           }
         },
         "pt-BR" : {
@@ -1445,6 +1517,12 @@
             }
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co %lld mies."
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -1611,6 +1689,12 @@
             "value" : "%lld min"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1739,6 +1823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min %lld sec"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
           }
         },
         "pt-BR" : {
@@ -1871,6 +1961,12 @@
             "value" : "%lld u"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld godz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1999,6 +2095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld u %lld min"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld godz. %lld min"
           }
         },
         "pt-BR" : {
@@ -2239,6 +2341,12 @@
             "value" : "Elke %lld uur"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co %lld godz."
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -2405,6 +2513,12 @@
             "value" : "%lld d"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2533,6 +2647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d %lld u"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d %lld godz."
           }
         },
         "pt-BR" : {
@@ -2785,6 +2905,12 @@
             }
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co %lld dn."
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -2949,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld wk"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld tyg."
           }
         },
         "pt-BR" : {
@@ -3201,6 +3333,12 @@
             }
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co %lld tyg."
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -3365,6 +3503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld sec"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
           }
         },
         "pt-BR" : {
@@ -3639,6 +3783,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld keer"
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld raz"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld razy"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld razy"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld raza"
+                }
+              }
+            }
           }
         },
         "pt-BR" : {
@@ -3963,6 +4137,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld użycie"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld użycia"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld użyć"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld użycia"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -4129,6 +4333,12 @@
             "value" : "Geen resultaten voor “%@”"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak wyników dla „%@”"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4257,6 +4467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 mnd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 mies."
           }
         },
         "pt-BR" : {
@@ -4389,6 +4605,12 @@
             "value" : "1 wk"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 tydz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4517,6 +4739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 mnd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 mies."
           }
         },
         "pt-BR" : {
@@ -4649,6 +4877,12 @@
             "value" : "2 wk"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 tydz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4774,6 +5008,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 d"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 d"
@@ -4910,6 +5150,12 @@
             "value" : "Face ID-vergrendeling"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokada Face ID"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5039,6 +5285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vergrendel de app met Face ID of Touch ID om je geschiedenis privé te houden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zablokuj aplikację za pomocą Face ID lub Touch ID, aby historia pozostała prywatna."
           }
         },
         "pt-BR" : {
@@ -5172,6 +5424,12 @@
             "value" : "Registreer meteen een gebruik door het aan Siri te vragen of een opdracht uit te voeren."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz użycie od razu, prosząc Siri lub uruchamiając skrót."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5301,6 +5559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri en Opdrachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri i Skróty"
           }
         },
         "pt-BR" : {
@@ -5434,6 +5698,12 @@
             "value" : "Betere ondersteuning voor VoiceOver"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lepsza obsługa VoiceOver"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5562,6 +5832,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waarde"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wartość"
           }
         },
         "pt-BR" : {
@@ -5694,6 +5970,12 @@
             "value" : "Neem contact op met de ontwikkelaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skontaktuj się z twórcą"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5822,6 +6104,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maanden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miesiące"
           }
         },
         "pt-BR" : {
@@ -5954,6 +6242,12 @@
             "value" : "Overslaan"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomiń"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6082,6 +6376,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geen resultaten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak wyników"
           }
         },
         "pt-BR" : {
@@ -6214,6 +6514,12 @@
             "value" : "Zoekopdracht wissen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyczyść wyszukiwanie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6342,6 +6648,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aankopen in games"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupy w grach"
           }
         },
         "pt-BR" : {
@@ -6474,6 +6786,12 @@
             "value" : "Aankopen in games om de twee weken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupy w grach raz na 2 tygodnie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6602,6 +6920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoals de cooldown van een skill in een game\nstel je een wachttijd in voor uitgaven en gewoontes"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak czas odnowienia umiejętności w grze,\nustaw czas oczekiwania dla wydatków i nawyków"
           }
         },
         "pt-BR" : {
@@ -6734,6 +7058,12 @@
             "value" : "Let op: wachttijd loopt. Als je het nu gebruikt, daalt je naleefpercentage"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uwaga: trwa czas oczekiwania. Jeśli użyjesz tego teraz, spadnie Twój wskaźnik przestrzegania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6862,6 +7192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hou vol 💪"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak trzymaj 💪"
           }
         },
         "pt-BR" : {
@@ -6994,6 +7330,12 @@
             "value" : "Grote aankoop (boven ₩100.000)"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duży zakup (powyżej ₩100 000)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7122,6 +7464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bijna!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Już wkrótce!"
           }
         },
         "pt-BR" : {
@@ -7254,6 +7602,12 @@
             "value" : "Een show om de twee maanden"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Występ raz na 2 miesiące"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7382,6 +7736,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reis in eigen land"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podróż krajowa"
           }
         },
         "pt-BR" : {
@@ -7515,6 +7875,12 @@
             "value" : "Schermen ordenen zich netjes opnieuw in plaats van afgekapt te worden als je de tekst vergroot."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekrany układają się porządnie na nowo zamiast się ucinać, gdy powiększysz tekst."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7644,6 +8010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronisatie tussen apparaten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronizacja między urządzeniami"
           }
         },
         "pt-BR" : {
@@ -7776,6 +8148,12 @@
             "value" : "Basisgegevens"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podstawowe informacje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7904,6 +8282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doorbreek"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Złam"
           }
         },
         "pt-BR" : {
@@ -8036,6 +8420,12 @@
             "value" : "Keer doorbroken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liczba złamań"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8164,6 +8554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analyseer je gewoontes\nmet je eigen statistieken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analizuj swoje nawyki\nza pomocą własnych statystyk"
           }
         },
         "pt-BR" : {
@@ -8296,6 +8692,12 @@
             "value" : "Later"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Później"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8424,6 +8826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resterende tijd: %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pozostały czas: %@"
           }
         },
         "pt-BR" : {
@@ -8557,6 +8965,12 @@
             "value" : "Verwijder al je gegevens"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń wszystkie dane"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8685,6 +9099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nagelstyling"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manicure"
           }
         },
         "pt-BR" : {
@@ -8817,6 +9237,12 @@
             "value" : "Nagelstyling om de drie weken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manicure raz na 3 tygodnie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8945,6 +9371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serie-marathon"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton seriali"
           }
         },
         "pt-BR" : {
@@ -9077,6 +9509,12 @@
             "value" : "Probeer een ander zoekwoord"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spróbuj innego słowa kluczowego"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9205,6 +9643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volgende"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalej"
           }
         },
         "pt-BR" : {
@@ -9337,6 +9781,12 @@
             "value" : "Cheatday van het dieet één keer per week"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day na diecie raz w tygodniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9467,6 +9917,12 @@
             "value" : "Eenheid"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jednostka"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9595,6 +10051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoetigheid om de vier dagen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Słodycze raz na 4 dni"
           }
         },
         "pt-BR" : {
@@ -9728,6 +10190,12 @@
             "value" : "Alles blijft leesbaar, ook met Verhoog contrast aan of als kleuren moeilijk te onderscheiden zijn."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystko pozostaje czytelne, nawet po włączeniu Zwiększ kontrast lub gdy trudno odróżniać kolory."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9857,6 +10325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gebruik de app in meer talen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korzystaj z aplikacji w większej liczbie języków."
           }
         },
         "pt-BR" : {
@@ -9990,6 +10464,12 @@
             "value" : "Meer talen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Więcej języków"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10118,6 +10598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toetje"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deser"
           }
         },
         "pt-BR" : {
@@ -10250,6 +10736,12 @@
             "value" : "Loterij"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loteria"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10378,6 +10870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loterij één keer per week"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loteria raz w tygodniu"
           }
         },
         "pt-BR" : {
@@ -10510,6 +11008,12 @@
             "value" : "Massage / spa"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masaż / spa"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10638,6 +11142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massage om de twee weken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masaż raz na 2 tygodnie"
           }
         },
         "pt-BR" : {
@@ -10770,6 +11280,12 @@
             "value" : "Notitie (optioneel)"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notatka (opcjonalnie)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10898,6 +11414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles zit in wachttijd. In afwachting: %lld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystko jest w czasie oczekiwania. Oczekuje: %lld"
           }
         },
         "pt-BR" : {
@@ -11030,6 +11552,12 @@
             "value" : "Serie-marathon om de drie dagen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton seriali raz na 3 dni"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11158,6 +11686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kapper"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fryzjer"
           }
         },
         "pt-BR" : {
@@ -11290,6 +11824,12 @@
             "value" : "Kapper één keer per maand"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fryzjer raz w miesiącu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11420,6 +11960,12 @@
             "value" : "Bezorging om de drie dagen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostawa jedzenia raz na 3 dni"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11548,6 +12094,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maaltijdbezorging"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostawa jedzenia"
           }
         },
         "pt-BR" : {
@@ -11681,6 +12233,12 @@
             "value" : "Back-up en export"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopia zapasowa i eksport"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11809,6 +12367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bugmeldingen en ideeën voor functies zijn welkom."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zgłoszenia błędów i pomysły na funkcje są mile widziane."
           }
         },
         "pt-BR" : {
@@ -11942,6 +12506,12 @@
             "value" : "Prettigere kleuren en contrast"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygodniejsze kolory i kontrast"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12070,6 +12640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voer de kosten in en we berekenen hoeveel je hebt bespaard"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz koszt, a obliczymy, ile zaoszczędzisz"
           }
         },
         "pt-BR" : {
@@ -12202,6 +12778,12 @@
             "value" : "Gebruik"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Użyj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12332,6 +12914,12 @@
             "value" : "Beschikbaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostępne"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12460,6 +13048,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beschikbaar (%lld)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostępne (%lld)"
           }
         },
         "pt-BR" : {
@@ -12748,6 +13342,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dostępna pozycja"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dostępne pozycje"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dostępnych pozycji"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dostępnej pozycji"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -12914,6 +13538,12 @@
             "value" : "Beschikbaar: %lld · In wachttijd: %lld"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostępne: %lld · W oczekiwaniu: %lld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13042,6 +13672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotowe"
           }
         },
         "pt-BR" : {
@@ -13174,6 +13810,12 @@
             "value" : "Gebruik"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Użyj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13302,6 +13944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verwijder"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń"
           }
         },
         "pt-BR" : {
@@ -13434,6 +14082,12 @@
             "value" : "Gedetailleerd overzicht"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szczegółowa historia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13562,6 +14216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nieuwe wachttijd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowy czas oczekiwania"
           }
         },
         "pt-BR" : {
@@ -13694,6 +14354,12 @@
             "value" : "Nieuwe wachttijd toevoegen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj nowy czas oczekiwania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13822,6 +14488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instellingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia"
           }
         },
         "pt-BR" : {
@@ -13954,6 +14626,12 @@
             "value" : "Alcohol"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkohol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14082,6 +14760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godziny"
           }
         },
         "pt-BR" : {
@@ -14214,6 +14898,12 @@
             "value" : "Aan de slag"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaczynamy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14342,6 +15032,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Werkelijke kosten (optioneel)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rzeczywisty koszt (opcjonalnie)"
           }
         },
         "pt-BR" : {
@@ -14475,6 +15171,12 @@
             "value" : "Handige tips"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przydatne wskazówki"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14603,6 +15305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pictogram"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikona"
           }
         },
         "pt-BR" : {
@@ -14735,6 +15443,12 @@
             "value" : "Item"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pozycja"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14865,6 +15579,12 @@
             "value" : "Items zoeken..."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szukaj pozycji..."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14993,6 +15713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naleving per item"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przestrzeganie według pozycji"
           }
         },
         "pt-BR" : {
@@ -15126,6 +15852,12 @@
             "value" : "Gebruik de belangrijkste functies met alleen een toetsenbord op iPad of Mac."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korzystaj z głównych funkcji, używając tylko klawiatury na iPadzie lub Macu."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15255,6 +15987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bekijk dezelfde wachttijden op je iPhone en iPad."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobacz te same czasy oczekiwania na iPhonie i iPadzie."
           }
         },
         "pt-BR" : {
@@ -15387,6 +16125,12 @@
             "value" : "Nog geen wachttijden. Voeg er eens een toe!"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak czasów oczekiwania. Spróbuj dodać pierwszy!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15515,6 +16259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nog geen wachttijden. Voeg er een toe uit de sjablonen of maak je eigen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak czasów oczekiwania. Dodaj z szablonów lub utwórz własny"
           }
         },
         "pt-BR" : {
@@ -15647,6 +16397,12 @@
             "value" : "Nog geen wachttijden"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak czasów oczekiwania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15775,6 +16531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nog geen activiteit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak aktywności"
           }
         },
         "pt-BR" : {
@@ -15907,6 +16669,12 @@
             "value" : "Mis geen\nenkele melding"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie przegap\nżadnego powiadomienia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16037,6 +16805,12 @@
             "value" : "Meldingen staan uit. Tik op de knop Instellingen om ze aan te zetten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiadomienia są wyłączone. Stuknij przycisk Ustawienia, aby je włączyć"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16165,6 +16939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meldingen staan uit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiadomienia są wyłączone"
           }
         },
         "pt-BR" : {
@@ -16298,6 +17078,12 @@
             "value" : "Subtiele hints over handige functies, precies wanneer je ze nodig hebt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtelne podpowiedzi o przydatnych funkcjach, dokładnie wtedy, gdy ich potrzebujesz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16428,6 +17214,12 @@
             "value" : "Nachtelijke snack"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nocna przekąska"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16556,6 +17348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nachtelijke snack om de vijf dagen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nocna przekąska raz na 5 dni"
           }
         },
         "pt-BR" : {
@@ -16689,6 +17487,12 @@
             "value" : "De eerste keer dat je de app na een update opent, zie je wat er nieuw is."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przy pierwszym otwarciu po aktualizacji zobaczysz, co nowego."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16818,6 +17622,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat is er nieuw"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co nowego"
           }
         },
         "pt-BR" : {
@@ -16950,6 +17760,12 @@
             "value" : "Bioscoop"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kino"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17078,6 +17894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bioscoop om de twee weken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kino raz na 2 tygodnie"
           }
         },
         "pt-BR" : {
@@ -17210,6 +18032,12 @@
             "value" : "Geschatte kosten (optioneel)"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szacowany koszt (opcjonalnie)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17338,6 +18166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geschatte besparing"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szac. oszczędności"
           }
         },
         "pt-BR" : {
@@ -17470,6 +18304,12 @@
             "value" : "Geschat: ₩%@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szacunkowo: ₩%@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17598,6 +18438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wachttijden van vandaag"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiejsze czasy oczekiwania"
           }
         },
         "pt-BR" : {
@@ -17730,6 +18576,12 @@
             "value" : "Kleding kopen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupy odzieżowe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17858,6 +18710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kleding om de twee weken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubrania raz na 2 tygodnie"
           }
         },
         "pt-BR" : {
@@ -17990,6 +18848,12 @@
             "value" : "Klaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotowe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18118,6 +18982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waarom gebruik je het?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dlaczego to używasz?"
           }
         },
         "pt-BR" : {
@@ -18250,6 +19120,12 @@
             "value" : "Uit eten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedzenie na mieście"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18380,6 +19256,12 @@
             "value" : "Uit eten één keer per week"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedzenie na mieście raz w tygodniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18508,6 +19390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Een trainingsvrije dag om de drie dagen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzień bez treningu raz na 3 dni"
           }
         },
         "pt-BR" : {
@@ -18641,6 +19529,12 @@
             "value" : "Verminder beweging"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redukcja ruchu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18770,6 +19664,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Met Verminder beweging aan worden schermeffecten rustiger."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przy włączonej Redukcji ruchu efekty na ekranie stają się spokojniejsze."
           }
         },
         "pt-BR" : {
@@ -18903,6 +19803,12 @@
             "value" : "Wis je hele wachttijdgeschiedenis vanuit de app wanneer je wilt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W dowolnej chwili usuń całą historię czasów oczekiwania w aplikacji."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19031,6 +19937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alcohol om de drie dagen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkohol raz na 3 dni"
           }
         },
         "pt-BR" : {
@@ -19163,6 +20075,12 @@
             "value" : "Naam"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nazwa"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19291,6 +20209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mail ons"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napisz e-mail"
           }
         },
         "pt-BR" : {
@@ -19423,6 +20347,12 @@
             "value" : "Geschatte besparing deze maand: %lld won"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szacowane oszczędności w tym miesiącu: %lld won"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19551,6 +20481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram-DM (@lee25_ios)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiadomość na Instagramie (@lee25_ios)"
           }
         },
         "pt-BR" : {
@@ -19683,6 +20619,12 @@
             "value" : "Dagen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dni"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19811,6 +20753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veelvoorkomende wachttijden\nTik op een wachttijd om die meteen toe te voegen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Popularne czasy oczekiwania\nStuknij jeden, aby od razu dodać"
           }
         },
         "pt-BR" : {
@@ -19943,6 +20891,12 @@
             "value" : "Elektronica"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronika"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20071,6 +21025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elektronica om de zes maanden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronika raz na 6 miesięcy"
           }
         },
         "pt-BR" : {
@@ -20203,6 +21163,12 @@
             "value" : "Totale naleving"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne przestrzeganie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20331,6 +21297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zie hoeveel\nje hebt bespaard"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobacz, ile\nzaoszczędziłeś(-aś)"
           }
         },
         "pt-BR" : {
@@ -20463,6 +21435,12 @@
             "value" : "Weken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tygodnie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20591,6 +21569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aandelenhandel"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handel akcjami"
           }
         },
         "pt-BR" : {
@@ -20723,6 +21707,12 @@
             "value" : "Naleving"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przestrzeganie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20851,6 +21841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naleefpercentage: %lld procent"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wskaźnik przestrzegania: %lld procent"
           }
         },
         "pt-BR" : {
@@ -20983,6 +21979,12 @@
             "value" : "Naleefpercentage en statistieken per categorie\nhelpen je betere gewoontes op te bouwen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wskaźnik przestrzegania i statystyki według kategorii\npomogą budować lepsze nawyki"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21111,6 +22113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nu gebruiken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Użyj teraz"
           }
         },
         "pt-BR" : {
@@ -21243,6 +22251,12 @@
             "value" : "Als je het nu gebruikt, daalt je naleefpercentage"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeśli użyjesz tego teraz, spadnie Twój wskaźnik przestrzegania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21371,6 +22385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc"
           }
         },
         "pt-BR" : {
@@ -21503,6 +22523,12 @@
             "value" : "Zelf toevoegen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj własny"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21631,6 +22657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gebruik in totaal"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystkich użyć"
           }
         },
         "pt-BR" : {
@@ -21763,6 +22795,12 @@
             "value" : "Items in totaal"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystkich pozycji"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21891,6 +22929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Totale uitgaven (geschat)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łączne wydatki (szac.)"
           }
         },
         "pt-BR" : {
@@ -22023,6 +23067,12 @@
             "value" : "Recente activiteit"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnia aktywność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22151,6 +23201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voeg toe"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj"
           }
         },
         "pt-BR" : {
@@ -22283,6 +23339,12 @@
             "value" : "Aanbevolen sjablonen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polecane szablony"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22411,6 +23473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geen impulshandel, één keer per week"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unikaj impulsywnych transakcji, raz w tygodniu"
           }
         },
         "pt-BR" : {
@@ -22543,6 +23611,12 @@
             "value" : "Impulsaankoop"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakup impulsywny"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22671,6 +23745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impulsaankopen maar één keer per week"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupy impulsywne tylko raz w tygodniu"
           }
         },
         "pt-BR" : {
@@ -22803,6 +23883,12 @@
             "value" : "Annuleer"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anuluj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22931,6 +24017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheatday"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day"
           }
         },
         "pt-BR" : {
@@ -23063,6 +24155,12 @@
             "value" : "Categorie"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategoria"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23191,6 +24289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Per categorie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Według kategorii"
           }
         },
         "pt-BR" : {
@@ -23323,6 +24427,12 @@
             "value" : "Café"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kawiarnia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23451,6 +24561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koffie om de dag"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kawa co drugi dzień"
           }
         },
         "pt-BR" : {
@@ -23583,6 +24699,12 @@
             "value" : "Concert / show"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koncert / występ"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23708,6 +24830,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -23844,6 +24972,12 @@
             "value" : "Bewaar je wachttijdgeschiedenis in een bestand en haal die later terug."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz historię czasów oczekiwania do pliku i przywróć ją później."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23972,6 +25106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wachttijd doorbreken en gebruiken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Złam czas oczekiwania i użyj"
           }
         },
         "pt-BR" : {
@@ -24104,6 +25244,12 @@
             "value" : "Wachttijd doorbreken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Złam czas oczekiwania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24232,6 +25378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doorbroken wachttijden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Złamane czasy oczekiwania"
           }
         },
         "pt-BR" : {
@@ -24364,6 +25516,12 @@
             "value" : "Wachttijd resetten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zresetuj czas oczekiwania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24492,6 +25650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zet ze aan in Instellingen om een melding te krijgen als een wachttijd afloopt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Włącz je w Ustawieniach, aby dostawać alert o końcu czasu oczekiwania"
           }
         },
         "pt-BR" : {
@@ -24624,6 +25788,12 @@
             "value" : "Duur van de wachttijd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Długość czasu oczekiwania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24754,6 +25924,12 @@
             "value" : "In wachttijd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W oczekiwaniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24882,6 +26058,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In wachttijd (%lld)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W oczekiwaniu (%lld)"
           }
         },
         "pt-BR" : {
@@ -25170,6 +26352,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycja w oczekiwaniu"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycje w oczekiwaniu"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycji w oczekiwaniu"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pozycji w oczekiwaniu"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -25336,6 +26548,12 @@
             "value" : "Wachttijd loopt!"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trwa czas oczekiwania!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25464,6 +26682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Houd impulsen in toom\nmet wachttijden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panuj nad impulsami\nza pomocą czasów oczekiwania"
           }
         },
         "pt-BR" : {
@@ -25596,6 +26820,12 @@
             "value" : "Elke keer dat je een wachttijd volhoudt,\nlaten we zien hoeveel je hebt bespaard"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Za każdym razem, gdy dotrzymasz czasu oczekiwania,\npokażemy, ile zaoszczędziłeś(-aś)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25724,6 +26954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "We laten het weten als een wachttijd afloopt\nJe kunt het ook in de widget zien"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiemy Ci, gdy czas oczekiwania się skończy\nMożesz też sprawdzić w widżecie"
           }
         },
         "pt-BR" : {
@@ -25857,6 +27093,12 @@
             "value" : "Indelingen voor grotere tekst"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Układy dla większego tekstu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25985,6 +27227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grote uitgaven één keer per maand"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duże wydatki raz w miesiącu"
           }
         },
         "pt-BR" : {
@@ -26118,6 +27366,12 @@
             "value" : "Toetsenbordbediening"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sterowanie klawiaturą"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26246,6 +27500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksówka"
           }
         },
         "pt-BR" : {
@@ -26378,6 +27638,12 @@
             "value" : "Taxi om de drie dagen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taksówka raz na 3 dni"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26506,6 +27772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tik om te gebruiken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij, aby użyć"
           }
         },
         "pt-BR" : {
@@ -26638,6 +27910,12 @@
             "value" : "Tik om de wachttijd te doorbreken, houd ingedrukt voor meer opties"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij, aby złamać czas oczekiwania, przytrzymaj, aby zobaczyć więcej opcji"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26766,6 +28044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sjablonen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szablony"
           }
         },
         "pt-BR" : {
@@ -26898,6 +28182,12 @@
             "value" : "Toevoegen uit sjablonen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj z szablonów"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27026,6 +28316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voeg er een toe uit de sjablonen\nof maak je eigen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj z szablonów\nlub utwórz własny"
           }
         },
         "pt-BR" : {
@@ -27158,6 +28454,12 @@
             "value" : "Statistieken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statystyki"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27286,6 +28588,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Statistieken bekijken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokaż statystyki"
           }
         },
         "pt-BR" : {
@@ -27418,6 +28726,12 @@
             "value" : "Fastfood"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27546,6 +28860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fastfood om de vijf dagen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food raz na 5 dni"
           }
         },
         "pt-BR" : {
@@ -27679,6 +28999,12 @@
             "value" : "Indeling voor opvouwbare iPhone"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Układ dla składanego iPhone’a"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27808,6 +29134,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gebruik het brede scherm van een opvouwbare iPhone als twee panelen naast elkaar."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wykorzystaj szeroki ekran składanego iPhone’a jako dwa panele obok siebie."
           }
         },
         "pt-BR" : {
@@ -27940,6 +29272,12 @@
             "value" : "Eén reis in eigen land per maand"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedna podróż krajowa w miesiącu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28068,6 +29406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buitenlandse reis"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podróż zagraniczna"
           }
         },
         "pt-BR" : {
@@ -28200,6 +29544,12 @@
             "value" : "Eén buitenlandse reis per twee maanden is meer dan genoeg"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podróż zagraniczna raz na 2 miesiące w zupełności wystarczy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28330,6 +29680,12 @@
             "value" : "Hotelverblijf"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pobyt w hotelu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28458,6 +29814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotelontspanning om de drie weken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotelowy relaks raz na 3 tygodnie"
           }
         },
         "pt-BR" : {
@@ -28591,6 +29953,12 @@
             "value" : "VoiceOver leest elke knop en elk detail voor, in de juiste volgorde."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver czyta każdy przycisk i szczegół w odpowiedniej kolejności."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28719,6 +30087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rustdag (training overslaan)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzień odpoczynku (bez treningu)"
           }
         },
         "pt-BR" : {
