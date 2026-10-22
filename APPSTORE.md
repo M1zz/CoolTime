@@ -549,3 +549,58 @@ Notifiche e widget
 Ricevi una notifica a metà ricarica e alla fine, e controlla il tempo rimanente direttamente nei widget della schermata Home e del blocco schermo.
 
 I tuoi dati restano su questo dispositivo e non serve alcun account.
+
+## pt-BR
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/pt-BR/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/pt-BR/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/pt-BR/
+
+### 이름
+
+CoolTime: freio nas compras
+
+### 부제
+
+Espere antes de gastar
+
+### 키워드
+
+economia,hábitos,autocontrole,orçamento,dinheiro,desafio,sem gastos,delivery,café,bebida,timer
+
+### 프로모션 텍스트
+
+Coloque uma recarga no que você quer segurar. Veja quanto falta para poder fazer de novo e crie o hábito de esperar com calma.
+
+### 설명
+
+Delivery, compras, sobremesa na cafeteria. Quando bater a vontade de gastar, coloque uma recarga, como numa habilidade de jogo.
+O CoolTime é um app de hábitos de consumo: você espera a recarga terminar e vê quanto economizou por se segurar.
+
+Defina uma recarga
+Para cada item, escolha um nome, um emoji, quanto esperar antes de usar de novo e quanto custa cada vez. Períodos comuns, como 3 dias, 1 semana ou 1 mês, saem com um toque.
+
+O que está disponível, num relance
+A tela inicial separa os itens disponíveis dos que estão em recarga, e um medidor circular vai diminuindo com o tempo restante.
+
+Mais uma pausa antes de quebrar
+Se você tentar usar algo durante a recarga, o app mostra o tempo restante e avisa que sua taxa de cumprimento vai cair. Se mesmo assim precisar, dá para deixar uma observação e o custo real.
+
+Taxa de cumprimento e economia estimada
+Veja com que frequência você cumpriu as recargas e quanto economizou neste mês. As estatísticas mostram o cumprimento por item e por categoria, além do histórico de uso.
+
+Modelos recomendados
+Adicione com um toque recargas comuns de viagens, compras, comida, entretenimento, estilo de vida, saúde e finanças.
+
+Notificações e widgets
+Receba um aviso na metade da recarga e quando ela terminar, e confira o tempo restante direto nos widgets da Tela de Início e da Tela Bloqueada.
+
+Seus registros ficam só neste dispositivo e não é preciso ter conta.

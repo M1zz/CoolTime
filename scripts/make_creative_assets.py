@@ -21,7 +21,7 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일. 쿨타임은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
+STORE = {"ko": "ko", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -40,6 +40,7 @@ SEARCH = {
     "de": ("CoolTime Timer", "Was du dir verkneifst,<br>bleibt im Geldbeutel", "Lieferdienst und Shopping erst nach der Abklingzeit"),
     "fr": ("Minuteur CoolTime", "Ce que vous retenez<br>reste dans votre poche", "Livraison et shopping attendent la fin de la recharge"),
     "it": ("Timer CoolTime", "Quello che eviti<br>resta in tasca", "Consegne e shopping aspettano la fine della ricarica"),
+    "pt-BR": ("Timer CoolTime", "O que você segura<br>fica no bolso", "Delivery e compras esperam a recarga terminar"),
 }
 
 # 헤더 — 처음 온 사람에게 한 가지 약속: 지르고 싶을 때 게임 스킬처럼 쿨타임을 건다.
@@ -52,6 +53,7 @@ HEADER = {
     "de": ("Ausgaben-Abklingzeit", "Erst Abklingzeit,<br>dann kaufen"),
     "fr": ("Recharge des dépenses", "La recharge d’abord,<br>l’achat ensuite"),
     "it": ("Ricarica delle spese", "Prima la ricarica,<br>poi l’acquisto"),
+    "pt-BR": ("Recarga de gastos", "Primeiro a recarga,<br>depois a compra"),
 }
 
 # 바탕 · 글자색은 앱 화면(AppTheme)과 같다: 밝은 회색 페이지, 에메랄드 그린(사용 가능),

@@ -64,3 +64,9 @@ Nouvelles pages de confidentialité
 Corretti problemi per più stabilità
 Ora puoi inviare feedback dall’app
 Nuove pagine di privacy e assistenza
+
+### 앱스토어 (pt-BR)
+
+Corrigimos problemas de estabilidade
+Agora dá para enviar feedback no app
+Novas páginas de privacidade e ajuda

@@ -51,6 +51,12 @@
             "value" : "%@ %@, 사용 가능"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, disponível"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -113,6 +119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, 쿨타임 %@ 남음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, recarga: faltam %@"
           }
         },
         "zh-Hans" : {
@@ -179,6 +191,12 @@
             "value" : "%@ 절반 달성!"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Metade do caminho!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -241,6 +259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 쿨타임 종료!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Recarga concluída!"
           }
         },
         "zh-Hans" : {
@@ -307,6 +331,12 @@
             "value" : "%@ 쿨타임의 절반을 지났어요! 조금만 더 힘내세요 💪"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você passou da metade da recarga de %@! Falta pouco, continue firme 💪"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -369,6 +399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 쿨타임이 끝났어요. 이제 사용할 수 있어요!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A recarga de %@ terminou. Agora você já pode usar!"
           }
         },
         "zh-Hans" : {
@@ -507,6 +543,24 @@
             "value" : "%lld개"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld itens"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -569,6 +623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개월"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mês"
           }
         },
         "zh-Hans" : {
@@ -707,6 +767,24 @@
             "value" : "%lld개월마다"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld mês"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld meses"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -769,6 +847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld분"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         },
         "zh-Hans" : {
@@ -835,6 +919,12 @@
             "value" : "%lld분 %lld초"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld s"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -899,6 +989,12 @@
             "value" : "%lld시간"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -961,6 +1057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld시간 %lld분"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h %lld min"
           }
         },
         "zh-Hans" : {
@@ -1099,6 +1201,24 @@
             "value" : "%lld시간마다"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld hora"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld horas"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1163,6 +1283,12 @@
             "value" : "%lld일"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1225,6 +1351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld일 %lld시간"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d %lld h"
           }
         },
         "zh-Hans" : {
@@ -1363,6 +1495,24 @@
             "value" : "%lld일마다"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld dia"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld dias"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1425,6 +1575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld주"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sem"
           }
         },
         "zh-Hans" : {
@@ -1563,6 +1719,24 @@
             "value" : "%lld주마다"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld semana"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "A cada %lld semanas"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1625,6 +1799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld초"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
           }
         },
         "zh-Hans" : {
@@ -1763,6 +1943,24 @@
             "value" : "%lld회"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld vez"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld vezes"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1899,6 +2097,24 @@
             "value" : "%lld회 사용"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld uso"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld usos"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1961,6 +2177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 검색 결과 없음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum resultado para “%@”"
           }
         },
         "zh-Hans" : {
@@ -2027,6 +2249,12 @@
             "value" : "1개월"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 mês"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2089,6 +2317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1주"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 sem"
           }
         },
         "zh-Hans" : {
@@ -2155,6 +2389,12 @@
             "value" : "2개월"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 meses"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2219,6 +2459,12 @@
             "value" : "2주"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 sem"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2281,6 +2527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3일"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 d"
           }
         },
         "zh-Hans" : {
@@ -2348,6 +2600,12 @@
             "value" : "Face ID 잠금"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueio com Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2411,6 +2669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 내 쿨타임 기록을 지켜요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueie o app com Face ID ou Touch ID para manter seu histórico privado."
           }
         },
         "zh-Hans" : {
@@ -2478,6 +2742,12 @@
             "value" : "Siri에게 말하거나 단축어로 바로 사용 기록을 남겨요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registre um uso na hora pedindo à Siri ou executando um atalho."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2541,6 +2811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri와 단축어"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri e Atalhos"
           }
         },
         "zh-Hans" : {
@@ -2608,6 +2884,12 @@
             "value" : "VoiceOver로 더 편하게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melhor suporte ao VoiceOver"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2670,6 +2952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "값"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valor"
           }
         },
         "zh-Hans" : {
@@ -2736,6 +3024,12 @@
             "value" : "개발자에게 문의"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falar com o desenvolvedor"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2798,6 +3092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "개월"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meses"
           }
         },
         "zh-Hans" : {
@@ -2864,6 +3164,12 @@
             "value" : "건너뛰기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pular"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2926,6 +3232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "검색 결과 없음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum resultado"
           }
         },
         "zh-Hans" : {
@@ -2992,6 +3304,12 @@
             "value" : "검색어 지우기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limpar busca"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3054,6 +3372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "게임 과금"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras em jogos"
           }
         },
         "zh-Hans" : {
@@ -3120,6 +3444,12 @@
             "value" : "게임 과금은 2주에 한 번"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras em jogos a cada 2 semanas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3182,6 +3512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "게임의 스킬 쿨타임처럼\n소비와 행동에 대기 시간을 설정해요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Como a recarga de uma habilidade em um jogo,\ndefina um tempo de espera para gastos e hábitos"
           }
         },
         "zh-Hans" : {
@@ -3248,6 +3584,12 @@
             "value" : "경고: 쿨타임 중입니다. 지금 사용하면 준수율이 낮아집니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aviso: em recarga. Se usar agora, sua taxa de cumprimento vai cair"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3310,6 +3652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "계속 힘내기 💪"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue assim 💪"
           }
         },
         "zh-Hans" : {
@@ -3376,6 +3724,12 @@
             "value" : "고가 쇼핑 (10만원+)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compra grande (acima de ₩100.000)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3438,6 +3792,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "곧!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já já!"
           }
         },
         "zh-Hans" : {
@@ -3504,6 +3864,12 @@
             "value" : "공연은 2달에 한 번"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um show a cada 2 meses"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3566,6 +3932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "국내여행"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viagem nacional"
           }
         },
         "zh-Hans" : {
@@ -3633,6 +4005,12 @@
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As telas se reorganizam direitinho em vez de serem cortadas quando você aumenta o texto."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3696,6 +4074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기기 간 동기화"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronização entre dispositivos"
           }
         },
         "zh-Hans" : {
@@ -3762,6 +4146,12 @@
             "value" : "기본 정보"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informações básicas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3824,6 +4214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "깨기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quebrar"
           }
         },
         "zh-Hans" : {
@@ -3890,6 +4286,12 @@
             "value" : "깬 횟수"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vezes quebradas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3952,6 +4354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "나만의 통계로\n습관을 분석하세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analise seus hábitos\ncom estatísticas próprias"
           }
         },
         "zh-Hans" : {
@@ -4018,6 +4426,12 @@
             "value" : "나중에"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depois"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4080,6 +4494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "남은 시간: %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo restante: %@"
           }
         },
         "zh-Hans" : {
@@ -4147,6 +4567,12 @@
             "value" : "내 데이터 한 번에 지우기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagar todos os seus dados"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4209,6 +4635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네일아트"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manicure"
           }
         },
         "zh-Hans" : {
@@ -4275,6 +4707,12 @@
             "value" : "네일은 3주에 한 번"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manicure a cada 3 semanas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4337,6 +4775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "넷플릭스 빈지워칭"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maratona de séries"
           }
         },
         "zh-Hans" : {
@@ -4403,6 +4847,12 @@
             "value" : "다른 키워드로 검색해보세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tente outra palavra-chave"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4465,6 +4915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avançar"
           }
         },
         "zh-Hans" : {
@@ -4531,6 +4987,12 @@
             "value" : "다이어트 치팅은 주 1회"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dia do lixo da dieta uma vez por semana"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4595,6 +5057,12 @@
             "value" : "단위"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unidade"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4657,6 +5125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "달달한 건 4일에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doces a cada 4 dias"
           }
         },
         "zh-Hans" : {
@@ -4724,6 +5198,12 @@
             "value" : "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tudo continua legível, mesmo com Aumentar Contraste ligado ou se for difícil distinguir as cores."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4787,6 +5267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use o app em mais idiomas."
           }
         },
         "zh-Hans" : {
@@ -4854,6 +5340,12 @@
             "value" : "더 많은 언어"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais idiomas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4916,6 +5408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "디저트"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobremesa"
           }
         },
         "zh-Hans" : {
@@ -4982,6 +5480,12 @@
             "value" : "로또"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loteria"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5044,6 +5548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "로또는 주 1회"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loteria uma vez por semana"
           }
         },
         "zh-Hans" : {
@@ -5110,6 +5620,12 @@
             "value" : "마사지/스파"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massagem / spa"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5172,6 +5688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마사지는 2주에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massagem a cada 2 semanas"
           }
         },
         "zh-Hans" : {
@@ -5238,6 +5760,12 @@
             "value" : "메모 (선택)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Observação (opcional)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5300,6 +5828,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모든 아이템이 쿨타임 중이에요. %lld개 대기 중!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tudo está em recarga. Aguardando: %lld"
           }
         },
         "zh-Hans" : {
@@ -5366,6 +5900,12 @@
             "value" : "몰아보기는 3일에 한 번"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maratona de séries a cada 3 dias"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5428,6 +5968,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미용실"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabeleireiro"
           }
         },
         "zh-Hans" : {
@@ -5494,6 +6040,12 @@
             "value" : "미용실은 한 달에 한 번"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabeleireiro uma vez por mês"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5558,6 +6110,12 @@
             "value" : "배달은 3일에 한 번"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delivery a cada 3 dias"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5620,6 +6178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "배달음식"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delivery de comida"
           }
         },
         "zh-Hans" : {
@@ -5687,6 +6251,12 @@
             "value" : "백업과 내보내기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup e exportação"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5749,6 +6319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "버그 제보와 기능 제안을 환영합니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relatos de bugs e sugestões de recursos são bem-vindos."
           }
         },
         "zh-Hans" : {
@@ -5816,6 +6392,12 @@
             "value" : "보기 편한 색과 대비"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cores e contraste mais confortáveis"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5878,6 +6460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비용을 입력하면 절약 금액을 계산해드려요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informe o custo e calculamos quanto você economizou"
           }
         },
         "zh-Hans" : {
@@ -5944,6 +6532,12 @@
             "value" : "사용"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6008,6 +6602,12 @@
             "value" : "사용 가능"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponível"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6070,6 +6670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용 가능 %lld개"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponíveis (%lld)"
           }
         },
         "zh-Hans" : {
@@ -6208,6 +6814,24 @@
             "value" : "사용 가능한 아이템 %lld개"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item disponível"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld itens disponíveis"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6270,6 +6894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용 가능한 아이템 %lld개! 쿨타임 중 %lld개"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponíveis: %lld · Em recarga: %lld"
           }
         },
         "zh-Hans" : {
@@ -6336,6 +6966,12 @@
             "value" : "사용 완료"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6398,6 +7034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar"
           }
         },
         "zh-Hans" : {
@@ -6464,6 +7106,12 @@
             "value" : "삭제"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluir"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6526,6 +7174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "상세 기록"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Histórico detalhado"
           }
         },
         "zh-Hans" : {
@@ -6592,6 +7246,12 @@
             "value" : "새 쿨타임"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova recarga"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6654,6 +7314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "새 쿨타임 추가"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar nova recarga"
           }
         },
         "zh-Hans" : {
@@ -6720,6 +7386,12 @@
             "value" : "설정"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6782,6 +7454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "술 마시기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bebida alcoólica"
           }
         },
         "zh-Hans" : {
@@ -6848,6 +7526,12 @@
             "value" : "시간"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6912,6 +7596,12 @@
             "value" : "시작하기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6974,6 +7664,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "실제 비용 (선택)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custo real (opcional)"
           }
         },
         "zh-Hans" : {
@@ -7041,6 +7737,12 @@
             "value" : "쓰는 요령 알려 주기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dicas úteis"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7103,6 +7805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이콘"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ícone"
           }
         },
         "zh-Hans" : {
@@ -7169,6 +7877,12 @@
             "value" : "아이템"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Item"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7233,6 +7947,12 @@
             "value" : "아이템 검색..."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar itens..."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7295,6 +8015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이템별 준수율"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumprimento por item"
           }
         },
         "zh-Hans" : {
@@ -7362,6 +8088,12 @@
             "value" : "아이패드나 맥에서 키보드만으로 주요 기능을 쓸 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use os principais recursos só com o teclado no iPad ou no Mac."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7425,6 +8157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이폰과 아이패드에서 같은 쿨타임을 이어서 봐요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veja as mesmas recargas no iPhone e no iPad."
           }
         },
         "zh-Hans" : {
@@ -7491,6 +8229,12 @@
             "value" : "아직 쿨타임 아이템이 없어요. 추가해보세요!"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ainda não há recargas. Que tal adicionar uma?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7553,6 +8297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 쿨타임이 없습니다. 템플릿에서 추가하거나 직접 만들어보세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ainda não há recargas. Adicione uma dos modelos ou crie a sua"
           }
         },
         "zh-Hans" : {
@@ -7619,6 +8369,12 @@
             "value" : "아직 쿨타임이 없어요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ainda não há recargas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7681,6 +8437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 활동이 없어요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ainda não há atividade"
           }
         },
         "zh-Hans" : {
@@ -7747,6 +8509,12 @@
             "value" : "알림으로\n놓치지 마세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não perca\nnenhum aviso"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7811,6 +8579,12 @@
             "value" : "알림이 꺼져있습니다. 설정 버튼을 눌러 알림을 켜세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As notificações estão desativadas. Toque no botão Ajustes para ativá-las"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7873,6 +8647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알림이 꺼져있어요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As notificações estão desativadas"
           }
         },
         "zh-Hans" : {
@@ -7940,6 +8720,12 @@
             "value" : "알아 두면 편한 기능을 알맞은 때에 살짝 알려 줘요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dicas discretas sobre recursos úteis, na hora certa."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8004,6 +8790,12 @@
             "value" : "야식"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanche da madrugada"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8066,6 +8858,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "야식은 5일에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanche da madrugada a cada 5 dias"
           }
         },
         "zh-Hans" : {
@@ -8133,6 +8931,12 @@
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na primeira vez que abrir o app depois de uma atualização, veja as novidades."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8196,6 +9000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "업데이트 소식"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novidades"
           }
         },
         "zh-Hans" : {
@@ -8262,6 +9072,12 @@
             "value" : "영화관"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cinema"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8324,6 +9140,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영화는 2주에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cinema a cada 2 semanas"
           }
         },
         "zh-Hans" : {
@@ -8390,6 +9212,12 @@
             "value" : "예상 비용 (선택)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custo estimado (opcional)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8452,6 +9280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예상 절약"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Economia est."
           }
         },
         "zh-Hans" : {
@@ -8518,6 +9352,12 @@
             "value" : "예상: ₩%@"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estimado: ₩%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8580,6 +9420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘의 쿨타임"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recargas de hoje"
           }
         },
         "zh-Hans" : {
@@ -8646,6 +9492,12 @@
             "value" : "옷 쇼핑"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras de roupas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8708,6 +9560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "옷은 2주에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roupas a cada 2 semanas"
           }
         },
         "zh-Hans" : {
@@ -8774,6 +9632,12 @@
             "value" : "완료"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluir"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8836,6 +9700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "왜 사용하나요?"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por que você vai usar?"
           }
         },
         "zh-Hans" : {
@@ -8902,6 +9772,12 @@
             "value" : "외식"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comer fora"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8966,6 +9842,12 @@
             "value" : "외식은 주 1회"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comer fora uma vez por semana"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9028,6 +9910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "운동 쉬는 날은 3일에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um dia de descanso do treino a cada 3 dias"
           }
         },
         "zh-Hans" : {
@@ -9095,6 +9983,12 @@
             "value" : "움직임 줄이기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduzir movimento"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9158,6 +10052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com Reduzir Movimento ligado, os efeitos na tela ficam mais calmos."
           }
         },
         "zh-Hans" : {
@@ -9225,6 +10125,12 @@
             "value" : "원하면 앱 안에서 쿨타임 기록을 모두 지울 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apague todo o histórico de recargas dentro do app quando quiser."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9287,6 +10193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "음주는 3일에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bebida alcoólica a cada 3 dias"
           }
         },
         "zh-Hans" : {
@@ -9353,6 +10265,12 @@
             "value" : "이름"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9415,6 +10333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이메일로 문의하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar e-mail"
           }
         },
         "zh-Hans" : {
@@ -9481,6 +10405,12 @@
             "value" : "이번 달 예상 절약 금액 %lld원"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Economia estimada neste mês: %lld wons"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9543,6 +10473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM no Instagram (@lee25_ios)"
           }
         },
         "zh-Hans" : {
@@ -9609,6 +10545,12 @@
             "value" : "일"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dias"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9671,6 +10613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "자주 사용하는 쿨타임 항목들이에요\n탭해서 바로 추가하세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recargas comuns\nToque em uma para adicionar na hora"
           }
         },
         "zh-Hans" : {
@@ -9737,6 +10685,12 @@
             "value" : "전자기기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eletrônicos"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9799,6 +10753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "전자기기는 6개월에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eletrônicos a cada 6 meses"
           }
         },
         "zh-Hans" : {
@@ -9865,6 +10825,12 @@
             "value" : "전체 준수율"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumprimento geral"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9927,6 +10893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "절약 금액을\n확인하세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veja quanto\nvocê economizou"
           }
         },
         "zh-Hans" : {
@@ -9993,6 +10965,12 @@
             "value" : "주"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semanas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10055,6 +11033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "주식 매매"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Day trade"
           }
         },
         "zh-Hans" : {
@@ -10121,6 +11105,12 @@
             "value" : "준수율"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumprimento"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10183,6 +11173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "준수율 %lld퍼센트"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxa de cumprimento: %lld por cento"
           }
         },
         "zh-Hans" : {
@@ -10249,6 +11245,12 @@
             "value" : "준수율과 카테고리별 통계로\n더 나은 습관을 만들어가요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxa de cumprimento e estatísticas por categoria\najudam a criar hábitos melhores"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10311,6 +11313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 사용하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar agora"
           }
         },
         "zh-Hans" : {
@@ -10377,6 +11385,12 @@
             "value" : "지금 사용하면 준수율이 낮아집니다"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usar agora, sua taxa de cumprimento vai cair"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10439,6 +11453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지원"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suporte"
           }
         },
         "zh-Hans" : {
@@ -10505,6 +11525,12 @@
             "value" : "직접 추가"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar a sua"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10567,6 +11593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "총 사용"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total de usos"
           }
         },
         "zh-Hans" : {
@@ -10633,6 +11665,12 @@
             "value" : "총 아이템"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total de itens"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10695,6 +11733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "총 지출 (추정)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gasto total (est.)"
           }
         },
         "zh-Hans" : {
@@ -10761,6 +11805,12 @@
             "value" : "최근 활동"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atividade recente"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10823,6 +11873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추가"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar"
           }
         },
         "zh-Hans" : {
@@ -10889,6 +11945,12 @@
             "value" : "추천 템플릿"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modelos recomendados"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10951,6 +12013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "충동 매매 방지, 주 1회"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Evite operar por impulso, uma vez por semana"
           }
         },
         "zh-Hans" : {
@@ -11017,6 +12085,12 @@
             "value" : "충동구매"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compra por impulso"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11079,6 +12153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "충동구매는 일주일에 한 번만"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras por impulso só uma vez por semana"
           }
         },
         "zh-Hans" : {
@@ -11145,6 +12225,12 @@
             "value" : "취소"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11207,6 +12293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "치팅데이"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dia do lixo"
           }
         },
         "zh-Hans" : {
@@ -11273,6 +12365,12 @@
             "value" : "카테고리"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categoria"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11335,6 +12433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카테고리별"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por categoria"
           }
         },
         "zh-Hans" : {
@@ -11401,6 +12505,12 @@
             "value" : "카페"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cafeteria"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11463,6 +12573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "커피는 이틀에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café a cada dois dias"
           }
         },
         "zh-Hans" : {
@@ -11529,6 +12645,12 @@
             "value" : "콘서트/공연"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show / espetáculo"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11591,6 +12713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
           }
         },
         "zh-Hans" : {
@@ -11658,6 +12786,12 @@
             "value" : "쿨타임 기록을 파일로 저장하고 다시 불러올 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salve o histórico de recargas em um arquivo e traga de volta depois."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11720,6 +12854,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 깨고 사용하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quebrar recarga e usar"
           }
         },
         "zh-Hans" : {
@@ -11786,6 +12926,12 @@
             "value" : "쿨타임 깨기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quebrar recarga"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11848,6 +12994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 깬 횟수"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recargas quebradas"
           }
         },
         "zh-Hans" : {
@@ -11914,6 +13066,12 @@
             "value" : "쿨타임 리셋"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar recarga"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11976,6 +13134,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 종료 알림을 받으려면 설정에서 켜주세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ative nos Ajustes para receber avisos quando uma recarga terminar"
           }
         },
         "zh-Hans" : {
@@ -12042,6 +13206,12 @@
             "value" : "쿨타임 주기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duração da recarga"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12106,6 +13276,12 @@
             "value" : "쿨타임 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em recarga"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12168,6 +13344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 중 %lld개"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em recarga (%lld)"
           }
         },
         "zh-Hans" : {
@@ -12306,6 +13488,24 @@
             "value" : "쿨타임 중인 아이템 %lld개"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item em recarga"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld itens em recarga"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12368,6 +13568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 중입니다!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em recarga!"
           }
         },
         "zh-Hans" : {
@@ -12434,6 +13640,12 @@
             "value" : "쿨타임으로\n충동을 관리하세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controle seus impulsos\ncom recargas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12498,6 +13710,12 @@
             "value" : "쿨타임을 지킬 때마다\n얼마나 절약했는지 알려드려요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toda vez que você cumpre uma recarga,\nmostramos quanto você economizou"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12560,6 +13778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임이 끝나면 알려드릴게요\n위젯으로도 확인할 수 있어요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avisamos quando uma recarga terminar\nVocê também pode conferir no widget"
           }
         },
         "zh-Hans" : {
@@ -12627,6 +13851,12 @@
             "value" : "큰 글씨에 맞춘 화면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layouts para texto maior"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12689,6 +13919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "큰 지출은 한 달에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gastos grandes uma vez por mês"
           }
         },
         "zh-Hans" : {
@@ -12756,6 +13992,12 @@
             "value" : "키보드로 조작하기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controle por teclado"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12818,6 +14060,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "택시"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Táxi"
           }
         },
         "zh-Hans" : {
@@ -12884,6 +14132,12 @@
             "value" : "택시는 3일에 한 번"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Táxi a cada 3 dias"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12946,6 +14200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "탭하여 사용하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque para usar"
           }
         },
         "zh-Hans" : {
@@ -13012,6 +14272,12 @@
             "value" : "탭하여 쿨타임 깨기, 길게 눌러 더 많은 옵션"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque para quebrar a recarga; mantenha pressionado para mais opções"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13074,6 +14340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "템플릿"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modelos"
           }
         },
         "zh-Hans" : {
@@ -13140,6 +14412,12 @@
             "value" : "템플릿에서 추가"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar dos modelos"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13202,6 +14480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "템플릿에서 추가하거나\n직접 만들어보세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicione uma dos modelos\nou crie a sua"
           }
         },
         "zh-Hans" : {
@@ -13268,6 +14552,12 @@
             "value" : "통계"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estatísticas"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13330,6 +14620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "통계 보기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver estatísticas"
           }
         },
         "zh-Hans" : {
@@ -13396,6 +14692,12 @@
             "value" : "패스트푸드"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13458,6 +14760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "패스트푸드는 5일에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food a cada 5 dias"
           }
         },
         "zh-Hans" : {
@@ -13525,6 +14833,12 @@
             "value" : "펼치는 아이폰 화면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout para iPhone dobrável"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13588,6 +14902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use a tela larga de um iPhone dobrável como dois painéis lado a lado."
           }
         },
         "zh-Hans" : {
@@ -13654,6 +14974,12 @@
             "value" : "한 달에 한 번 국내여행"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma viagem nacional por mês"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13716,6 +15042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "해외여행"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viagem internacional"
           }
         },
         "zh-Hans" : {
@@ -13782,6 +15114,12 @@
             "value" : "해외여행은 2달에 한 번이면 충분해요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma viagem internacional a cada 2 meses já é suficiente"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13846,6 +15184,12 @@
             "value" : "호캉스"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotel para relaxar"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13908,6 +15252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "호텔 힐링은 3주에 한 번"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma pausa em hotel a cada 3 semanas"
           }
         },
         "zh-Hans" : {
@@ -13975,6 +15325,12 @@
             "value" : "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O VoiceOver lê cada botão e cada detalhe, na ordem certa."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14037,6 +15393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "휴식의 날 (운동 스킵)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dia de descanso (sem treino)"
           }
         },
         "zh-Hans" : {

@@ -51,6 +51,12 @@
             "value" : "%lld%% 준수"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumprimento de %lld%%"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -185,6 +191,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개"
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld itens"
+                }
+              }
+            }
           }
         },
         "zh-Hans" : {
@@ -323,6 +347,24 @@
             "value" : "%lld개 아이템"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld itens"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -385,6 +427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld분"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         },
         "zh-Hans" : {
@@ -451,6 +499,12 @@
             "value" : "%lld시간"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -513,6 +567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld일"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
           }
         },
         "zh-Hans" : {
@@ -579,6 +639,12 @@
             "value" : "+%lld개 더"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,6 +707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ %lld개 사용 가능"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld disponíveis"
           }
         },
         "zh-Hans" : {
@@ -707,6 +779,12 @@
             "value" : "곧!"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já já!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -769,6 +847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음 쿨타임 종료 시간"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fim da próxima recarga"
           }
         },
         "zh-Hans" : {
@@ -835,6 +919,12 @@
             "value" : "대기 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aguardando"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -897,6 +987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모두 사용 가능"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tudo disponível"
           }
         },
         "zh-Hans" : {
@@ -963,6 +1059,12 @@
             "value" : "모두 사용 가능!"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tudo disponível!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1025,6 +1127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용 가능"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponível"
           }
         },
         "zh-Hans" : {
@@ -1091,6 +1199,12 @@
             "value" : "아이템 추가"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar item"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1153,6 +1267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이번 달 ₩%@ 절약"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ economizados neste mês"
           }
         },
         "zh-Hans" : {
@@ -1219,6 +1339,12 @@
             "value" : "쿨타임"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1283,6 +1409,12 @@
             "value" : "쿨타임 중"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em recarga"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1345,6 +1477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쿨타임 현황을 한눈에 확인하세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas recargas num relance"
           }
         },
         "zh-Hans" : {
