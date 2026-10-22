@@ -9,6 +9,12 @@
             "value" : "%@ %@, ready"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, ready"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20,6 +26,12 @@
     "%@ %@, 쿨타임 %@ 남음" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, cooldown %@ left"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, cooldown %@ left"
@@ -41,6 +53,12 @@
             "value" : "%@ Halfway there!"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Halfway there!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52,6 +70,12 @@
     "%@ 쿨타임 종료!" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Cooldown over!"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Cooldown over!"
@@ -73,6 +97,12 @@
             "value" : "You're halfway through the %@ cooldown! Hang in there 💪"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You're halfway through the %@ cooldown! Hang in there 💪"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -84,6 +114,12 @@
     "%@ 쿨타임이 끝났어요. 이제 사용할 수 있어요!" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ is ready. You can use it now!"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ is ready. You can use it now!"
@@ -117,6 +153,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -128,6 +182,12 @@
     "%lld개월" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldmo"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldmo"
@@ -161,6 +221,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld month"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld months"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -172,6 +250,12 @@
     "%lld분" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldm"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldm"
@@ -193,6 +277,12 @@
             "value" : "%lldm %llds"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldm %llds"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -209,6 +299,12 @@
             "value" : "%lldh"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldh"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -220,6 +316,12 @@
     "%lld시간 %lld분" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldh %lldm"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldh %lldm"
@@ -253,6 +355,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld hour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld hours"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -269,6 +389,12 @@
             "value" : "%lldd"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldd"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -280,6 +406,12 @@
     "%lld일 %lld시간" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldd %lldh"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldd %lldh"
@@ -313,6 +445,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld days"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -324,6 +474,12 @@
     "%lld주" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldw"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldw"
@@ -357,6 +513,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld week"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Every %lld weeks"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -373,6 +547,12 @@
             "value" : "%llds"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%llds"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -384,6 +564,24 @@
     "%lld회" : {
       "localizations" : {
         "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld time"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld times"
+                }
+              }
+            }
+          }
+        },
+        "en-GB" : {
           "variations" : {
             "plural" : {
               "one" : {
@@ -429,6 +627,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld use"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld uses"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -440,6 +656,12 @@
     "'%@' 검색 결과 없음" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results for “%@”"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No results for “%@”"
@@ -461,6 +683,12 @@
             "value" : "1mo"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1mo"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -472,6 +700,12 @@
     "1주" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1w"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1w"
@@ -493,6 +727,12 @@
             "value" : "2mo"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2mo"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -509,6 +749,12 @@
             "value" : "2w"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2w"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -520,6 +766,12 @@
     "3일" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3d"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "3d"
@@ -542,6 +794,12 @@
             "value" : "Face ID lock"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID lock"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -554,6 +812,12 @@
       "comment" : "Roadmap item detail: Face ID lock",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock the app with Face ID or Touch ID to keep your history private."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock the app with Face ID or Touch ID to keep your history private."
@@ -576,6 +840,12 @@
             "value" : "Log a use instantly by asking Siri or running a shortcut."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log a use instantly by asking Siri or running a shortcut."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -588,6 +858,12 @@
       "comment" : "Roadmap item: Siri and Shortcuts",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri and Shortcuts"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri and Shortcuts"
@@ -610,6 +886,12 @@
             "value" : "Better VoiceOver support"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Better VoiceOver support"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -621,6 +903,12 @@
     "값" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Value"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Value"
@@ -642,6 +930,12 @@
             "value" : "Contact the developer"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact the developer"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -653,6 +947,12 @@
     "개월" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Months"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Months"
@@ -674,6 +974,12 @@
             "value" : "Skip"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -685,6 +991,12 @@
     "검색 결과 없음" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No results"
@@ -706,6 +1018,12 @@
             "value" : "Clear search"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear search"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -717,6 +1035,12 @@
     "게임 과금" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In-game purchases"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "In-game purchases"
@@ -738,6 +1062,12 @@
             "value" : "In-game purchases every 2 weeks"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In-game purchases every 2 weeks"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -749,6 +1079,12 @@
     "게임의 스킬 쿨타임처럼\n소비와 행동에 대기 시간을 설정해요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Like skill cooldowns in a game,\nset a waiting time on spending and habits"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Like skill cooldowns in a game,\nset a waiting time on spending and habits"
@@ -770,6 +1106,12 @@
             "value" : "Warning: on cooldown. Using it now will lower your compliance rate"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning: on cooldown. Using it now will lower your compliance rate"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -781,6 +1123,12 @@
     "계속 힘내기 💪" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep going 💪"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep going 💪"
@@ -802,6 +1150,12 @@
             "value" : "Big purchase (₩100,000+)"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big purchase (₩100,000+)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -813,6 +1167,12 @@
     "곧!" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soon!"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soon!"
@@ -834,6 +1194,12 @@
             "value" : "Live shows every 2 months"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live shows every 2 months"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -845,6 +1211,12 @@
     "국내여행" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domestic trip"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Domestic trip"
@@ -867,6 +1239,12 @@
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -879,6 +1257,12 @@
       "comment" : "Roadmap item: sync across devices",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sync across devices"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sync across devices"
@@ -900,6 +1284,12 @@
             "value" : "Basics"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basics"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -911,6 +1301,12 @@
     "깨기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Break"
@@ -932,6 +1328,12 @@
             "value" : "Times broken"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Times broken"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -946,6 +1348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analyze your habits\nwith your own stats"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analyse your habits\nwith your own stats"
           }
         },
         "ko" : {
@@ -964,6 +1372,12 @@
             "value" : "Later"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Later"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -975,6 +1389,12 @@
     "남은 시간: %@" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time left: %@"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time left: %@"
@@ -997,6 +1417,12 @@
             "value" : "Delete all your data"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete all your data"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1008,6 +1434,12 @@
     "네일아트" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nail art"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nail art"
@@ -1029,6 +1461,12 @@
             "value" : "Nails every 3 weeks"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nails every 3 weeks"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1040,6 +1478,12 @@
     "넷플릭스 빈지워칭" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binge-watching"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Binge-watching"
@@ -1061,6 +1505,12 @@
             "value" : "Try a different keyword"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a different keyword"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1072,6 +1522,12 @@
     "다음" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
@@ -1093,6 +1549,12 @@
             "value" : "Diet cheat day once a week"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diet cheat day once a week"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1109,6 +1571,12 @@
             "value" : "Unit"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unit"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1120,6 +1588,12 @@
     "달달한 건 4일에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sweets every 4 days"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sweets every 4 days"
@@ -1142,6 +1616,12 @@
             "value" : "Everything stays readable, even with Increase Contrast on or if colors are hard to tell apart."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything stays readable, even with Increase Contrast on or if colors are hard to tell apart."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1154,6 +1634,12 @@
       "comment" : "Roadmap item detail: more languages",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the app in more languages."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the app in more languages."
@@ -1176,6 +1662,12 @@
             "value" : "More languages"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More languages"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1679,12 @@
     "디저트" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dessert"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dessert"
@@ -1208,6 +1706,12 @@
             "value" : "Lottery"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lottery"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1219,6 +1723,12 @@
     "로또는 주 1회" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lottery once a week"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lottery once a week"
@@ -1240,6 +1750,12 @@
             "value" : "Massage / spa"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massage / spa"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1251,6 +1767,12 @@
     "마사지는 2주에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massage every 2 weeks"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Massage every 2 weeks"
@@ -1272,6 +1794,12 @@
             "value" : "Note (optional)"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note (optional)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1283,6 +1811,12 @@
     "모든 아이템이 쿨타임 중이에요. %lld개 대기 중!" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything is on cooldown. Waiting: %lld"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everything is on cooldown. Waiting: %lld"
@@ -1304,6 +1838,12 @@
             "value" : "Binge-watching every 3 days"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binge-watching every 3 days"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1318,6 +1858,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hair salon"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hairdresser"
           }
         },
         "ko" : {
@@ -1336,6 +1882,12 @@
             "value" : "Hair salon once a month"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hairdresser once a month"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1352,6 +1904,12 @@
             "value" : "Delivery every 3 days"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Takeaways every 3 days"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1363,6 +1921,12 @@
     "배달음식" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Food delivery"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Food delivery"
@@ -1385,6 +1949,12 @@
             "value" : "Backup and export"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup and export"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1396,6 +1966,12 @@
     "버그 제보와 기능 제안을 환영합니다." : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bug reports and feature ideas are welcome."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bug reports and feature ideas are welcome."
@@ -1418,6 +1994,12 @@
             "value" : "Easier colors and contrast"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Easier colors and contrast"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1429,6 +2011,12 @@
     "비용을 입력하면 절약 금액을 계산해드려요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a cost and we'll work out what you saved"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter a cost and we'll work out what you saved"
@@ -1450,6 +2038,12 @@
             "value" : "Use"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1466,6 +2060,12 @@
             "value" : "Ready"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1477,6 +2077,12 @@
     "사용 가능 %lld개" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready (%lld)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready (%lld)"
@@ -1510,6 +2116,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item ready"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items ready"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1521,6 +2145,12 @@
     "사용 가능한 아이템 %lld개! 쿨타임 중 %lld개" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready: %lld · On cooldown: %lld"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready: %lld · On cooldown: %lld"
@@ -1542,6 +2172,12 @@
             "value" : "Done"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1553,6 +2189,12 @@
     "사용하기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use it"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use it"
@@ -1574,6 +2216,12 @@
             "value" : "Delete"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1585,6 +2233,12 @@
     "상세 기록" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detailed log"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detailed log"
@@ -1606,6 +2260,12 @@
             "value" : "New Cooldown"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Cooldown"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1617,6 +2277,12 @@
     "새 쿨타임 추가" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a new cooldown"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a new cooldown"
@@ -1638,6 +2304,12 @@
             "value" : "Settings"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1649,6 +2321,12 @@
     "술 마시기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drinking"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drinking"
@@ -1670,6 +2348,12 @@
             "value" : "Hours"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hours"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1686,6 +2370,12 @@
             "value" : "Get Started"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Started"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1697,6 +2387,12 @@
     "실제 비용 (선택)" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actual cost (optional)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actual cost (optional)"
@@ -1719,6 +2415,12 @@
             "value" : "Handy tips"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handy tips"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1730,6 +2432,12 @@
     "아이콘" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Icon"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Icon"
@@ -1751,6 +2459,12 @@
             "value" : "Item"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Item"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1767,6 +2481,12 @@
             "value" : "Search items..."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search items..."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1778,6 +2498,12 @@
     "아이템별 준수율" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compliance by item"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compliance by item"
@@ -1800,6 +2526,12 @@
             "value" : "Use the main features with just a keyboard on iPad or Mac."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the main features with just a keyboard on iPad or Mac."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1812,6 +2544,12 @@
       "comment" : "Roadmap item detail: sync across devices",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See the same cooldowns on your iPhone and iPad."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "See the same cooldowns on your iPhone and iPad."
@@ -1833,6 +2571,12 @@
             "value" : "No cooldowns yet. Try adding one!"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No cooldowns yet. Try adding one!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1844,6 +2588,12 @@
     "아직 쿨타임이 없습니다. 템플릿에서 추가하거나 직접 만들어보세요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No cooldowns yet. Add one from templates or create your own"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No cooldowns yet. Add one from templates or create your own"
@@ -1865,6 +2615,12 @@
             "value" : "No cooldowns yet"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No cooldowns yet"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1876,6 +2632,12 @@
     "아직 활동이 없어요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No activity yet"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No activity yet"
@@ -1897,6 +2659,12 @@
             "value" : "Never miss\na notification"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Never miss\na notification"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1913,6 +2681,12 @@
             "value" : "Notifications are off. Tap the Settings button to turn them on"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications are off. Tap the Settings button to turn them on"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1924,6 +2698,12 @@
     "알림이 꺼져있어요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications are off"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notifications are off"
@@ -1946,6 +2726,12 @@
             "value" : "Gentle hints about useful features, right when you need them."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gentle hints about useful features, right when you need them."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1962,6 +2748,12 @@
             "value" : "Late-night snack"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Late-night snack"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1973,6 +2765,12 @@
     "야식은 5일에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Late-night snacks every 5 days"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Late-night snacks every 5 days"
@@ -1995,6 +2793,12 @@
             "value" : "The first time you open the app after an update, see what’s new."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first time you open the app after an update, see what’s new."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2007,6 +2811,12 @@
       "comment" : "Roadmap item: what's new",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What’s new"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
@@ -2028,6 +2838,12 @@
             "value" : "Movie theater"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cinema"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2044,6 +2860,12 @@
             "value" : "Movies every 2 weeks"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Films every 2 weeks"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2055,6 +2877,12 @@
     "예상 비용 (선택)" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estimated cost (optional)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estimated cost (optional)"
@@ -2076,6 +2904,12 @@
             "value" : "Est. savings"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Est. savings"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2087,6 +2921,12 @@
     "예상: ₩%@" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estimated: ₩%@"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estimated: ₩%@"
@@ -2108,6 +2948,12 @@
             "value" : "Today's cooldowns"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today's cooldowns"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2119,6 +2965,12 @@
     "옷 쇼핑" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clothes shopping"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clothes shopping"
@@ -2140,6 +2992,12 @@
             "value" : "Clothes once every 2 weeks"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clothes once every 2 weeks"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2151,6 +3009,12 @@
     "완료" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
@@ -2172,6 +3036,12 @@
             "value" : "Why are you using it?"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Why are you using it?"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2183,6 +3053,12 @@
     "외식" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eating out"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eating out"
@@ -2204,6 +3080,12 @@
             "value" : "Eating out once a week"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eating out once a week"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2215,6 +3097,12 @@
     "운동 쉬는 날은 3일에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A workout rest day every 3 days"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A workout rest day every 3 days"
@@ -2237,6 +3125,12 @@
             "value" : "Reduce Motion"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduce Motion"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2249,6 +3143,12 @@
       "comment" : "Roadmap item detail: reduce motion",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With Reduce Motion on, screen effects calm down."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "With Reduce Motion on, screen effects calm down."
@@ -2271,6 +3171,12 @@
             "value" : "Erase your entire cooldown history from within the app whenever you like."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erase your entire cooldown history from within the app whenever you like."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2282,6 +3188,12 @@
     "음주는 3일에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drinking every 3 days"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drinking every 3 days"
@@ -2303,6 +3215,12 @@
             "value" : "Name"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2314,6 +3232,12 @@
     "이메일로 문의하기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email the developer"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Email the developer"
@@ -2335,6 +3259,12 @@
             "value" : "Estimated savings this month: ₩%lld"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estimated savings this month: ₩%lld"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2346,6 +3276,12 @@
     "인스타그램 DM (@lee25_ios)" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
@@ -2367,6 +3303,12 @@
             "value" : "Days"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Days"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2378,6 +3320,12 @@
     "자주 사용하는 쿨타임 항목들이에요\n탭해서 바로 추가하세요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Common cooldown items\nTap one to add it right away"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Common cooldown items\nTap one to add it right away"
@@ -2399,6 +3347,12 @@
             "value" : "Gadgets"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gadgets"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2410,6 +3364,12 @@
     "전자기기는 6개월에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gadgets once every 6 months"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gadgets once every 6 months"
@@ -2431,6 +3391,12 @@
             "value" : "Overall compliance"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overall compliance"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2442,6 +3408,12 @@
     "절약 금액을\n확인하세요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See how much\nyou've saved"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "See how much\nyou've saved"
@@ -2463,6 +3435,12 @@
             "value" : "Weeks"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weeks"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2474,6 +3452,12 @@
     "주식 매매" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stock trading"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stock trading"
@@ -2495,6 +3479,12 @@
             "value" : "Compliance"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compliance"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2506,6 +3496,12 @@
     "준수율 %lld퍼센트" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compliance %lld percent"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compliance %lld percent"
@@ -2527,6 +3523,12 @@
             "value" : "Compliance rate and category stats\nhelp you build better habits"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compliance rate and category stats\nhelp you build better habits"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2538,6 +3540,12 @@
     "지금 사용하기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use now"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use now"
@@ -2559,6 +3567,12 @@
             "value" : "Using it now will lower your compliance rate"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using it now will lower your compliance rate"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2570,6 +3584,12 @@
     "지원" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
@@ -2591,6 +3611,12 @@
             "value" : "Add your own"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add your own"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2602,6 +3628,12 @@
     "총 사용" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total uses"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total uses"
@@ -2623,6 +3655,12 @@
             "value" : "Total items"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total items"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2634,6 +3672,12 @@
     "총 지출 (추정)" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total spent (est.)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Total spent (est.)"
@@ -2655,6 +3699,12 @@
             "value" : "Recent activity"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recent activity"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2666,6 +3716,12 @@
     "추가" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add"
@@ -2687,6 +3743,12 @@
             "value" : "Recommended templates"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended templates"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2698,6 +3760,12 @@
     "충동 매매 방지, 주 1회" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avoid impulse trades, once a week"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avoid impulse trades, once a week"
@@ -2719,6 +3787,12 @@
             "value" : "Impulse buy"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impulse buy"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2730,6 +3804,12 @@
     "충동구매는 일주일에 한 번만" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impulse buys only once a week"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impulse buys only once a week"
@@ -2751,6 +3831,12 @@
             "value" : "Cancel"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2762,6 +3848,12 @@
     "치팅데이" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cheat day"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheat day"
@@ -2783,6 +3875,12 @@
             "value" : "Category"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Category"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2794,6 +3892,12 @@
     "카테고리별" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "By category"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "By category"
@@ -2815,6 +3919,12 @@
             "value" : "Café"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2826,6 +3936,12 @@
     "커피는 이틀에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coffee every other day"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coffee every other day"
@@ -2847,6 +3963,12 @@
             "value" : "Concert / show"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concert / show"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2858,6 +3980,12 @@
     "쿨타임" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -2880,6 +4008,12 @@
             "value" : "Save your cooldown history to a file and bring it back later."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your cooldown history to a file and bring it back later."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2891,6 +4025,12 @@
     "쿨타임 깨고 사용하기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break cooldown and use"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Break cooldown and use"
@@ -2912,6 +4052,12 @@
             "value" : "Break cooldown"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Break cooldown"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2923,6 +4069,12 @@
     "쿨타임 깬 횟수" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cooldown breaks"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cooldown breaks"
@@ -2944,6 +4096,12 @@
             "value" : "Reset cooldown"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset cooldown"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2955,6 +4113,12 @@
     "쿨타임 종료 알림을 받으려면 설정에서 켜주세요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn them on in Settings to get cooldown alerts"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Turn them on in Settings to get cooldown alerts"
@@ -2976,6 +4140,12 @@
             "value" : "Cooldown length"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cooldown length"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2992,6 +4162,12 @@
             "value" : "On cooldown"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On cooldown"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3003,6 +4179,12 @@
     "쿨타임 중 %lld개" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On cooldown (%lld)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "On cooldown (%lld)"
@@ -3036,6 +4218,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item on cooldown"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items on cooldown"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3047,6 +4247,12 @@
     "쿨타임 중입니다!" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On cooldown!"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "On cooldown!"
@@ -3068,6 +4274,12 @@
             "value" : "Manage impulses\nwith cooldowns"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage impulses\nwith cooldowns"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3084,6 +4296,12 @@
             "value" : "Every time you keep a cooldown,\nwe show how much you saved"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every time you keep a cooldown,\nwe show how much you saved"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3095,6 +4313,12 @@
     "쿨타임이 끝나면 알려드릴게요\n위젯으로도 확인할 수 있어요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We'll let you know when a cooldown ends\nYou can check from the widget too"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "We'll let you know when a cooldown ends\nYou can check from the widget too"
@@ -3117,6 +4341,12 @@
             "value" : "Layouts for larger text"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layouts for larger text"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3128,6 +4358,12 @@
     "큰 지출은 한 달에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Big spending, once a month"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Big spending, once a month"
@@ -3150,6 +4386,12 @@
             "value" : "Keyboard control"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keyboard control"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3161,6 +4403,12 @@
     "택시" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxi"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
@@ -3182,6 +4430,12 @@
             "value" : "Taxi every 3 days"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxi every 3 days"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3193,6 +4447,12 @@
     "탭하여 사용하기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to use"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap to use"
@@ -3214,6 +4474,12 @@
             "value" : "Tap to break the cooldown, touch and hold for more options"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to break the cooldown, touch and hold for more options"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3225,6 +4491,12 @@
     "템플릿" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Templates"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Templates"
@@ -3246,6 +4518,12 @@
             "value" : "Add from templates"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add from templates"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3257,6 +4535,12 @@
     "템플릿에서 추가하거나\n직접 만들어보세요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add one from templates\nor create your own"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add one from templates\nor create your own"
@@ -3278,6 +4562,12 @@
             "value" : "Stats"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stats"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3289,6 +4579,12 @@
     "통계 보기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View stats"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "View stats"
@@ -3310,6 +4606,12 @@
             "value" : "Fast food"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3321,6 +4623,12 @@
     "패스트푸드는 5일에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fast food every 5 days"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast food every 5 days"
@@ -3343,6 +4651,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foldable iPhone layout"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3355,6 +4669,12 @@
       "comment" : "Roadmap item detail: foldable iPhone layout",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
@@ -3376,6 +4696,12 @@
             "value" : "One domestic trip a month"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One domestic trip a month"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3387,6 +4713,12 @@
     "해외여행" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overseas trip"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Overseas trip"
@@ -3408,6 +4740,12 @@
             "value" : "An overseas trip once every 2 months is plenty"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An overseas trip once every 2 months is plenty"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3424,6 +4762,12 @@
             "value" : "Hotel staycation"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotel staycation"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3435,6 +4779,12 @@
     "호텔 힐링은 3주에 한 번" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A hotel getaway every 3 weeks"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A hotel getaway every 3 weeks"
@@ -3457,6 +4807,12 @@
             "value" : "VoiceOver reads every button and detail, in the right order."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver reads every button and detail, in the right order."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3468,6 +4824,12 @@
     "휴식의 날 (운동 스킵)" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rest day (skip workout)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rest day (skip workout)"

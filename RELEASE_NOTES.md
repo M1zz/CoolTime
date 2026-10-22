@@ -16,3 +16,9 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 Fixed issues for more reliable launches
 You can now send feedback in the app
 Added new privacy policy and help pages
+
+### 앱스토어 (en-GB)
+
+Fixed issues for more reliable launches
+You can now send feedback in the app
+Added new privacy policy and help pages

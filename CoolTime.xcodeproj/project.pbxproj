@@ -296,6 +296,7 @@
 				en,
 				Base,
 				ko,
+				"en-GB",
 			);
 			mainGroup = B7A00005001;
 			packageReferences = (

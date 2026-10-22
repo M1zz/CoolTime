@@ -9,6 +9,12 @@
             "value" : "%lld%% compliance"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%% compliance"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20,6 +26,24 @@
     "%lld개" : {
       "localizations" : {
         "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items"
+                }
+              }
+            }
+          }
+        },
+        "en-GB" : {
           "variations" : {
             "plural" : {
               "one" : {
@@ -65,6 +89,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76,6 +118,12 @@
     "%lld분" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldm"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldm"
@@ -97,6 +145,12 @@
             "value" : "%lldh"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldh"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -108,6 +162,12 @@
     "%lld일" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldd"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lldd"
@@ -129,6 +189,12 @@
             "value" : "+%lld more"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld more"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -140,6 +206,12 @@
     "✅ %lld개 사용 가능" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld ready"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ %lld ready"
@@ -161,6 +233,12 @@
             "value" : "Soon!"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soon!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -172,6 +250,12 @@
     "다음 쿨타임 종료 시간" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next cooldown end"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next cooldown end"
@@ -193,6 +277,12 @@
             "value" : "Waiting"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waiting"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -204,6 +294,12 @@
     "모두 사용 가능" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All ready"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "All ready"
@@ -225,6 +321,12 @@
             "value" : "All ready!"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All ready!"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -236,6 +338,12 @@
     "사용 가능" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ready"
@@ -257,6 +365,12 @@
             "value" : "Add an item"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add an item"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -268,6 +382,12 @@
     "이번 달 ₩%@ 절약" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ saved this month"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "₩%@ saved this month"
@@ -289,6 +409,12 @@
             "value" : "CoolTime"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -305,6 +431,12 @@
             "value" : "On cooldown"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On cooldown"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -316,6 +448,12 @@
     "쿨타임 현황을 한눈에 확인하세요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See your cooldowns at a glance"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "See your cooldowns at a glance"
