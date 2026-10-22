@@ -52,8 +52,8 @@ final class NotificationManager {
         guard endDate > Date() else { return }
 
         let content = UNMutableNotificationContent()
-        content.title = "\(emoji) 쿨타임 종료!"
-        content.body = "\(name) 쿨타임이 끝났어요. 이제 사용할 수 있어요!"
+        content.title = String(localized: "\(emoji) 쿨타임 종료!")
+        content.body = String(localized: "\(name) 쿨타임이 끝났어요. 이제 사용할 수 있어요!")
         content.sound = .default
         content.badge = 1
         content.categoryIdentifier = "COOLDOWN_END"
@@ -89,8 +89,8 @@ final class NotificationManager {
         guard halfwayDate > Date() else { return }
 
         let content = UNMutableNotificationContent()
-        content.title = "\(emoji) 절반 달성!"
-        content.body = "\(name) 쿨타임의 절반을 지났어요! 조금만 더 힘내세요 💪"
+        content.title = String(localized: "\(emoji) 절반 달성!")
+        content.body = String(localized: "\(name) 쿨타임의 절반을 지났어요! 조금만 더 힘내세요 💪")
         content.sound = .default
         content.categoryIdentifier = "COOLDOWN_HALFWAY"
 
@@ -172,13 +172,13 @@ final class NotificationManager {
         // 쿨타임 종료 카테고리
         let useAction = UNNotificationAction(
             identifier: "USE_NOW",
-            title: "지금 사용하기",
+            title: String(localized: "지금 사용하기"),
             options: [.foreground]
         )
 
         let laterAction = UNNotificationAction(
             identifier: "REMIND_LATER",
-            title: "나중에",
+            title: String(localized: "나중에"),
             options: []
         )
 
@@ -192,7 +192,7 @@ final class NotificationManager {
         // 절반 도달 카테고리
         let keepGoingAction = UNNotificationAction(
             identifier: "KEEP_GOING",
-            title: "계속 힘내기 💪",
+            title: String(localized: "계속 힘내기 💪"),
             options: []
         )
 
@@ -219,15 +219,15 @@ final class NotificationManager {
         minute: Int = 0
     ) {
         let content = UNMutableNotificationContent()
-        content.title = "오늘의 쿨타임"
+        content.title = String(localized: "오늘의 쿨타임")
         content.sound = .default
 
         if availableCount > 0 {
-            content.body = "사용 가능한 아이템 \(availableCount)개! 쿨타임 중 \(onCooldownCount)개"
+            content.body = String(localized: "사용 가능한 아이템 \(availableCount)개! 쿨타임 중 \(onCooldownCount)개")
         } else if onCooldownCount > 0 {
-            content.body = "모든 아이템이 쿨타임 중이에요. \(onCooldownCount)개 대기 중!"
+            content.body = String(localized: "모든 아이템이 쿨타임 중이에요. \(onCooldownCount)개 대기 중!")
         } else {
-            content.body = "아직 쿨타임 아이템이 없어요. 추가해보세요!"
+            content.body = String(localized: "아직 쿨타임 아이템이 없어요. 추가해보세요!")
         }
 
         var dateComponents = DateComponents()

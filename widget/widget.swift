@@ -162,13 +162,13 @@ struct MediumWidgetView: View {
                 HStack(spacing: 12) {
                     StatBox(
                         value: "\(entry.availableItems.count)",
-                        label: "사용 가능",
+                        label: String(localized: "사용 가능"),
                         color: readyColor
                     )
 
                     StatBox(
                         value: "\(entry.onCooldownItems.count)",
-                        label: "대기 중",
+                        label: String(localized: "대기 중"),
                         color: cooldownColor
                     )
                 }

@@ -197,7 +197,7 @@ struct HomeView: View {
         VStack(spacing: 12) {
             HStack(spacing: 12) {
                 SummaryCard(
-                    title: "준수율",
+                    title: String(localized: "준수율"),
                     value: "\(Int(manager.overallComplianceRate * 100))%",
                     icon: "checkmark.shield.fill",
                     color: AppTheme.complianceColor(for: manager.overallComplianceRate),
@@ -206,7 +206,7 @@ struct HomeView: View {
                 .accessibilityLabel("준수율 \(Int(manager.overallComplianceRate * 100))퍼센트")
 
                 SummaryCard(
-                    title: "예상 절약",
+                    title: String(localized: "예상 절약"),
                     value: "₩\(manager.monthlySavings.formatted())",
                     icon: "wonsign.circle.fill",
                     color: AppTheme.ready,
@@ -217,7 +217,7 @@ struct HomeView: View {
 
             HStack(spacing: 12) {
                 SummaryCard(
-                    title: "사용 가능",
+                    title: String(localized: "사용 가능"),
                     value: "\(manager.availableItems.count)개",
                     icon: "checkmark.circle.fill",
                     color: AppTheme.ready,
@@ -226,7 +226,7 @@ struct HomeView: View {
                 .accessibilityLabel("사용 가능한 아이템 \(manager.availableItems.count)개")
 
                 SummaryCard(
-                    title: "쿨타임 중",
+                    title: String(localized: "쿨타임 중"),
                     value: "\(manager.onCooldownItems.count)개",
                     icon: "clock.fill",
                     color: AppTheme.cooldown,

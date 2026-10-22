@@ -138,11 +138,11 @@ struct TemplateCard: View {
     private func formatCooldown(_ duration: TimeInterval) -> String {
         let days = Int(duration / 86400)
         if days >= 30 {
-            return "\(days / 30)개월"
+            return String(localized: "\(days / 30)개월")
         } else if days >= 7 {
-            return "\(days / 7)주"
+            return String(localized: "\(days / 7)주")
         } else {
-            return "\(days)일"
+            return String(localized: "\(days)일")
         }
     }
 }

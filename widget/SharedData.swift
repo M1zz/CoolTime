@@ -119,13 +119,13 @@ extension TimeInterval {
         let minutes = (totalSeconds % 3600) / 60
 
         if days > 0 {
-            return "\(days)일"
+            return String(localized: "\(days)일")
         } else if hours > 0 {
-            return "\(hours)시간"
+            return String(localized: "\(hours)시간")
         } else if minutes > 0 {
-            return "\(minutes)분"
+            return String(localized: "\(minutes)분")
         } else {
-            return "곧!"
+            return String(localized: "곧!")
         }
     }
 }

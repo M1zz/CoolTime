@@ -14,26 +14,26 @@ struct OnboardingView: View {
     private let pages: [OnboardingPage] = [
         OnboardingPage(
             emoji: "⏰",
-            title: "쿨타임으로\n충동을 관리하세요",
-            description: "게임의 스킬 쿨타임처럼\n소비와 행동에 대기 시간을 설정해요",
+            title: String(localized: "쿨타임으로\n충동을 관리하세요"),
+            description: String(localized: "게임의 스킬 쿨타임처럼\n소비와 행동에 대기 시간을 설정해요"),
             color: AppTheme.cooldown
         ),
         OnboardingPage(
             emoji: "💰",
-            title: "절약 금액을\n확인하세요",
-            description: "쿨타임을 지킬 때마다\n얼마나 절약했는지 알려드려요",
+            title: String(localized: "절약 금액을\n확인하세요"),
+            description: String(localized: "쿨타임을 지킬 때마다\n얼마나 절약했는지 알려드려요"),
             color: AppTheme.ready
         ),
         OnboardingPage(
             emoji: "📊",
-            title: "나만의 통계로\n습관을 분석하세요",
-            description: "준수율과 카테고리별 통계로\n더 나은 습관을 만들어가요",
+            title: String(localized: "나만의 통계로\n습관을 분석하세요"),
+            description: String(localized: "준수율과 카테고리별 통계로\n더 나은 습관을 만들어가요"),
             color: AppTheme.cooldownAccent
         ),
         OnboardingPage(
             emoji: "🔔",
-            title: "알림으로\n놓치지 마세요",
-            description: "쿨타임이 끝나면 알려드릴게요\n위젯으로도 확인할 수 있어요",
+            title: String(localized: "알림으로\n놓치지 마세요"),
+            description: String(localized: "쿨타임이 끝나면 알려드릴게요\n위젯으로도 확인할 수 있어요"),
             color: AppTheme.warning
         )
     ]

@@ -72,17 +72,17 @@ struct StatsView: View {
             HStack(spacing: 24) {
                 StatItem(
                     value: "\(manager.items.count)",
-                    label: "총 아이템"
+                    label: String(localized: "총 아이템")
                 )
                 
                 StatItem(
                     value: "\(totalUsageCount)",
-                    label: "총 사용"
+                    label: String(localized: "총 사용")
                 )
                 
                 StatItem(
                     value: "\(totalBreakCount)",
-                    label: "깬 횟수"
+                    label: String(localized: "깬 횟수")
                 )
             }
         }

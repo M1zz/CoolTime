@@ -22,6 +22,15 @@ struct AddItemView: View {
         case weeks = "주"
         case months = "개월"
         
+        var label: String {
+            switch self {
+            case .hours: return String(localized: "시간")
+            case .days: return String(localized: "일")
+            case .weeks: return String(localized: "주")
+            case .months: return String(localized: "개월")
+            }
+        }
+
         func toSeconds(_ value: Int) -> TimeInterval {
             switch self {
             case .hours: return TimeInterval(value * 3600)
@@ -115,7 +124,7 @@ struct AddItemView: View {
                         
                         Picker("단위", selection: $cooldownUnit) {
                             ForEach(CooldownUnit.allCases, id: \.self) { unit in
-                                Text(unit.rawValue).tag(unit)
+                                Text(unit.label).tag(unit)
                             }
                         }
                         .pickerStyle(.wheel)
@@ -126,23 +135,23 @@ struct AddItemView: View {
                     // 빠른 선택
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 8) {
-                            QuickSelectButton(label: "3일") {
+                            QuickSelectButton(label: String(localized: "3일")) {
                                 cooldownValue = 3
                                 cooldownUnit = .days
                             }
-                            QuickSelectButton(label: "1주") {
+                            QuickSelectButton(label: String(localized: "1주")) {
                                 cooldownValue = 1
                                 cooldownUnit = .weeks
                             }
-                            QuickSelectButton(label: "2주") {
+                            QuickSelectButton(label: String(localized: "2주")) {
                                 cooldownValue = 2
                                 cooldownUnit = .weeks
                             }
-                            QuickSelectButton(label: "1개월") {
+                            QuickSelectButton(label: String(localized: "1개월")) {
                                 cooldownValue = 1
                                 cooldownUnit = .months
                             }
-                            QuickSelectButton(label: "2개월") {
+                            QuickSelectButton(label: String(localized: "2개월")) {
                                 cooldownValue = 2
                                 cooldownUnit = .months
                             }
@@ -202,16 +211,25 @@ struct AddItemView: View {
                     .font(.system(size: 36))
             }
             
-            Text(name.isEmpty ? "이름" : name)
+            Text(name.isEmpty ? String(localized: "이름") : name)
                 .font(.caption)
                 .foregroundStyle(name.isEmpty ? .secondary : .primary)
             
-            Text("\(cooldownValue)\(cooldownUnit.rawValue)마다")
+            Text(everyLabel)
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }
     }
     
+    private var everyLabel: String {
+        switch cooldownUnit {
+        case .hours: return String(localized: "\(cooldownValue)시간마다")
+        case .days: return String(localized: "\(cooldownValue)일마다")
+        case .weeks: return String(localized: "\(cooldownValue)주마다")
+        case .months: return String(localized: "\(cooldownValue)개월마다")
+        }
+    }
+
     private func addItem() {
         let duration = cooldownUnit.toSeconds(cooldownValue)
         let cost = Int(estimatedCost)

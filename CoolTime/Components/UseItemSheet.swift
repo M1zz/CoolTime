@@ -48,7 +48,7 @@ struct UseItemSheet: View {
                 .padding()
             }
             .background(AppTheme.pageBackground(for: colorScheme))
-            .navigationTitle(isOnCooldown ? "쿨타임 깨기" : "사용하기")
+            .navigationTitle(isOnCooldown ? String(localized: "쿨타임 깨기") : String(localized: "사용하기"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
@@ -96,7 +96,9 @@ struct UseItemSheet: View {
                 .fill(AppTheme.cardBackground(for: colorScheme))
         )
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(item.emoji) \(item.name), \(isOnCooldown ? "쿨타임 \(item.remainingCooldown.cooldownFormatted) 남음" : "사용 가능")")
+        .accessibilityLabel(isOnCooldown
+            ? String(localized: "\(item.emoji) \(item.name), 쿨타임 \(item.remainingCooldown.cooldownFormatted) 남음")
+            : String(localized: "\(item.emoji) \(item.name), 사용 가능"))
     }
 
     // MARK: - Cooldown Warning
@@ -206,7 +208,7 @@ struct UseItemSheet: View {
         }) {
             HStack {
                 Image(systemName: isOnCooldown ? "bolt.fill" : "checkmark")
-                Text(isOnCooldown ? "쿨타임 깨기" : "사용 완료")
+                Text(isOnCooldown ? String(localized: "쿨타임 깨기") : String(localized: "사용 완료"))
             }
             .font(.headline)
             .frame(maxWidth: .infinity)
@@ -217,7 +219,7 @@ struct UseItemSheet: View {
                     .fill(isOnCooldown ? AppTheme.warningGradient : AppTheme.readyGradient)
             )
         }
-        .accessibilityLabel(isOnCooldown ? "쿨타임 깨고 사용하기" : "사용 완료")
+        .accessibilityLabel(isOnCooldown ? String(localized: "쿨타임 깨고 사용하기") : String(localized: "사용 완료"))
     }
 }
 
