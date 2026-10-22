@@ -94,3 +94,9 @@ Thêm trang quyền riêng tư và trợ giúp
 Opravili jsme chyby pro stabilnější chod
 Zpětnou vazbu pošleš přímo v aplikaci
 Nové stránky o soukromí a nápovědě
+
+### 앱스토어 (da)
+
+Rettet fejl, så appen kører mere stabilt
+Du kan nu sende feedback i appen
+Nye sider om privatliv og hjælp

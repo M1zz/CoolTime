@@ -824,3 +824,58 @@ Oznámení a widgety
 Dostaneš upozornění v polovině čekací doby i na jejím konci a zbývající čas uvidíš přímo ve widgetech na ploše a na zamčené obrazovce.
 
 Záznamy se ukládají jen do tohoto zařízení a nepotřebuješ žádný účet.
+
+## da
+
+### 지원 URL
+
+https://m1zz.github.io/CoolTime/da/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/CoolTime/da/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/CoolTime/da/
+
+### 이름
+
+CoolTime: Vent før du køber
+
+### 부제
+
+Pause før du bruger penge
+
+### 키워드
+
+opsparing,vaner,selvkontrol,budget,penge,udfordring,pengefri,levering,kaffe,alkohol,timer,mål
+
+### 프로모션 텍스트
+
+Sæt en ventetid på det, du vil lade være med. Se, hvor lang tid der er til, du må igen, og skab en vane med at vente roligt.
+
+### 설명
+
+Madlevering, shopping, desserter på café. Når lysten til at bruge penge melder sig, så sæt en ventetid på den som på en evne i et spil.
+CoolTime er en app til forbrugsvaner: Du venter, til ventetiden er slut, og ser, hvor meget du har sparet ved at holde igen.
+
+Sæt en ventetid
+For hvert emne vælger du et navn, en emoji, hvor længe du vil vente, før du bruger det igen, og hvad det koster hver gang. Almindelige perioder som 3 dage, 1 uge eller 1 måned vælger du med ét tryk.
+
+Se med et blik, hvad der er klar
+Startskærmen deler emnerne op i dem, der er klar, og dem, der er i ventetid, og en cirkulær måler skrumper, efterhånden som tiden går.
+
+Én pause mere, før du bryder den
+Hvis du forsøger at bruge noget i en ventetid, viser appen den resterende tid og fortæller dig, at din overholdelsesprocent falder. Hvis du alligevel har brug for det, kan du skrive en note og den faktiske pris.
+
+Overholdelsesprocent og anslået besparelse
+Se, hvor ofte du har overholdt dine ventetider, og hvor meget du har sparet denne måned. Statistikken viser overholdelse pr. emne og kategori samt din brugshistorik.
+
+Anbefalede skabeloner
+Tilføj almindelige ventetider inden for rejser, shopping, mad, underholdning, livsstil, sundhed og økonomi med ét tryk.
+
+Notifikationer og widgets
+Få besked, når en ventetid er halvvejs, og når den slutter, og se den resterende tid direkte i widgets på hjemmeskærmen og låseskærmen.
+
+Dine registreringer gemmes kun på denne enhed, og du behøver ingen konto.

@@ -9,6 +9,12 @@
             "value" : "%@ %@, k dispozici"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, klar"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -101,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@, čekací doba: zbývá %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@, ventetid: %@ tilbage"
           }
         },
         "de" : {
@@ -197,6 +209,12 @@
             "value" : "%@ Půlka za tebou!"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Halvvejs!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Čekací doba skončila!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Ventetiden er slut!"
           }
         },
         "de" : {
@@ -385,6 +409,12 @@
             "value" : "Prošel(a) jsi půlku čekací doby u položky %@! Vydrž ještě chvilku 💪"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er halvvejs gennem ventetiden for %@! Hold ud 💪"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čekací doba u položky %@ skončila. Teď ji můžeš použít!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ventetiden for %@ er slut. Nu kan du bruge det!"
           }
         },
         "de" : {
@@ -592,6 +628,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld položek"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emne"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emner"
                 }
               }
             }
@@ -799,6 +853,12 @@
             "value" : "%lld měs."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld md."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -915,6 +975,12 @@
                 }
               }
             }
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver %lld. måned"
           }
         },
         "de" : {
@@ -1119,6 +1185,12 @@
             "value" : "%lld min"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1211,6 +1283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min %lld s"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min %lld sek"
           }
         },
         "de" : {
@@ -1307,6 +1385,12 @@
             "value" : "%lld h"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld t"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1399,6 +1483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h %lld min"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld t %lld min"
           }
         },
         "de" : {
@@ -1517,6 +1607,12 @@
                 }
               }
             }
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver %lld. time"
           }
         },
         "de" : {
@@ -1721,6 +1817,12 @@
             "value" : "%lld d"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1813,6 +1915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d %lld h"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d %lld t"
           }
         },
         "de" : {
@@ -1931,6 +2039,12 @@
                 }
               }
             }
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver %lld. dag"
           }
         },
         "de" : {
@@ -2135,6 +2249,12 @@
             "value" : "%lld týd."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld u."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2251,6 +2371,12 @@
                 }
               }
             }
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver %lld. uge"
           }
         },
         "de" : {
@@ -2455,6 +2581,12 @@
             "value" : "%lld s"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2568,6 +2700,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld krát"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld gang"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld gange"
                 }
               }
             }
@@ -2799,6 +2949,24 @@
             }
           }
         },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Brugt %lld gang"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Brugt %lld gange"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -3001,6 +3169,12 @@
             "value" : "Žádné výsledky pro „%@“"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen resultater for “%@”"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3093,6 +3267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "1 měs."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 md."
           }
         },
         "de" : {
@@ -3189,6 +3369,12 @@
             "value" : "1 týd."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 uge"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3281,6 +3467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 měs."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 md."
           }
         },
         "de" : {
@@ -3377,6 +3569,12 @@
             "value" : "2 týd."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 uger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3466,6 +3664,12 @@
     "3일" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 d"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 d"
@@ -3566,6 +3770,12 @@
             "value" : "Zámek Face ID"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-lås"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3659,6 +3869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamkni aplikaci pomocí Face ID nebo Touch ID, aby tvá historie zůstala soukromá."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID for at holde din historik privat."
           }
         },
         "de" : {
@@ -3756,6 +3972,12 @@
             "value" : "Zaznamenej použití ihned tím, že o to požádáš Siri nebo spustíš zkratku."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registrér et brug med det samme ved at spørge Siri eller køre en genvej."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3849,6 +4071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri a Zkratky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri og Genveje"
           }
         },
         "de" : {
@@ -3946,6 +4174,12 @@
             "value" : "Lepší podpora VoiceOveru"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre understøttelse af VoiceOver"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4038,6 +4272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hodnota"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Værdi"
           }
         },
         "de" : {
@@ -4134,6 +4374,12 @@
             "value" : "Kontaktovat vývojáře"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt udvikleren"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4226,6 +4472,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Měsíce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måneder"
           }
         },
         "de" : {
@@ -4322,6 +4574,12 @@
             "value" : "Přeskočit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring over"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4414,6 +4672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné výsledky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen resultater"
           }
         },
         "de" : {
@@ -4510,6 +4774,12 @@
             "value" : "Vymazat hledání"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryd søgning"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4602,6 +4872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nákupy ve hrách"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Køb i spil"
           }
         },
         "de" : {
@@ -4698,6 +4974,12 @@
             "value" : "Nákupy ve hrách jednou za 2 týdny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Køb i spil hver 2. uge"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4790,6 +5072,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jako u schopností ve hrách\nnastav čekací dobu pro výdaje a návyky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Som en evnes nedkøling i et spil\nsætter du en ventetid på udgifter og vaner"
           }
         },
         "de" : {
@@ -4886,6 +5174,12 @@
             "value" : "Upozornění: čekací doba běží. Pokud to použiješ teď, sníží se tvá úspěšnost dodržování"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advarsel: i ventetid. Hvis du bruger det nu, falder din overholdelsesprocent"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4978,6 +5272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drž se 💪"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bliv ved 💪"
           }
         },
         "de" : {
@@ -5074,6 +5374,12 @@
             "value" : "Velký nákup (nad ₩100 000)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stort køb (over ₩100.000)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5166,6 +5472,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Už brzy!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snart!"
           }
         },
         "de" : {
@@ -5262,6 +5574,12 @@
             "value" : "Představení jednou za 2 měsíce"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et show hver 2. måned"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5354,6 +5672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cesta po zemi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rejse i landet"
           }
         },
         "de" : {
@@ -5451,6 +5775,12 @@
             "value" : "Obrazovky se při zvětšení textu úhledně přeskupí a nic se neořízne."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærmene omarrangeres pænt, i stedet for at blive skåret af, når du gør teksten større."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5544,6 +5874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronizace mezi zařízeními"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronisering mellem enheder"
           }
         },
         "de" : {
@@ -5640,6 +5976,12 @@
             "value" : "Základní údaje"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grundoplysninger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5732,6 +6074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Porušit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bryd"
           }
         },
         "de" : {
@@ -5828,6 +6176,12 @@
             "value" : "Počet porušení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gange brudt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5920,6 +6274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Analyzuj své návyky\npomocí vlastních statistik"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analysér dine vaner\nmed din egen statistik"
           }
         },
         "de" : {
@@ -6016,6 +6376,12 @@
             "value" : "Později"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6108,6 +6474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zbývající čas: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid tilbage: %@"
           }
         },
         "de" : {
@@ -6205,6 +6577,12 @@
             "value" : "Smazat všechna data"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle dine data"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6297,6 +6675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manikúra"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neglepleje"
           }
         },
         "de" : {
@@ -6393,6 +6777,12 @@
             "value" : "Manikúra jednou za 3 týdny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neglepleje hver 3. uge"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6485,6 +6875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maraton seriálů"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie-maraton"
           }
         },
         "de" : {
@@ -6581,6 +6977,12 @@
             "value" : "Zkus jiné klíčové slovo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv et andet søgeord"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6673,6 +7075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
           }
         },
         "de" : {
@@ -6769,6 +7177,12 @@
             "value" : "Cheat day při dietě jednou týdně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snydedag på diæt én gang om ugen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6863,6 +7277,12 @@
             "value" : "Jednotka"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enhed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6955,6 +7375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sladké jednou za 4 dny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søde sager hver 4. dag"
           }
         },
         "de" : {
@@ -7052,6 +7478,12 @@
             "value" : "Vše zůstane čitelné, i když zapneš Zvýšit kontrast nebo je pro tebe těžké rozeznat barvy."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt kan stadig læses, også med Øget kontrast slået til, eller hvis farver er svære at skelne."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7145,6 +7577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Používej aplikaci ve více jazycích."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug appen på flere sprog."
           }
         },
         "de" : {
@@ -7242,6 +7680,12 @@
             "value" : "Více jazyků"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere sprog"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7334,6 +7778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zákusek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dessert"
           }
         },
         "de" : {
@@ -7430,6 +7880,12 @@
             "value" : "Loterie"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotteri"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7522,6 +7978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loterie jednou týdně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lotteri én gang om ugen"
           }
         },
         "de" : {
@@ -7618,6 +8080,12 @@
             "value" : "Masáž / lázně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massage / spa"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7710,6 +8178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Masáž jednou za 2 týdny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Massage hver 2. uge"
           }
         },
         "de" : {
@@ -7806,6 +8280,12 @@
             "value" : "Poznámka (volitelné)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note (valgfri)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7898,6 +8378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všechno je v čekací době. Čeká: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er i ventetid. Venter: %lld"
           }
         },
         "de" : {
@@ -7994,6 +8480,12 @@
             "value" : "Maraton seriálů jednou za 3 dny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serie-maraton hver 3. dag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8086,6 +8578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kadeřnictví"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisør"
           }
         },
         "de" : {
@@ -8182,6 +8680,12 @@
             "value" : "Kadeřník jednou měsíčně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisør én gang om måneden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8276,6 +8780,12 @@
             "value" : "Rozvoz jídla jednou za 3 dny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Levering hver 3. dag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8368,6 +8878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozvoz jídla"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Madlevering"
           }
         },
         "de" : {
@@ -8465,6 +8981,12 @@
             "value" : "Záloha a export"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikkerhedskopi og eksport"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8557,6 +9079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hlášení chyb i nápady na funkce jsou vítány."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fejlrapporter og forslag til nye funktioner er velkomne."
           }
         },
         "de" : {
@@ -8654,6 +9182,12 @@
             "value" : "Příjemnější barvy a kontrast"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mere behagelige farver og kontrast"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8746,6 +9280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zadej cenu a spočítáme, kolik jsi ušetřil(a)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indtast en pris, så beregner vi, hvor meget du har sparet"
           }
         },
         "de" : {
@@ -8842,6 +9382,12 @@
             "value" : "Použít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8936,6 +9482,12 @@
             "value" : "K dispozici"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9028,6 +9580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "K dispozici (%lld)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar (%lld)"
           }
         },
         "de" : {
@@ -9143,6 +9701,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld dostupných položek"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emne klar"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emner klar"
                 }
               }
             }
@@ -9350,6 +9926,12 @@
             "value" : "K dispozici: %lld · Čekají: %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar: %lld · I ventetid: %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9442,6 +10024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotovo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
           }
         },
         "de" : {
@@ -9538,6 +10126,12 @@
             "value" : "Použít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9630,6 +10224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
           }
         },
         "de" : {
@@ -9726,6 +10326,12 @@
             "value" : "Podrobná historie"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detaljeret historik"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9818,6 +10424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nová čekací doba"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny ventetid"
           }
         },
         "de" : {
@@ -9914,6 +10526,12 @@
             "value" : "Přidat novou čekací dobu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj ny ventetid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10008,6 +10626,12 @@
             "value" : "Nastavení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10097,6 +10721,12 @@
     "술 마시기" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkohol"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alkohol"
@@ -10196,6 +10826,12 @@
             "value" : "Hodiny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10290,6 +10926,12 @@
             "value" : "Začít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10382,6 +11024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skutečná cena (volitelné)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faktisk pris (valgfri)"
           }
         },
         "de" : {
@@ -10479,6 +11127,12 @@
             "value" : "Užitečné tipy"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyttige tips"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10571,6 +11225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ikona"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikon"
           }
         },
         "de" : {
@@ -10667,6 +11327,12 @@
             "value" : "Položka"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emne"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10761,6 +11427,12 @@
             "value" : "Hledat položky…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søg efter emner..."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10853,6 +11525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodržování podle položek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overholdelse pr. emne"
           }
         },
         "de" : {
@@ -10950,6 +11628,12 @@
             "value" : "Používej hlavní funkce jen s klávesnicí na iPadu nebo Macu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug de vigtigste funktioner kun med tastaturet på iPad eller Mac."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11043,6 +11727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sleduj stejné čekací doby na iPhonu i iPadu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se de samme ventetider på din iPhone og iPad."
           }
         },
         "de" : {
@@ -11139,6 +11829,12 @@
             "value" : "Zatím žádné čekací doby. Zkus nějakou přidat!"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen ventetider endnu. Prøv at tilføje en!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11231,6 +11927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím žádné čekací doby. Přidej ze šablon nebo si vytvoř vlastní"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen ventetider endnu. Tilføj en fra skabelonerne eller opret din egen"
           }
         },
         "de" : {
@@ -11327,6 +12029,12 @@
             "value" : "Zatím žádné čekací doby"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen ventetider endnu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11419,6 +12127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím žádná aktivita"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen aktivitet endnu"
           }
         },
         "de" : {
@@ -11515,6 +12229,12 @@
             "value" : "Nepromeškej\nžádné upozornění"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå ikke glip af\nnoget"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11609,6 +12329,12 @@
             "value" : "Oznámení jsou vypnutá. Klepni na tlačítko Nastavení a zapni je"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifikationer er slået fra. Tryk på knappen Indstillinger for at slå dem til"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11701,6 +12427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oznámení jsou vypnutá"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifikationer er slået fra"
           }
         },
         "de" : {
@@ -11798,6 +12530,12 @@
             "value" : "Nenápadné rady k užitečným funkcím ve chvíli, kdy je potřebuješ."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Små hints om nyttige funktioner, lige når du har brug for dem."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11892,6 +12630,12 @@
             "value" : "Noční svačina"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natmad"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11984,6 +12728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noční svačina jednou za 5 dní"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natmad hver 5. dag"
           }
         },
         "de" : {
@@ -12081,6 +12831,12 @@
             "value" : "Při prvním otevření po aktualizaci uvidíš, co je nového."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12174,6 +12930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novinky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheder"
           }
         },
         "de" : {
@@ -12270,6 +13032,12 @@
             "value" : "Kino"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biograf"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12362,6 +13130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kino jednou za 2 týdny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biograf hver 2. uge"
           }
         },
         "de" : {
@@ -12458,6 +13232,12 @@
             "value" : "Odhadovaná cena (volitelné)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslået pris (valgfri)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12550,6 +13330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odhad úspor"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslået besparelse"
           }
         },
         "de" : {
@@ -12646,6 +13432,12 @@
             "value" : "Odhad: ₩%@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslået: ₩%@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12738,6 +13530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dnešní čekací doby"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens ventetider"
           }
         },
         "de" : {
@@ -12834,6 +13632,12 @@
             "value" : "Nákup oblečení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tøjindkøb"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12926,6 +13730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oblečení jednou za 2 týdny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tøj hver 2. uge"
           }
         },
         "de" : {
@@ -13022,6 +13832,12 @@
             "value" : "Hotovo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13114,6 +13930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Proč to používáš?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvorfor bruger du det?"
           }
         },
         "de" : {
@@ -13210,6 +14032,12 @@
             "value" : "Jídlo v restauraci"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spise ude"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13304,6 +14132,12 @@
             "value" : "Restaurace jednou týdně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spise ude én gang om ugen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13396,6 +14230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den volna od cvičení jednou za 3 dny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En hviledag fra træning hver 3. dag"
           }
         },
         "de" : {
@@ -13493,6 +14333,12 @@
             "value" : "Omezit pohyb"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducer bevægelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13586,6 +14432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když zapneš Omezit pohyb, efekty na obrazovce jsou klidnější."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når Reducer bevægelse er slået til, bliver effekterne på skærmen roligere."
           }
         },
         "de" : {
@@ -13683,6 +14535,12 @@
             "value" : "Celou historii čekacích dob můžeš kdykoli smazat přímo v aplikaci."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet hele din historik over ventetider i appen, når du vil."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13775,6 +14633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alkohol jednou za 3 dny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkohol hver 3. dag"
           }
         },
         "de" : {
@@ -13871,6 +14735,12 @@
             "value" : "Název"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navn"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13963,6 +14833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napsat e-mail"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv en e-mail"
           }
         },
         "de" : {
@@ -14059,6 +14935,12 @@
             "value" : "Odhadované úspory tento měsíc: %lld wonů"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslået besparelse denne måned: %lld won"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14151,6 +15033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zpráva na Instagramu (@lee25_ios)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
           }
         },
         "de" : {
@@ -14247,6 +15135,12 @@
             "value" : "Dny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dage"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14339,6 +15233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Běžné čekací doby\nKlepnutím ji hned přidáš"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Almindelige ventetider\nTryk på en for at tilføje den med det samme"
           }
         },
         "de" : {
@@ -14435,6 +15335,12 @@
             "value" : "Elektronika"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronik"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14527,6 +15433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elektronika jednou za 6 měsíců"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elektronik hver 6. måned"
           }
         },
         "de" : {
@@ -14623,6 +15535,12 @@
             "value" : "Celkové dodržování"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samlet overholdelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14715,6 +15633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podívej se, kolik\njsi ušetřil(a)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se, hvor meget\ndu har sparet"
           }
         },
         "de" : {
@@ -14811,6 +15735,12 @@
             "value" : "Týdny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14903,6 +15833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obchodování s akciemi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiehandel"
           }
         },
         "de" : {
@@ -14999,6 +15935,12 @@
             "value" : "Dodržování"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overholdelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15091,6 +16033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Úspěšnost dodržování: %lld procent"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overholdelsesprocent: %lld procent"
           }
         },
         "de" : {
@@ -15187,6 +16135,12 @@
             "value" : "Míra dodržování a statistiky podle kategorií\nti pomohou vytvořit lepší návyky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overholdelsesprocent og statistik efter kategori\nhjælper dig med at skabe bedre vaner"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15279,6 +16233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Použít teď"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug nu"
           }
         },
         "de" : {
@@ -15375,6 +16335,12 @@
             "value" : "Pokud to použiješ teď, sníží se tvá úspěšnost dodržování"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du bruger det nu, falder din overholdelsesprocent"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15467,6 +16433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
         "de" : {
@@ -15563,6 +16535,12 @@
             "value" : "Přidat vlastní"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj din egen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15655,6 +16633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Použití celkem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug i alt"
           }
         },
         "de" : {
@@ -15751,6 +16735,12 @@
             "value" : "Položek celkem"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emner i alt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15843,6 +16833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Výdaje celkem (odhad)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samlet forbrug (anslået)"
           }
         },
         "de" : {
@@ -15939,6 +16935,12 @@
             "value" : "Poslední aktivita"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seneste aktivitet"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16031,6 +17033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj"
           }
         },
         "de" : {
@@ -16127,6 +17135,12 @@
             "value" : "Doporučené šablony"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anbefalede skabeloner"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16219,6 +17233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné impulzivní obchody, jednou týdně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undgå impulshandler, én gang om ugen"
           }
         },
         "de" : {
@@ -16315,6 +17335,12 @@
             "value" : "Impulzivní nákup"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impulskøb"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16407,6 +17433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impulzivní nákupy jen jednou týdně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impulskøb kun én gang om ugen"
           }
         },
         "de" : {
@@ -16503,6 +17535,12 @@
             "value" : "Zrušit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16595,6 +17633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cheat day"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snydedag"
           }
         },
         "de" : {
@@ -16691,6 +17735,12 @@
             "value" : "Kategorie"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16783,6 +17833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podle kategorií"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efter kategori"
           }
         },
         "de" : {
@@ -16879,6 +17935,12 @@
             "value" : "Kavárna"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16971,6 +18033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Káva obden"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaffe hver anden dag"
           }
         },
         "de" : {
@@ -17067,6 +18135,12 @@
             "value" : "Koncert / představení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koncert / show"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17156,6 +18230,12 @@
     "쿨타임" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -17256,6 +18336,12 @@
             "value" : "Ulož historii čekacích dob do souboru a později ji obnov."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem din historik over ventetider i en fil, og hent den frem igen senere."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17348,6 +18434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Porušit čekací dobu a použít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bryd ventetiden og brug"
           }
         },
         "de" : {
@@ -17444,6 +18536,12 @@
             "value" : "Porušit čekací dobu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bryd ventetiden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17536,6 +18634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Porušené čekací doby"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brudte ventetider"
           }
         },
         "de" : {
@@ -17632,6 +18736,12 @@
             "value" : "Obnovit čekací dobu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nulstil ventetid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17724,6 +18834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapni je v Nastavení, abys dostával(a) upozornění na konec čekací doby"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå dem til i Indstillinger for at få besked, når en ventetid slutter"
           }
         },
         "de" : {
@@ -17820,6 +18936,12 @@
             "value" : "Délka čekací doby"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ventetidens længde"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17914,6 +19036,12 @@
             "value" : "V čekací době"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I ventetid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18006,6 +19134,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V čekací době (%lld)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I ventetid (%lld)"
           }
         },
         "de" : {
@@ -18121,6 +19255,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld položek v čekací době"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emne i ventetid"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emner i ventetid"
                 }
               }
             }
@@ -18328,6 +19480,12 @@
             "value" : "Čekací doba běží!"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I ventetid!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18420,6 +19578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mej impulzy pod kontrolou\npomocí čekacích dob"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styr dine impulser\nmed ventetider"
           }
         },
         "de" : {
@@ -18516,6 +19680,12 @@
             "value" : "Pokaždé, když čekací dobu dodržíš,\nukážeme ti, kolik jsi ušetřil(a)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver gang du overholder en ventetid,\nviser vi, hvor meget du har sparet"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18608,6 +19778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dáme ti vědět, až čekací doba skončí\nPodívat se můžeš i ve widgetu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi giver besked, når en ventetid slutter\nDu kan også tjekke den i widgetten"
           }
         },
         "de" : {
@@ -18705,6 +19881,12 @@
             "value" : "Rozvržení pro větší text"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout til større tekst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18797,6 +19979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velké výdaje jednou měsíčně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Store udgifter én gang om måneden"
           }
         },
         "de" : {
@@ -18894,6 +20082,12 @@
             "value" : "Ovládání klávesnicí"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tastaturstyring"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18986,6 +20180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taxi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxa"
           }
         },
         "de" : {
@@ -19082,6 +20282,12 @@
             "value" : "Taxi jednou za 3 dny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taxa hver 3. dag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19174,6 +20380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím použij"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk for at bruge"
           }
         },
         "de" : {
@@ -19270,6 +20482,12 @@
             "value" : "Klepnutím porušíš čekací dobu, podržením zobrazíš další možnosti"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk for at bryde ventetiden, hold nede for flere muligheder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19362,6 +20580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Šablony"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skabeloner"
           }
         },
         "de" : {
@@ -19458,6 +20682,12 @@
             "value" : "Přidat ze šablon"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj fra skabeloner"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19550,6 +20780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidej ze šablon\nnebo si vytvoř vlastní"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj en fra skabelonerne\neller opret din egen"
           }
         },
         "de" : {
@@ -19646,6 +20882,12 @@
             "value" : "Statistiky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistik"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19738,6 +20980,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobrazit statistiky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se statistik"
           }
         },
         "de" : {
@@ -19834,6 +21082,12 @@
             "value" : "Fast food"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fastfood"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19926,6 +21180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fast food jednou za 5 dní"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fastfood hver 5. dag"
           }
         },
         "de" : {
@@ -20023,6 +21283,12 @@
             "value" : "Rozvržení pro skládací iPhone"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout til foldbar iPhone"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20116,6 +21382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Širokou obrazovku skládacího iPhonu využij jako dva panely vedle sebe."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug den brede skærm på en foldbar iPhone som to ruder side om side."
           }
         },
         "de" : {
@@ -20212,6 +21484,12 @@
             "value" : "Jedna cesta po zemi měsíčně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Én rejse i landet om måneden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20304,6 +21582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cesta do zahraničí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udlandsrejse"
           }
         },
         "de" : {
@@ -20400,6 +21684,12 @@
             "value" : "Cesta do zahraničí jednou za 2 měsíce naprosto stačí"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En udlandsrejse hver 2. måned er rigeligt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20494,6 +21784,12 @@
             "value" : "Pobyt v hotelu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotelophold"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20586,6 +21882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotelový odpočinek jednou za 3 týdny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotelafslapning hver 3. uge"
           }
         },
         "de" : {
@@ -20683,6 +21985,12 @@
             "value" : "VoiceOver čte každé tlačítko i detail ve správném pořadí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver læser alle knapper og detaljer op i den rigtige rækkefølge."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20775,6 +22083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den volna (vynechat cvičení)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hviledag (spring træning over)"
           }
         },
         "de" : {

@@ -9,6 +9,12 @@
             "value" : "Dodržování %lld %%"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overholdelse %lld%%"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -122,6 +128,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld položek"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emne"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emner"
                 }
               }
             }
@@ -353,6 +377,24 @@
             }
           }
         },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emne"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld emner"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -555,6 +597,12 @@
             "value" : "%lld min"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -649,6 +697,12 @@
             "value" : "%lld h"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld t"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -738,6 +792,12 @@
     "%lld일" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d"
@@ -837,6 +897,12 @@
             "value" : "+%lld dalších"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld mere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -929,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "✅ K dispozici: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ %lld klar"
           }
         },
         "de" : {
@@ -1025,6 +1097,12 @@
             "value" : "Už brzy!"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snart!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1117,6 +1195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konec další čekací doby"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste ventetid slutter"
           }
         },
         "de" : {
@@ -1213,6 +1297,12 @@
             "value" : "Čeká"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1305,6 +1395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vše je k dispozici"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er klar"
           }
         },
         "de" : {
@@ -1401,6 +1497,12 @@
             "value" : "Vše je k dispozici!"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er klar!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1493,6 +1595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "K dispozici"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
           }
         },
         "de" : {
@@ -1589,6 +1697,12 @@
             "value" : "Přidat položku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj emne"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1683,6 +1797,12 @@
             "value" : "Tento měsíc ušetřeno ₩%@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "₩%@ sparet denne måned"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1772,6 +1892,12 @@
     "쿨타임" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CoolTime"
@@ -1871,6 +1997,12 @@
             "value" : "V čekací době"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I ventetid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1963,6 +2095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čekací doby na první pohled"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine ventetider med et blik"
           }
         },
         "de" : {

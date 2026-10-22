@@ -21,7 +21,7 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일. 쿨타임은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
+STORE = {"ko": "ko", "da": "da", "cs": "cs", "vi": "vi", "th": "th", "ru": "ru", "pt-BR": "pt-BR", "it": "it", "fr": "fr", "de": "de", "es": "es", "ja": "ja", "en-GB": "en-GB", "en": "en"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -45,6 +45,7 @@ SEARCH = {
     "th": ("ตัวจับเวลา CoolTime", "ยั้งใจได้เท่าไร<br>เงินก็เหลือเท่านั้น", "เดลิเวอรี่กับช้อปปิ้งต้องรอให้คูลดาวน์จบ"),
     "vi": ("Hẹn giờ CoolTime", "Kiềm chế được bao nhiêu<br>tiền còn bấy nhiêu", "Đồ ăn giao và mua sắm chờ hết thời gian chờ"),
     "cs": ("Časovač CoolTime", "Co vydržíš,<br>to ušetříš", "Rozvoz i nákupy počkají na konec čekací doby"),
+    "da": ("CoolTime-timer", "Det, du holder igen med,<br>bliver i pungen", "Levering og shopping venter, til ventetiden er slut"),
 }
 
 # 헤더 — 처음 온 사람에게 한 가지 약속: 지르고 싶을 때 게임 스킬처럼 쿨타임을 건다.
@@ -62,6 +63,7 @@ HEADER = {
     "th": ("คูลดาวน์การใช้จ่าย", "คูลดาวน์ก่อน<br>แล้วค่อยซื้อ"),
     "vi": ("Thời gian chờ chi tiêu", "Chờ trước,<br>mua sau"),
     "cs": ("Čekací doba výdajů", "Nejdřív čekací doba,<br>pak nákup"),
+    "da": ("Ventetid på forbrug", "Først ventetid,<br>så køb"),
 }
 
 # 바탕 · 글자색은 앱 화면(AppTheme)과 같다: 밝은 회색 페이지, 에메랄드 그린(사용 가능),
