@@ -483,6 +483,7 @@ struct SettingsView: View {
                 }
                 Section {
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
+                    LeeoShareAppLink<CoolTimeSpec>()
                 }
             }
             .navigationTitle("설정")
