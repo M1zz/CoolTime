@@ -9,6 +9,7 @@ struct CooldownCircle: View {
 
     @State private var isAnimating = false
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var progress: Double {
         item.cooldownProgress
@@ -82,7 +83,8 @@ struct CooldownCircle: View {
                     .stroke(AppTheme.ready, lineWidth: 3)
                     .frame(width: size + 6, height: size + 6)
                     .blur(radius: 6)
-                    .opacity(isAnimating ? 0.8 : 0.3)
+                    // 동작 줄이기: 깜빡이지 않고 은은하게 켜 둔다
+                    .opacity(reduceMotion ? 0.6 : (isAnimating ? 0.8 : 0.3))
                     .animation(
                         .easeInOut(duration: 1.2).repeatForever(autoreverses: true),
                         value: isAnimating
@@ -95,7 +97,7 @@ struct CooldownCircle: View {
                     Spacer()
                     Text(item.remainingCooldown.cooldownFormatted)
                         .font(.system(size: size * 0.13, weight: .bold, design: .rounded))
-                        .foregroundStyle(.white)
+                        .foregroundStyle(AppTheme.onFill)
                         .padding(.horizontal, 8)
                         .padding(.vertical, 3)
                         .background(
@@ -111,6 +113,11 @@ struct CooldownCircle: View {
         .onTapGesture {
             onTap?()
         }
+        // VoiceOver: 이모지 그림 대신 이름과 남은 시간을 읽는다
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(item.name)
+        .accessibilityValue(isReady ? String(localized: "사용 가능")
+                                    : item.remainingCooldown.cooldownFormatted)
         .onAppear {
             isAnimating = true
         }

@@ -18,6 +18,7 @@ struct ItemCard: View {
         HStack(spacing: 16) {
             // 쿨타임 서클
             CooldownCircle(item: item, size: 64, showTime: false)
+                .accessibilityHidden(true)   // 이름·남은 시간은 옆 글씨로 읽는다
 
             // 정보
             VStack(alignment: .leading, spacing: 6) {
@@ -65,7 +66,7 @@ struct ItemCard: View {
                             .font(.caption)
                             .fontWeight(.bold)
                     }
-                    .foregroundStyle(.white)
+                    .foregroundStyle(AppTheme.onFill)
                     .padding(.horizontal, 14)
                     .padding(.vertical, 10)
                     .background(
@@ -82,7 +83,7 @@ struct ItemCard: View {
                             .font(.caption)
                             .fontWeight(.bold)
                     }
-                    .foregroundStyle(.white)
+                    .foregroundStyle(AppTheme.onFill)
                     .padding(.horizontal, 12)
                     .padding(.vertical, 10)
                     .background(
@@ -94,6 +95,8 @@ struct ItemCard: View {
         }
         .padding(16)
         .appCardStyle(colorScheme: colorScheme, isActive: isReady, activeColor: AppTheme.ready)
+        // 카드 하나를 한 요소로 읽고, 누르면 사용/깨기 단추가 눌린다
+        .accessibilityElement(children: .combine)
     }
 }
 

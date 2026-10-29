@@ -213,7 +213,7 @@ struct UseItemSheet: View {
             .font(.headline)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 16)
-            .foregroundStyle(.white)
+            .foregroundStyle(AppTheme.onFill)
             .background(
                 RoundedRectangle(cornerRadius: 16)
                     .fill(isOnCooldown ? AppTheme.warningGradient : AppTheme.readyGradient)

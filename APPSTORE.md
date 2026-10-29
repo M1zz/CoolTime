@@ -1318,3 +1318,16 @@ Bildirimler ve widget'lar
 Bekleme süresi yarıya geldiğinde ve bittiğinde bildirim al, kalan süreyi doğrudan Ana Ekran ve Kilit Ekranı widget'larından gör.
 
 Kayıtların yalnızca bu cihazda saklanır ve hesap gerekmez.
+
+## 손쉬운 사용
+
+<!-- DeployBar 가 App Store Connect '앱의 손쉬운 사용' 에 올린다. 실제로 확인한 것만 적는다. -->
+
+### iPhone
+voiceOver
+voiceControl
+largerText
+darkInterface
+differentiateWithoutColor
+sufficientContrast
+reducedMotion

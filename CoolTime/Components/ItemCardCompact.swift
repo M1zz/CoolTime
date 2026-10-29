@@ -33,7 +33,8 @@ struct ItemCardCompact: View {
                 Text(item.name)
                     .font(.subheadline)
                     .fontWeight(.semibold)
-                    .lineLimit(1)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.center)
                     .minimumScaleFactor(0.7)
 
                 // 예상 비용 (있을 때만)
@@ -56,7 +57,7 @@ struct ItemCardCompact: View {
                         .font(.caption)
                         .fontWeight(.bold)
                 }
-                .foregroundStyle(.white)
+                .foregroundStyle(AppTheme.onFill)
                 .padding(.horizontal, 10)
                 .padding(.vertical, 6)
                 .background(

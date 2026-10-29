@@ -56,6 +56,7 @@ struct StatsView: View {
                     )
                     .frame(width: 120, height: 120)
                     .rotationEffect(.degrees(-90))
+                    .accessibilityHidden(true)
                 
                 VStack(spacing: 4) {
                     Text("\(Int(manager.overallComplianceRate * 100))%")
@@ -126,6 +127,7 @@ struct StatsView: View {
         VStack(alignment: .leading, spacing: 12) {
             Text("아이템별 준수율")
                 .font(.headline)
+                .accessibilityAddTraits(.isHeader)
             
             if #available(iOS 17.0, *) {
                 Chart(manager.items.filter { $0.totalUseCount > 0 }) { item in
@@ -185,6 +187,7 @@ struct StatsView: View {
         VStack(alignment: .leading, spacing: 12) {
             Text("카테고리별")
                 .font(.headline)
+                .accessibilityAddTraits(.isHeader)
             
             ForEach(manager.statsByCategory(), id: \.category) { stat in
                 HStack {
@@ -217,6 +220,7 @@ struct StatsView: View {
         VStack(alignment: .leading, spacing: 12) {
             Text("최근 활동")
                 .font(.headline)
+                .accessibilityAddTraits(.isHeader)
             
             let activity = manager.recentActivity()
             let sortedDates = activity.keys.sorted(by: >).prefix(7)
@@ -253,6 +257,7 @@ struct StatsView: View {
         VStack(alignment: .leading, spacing: 12) {
             Text("상세 기록")
                 .font(.headline)
+                .accessibilityAddTraits(.isHeader)
             
             ForEach(manager.items) { item in
                 DisclosureGroup {
