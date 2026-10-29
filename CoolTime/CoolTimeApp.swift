@@ -44,6 +44,7 @@ struct CoolTimeApp: App {
         WindowGroup {
             HomeView()
                 .leeoSatisfactionCheck(CoolTimeSpec.self)
+                .task { await CoolTimeTip.tipJar.startStandalone() }
         }
         .modelContainer(sharedModelContainer)
         .onChange(of: scenePhase) { _, newPhase in

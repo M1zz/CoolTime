@@ -22,6 +22,10 @@ struct HomeView: View {
                     // 요약 카드
                     summarySection
 
+                    // 응원 부탁 — 쿨타임을 꽤 지켜 온 사람에게, 드물게(방금 쓰고 돌아온 자리)
+                    LeeoTipAskSlot<CoolTimeSpec>(tipJar: CoolTimeTip.tipJar,
+                                                 reached: CoolTimeTipMoments.reachedNow(in: manager.items))
+
                     // 검색 바 (아이템이 있을 때만)
                     if !manager.items.isEmpty {
                         searchBar
@@ -484,6 +488,7 @@ struct SettingsView: View {
                 Section {
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                     LeeoShareAppLink<CoolTimeSpec>()
+                    LeeoTipJarLink<CoolTimeSpec>(tipJar: CoolTimeTip.tipJar)
                 }
             }
             .navigationTitle("설정")
