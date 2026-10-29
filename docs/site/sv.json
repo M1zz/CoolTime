@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: väntetid för impulsköp",
+  "description": "Hämtmat var tredje dag, nya kläder varannan vecka. Sätt en väntetid på dina utgifter som på en förmåga i ett spel. Alla funktioner är gratis.",
+  "hero": {
+    "headline": "Sugen på att handla?\nVäntetid först.",
+    "lead": "Ge dina utgifter en väntetid, precis som en förmåga i ett spel. När du har använt något töms cirkeln och fylls sakta på igen tills du får igen.",
+    "cta": "Hämta gratis i App Store",
+    "note": "Alla funktioner är gratis. Inget konto, ingen reklam."
+  },
+  "demo": {
+    "title": "Testa här",
+    "lead": "Välj ett objekt, tryck på Använd och spola fram tiden en dag i taget. Du kan också se vad som händer om du använder det under väntetiden.",
+    "nextDay": "Nästa dag",
+    "note": "Här hoppar du fram en dag med en knapp. I appen går tiden på riktigt och du får en avisering när den är slut.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Matleverans",
+        "days": 3,
+        "every": "Leverans var tredje dag"
+      },
+      {
+        "emoji": "☕",
+        "name": "Fik",
+        "days": 2,
+        "every": "Kaffe varannan dag"
+      },
+      {
+        "emoji": "👕",
+        "name": "Klädshopping",
+        "days": 14,
+        "every": "Kläder varannan vecka"
+      }
+    ],
+    "use": "Använd",
+    "breakShort": "Bryt",
+    "breakIt": "Bryt väntetiden",
+    "warnTitle": "I väntetid!",
+    "warnText": "Om du använder det nu sjunker din följsamhet",
+    "ready": "Redo",
+    "left": "Återstående tid: %@",
+    "dh": "%lld d %lld tim",
+    "half": "%@ Halvvägs!",
+    "end": "%@ Väntetiden är slut!",
+    "compliance": "Följsamhet",
+    "total": "Användningar totalt",
+    "breaks": "Antal brutna"
+  },
+  "problem": {
+    "title": "Har ”bara den här gången” blivit fyra gånger på en vecka?",
+    "text": "Varje gång du öppnar en matleveransapp känns det som länge sedan sist. Men när var det egentligen? CoolTime visar när du senast använde något och när du får igen. Då är det regeln du satte i förväg som avgör, inte humöret just nu."
+  },
+  "features": [
+    {
+      "title": "En paus till innan du bryter den",
+      "text": "Försöker du använda något under väntetiden visar appen hur lång tid som är kvar och varnar för att din följsamhet sjunker.\nBehöver du det ändå? Skriv varför och vad det faktiskt kostade. Att du bröt väntetiden syns kvar i historiken.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Din självkontroll i siffror",
+      "text": "Följsamhet, historik per objekt och kategori och hur många gånger du brutit en väntetid, samlat på en skärm.\nGer du ett objekt en beräknad kostnad uppskattar appen också hur mycket du sparat den här månaden.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Vanliga väntetider med ett tryck",
+      "text": "Välj bland rekommenderade mallar, från resor, shopping och mat till hälsa och ekonomi.\nDu får en avisering när väntetiden är halvvägs och när den tar slut, och widgetar på hemskärmen och låsskärmen visar återstående tid.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Kom igång i tre steg",
+    "items": [
+      {
+        "title": "Lägg till ett objekt",
+        "text": "Välj namn, emoji och hur länge du vill vänta, i timmar, dagar, veckor eller månader. Eller ta en mall."
+      },
+      {
+        "title": "Tryck på Använd när du använder det",
+        "text": "Väntetiden startar direkt och cirkeln töms."
+      },
+      {
+        "title": "Kör igen när det plingar",
+        "text": "Du får en avisering när väntetiden är slut. Du behöver bara tillåta aviseringar en gång."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Väntetider i de rekommenderade mallarna",
+    "rows": [
+      [
+        "🌏 Resor",
+        "Utlandsresa · Inrikesresa · Hotellvistelse"
+      ],
+      [
+        "🛍️ Shopping",
+        "Klädshopping · Impulsköp · Elektronik"
+      ],
+      [
+        "🍔 Mat",
+        "Snabbmat · Matleverans · Fik · Efterrätt · Äta ute · Nattmat"
+      ],
+      [
+        "🎮 Nöje",
+        "Köp i spel · Bio · Serie-maraton · Konsert / show"
+      ],
+      [
+        "💅 Livsstil",
+        "Alkohol · Taxi · Nagelvård · Frisör · Massage / spa"
+      ],
+      [
+        "🏃 Hälsa",
+        "Vilodag (hoppa över träning) · Fuskdag"
+      ],
+      [
+        "💰 Ekonomi",
+        "Aktiehandel · Lotteri"
+      ]
+    ],
+    "note": "Varje mall har en rimlig väntetid och en beräknad kostnad. Saknas din? Skapa en egen."
+  },
+  "faq": {
+    "title": "Frågor och svar",
+    "items": [
+      {
+        "q": "Jag använde det under väntetiden.",
+        "a": "Det gör inget. Historiken markerar att det användes under en väntetid, och väntetiden börjar om från det ögonblicket. Det räknas in i följsamheten och antalet brutna väntetider i Statistik."
+      },
+      {
+        "q": "Hur beräknas besparingen?",
+        "a": "Om du anger en beräknad kostnad för ett objekt uppskattar appen hur många gånger väntetiden har fått dig att avstå den här månaden och visar beloppet. Det är en uppskattning, inte en exakt siffra, och objekt utan beräknad kostnad räknas inte med."
+      },
+      {
+        "q": "Jag får inga aviseringar.",
+        "a": "Kolla Inställningar > Aviseringar > CoolTime på din iPhone. Om appens första skärm säger att aviseringar är avstängda tar knappen Inställningar där dig direkt dit."
+      },
+      {
+        "q": "Hur lägger jag till widgeten?",
+        "a": "Tryck och håll på hemskärmen, tryck på + uppe till vänster, leta upp CoolTime och lägg till den. Det finns också widgetar för låsskärmen. De visar vad du kan använda nu och hur lång tid som är kvar."
+      },
+      {
+        "q": "Hur raderar jag mina registreringar?",
+        "a": "Raderar du ett objekt försvinner dess registreringar också. Raderar du appen försvinner allt. Registreringarna finns bara på din enhet, så det du raderat går inte att få tillbaka."
+      },
+      {
+        "q": "Synkas det med mina andra enheter?",
+        "a": "Inte än. Dina registreringar finns bara på den här iPhonen. Synkning mellan enheter och säkerhetskopior står på listan under Inställningar > Kommande funktioner."
+      },
+      {
+        "q": "Är det verkligen gratis?",
+        "a": "Ja. Inget är låst bakom betalning. Gillar du appen kan du stötta utvecklaren med en slant under Inställningar, men inget ändras om du låter bli."
+      },
+      {
+        "q": "Skickas mina registreringar någonstans?",
+        "a": "Nej. Det finns inget konto och ingen reklam, och dina väntetider och din historik sparas bara på din iPhone. Utvecklaren får bara anonym användningsstatistik, felrapporter och feedback som du själv skickar. Mer om det finns i integritetspolicyn nedan."
+      },
+      {
+        "q": "Jag har hittat en bugg eller saknar en funktion.",
+        "a": "Hör av dig i appen under Inställningar > Support > Skicka feedback, via DM på Instagram till @lee25_ios eller via mejl nedan. Om en skärm hängde sig, berätta vad du höll på med och vilken iOS-version du har, så hittar vi felet mycket snabbare."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Sätt väntetiden\ninnan nästa sug",
+    "cta": "Hämta gratis i App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehåll",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Frågor eller feedback? Skriv till {email}.",
+    "links": [
+      [
+        "Support och kontakt",
+        "support.html"
+      ]
+    ]
+  }
+}

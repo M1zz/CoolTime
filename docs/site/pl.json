@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: czas oczekiwania na impulsywne wydatki",
+  "description": "Jedzenie z dostawą raz na 3 dni, ubrania raz na 2 tygodnie. Ustaw wydatkom czas oczekiwania jak umiejętności w grze. Wszystko za darmo.",
+  "hero": {
+    "headline": "Kusi, żeby kupić?\nNajpierw odczekaj.",
+    "lead": "Daj swoim wydatkom czas oczekiwania, jak umiejętności w grze. Po użyciu kółko się opróżnia i powoli napełnia, aż znów będzie wolno.",
+    "cta": "Za darmo w App Store",
+    "note": "Wszystkie funkcje za darmo. Bez konta i bez reklam."
+  },
+  "demo": {
+    "title": "Wypróbuj tutaj",
+    "lead": "Wybierz pozycję, stuknij Użyj i przesuwaj czas o jeden dzień do przodu. Zobaczysz też, co się stanie, gdy użyjesz jej w czasie oczekiwania.",
+    "nextDay": "Następny dzień",
+    "note": "Tutaj przeskakujesz dzień przyciskiem. W aplikacji płynie prawdziwy czas, a gdy oczekiwanie się skończy, dostaniesz powiadomienie.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Dostawa jedzenia",
+        "days": 3,
+        "every": "Dostawa jedzenia raz na 3 dni"
+      },
+      {
+        "emoji": "☕",
+        "name": "Kawiarnia",
+        "days": 2,
+        "every": "Kawa co drugi dzień"
+      },
+      {
+        "emoji": "👕",
+        "name": "Zakupy odzieżowe",
+        "days": 14,
+        "every": "Ubrania raz na 2 tygodnie"
+      }
+    ],
+    "use": "Użyj",
+    "breakShort": "Złam",
+    "breakIt": "Złam czas oczekiwania",
+    "warnTitle": "Trwa czas oczekiwania!",
+    "warnText": "Jeśli użyjesz tego teraz, spadnie Twój wskaźnik przestrzegania",
+    "ready": "Dostępne",
+    "left": "Pozostały czas: %@",
+    "dh": "%lld d %lld godz.",
+    "half": "%@ Połowa za Tobą!",
+    "end": "%@ Czas oczekiwania minął!",
+    "compliance": "Przestrzeganie",
+    "total": "Wszystkich użyć",
+    "breaks": "Liczba złamań"
+  },
+  "problem": {
+    "title": "Czy „tylko ten jeden raz” zdarzył Ci się cztery razy w tygodniu?",
+    "text": "Za każdym razem, gdy otwierasz aplikację z jedzeniem, masz wrażenie, że to pierwszy raz od dawna. Tylko kiedy właściwie był ten ostatni? CoolTime pokazuje, kiedy ostatnio czegoś użyłeś(-aś) i kiedy znów możesz. Dzięki temu decyduje zasada ustalona wcześniej, a nie chwilowy nastrój."
+  },
+  "features": [
+    {
+      "title": "Jeszcze jedna pauza przed złamaniem",
+      "text": "Gdy chcesz czegoś użyć w czasie oczekiwania, aplikacja pokaże, ile czasu zostało, i ostrzeże, że spadnie Twój wskaźnik przestrzegania.\nNadal potrzebujesz? Zapisz powód i rzeczywisty koszt. Złamanie zostaje w historii.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Samokontrola w liczbach",
+      "text": "Wskaźnik przestrzegania, historia według pozycji i kategorii oraz liczba złamań, wszystko na jednym ekranie.\nGdy podasz szacowany koszt pozycji, aplikacja oszacuje też, ile zaoszczędziłeś(-aś) w tym miesiącu.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Popularne czasy oczekiwania jednym stuknięciem",
+      "text": "Wybierz z polecanych szablonów: od podróży, zakupów i jedzenia po zdrowie i finanse.\nPowiadomienie przyjdzie w połowie czasu oczekiwania i na jego koniec, a widżety na ekranie początkowym i ekranie blokady pokażą, ile zostało.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Zaczynasz w trzech krokach",
+    "items": [
+      {
+        "title": "Dodaj pozycję",
+        "text": "Wybierz nazwę, emoji i czas oczekiwania w godzinach, dniach, tygodniach lub miesiącach. Albo sięgnij po szablon."
+      },
+      {
+        "title": "Stuknij Użyj, gdy z czegoś korzystasz",
+        "text": "Czas oczekiwania rusza od razu, a kółko się opróżnia."
+      },
+      {
+        "title": "Przyszło powiadomienie? Możesz znowu",
+        "text": "Dostaniesz powiadomienie, gdy czas oczekiwania minie. Wystarczy raz zezwolić na powiadomienia."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Czasy oczekiwania w polecanych szablonach",
+    "rows": [
+      [
+        "🌏 Podróże",
+        "Podróż zagraniczna · Podróż krajowa · Pobyt w hotelu"
+      ],
+      [
+        "🛍️ Zakupy",
+        "Zakupy odzieżowe · Zakup impulsywny · Elektronika"
+      ],
+      [
+        "🍔 Jedzenie",
+        "Fast food · Dostawa jedzenia · Kawiarnia · Deser · Jedzenie na mieście · Nocna przekąska"
+      ],
+      [
+        "🎮 Rozrywka",
+        "Zakupy w grach · Kino · Maraton seriali · Koncert / występ"
+      ],
+      [
+        "💅 Styl życia",
+        "Alkohol · Taksówka · Manicure · Fryzjer · Masaż / spa"
+      ],
+      [
+        "🏃 Zdrowie",
+        "Dzień odpoczynku (bez treningu) · Cheat day"
+      ],
+      [
+        "💰 Finanse",
+        "Handel akcjami · Loteria"
+      ]
+    ],
+    "note": "Każdy szablon ma rozsądny czas oczekiwania i szacowany koszt. Brakuje Twojego? Stwórz własny."
+  },
+  "faq": {
+    "title": "Pytania",
+    "items": [
+      {
+        "q": "Użyłem(-am) tego w czasie oczekiwania.",
+        "a": "Nic się nie stało. Historia oznaczy to jako użycie w czasie oczekiwania, a czas oczekiwania zacznie się od tej chwili od nowa. Wliczy się to do wskaźnika przestrzegania i liczby złamań w Statystykach."
+      },
+      {
+        "q": "Jak liczone są oszczędności?",
+        "a": "Jeśli podasz szacowany koszt pozycji, aplikacja oszacuje, ile razy w tym miesiącu czas oczekiwania Cię powstrzymał, i pokaże tę kwotę. To szacunek, a nie dokładna liczba, a pozycje bez szacowanego kosztu nie są liczone."
+      },
+      {
+        "q": "Nie dostaję powiadomień.",
+        "a": "Na iPhonie sprawdź Ustawienia > Powiadomienia > CoolTime. Jeśli pierwszy ekran aplikacji informuje, że powiadomienia są wyłączone, przycisk Ustawienia przeniesie Cię tam od razu."
+      },
+      {
+        "q": "Jak dodać widżet?",
+        "a": "Przytrzymaj palec na ekranie początkowym, stuknij + w lewym górnym rogu, znajdź CoolTime i dodaj widżet. Są też widżety na ekran blokady. Pokazują, czego możesz użyć teraz i ile czasu zostało."
+      },
+      {
+        "q": "Jak usunąć moje zapisy?",
+        "a": "Usunięcie pozycji usuwa też jej zapisy. Usunięcie aplikacji usuwa wszystko. Zapisy są tylko na Twoim urządzeniu, więc po usunięciu nie da się ich odzyskać."
+      },
+      {
+        "q": "Czy dane synchronizują się z innymi urządzeniami?",
+        "a": "Jeszcze nie. Twoje zapisy są tylko na tym jednym iPhonie. Synchronizacja między urządzeniami i kopie zapasowe są na liście w Ustawienia > Nadchodzące funkcje."
+      },
+      {
+        "q": "Czy to naprawdę za darmo?",
+        "a": "Tak. Nic nie jest zablokowane za opłatą. Jeśli aplikacja Ci się podoba, możesz wesprzeć twórcę drobną kwotą w Ustawieniach, ale bez tego nic się nie zmienia."
+      },
+      {
+        "q": "Czy moje zapisy są gdzieś wysyłane?",
+        "a": "Nie. Nie ma konta ani reklam, a Twoje czasy oczekiwania i historia są przechowywane tylko na iPhonie. Twórca dostaje wyłącznie anonimowe statystyki użycia, raporty błędów i opinie, które sam(a) wyślesz. Szczegóły znajdziesz poniżej w Polityce prywatności."
+      },
+      {
+        "q": "Znalazłem(-am) błąd albo brakuje mi funkcji.",
+        "a": "Daj znać w aplikacji przez Ustawienia > Pomoc > Wyślij opinię, w wiadomości na Instagramie do @lee25_ios albo mailowo na adres poniżej. Jeśli jakiś ekran się zawiesił, napisz, co robiłeś(-aś), i podaj wersję iOS. Znajdziemy przyczynę znacznie szybciej."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ustaw czas oczekiwania,\nzanim przyjdzie ochota",
+    "cta": "Za darmo w App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania albo uwagi? Napisz na {email}.",
+    "links": [
+      [
+        "Pomoc i kontakt",
+        "support.html"
+      ]
+    ]
+  }
+}

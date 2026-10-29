@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>冷卻時間</title>
-<meta name="description" content="一款像遊戲技能冷卻一樣，為消費與行為設定等待時間的 iPhone App。">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>冷卻時間：為衝動消費加個冷卻</title>
+  <meta name="description" content="外送三天一次，買衣服兩週一次。像遊戲技能一樣為消費設定冷卻，等到可以再用的時候再說。所有功能都免費。">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="冷卻時間：為衝動消費加個冷卻">
+  <meta property="og:description" content="外送三天一次，買衣服兩週一次。像遊戲技能一樣為消費設定冷卻，等到可以再用的時候再說。所有功能都免費。">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/zh-Hant/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">冷卻時間</div>
-      <div class="sub">先等一等，冷卻結束再說</div>
-    </div>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hant/"><img src="../icon.png" alt="" width="32" height="32">冷卻時間</a>
+    <a class="lang-link" href="#languages">語言</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">簡介</a>
-    <a href="support.html">支援與諮詢</a>
-    <a href="privacy.html">隱私權政策</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" aria-current="true">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>給衝動也加個冷卻</h1>
-  <p class="lede">就像遊戲裡的技能一樣，為消費與行為設定一段等待時間。外送三天一次，買衣服兩週一次。使用之後，圓環會慢慢充滿，直到你可以再次使用。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>又想手滑？<br>先冷卻一下</h1>
+        <p class="lead">像遊戲技能一樣，為消費也加上一段冷卻。用過之後圓環清空，再慢慢充滿，直到可以再次使用。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">App Store 免費下載</a><a class="try" href="#try">在這裡試試看 ↓</a></div>
+        <p class="muted small">所有功能免費。不用註冊帳號，也沒有廣告。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/01-home.jpg" alt="又想手滑？ 先冷卻一下" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>使用方式</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>建立冷卻</h3>
-      <p>設定名稱、表情符號和等待時間（小時、天、週、個月）。餐飲、購物、娛樂、健康、金融等常用項目，可在推薦範本中一鍵新增。</p>
-    </div>
-    <div class="card">
-      <h3>使用</h3>
-      <p>使用時點一下<strong>使用</strong>，冷卻就會重新開始。你還可以記下使用原因和實際花費。如果在冷卻期間使用，這一點也會被記錄下來。</p>
-    </div>
-    <div class="card">
-      <h3>結束時通知</h3>
-      <p>冷卻結束時會用通知提醒你。在主畫面的小工具上，可以直接查看現在能用的項目與剩餘時間。</p>
-    </div>
-    <div class="card">
-      <h3>統計</h3>
-      <p>顯示你遵守冷卻的程度（遵守率）、各類別的記錄、打破冷卻的次數，以及填寫了預估花費的項目本月省下的金額。</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>在這裡試試看</h2>
+      <p class="muted">選一個項目，點一下「使用」，然後一天一天往後推。也可以看看在冷卻中使用會怎樣。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;在這裡試試看&quot;, &quot;lead&quot;: &quot;選一個項目，點一下「使用」，然後一天一天往後推。也可以看看在冷卻中使用會怎樣。&quot;, &quot;nextDay&quot;: &quot;過一天&quot;, &quot;note&quot;: &quot;這裡用按鈕一天一天往後跳；在應用程式裡，時間會真的流逝，冷卻結束時會收到通知。&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;外送&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;外送每三天一次&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;咖啡廳&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;咖啡隔天喝一次&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;買衣服&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;衣服每兩週買一次&quot;}], &quot;use&quot;: &quot;使用&quot;, &quot;breakShort&quot;: &quot;打破&quot;, &quot;breakIt&quot;: &quot;打破冷卻&quot;, &quot;warnTitle&quot;: &quot;冷卻中！&quot;, &quot;warnText&quot;: &quot;現在使用會降低遵守率&quot;, &quot;ready&quot;: &quot;可使用&quot;, &quot;left&quot;: &quot;剩餘時間：%@&quot;, &quot;dh&quot;: &quot;%lld天%lld小時&quot;, &quot;half&quot;: &quot;%@ 已完成一半！&quot;, &quot;end&quot;: &quot;%@ 冷卻結束！&quot;, &quot;compliance&quot;: &quot;遵守率&quot;, &quot;total&quot;: &quot;總使用次數&quot;, &quot;breaks&quot;: &quot;打破次數&quot;}"></div>
+    </section>
 
-  <h2>記錄只存在你的裝置裡</h2>
-  <div class="card">
-    <p>沒有帳號，也沒有廣告。冷卻與使用記錄只儲存在你的 iPhone 中，不會傳送給開發者。傳送給開發者的只有匿名使用統計、錯誤回報，以及你主動送出的意見回饋。詳情請見<a href="privacy.html">隱私權政策</a>。</p>
-  </div>
+    <section class="problem reveal">
+      <h2>「就這一次」，一週說了四次？</h2>
+      <p>每次打開外送平台，都覺得好久沒點了，可是上一次到底是什麼時候，其實記不太清楚。冷卻時間會顯示你上次使用的時間和下次可以使用的時間，讓你依照事先訂好的規則決定要不要忍，而不是看當下的心情。</p>
+    </section>
 
-  <p class="meta">iPhone · 繁體中文</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>打破之前，再想一下</h2>
+        <p>在冷卻中想使用時，會顯示剩餘時間，並提醒你遵守率會下降。<br>如果還是要用，可以寫下原因和實際花費。打破的紀錄也會如實保留。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/02-break.jpg" alt="打破之前，再想一下" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">支援與諮詢</a> · <a href="privacy.html">隱私權政策</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>忍住多少，數字會說話</h2>
+        <p>遵守率、依項目與依類別的紀錄、打破次數，一個畫面全部看得到。<br>為項目填上預估花費，還能估算這個月省下了多少錢。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/03-stats.jpg" alt="忍住多少，數字會說話" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>常用的冷卻，點一下就加</h2>
+        <p>從旅行、購物、餐飲到健康、理財，在推薦範本裡挑一個就能直接新增。<br>冷卻過半和結束時都會通知你，主畫面與鎖定畫面的小工具也能隨時查看剩餘時間。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/04-templates.jpg" alt="常用的冷卻，點一下就加" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>三個步驟就能開始</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>新增項目</h3><p>設定名稱、表情符號和等待時間（小時、天、週、個月），或直接從推薦範本裡挑。</p></li>
+<li class="card"><span class="n">2</span><h3>用的時候點「使用」</h3><p>冷卻從那一刻開始，圓環隨即清空。</p></li>
+<li class="card"><span class="n">3</span><h3>收到通知，就能再用</h3><p>冷卻結束時會通知你。第一次記得允許通知就好。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>推薦範本裡的冷卻</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 旅行</dt><dd>出國旅遊、國內旅遊、飯店度假</dd></div><div><dt>🛍️ 購物</dt><dd>買衣服、衝動購物、3C 產品</dd></div><div><dt>🍔 餐飲</dt><dd>速食、外送、咖啡廳、甜點、外食、宵夜</dd></div><div><dt>🎮 娛樂</dt><dd>遊戲課金、電影院、追劇、演唱會／演出</dd></div><div><dt>💅 生活風格</dt><dd>喝酒、計程車、美甲、美髮沙龍、按摩／SPA</dd></div><div><dt>🏃 健康</dt><dd>休息日（不運動）、欺騙日</dd></div><div><dt>💰 理財</dt><dd>股票交易、樂透</dd></div></dl>
+      </div>
+      <p class="muted">每個範本都預先設好了合適的週期和預估花費。沒有想要的？自己建立一個就行。</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>常見問題</h2>
+      <div class="faq"><details><summary>在冷卻中用掉了怎麼辦？</summary><p>沒關係。使用紀錄裡會標示這次是在冷卻中使用的，冷卻也會從那一刻重新開始。這會反映在統計的遵守率和打破次數上。</p></details>
+<details><summary>省下的錢是怎麼算的？</summary><p>為項目填上預估花費後，應用程式會估算這個月因為冷卻少用了幾次，並顯示對應的金額。這是估算值，不是精確金額；沒有填寫預估花費的項目不會列入計算。</p></details>
+<details><summary>收不到通知。</summary><p>請到 iPhone 的「設定 &gt; 通知 &gt; 冷卻時間」確認通知已開啟。如果應用程式首頁顯示通知已關閉，點那裡的設定按鈕就能直接前往。</p></details>
+<details><summary>要怎麼加入小工具？</summary><p>長按主畫面，點左上角的＋，找到冷卻時間並加入。鎖定畫面也有小工具，會顯示現在可以使用的項目和剩餘時間。</p></details>
+<details><summary>要怎麼刪除紀錄？</summary><p>刪除項目時，它的紀錄也會一起刪除；刪除應用程式則會清除所有紀錄。紀錄只存在裝置上，刪除後就無法復原。</p></details>
+<details><summary>可以和其他裝置同步嗎？</summary><p>目前還不行。紀錄只存在你正在用的這支 iPhone 上。跨裝置同步和備份已列在應用程式的「設定 &gt; 即將推出的功能」裡。</p></details>
+<details><summary>真的免費嗎？</summary><p>是的。沒有任何要付費才能解鎖的功能。喜歡的話可以在設定裡給開發者一點小費，不給也不會有任何差別。</p></details>
+<details><summary>我的紀錄會被傳到別的地方嗎？</summary><p>不會。沒有帳號，也沒有廣告，冷卻與使用紀錄只儲存在你的 iPhone 裡。開發者收到的只有匿名使用統計、錯誤回報，以及你主動送出的意見回饋。詳情請見下方的隱私權政策。</p></details>
+<details><summary>發現問題，或想要某個功能。</summary><p>歡迎透過應用程式裡的「設定 &gt; 支援 &gt; 發送意見回饋」、Instagram 私訊 @lee25_ios，或下方的電子郵件告訴我們。如果某個畫面卡住了，請一併寫下當時在做什麼以及 iOS 版本，這樣能更快找到原因。</p></details></div>
+      <p class="contact">有問題或建議，歡迎寄信至 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>下一次衝動來之前<br>先把冷卻設好</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">App Store 免費下載</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="語言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隱私權政策</a> · <a href="support.html">支援與諮詢</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

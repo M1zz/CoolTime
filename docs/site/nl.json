@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: een wachttijd voor impulsaankopen",
+  "description": "Bezorgen om de 3 dagen, nieuwe kleren om de 2 weken. Zet een wachttijd op je uitgaven, zoals bij een skill in een game. Alle functies gratis.",
+  "hero": {
+    "headline": "Zin om te shoppen?\nEerst de wachttijd.",
+    "lead": "Geef je uitgaven een wachttijd, net als een skill in een game. Gebruik je iets, dan loopt de cirkel leeg en vult hij zich langzaam tot het weer mag.",
+    "cta": "Gratis in de App Store",
+    "note": "Alle functies zijn gratis. Geen account, geen advertenties."
+  },
+  "demo": {
+    "title": "Probeer het hier",
+    "lead": "Kies een item, tik op Gebruik en spoel de tijd dag voor dag vooruit. Je ziet ook wat er gebeurt als je het tijdens de wachttijd gebruikt.",
+    "nextDay": "Volgende dag",
+    "note": "Hier sla je met een knop een dag over. In de app verstrijkt de echte tijd en krijg je een melding als het zover is.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Maaltijdbezorging",
+        "days": 3,
+        "every": "Bezorging om de drie dagen"
+      },
+      {
+        "emoji": "☕",
+        "name": "Café",
+        "days": 2,
+        "every": "Koffie om de dag"
+      },
+      {
+        "emoji": "👕",
+        "name": "Kleding kopen",
+        "days": 14,
+        "every": "Kleding om de twee weken"
+      }
+    ],
+    "use": "Gebruik",
+    "breakShort": "Doorbreek",
+    "breakIt": "Wachttijd doorbreken",
+    "warnTitle": "Wachttijd loopt!",
+    "warnText": "Als je het nu gebruikt, daalt je naleefpercentage",
+    "ready": "Beschikbaar",
+    "left": "Resterende tijd: %@",
+    "dh": "%lld d %lld u",
+    "half": "%@ Halverwege!",
+    "end": "%@ Wachttijd voorbij!",
+    "compliance": "Naleving",
+    "total": "Gebruik in totaal",
+    "breaks": "Keer doorbroken"
+  },
+  "problem": {
+    "title": "Werd ‘alleen deze ene keer’ ook weleens vier keer in één week?",
+    "text": "Elke keer dat je een bezorgapp opent, voelt het alsof het lang geleden is. Maar wanneer was die vorige keer eigenlijk? CoolTime laat zien wanneer je iets voor het laatst gebruikte en wanneer het weer mag. Zo beslist een regel die je vooraf hebt gesteld, niet je gevoel van het moment."
+  },
+  "features": [
+    {
+      "title": "Nog één pauze voordat je hem doorbreekt",
+      "text": "Wil je iets gebruiken tijdens de wachttijd, dan toont de app hoeveel tijd er nog over is en waarschuwt dat je naleefpercentage daalt.\nToch nodig? Noteer waarom en wat het echt kostte. Dat je de wachttijd doorbrak, blijft in je geschiedenis staan.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Je zelfbeheersing in cijfers",
+      "text": "Je naleefpercentage, je geschiedenis per item en per categorie en hoe vaak je een wachttijd doorbrak, allemaal op één scherm.\nGeef je een item geschatte kosten, dan schat de app ook hoeveel je deze maand hebt bespaard.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Veelgebruikte wachttijden met één tik",
+      "text": "Kies uit aanbevolen sjablonen, van reizen, winkelen en eten tot gezondheid en financiën.\nJe krijgt een melding halverwege en aan het eind van de wachttijd, en widgets op je beginscherm en toegangsscherm tonen de resterende tijd.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen aan de slag",
+    "items": [
+      {
+        "title": "Maak een item",
+        "text": "Kies een naam, een emoji en hoe lang je wilt wachten, in uren, dagen, weken of maanden. Of pak een sjabloon."
+      },
+      {
+        "title": "Tik op Gebruik zodra je het gebruikt",
+        "text": "De wachttijd begint meteen en de cirkel loopt leeg."
+      },
+      {
+        "title": "Melding binnen? Dan mag het weer",
+        "text": "Je krijgt een melding als de wachttijd voorbij is. Je hoeft meldingen maar één keer toe te staan."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Wachttijden in de aanbevolen sjablonen",
+    "rows": [
+      [
+        "🌏 Reizen",
+        "Buitenlandse reis · Reis in eigen land · Hotelverblijf"
+      ],
+      [
+        "🛍️ Shoppen",
+        "Kleding kopen · Impulsaankoop · Elektronica"
+      ],
+      [
+        "🍔 Eten",
+        "Fastfood · Maaltijdbezorging · Café · Toetje · Uit eten · Nachtelijke snack"
+      ],
+      [
+        "🎮 Entertainment",
+        "Aankopen in games · Bioscoop · Serie-marathon · Concert / show"
+      ],
+      [
+        "💅 Lifestyle",
+        "Alcohol · Taxi · Nagelstyling · Kapper · Massage / spa"
+      ],
+      [
+        "🏃 Gezondheid",
+        "Rustdag (training overslaan) · Cheatday"
+      ],
+      [
+        "💰 Financiën",
+        "Aandelenhandel · Loterij"
+      ]
+    ],
+    "note": "Elk sjabloon heeft een redelijke wachttijd en geschatte kosten. Staat die van jou er niet bij? Maak je eigen."
+  },
+  "faq": {
+    "title": "Vragen",
+    "items": [
+      {
+        "q": "Ik heb het tijdens de wachttijd gebruikt.",
+        "a": "Geen probleem. In je geschiedenis staat dan dat je het tijdens een wachttijd gebruikte, en de wachttijd begint vanaf dat moment opnieuw. Het telt mee voor je naleefpercentage en het aantal keer doorbroken in Statistieken."
+      },
+      {
+        "q": "Hoe wordt de besparing berekend?",
+        "a": "Als je bij een item geschatte kosten invult, schat de app hoe vaak de wachttijd je deze maand heeft tegengehouden en toont dat bedrag. Het is een schatting, geen exact bedrag, en items zonder geschatte kosten tellen niet mee."
+      },
+      {
+        "q": "Ik krijg geen meldingen.",
+        "a": "Kijk op je iPhone bij Instellingen > Meldingen > CoolTime. Zegt het eerste scherm van de app dat meldingen uitstaan, dan brengt de knop Instellingen daar je er meteen heen."
+      },
+      {
+        "q": "Hoe voeg ik de widget toe?",
+        "a": "Houd je vinger op het beginscherm, tik linksboven op +, zoek CoolTime en voeg de widget toe. Er zijn ook widgets voor het toegangsscherm. Ze tonen wat je nu kunt gebruiken en hoeveel tijd er nog over is."
+      },
+      {
+        "q": "Hoe wis ik mijn gegevens?",
+        "a": "Verwijder je een item, dan verdwijnen ook de vastleggingen ervan. Verwijder je de app, dan is alles weg. Je gegevens staan alleen op je apparaat, dus wat je wist, krijg je niet meer terug."
+      },
+      {
+        "q": "Synchroniseert het met mijn andere apparaten?",
+        "a": "Nog niet. Je gegevens staan op deze ene iPhone. Synchronisatie tussen apparaten en back-ups staan op de lijst onder Instellingen > Komende functies."
+      },
+      {
+        "q": "Is het echt gratis?",
+        "a": "Ja. Er zit niets achter een betaalmuur. Vind je de app fijn, dan kun je de ontwikkelaar vanuit Instellingen een fooi geven, maar er verandert niets als je dat niet doet."
+      },
+      {
+        "q": "Worden mijn gegevens ergens naartoe gestuurd?",
+        "a": "Nee. Er is geen account en er zijn geen advertenties, en je wachttijden en geschiedenis worden alleen op je iPhone bewaard. De ontwikkelaar krijgt alleen anonieme gebruiksstatistieken, foutrapporten en feedback die je zelf stuurt. Meer daarover lees je in het privacybeleid hieronder."
+      },
+      {
+        "q": "Ik heb een bug gevonden of mis een functie.",
+        "a": "Laat het ons weten in de app via Instellingen > Support > Stuur feedback, met een Instagram-DM aan @lee25_ios of per e-mail hieronder. Liep een scherm vast? Vermeld dan wat je aan het doen was en je iOS-versie, dan vinden we het veel sneller."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Zet de wachttijd\nvóór de volgende impuls",
+    "cta": "Gratis in de App Store"
+  },
+  "ui": {
+    "skip": "Ga naar inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Vragen of feedback? Mail naar {email}.",
+    "links": [
+      [
+        "Support en contact",
+        "support.html"
+      ]
+    ]
+  }
+}

@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Приложение для iPhone, которое добавляет время ожидания для трат и привычек — как перезарядка умений в играх.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: перезарядка для импульсивных трат</title>
+  <meta name="description" content="Доставка раз в 3 дня, одежда раз в 2 недели. Поставьте на траты перезарядку, как на умение в игре, и дождитесь её конца. Всё бесплатно.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: перезарядка для импульсивных трат">
+  <meta property="og:description" content="Доставка раз в 3 дня, одежда раз в 2 недели. Поставьте на траты перезарядку, как на умение в игре, и дождитесь её конца. Всё бесплатно.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/ru/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/ru/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Дождитесь конца перезарядки</div>
-    </div>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <header class="bar">
+    <a class="brand" href="../ru/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Язык</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">О приложении</a>
-    <a href="support.html">Поддержка и связь</a>
-    <a href="privacy.html">Политика конфиденциальности</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" aria-current="true">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Перезарядка и для ваших импульсов</h1>
-  <p class="lede">Как перезарядка умений в играх, вы задаёте время ожидания для трат и привычек. Доставка еды — раз в 3 дня, покупка одежды — раз в 2 недели. После использования кольцо медленно заполняется, пока вы не сможете повторить.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Хочется потратиться?<br>Сначала перезарядка.</h1>
+        <p class="lead">Поставьте на траты перезарядку, как на умение в игре. Воспользовались, и круг опустел, а потом он медленно заполняется до следующего раза.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Бесплатно в App Store</a><a class="try" href="#try">Попробуйте прямо здесь ↓</a></div>
+        <p class="muted small">Все функции бесплатны. Без учётной записи и рекламы.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/01-home.jpg" alt="Хочется потратиться? Сначала перезарядка." width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Как это работает</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Создайте перезарядку</h3>
-      <p>Выберите название, эмодзи и время ожидания (часы, дни, недели или месяцы). Частые пункты — еда, покупки, развлечения, здоровье и финансы — добавляются одним касанием из рекомендуемых шаблонов.</p>
-    </div>
-    <div class="card">
-      <h3>Использование</h3>
-      <p>Когда вы используете что-то, нажмите <strong>Использовать</strong> — перезарядка начнётся заново. Можно добавить заметку о причине и фактическую стоимость. Если использовать во время перезарядки, это тоже запишется.</p>
-    </div>
-    <div class="card">
-      <h3>Уведомление по окончании</h3>
-      <p>Когда перезарядка заканчивается, приходит уведомление. Виджет на экране «Домой» сразу показывает, что можно использовать сейчас и сколько времени осталось.</p>
-    </div>
-    <div class="card">
-      <h3>Статистика</h3>
-      <p>Показывает, насколько вы соблюдали перезарядки (процент соблюдения), записи по категориям, сколько раз вы их нарушали и экономию за этот месяц по элементам с указанной ожидаемой стоимостью.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Попробуйте прямо здесь</h2>
+      <p class="muted">Выберите элемент, нажмите «Использовать» и перематывайте время на день вперёд. Заодно посмотрите, что будет, если не дождаться конца перезарядки.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Попробуйте прямо здесь&quot;, &quot;lead&quot;: &quot;Выберите элемент, нажмите «Использовать» и перематывайте время на день вперёд. Заодно посмотрите, что будет, если не дождаться конца перезарядки.&quot;, &quot;nextDay&quot;: &quot;Следующий день&quot;, &quot;note&quot;: &quot;Здесь день пролетает по кнопке. В приложении время идёт по-настоящему, а об окончании перезарядки придёт уведомление.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Доставка еды&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Доставка еды: раз в 3 дня&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Кафе&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Кофе: через день&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Покупка одежды&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Одежда: раз в 2 недели&quot;}], &quot;use&quot;: &quot;Использовать&quot;, &quot;breakShort&quot;: &quot;Нарушить&quot;, &quot;breakIt&quot;: &quot;Прервать перезарядку&quot;, &quot;warnTitle&quot;: &quot;Идёт перезарядка!&quot;, &quot;warnText&quot;: &quot;Если использовать сейчас, процент соблюдения снизится&quot;, &quot;ready&quot;: &quot;Доступно&quot;, &quot;left&quot;: &quot;Осталось: %@&quot;, &quot;dh&quot;: &quot;%lld д %lld ч&quot;, &quot;half&quot;: &quot;%@ Половина пути!&quot;, &quot;end&quot;: &quot;%@ Перезарядка закончилась!&quot;, &quot;compliance&quot;: &quot;Соблюдение&quot;, &quot;total&quot;: &quot;Всего использований&quot;, &quot;breaks&quot;: &quot;Нарушений&quot;}"></div>
+    </section>
 
-  <h2>Ваши записи остаются на вашем устройстве</h2>
-  <div class="card">
-    <p>Ни учётных записей, ни рекламы. Ваши перезарядки и история использования хранятся только на вашем iPhone и не отправляются разработчику. Разработчик получает лишь анонимную статистику использования, отчёты об ошибках и отзывы, которые вы отправляете сами. Подробности — в <a href="privacy.html">Политике конфиденциальности</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Бывало, что «всего разочек» случался четыре раза за неделю?</h2>
+      <p>Каждый раз, открывая приложение доставки, кажется, что вы сто лет ничего не заказывали. А когда был прошлый раз, толком не вспомнить. CoolTime показывает, когда вы последний раз чем-то пользовались и когда снова можно. Решает правило, заданное заранее, а не сиюминутное настроение.</p>
+    </section>
 
-  <p class="meta">iPhone · Русский</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ещё одна пауза перед нарушением</h2>
+        <p>Если попытаться использовать что-то во время перезарядки, приложение покажет, сколько осталось, и предупредит, что процент соблюдения снизится.<br>Всё равно нужно? Запишите, почему, и сколько это стоило на самом деле. Нарушение останется в истории.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/02-break.jpg" alt="Ещё одна пауза перед нарушением" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Поддержка и связь</a> · <a href="privacy.html">Политика конфиденциальности</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Сдержанность в цифрах</h2>
+        <p>Процент соблюдения, история по элементам и категориям и число нарушений на одном экране.<br>Если указать для элемента ожидаемую стоимость, приложение ещё и оценит, сколько вы сэкономили в этом месяце.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/03-stats.jpg" alt="Сдержанность в цифрах" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Популярные перезарядки в одно касание</h2>
+        <p>Выбирайте из рекомендуемых шаблонов: от путешествий, покупок и еды до здоровья и финансов.<br>Уведомления приходят на середине перезарядки и в конце, а виджеты на экране «Домой» и экране блокировки показывают оставшееся время.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/04-templates.jpg" alt="Популярные перезарядки в одно касание" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Три шага, чтобы начать</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Добавьте элемент</h3><p>Задайте название, эмодзи и срок ожидания в часах, днях, неделях или месяцах. Или возьмите готовый шаблон.</p></li>
+<li class="card"><span class="n">2</span><h3>Использовали? Нажмите «Использовать»</h3><p>С этого момента идёт перезарядка, и круг пустеет.</p></li>
+<li class="card"><span class="n">3</span><h3>Пришло уведомление? Можно снова</h3><p>Когда перезарядка закончится, придёт уведомление. Достаточно один раз разрешить уведомления.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Перезарядки в рекомендуемых шаблонах</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Путешествия</dt><dd>Поездка за границу · Поездка по стране · Отдых в отеле</dd></div><div><dt>🛍️ Шопинг</dt><dd>Покупка одежды · Импульсивная покупка · Электроника</dd></div><div><dt>🍔 Еда</dt><dd>Фастфуд · Доставка еды · Кафе · Десерты · Ужин вне дома · Ночной перекус</dd></div><div><dt>🎮 Развлечения</dt><dd>Покупки в играх · Кино · Марафон сериалов · Концерт / шоу</dd></div><div><dt>💅 Образ жизни</dt><dd>Алкоголь · Такси · Маникюр · Парикмахерская · Массаж / спа</dd></div><div><dt>🏃 Здоровье</dt><dd>День отдыха (пропуск тренировки) · Читмил</dd></div><div><dt>💰 Финансы</dt><dd>Торговля акциями · Лотерея</dd></div></dl>
+      </div>
+      <p class="muted">В каждом шаблоне уже есть разумный срок и ожидаемая стоимость. Не нашли нужного? Создайте свой.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Вопросы и ответы</h2>
+      <div class="faq"><details><summary>Что, если не дождаться конца перезарядки?</summary><p>Ничего страшного. В истории появится отметка, что это было во время перезарядки, а сама перезарядка начнётся заново с этого момента. Это учтётся в проценте соблюдения и числе нарушений в статистике.</p></details>
+<details><summary>Как считается экономия?</summary><p>Если указать для элемента ожидаемую стоимость, приложение прикинет, от скольких трат в этом месяце вас удержала перезарядка, и покажет сумму. Это оценка, а не точная цифра. Элементы без ожидаемой стоимости в расчёт не попадают.</p></details>
+<details><summary>Не приходят уведомления.</summary><p>На iPhone откройте Настройки &gt; Уведомления &gt; CoolTime и проверьте, включены ли они. Если на первом экране приложения написано, что уведомления выключены, кнопка «Настройки» там сразу приведёт куда нужно.</p></details>
+<details><summary>Как добавить виджет?</summary><p>Нажмите и удерживайте экран «Домой», коснитесь + в левом верхнем углу, найдите CoolTime и добавьте виджет. Есть виджеты и для экрана блокировки. Они показывают, что уже можно использовать и сколько осталось ждать.</p></details>
+<details><summary>Как удалить записи?</summary><p>Вместе с элементом удаляются и его записи. Если удалить приложение, исчезнут все записи. Они хранятся только на вашем устройстве, поэтому восстановить удалённое нельзя.</p></details>
+<details><summary>Есть синхронизация с другими устройствами?</summary><p>Пока нет. Записи хранятся только на этом iPhone. Синхронизация между устройствами и резервные копии уже в списке Настройки &gt; Скоро в приложении.</p></details>
+<details><summary>Это правда бесплатно?</summary><p>Да. Платных функций нет. Если приложение понравилось, можно оставить разработчику чаевые в настройках, но и без этого ничего не изменится.</p></details>
+<details><summary>Мои записи куда-то отправляются?</summary><p>Нет. Учётной записи и рекламы нет, а перезарядки и история хранятся только на вашем iPhone. Разработчик получает лишь анонимную статистику использования, отчёты об ошибках и отзывы, которые вы отправили сами. Подробности в политике конфиденциальности ниже.</p></details>
+<details><summary>Нашли ошибку или не хватает функции?</summary><p>Напишите нам в приложении через Настройки &gt; Поддержка &gt; Отправить отзыв, в директ Instagram @lee25_ios или на почту ниже. Если какой-то экран завис, расскажите, что вы делали, и укажите версию iOS, так мы найдём причину гораздо быстрее.</p></details></div>
+      <p class="contact">Вопросы или пожелания? Пишите на <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Поставьте перезарядку<br>до следующего соблазна</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Бесплатно в App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Язык"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru" aria-current="page">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Политика конфиденциальности</a> · <a href="support.html">Поддержка и связь</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>クールタイム</title>
-<meta name="description" content="ゲームのスキルのクールタイムのように、消費や行動に待ち時間を設定する iPhone アプリ。">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>クールタイム: 衝動買いにかける待ち時間</title>
+  <meta name="description" content="デリバリーは3日に1回、服は2週間に1回。ゲームのスキルのように出費にクールタイムをかけて、また使えるときまで待つ習慣を。すべての機能が無料です。">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="クールタイム: 衝動買いにかける待ち時間">
+  <meta property="og:description" content="デリバリーは3日に1回、服は2週間に1回。ゲームのスキルのように出費にクールタイムをかけて、また使えるときまで待つ習慣を。すべての機能が無料です。">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">クールタイム</div>
-      <div class="sub">クールタイムを待とう</div>
-    </div>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">クールタイム</a>
+    <a class="lang-link" href="#languages">言語</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">紹介</a>
-    <a href="support.html">サポート・お問い合わせ</a>
-    <a href="privacy.html">プライバシーポリシー</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" aria-current="true">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>衝動にもクールタイムを</h1>
-  <p class="lede">ゲームのスキルのように、消費や行動に待ち時間を設定します。デリバリーは3日に1回、服の買い物は2週間に1回。使ったあとは、また使えるようになるまで円がゆっくりと満ちていきます。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>買いたくなったら<br>まずクールタイム</h1>
+        <p class="lead">ゲームのスキルのように、出費にも待ち時間をかけましょう。使うと円が空になり、また使ってよいときまでゆっくり満ちていきます。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">App Storeで無料入手</a><a class="try" href="#try">ここで試せます ↓</a></div>
+        <p class="muted small">すべての機能が無料。アカウント登録も広告もありません。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/01-home.jpg" alt="買いたくなったら まずクールタイム" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>使い方</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>クールタイムをつくる</h3>
-      <p>名前と絵文字、待つ期間（時間・日・週・か月）を決めます。食べ物・ショッピング・エンタメ・健康・金融など、よく使う項目はおすすめテンプレートからワンタップで追加できます。</p>
-    </div>
-    <div class="card">
-      <h3>使う</h3>
-      <p>使うときに<strong>使う</strong>を押すと、クールタイムが最初からスタートします。使った理由のメモや実際の金額も残せます。クールタイム中に使った場合は、その事実も記録されます。</p>
-    </div>
-    <div class="card">
-      <h3>終わったら通知</h3>
-      <p>クールタイムが終わると通知でお知らせします。ホーム画面のウィジェットでは、今使えるものと残り時間をすぐに確認できます。</p>
-    </div>
-    <div class="card">
-      <h3>統計</h3>
-      <p>クールタイムをどれだけ守れたか（達成率）、カテゴリ別の記録、クールタイムを解除した回数、予想金額を入れた項目の今月の節約額を表示します。</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>ここで試せます</h2>
+      <p class="muted">アイテムを選んで「使う」を押し、1日ずつ時間を進めてみてください。クールタイム中に使うとどうなるかも確かめられます。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;ここで試せます&quot;, &quot;lead&quot;: &quot;アイテムを選んで「使う」を押し、1日ずつ時間を進めてみてください。クールタイム中に使うとどうなるかも確かめられます。&quot;, &quot;nextDay&quot;: &quot;1日進める&quot;, &quot;note&quot;: &quot;ここではボタンで1日ずつ進めますが、アプリでは実際の時間が流れ、終わると通知が届きます。&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;デリバリー&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;デリバリーは3日に1回&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;カフェ&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;コーヒーは2日に1回&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;服の買い物&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;服は2週間に1回&quot;}], &quot;use&quot;: &quot;使う&quot;, &quot;breakShort&quot;: &quot;解除&quot;, &quot;breakIt&quot;: &quot;クールタイムを解除&quot;, &quot;warnTitle&quot;: &quot;クールタイム中です！&quot;, &quot;warnText&quot;: &quot;今使うと達成率が下がります&quot;, &quot;ready&quot;: &quot;使える&quot;, &quot;left&quot;: &quot;残り時間: %@&quot;, &quot;dh&quot;: &quot;%lld日%lld時間&quot;, &quot;half&quot;: &quot;%@ 折り返し地点！&quot;, &quot;end&quot;: &quot;%@ クールタイム終了！&quot;, &quot;compliance&quot;: &quot;達成率&quot;, &quot;total&quot;: &quot;使用回数&quot;, &quot;breaks&quot;: &quot;解除した回数&quot;}"></div>
+    </section>
 
-  <h2>記録はあなたの端末の中に</h2>
-  <div class="card">
-    <p>アカウントも広告もありません。クールタイムと使用記録は iPhone の中にだけ保存され、開発者には送信されません。開発者に届くのは、匿名の利用統計・エラーレポートと、ご自身で送信したフィードバックだけです。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
-  </div>
+    <section class="problem reveal">
+      <h2>「今回だけ」が1週間に4回。そんなこと、ありませんか？</h2>
+      <p>デリバリーアプリを開くたびに「久しぶりだし」と思うのに、前回がいつだったかは意外と覚えていないものです。クールタイムは最後に使った日と、次に使ってよい日を表示します。我慢するかどうかを、その場の気分ではなく、先に決めたルールで選べるようになります。</p>
+    </section>
 
-  <p class="meta">iPhone · 日本語</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>解除する前に、もうひと呼吸</h2>
+        <p>クールタイム中に使おうとすると、残り時間とあわせて達成率が下がることを知らせます。<br>それでも使うなら、理由のメモと実際の金額を残せます。解除した記録もそのまま残ります。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/02-break.jpg" alt="解除する前に、もうひと呼吸" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">サポート・お問い合わせ</a> · <a href="privacy.html">プライバシーポリシー</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>我慢した分が数字でわかる</h2>
+        <p>クールタイムを守れた割合を示す達成率、アイテム別・カテゴリ別の記録、解除した回数をひとつの画面で確認できます。<br>予想金額を入れたアイテムは、今月どれだけ節約できたかの見込み額も表示します。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/03-stats.jpg" alt="我慢した分が数字でわかる" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>定番のクールタイムはワンタップで</h2>
+        <p>旅行、ショッピング、食べ物から健康、金融まで、おすすめテンプレートから選んですぐに追加できます。<br>クールタイムが半分過ぎたときと終わったときに通知が届き、ホーム画面とロック画面のウィジェットで残り時間をすぐに確認できます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/04-templates.jpg" alt="定番のクールタイムはワンタップで" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>3ステップで始められます</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>アイテムを作る</h3><p>名前と絵文字、待つ期間（時間・日・週・か月）を決めます。おすすめテンプレートから選ぶこともできます。</p></li>
+<li class="card"><span class="n">2</span><h3>使ったら「使う」を押す</h3><p>その瞬間からクールタイムが始まり、円が空になります。</p></li>
+<li class="card"><span class="n">3</span><h3>通知が来たら、また使える</h3><p>終わると通知でお知らせします。最初に一度だけ通知を許可してください。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>おすすめテンプレートのクールタイム</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 旅行</dt><dd>海外旅行・国内旅行・ホテルステイ</dd></div><div><dt>🛍️ ショッピング</dt><dd>服の買い物・衝動買い・家電・ガジェット</dd></div><div><dt>🍔 食べ物</dt><dd>ファストフード・デリバリー・カフェ・デザート・外食・夜食</dd></div><div><dt>🎮 エンタメ</dt><dd>ゲーム課金・映画館・一気見・コンサート・ライブ</dd></div><div><dt>💅 ライフスタイル</dt><dd>お酒・タクシー・ネイル・美容室・マッサージ・スパ</dd></div><div><dt>🏃 健康</dt><dd>休息の日（運動をお休み）・チートデイ</dd></div><div><dt>💰 お金</dt><dd>株の売買・宝くじ</dd></div></dl>
+      </div>
+      <p class="muted">テンプレートには、ちょうどよい周期と予想金額があらかじめ入っています。ほしいものがなければ、自分で作れます。</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq"><details><summary>クールタイム中に使ってしまいました。</summary><p>大丈夫です。使用記録にはクールタイム中に使ったことが残り、クールタイムはその時点から再スタートします。統計の達成率と解除した回数にも反映されます。</p></details>
+<details><summary>節約額はどうやって計算していますか？</summary><p>アイテムに予想金額を入れておくと、今月クールタイムのおかげで使わずに済んだ回数を見積もり、その金額を表示します。正確な金額ではなく見込み額で、予想金額が空欄のアイテムは計算に含まれません。</p></details>
+<details><summary>通知が届きません。</summary><p>iPhoneの設定 &gt; 通知 &gt; クールタイムで、通知がオンになっているか確認してください。アプリの最初の画面に通知がオフだという案内が出ている場合は、そこにある設定ボタンから直接開けます。</p></details>
+<details><summary>ウィジェットはどうやって追加しますか？</summary><p>ホーム画面を長押しして左上の＋をタップし、クールタイムを探して追加してください。ロック画面用のウィジェットもあります。今使えるアイテムと残り時間を表示します。</p></details>
+<details><summary>記録を消したいです。</summary><p>アイテムを削除すると、そのアイテムの記録も一緒に消えます。アプリを削除すると、すべての記録が消えます。記録は端末の中にしかないため、消した記録は元に戻せません。</p></details>
+<details><summary>ほかの端末と同期できますか？</summary><p>まだできません。記録は今お使いのiPhoneにだけ保存されています。端末間の同期とバックアップは、アプリの設定 &gt; これから作る機能に載っています。</p></details>
+<details><summary>本当に無料ですか？</summary><p>はい。お金を払わないと使えない機能はありません。気に入っていただけたら設定から開発者にチップを送れますが、送らなくても何も変わりません。</p></details>
+<details><summary>記録がどこかに送られることはありますか？</summary><p>いいえ。アカウントも広告もなく、クールタイムと使用記録はiPhoneの中にだけ保存されます。開発者に届くのは、匿名の利用統計とエラーレポート、ご自身で送ったフィードバックだけです。詳しくは下のプライバシーポリシーをご覧ください。</p></details>
+<details><summary>不具合を見つけた、ほしい機能がある。</summary><p>アプリの設定 &gt; サポート &gt; フィードバックを送る、Instagramのダイレクトメッセージ（@lee25_ios）、または下のメールからお気軽にどうぞ。画面が止まってしまった場合は、何をしていたかとiOSのバージョンを添えていただけると、ずっと早く原因を見つけられます。</p></details></div>
+      <p class="contact">ご質問やご意見は <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> までお寄せください。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>次の衝動が来る前に<br>クールタイムを</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">App Storeで無料入手</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="support.html">サポート・お問い合わせ</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

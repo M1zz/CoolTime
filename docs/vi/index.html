@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Ứng dụng iPhone đặt thời gian chờ cho chi tiêu và thói quen, giống hồi chiêu của kỹ năng trong game.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: Thời gian chờ cho chi tiêu bốc đồng</title>
+  <meta name="description" content="Đặt đồ ăn 3 ngày một lần, mua quần áo 2 tuần một lần. Đặt thời gian chờ cho chi tiêu như hồi chiêu trong game. Mọi tính năng đều miễn phí.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: Thời gian chờ cho chi tiêu bốc đồng">
+  <meta property="og:description" content="Đặt đồ ăn 3 ngày một lần, mua quần áo 2 tuần một lần. Đặt thời gian chờ cho chi tiêu như hồi chiêu trong game. Mọi tính năng đều miễn phí.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Chờ cho hết thời gian chờ</div>
-    </div>
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">Giới thiệu</a>
-    <a href="support.html">Hỗ trợ và liên hệ</a>
-    <a href="privacy.html">Chính sách quyền riêng tư</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" aria-current="true">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Cơn bốc đồng cũng cần thời gian chờ</h1>
-  <p class="lede">Giống như hồi chiêu của một kỹ năng trong game, bạn đặt một khoảng chờ cho chi tiêu và thói quen. Đặt đồ ăn 3 ngày một lần, mua quần áo 2 tuần một lần. Sau khi dùng, một vòng tròn sẽ từ từ đầy lên cho đến khi bạn có thể dùng lại.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Muốn vung tiền?<br>Đợi hồi chiêu đã</h1>
+        <p class="lead">Đặt thời gian chờ cho chi tiêu, như hồi chiêu của một kỹ năng trong game. Dùng xong, vòng tròn trống trơn rồi đầy dần lên cho đến lúc bạn được dùng lại.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Tải miễn phí tại App Store</a><a class="try" href="#try">Thử ngay tại đây ↓</a></div>
+        <p class="muted small">Mọi tính năng đều miễn phí. Không cần tài khoản, không quảng cáo.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/01-home.jpg" alt="Muốn vung tiền? Đợi hồi chiêu đã" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Cách dùng</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Tạo thời gian chờ</h3>
-      <p>Chọn tên, biểu tượng cảm xúc và khoảng thời gian chờ (giờ, ngày, tuần hoặc tháng). Các mục phổ biến như ăn uống, mua sắm, giải trí, sức khỏe và tài chính có thể thêm bằng một lần chạm từ các mẫu đề xuất.</p>
-    </div>
-    <div class="card">
-      <h3>Dùng</h3>
-      <p>Khi dùng, hãy chạm vào <strong>Dùng</strong> và thời gian chờ sẽ bắt đầu lại. Bạn có thể ghi chú lý do và chi phí thực tế. Nếu dùng trong lúc đang chờ, điều đó cũng được ghi lại.</p>
-    </div>
-    <div class="card">
-      <h3>Thông báo khi kết thúc</h3>
-      <p>Khi thời gian chờ kết thúc, bạn sẽ nhận được thông báo. Tiện ích trên Màn hình chính cho biết ngay mục nào dùng được và còn bao lâu.</p>
-    </div>
-    <div class="card">
-      <h3>Thống kê</h3>
-      <p>Hiển thị mức độ bạn giữ đúng thời gian chờ (tỷ lệ tuân thủ), ghi chép theo danh mục, số lần phá thời gian chờ và số tiền tiết kiệm trong tháng này của các mục có chi phí dự kiến.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Thử ngay tại đây</h2>
+      <p class="muted">Chọn một mục, chạm Dùng, rồi cho thời gian trôi qua từng ngày. Bạn cũng xem được chuyện gì xảy ra nếu dùng khi vẫn đang chờ.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Thử ngay tại đây&quot;, &quot;lead&quot;: &quot;Chọn một mục, chạm Dùng, rồi cho thời gian trôi qua từng ngày. Bạn cũng xem được chuyện gì xảy ra nếu dùng khi vẫn đang chờ.&quot;, &quot;nextDay&quot;: &quot;Sang ngày mới&quot;, &quot;note&quot;: &quot;Ở đây bạn bấm nút để qua từng ngày. Trong ứng dụng, thời gian trôi thật và bạn sẽ nhận thông báo khi hết thời gian chờ.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Đồ ăn giao tận nơi&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Đặt đồ ăn 3 ngày một lần&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Quán cà phê&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Cà phê cách ngày&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Mua quần áo&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Quần áo 2 tuần một lần&quot;}], &quot;use&quot;: &quot;Dùng&quot;, &quot;breakShort&quot;: &quot;Phá vỡ&quot;, &quot;breakIt&quot;: &quot;Phá thời gian chờ&quot;, &quot;warnTitle&quot;: &quot;Đang trong thời gian chờ!&quot;, &quot;warnText&quot;: &quot;Nếu dùng ngay bây giờ, tỷ lệ tuân thủ sẽ giảm&quot;, &quot;ready&quot;: &quot;Dùng được&quot;, &quot;left&quot;: &quot;Thời gian còn lại: %@&quot;, &quot;dh&quot;: &quot;%lld ngày %lld giờ&quot;, &quot;half&quot;: &quot;%@ Được nửa chặng đường!&quot;, &quot;end&quot;: &quot;%@ Hết thời gian chờ!&quot;, &quot;compliance&quot;: &quot;Tuân thủ&quot;, &quot;total&quot;: &quot;Tổng lượt dùng&quot;, &quot;breaks&quot;: &quot;Số lần phá vỡ&quot;}"></div>
+    </section>
 
-  <h2>Dữ liệu của bạn nằm trên thiết bị của bạn</h2>
-  <div class="card">
-    <p>Không tài khoản, không quảng cáo. Thời gian chờ và lịch sử sử dụng chỉ được lưu trên iPhone của bạn và không bao giờ được gửi cho nhà phát triển. Nhà phát triển chỉ nhận được thống kê sử dụng ẩn danh, báo cáo lỗi và phản hồi do chính bạn gửi. Chi tiết có trong <a href="privacy.html">Chính sách quyền riêng tư</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Đã bao giờ “chỉ lần này thôi” thành bốn lần một tuần?</h2>
+      <p>Lần nào mở ứng dụng giao đồ ăn cũng thấy như lâu lắm rồi chưa đặt, nhưng lần trước là khi nào thì lại chẳng nhớ rõ. CoolTime cho bạn thấy lần cuối mình dùng và khi nào được dùng lại, để bạn quyết định theo quy tắc đã đặt từ trước chứ không theo cảm xúc lúc đó.</p>
+    </section>
 
-  <p class="meta">iPhone · Tiếng Việt</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Dừng lại một nhịp trước khi phá vỡ</h2>
+        <p>Nếu bạn định dùng khi vẫn đang trong thời gian chờ, ứng dụng sẽ hiện thời gian còn lại và cảnh báo tỷ lệ tuân thủ sẽ giảm.<br>Vẫn cần dùng? Bạn có thể ghi lại lý do và chi phí thực tế. Lần phá vỡ đó vẫn được giữ trong lịch sử.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/02-break.jpg" alt="Dừng lại một nhịp trước khi phá vỡ" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Hỗ trợ và liên hệ</a> · <a href="privacy.html">Chính sách quyền riêng tư</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Sự kiềm chế hiện thành con số</h2>
+        <p>Tỷ lệ tuân thủ, lịch sử theo từng mục và theo danh mục, số lần phá vỡ, tất cả gói gọn trong một màn hình.<br>Mục nào có chi phí dự kiến, ứng dụng còn ước tính giúp bạn tháng này đã tiết kiệm được bao nhiêu.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/03-stats.jpg" alt="Sự kiềm chế hiện thành con số" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Thời gian chờ quen thuộc, chỉ một chạm</h2>
+        <p>Chọn ngay từ các mẫu đề xuất, từ du lịch, mua sắm, ăn uống đến sức khỏe và tài chính.<br>Bạn nhận thông báo khi thời gian chờ đi được một nửa và khi kết thúc, còn tiện ích trên Màn hình chính và Màn hình khóa luôn cho biết thời gian còn lại.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/04-templates.jpg" alt="Thời gian chờ quen thuộc, chỉ một chạm" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu chỉ với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Thêm một mục</h3><p>Chọn tên, biểu tượng cảm xúc và thời gian chờ theo giờ, ngày, tuần hoặc tháng. Hoặc lấy luôn từ mẫu đề xuất.</p></li>
+<li class="card"><span class="n">2</span><h3>Dùng thì chạm Dùng</h3><p>Thời gian chờ bắt đầu ngay lúc đó và vòng tròn trống lại.</p></li>
+<li class="card"><span class="n">3</span><h3>Có thông báo là dùng lại được</h3><p>Khi hết thời gian chờ, bạn sẽ nhận thông báo. Chỉ cần cho phép thông báo một lần.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Thời gian chờ trong các mẫu đề xuất</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Du lịch</dt><dd>Du lịch nước ngoài · Du lịch trong nước · Nghỉ dưỡng khách sạn</dd></div><div><dt>🛍️ Mua sắm</dt><dd>Mua quần áo · Mua sắm bốc đồng · Đồ điện tử</dd></div><div><dt>🍔 Ăn uống</dt><dd>Đồ ăn nhanh · Đồ ăn giao tận nơi · Quán cà phê · Món tráng miệng · Ăn ngoài · Ăn khuya</dd></div><div><dt>🎮 Giải trí</dt><dd>Nạp tiền game · Rạp chiếu phim · Cày phim liên tục · Hòa nhạc/biểu diễn</dd></div><div><dt>💅 Phong cách sống</dt><dd>Uống rượu bia · Taxi · Làm móng · Tiệm làm tóc · Massage/spa</dd></div><div><dt>🏃 Sức khỏe</dt><dd>Ngày nghỉ (bỏ buổi tập) · Ngày ăn thoải mái</dd></div><div><dt>💰 Tài chính</dt><dd>Giao dịch chứng khoán · Xổ số</dd></div></dl>
+      </div>
+      <p class="muted">Mỗi mẫu đã có sẵn thời gian chờ hợp lý và chi phí dự kiến. Không thấy thứ bạn cần? Hãy tự tạo.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Tôi lỡ dùng khi đang trong thời gian chờ.</summary><p>Không sao cả. Lịch sử sẽ ghi lại đó là lần dùng trong thời gian chờ, và thời gian chờ bắt đầu lại từ lúc ấy. Lần này được tính vào tỷ lệ tuân thủ và số lần phá vỡ trong Thống kê.</p></details>
+<details><summary>Số tiền tiết kiệm được tính thế nào?</summary><p>Nếu bạn nhập chi phí dự kiến cho một mục, ứng dụng sẽ ước tính tháng này thời gian chờ đã giúp bạn bớt dùng bao nhiêu lần và hiển thị số tiền tương ứng. Đây là con số ước tính chứ không chính xác tuyệt đối, và các mục không có chi phí dự kiến sẽ không được tính.</p></details>
+<details><summary>Tôi không nhận được thông báo.</summary><p>Hãy kiểm tra Cài đặt &gt; Thông báo &gt; CoolTime trên iPhone. Nếu màn hình đầu tiên của ứng dụng báo thông báo đang tắt, nút Cài đặt ở đó sẽ đưa bạn đến thẳng chỗ cần bật.</p></details>
+<details><summary>Thêm tiện ích như thế nào?</summary><p>Chạm và giữ Màn hình chính, chạm + ở góc trên bên trái, tìm CoolTime rồi thêm vào. Màn hình khóa cũng có tiện ích. Tiện ích cho biết mục nào dùng được ngay và thời gian còn lại.</p></details>
+<details><summary>Làm sao để xóa dữ liệu?</summary><p>Xóa một mục thì lịch sử của mục đó cũng bị xóa theo. Xóa ứng dụng thì mọi dữ liệu đều mất. Dữ liệu chỉ nằm trên thiết bị của bạn nên đã xóa thì không khôi phục được.</p></details>
+<details><summary>Có đồng bộ với thiết bị khác không?</summary><p>Hiện chưa có. Dữ liệu chỉ nằm trên chiếc iPhone bạn đang dùng. Đồng bộ giữa các thiết bị và sao lưu đã có trong danh sách Cài đặt &gt; Tính năng sắp có.</p></details>
+<details><summary>Có thật sự miễn phí không?</summary><p>Có. Không có tính năng nào phải trả tiền mới mở được. Nếu thích ứng dụng, bạn có thể ủng hộ nhà phát triển một khoản nhỏ trong Cài đặt, còn không thì cũng chẳng có gì thay đổi.</p></details>
+<details><summary>Dữ liệu của tôi có bị gửi đi đâu không?</summary><p>Không. Không có tài khoản, không có quảng cáo, và thời gian chờ cùng lịch sử sử dụng chỉ được lưu trên iPhone của bạn. Nhà phát triển chỉ nhận được thống kê sử dụng ẩn danh, báo cáo lỗi và phản hồi do chính bạn gửi. Chi tiết có trong Chính sách quyền riêng tư bên dưới.</p></details>
+<details><summary>Tôi gặp lỗi hoặc muốn có thêm tính năng.</summary><p>Hãy cho chúng tôi biết qua Cài đặt &gt; Hỗ trợ &gt; Gửi góp ý trong ứng dụng, nhắn tin Instagram tới @lee25_ios hoặc gửi email theo địa chỉ bên dưới. Nếu có màn hình bị đứng, hãy ghi kèm bạn đang làm gì và phiên bản iOS, chúng tôi sẽ tìm ra nguyên nhân nhanh hơn nhiều.</p></details></div>
+      <p class="contact">Có câu hỏi hay góp ý? Hãy viết cho chúng tôi qua <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Đặt thời gian chờ<br>trước cơn thèm tiếp theo</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Tải miễn phí tại App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="support.html">Hỗ trợ và liên hệ</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

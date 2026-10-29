@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: Abklingzeit für Spontankäufe",
+  "description": "Essen bestellen alle 3 Tage, neue Klamotten alle 2 Wochen. Gib deinen Ausgaben eine Abklingzeit wie einer Fähigkeit im Spiel. Komplett gratis.",
+  "hero": {
+    "headline": "Lust auf Shopping?\nErst die Abklingzeit.",
+    "lead": "Gib deinen Ausgaben eine Abklingzeit, wie einer Fähigkeit im Spiel. Einmal genutzt, leert sich der Kreis und füllt sich dann langsam wieder, bis du wieder darfst.",
+    "cta": "Gratis im App Store",
+    "note": "Alle Funktionen kostenlos. Kein Konto, keine Werbung."
+  },
+  "demo": {
+    "title": "Probier es hier aus",
+    "lead": "Wähle einen Eintrag, tippe auf Nutzen und spul die Zeit Tag für Tag vor. Du siehst auch, was passiert, wenn du ihn während der Abklingzeit nutzt.",
+    "nextDay": "Nächster Tag",
+    "note": "Hier springst du per Knopfdruck einen Tag weiter. In der App vergeht echte Zeit, und am Ende bekommst du eine Mitteilung.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Essenslieferung",
+        "days": 3,
+        "every": "Lieferdienst alle 3 Tage"
+      },
+      {
+        "emoji": "☕",
+        "name": "Café",
+        "days": 2,
+        "every": "Kaffee jeden zweiten Tag"
+      },
+      {
+        "emoji": "👕",
+        "name": "Kleidung kaufen",
+        "days": 14,
+        "every": "Kleidung alle 2 Wochen"
+      }
+    ],
+    "use": "Nutzen",
+    "breakShort": "Brechen",
+    "breakIt": "Abklingzeit brechen",
+    "warnTitle": "Abklingzeit läuft!",
+    "warnText": "Wenn du es jetzt nutzt, sinkt deine Einhaltungsquote",
+    "ready": "Verfügbar",
+    "left": "Verbleibende Zeit: %@",
+    "dh": "%lld T %lld Std.",
+    "half": "%@ Halbzeit!",
+    "end": "%@ Abklingzeit vorbei!",
+    "compliance": "Einhaltung",
+    "total": "Nutzungen insgesamt",
+    "breaks": "Gebrochen"
+  },
+  "problem": {
+    "title": "Schon mal viermal in einer Woche „nur dieses eine Mal“ gesagt?",
+    "text": "Jedes Mal, wenn du die Liefer-App öffnest, fühlt es sich an, als wäre es ewig her. Wann es wirklich zuletzt war, weißt du aber nicht mehr genau. CoolTime zeigt dir, wann du etwas zuletzt genutzt hast und ab wann du wieder darfst. So entscheidet die Regel, die du dir vorher gesetzt hast, und nicht die Laune des Moments."
+  },
+  "features": [
+    {
+      "title": "Noch ein Moment, bevor du sie brichst",
+      "text": "Willst du etwas während der Abklingzeit nutzen, zeigt die App die verbleibende Zeit und warnt dich, dass deine Einhaltungsquote sinkt.\nBrauchst du es trotzdem? Notier dir den Grund und was es wirklich gekostet hat. Der Bruch bleibt in deinem Verlauf sichtbar.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Verzicht in Zahlen",
+      "text": "Einhaltungsquote, Verlauf nach Eintrag und Kategorie und wie oft du eine Abklingzeit gebrochen hast, alles auf einem Bildschirm.\nHast du für einen Eintrag geschätzte Kosten hinterlegt, schätzt die App auch, wie viel du diesen Monat gespart hast.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Typische Abklingzeiten mit einem Tipp",
+      "text": "Wähle aus empfohlenen Vorlagen, von Reisen, Shopping und Essen bis zu Gesundheit und Finanzen.\nZur Hälfte der Abklingzeit und an ihrem Ende bekommst du eine Mitteilung, und Widgets auf Home- und Sperrbildschirm zeigen die verbleibende Zeit.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten startklar",
+    "items": [
+      {
+        "title": "Eintrag anlegen",
+        "text": "Wähle einen Namen, ein Emoji und die Wartezeit in Stunden, Tagen, Wochen oder Monaten. Oder nimm einfach eine Vorlage."
+      },
+      {
+        "title": "Genutzt? Auf Nutzen tippen",
+        "text": "Ab diesem Moment läuft die Abklingzeit, und der Kreis leert sich."
+      },
+      {
+        "title": "Mitteilung da? Dann wieder los",
+        "text": "Ist die Abklingzeit vorbei, bekommst du eine Mitteilung. Du musst Mitteilungen nur einmal erlauben."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Abklingzeiten in den empfohlenen Vorlagen",
+    "rows": [
+      [
+        "🌏 Reisen",
+        "Auslandsreise · Inlandsreise · Hotel-Auszeit"
+      ],
+      [
+        "🛍️ Shopping",
+        "Kleidung kaufen · Spontankauf · Elektronik"
+      ],
+      [
+        "🍔 Essen",
+        "Fast Food · Essenslieferung · Café · Dessert · Essen gehen · Mitternachtssnack"
+      ],
+      [
+        "🎮 Unterhaltung",
+        "In-Game-Käufe · Kino · Serienmarathon · Konzert / Show"
+      ],
+      [
+        "💅 Lifestyle",
+        "Alkohol trinken · Taxi · Nageldesign · Friseur · Massage / Spa"
+      ],
+      [
+        "🏃 Gesundheit",
+        "Ruhetag (Training ausfallen lassen) · Cheat Day"
+      ],
+      [
+        "💰 Finanzen",
+        "Aktienhandel · Lotto"
+      ]
+    ],
+    "note": "Jede Vorlage bringt eine sinnvolle Wartezeit und geschätzte Kosten mit. Nichts Passendes dabei? Leg deine eigene an."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Ich habe es während der Abklingzeit genutzt.",
+        "a": "Kein Problem. Im Verlauf wird vermerkt, dass es während der Abklingzeit war, und die Abklingzeit beginnt ab diesem Moment neu. Das fließt in deine Einhaltungsquote und die Anzahl gebrochener Abklingzeiten in den Statistiken ein."
+      },
+      {
+        "q": "Wie wird die Ersparnis berechnet?",
+        "a": "Wenn du für einen Eintrag geschätzte Kosten angibst, schätzt die App, wie oft dich die Abklingzeit diesen Monat vom Geldausgeben abgehalten hat, und zeigt den Betrag. Das ist eine Schätzung, kein exakter Wert. Einträge ohne geschätzte Kosten zählen nicht mit."
+      },
+      {
+        "q": "Ich bekomme keine Mitteilungen.",
+        "a": "Sieh auf deinem iPhone unter Einstellungen > Mitteilungen > CoolTime nach. Steht auf dem ersten Bildschirm der App, dass Mitteilungen aus sind, bringt dich die Schaltfläche „Einstellungen“ dort direkt hin."
+      },
+      {
+        "q": "Wie füge ich das Widget hinzu?",
+        "a": "Halte den Home-Bildschirm gedrückt, tippe oben links auf +, suche CoolTime und füge es hinzu. Auch für den Sperrbildschirm gibt es Widgets. Sie zeigen, was du gerade nutzen kannst und wie viel Zeit noch bleibt."
+      },
+      {
+        "q": "Wie lösche ich meinen Verlauf?",
+        "a": "Löschst du einen Eintrag, wird auch sein Verlauf gelöscht. Löschst du die App, ist alles weg. Deine Daten liegen nur auf deinem Gerät, gelöschte Daten lassen sich also nicht wiederherstellen."
+      },
+      {
+        "q": "Wird zwischen meinen Geräten synchronisiert?",
+        "a": "Noch nicht. Deine Daten liegen nur auf diesem einen iPhone. Synchronisierung zwischen Geräten und Backups stehen unter Einstellungen > Geplante Funktionen auf der Liste."
+      },
+      {
+        "q": "Ist das wirklich kostenlos?",
+        "a": "Ja. Keine Funktion steckt hinter einer Bezahlschranke. Wenn dir die App gefällt, kannst du dem Entwickler in den Einstellungen ein Trinkgeld geben. Wenn nicht, ändert sich nichts."
+      },
+      {
+        "q": "Werden meine Daten irgendwohin geschickt?",
+        "a": "Nein. Es gibt kein Konto und keine Werbung, und deine Abklingzeiten und dein Verlauf liegen nur auf deinem iPhone. Beim Entwickler kommen nur anonyme Nutzungsstatistiken, Fehlerberichte und Feedback an, das du selbst schickst. Details findest du unten in der Datenschutzerklärung."
+      },
+      {
+        "q": "Ich habe einen Fehler gefunden oder wünsche mir eine Funktion.",
+        "a": "Sag uns Bescheid: in der App unter Einstellungen > Support > Feedback senden, per Instagram-DM an @lee25_ios oder per E-Mail an die Adresse unten. Hing ein Bildschirm, schreib dazu, was du gerade gemacht hast und welche iOS-Version du nutzt. So finden wir den Fehler viel schneller."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Abklingzeit setzen,\nbevor es wieder juckt",
+    "cta": "Gratis im App Store"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Fragen oder Feedback? Schreib an {email}.",
+    "links": [
+      [
+        "Support und Kontakt",
+        "support.html"
+      ]
+    ]
+  }
+}

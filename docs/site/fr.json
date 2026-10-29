@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime : un temps de recharge pour vos achats impulsifs",
+  "description": "Un repas livré tous les 3 jours, des vêtements toutes les 2 semaines. Mettez vos dépenses en recharge, comme une compétence de jeu. Tout est gratuit.",
+  "hero": {
+    "headline": "Envie de craquer ?\nRecharge d’abord.",
+    "lead": "Donnez à vos dépenses un temps de recharge, comme à une compétence dans un jeu. Une fois utilisé, le cercle se vide, puis se remplit lentement jusqu’à ce que vous y ayez de nouveau droit.",
+    "cta": "Gratuit sur l’App Store",
+    "note": "Toutes les fonctions sont gratuites. Ni compte ni publicité."
+  },
+  "demo": {
+    "title": "Essayez ici",
+    "lead": "Choisissez un élément, touchez Utiliser, puis avancez le temps jour après jour. Vous verrez aussi ce qui se passe si vous l’utilisez pendant la recharge.",
+    "nextDay": "Jour suivant",
+    "note": "Ici, un bouton fait passer les jours. Dans l’app, le vrai temps s’écoule et une notification vous prévient à la fin.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Repas livré",
+        "days": 3,
+        "every": "Livraison tous les 3 jours"
+      },
+      {
+        "emoji": "☕",
+        "name": "Café",
+        "days": 2,
+        "every": "Un café tous les deux jours"
+      },
+      {
+        "emoji": "👕",
+        "name": "Achats de vêtements",
+        "days": 14,
+        "every": "Des vêtements toutes les 2 semaines"
+      }
+    ],
+    "use": "Utiliser",
+    "breakShort": "Rompre",
+    "breakIt": "Rompre le temps de recharge",
+    "warnTitle": "En recharge !",
+    "warnText": "Si vous l’utilisez maintenant, votre taux de respect baissera",
+    "ready": "Disponible",
+    "left": "Temps restant : %@",
+    "dh": "%lld j %lld h",
+    "half": "%@ À mi-parcours !",
+    "end": "%@ Recharge terminée !",
+    "compliance": "Respect",
+    "total": "Utilisations au total",
+    "breaks": "Fois rompues"
+  },
+  "problem": {
+    "title": "Déjà dit « juste cette fois » quatre fois dans la même semaine ?",
+    "text": "À chaque fois que vous ouvrez l’app de livraison, vous avez l’impression que ça fait une éternité. Mais impossible de vous rappeler quand c’était la dernière fois. CoolTime affiche quand vous avez utilisé quelque chose pour la dernière fois et quand vous y aurez de nouveau droit. C’est la règle fixée à l’avance qui décide, pas l’humeur du moment."
+  },
+  "features": [
+    {
+      "title": "Une dernière pause avant de rompre",
+      "text": "Si vous tentez d’utiliser un élément pendant sa recharge, l’app affiche le temps restant et vous prévient que votre taux de respect va baisser.\nVous en avez quand même besoin ? Notez pourquoi et ce que ça vous a réellement coûté. La rupture reste dans votre historique.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Votre retenue en chiffres",
+      "text": "Taux de respect, historique par élément et par catégorie, nombre de recharges rompues : tout tient sur un seul écran.\nIndiquez un coût estimé pour un élément et l’app estime aussi combien vous avez économisé ce mois-ci.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Les recharges courantes en une touche",
+      "text": "Choisissez parmi des modèles recommandés, des voyages au shopping et à la nourriture jusqu’à la santé et la finance.\nUne notification arrive à mi-parcours et à la fin de la recharge, et les widgets de l’écran d’accueil et de l’écran verrouillé affichent le temps restant.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Trois étapes pour commencer",
+    "items": [
+      {
+        "title": "Ajoutez un élément",
+        "text": "Choisissez un nom, un emoji et la durée d’attente, en heures, jours, semaines ou mois. Ou partez d’un modèle."
+      },
+      {
+        "title": "Touchez Utiliser au moment de craquer",
+        "text": "La recharge démarre à cet instant et le cercle se vide."
+      },
+      {
+        "title": "Notification reçue ? C’est reparti",
+        "text": "Une notification vous prévient quand c’est terminé. Il suffit d’autoriser les notifications une fois."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Les recharges des modèles recommandés",
+    "rows": [
+      [
+        "🌏 Voyages",
+        "Voyage à l’étranger · Voyage dans le pays · Séjour à l’hôtel"
+      ],
+      [
+        "🛍️ Shopping",
+        "Achats de vêtements · Achat impulsif · Électronique"
+      ],
+      [
+        "🍔 Nourriture",
+        "Fast-food · Repas livré · Café · Dessert · Restaurant · Grignotage de nuit"
+      ],
+      [
+        "🎮 Divertissement",
+        "Achats dans les jeux · Cinéma · Marathon de séries · Concert / spectacle"
+      ],
+      [
+        "💅 Style de vie",
+        "Alcool · Taxi · Manucure · Coiffeur · Massage / spa"
+      ],
+      [
+        "🏃 Santé",
+        "Jour de repos (sans sport) · Jour de triche"
+      ],
+      [
+        "💰 Finances",
+        "Bourse · Loto"
+      ]
+    ],
+    "note": "Chaque modèle propose un délai raisonnable et un coût estimé. Vous ne trouvez pas le vôtre ? Créez-le."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Je l’ai utilisé pendant une recharge.",
+        "a": "Pas de souci. L’historique indique que c’était pendant une recharge, et le temps de recharge repart de ce moment-là. Cela compte dans le taux de respect et le nombre de recharges rompues des Statistiques."
+      },
+      {
+        "q": "Comment les économies sont-elles calculées ?",
+        "a": "Si vous indiquez un coût estimé pour un élément, l’app estime combien d’utilisations la recharge vous a évitées ce mois-ci et affiche le montant correspondant. C’est une estimation, pas un chiffre exact, et les éléments sans coût estimé sont exclus."
+      },
+      {
+        "q": "Je ne reçois pas de notifications.",
+        "a": "Sur votre iPhone, vérifiez Réglages > Notifications > CoolTime. Si le premier écran de l’app indique que les notifications sont désactivées, le bouton Réglages qui s’y trouve vous y mène directement."
+      },
+      {
+        "q": "Comment ajouter le widget ?",
+        "a": "Maintenez le doigt sur l’écran d’accueil, touchez + en haut à gauche, cherchez CoolTime et ajoutez-le. Il existe aussi des widgets pour l’écran verrouillé. Ils affichent ce que vous pouvez utiliser maintenant et le temps restant."
+      },
+      {
+        "q": "Comment supprimer mes données ?",
+        "a": "Supprimer un élément supprime aussi son historique. Supprimer l’app efface tout. Vos données n’existent que sur votre appareil : une fois effacées, elles sont irrécupérables."
+      },
+      {
+        "q": "Est-ce synchronisé avec mes autres appareils ?",
+        "a": "Pas encore. Vos données restent uniquement sur cet iPhone. La synchronisation entre appareils et les sauvegardes figurent dans Réglages > Fonctionnalités à venir."
+      },
+      {
+        "q": "C’est vraiment gratuit ?",
+        "a": "Oui. Aucune fonction n’est payante. Si l’app vous plaît, vous pouvez laisser un pourboire au développeur depuis les Réglages, mais rien ne change si vous ne le faites pas."
+      },
+      {
+        "q": "Mes données sont-elles envoyées quelque part ?",
+        "a": "Non. Ni compte ni publicité, et vos recharges comme votre historique sont stockés uniquement sur votre iPhone. Le développeur ne reçoit que des statistiques d’utilisation anonymes, des rapports d’erreur et les commentaires que vous envoyez vous-même. Tous les détails sont dans la Politique de confidentialité ci-dessous."
+      },
+      {
+        "q": "J’ai trouvé un bug ou j’aimerais une fonction.",
+        "a": "Écrivez-nous depuis l’app dans Réglages > Assistance > Envoyer un commentaire, par message Instagram à @lee25_ios ou par e-mail à l’adresse ci-dessous. Si un écran s’est bloqué, précisez ce que vous faisiez et votre version d’iOS : nous trouverons la cause bien plus vite."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Lancez la recharge\navant la prochaine envie",
+    "cta": "Gratuit sur l’App Store"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "languages": "Langue",
+    "privacy": "Politique de confidentialité",
+    "contact": "Une question, une idée ? Écrivez à {email}.",
+    "links": [
+      [
+        "Assistance et contact",
+        "support.html"
+      ]
+    ]
+  }
+}

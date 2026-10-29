@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: uma recarga para as compras por impulso",
+  "description": "Delivery a cada 3 dias, roupa nova a cada 2 semanas. Coloque uma recarga nos seus gastos, como numa habilidade de jogo. Tudo grátis.",
+  "hero": {
+    "headline": "Bateu vontade de gastar?\nPrimeiro, a recarga.",
+    "lead": "Coloque uma recarga nos seus gastos, como numa habilidade de jogo. Usou, o círculo esvazia e vai enchendo devagar até você poder de novo.",
+    "cta": "Baixe grátis na App Store",
+    "note": "Todos os recursos são grátis. Sem conta, sem anúncios."
+  },
+  "demo": {
+    "title": "Teste aqui",
+    "lead": "Escolha um item, toque em Usar e avance o tempo um dia por vez. Dá para ver também o que acontece se você usar durante a recarga.",
+    "nextDay": "Próximo dia",
+    "note": "Aqui o dia passa com um botão. No app, o tempo passa de verdade e você recebe uma notificação quando acaba.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Delivery de comida",
+        "days": 3,
+        "every": "Delivery a cada 3 dias"
+      },
+      {
+        "emoji": "☕",
+        "name": "Cafeteria",
+        "days": 2,
+        "every": "Café a cada dois dias"
+      },
+      {
+        "emoji": "👕",
+        "name": "Compras de roupas",
+        "days": 14,
+        "every": "Roupas a cada 2 semanas"
+      }
+    ],
+    "use": "Usar",
+    "breakShort": "Quebrar",
+    "breakIt": "Quebrar recarga",
+    "warnTitle": "Em recarga!",
+    "warnText": "Se usar agora, sua taxa de cumprimento vai cair",
+    "ready": "Disponível",
+    "left": "Tempo restante: %@",
+    "dh": "%lld d %lld h",
+    "half": "%@ Metade do caminho!",
+    "end": "%@ Recarga concluída!",
+    "compliance": "Cumprimento",
+    "total": "Total de usos",
+    "breaks": "Vezes quebradas"
+  },
+  "problem": {
+    "title": "Já aconteceu de o “só dessa vez” virar quatro vezes na mesma semana?",
+    "text": "Toda vez que você abre o app de delivery parece que faz séculos, mas quando foi a última vez mesmo, você não lembra. O CoolTime mostra quando você usou algo pela última vez e quando pode de novo, para que quem decide seja a regra que você definiu antes, e não a vontade do momento."
+  },
+  "features": [
+    {
+      "title": "Mais uma pausa antes de quebrar",
+      "text": "Se você tentar usar algo durante a recarga, o app mostra o tempo restante e avisa que sua taxa de cumprimento vai cair.\nAinda precisa? Anote o motivo e quanto custou de verdade. A quebra fica registrada no histórico.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Seu autocontrole em números",
+      "text": "Taxa de cumprimento, histórico por item e por categoria e quantas vezes você quebrou uma recarga, tudo numa tela só.\nSe o item tiver um custo estimado, o app também estima quanto você economizou neste mês.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Recargas comuns com um toque",
+      "text": "Escolha entre modelos recomendados, de viagens, compras e comida até saúde e finanças.\nVocê recebe uma notificação na metade e no fim da recarga, e os widgets da Tela de Início e da Tela Bloqueada mostram o tempo restante.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Três passos para começar",
+    "items": [
+      {
+        "title": "Adicione um item",
+        "text": "Escolha um nome, um emoji e quanto tempo esperar, em horas, dias, semanas ou meses. Ou use um modelo."
+      },
+      {
+        "title": "Usou? Toque em Usar",
+        "text": "A recarga começa na hora e o círculo esvazia."
+      },
+      {
+        "title": "Chegou o aviso? Pode ir",
+        "text": "Quando a recarga termina, chega uma notificação. É só permitir as notificações uma vez."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Recargas dos modelos recomendados",
+    "rows": [
+      [
+        "🌏 Viagens",
+        "Viagem internacional · Viagem nacional · Hotel para relaxar"
+      ],
+      [
+        "🛍️ Compras",
+        "Compras de roupas · Compra por impulso · Eletrônicos"
+      ],
+      [
+        "🍔 Comida",
+        "Fast food · Delivery de comida · Cafeteria · Sobremesa · Comer fora · Lanche da madrugada"
+      ],
+      [
+        "🎮 Entretenimento",
+        "Compras em jogos · Cinema · Maratona de séries · Show / espetáculo"
+      ],
+      [
+        "💅 Estilo de vida",
+        "Bebida alcoólica · Táxi · Manicure · Cabeleireiro · Massagem / spa"
+      ],
+      [
+        "🏃 Saúde",
+        "Dia de descanso (sem treino) · Dia do lixo"
+      ],
+      [
+        "💰 Finanças",
+        "Day trade · Loteria"
+      ]
+    ],
+    "note": "Cada modelo já vem com um intervalo razoável e um custo estimado. Não achou o que queria? Crie o seu."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Usei durante uma recarga.",
+        "a": "Tudo bem. O histórico marca que foi durante a recarga, e ela recomeça a partir desse momento. Isso conta na taxa de cumprimento e no número de quebras em Estatísticas."
+      },
+      {
+        "q": "Como a economia é calculada?",
+        "a": "Se você informar um custo estimado para um item, o app estima quantos usos a recarga evitou neste mês e mostra esse valor. É uma estimativa, não um valor exato, e itens sem custo estimado ficam de fora."
+      },
+      {
+        "q": "Não estou recebendo notificações.",
+        "a": "No iPhone, confira Ajustes > Notificações > CoolTime. Se a primeira tela do app avisar que as notificações estão desativadas, o botão Ajustes ali leva você direto."
+      },
+      {
+        "q": "Como adiciono o widget?",
+        "a": "Mantenha a Tela de Início pressionada, toque em + no canto superior esquerdo, encontre o CoolTime e adicione. Também há widgets para a Tela Bloqueada. Eles mostram o que você já pode usar e o tempo restante."
+      },
+      {
+        "q": "Como apago meus registros?",
+        "a": "Ao excluir um item, os registros dele também são excluídos. Ao excluir o app, todos somem. Os registros ficam só no seu dispositivo, então não dá para recuperar o que foi apagado."
+      },
+      {
+        "q": "Sincroniza com meus outros aparelhos?",
+        "a": "Ainda não. Seus registros ficam só neste iPhone. Sincronização entre aparelhos e backup estão na lista em Ajustes > Recursos a caminho."
+      },
+      {
+        "q": "É grátis mesmo?",
+        "a": "É. Nenhum recurso fica bloqueado atrás de pagamento. Se gostar do app, você pode mandar uma gorjeta ao desenvolvedor pelos Ajustes, mas nada muda se não mandar."
+      },
+      {
+        "q": "Meus registros são enviados para algum lugar?",
+        "a": "Não. Não tem conta nem anúncio, e suas recargas e seu histórico ficam salvos só no seu iPhone. O desenvolvedor recebe apenas estatísticas de uso anônimas, relatórios de erro e o feedback que você mesmo enviar. Os detalhes estão na Política de privacidade, logo abaixo."
+      },
+      {
+        "q": "Achei um bug ou quero sugerir um recurso.",
+        "a": "Conte para a gente no app, em Ajustes > Suporte > Enviar feedback, por DM no Instagram @lee25_ios ou pelo e-mail abaixo. Se alguma tela travou, diga o que você estava fazendo e a versão do iOS, assim achamos o problema bem mais rápido."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Coloque a recarga\nantes da próxima vontade",
+    "cta": "Baixe grátis na App Store"
+  },
+  "ui": {
+    "skip": "Pular para o conteúdo",
+    "languages": "Idioma",
+    "privacy": "Política de privacidade",
+    "contact": "Dúvidas ou sugestões? Escreva para {email}.",
+    "links": [
+      [
+        "Suporte e contato",
+        "support.html"
+      ]
+    ]
+  }
+}

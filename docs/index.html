@@ -1,97 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>쿨타임</title>
-<meta name="description" content="게임의 스킬 쿨타임처럼, 소비와 행동에 기다리는 시간을 걸어 두는 iPhone 앱.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>쿨타임: 충동 소비에 거는 대기 시간</title>
+  <meta name="description" content="배달은 3일에 한 번, 옷은 2주에 한 번. 게임 스킬처럼 소비에 쿨타임을 걸고 다시 써도 될 때까지 기다리는 습관을 만들어요. 모든 기능이 무료예요.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="쿨타임: 충동 소비에 거는 대기 시간">
+  <meta property="og:description" content="배달은 3일에 한 번, 옷은 2주에 한 번. 게임 스킬처럼 소비에 쿨타임을 걸고 다시 써도 될 때까지 기다리는 습관을 만들어요. 모든 기능이 무료예요.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/ko/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="sitegen.css">
+  <link rel="stylesheet" href="demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="icon.png" alt="">
-    <div>
-      <div class="name">쿨타임</div>
-      <div class="sub">쿨타임을 기다려</div>
-    </div>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="bar">
+    <a class="brand" href=""><img src="icon.png" alt="" width="32" height="32">쿨타임</a>
+    <a class="lang-link" href="#languages">언어</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">소개</a>
-    <a href="support.html">지원 · 문의</a>
-    <a href="privacy.html">개인정보 처리방침</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="./" aria-current="true">한국어</a> <a href="en/" hreflang="en" lang="en">English</a> <a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="ja/" hreflang="ja" lang="ja">日本語</a> <a href="ru/" hreflang="ru" lang="ru">Русский</a> <a href="es/" hreflang="es" lang="es">Español</a> <a href="de/" hreflang="de" lang="de">Deutsch</a> <a href="fr/" hreflang="fr" lang="fr">Français</a> <a href="it/" hreflang="it" lang="it">Italiano</a> <a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="th/" hreflang="th" lang="th">ไทย</a> <a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="cs/" hreflang="cs" lang="cs">Čeština</a> <a href="da/" hreflang="da" lang="da">Dansk</a> <a href="el/" hreflang="el" lang="el">Ελληνικά</a> <a href="fi/" hreflang="fi" lang="fi">Suomi</a> <a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="pl/" hreflang="pl" lang="pl">Polski</a> <a href="sv/" hreflang="sv" lang="sv">Svenska</a> <a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>충동에도 쿨타임을</h1>
-  <p class="lede">게임의 스킬처럼, 소비와 행동에 기다리는 시간을 걸어 둡니다.
-  배달은 3일에 한 번, 옷 쇼핑은 2주에 한 번. 쓰고 나면 다시 쓸 수 있을 때까지 원이 천천히 차오릅니다.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>지르고 싶을 땐<br>쿨타임부터</h1>
+        <p class="lead">게임 스킬처럼 소비에도 기다리는 시간을 걸어 두세요. 쓰고 나면 원이 비고, 다시 써도 될 때까지 천천히 차올라요.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">App Store에서 무료로 받기</a><a class="try" href="#try">직접 써 보세요 ↓</a></div>
+        <p class="muted small">모든 기능이 무료예요. 계정도 광고도 없어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/01-home.jpg" alt="지르고 싶을 땐 쿨타임부터" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>이렇게 씁니다</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>쿨타임 만들기</h3>
-      <p>이름과 이모지, 기다릴 시간(시간·일·주·개월)을 정합니다.
-      음식·쇼핑·엔터테인먼트·건강·금융처럼 자주 쓰는 항목은 추천 템플릿에서 탭 한 번으로 더합니다.</p>
-    </div>
-    <div class="card">
-      <h3>사용하기</h3>
-      <p>쓸 때 <strong>사용하기</strong>를 누르면 쿨타임이 다시 시작됩니다.
-      왜 썼는지 메모와 실제 비용도 남길 수 있어요. 쿨타임 중에 쓰면 그 사실도 기록됩니다.</p>
-    </div>
-    <div class="card">
-      <h3>끝나면 알림</h3>
-      <p>쿨타임이 끝나면 알림으로 알려 줍니다. 홈 화면 위젯에서
-      지금 쓸 수 있는 것과 남은 시간을 바로 볼 수 있어요.</p>
-    </div>
-    <div class="card">
-      <h3>통계</h3>
-      <p>쿨타임을 얼마나 지켰는지(준수율), 카테고리별 기록, 쿨타임을 깬 횟수,
-      예상 비용을 넣은 항목의 이번 달 절약 금액을 보여 줍니다.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>직접 써 보세요</h2>
+      <p class="muted">아이템을 고르고 사용하기를 누른 다음, 하루씩 시간을 보내 보세요. 쿨타임 중에 쓰면 어떻게 되는지도 볼 수 있어요.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;직접 써 보세요&quot;, &quot;lead&quot;: &quot;아이템을 고르고 사용하기를 누른 다음, 하루씩 시간을 보내 보세요. 쿨타임 중에 쓰면 어떻게 되는지도 볼 수 있어요.&quot;, &quot;nextDay&quot;: &quot;하루 지나기&quot;, &quot;note&quot;: &quot;체험에서는 버튼으로 하루씩 넘기지만, 앱에서는 실제 시간이 흐르고 끝나면 알림이 와요.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;배달음식&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;배달은 3일에 한 번&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;카페&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;커피는 이틀에 한 번&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;옷 쇼핑&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;옷은 2주에 한 번&quot;}], &quot;use&quot;: &quot;사용하기&quot;, &quot;breakShort&quot;: &quot;깨기&quot;, &quot;breakIt&quot;: &quot;쿨타임 깨기&quot;, &quot;warnTitle&quot;: &quot;쿨타임 중입니다!&quot;, &quot;warnText&quot;: &quot;지금 사용하면 준수율이 낮아집니다&quot;, &quot;ready&quot;: &quot;사용 가능&quot;, &quot;left&quot;: &quot;남은 시간: %@&quot;, &quot;dh&quot;: &quot;%lld일 %lld시간&quot;, &quot;half&quot;: &quot;%@ 절반 달성!&quot;, &quot;end&quot;: &quot;%@ 쿨타임 종료!&quot;, &quot;compliance&quot;: &quot;준수율&quot;, &quot;total&quot;: &quot;총 사용&quot;, &quot;breaks&quot;: &quot;깬 횟수&quot;}"></div>
+    </section>
 
-  <h2>기록은 내 기기 안에</h2>
-  <div class="card">
-    <p>계정도 광고도 없습니다. 쿨타임과 사용 기록은 iPhone 안에만 저장되고,
-    개발자에게 전송되지 않습니다. 개발자에게 가는 것은 익명 사용 통계·오류 보고와 직접 보낸 피드백뿐입니다.
-    자세한 내용은 <a href="privacy.html">개인정보 처리방침</a>에 있습니다.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>"이번 한 번만"이 일주일에 네 번이었던 적 있나요?</h2>
+      <p>배달 앱을 열 때마다 이번만이라고 생각하지만, 지난번이 언제였는지는 잘 기억나지 않아요. 쿨타임은 마지막으로 쓴 때와 다시 써도 되는 때를 보여 줘서, 참을지 말지를 그때 기분이 아니라 미리 정해 둔 규칙으로 고르게 해 줘요.</p>
+    </section>
 
-  <p class="meta">iPhone · 한국어</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>깨기 전에 한 번 더 물어봐요</h2>
+        <p>쿨타임 중에 쓰려고 하면 남은 시간과 함께 준수율이 내려간다고 알려 줘요.<br>그래도 써야 한다면 왜 썼는지 메모와 실제 비용을 남길 수 있어요. 깬 기록도 그대로 남아요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/02-break.jpg" alt="깨기 전에 한 번 더 물어봐요" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>참은 만큼 숫자로 보여요</h2>
+        <p>쿨타임을 지킨 비율인 준수율, 아이템별·카테고리별 기록, 깬 횟수를 한 화면에서 봐요.<br>예상 비용을 넣어 둔 아이템은 이번 달에 아낀 금액도 어림해서 보여 줘요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/03-stats.jpg" alt="참은 만큼 숫자로 보여요" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>자주 거는 쿨타임은 탭 한 번으로</h2>
+        <p>여행, 쇼핑, 음식부터 건강, 금융까지 추천 템플릿에서 골라 바로 더해요.<br>쿨타임이 절반 지났을 때와 끝났을 때 알림이 오고, 홈 화면과 잠금 화면 위젯에서 남은 시간을 바로 볼 수 있어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/04-templates.jpg" alt="자주 거는 쿨타임은 탭 한 번으로" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>시작은 세 단계면 돼요</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>아이템을 만들어요</h3><p>이름과 이모지, 기다릴 시간(시간·일·주·개월)을 정하거나 추천 템플릿에서 골라요.</p></li>
+<li class="card"><span class="n">2</span><h3>쓸 때 사용하기를 눌러요</h3><p>그 순간부터 쿨타임이 시작되고 원이 비어요.</p></li>
+<li class="card"><span class="n">3</span><h3>알림이 오면 다시 써요</h3><p>끝나면 알림으로 알려 줘요. 처음 한 번만 알림을 허용해 주세요.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>추천 템플릿에 있는 쿨타임</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 여행</dt><dd>해외여행 · 국내여행 · 호캉스</dd></div><div><dt>🛍️ 쇼핑</dt><dd>옷 쇼핑 · 충동구매 · 전자기기</dd></div><div><dt>🍔 음식</dt><dd>패스트푸드 · 배달음식 · 카페 · 디저트 · 외식 · 야식</dd></div><div><dt>🎮 엔터테인먼트</dt><dd>게임 과금 · 영화관 · 넷플릭스 빈지워칭 · 콘서트/공연</dd></div><div><dt>💅 라이프스타일</dt><dd>술 마시기 · 택시 · 네일아트 · 미용실 · 마사지/스파</dd></div><div><dt>🏃 건강</dt><dd>휴식의 날 (운동 스킵) · 치팅데이</dd></div><div><dt>💰 금융</dt><dd>주식 매매 · 로또</dd></div></dl>
+      </div>
+      <p class="muted">템플릿마다 알맞은 주기와 예상 비용이 미리 들어 있어요. 원하는 게 없으면 직접 만들면 돼요.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>자주 묻는 질문</h2>
+      <div class="faq"><details><summary>쿨타임 중에 써 버렸어요.</summary><p>써도 돼요. 사용 기록에 쿨타임 중에 썼다는 표시가 남고, 쿨타임은 그때부터 다시 시작돼요. 통계의 준수율과 깬 횟수에도 반영돼요.</p></details>
+<details><summary>절약 금액은 어떻게 계산하나요?</summary><p>아이템에 예상 비용을 넣어 두면, 이번 달에 쿨타임 덕분에 덜 쓴 횟수를 어림해 아낀 금액을 보여 줘요. 정확한 금액이 아니라 추정치이고, 예상 비용을 비워 둔 아이템은 계산에서 빠져요.</p></details>
+<details><summary>알림이 오지 않아요.</summary><p>iPhone의 설정 &gt; 알림 &gt; 쿨타임에서 알림이 켜져 있는지 확인해 주세요. 앱 첫 화면에 알림이 꺼져 있다는 안내가 보이면, 거기 있는 설정 버튼으로 바로 갈 수 있어요.</p></details>
+<details><summary>위젯은 어떻게 추가하나요?</summary><p>홈 화면을 길게 누르고 왼쪽 위의 +를 누른 다음 쿨타임을 찾아 추가하세요. 잠금 화면 위젯도 있어요. 지금 쓸 수 있는 아이템과 남은 시간을 보여 줘요.</p></details>
+<details><summary>기록을 지우고 싶어요.</summary><p>아이템을 삭제하면 그 아이템의 기록도 함께 지워져요. 앱을 삭제하면 모든 기록이 사라져요. 기록은 기기 안에만 있어서 지운 기록은 되살릴 수 없어요.</p></details>
+<details><summary>다른 기기와 동기화되나요?</summary><p>아직은 안 돼요. 기록은 지금 쓰는 iPhone 하나에만 있어요. 기기 간 동기화와 백업은 앱의 설정 &gt; 앞으로 만들 기능에 올라 있어요.</p></details>
+<details><summary>정말 무료인가요?</summary><p>네. 결제해야 열리는 기능이 없어요. 앱이 마음에 들면 설정에서 개발자에게 팁을 보낼 수 있지만, 보내지 않아도 달라지는 건 없어요.</p></details>
+<details><summary>제 기록이 어딘가로 보내지나요?</summary><p>아니요. 계정도 광고도 없고, 쿨타임과 사용 기록은 iPhone 안에만 저장돼요. 개발자에게 가는 것은 익명 사용 통계와 오류 보고, 직접 보낸 피드백뿐이에요. 자세한 내용은 아래 개인정보 처리방침에 있어요.</p></details>
+<details><summary>버그를 찾았거나 바라는 기능이 있어요.</summary><p>앱의 설정 &gt; 지원 &gt; 피드백 보내기, 인스타그램 DM @lee25_ios, 또는 아래 메일로 편하게 알려 주세요. 막힌 화면이 있었다면 어떤 상황이었는지와 iOS 버전을 함께 적어 주시면 훨씬 빨리 찾을 수 있어요.</p></details></div>
+      <p class="contact">궁금한 점이나 의견은 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>로 보내 주세요.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>다음 충동이 오기 전에<br>쿨타임을 걸어 두세요</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">App Store에서 무료로 받기</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Leeo · <a href="support.html">지원 · 문의</a> · <a href="privacy.html">개인정보 처리방침</a>
+    <nav id="languages" class="langs" aria-label="언어"><a href="" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+<a href="en/" hreflang="en" lang="en">English</a>
+<a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="es/" hreflang="es" lang="es">Español</a>
+<a href="de/" hreflang="de" lang="de">Deutsch</a>
+<a href="fr/" hreflang="fr" lang="fr">Français</a>
+<a href="it/" hreflang="it" lang="it">Italiano</a>
+<a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="th/" hreflang="th" lang="th">ไทย</a>
+<a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="da/" hreflang="da" lang="da">Dansk</a>
+<a href="el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">개인정보 처리방침</a> · <a href="support.html">지원 · 문의</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="demo.js"></script>
 </body>
 </html>

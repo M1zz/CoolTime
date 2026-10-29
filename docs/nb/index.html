@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nb">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="En iPhone-app som gir utgifter og vaner en ventetid, som nedkjølingen til en evne i et spill.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: ventetid på impulskjøp</title>
+  <meta name="description" content="Takeaway hver tredje dag, nye klær annenhver uke. Sett en ventetid på forbruket som på en evne i et spill. Alle funksjoner er gratis.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: ventetid på impulskjøp">
+  <meta property="og:description" content="Takeaway hver tredje dag, nye klær annenhver uke. Sett en ventetid på forbruket som på en evne i et spill. Alle funksjoner er gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/nb/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/nb/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Vent til ventetiden er over</div>
-    </div>
+  <a class="skip" href="#main">Hopp til innhold</a>
+  <header class="bar">
+    <a class="brand" href="../nb/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Språk</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">Om appen</a>
-    <a href="support.html">Støtte og kontakt</a>
-    <a href="privacy.html">Personvernerklæring</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" aria-current="true">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Ventetid også for impulsene dine</h1>
-  <p class="lede">Som nedkjølingen til en evne i et spill setter du en ventetid på utgifter og vaner. Matlevering hver tredje dag, klesshopping annenhver uke. Etter bruk fylles en ring sakte opp til du kan gjøre det igjen.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Lyst til å handle?<br>Ventetid først.</h1>
+        <p class="lead">Gi forbruket ditt en ventetid, akkurat som en evne i et spill. Når du har brukt noe, tømmes sirkelen og fylles sakte opp igjen til du kan igjen.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Hent gratis i App Store</a><a class="try" href="#try">Prøv det her ↓</a></div>
+        <p class="muted small">Alle funksjoner er gratis. Ingen konto, ingen reklame.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/01-home.jpg" alt="Lyst til å handle? Ventetid først." width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Slik fungerer det</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Lag en ventetid</h3>
-      <p>Velg et navn, en emoji og hvor lenge du vil vente (timer, dager, uker eller måneder). Vanlige elementer innen mat, shopping, underholdning, helse og økonomi legger du til med ett trykk fra de anbefalte malene.</p>
-    </div>
-    <div class="card">
-      <h3>Bruk</h3>
-      <p>Når du bruker noe, trykk på <strong>Bruk</strong>, og ventetiden starter på nytt. Du kan skrive et notat om hvorfor og den faktiske prisen. Hvis du bruker det i en ventetid, blir det også registrert.</p>
-    </div>
-    <div class="card">
-      <h3>Varsel når den er over</h3>
-      <p>Når en ventetid er over, får du et varsel. Widgeten på Hjem-skjermen viser med en gang hva du kan bruke nå og hvor mye tid som er igjen.</p>
-    </div>
-    <div class="card">
-      <h3>Statistikk</h3>
-      <p>Viser hvor godt du har overholdt ventetidene dine (etterlevelsesprosent), registreringer per kategori, hvor mange ganger du har brutt en ventetid, og denne månedens sparing for elementer med anslått pris.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Prøv det her</h2>
+      <p class="muted">Velg et element, trykk på Bruk og spol tiden fram én dag om gangen. Du kan også se hva som skjer hvis du bruker det i ventetiden.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Prøv det her&quot;, &quot;lead&quot;: &quot;Velg et element, trykk på Bruk og spol tiden fram én dag om gangen. Du kan også se hva som skjer hvis du bruker det i ventetiden.&quot;, &quot;nextDay&quot;: &quot;Neste dag&quot;, &quot;note&quot;: &quot;Her hopper du en dag fram med en knapp. I appen går tiden på ekte, og du får et varsel når den er over.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Matlevering&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Levering hver tredje dag&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Kafé&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Kaffe annenhver dag&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Klesshopping&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Klær annenhver uke&quot;}], &quot;use&quot;: &quot;Bruk&quot;, &quot;breakShort&quot;: &quot;Bryt&quot;, &quot;breakIt&quot;: &quot;Bryt ventetiden&quot;, &quot;warnTitle&quot;: &quot;I ventetid!&quot;, &quot;warnText&quot;: &quot;Hvis du bruker det nå, synker etterlevelsesprosenten din&quot;, &quot;ready&quot;: &quot;Klar&quot;, &quot;left&quot;: &quot;Gjenstående tid: %@&quot;, &quot;dh&quot;: &quot;%lld d %lld t&quot;, &quot;half&quot;: &quot;%@ Halvveis!&quot;, &quot;end&quot;: &quot;%@ Ventetiden er over!&quot;, &quot;compliance&quot;: &quot;Etterlevelse&quot;, &quot;total&quot;: &quot;Bruk totalt&quot;, &quot;breaks&quot;: &quot;Ganger brutt&quot;}"></div>
+    </section>
 
-  <h2>Dataene dine blir på enheten din</h2>
-  <div class="card">
-    <p>Ingen kontoer, ingen annonser. Ventetidene og bruksloggen din lagres bare på iPhonen din og sendes aldri til utvikleren. Det som når utvikleren, er bare anonym bruksstatistikk, feilrapporter og tilbakemeldinger du selv sender. Detaljer finner du i <a href="privacy.html">personvernerklæringen</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Har «bare denne ene gangen» blitt til fire ganger på én uke?</h2>
+      <p>Hver gang du åpner en matleveringsapp, føles det som lenge siden sist. Men når var egentlig sist? CoolTime viser når du sist brukte noe og når du kan igjen. Da er det regelen du satte på forhånd som bestemmer, ikke humøret akkurat nå.</p>
+    </section>
 
-  <p class="meta">iPhone · Norsk bokmål</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Én pause til før du bryter den</h2>
+        <p>Prøver du å bruke noe i ventetiden, viser appen hvor lang tid som er igjen, og advarer om at etterlevelsesprosenten din synker.<br>Trenger du det likevel? Skriv et notat om hvorfor og hva det faktisk kostet. Bruddet blir stående i loggen din.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/02-break.jpg" alt="Én pause til før du bryter den" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Støtte og kontakt</a> · <a href="privacy.html">Personvernerklæring</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Selvkontrollen din i tall</h2>
+        <p>Etterlevelsesprosent, logg per element og kategori og hvor mange ganger du har brutt en ventetid, samlet på én skjerm.<br>Gir du et element en anslått pris, anslår appen også hvor mye du har spart denne måneden.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/03-stats.jpg" alt="Selvkontrollen din i tall" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vanlige ventetider med ett trykk</h2>
+        <p>Velg blant anbefalte maler, fra reiser, shopping og mat til helse og økonomi.<br>Du får varsel når ventetiden er halvveis og når den er over, og widgeter på Hjem-skjermen og låseskjermen viser gjenstående tid.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/04-templates.jpg" alt="Vanlige ventetider med ett trykk" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Kom i gang på tre steg</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Lag et element</h3><p>Velg navn, emoji og hvor lenge du vil vente, i timer, dager, uker eller måneder. Eller ta en mal.</p></li>
+<li class="card"><span class="n">2</span><h3>Trykk på Bruk når du bruker det</h3><p>Ventetiden starter med en gang, og sirkelen tømmes.</p></li>
+<li class="card"><span class="n">3</span><h3>Klar igjen når varselet kommer</h3><p>Du får et varsel når ventetiden er over. Du må bare tillate varsler én gang.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Ventetider i de anbefalte malene</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Reise</dt><dd>Utenlandsreise · Innenlandsreise · Hotellopphold</dd></div><div><dt>🛍️ Shopping</dt><dd>Klesshopping · Impulskjøp · Elektronikk</dd></div><div><dt>🍔 Mat</dt><dd>Hurtigmat · Matlevering · Kafé · Dessert · Spise ute · Kveldsmat</dd></div><div><dt>🎮 Underholdning</dt><dd>Kjøp i spill · Kino · Serie-maraton · Konsert / show</dd></div><div><dt>💅 Livsstil</dt><dd>Alkohol · Drosje · Neglepleie · Frisør · Massasje / spa</dd></div><div><dt>🏃 Helse</dt><dd>Hviledag (hopp over trening) · Jukse-dag</dd></div><div><dt>💰 Økonomi</dt><dd>Aksjehandel · Lotto</dd></div></dl>
+      </div>
+      <p class="muted">Hver mal har en fornuftig ventetid og en anslått pris. Finner du ikke din? Lag din egen.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Spørsmål og svar</h2>
+      <div class="faq"><details><summary>Jeg brukte det i ventetiden.</summary><p>Det går helt fint. Loggen markerer at det ble brukt i en ventetid, og ventetiden starter på nytt fra det øyeblikket. Det teller med i etterlevelsesprosenten og antall brudd under Statistikk.</p></details>
+<details><summary>Hvordan beregnes sparingen?</summary><p>Når du oppgir en anslått pris på et element, anslår appen hvor mange ganger ventetiden har holdt deg igjen denne måneden, og viser beløpet. Det er et anslag, ikke et nøyaktig tall, og elementer uten anslått pris regnes ikke med.</p></details>
+<details><summary>Jeg får ikke varsler.</summary><p>Sjekk Innstillinger &gt; Varsler &gt; CoolTime på iPhonen. Hvis appens første skjerm sier at varsler er slått av, tar Innstillinger-knappen der deg rett dit.</p></details>
+<details><summary>Hvordan legger jeg til widgeten?</summary><p>Trykk og hold på Hjem-skjermen, trykk på + øverst til venstre, finn CoolTime og legg den til. Det finnes også widgeter for låseskjermen. De viser hva du kan bruke nå og hvor lang tid som er igjen.</p></details>
+<details><summary>Hvordan sletter jeg registreringene mine?</summary><p>Sletter du et element, slettes registreringene for det også. Sletter du appen, forsvinner alt. Registreringene ligger bare på enheten din, så det som er slettet, kan ikke hentes tilbake.</p></details>
+<details><summary>Synkroniseres det med de andre enhetene mine?</summary><p>Ikke ennå. Registreringene ligger på denne ene iPhonen. Synkronisering mellom enheter og sikkerhetskopi står på listen under Innstillinger &gt; Kommende funksjoner.</p></details>
+<details><summary>Er det virkelig gratis?</summary><p>Ja. Ingenting er låst bak betaling. Liker du appen, kan du støtte utvikleren med et lite beløp under Innstillinger, men ingenting endrer seg om du lar være.</p></details>
+<details><summary>Blir registreringene mine sendt noe sted?</summary><p>Nei. Det er ingen konto og ingen reklame, og ventetidene og loggen din lagres bare på iPhonen. Utvikleren mottar bare anonym bruksstatistikk, feilrapporter og tilbakemeldinger du sender selv. Les mer i personvernerklæringen nedenfor.</p></details>
+<details><summary>Jeg har funnet en feil eller ønsker meg en funksjon.</summary><p>Si fra i appen under Innstillinger &gt; Støtte &gt; Send tilbakemelding, på Instagram-DM til @lee25_ios eller på e-post nedenfor. Hvis en skjerm hang seg, skriv hva du holdt på med og hvilken iOS-versjon du har, så finner vi feilen mye raskere.</p></details></div>
+      <p class="contact">Spørsmål eller tilbakemeldinger? Skriv til <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Sett ventetiden<br>før neste impuls</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Hent gratis i App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb" aria-current="page">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Personvernerklæring</a> · <a href="support.html">Støtte og kontakt</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

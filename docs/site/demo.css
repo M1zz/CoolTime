@@ -1,0 +1,57 @@
+/* 쿨타임 웹 체험. 색은 앱의 AppTheme 와 같다: 사용 가능 초록, 쿨타임 진행 파랑에서 보라, 깨기 주황. */
+.demo-card { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s5); align-items: center; }
+.ct-stage { position: relative; background: var(--bg); border-radius: var(--r-inner);
+            padding: var(--s8) var(--s5) var(--s6); text-align: center; }
+.ct-circle { --p: 1; width: 148px; height: 148px; margin: 0 auto var(--s4); border-radius: 50%; position: relative;
+             display: grid; place-items: center;
+             background: conic-gradient(#598CFF 0deg, #B366FF calc(var(--p) * 360deg), var(--line) 0); }
+.ct-circle::before { content: ""; position: absolute; inset: 7px; border-radius: 50%; background: var(--surface); }
+.ct-circle.ready { background: linear-gradient(135deg, #2ECC71, #00D9B3);
+                   box-shadow: 0 0 22px color-mix(in srgb, #2ECC71 45%, transparent); }
+.ct-circle.bump { animation: ct-bump .45s var(--ease); }
+@keyframes ct-bump { 0% { transform: scale(.9); } 100% { transform: none; } }
+.ct-emoji { position: relative; font-size: 64px; line-height: 1; transition: opacity .3s var(--ease), filter .3s var(--ease); }
+.ct-circle:not(.ready) .ct-emoji { opacity: .5; filter: grayscale(.7); }
+.ct-name { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
+.ct-state { color: var(--muted); font-variant-numeric: tabular-nums; min-height: 1.6em; }
+
+.ct-toast { position: absolute; left: 50%; top: var(--s3); transform: translate(-50%, 8px); opacity: 0;
+            max-width: calc(100% - var(--s5)); background: var(--surface); font-weight: 600;
+            padding: var(--s2) var(--s4); border-radius: 999px; box-shadow: 0 6px 20px rgb(0 0 0 / .12);
+            transition: opacity .25s var(--ease), transform .25s var(--ease); pointer-events: none; }
+.ct-toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+.ct-items { display: flex; flex-wrap: wrap; gap: var(--s2); margin-bottom: var(--s4); }
+.chip { font: inherit; font-weight: 600; color: var(--text); background: var(--bg); border: 0;
+        border-radius: 999px; padding: var(--s2) var(--s4); min-height: 44px; cursor: pointer;
+        transition: transform .15s var(--ease), background .15s var(--ease); }
+.chip:hover { background: color-mix(in srgb, var(--accent) 14%, var(--bg)); }
+.chip[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--accent); color: var(--accent); }
+.chip:active { transform: scale(.95); }
+
+.ct-actions { display: flex; flex-wrap: wrap; gap: var(--s2); margin-bottom: var(--s4); }
+.ct-actions button, .ct-break { font: inherit; font-weight: 600; min-height: 48px; padding: 0 var(--s5);
+                                border-radius: 999px; cursor: pointer; border: 0;
+                                transition: transform .15s var(--ease), background .2s var(--ease); }
+.ct-actions button:active, .ct-break:active { transform: scale(.96); }
+.ct-main { background: #17834A; color: #fff; }
+.ct-main.break, .ct-break { background: #C25400; color: #fff; }
+.ct-main.hint { animation: ct-hint 1.6s var(--ease) infinite; }
+@keyframes ct-hint { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, #17834A 22%, transparent); } }
+.ct-day { background: transparent; color: var(--text); box-shadow: inset 0 0 0 2px var(--line); }
+.ct-day:hover { box-shadow: inset 0 0 0 2px var(--accent); color: var(--accent); }
+
+.ct-warn { background: color-mix(in srgb, #FF8C33 14%, var(--surface)); border-radius: var(--r-inner);
+           padding: var(--s4); margin-bottom: var(--s4); }
+.ct-warn p { color: var(--muted); margin: var(--s1) 0 var(--s3); }
+
+.ct-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s2); margin: 0 0 var(--s3); }
+.ct-stats div { background: var(--bg); border-radius: var(--r-inner); padding: var(--s3); text-align: center; }
+.ct-stats dt { font-size: .8125rem; color: var(--muted); }
+.ct-stats dd { margin: 0; font-size: 1.375rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ct-circle.bump, .ct-main.hint { animation: none; }
+  .ct-stage *, .ct-controls * { transition: none !important; }
+}
+@media (max-width: 760px) { .demo-card { grid-template-columns: 1fr; } }

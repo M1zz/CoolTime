@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: ventetid på impulskjøp",
+  "description": "Takeaway hver tredje dag, nye klær annenhver uke. Sett en ventetid på forbruket som på en evne i et spill. Alle funksjoner er gratis.",
+  "hero": {
+    "headline": "Lyst til å handle?\nVentetid først.",
+    "lead": "Gi forbruket ditt en ventetid, akkurat som en evne i et spill. Når du har brukt noe, tømmes sirkelen og fylles sakte opp igjen til du kan igjen.",
+    "cta": "Hent gratis i App Store",
+    "note": "Alle funksjoner er gratis. Ingen konto, ingen reklame."
+  },
+  "demo": {
+    "title": "Prøv det her",
+    "lead": "Velg et element, trykk på Bruk og spol tiden fram én dag om gangen. Du kan også se hva som skjer hvis du bruker det i ventetiden.",
+    "nextDay": "Neste dag",
+    "note": "Her hopper du en dag fram med en knapp. I appen går tiden på ekte, og du får et varsel når den er over.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Matlevering",
+        "days": 3,
+        "every": "Levering hver tredje dag"
+      },
+      {
+        "emoji": "☕",
+        "name": "Kafé",
+        "days": 2,
+        "every": "Kaffe annenhver dag"
+      },
+      {
+        "emoji": "👕",
+        "name": "Klesshopping",
+        "days": 14,
+        "every": "Klær annenhver uke"
+      }
+    ],
+    "use": "Bruk",
+    "breakShort": "Bryt",
+    "breakIt": "Bryt ventetiden",
+    "warnTitle": "I ventetid!",
+    "warnText": "Hvis du bruker det nå, synker etterlevelsesprosenten din",
+    "ready": "Klar",
+    "left": "Gjenstående tid: %@",
+    "dh": "%lld d %lld t",
+    "half": "%@ Halvveis!",
+    "end": "%@ Ventetiden er over!",
+    "compliance": "Etterlevelse",
+    "total": "Bruk totalt",
+    "breaks": "Ganger brutt"
+  },
+  "problem": {
+    "title": "Har «bare denne ene gangen» blitt til fire ganger på én uke?",
+    "text": "Hver gang du åpner en matleveringsapp, føles det som lenge siden sist. Men når var egentlig sist? CoolTime viser når du sist brukte noe og når du kan igjen. Da er det regelen du satte på forhånd som bestemmer, ikke humøret akkurat nå."
+  },
+  "features": [
+    {
+      "title": "Én pause til før du bryter den",
+      "text": "Prøver du å bruke noe i ventetiden, viser appen hvor lang tid som er igjen, og advarer om at etterlevelsesprosenten din synker.\nTrenger du det likevel? Skriv et notat om hvorfor og hva det faktisk kostet. Bruddet blir stående i loggen din.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Selvkontrollen din i tall",
+      "text": "Etterlevelsesprosent, logg per element og kategori og hvor mange ganger du har brutt en ventetid, samlet på én skjerm.\nGir du et element en anslått pris, anslår appen også hvor mye du har spart denne måneden.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Vanlige ventetider med ett trykk",
+      "text": "Velg blant anbefalte maler, fra reiser, shopping og mat til helse og økonomi.\nDu får varsel når ventetiden er halvveis og når den er over, og widgeter på Hjem-skjermen og låseskjermen viser gjenstående tid.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Kom i gang på tre steg",
+    "items": [
+      {
+        "title": "Lag et element",
+        "text": "Velg navn, emoji og hvor lenge du vil vente, i timer, dager, uker eller måneder. Eller ta en mal."
+      },
+      {
+        "title": "Trykk på Bruk når du bruker det",
+        "text": "Ventetiden starter med en gang, og sirkelen tømmes."
+      },
+      {
+        "title": "Klar igjen når varselet kommer",
+        "text": "Du får et varsel når ventetiden er over. Du må bare tillate varsler én gang."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Ventetider i de anbefalte malene",
+    "rows": [
+      [
+        "🌏 Reise",
+        "Utenlandsreise · Innenlandsreise · Hotellopphold"
+      ],
+      [
+        "🛍️ Shopping",
+        "Klesshopping · Impulskjøp · Elektronikk"
+      ],
+      [
+        "🍔 Mat",
+        "Hurtigmat · Matlevering · Kafé · Dessert · Spise ute · Kveldsmat"
+      ],
+      [
+        "🎮 Underholdning",
+        "Kjøp i spill · Kino · Serie-maraton · Konsert / show"
+      ],
+      [
+        "💅 Livsstil",
+        "Alkohol · Drosje · Neglepleie · Frisør · Massasje / spa"
+      ],
+      [
+        "🏃 Helse",
+        "Hviledag (hopp over trening) · Jukse-dag"
+      ],
+      [
+        "💰 Økonomi",
+        "Aksjehandel · Lotto"
+      ]
+    ],
+    "note": "Hver mal har en fornuftig ventetid og en anslått pris. Finner du ikke din? Lag din egen."
+  },
+  "faq": {
+    "title": "Spørsmål og svar",
+    "items": [
+      {
+        "q": "Jeg brukte det i ventetiden.",
+        "a": "Det går helt fint. Loggen markerer at det ble brukt i en ventetid, og ventetiden starter på nytt fra det øyeblikket. Det teller med i etterlevelsesprosenten og antall brudd under Statistikk."
+      },
+      {
+        "q": "Hvordan beregnes sparingen?",
+        "a": "Når du oppgir en anslått pris på et element, anslår appen hvor mange ganger ventetiden har holdt deg igjen denne måneden, og viser beløpet. Det er et anslag, ikke et nøyaktig tall, og elementer uten anslått pris regnes ikke med."
+      },
+      {
+        "q": "Jeg får ikke varsler.",
+        "a": "Sjekk Innstillinger > Varsler > CoolTime på iPhonen. Hvis appens første skjerm sier at varsler er slått av, tar Innstillinger-knappen der deg rett dit."
+      },
+      {
+        "q": "Hvordan legger jeg til widgeten?",
+        "a": "Trykk og hold på Hjem-skjermen, trykk på + øverst til venstre, finn CoolTime og legg den til. Det finnes også widgeter for låseskjermen. De viser hva du kan bruke nå og hvor lang tid som er igjen."
+      },
+      {
+        "q": "Hvordan sletter jeg registreringene mine?",
+        "a": "Sletter du et element, slettes registreringene for det også. Sletter du appen, forsvinner alt. Registreringene ligger bare på enheten din, så det som er slettet, kan ikke hentes tilbake."
+      },
+      {
+        "q": "Synkroniseres det med de andre enhetene mine?",
+        "a": "Ikke ennå. Registreringene ligger på denne ene iPhonen. Synkronisering mellom enheter og sikkerhetskopi står på listen under Innstillinger > Kommende funksjoner."
+      },
+      {
+        "q": "Er det virkelig gratis?",
+        "a": "Ja. Ingenting er låst bak betaling. Liker du appen, kan du støtte utvikleren med et lite beløp under Innstillinger, men ingenting endrer seg om du lar være."
+      },
+      {
+        "q": "Blir registreringene mine sendt noe sted?",
+        "a": "Nei. Det er ingen konto og ingen reklame, og ventetidene og loggen din lagres bare på iPhonen. Utvikleren mottar bare anonym bruksstatistikk, feilrapporter og tilbakemeldinger du sender selv. Les mer i personvernerklæringen nedenfor."
+      },
+      {
+        "q": "Jeg har funnet en feil eller ønsker meg en funksjon.",
+        "a": "Si fra i appen under Innstillinger > Støtte > Send tilbakemelding, på Instagram-DM til @lee25_ios eller på e-post nedenfor. Hvis en skjerm hang seg, skriv hva du holdt på med og hvilken iOS-versjon du har, så finner vi feilen mye raskere."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Sett ventetiden\nfør neste impuls",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Hopp til innhold",
+    "languages": "Språk",
+    "privacy": "Personvernerklæring",
+    "contact": "Spørsmål eller tilbakemeldinger? Skriv til {email}.",
+    "links": [
+      [
+        "Støtte og kontakt",
+        "support.html"
+      ]
+    ]
+  }
+}

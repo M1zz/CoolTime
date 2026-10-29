@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: čekací doba pro impulzivní utrácení",
+  "description": "Rozvoz jednou za 3 dny, nové oblečení jednou za 2 týdny. Nastav výdajům čekací dobu jako schopnosti ve hře. Všechny funkce zdarma.",
+  "hero": {
+    "headline": "Chuť utrácet?\nNejdřív si počkej.",
+    "lead": "Dej svým výdajům čekací dobu, jakou má schopnost ve hře. Po použití se kruh vyprázdní a pomalu se plní, dokud to zase nebudeš smět.",
+    "cta": "Stáhni zdarma v App Storu",
+    "note": "Všechny funkce zdarma. Bez účtu a bez reklam."
+  },
+  "demo": {
+    "title": "Vyzkoušej si to",
+    "lead": "Vyber položku, klepni na Použít a posouvej čas vždy o den dopředu. Uvidíš i to, co se stane, když ji použiješ během čekací doby.",
+    "nextDay": "Další den",
+    "note": "Tady den přeskočíš tlačítkem. V aplikaci plyne skutečný čas a na konci ti přijde oznámení.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Rozvoz jídla",
+        "days": 3,
+        "every": "Rozvoz jídla jednou za 3 dny"
+      },
+      {
+        "emoji": "☕",
+        "name": "Kavárna",
+        "days": 2,
+        "every": "Káva obden"
+      },
+      {
+        "emoji": "👕",
+        "name": "Nákup oblečení",
+        "days": 14,
+        "every": "Oblečení jednou za 2 týdny"
+      }
+    ],
+    "use": "Použít",
+    "breakShort": "Porušit",
+    "breakIt": "Porušit čekací dobu",
+    "warnTitle": "Čekací doba běží!",
+    "warnText": "Pokud to použiješ teď, sníží se tvá úspěšnost dodržování",
+    "ready": "K dispozici",
+    "left": "Zbývající čas: %@",
+    "dh": "%lld d %lld h",
+    "half": "%@ Půlka za tebou!",
+    "end": "%@ Čekací doba skončila!",
+    "compliance": "Dodržování",
+    "total": "Použití celkem",
+    "breaks": "Počet porušení"
+  },
+  "problem": {
+    "title": "Taky se ti stalo, že „jen dneska“ přišlo čtyřikrát za týden?",
+    "text": "Pokaždé, když otevřeš aplikaci na rozvoz jídla, máš pocit, že je to po dlouhé době. Kdy to bylo naposledy, si ale vlastně nepamatuješ. CoolTime ukazuje, kdy jsi něco použil(a) naposledy a kdy smíš znovu. Rozhoduješ tak podle pravidla, které sis určil(a) předem, a ne podle momentální nálady."
+  },
+  "features": [
+    {
+      "title": "Ještě jedno zastavení před porušením",
+      "text": "Když chceš něco použít během čekací doby, aplikace ukáže, kolik času zbývá, a upozorní, že ti klesne míra dodržování.\nPořád to potřebuješ? Zapiš si důvod a skutečnou cenu. Porušení zůstane v historii.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Sebeovládání v číslech",
+      "text": "Míra dodržování, historie podle položek a kategorií a počet porušení, všechno na jedné obrazovce.\nKdyž položce zadáš odhadovanou cenu, aplikace odhadne i to, kolik jsi tento měsíc ušetřil(a).",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Běžné čekací doby jedním klepnutím",
+      "text": "Vyber z doporučených šablon, od cestování, nákupů a jídla až po zdraví a finance.\nOznámení přijde v polovině čekací doby i na jejím konci a zbývající čas ukážou widgety na ploše a na zamčené obrazovce.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Začneš ve třech krocích",
+    "items": [
+      {
+        "title": "Přidej položku",
+        "text": "Zvol název, emoji a dobu čekání v hodinách, dnech, týdnech nebo měsících. Nebo sáhni po šabloně."
+      },
+      {
+        "title": "Při použití klepni na Použít",
+        "text": "Čekací doba se rozběhne hned a kruh se vyprázdní."
+      },
+      {
+        "title": "Přišlo oznámení? Můžeš znovu",
+        "text": "Jakmile čekací doba skončí, dáme ti vědět. Stačí jednou povolit oznámení."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Čekací doby v doporučených šablonách",
+    "rows": [
+      [
+        "🌏 Cestování",
+        "Cesta do zahraničí · Cesta po zemi · Pobyt v hotelu"
+      ],
+      [
+        "🛍️ Nakupování",
+        "Nákup oblečení · Impulzivní nákup · Elektronika"
+      ],
+      [
+        "🍔 Jídlo",
+        "Fast food · Rozvoz jídla · Kavárna · Zákusek · Jídlo v restauraci · Noční svačina"
+      ],
+      [
+        "🎮 Zábava",
+        "Nákupy ve hrách · Kino · Maraton seriálů · Koncert / představení"
+      ],
+      [
+        "💅 Životní styl",
+        "Alkohol · Taxi · Manikúra · Kadeřnictví · Masáž / lázně"
+      ],
+      [
+        "🏃 Zdraví",
+        "Den volna (vynechat cvičení) · Cheat day"
+      ],
+      [
+        "💰 Finance",
+        "Obchodování s akciemi · Loterie"
+      ]
+    ],
+    "note": "Každá šablona má rozumnou dobu čekání a odhadovanou cenu. Nenašel(a) jsi tu svou? Vytvoř si vlastní."
+  },
+  "faq": {
+    "title": "Časté dotazy",
+    "items": [
+      {
+        "q": "Použil(a) jsem to během čekací doby.",
+        "a": "Nevadí. V historii se to označí jako použití během čekací doby a čekací doba začne od té chvíle znovu. Započítá se to do míry dodržování a počtu porušení ve Statistikách."
+      },
+      {
+        "q": "Jak se počítají úspory?",
+        "a": "Když u položky zadáš odhadovanou cenu, aplikace odhadne, kolikrát sis ji díky čekací době tento měsíc odpustil(a), a ukáže ušetřenou částku. Je to odhad, ne přesné číslo, a položky bez odhadované ceny se nepočítají."
+      },
+      {
+        "q": "Nechodí mi oznámení.",
+        "a": "Na iPhonu zkontroluj Nastavení > Oznámení > CoolTime. Pokud úvodní obrazovka aplikace hlásí, že jsou oznámení vypnutá, tlačítko Nastavení tě tam dovede rovnou."
+      },
+      {
+        "q": "Jak přidám widget?",
+        "a": "Podrž prst na ploše, klepni na + vlevo nahoře, najdi CoolTime a přidej ho. Widgety jsou i pro zamčenou obrazovku. Ukazují, co můžeš použít hned, a kolik času zbývá."
+      },
+      {
+        "q": "Jak smažu své záznamy?",
+        "a": "Když smažeš položku, smažou se i její záznamy. Smazáním aplikace zmizí všechny. Záznamy jsou jen ve tvém zařízení, takže smazané už nejde obnovit."
+      },
+      {
+        "q": "Synchronizuje se to s mými dalšími zařízeními?",
+        "a": "Zatím ne. Záznamy máš jen v tomto jednom iPhonu. Synchronizace mezi zařízeními a zálohy jsou na seznamu v Nastavení > Připravované funkce."
+      },
+      {
+        "q": "Je to opravdu zdarma?",
+        "a": "Ano. Nic není schované za platbou. Pokud se ti aplikace líbí, můžeš vývojáře v Nastavení podpořit drobným příspěvkem. Když to neuděláš, nic se nezmění."
+      },
+      {
+        "q": "Posílají se moje záznamy někam?",
+        "a": "Ne. Nemáš žádný účet, nejsou tu reklamy a tvé čekací doby i historie se ukládají jen v iPhonu. Vývojář dostává pouze anonymní statistiky používání, hlášení o chybách a zpětnou vazbu, kterou mu sám(a) pošleš. Podrobnosti najdeš níže v Zásadách ochrany osobních údajů."
+      },
+      {
+        "q": "Našel(a) jsem chybu nebo mi chybí funkce.",
+        "a": "Napiš nám v aplikaci přes Nastavení > Podpora > Odeslat zpětnou vazbu, do zpráv na Instagramu @lee25_ios nebo e-mailem níže. Pokud se nějaká obrazovka zasekla, připiš, co jsi zrovna dělal(a), a verzi iOS. Najdeme to mnohem rychleji."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Nastav čekací dobu\ndřív, než přijde chuť",
+    "cta": "Stáhni zdarma v App Storu"
+  },
+  "ui": {
+    "skip": "Přejít na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany osobních údajů",
+    "contact": "Dotazy nebo nápady? Napiš na {email}.",
+    "links": [
+      [
+        "Podpora a kontakt",
+        "support.html"
+      ]
+    ]
+  }
+}

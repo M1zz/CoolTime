@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: Anlık harcamalara bekleme süresi",
+  "description": "Üç günde bir yemek siparişi, iki haftada bir kıyafet. Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. Tüm özellikler ücretsiz.",
+  "hero": {
+    "headline": "Canın alışveriş mi çekti?\nÖnce bekleme süresi",
+    "lead": "Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. Kullandığında halka boşalır, sonra yeniden izin verilene kadar yavaşça dolar.",
+    "cta": "App Store'dan ücretsiz al",
+    "note": "Tüm özellikler ücretsiz. Hesap yok, reklam yok."
+  },
+  "demo": {
+    "title": "Burada dene",
+    "lead": "Bir öğe seç, Kullan'a dokun, sonra zamanı gün gün ilerlet. Bekleme süresi dolmadan kullanırsan ne olduğunu da görebilirsin.",
+    "nextDay": "Ertesi gün",
+    "note": "Burada günleri bir düğmeyle atlıyorsun. Uygulamada ise gerçek zaman akar ve süre bitince bildirim alırsın.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Yemek siparişi",
+        "days": 3,
+        "every": "Üç günde bir sipariş"
+      },
+      {
+        "emoji": "☕",
+        "name": "Kafe",
+        "days": 2,
+        "every": "Kahve iki günde bir"
+      },
+      {
+        "emoji": "👕",
+        "name": "Kıyafet alışverişi",
+        "days": 14,
+        "every": "Kıyafet iki haftada bir"
+      }
+    ],
+    "use": "Kullan",
+    "breakShort": "Boz",
+    "breakIt": "Bekleme süresini boz",
+    "warnTitle": "Bekleme süresinde!",
+    "warnText": "Şimdi kullanırsan uyum oranın düşer",
+    "ready": "Kullanılabilir",
+    "left": "Kalan süre: %@",
+    "dh": "%lld gün %lld sa",
+    "half": "%@ Yarı yola geldin!",
+    "end": "%@ Bekleme süresi bitti!",
+    "compliance": "Uyum",
+    "total": "Toplam kullanım",
+    "breaks": "Bozma sayısı"
+  },
+  "problem": {
+    "title": "Bir haftada dört kez “sadece bu seferlik” dediğin oldu mu?",
+    "text": "Yemek uygulamasını her açtığında sanki uzun zamandır sipariş vermemişsin gibi gelir, ama son seferin ne zaman olduğunu tam hatırlamazsın. CoolTime en son ne zaman kullandığını ve ne zaman yeniden kullanabileceğini gösterir. Böylece kararı o anki hevesin değil, önceden koyduğun kural verir."
+  },
+  "features": [
+    {
+      "title": "Bozmadan önce bir an dur",
+      "text": "Bekleme süresi dolmadan bir şeyi kullanmaya kalkarsan uygulama kalan süreyi gösterir ve uyum oranının düşeceğini hatırlatır.\nYine de gerekiyorsa nedenini ve gerçek maliyetini not edebilirsin. Bozduğun an da geçmişinde kalır.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Sabrın rakamlarla",
+      "text": "Uyum oranın, öğeye ve kategoriye göre geçmişin ve bozma sayın tek ekranda.\nBir öğeye tahmini maliyet girersen bu ay ne kadar biriktirdiğini de tahmin eder.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Sık kullanılan süreler tek dokunuşla",
+      "text": "Seyahatten alışverişe, yemekten sağlığa ve finansa kadar önerilen şablonlardan seçip hemen ekle.\nBekleme süresi yarılandığında ve bittiğinde bildirim alırsın; Ana Ekran ve Kilitli Ekran widget'ları da kalan süreyi gösterir.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Üç adımda başla",
+    "items": [
+      {
+        "title": "Bir öğe ekle",
+        "text": "Bir ad, bir emoji ve saat, gün, hafta ya da ay olarak ne kadar bekleyeceğini seç. İstersen hazır bir şablon al."
+      },
+      {
+        "title": "Kullanınca Kullan'a dokun",
+        "text": "Bekleme süresi o an başlar ve halka boşalır."
+      },
+      {
+        "title": "Bildirim gelince yeniden kullan",
+        "text": "Süre bitince bildirim alırsın. Bildirimlere bir kez izin vermen yeterli."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Önerilen şablonlardaki bekleme süreleri",
+    "rows": [
+      [
+        "🌏 Seyahat",
+        "Yurt dışı seyahati · Yurt içi seyahat · Otel tatili"
+      ],
+      [
+        "🛍️ Alışveriş",
+        "Kıyafet alışverişi · Anlık alışveriş · Elektronik"
+      ],
+      [
+        "🍔 Yemek",
+        "Fast food · Yemek siparişi · Kafe · Tatlı · Dışarıda yemek · Gece atıştırması"
+      ],
+      [
+        "🎮 Eğlence",
+        "Oyun içi satın alma · Sinema · Dizi maratonu · Konser / gösteri"
+      ],
+      [
+        "💅 Yaşam tarzı",
+        "Alkol · Taksi · Tırnak bakımı · Kuaför · Masaj / spa"
+      ],
+      [
+        "🏃 Sağlık",
+        "Dinlenme günü (antrenmanı atla) · Kaçamak günü"
+      ],
+      [
+        "💰 Finans",
+        "Hisse alım satımı · Piyango"
+      ]
+    ],
+    "note": "Her şablon uygun bir bekleme süresi ve tahmini maliyetle gelir. Aradığını bulamadın mı? Kendin oluştur."
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "Bekleme süresindeyken kullandım.",
+        "a": "Sorun değil. Geçmişinde bekleme süresi içinde kullanıldığı işaretlenir ve bekleme süresi o andan itibaren yeniden başlar. Bu, İstatistikler'deki uyum oranına ve bozma sayısına yansır."
+      },
+      {
+        "q": "Tasarruf nasıl hesaplanıyor?",
+        "a": "Bir öğeye tahmini maliyet girersen uygulama, bu ay bekleme süresi sayesinde kaç kez vazgeçtiğini tahmin eder ve karşılığındaki tutarı gösterir. Bu kesin bir rakam değil, bir tahmindir; tahmini maliyeti olmayan öğeler hesaba katılmaz."
+      },
+      {
+        "q": "Bildirim gelmiyor.",
+        "a": "iPhone'unda Ayarlar > Bildirimler > CoolTime bölümünü kontrol et. Uygulamanın ilk ekranında bildirimlerin kapalı olduğu yazıyorsa oradaki Ayarlar düğmesi seni doğrudan oraya götürür."
+      },
+      {
+        "q": "Widget'ı nasıl eklerim?",
+        "a": "Ana ekrana dokunup basılı tut, sol üstteki +'ya dokun, CoolTime'ı bul ve ekle. Kilitli Ekran widget'ları da var. Şu an neyi kullanabileceğini ve kalan süreyi gösterirler."
+      },
+      {
+        "q": "Kayıtlarımı nasıl silerim?",
+        "a": "Bir öğeyi silersen kayıtları da silinir. Uygulamayı silersen tüm kayıtlar gider. Kayıtlar yalnızca cihazında durduğu için silinenler geri getirilemez."
+      },
+      {
+        "q": "Diğer cihazlarımla eşitleniyor mu?",
+        "a": "Henüz değil. Kayıtların yalnızca bu iPhone'da duruyor. Cihazlar arası eşitleme ve yedekleme, Ayarlar > Gelecek Özellikler listesinde yer alıyor."
+      },
+      {
+        "q": "Gerçekten ücretsiz mi?",
+        "a": "Evet. Ödeme yapmadan açılmayan hiçbir özellik yok. Uygulamayı seversen Ayarlar'dan geliştiriciye bahşiş gönderebilirsin, ama göndermesen de hiçbir şey değişmez."
+      },
+      {
+        "q": "Kayıtlarım bir yere gönderiliyor mu?",
+        "a": "Hayır. Hesap yok, reklam yok; bekleme sürelerin ve geçmişin yalnızca iPhone'unda saklanır. Geliştiriciye yalnızca anonim kullanım istatistikleri, hata raporları ve kendi gönderdiğin geri bildirimler ulaşır. Ayrıntılar aşağıdaki Gizlilik Politikası'nda."
+      },
+      {
+        "q": "Hata buldum ya da bir özellik istiyorum.",
+        "a": "Uygulamada Ayarlar > Destek > Geri Bildirim Gönder'den, Instagram'da @lee25_ios hesabına mesaj atarak ya da aşağıdaki e-posta adresinden yazabilirsin. Bir ekran takıldıysa ne yaptığını ve iOS sürümünü de eklersen sorunu çok daha hızlı buluruz."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bir sonraki istekten önce\nbekleme süresini koy",
+    "cta": "App Store'dan ücretsiz al"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Soru veya önerin mi var? {email} adresine yaz.",
+    "links": [
+      [
+        "Destek ve iletişim",
+        "support.html"
+      ]
+    ]
+  }
+}

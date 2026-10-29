@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: a cooldown for impulse spending",
+  "description": "Takeout every 3 days, new clothes every 2 weeks. Put a cooldown on spending like a game skill and wait until it's ready again. Every feature is free.",
+  "hero": {
+    "headline": "Want to splurge?\nCooldown first.",
+    "lead": "Give your spending a cooldown, like a skill in a game. Use it and the circle empties, then slowly fills until you're allowed again.",
+    "cta": "Get it free on the App Store",
+    "note": "Every feature is free. No account, no ads."
+  },
+  "demo": {
+    "title": "Try it here",
+    "lead": "Pick an item, tap Use it, then move time forward a day at a time. You can also see what happens if you use it during the cooldown.",
+    "nextDay": "Next day",
+    "note": "Here you skip ahead a day with a button. In the app, real time passes and you get a notification when it's over.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Food delivery",
+        "days": 3,
+        "every": "Delivery every 3 days"
+      },
+      {
+        "emoji": "☕",
+        "name": "Café",
+        "days": 2,
+        "every": "Coffee every other day"
+      },
+      {
+        "emoji": "👕",
+        "name": "Clothes shopping",
+        "days": 14,
+        "every": "Clothes once every 2 weeks"
+      }
+    ],
+    "use": "Use it",
+    "breakShort": "Break",
+    "breakIt": "Break cooldown",
+    "warnTitle": "On cooldown!",
+    "warnText": "Using it now will lower your compliance rate",
+    "ready": "Ready",
+    "left": "Time left: %@",
+    "dh": "%lldd %lldh",
+    "half": "%@ Halfway there!",
+    "end": "%@ Cooldown over!",
+    "compliance": "Compliance",
+    "total": "Total uses",
+    "breaks": "Times broken"
+  },
+  "problem": {
+    "title": "Ever had \"just this once\" four times in one week?",
+    "text": "Every time you open a delivery app it feels like the first time in ages, but you can't really remember when the last time was. CoolTime shows when you last used something and when you're allowed again, so the call comes from a rule you set ahead of time, not from how you feel right now."
+  },
+  "features": [
+    {
+      "title": "One more pause before you break it",
+      "text": "Try to use something during its cooldown and the app shows the time left and warns that your compliance rate will drop.\nStill need it? Add a note on why and what it actually cost. The break stays in your history.",
+      "shot": "02-break"
+    },
+    {
+      "title": "See your restraint in numbers",
+      "text": "Your compliance rate, history by item and by category, and how many times you broke a cooldown, all on one screen.\nGive an item an estimated cost and it also estimates how much you saved this month.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Common cooldowns in one tap",
+      "text": "Pick from recommended templates for travel, shopping and food through to health and finance.\nYou get a notification halfway through and when the cooldown ends, and Home Screen and Lock Screen widgets show the time left.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Three steps to start",
+    "items": [
+      {
+        "title": "Add an item",
+        "text": "Pick a name, an emoji and how long to wait, in hours, days, weeks or months. Or grab a template."
+      },
+      {
+        "title": "Tap Use it when you use it",
+        "text": "The cooldown starts right then and the circle empties."
+      },
+      {
+        "title": "Go again when it pings",
+        "text": "You get a notification when it's over. Just allow notifications once."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Cooldowns in the recommended templates",
+    "rows": [
+      [
+        "🌏 Travel",
+        "Overseas trip · Domestic trip · Hotel staycation"
+      ],
+      [
+        "🛍️ Shopping",
+        "Clothes shopping · Impulse buy · Gadgets"
+      ],
+      [
+        "🍔 Food",
+        "Fast food · Food delivery · Café · Dessert · Eating out · Late-night snack"
+      ],
+      [
+        "🎮 Entertainment",
+        "In-game purchases · Movie theater · Binge-watching · Concert / show"
+      ],
+      [
+        "💅 Lifestyle",
+        "Drinking · Taxi · Nail art · Hair salon · Massage / spa"
+      ],
+      [
+        "🏃 Health",
+        "Rest day (skip workout) · Cheat day"
+      ],
+      [
+        "💰 Finance",
+        "Stock trading · Lottery"
+      ]
+    ],
+    "note": "Each template comes with a sensible wait and an estimated cost. Don't see yours? Make your own."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "I used it during a cooldown.",
+        "a": "That's fine. Your history marks it as used during a cooldown, and the cooldown starts over from that moment. It counts toward your compliance rate and break count in Stats."
+      },
+      {
+        "q": "How are savings calculated?",
+        "a": "If you enter an estimated cost for an item, the app estimates how many uses the cooldown saved you this month and shows that amount. It's an estimate, not an exact figure, and items without an estimated cost are left out."
+      },
+      {
+        "q": "I'm not getting notifications.",
+        "a": "On your iPhone, check Settings > Notifications > CoolTime. If the app's first screen says notifications are off, the Settings button there takes you straight to it."
+      },
+      {
+        "q": "How do I add the widget?",
+        "a": "Touch and hold the Home Screen, tap + at the top left, find CoolTime and add it. There are Lock Screen widgets too. They show what you can use now and the time left."
+      },
+      {
+        "q": "How do I delete my records?",
+        "a": "Deleting an item also deletes its records. Deleting the app removes all of them. Records live only on your device, so once deleted they can't be recovered."
+      },
+      {
+        "q": "Does it sync to my other devices?",
+        "a": "Not yet. Your records live on this one iPhone. Sync across devices and backups are on the list in Settings > Coming Features."
+      },
+      {
+        "q": "Is it really free?",
+        "a": "Yes. Nothing is locked behind a payment. If you like the app you can send the developer a tip from Settings, but nothing changes if you don't."
+      },
+      {
+        "q": "Are my records sent anywhere?",
+        "a": "No. There's no account and no ads, and your cooldowns and history are stored only on your iPhone. The developer receives only anonymous usage statistics, error reports and any feedback you send yourself. The Privacy Policy below has the details."
+      },
+      {
+        "q": "I found a bug or want a feature.",
+        "a": "Tell us in the app under Settings > Support > Send Feedback, by Instagram DM at @lee25_ios, or by email below. If a screen got stuck, mention what you were doing and your iOS version and we'll find it much faster."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Set the cooldown\nbefore the next urge",
+    "cta": "Get it free on the App Store"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "languages": "Language",
+    "privacy": "Privacy Policy",
+    "contact": "Questions or feedback? Write to {email}.",
+    "links": [
+      [
+        "Support",
+        "support.html"
+      ]
+    ]
+  }
+}

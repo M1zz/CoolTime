@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Un’app per iPhone che aggiunge un tempo di attesa a spese e abitudini, come la ricarica di un’abilità in un gioco.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: un tempo di ricarica per gli acquisti d’impulso</title>
+  <meta name="description" content="Cibo a domicilio ogni 3 giorni, vestiti ogni 2 settimane. Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Tutto gratis.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: un tempo di ricarica per gli acquisti d’impulso">
+  <meta property="og:description" content="Cibo a domicilio ogni 3 giorni, vestiti ogni 2 settimane. Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Tutto gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/it/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/it/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Aspetta la fine del tempo di ricarica</div>
-    </div>
+  <a class="skip" href="#main">Vai al contenuto</a>
+  <header class="bar">
+    <a class="brand" href="../it/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Lingua</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">Presentazione</a>
-    <a href="support.html">Assistenza e contatti</a>
-    <a href="privacy.html">Informativa sulla privacy</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" aria-current="true">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Un tempo di ricarica anche per i tuoi impulsi</h1>
-  <p class="lede">Come la ricarica di un’abilità in un gioco, imposti un tempo di attesa per le tue spese e abitudini. Cibo a domicilio una volta ogni 3 giorni, vestiti una volta ogni 2 settimane. Dopo l’uso, un anello si riempie lentamente finché non puoi usarlo di nuovo.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Voglia di spendere?<br>Prima la ricarica.</h1>
+        <p class="lead">Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Lo usi e il cerchio si svuota, poi si riempie piano piano finché non puoi rifarlo.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Gratis su App Store</a><a class="try" href="#try">Provalo qui ↓</a></div>
+        <p class="muted small">Tutte le funzioni sono gratis. Niente account, niente pubblicità.</p>
+      </div>
+      <div class="phone"><img src="../img/it/01-home.jpg" alt="Voglia di spendere? Prima la ricarica." width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Come si usa</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Crea una ricarica</h3>
-      <p>Scegli un nome, un’emoji e quanto aspettare (ore, giorni, settimane o mesi). Gli elementi più comuni di cibo, shopping, intrattenimento, salute e finanza si aggiungono con un tocco dai modelli consigliati.</p>
-    </div>
-    <div class="card">
-      <h3>Usa</h3>
-      <p>Quando lo usi, tocca <strong>Usa</strong> e il tempo di ricarica riparte da capo. Puoi aggiungere una nota sul motivo e il costo effettivo. Se lo usi durante una ricarica, anche questo viene registrato.</p>
-    </div>
-    <div class="card">
-      <h3>Avviso alla fine</h3>
-      <p>Quando una ricarica termina, ricevi una notifica. Il widget nella schermata Home mostra subito cosa puoi usare e quanto tempo resta.</p>
-    </div>
-    <div class="card">
-      <h3>Statistiche</h3>
-      <p>Mostrano quanto hai rispettato le ricariche (tasso di rispetto), le registrazioni per categoria, quante volte ne hai rotta una e il risparmio di questo mese per gli elementi con costo stimato.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Provalo qui</h2>
+      <p class="muted">Scegli un elemento, tocca Usa e fai avanzare il tempo un giorno alla volta. Puoi anche vedere cosa succede se lo usi durante la ricarica.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Provalo qui&quot;, &quot;lead&quot;: &quot;Scegli un elemento, tocca Usa e fai avanzare il tempo un giorno alla volta. Puoi anche vedere cosa succede se lo usi durante la ricarica.&quot;, &quot;nextDay&quot;: &quot;Giorno dopo&quot;, &quot;note&quot;: &quot;Qui i giorni passano con un pulsante. Nell’app scorre il tempo vero e alla fine ti arriva una notifica.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Cibo a domicilio&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Consegna a domicilio ogni 3 giorni&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Bar&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Caffè a giorni alterni&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Shopping di vestiti&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Vestiti ogni 2 settimane&quot;}], &quot;use&quot;: &quot;Usa&quot;, &quot;breakShort&quot;: &quot;Rompi&quot;, &quot;breakIt&quot;: &quot;Rompi il tempo di ricarica&quot;, &quot;warnTitle&quot;: &quot;In ricarica!&quot;, &quot;warnText&quot;: &quot;Se lo usi ora, il tuo tasso di rispetto calerà&quot;, &quot;ready&quot;: &quot;Disponibile&quot;, &quot;left&quot;: &quot;Tempo rimanente: %@&quot;, &quot;dh&quot;: &quot;%lld g %lld h&quot;, &quot;half&quot;: &quot;%@ A metà strada!&quot;, &quot;end&quot;: &quot;%@ Ricarica terminata!&quot;, &quot;compliance&quot;: &quot;Rispetto&quot;, &quot;total&quot;: &quot;Usi totali&quot;, &quot;breaks&quot;: &quot;Volte rotte&quot;}"></div>
+    </section>
 
-  <h2>I tuoi dati restano sul tuo dispositivo</h2>
-  <div class="card">
-    <p>Niente account, niente pubblicità. Le tue ricariche e la cronologia d’uso sono salvate solo sul tuo iPhone e non vengono mai inviate allo sviluppatore. Allo sviluppatore arrivano soltanto statistiche d’uso anonime, rapporti sugli errori e il feedback che invii tu stesso. I dettagli sono nell’<a href="privacy.html">Informativa sulla privacy</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Ti è mai capitato di dire «solo per stavolta» quattro volte in una settimana?</h2>
+      <p>Ogni volta che apri l’app delle consegne sembra passata un’eternità, ma quando sia stata l’ultima volta, di preciso, non lo ricordi. CoolTime ti mostra quando hai usato qualcosa l’ultima volta e quando puoi rifarlo, così a decidere è la regola che ti sei dato prima, non l’umore del momento.</p>
+    </section>
 
-  <p class="meta">iPhone · Italiano</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Un’ultima pausa prima di rompere</h2>
+        <p>Se provi a usare qualcosa durante la ricarica, l’app ti mostra il tempo rimanente e ti avvisa che il tasso di rispetto calerà.<br>Ti serve comunque? Annota il motivo e quanto è costato davvero. La rottura resta nella cronologia.</p>
+      </div>
+      <div class="phone"><img src="../img/it/02-break.jpg" alt="Un’ultima pausa prima di rompere" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Assistenza e contatti</a> · <a href="privacy.html">Informativa sulla privacy</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Il tuo autocontrollo in numeri</h2>
+        <p>Tasso di rispetto, cronologia per elemento e per categoria e quante volte hai rotto una ricarica, tutto in una schermata.<br>Se dai a un elemento un costo stimato, l’app stima anche quanto hai risparmiato questo mese.</p>
+      </div>
+      <div class="phone"><img src="../img/it/03-stats.jpg" alt="Il tuo autocontrollo in numeri" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Le ricariche più comuni con un tocco</h2>
+        <p>Scegli tra i modelli consigliati, dai viaggi allo shopping e al cibo fino a salute e finanza.<br>Ricevi una notifica a metà ricarica e alla fine, e i widget della schermata Home e del blocco schermo mostrano il tempo rimanente.</p>
+      </div>
+      <div class="phone"><img src="../img/it/04-templates.jpg" alt="Le ricariche più comuni con un tocco" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tre passi per iniziare</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Aggiungi un elemento</h3><p>Scegli nome, emoji e quanto aspettare: ore, giorni, settimane o mesi. Oppure parti da un modello.</p></li>
+<li class="card"><span class="n">2</span><h3>Quando lo usi, tocca Usa</h3><p>La ricarica parte in quel momento e il cerchio si svuota.</p></li>
+<li class="card"><span class="n">3</span><h3>Arriva la notifica? Via libera</h3><p>Quando la ricarica finisce ti arriva una notifica. Basta consentire le notifiche una volta.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Le ricariche dei modelli consigliati</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Viaggi</dt><dd>Viaggio all’estero · Viaggio nel paese · Pausa in hotel</dd></div><div><dt>🛍️ Shopping</dt><dd>Shopping di vestiti · Acquisto impulsivo · Elettronica</dd></div><div><dt>🍔 Cibo</dt><dd>Fast food · Cibo a domicilio · Bar · Dolci · Ristorante · Spuntino notturno</dd></div><div><dt>🎮 Intrattenimento</dt><dd>Acquisti nei giochi · Cinema · Maratona di serie · Concerto / spettacolo</dd></div><div><dt>💅 Stile di vita</dt><dd>Alcol · Taxi · Nail art · Parrucchiere · Massaggio / spa</dd></div><div><dt>🏃 Salute</dt><dd>Giorno di riposo (salta l’allenamento) · Sgarro</dd></div><div><dt>💰 Finanza</dt><dd>Trading azionario · Lotteria</dd></div></dl>
+      </div>
+      <p class="muted">Ogni modello ha già un intervallo sensato e un costo stimato. Non trovi quello che cerchi? Crealo tu.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Domande frequenti</h2>
+      <div class="faq"><details><summary>L’ho usato durante una ricarica.</summary><p>Nessun problema. La cronologia segna che l’hai usato durante la ricarica, e il tempo di ricarica riparte da quel momento. Conta nel tasso di rispetto e nel numero di ricariche rotte nelle Statistiche.</p></details>
+<details><summary>Come viene calcolato il risparmio?</summary><p>Se inserisci un costo stimato per un elemento, l’app stima quanti usi ti ha evitato la ricarica questo mese e ti mostra l’importo. È una stima, non una cifra esatta, e gli elementi senza costo stimato restano fuori dal calcolo.</p></details>
+<details><summary>Non ricevo le notifiche.</summary><p>Sul tuo iPhone controlla Impostazioni &gt; Notifiche &gt; CoolTime. Se la prima schermata dell’app dice che le notifiche sono disattivate, il pulsante Impostazioni lì ti porta direttamente.</p></details>
+<details><summary>Come aggiungo il widget?</summary><p>Tieni premuta la schermata Home, tocca + in alto a sinistra, cerca CoolTime e aggiungilo. Ci sono anche i widget per il blocco schermo. Mostrano cosa puoi usare adesso e quanto tempo resta.</p></details>
+<details><summary>Come elimino la cronologia?</summary><p>Eliminando un elemento elimini anche la sua cronologia. Eliminando l’app sparisce tutto. I dati stanno solo sul tuo dispositivo, quindi una volta eliminati non si possono recuperare.</p></details>
+<details><summary>Si sincronizza con gli altri miei dispositivi?</summary><p>Non ancora. I tuoi dati stanno solo su questo iPhone. La sincronizzazione tra dispositivi e i backup sono nell’elenco in Impostazioni &gt; Funzioni in arrivo.</p></details>
+<details><summary>È davvero gratis?</summary><p>Sì. Nessuna funzione è a pagamento. Se l’app ti piace puoi lasciare una mancia allo sviluppatore dalle Impostazioni, ma se non lo fai non cambia nulla.</p></details>
+<details><summary>I miei dati vengono inviati da qualche parte?</summary><p>No. Niente account né pubblicità, e le tue ricariche e la cronologia restano solo sul tuo iPhone. Allo sviluppatore arrivano soltanto statistiche d’uso anonime, rapporti sugli errori e il feedback che invii tu. Trovi i dettagli nell’Informativa sulla privacy qui sotto.</p></details>
+<details><summary>Ho trovato un bug o vorrei una funzione.</summary><p>Scrivici dall’app in Impostazioni &gt; Assistenza &gt; Invia feedback, in DM su Instagram a @lee25_ios o via email all’indirizzo qui sotto. Se una schermata si è bloccata, dicci cosa stavi facendo e la tua versione di iOS: troveremo il problema molto più in fretta.</p></details></div>
+      <p class="contact">Domande o suggerimenti? Scrivi a <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Metti la ricarica<br>prima della prossima tentazione</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Gratis su App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Lingua"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it" aria-current="page">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Informativa sulla privacy</a> · <a href="support.html">Assistenza e contatti</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

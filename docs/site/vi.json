@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: Thời gian chờ cho chi tiêu bốc đồng",
+  "description": "Đặt đồ ăn 3 ngày một lần, mua quần áo 2 tuần một lần. Đặt thời gian chờ cho chi tiêu như hồi chiêu trong game. Mọi tính năng đều miễn phí.",
+  "hero": {
+    "headline": "Muốn vung tiền?\nĐợi hồi chiêu đã",
+    "lead": "Đặt thời gian chờ cho chi tiêu, như hồi chiêu của một kỹ năng trong game. Dùng xong, vòng tròn trống trơn rồi đầy dần lên cho đến lúc bạn được dùng lại.",
+    "cta": "Tải miễn phí tại App Store",
+    "note": "Mọi tính năng đều miễn phí. Không cần tài khoản, không quảng cáo."
+  },
+  "demo": {
+    "title": "Thử ngay tại đây",
+    "lead": "Chọn một mục, chạm Dùng, rồi cho thời gian trôi qua từng ngày. Bạn cũng xem được chuyện gì xảy ra nếu dùng khi vẫn đang chờ.",
+    "nextDay": "Sang ngày mới",
+    "note": "Ở đây bạn bấm nút để qua từng ngày. Trong ứng dụng, thời gian trôi thật và bạn sẽ nhận thông báo khi hết thời gian chờ.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Đồ ăn giao tận nơi",
+        "days": 3,
+        "every": "Đặt đồ ăn 3 ngày một lần"
+      },
+      {
+        "emoji": "☕",
+        "name": "Quán cà phê",
+        "days": 2,
+        "every": "Cà phê cách ngày"
+      },
+      {
+        "emoji": "👕",
+        "name": "Mua quần áo",
+        "days": 14,
+        "every": "Quần áo 2 tuần một lần"
+      }
+    ],
+    "use": "Dùng",
+    "breakShort": "Phá vỡ",
+    "breakIt": "Phá thời gian chờ",
+    "warnTitle": "Đang trong thời gian chờ!",
+    "warnText": "Nếu dùng ngay bây giờ, tỷ lệ tuân thủ sẽ giảm",
+    "ready": "Dùng được",
+    "left": "Thời gian còn lại: %@",
+    "dh": "%lld ngày %lld giờ",
+    "half": "%@ Được nửa chặng đường!",
+    "end": "%@ Hết thời gian chờ!",
+    "compliance": "Tuân thủ",
+    "total": "Tổng lượt dùng",
+    "breaks": "Số lần phá vỡ"
+  },
+  "problem": {
+    "title": "Đã bao giờ “chỉ lần này thôi” thành bốn lần một tuần?",
+    "text": "Lần nào mở ứng dụng giao đồ ăn cũng thấy như lâu lắm rồi chưa đặt, nhưng lần trước là khi nào thì lại chẳng nhớ rõ. CoolTime cho bạn thấy lần cuối mình dùng và khi nào được dùng lại, để bạn quyết định theo quy tắc đã đặt từ trước chứ không theo cảm xúc lúc đó."
+  },
+  "features": [
+    {
+      "title": "Dừng lại một nhịp trước khi phá vỡ",
+      "text": "Nếu bạn định dùng khi vẫn đang trong thời gian chờ, ứng dụng sẽ hiện thời gian còn lại và cảnh báo tỷ lệ tuân thủ sẽ giảm.\nVẫn cần dùng? Bạn có thể ghi lại lý do và chi phí thực tế. Lần phá vỡ đó vẫn được giữ trong lịch sử.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Sự kiềm chế hiện thành con số",
+      "text": "Tỷ lệ tuân thủ, lịch sử theo từng mục và theo danh mục, số lần phá vỡ, tất cả gói gọn trong một màn hình.\nMục nào có chi phí dự kiến, ứng dụng còn ước tính giúp bạn tháng này đã tiết kiệm được bao nhiêu.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Thời gian chờ quen thuộc, chỉ một chạm",
+      "text": "Chọn ngay từ các mẫu đề xuất, từ du lịch, mua sắm, ăn uống đến sức khỏe và tài chính.\nBạn nhận thông báo khi thời gian chờ đi được một nửa và khi kết thúc, còn tiện ích trên Màn hình chính và Màn hình khóa luôn cho biết thời gian còn lại.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Bắt đầu chỉ với ba bước",
+    "items": [
+      {
+        "title": "Thêm một mục",
+        "text": "Chọn tên, biểu tượng cảm xúc và thời gian chờ theo giờ, ngày, tuần hoặc tháng. Hoặc lấy luôn từ mẫu đề xuất."
+      },
+      {
+        "title": "Dùng thì chạm Dùng",
+        "text": "Thời gian chờ bắt đầu ngay lúc đó và vòng tròn trống lại."
+      },
+      {
+        "title": "Có thông báo là dùng lại được",
+        "text": "Khi hết thời gian chờ, bạn sẽ nhận thông báo. Chỉ cần cho phép thông báo một lần."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Thời gian chờ trong các mẫu đề xuất",
+    "rows": [
+      [
+        "🌏 Du lịch",
+        "Du lịch nước ngoài · Du lịch trong nước · Nghỉ dưỡng khách sạn"
+      ],
+      [
+        "🛍️ Mua sắm",
+        "Mua quần áo · Mua sắm bốc đồng · Đồ điện tử"
+      ],
+      [
+        "🍔 Ăn uống",
+        "Đồ ăn nhanh · Đồ ăn giao tận nơi · Quán cà phê · Món tráng miệng · Ăn ngoài · Ăn khuya"
+      ],
+      [
+        "🎮 Giải trí",
+        "Nạp tiền game · Rạp chiếu phim · Cày phim liên tục · Hòa nhạc/biểu diễn"
+      ],
+      [
+        "💅 Phong cách sống",
+        "Uống rượu bia · Taxi · Làm móng · Tiệm làm tóc · Massage/spa"
+      ],
+      [
+        "🏃 Sức khỏe",
+        "Ngày nghỉ (bỏ buổi tập) · Ngày ăn thoải mái"
+      ],
+      [
+        "💰 Tài chính",
+        "Giao dịch chứng khoán · Xổ số"
+      ]
+    ],
+    "note": "Mỗi mẫu đã có sẵn thời gian chờ hợp lý và chi phí dự kiến. Không thấy thứ bạn cần? Hãy tự tạo."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Tôi lỡ dùng khi đang trong thời gian chờ.",
+        "a": "Không sao cả. Lịch sử sẽ ghi lại đó là lần dùng trong thời gian chờ, và thời gian chờ bắt đầu lại từ lúc ấy. Lần này được tính vào tỷ lệ tuân thủ và số lần phá vỡ trong Thống kê."
+      },
+      {
+        "q": "Số tiền tiết kiệm được tính thế nào?",
+        "a": "Nếu bạn nhập chi phí dự kiến cho một mục, ứng dụng sẽ ước tính tháng này thời gian chờ đã giúp bạn bớt dùng bao nhiêu lần và hiển thị số tiền tương ứng. Đây là con số ước tính chứ không chính xác tuyệt đối, và các mục không có chi phí dự kiến sẽ không được tính."
+      },
+      {
+        "q": "Tôi không nhận được thông báo.",
+        "a": "Hãy kiểm tra Cài đặt > Thông báo > CoolTime trên iPhone. Nếu màn hình đầu tiên của ứng dụng báo thông báo đang tắt, nút Cài đặt ở đó sẽ đưa bạn đến thẳng chỗ cần bật."
+      },
+      {
+        "q": "Thêm tiện ích như thế nào?",
+        "a": "Chạm và giữ Màn hình chính, chạm + ở góc trên bên trái, tìm CoolTime rồi thêm vào. Màn hình khóa cũng có tiện ích. Tiện ích cho biết mục nào dùng được ngay và thời gian còn lại."
+      },
+      {
+        "q": "Làm sao để xóa dữ liệu?",
+        "a": "Xóa một mục thì lịch sử của mục đó cũng bị xóa theo. Xóa ứng dụng thì mọi dữ liệu đều mất. Dữ liệu chỉ nằm trên thiết bị của bạn nên đã xóa thì không khôi phục được."
+      },
+      {
+        "q": "Có đồng bộ với thiết bị khác không?",
+        "a": "Hiện chưa có. Dữ liệu chỉ nằm trên chiếc iPhone bạn đang dùng. Đồng bộ giữa các thiết bị và sao lưu đã có trong danh sách Cài đặt > Tính năng sắp có."
+      },
+      {
+        "q": "Có thật sự miễn phí không?",
+        "a": "Có. Không có tính năng nào phải trả tiền mới mở được. Nếu thích ứng dụng, bạn có thể ủng hộ nhà phát triển một khoản nhỏ trong Cài đặt, còn không thì cũng chẳng có gì thay đổi."
+      },
+      {
+        "q": "Dữ liệu của tôi có bị gửi đi đâu không?",
+        "a": "Không. Không có tài khoản, không có quảng cáo, và thời gian chờ cùng lịch sử sử dụng chỉ được lưu trên iPhone của bạn. Nhà phát triển chỉ nhận được thống kê sử dụng ẩn danh, báo cáo lỗi và phản hồi do chính bạn gửi. Chi tiết có trong Chính sách quyền riêng tư bên dưới."
+      },
+      {
+        "q": "Tôi gặp lỗi hoặc muốn có thêm tính năng.",
+        "a": "Hãy cho chúng tôi biết qua Cài đặt > Hỗ trợ > Gửi góp ý trong ứng dụng, nhắn tin Instagram tới @lee25_ios hoặc gửi email theo địa chỉ bên dưới. Nếu có màn hình bị đứng, hãy ghi kèm bạn đang làm gì và phiên bản iOS, chúng tôi sẽ tìm ra nguyên nhân nhanh hơn nhiều."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Đặt thời gian chờ\ntrước cơn thèm tiếp theo",
+    "cta": "Tải miễn phí tại App Store"
+  },
+  "ui": {
+    "skip": "Chuyển đến nội dung",
+    "languages": "Ngôn ngữ",
+    "privacy": "Chính sách quyền riêng tư",
+    "contact": "Có câu hỏi hay góp ý? Hãy viết cho chúng tôi qua {email}.",
+    "links": [
+      [
+        "Hỗ trợ và liên hệ",
+        "support.html"
+      ]
+    ]
+  }
+}

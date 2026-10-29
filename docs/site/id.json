@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: Waktu Jeda untuk Belanja Impulsif",
+  "description": "Pesan antar 3 hari sekali, baju baru 2 minggu sekali. Beri pengeluaran waktu jeda seperti skill di game, lalu tunggu sampai siap lagi. Semua gratis.",
+  "hero": {
+    "headline": "Pengin jajan?\nJeda dulu.",
+    "lead": "Beri pengeluaranmu waktu jeda, seperti skill di dalam game. Setelah dipakai, lingkarannya kosong lalu terisi perlahan sampai kamu boleh memakainya lagi.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua fitur gratis. Tanpa akun, tanpa iklan."
+  },
+  "demo": {
+    "title": "Coba di sini",
+    "lead": "Pilih item, ketuk Pakai, lalu majukan waktu sehari demi sehari. Kamu juga bisa lihat apa yang terjadi kalau dipakai saat waktu jeda masih berjalan.",
+    "nextDay": "Hari berikutnya",
+    "note": "Di sini kamu melompati hari dengan tombol. Di aplikasi, waktu berjalan sungguhan dan kamu dapat notifikasi saat waktu jedanya selesai.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Pesan antar makanan",
+        "days": 3,
+        "every": "Pesan antar 3 hari sekali"
+      },
+      {
+        "emoji": "☕",
+        "name": "Kafe",
+        "days": 2,
+        "every": "Kopi dua hari sekali"
+      },
+      {
+        "emoji": "👕",
+        "name": "Belanja pakaian",
+        "days": 14,
+        "every": "Pakaian 2 minggu sekali"
+      }
+    ],
+    "use": "Pakai",
+    "breakShort": "Langgar",
+    "breakIt": "Langgar waktu jeda",
+    "warnTitle": "Sedang dalam waktu jeda!",
+    "warnText": "Jika dipakai sekarang, tingkat kepatuhanmu akan turun",
+    "ready": "Bisa dipakai",
+    "left": "Sisa waktu: %@",
+    "dh": "%lld hari %lld jam",
+    "half": "%@ Sudah setengah jalan!",
+    "end": "%@ Waktu jeda selesai!",
+    "compliance": "Kepatuhan",
+    "total": "Total pemakaian",
+    "breaks": "Jumlah pelanggaran"
+  },
+  "problem": {
+    "title": "Pernah bilang “sekali ini saja” sampai empat kali seminggu?",
+    "text": "Tiap buka aplikasi pesan antar, rasanya sudah lama sekali tidak pesan, padahal kapan terakhir kali saja kamu tidak ingat pasti. CoolTime menunjukkan kapan terakhir kamu memakainya dan kapan boleh lagi, jadi keputusanmu datang dari aturan yang sudah kamu buat sebelumnya, bukan dari suasana hati saat itu."
+  },
+  "features": [
+    {
+      "title": "Satu jeda lagi sebelum melanggar",
+      "text": "Kalau kamu mau memakai sesuatu saat waktu jedanya belum selesai, aplikasi menampilkan sisa waktu dan mengingatkan bahwa tingkat kepatuhanmu akan turun.\nTetap perlu? Tulis alasannya dan biaya sebenarnya. Pelanggaran itu tetap tercatat di riwayat.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Hasil menahan diri, dalam angka",
+      "text": "Tingkat kepatuhan, riwayat per item dan per kategori, serta jumlah pelanggaran, semuanya di satu layar.\nIsi perkiraan biaya untuk sebuah item, dan aplikasi juga memperkirakan berapa yang kamu hemat bulan ini.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Waktu jeda favorit, sekali ketuk",
+      "text": "Pilih dari templat yang disarankan, mulai dari perjalanan, belanja, dan makanan sampai kesehatan dan keuangan.\nKamu dapat notifikasi saat waktu jeda lewat setengah jalan dan saat selesai, dan widget di Layar Utama serta Layar Terkunci menampilkan sisa waktunya.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Tambahkan item",
+        "text": "Pilih nama, emoji, dan lama menunggu dalam jam, hari, minggu, atau bulan. Atau ambil saja dari templat."
+      },
+      {
+        "title": "Ketuk Pakai saat memakainya",
+        "text": "Waktu jeda langsung dimulai dan lingkarannya kosong."
+      },
+      {
+        "title": "Ada notifikasi, boleh lagi",
+        "text": "Kamu dapat notifikasi saat waktu jeda selesai. Cukup izinkan notifikasi sekali di awal."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Waktu jeda di templat yang disarankan",
+    "rows": [
+      [
+        "🌏 Liburan",
+        "Perjalanan luar negeri · Perjalanan dalam negeri · Menginap di hotel"
+      ],
+      [
+        "🛍️ Belanja",
+        "Belanja pakaian · Belanja impulsif · Elektronik"
+      ],
+      [
+        "🍔 Makanan",
+        "Makanan cepat saji · Pesan antar makanan · Kafe · Makanan penutup · Makan di luar · Camilan tengah malam"
+      ],
+      [
+        "🎮 Hiburan",
+        "Pembelian dalam game · Bioskop · Maraton serial · Konser / pertunjukan"
+      ],
+      [
+        "💅 Gaya hidup",
+        "Minum alkohol · Taksi · Nail art · Salon rambut · Pijat / spa"
+      ],
+      [
+        "🏃 Kesehatan",
+        "Hari istirahat (lewati olahraga) · Cheat day"
+      ],
+      [
+        "💰 Keuangan",
+        "Jual beli saham · Lotre"
+      ]
+    ],
+    "note": "Setiap templat sudah berisi waktu tunggu yang pas dan perkiraan biaya. Tidak ada yang cocok? Buat sendiri saja."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Terlanjur pakai saat waktu jeda masih berjalan.",
+        "a": "Tidak apa-apa. Riwayatmu mencatatnya sebagai pemakaian saat waktu jeda, dan waktu jeda dimulai lagi dari saat itu. Ini ikut dihitung dalam tingkat kepatuhan dan jumlah pelanggaran di Statistik."
+      },
+      {
+        "q": "Bagaimana penghematan dihitung?",
+        "a": "Kalau kamu mengisi perkiraan biaya untuk sebuah item, aplikasi memperkirakan berapa kali waktu jeda membuatmu batal memakainya bulan ini, lalu menampilkan jumlah uangnya. Ini perkiraan, bukan angka pasti, dan item tanpa perkiraan biaya tidak ikut dihitung."
+      },
+      {
+        "q": "Notifikasinya tidak muncul.",
+        "a": "Di iPhone, cek Pengaturan > Notifikasi > CoolTime. Kalau layar pertama aplikasi bilang notifikasi nonaktif, tombol Pengaturan di sana langsung membawamu ke situ."
+      },
+      {
+        "q": "Bagaimana cara menambahkan widget?",
+        "a": "Sentuh dan tahan Layar Utama, ketuk + di kiri atas, cari CoolTime, lalu tambahkan. Ada juga widget untuk Layar Terkunci. Widget menampilkan apa yang bisa dipakai sekarang dan sisa waktunya."
+      },
+      {
+        "q": "Bagaimana cara menghapus catatan?",
+        "a": "Menghapus item juga menghapus catatannya. Menghapus aplikasi menghapus semua catatan. Catatan hanya tersimpan di perangkatmu, jadi yang sudah dihapus tidak bisa dikembalikan."
+      },
+      {
+        "q": "Apakah bisa sinkron ke perangkat lain?",
+        "a": "Belum. Catatanmu hanya ada di iPhone yang sedang kamu pakai. Sinkronisasi antarperangkat dan cadangan sudah masuk daftar di Pengaturan > Fitur yang Akan Datang."
+      },
+      {
+        "q": "Benar-benar gratis?",
+        "a": "Ya. Tidak ada fitur yang dikunci di balik pembayaran. Kalau suka aplikasinya, kamu bisa memberi tip ke pengembang dari Pengaturan, tapi tidak ada yang berubah kalau tidak."
+      },
+      {
+        "q": "Apakah catatanku dikirim ke suatu tempat?",
+        "a": "Tidak. Tanpa akun dan tanpa iklan, waktu jeda dan riwayatmu hanya disimpan di iPhone. Pengembang hanya menerima statistik penggunaan anonim, laporan kesalahan, dan masukan yang kamu kirim sendiri. Rinciannya ada di Kebijakan Privasi di bawah."
+      },
+      {
+        "q": "Ketemu bug atau ingin fitur baru.",
+        "a": "Kabari kami lewat Pengaturan > Dukungan > Kirim Masukan di aplikasi, DM Instagram ke @lee25_ios, atau email di bawah. Kalau ada layar yang macet, sebutkan apa yang sedang kamu lakukan dan versi iOS-mu supaya kami bisa menemukannya jauh lebih cepat."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Pasang waktu jeda\nsebelum godaan berikutnya",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masukan? Kirim ke {email}.",
+    "links": [
+      [
+        "Dukungan dan kontak",
+        "support.html"
+      ]
+    ]
+  }
+}

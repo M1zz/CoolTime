@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Een iPhone-app die uitgaven en gewoontes een wachttijd geeft, zoals de cooldown van een skill in een game.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: een wachttijd voor impulsaankopen</title>
+  <meta name="description" content="Bezorgen om de 3 dagen, nieuwe kleren om de 2 weken. Zet een wachttijd op je uitgaven, zoals bij een skill in een game. Alle functies gratis.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: een wachttijd voor impulsaankopen">
+  <meta property="og:description" content="Bezorgen om de 3 dagen, nieuwe kleren om de 2 weken. Zet een wachttijd op je uitgaven, zoals bij een skill in een game. Alle functies gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/nl/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/nl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Wacht tot de wachttijd voorbij is</div>
-    </div>
+  <a class="skip" href="#main">Ga naar inhoud</a>
+  <header class="bar">
+    <a class="brand" href="../nl/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Taal</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">Over de app</a>
-    <a href="support.html">Support en contact</a>
-    <a href="privacy.html">Privacybeleid</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" aria-current="true">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Ook je impulsen krijgen een wachttijd</h1>
-  <p class="lede">Zoals de cooldown van een skill in een game stel je een wachttijd in voor uitgaven en gewoontes. Maaltijdbezorging om de 3 dagen, kleding kopen om de 2 weken. Na gebruik loopt een ring langzaam vol tot je het weer mag doen.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Zin om te shoppen?<br>Eerst de wachttijd.</h1>
+        <p class="lead">Geef je uitgaven een wachttijd, net als een skill in een game. Gebruik je iets, dan loopt de cirkel leeg en vult hij zich langzaam tot het weer mag.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Gratis in de App Store</a><a class="try" href="#try">Probeer het hier ↓</a></div>
+        <p class="muted small">Alle functies zijn gratis. Geen account, geen advertenties.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/01-home.jpg" alt="Zin om te shoppen? Eerst de wachttijd." width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Zo werkt het</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Maak een wachttijd</h3>
-      <p>Kies een naam, een emoji en hoe lang je wilt wachten (uren, dagen, weken of maanden). Veelvoorkomende items voor eten, winkelen, entertainment, gezondheid en financiën voeg je met één tik toe uit de aanbevolen sjablonen.</p>
-    </div>
-    <div class="card">
-      <h3>Gebruik</h3>
-      <p>Tik bij gebruik op <strong>Gebruik</strong> en de wachttijd begint opnieuw. Je kunt een notitie met de reden en de werkelijke kosten toevoegen. Als je het tijdens een wachttijd gebruikt, wordt dat ook vastgelegd.</p>
-    </div>
-    <div class="card">
-      <h3>Melding als het klaar is</h3>
-      <p>Als een wachttijd afloopt, krijg je een melding. De widget op je beginscherm laat meteen zien wat je nu kunt gebruiken en hoeveel tijd er nog is.</p>
-    </div>
-    <div class="card">
-      <h3>Statistieken</h3>
-      <p>Laten zien hoe goed je je wachttijden hebt nageleefd (naleefpercentage), vastleggingen per categorie, hoe vaak je een wachttijd hebt doorbroken en de besparing van deze maand voor items met geschatte kosten.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Probeer het hier</h2>
+      <p class="muted">Kies een item, tik op Gebruik en spoel de tijd dag voor dag vooruit. Je ziet ook wat er gebeurt als je het tijdens de wachttijd gebruikt.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Probeer het hier&quot;, &quot;lead&quot;: &quot;Kies een item, tik op Gebruik en spoel de tijd dag voor dag vooruit. Je ziet ook wat er gebeurt als je het tijdens de wachttijd gebruikt.&quot;, &quot;nextDay&quot;: &quot;Volgende dag&quot;, &quot;note&quot;: &quot;Hier sla je met een knop een dag over. In de app verstrijkt de echte tijd en krijg je een melding als het zover is.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Maaltijdbezorging&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Bezorging om de drie dagen&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Café&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Koffie om de dag&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Kleding kopen&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Kleding om de twee weken&quot;}], &quot;use&quot;: &quot;Gebruik&quot;, &quot;breakShort&quot;: &quot;Doorbreek&quot;, &quot;breakIt&quot;: &quot;Wachttijd doorbreken&quot;, &quot;warnTitle&quot;: &quot;Wachttijd loopt!&quot;, &quot;warnText&quot;: &quot;Als je het nu gebruikt, daalt je naleefpercentage&quot;, &quot;ready&quot;: &quot;Beschikbaar&quot;, &quot;left&quot;: &quot;Resterende tijd: %@&quot;, &quot;dh&quot;: &quot;%lld d %lld u&quot;, &quot;half&quot;: &quot;%@ Halverwege!&quot;, &quot;end&quot;: &quot;%@ Wachttijd voorbij!&quot;, &quot;compliance&quot;: &quot;Naleving&quot;, &quot;total&quot;: &quot;Gebruik in totaal&quot;, &quot;breaks&quot;: &quot;Keer doorbroken&quot;}"></div>
+    </section>
 
-  <h2>Je gegevens blijven op je apparaat</h2>
-  <div class="card">
-    <p>Geen accounts, geen advertenties. Je wachttijden en gebruiksgeschiedenis worden alleen op je iPhone opgeslagen en nooit naar de ontwikkelaar gestuurd. Bij de ontwikkelaar komen alleen anonieme gebruiksstatistieken, foutrapporten en feedback die je zelf verstuurt terecht. Details staan in het <a href="privacy.html">Privacybeleid</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Werd ‘alleen deze ene keer’ ook weleens vier keer in één week?</h2>
+      <p>Elke keer dat je een bezorgapp opent, voelt het alsof het lang geleden is. Maar wanneer was die vorige keer eigenlijk? CoolTime laat zien wanneer je iets voor het laatst gebruikte en wanneer het weer mag. Zo beslist een regel die je vooraf hebt gesteld, niet je gevoel van het moment.</p>
+    </section>
 
-  <p class="meta">iPhone · Nederlands</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Nog één pauze voordat je hem doorbreekt</h2>
+        <p>Wil je iets gebruiken tijdens de wachttijd, dan toont de app hoeveel tijd er nog over is en waarschuwt dat je naleefpercentage daalt.<br>Toch nodig? Noteer waarom en wat het echt kostte. Dat je de wachttijd doorbrak, blijft in je geschiedenis staan.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/02-break.jpg" alt="Nog één pauze voordat je hem doorbreekt" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Support en contact</a> · <a href="privacy.html">Privacybeleid</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Je zelfbeheersing in cijfers</h2>
+        <p>Je naleefpercentage, je geschiedenis per item en per categorie en hoe vaak je een wachttijd doorbrak, allemaal op één scherm.<br>Geef je een item geschatte kosten, dan schat de app ook hoeveel je deze maand hebt bespaard.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/03-stats.jpg" alt="Je zelfbeheersing in cijfers" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Veelgebruikte wachttijden met één tik</h2>
+        <p>Kies uit aanbevolen sjablonen, van reizen, winkelen en eten tot gezondheid en financiën.<br>Je krijgt een melding halverwege en aan het eind van de wachttijd, en widgets op je beginscherm en toegangsscherm tonen de resterende tijd.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/04-templates.jpg" alt="Veelgebruikte wachttijden met één tik" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>In drie stappen aan de slag</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Maak een item</h3><p>Kies een naam, een emoji en hoe lang je wilt wachten, in uren, dagen, weken of maanden. Of pak een sjabloon.</p></li>
+<li class="card"><span class="n">2</span><h3>Tik op Gebruik zodra je het gebruikt</h3><p>De wachttijd begint meteen en de cirkel loopt leeg.</p></li>
+<li class="card"><span class="n">3</span><h3>Melding binnen? Dan mag het weer</h3><p>Je krijgt een melding als de wachttijd voorbij is. Je hoeft meldingen maar één keer toe te staan.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Wachttijden in de aanbevolen sjablonen</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Reizen</dt><dd>Buitenlandse reis · Reis in eigen land · Hotelverblijf</dd></div><div><dt>🛍️ Shoppen</dt><dd>Kleding kopen · Impulsaankoop · Elektronica</dd></div><div><dt>🍔 Eten</dt><dd>Fastfood · Maaltijdbezorging · Café · Toetje · Uit eten · Nachtelijke snack</dd></div><div><dt>🎮 Entertainment</dt><dd>Aankopen in games · Bioscoop · Serie-marathon · Concert / show</dd></div><div><dt>💅 Lifestyle</dt><dd>Alcohol · Taxi · Nagelstyling · Kapper · Massage / spa</dd></div><div><dt>🏃 Gezondheid</dt><dd>Rustdag (training overslaan) · Cheatday</dd></div><div><dt>💰 Financiën</dt><dd>Aandelenhandel · Loterij</dd></div></dl>
+      </div>
+      <p class="muted">Elk sjabloon heeft een redelijke wachttijd en geschatte kosten. Staat die van jou er niet bij? Maak je eigen.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Vragen</h2>
+      <div class="faq"><details><summary>Ik heb het tijdens de wachttijd gebruikt.</summary><p>Geen probleem. In je geschiedenis staat dan dat je het tijdens een wachttijd gebruikte, en de wachttijd begint vanaf dat moment opnieuw. Het telt mee voor je naleefpercentage en het aantal keer doorbroken in Statistieken.</p></details>
+<details><summary>Hoe wordt de besparing berekend?</summary><p>Als je bij een item geschatte kosten invult, schat de app hoe vaak de wachttijd je deze maand heeft tegengehouden en toont dat bedrag. Het is een schatting, geen exact bedrag, en items zonder geschatte kosten tellen niet mee.</p></details>
+<details><summary>Ik krijg geen meldingen.</summary><p>Kijk op je iPhone bij Instellingen &gt; Meldingen &gt; CoolTime. Zegt het eerste scherm van de app dat meldingen uitstaan, dan brengt de knop Instellingen daar je er meteen heen.</p></details>
+<details><summary>Hoe voeg ik de widget toe?</summary><p>Houd je vinger op het beginscherm, tik linksboven op +, zoek CoolTime en voeg de widget toe. Er zijn ook widgets voor het toegangsscherm. Ze tonen wat je nu kunt gebruiken en hoeveel tijd er nog over is.</p></details>
+<details><summary>Hoe wis ik mijn gegevens?</summary><p>Verwijder je een item, dan verdwijnen ook de vastleggingen ervan. Verwijder je de app, dan is alles weg. Je gegevens staan alleen op je apparaat, dus wat je wist, krijg je niet meer terug.</p></details>
+<details><summary>Synchroniseert het met mijn andere apparaten?</summary><p>Nog niet. Je gegevens staan op deze ene iPhone. Synchronisatie tussen apparaten en back-ups staan op de lijst onder Instellingen &gt; Komende functies.</p></details>
+<details><summary>Is het echt gratis?</summary><p>Ja. Er zit niets achter een betaalmuur. Vind je de app fijn, dan kun je de ontwikkelaar vanuit Instellingen een fooi geven, maar er verandert niets als je dat niet doet.</p></details>
+<details><summary>Worden mijn gegevens ergens naartoe gestuurd?</summary><p>Nee. Er is geen account en er zijn geen advertenties, en je wachttijden en geschiedenis worden alleen op je iPhone bewaard. De ontwikkelaar krijgt alleen anonieme gebruiksstatistieken, foutrapporten en feedback die je zelf stuurt. Meer daarover lees je in het privacybeleid hieronder.</p></details>
+<details><summary>Ik heb een bug gevonden of mis een functie.</summary><p>Laat het ons weten in de app via Instellingen &gt; Support &gt; Stuur feedback, met een Instagram-DM aan @lee25_ios of per e-mail hieronder. Liep een scherm vast? Vermeld dan wat je aan het doen was en je iOS-versie, dan vinden we het veel sneller.</p></details></div>
+      <p class="contact">Vragen of feedback? Mail naar <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Zet de wachttijd<br>vóór de volgende impuls</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Gratis in de App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Taal"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl" aria-current="page">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacybeleid</a> · <a href="support.html">Support en contact</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

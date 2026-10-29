@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="el">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Μια εφαρμογή iPhone που προσθέτει χρόνο αναμονής στα έξοδα και τις συνήθειες, όπως ο χρόνος επαναφόρτισης μιας ικανότητας σε παιχνίδι.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: αναμονή για τις παρορμητικές αγορές</title>
+  <meta name="description" content="Φαγητό απ’ έξω κάθε 3 μέρες, ρούχα κάθε 2 εβδομάδες. Βάλε αναμονή στα έξοδά σου, σαν ικανότητα σε παιχνίδι. Όλα δωρεάν.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: αναμονή για τις παρορμητικές αγορές">
+  <meta property="og:description" content="Φαγητό απ’ έξω κάθε 3 μέρες, ρούχα κάθε 2 εβδομάδες. Βάλε αναμονή στα έξοδά σου, σαν ικανότητα σε παιχνίδι. Όλα δωρεάν.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/el/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/el/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Περίμενε να τελειώσει η αναμονή</div>
-    </div>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="bar">
+    <a class="brand" href="../el/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Γλώσσα</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">Σχετικά</a>
-    <a href="support.html">Υποστήριξη και επικοινωνία</a>
-    <a href="privacy.html">Πολιτική απορρήτου</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" aria-current="true">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Αναμονή και για τις παρορμήσεις σου</h1>
-  <p class="lede">Όπως ο χρόνος επαναφόρτισης μιας ικανότητας σε ένα παιχνίδι, ορίζεις χρόνο αναμονής για τα έξοδα και τις συνήθειές σου. Delivery κάθε 3 ημέρες, ψώνια ρούχων κάθε 2 εβδομάδες. Μετά τη χρήση, ένας κύκλος γεμίζει αργά μέχρι να μπορέσεις να το κάνεις ξανά.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Θες να ξοδέψεις;<br>Πρώτα η αναμονή.</h1>
+        <p class="lead">Βάλε στα έξοδά σου χρόνο αναμονής, όπως σε μια ικανότητα σε παιχνίδι. Μόλις το χρησιμοποιήσεις, ο κύκλος αδειάζει και γεμίζει σιγά σιγά, μέχρι να μπορείς ξανά.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Δωρεάν στο App Store</a><a class="try" href="#try">Δοκίμασέ το εδώ ↓</a></div>
+        <p class="muted small">Όλες οι λειτουργίες δωρεάν. Χωρίς λογαριασμό, χωρίς διαφημίσεις.</p>
+      </div>
+      <div class="phone"><img src="../img/el/01-home.jpg" alt="Θες να ξοδέψεις; Πρώτα η αναμονή." width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Πώς λειτουργεί</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Δημιούργησε μια αναμονή</h3>
-      <p>Διάλεξε όνομα, emoji και πόσο θα περιμένεις (ώρες, ημέρες, εβδομάδες ή μήνες). Συνηθισμένα στοιχεία φαγητού, αγορών, ψυχαγωγίας, υγείας και οικονομικών προστίθενται με ένα πάτημα από τα προτεινόμενα πρότυπα.</p>
-    </div>
-    <div class="card">
-      <h3>Χρήση</h3>
-      <p>Όταν το χρησιμοποιήσεις, πάτησε <strong>Χρήση</strong> και η αναμονή ξεκινά από την αρχή. Μπορείς να προσθέσεις σημείωση για τον λόγο και το πραγματικό κόστος. Αν το χρησιμοποιήσεις κατά τη διάρκεια αναμονής, καταγράφεται κι αυτό.</p>
-    </div>
-    <div class="card">
-      <h3>Ειδοποίηση όταν τελειώσει</h3>
-      <p>Όταν τελειώνει μια αναμονή, λαμβάνεις ειδοποίηση. Το γραφικό στοιχείο στην Αρχική οθόνη δείχνει αμέσως τι μπορείς να χρησιμοποιήσεις τώρα και πόσος χρόνος απομένει.</p>
-    </div>
-    <div class="card">
-      <h3>Στατιστικά</h3>
-      <p>Δείχνουν πόσο καλά τήρησες τις αναμονές σου (ποσοστό τήρησης), καταγραφές ανά κατηγορία, πόσες φορές παραβίασες μια αναμονή και την εξοικονόμηση αυτού του μήνα για στοιχεία με εκτιμώμενο κόστος.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Δοκίμασέ το εδώ</h2>
+      <p class="muted">Διάλεξε ένα στοιχείο, πάτησε Χρήση και προχώρα τον χρόνο μέρα με τη μέρα. Μπορείς να δεις και τι γίνεται αν το χρησιμοποιήσεις μέσα στην αναμονή.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Δοκίμασέ το εδώ&quot;, &quot;lead&quot;: &quot;Διάλεξε ένα στοιχείο, πάτησε Χρήση και προχώρα τον χρόνο μέρα με τη μέρα. Μπορείς να δεις και τι γίνεται αν το χρησιμοποιήσεις μέσα στην αναμονή.&quot;, &quot;nextDay&quot;: &quot;Επόμενη μέρα&quot;, &quot;note&quot;: &quot;Εδώ η μέρα περνά με ένα κουμπί. Στην εφαρμογή περνά πραγματικός χρόνος και, όταν τελειώσει η αναμονή, λαμβάνεις ειδοποίηση.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Delivery φαγητού&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Delivery κάθε 3 ημέρες&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Καφέ&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Καφές μέρα παρά μέρα&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Αγορά ρούχων&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Ρούχα κάθε 2 εβδομάδες&quot;}], &quot;use&quot;: &quot;Χρήση&quot;, &quot;breakShort&quot;: &quot;Παραβίαση&quot;, &quot;breakIt&quot;: &quot;Παραβίαση αναμονής&quot;, &quot;warnTitle&quot;: &quot;Σε αναμονή!&quot;, &quot;warnText&quot;: &quot;Αν το χρησιμοποιήσεις τώρα, το ποσοστό τήρησης θα μειωθεί&quot;, &quot;ready&quot;: &quot;Διαθέσιμο&quot;, &quot;left&quot;: &quot;Χρόνος που απομένει: %@&quot;, &quot;dh&quot;: &quot;%lld ημ. %lld ώ.&quot;, &quot;half&quot;: &quot;%@ Στα μισά!&quot;, &quot;end&quot;: &quot;%@ Η αναμονή τελείωσε!&quot;, &quot;compliance&quot;: &quot;Τήρηση&quot;, &quot;total&quot;: &quot;Σύνολο χρήσεων&quot;, &quot;breaks&quot;: &quot;Φορές παραβίασης&quot;}"></div>
+    </section>
 
-  <h2>Οι καταγραφές σου μένουν στη συσκευή σου</h2>
-  <div class="card">
-    <p>Χωρίς λογαριασμούς, χωρίς διαφημίσεις. Οι αναμονές και το ιστορικό χρήσης αποθηκεύονται μόνο στο iPhone σου και δεν αποστέλλονται ποτέ στον προγραμματιστή. Στον προγραμματιστή φτάνουν μόνο ανώνυμα στατιστικά χρήσης, αναφορές σφαλμάτων και σχόλια που στέλνεις εσύ. Λεπτομέρειες υπάρχουν στην <a href="privacy.html">Πολιτική απορρήτου</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Σου έχει τύχει το «μόνο αυτή τη φορά» να γίνει τέσσερις φορές σε μία εβδομάδα;</h2>
+      <p>Κάθε φορά που ανοίγεις την εφαρμογή παραγγελιών νιώθεις ότι έχεις αιώνες να παραγγείλεις, αλλά δεν θυμάσαι καλά πότε ήταν η τελευταία φορά. Το CoolTime δείχνει πότε το χρησιμοποίησες τελευταία φορά και πότε επιτρέπεται ξανά, ώστε να αποφασίζει ο κανόνας που έβαλες από πριν και όχι η διάθεση της στιγμής.</p>
+    </section>
 
-  <p class="meta">iPhone · Ελληνικά</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Μια ακόμη παύση πριν την παραβίαση</h2>
+        <p>Αν προσπαθήσεις να χρησιμοποιήσεις κάτι σε αναμονή, η εφαρμογή δείχνει πόσος χρόνος απομένει και σε προειδοποιεί ότι το ποσοστό τήρησης θα πέσει.<br>Το χρειάζεσαι παρ’ όλα αυτά; Σημείωσε γιατί και πόσο κόστισε στην πραγματικότητα. Η παραβίαση μένει στο ιστορικό σου.</p>
+      </div>
+      <div class="phone"><img src="../img/el/02-break.jpg" alt="Μια ακόμη παύση πριν την παραβίαση" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Υποστήριξη και επικοινωνία</a> · <a href="privacy.html">Πολιτική απορρήτου</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Η αυτοσυγκράτησή σου σε αριθμούς</h2>
+        <p>Ποσοστό τήρησης, ιστορικό ανά στοιχείο και κατηγορία και πόσες φορές παραβίασες μια αναμονή, όλα σε μία οθόνη.<br>Αν δώσεις σε ένα στοιχείο εκτιμώμενο κόστος, η εφαρμογή υπολογίζει κατά προσέγγιση και πόσα εξοικονόμησες αυτόν τον μήνα.</p>
+      </div>
+      <div class="phone"><img src="../img/el/03-stats.jpg" alt="Η αυτοσυγκράτησή σου σε αριθμούς" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Οι συνηθισμένες αναμονές με ένα πάτημα</h2>
+        <p>Διάλεξε από τα προτεινόμενα πρότυπα, από ταξίδια, ψώνια και φαγητό μέχρι υγεία και οικονομικά.<br>Λαμβάνεις ειδοποίηση στη μέση και στο τέλος της αναμονής, ενώ τα γραφικά στοιχεία στην Αρχική οθόνη και στην οθόνη κλειδώματος δείχνουν τον χρόνο που απομένει.</p>
+      </div>
+      <div class="phone"><img src="../img/el/04-templates.jpg" alt="Οι συνηθισμένες αναμονές με ένα πάτημα" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Τρία βήματα για να ξεκινήσεις</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Πρόσθεσε ένα στοιχείο</h3><p>Διάλεξε όνομα, εμότζι και πόσο θα περιμένεις, σε ώρες, μέρες, εβδομάδες ή μήνες. Ή πάρε ένα έτοιμο πρότυπο.</p></li>
+<li class="card"><span class="n">2</span><h3>Το χρησιμοποίησες; Πάτησε Χρήση</h3><p>Η αναμονή ξεκινά εκείνη τη στιγμή και ο κύκλος αδειάζει.</p></li>
+<li class="card"><span class="n">3</span><h3>Ήρθε ειδοποίηση; Ελεύθερο πεδίο</h3><p>Όταν τελειώσει η αναμονή, λαμβάνεις ειδοποίηση. Αρκεί να επιτρέψεις τις ειδοποιήσεις μία φορά.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Αναμονές στα προτεινόμενα πρότυπα</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Ταξίδια</dt><dd>Ταξίδι στο εξωτερικό · Ταξίδι εντός χώρας · Διαμονή σε ξενοδοχείο</dd></div><div><dt>🛍️ Ψώνια</dt><dd>Αγορά ρούχων · Παρορμητική αγορά · Ηλεκτρονικά</dd></div><div><dt>🍔 Φαγητό</dt><dd>Fast food · Delivery φαγητού · Καφέ · Επιδόρπιο · Έξοδος για φαγητό · Βραδινό σνακ</dd></div><div><dt>🎮 Ψυχαγωγία</dt><dd>Αγορές σε παιχνίδια · Κινηματογράφος · Μαραθώνιος σειρών · Συναυλία / παράσταση</dd></div><div><dt>💅 Τρόπος ζωής</dt><dd>Αλκοόλ · Ταξί · Νύχια · Κομμωτήριο · Μασάζ / spa</dd></div><div><dt>🏃 Υγεία</dt><dd>Ημέρα ξεκούρασης (παράλειψη προπόνησης) · Cheat day</dd></div><div><dt>💰 Οικονομικά</dt><dd>Συναλλαγές μετοχών · Λαχείο</dd></div></dl>
+      </div>
+      <p class="muted">Κάθε πρότυπο έχει ήδη λογικό χρόνο αναμονής και εκτιμώμενο κόστος. Δεν βρίσκεις αυτό που θες; Φτιάξε το δικό σου.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Συχνές ερωτήσεις</h2>
+      <div class="faq"><details><summary>Το χρησιμοποίησα μέσα στην αναμονή.</summary><p>Δεν πειράζει. Το ιστορικό σημειώνει ότι έγινε σε αναμονή και η αναμονή ξεκινά ξανά από εκείνη τη στιγμή. Μετράει στο ποσοστό τήρησης και στις φορές παραβίασης στα Στατιστικά.</p></details>
+<details><summary>Πώς υπολογίζεται η εξοικονόμηση;</summary><p>Αν δώσεις εκτιμώμενο κόστος σε ένα στοιχείο, η εφαρμογή υπολογίζει πόσες χρήσεις σού γλίτωσε η αναμονή αυτόν τον μήνα και δείχνει το ποσό. Είναι εκτίμηση, όχι ακριβές ποσό, και τα στοιχεία χωρίς εκτιμώμενο κόστος δεν μετράνε.</p></details>
+<details><summary>Δεν μου έρχονται ειδοποιήσεις.</summary><p>Στο iPhone σου, έλεγξε στο Ρυθμίσεις &gt; Ειδοποιήσεις &gt; CoolTime. Αν η πρώτη οθόνη της εφαρμογής λέει ότι οι ειδοποιήσεις είναι απενεργοποιημένες, το κουμπί Ρυθμίσεις εκεί σε πηγαίνει κατευθείαν.</p></details>
+<details><summary>Πώς προσθέτω το γραφικό στοιχείο;</summary><p>Κράτησε πατημένη την Αρχική οθόνη, πάτησε το + πάνω αριστερά, βρες το CoolTime και πρόσθεσέ το. Υπάρχουν και γραφικά στοιχεία για την οθόνη κλειδώματος. Δείχνουν τι μπορείς να χρησιμοποιήσεις τώρα και πόσος χρόνος απομένει.</p></details>
+<details><summary>Πώς διαγράφω τις καταγραφές;</summary><p>Όταν διαγράφεις ένα στοιχείο, φεύγουν και οι καταγραφές του. Αν διαγράψεις την εφαρμογή, χάνονται όλες. Οι καταγραφές υπάρχουν μόνο στη συσκευή σου, οπότε ό,τι διαγραφεί δεν επανέρχεται.</p></details>
+<details><summary>Συγχρονίζεται με τις άλλες συσκευές μου;</summary><p>Όχι ακόμη. Οι καταγραφές σου βρίσκονται μόνο σε αυτό το iPhone. Ο συγχρονισμός μεταξύ συσκευών και τα αντίγραφα ασφαλείας είναι στη λίστα, στο Ρυθμίσεις &gt; Λειτουργίες που έρχονται.</p></details>
+<details><summary>Είναι όντως δωρεάν;</summary><p>Ναι. Καμία λειτουργία δεν κλειδώνει πίσω από πληρωμή. Αν σου αρέσει η εφαρμογή, μπορείς να στείλεις φιλοδώρημα στον προγραμματιστή από τις Ρυθμίσεις, αλλά αν δεν το κάνεις, δεν αλλάζει τίποτα.</p></details>
+<details><summary>Στέλνονται κάπου οι καταγραφές μου;</summary><p>Όχι. Δεν υπάρχει λογαριασμός ούτε διαφημίσεις, και οι αναμονές και το ιστορικό σου αποθηκεύονται μόνο στο iPhone σου. Ο προγραμματιστής λαμβάνει μόνο ανώνυμα στατιστικά χρήσης, αναφορές σφαλμάτων και ό,τι σχόλια στείλεις εσύ. Λεπτομέρειες θα βρεις στην Πολιτική απορρήτου παρακάτω.</p></details>
+<details><summary>Βρήκα σφάλμα ή θέλω μια λειτουργία.</summary><p>Πες μας από την εφαρμογή στο Ρυθμίσεις &gt; Υποστήριξη &gt; Αποστολή σχολίων, με μήνυμα στο Instagram @lee25_ios ή στο ηλεκτρονικό ταχυδρομείο παρακάτω. Αν κάποια οθόνη κόλλησε, πες μας τι έκανες και ποια έκδοση iOS έχεις, για να βρούμε την αιτία πολύ πιο γρήγορα.</p></details></div>
+      <p class="contact">Ερωτήσεις ή σχόλια; Γράψε στο <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Βάλε αναμονή<br>πριν από την επόμενη παρόρμηση</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Δωρεάν στο App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Γλώσσα"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el" aria-current="page">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Πολιτική απορρήτου</a> · <a href="support.html">Υποστήριξη και επικοινωνία</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

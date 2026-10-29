@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Eine iPhone-App, die Ausgaben und Gewohnheiten wie die Abklingzeit einer Fähigkeit im Spiel eine Wartezeit gibt.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: Abklingzeit für Spontankäufe</title>
+  <meta name="description" content="Essen bestellen alle 3 Tage, neue Klamotten alle 2 Wochen. Gib deinen Ausgaben eine Abklingzeit wie einer Fähigkeit im Spiel. Komplett gratis.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: Abklingzeit für Spontankäufe">
+  <meta property="og:description" content="Essen bestellen alle 3 Tage, neue Klamotten alle 2 Wochen. Gib deinen Ausgaben eine Abklingzeit wie einer Fähigkeit im Spiel. Komplett gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/de/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/de/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Warte, bis die Abklingzeit vorbei ist</div>
-    </div>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header class="bar">
+    <a class="brand" href="../de/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Sprache</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">Über die App</a>
-    <a href="support.html">Support und Kontakt</a>
-    <a href="privacy.html">Datenschutzerklärung</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" aria-current="true">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Auch Impulse brauchen eine Abklingzeit</h1>
-  <p class="lede">Wie bei einer Fähigkeit im Spiel legst du für Ausgaben und Gewohnheiten eine Wartezeit fest. Essen liefern lassen alle 3 Tage, Kleidung kaufen alle 2 Wochen. Nach dem Nutzen füllt sich ein Ring langsam, bis du es wieder tun darfst.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Lust auf Shopping?<br>Erst die Abklingzeit.</h1>
+        <p class="lead">Gib deinen Ausgaben eine Abklingzeit, wie einer Fähigkeit im Spiel. Einmal genutzt, leert sich der Kreis und füllt sich dann langsam wieder, bis du wieder darfst.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Gratis im App Store</a><a class="try" href="#try">Probier es hier aus ↓</a></div>
+        <p class="muted small">Alle Funktionen kostenlos. Kein Konto, keine Werbung.</p>
+      </div>
+      <div class="phone"><img src="../img/de/01-home.jpg" alt="Lust auf Shopping? Erst die Abklingzeit." width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>So funktioniert es</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Abklingzeit anlegen</h3>
-      <p>Wähle einen Namen, ein Emoji und die Wartezeit (Stunden, Tage, Wochen oder Monate). Häufige Einträge aus Essen, Shopping, Unterhaltung, Gesundheit und Finanzen fügst du mit einem Tipp aus den empfohlenen Vorlagen hinzu.</p>
-    </div>
-    <div class="card">
-      <h3>Nutzen</h3>
-      <p>Tippe beim Nutzen auf <strong>Nutzen</strong>, und die Abklingzeit beginnt von vorn. Du kannst eine Notiz zum Grund und die tatsächlichen Kosten festhalten. Wenn du während einer Abklingzeit nutzt, wird auch das festgehalten.</p>
-    </div>
-    <div class="card">
-      <h3>Hinweis zum Ende</h3>
-      <p>Wenn eine Abklingzeit endet, bekommst du eine Mitteilung. Im Widget auf dem Home-Bildschirm siehst du sofort, was du gerade nutzen kannst und wie viel Zeit noch bleibt.</p>
-    </div>
-    <div class="card">
-      <h3>Statistiken</h3>
-      <p>Zeigt, wie gut du deine Abklingzeiten eingehalten hast (Einhaltungsquote), die Verläufe nach Kategorie, wie oft du eine Abklingzeit gebrochen hast und die Ersparnis dieses Monats für Einträge mit geschätzten Kosten.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Probier es hier aus</h2>
+      <p class="muted">Wähle einen Eintrag, tippe auf Nutzen und spul die Zeit Tag für Tag vor. Du siehst auch, was passiert, wenn du ihn während der Abklingzeit nutzt.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Probier es hier aus&quot;, &quot;lead&quot;: &quot;Wähle einen Eintrag, tippe auf Nutzen und spul die Zeit Tag für Tag vor. Du siehst auch, was passiert, wenn du ihn während der Abklingzeit nutzt.&quot;, &quot;nextDay&quot;: &quot;Nächster Tag&quot;, &quot;note&quot;: &quot;Hier springst du per Knopfdruck einen Tag weiter. In der App vergeht echte Zeit, und am Ende bekommst du eine Mitteilung.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Essenslieferung&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Lieferdienst alle 3 Tage&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Café&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Kaffee jeden zweiten Tag&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Kleidung kaufen&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Kleidung alle 2 Wochen&quot;}], &quot;use&quot;: &quot;Nutzen&quot;, &quot;breakShort&quot;: &quot;Brechen&quot;, &quot;breakIt&quot;: &quot;Abklingzeit brechen&quot;, &quot;warnTitle&quot;: &quot;Abklingzeit läuft!&quot;, &quot;warnText&quot;: &quot;Wenn du es jetzt nutzt, sinkt deine Einhaltungsquote&quot;, &quot;ready&quot;: &quot;Verfügbar&quot;, &quot;left&quot;: &quot;Verbleibende Zeit: %@&quot;, &quot;dh&quot;: &quot;%lld T %lld Std.&quot;, &quot;half&quot;: &quot;%@ Halbzeit!&quot;, &quot;end&quot;: &quot;%@ Abklingzeit vorbei!&quot;, &quot;compliance&quot;: &quot;Einhaltung&quot;, &quot;total&quot;: &quot;Nutzungen insgesamt&quot;, &quot;breaks&quot;: &quot;Gebrochen&quot;}"></div>
+    </section>
 
-  <h2>Deine Daten bleiben auf deinem Gerät</h2>
-  <div class="card">
-    <p>Keine Konten, keine Werbung. Deine Abklingzeiten und dein Nutzungsverlauf werden nur auf deinem iPhone gespeichert und nicht an den Entwickler gesendet. Beim Entwickler kommen nur anonyme Nutzungsstatistiken, Fehlerberichte und von dir selbst gesendetes Feedback an. Details stehen in der <a href="privacy.html">Datenschutzerklärung</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Schon mal viermal in einer Woche „nur dieses eine Mal“ gesagt?</h2>
+      <p>Jedes Mal, wenn du die Liefer-App öffnest, fühlt es sich an, als wäre es ewig her. Wann es wirklich zuletzt war, weißt du aber nicht mehr genau. CoolTime zeigt dir, wann du etwas zuletzt genutzt hast und ab wann du wieder darfst. So entscheidet die Regel, die du dir vorher gesetzt hast, und nicht die Laune des Moments.</p>
+    </section>
 
-  <p class="meta">iPhone · Deutsch</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Noch ein Moment, bevor du sie brichst</h2>
+        <p>Willst du etwas während der Abklingzeit nutzen, zeigt die App die verbleibende Zeit und warnt dich, dass deine Einhaltungsquote sinkt.<br>Brauchst du es trotzdem? Notier dir den Grund und was es wirklich gekostet hat. Der Bruch bleibt in deinem Verlauf sichtbar.</p>
+      </div>
+      <div class="phone"><img src="../img/de/02-break.jpg" alt="Noch ein Moment, bevor du sie brichst" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Support und Kontakt</a> · <a href="privacy.html">Datenschutzerklärung</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Verzicht in Zahlen</h2>
+        <p>Einhaltungsquote, Verlauf nach Eintrag und Kategorie und wie oft du eine Abklingzeit gebrochen hast, alles auf einem Bildschirm.<br>Hast du für einen Eintrag geschätzte Kosten hinterlegt, schätzt die App auch, wie viel du diesen Monat gespart hast.</p>
+      </div>
+      <div class="phone"><img src="../img/de/03-stats.jpg" alt="Verzicht in Zahlen" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Typische Abklingzeiten mit einem Tipp</h2>
+        <p>Wähle aus empfohlenen Vorlagen, von Reisen, Shopping und Essen bis zu Gesundheit und Finanzen.<br>Zur Hälfte der Abklingzeit und an ihrem Ende bekommst du eine Mitteilung, und Widgets auf Home- und Sperrbildschirm zeigen die verbleibende Zeit.</p>
+      </div>
+      <div class="phone"><img src="../img/de/04-templates.jpg" alt="Typische Abklingzeiten mit einem Tipp" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>In drei Schritten startklar</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Eintrag anlegen</h3><p>Wähle einen Namen, ein Emoji und die Wartezeit in Stunden, Tagen, Wochen oder Monaten. Oder nimm einfach eine Vorlage.</p></li>
+<li class="card"><span class="n">2</span><h3>Genutzt? Auf Nutzen tippen</h3><p>Ab diesem Moment läuft die Abklingzeit, und der Kreis leert sich.</p></li>
+<li class="card"><span class="n">3</span><h3>Mitteilung da? Dann wieder los</h3><p>Ist die Abklingzeit vorbei, bekommst du eine Mitteilung. Du musst Mitteilungen nur einmal erlauben.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Abklingzeiten in den empfohlenen Vorlagen</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Reisen</dt><dd>Auslandsreise · Inlandsreise · Hotel-Auszeit</dd></div><div><dt>🛍️ Shopping</dt><dd>Kleidung kaufen · Spontankauf · Elektronik</dd></div><div><dt>🍔 Essen</dt><dd>Fast Food · Essenslieferung · Café · Dessert · Essen gehen · Mitternachtssnack</dd></div><div><dt>🎮 Unterhaltung</dt><dd>In-Game-Käufe · Kino · Serienmarathon · Konzert / Show</dd></div><div><dt>💅 Lifestyle</dt><dd>Alkohol trinken · Taxi · Nageldesign · Friseur · Massage / Spa</dd></div><div><dt>🏃 Gesundheit</dt><dd>Ruhetag (Training ausfallen lassen) · Cheat Day</dd></div><div><dt>💰 Finanzen</dt><dd>Aktienhandel · Lotto</dd></div></dl>
+      </div>
+      <p class="muted">Jede Vorlage bringt eine sinnvolle Wartezeit und geschätzte Kosten mit. Nichts Passendes dabei? Leg deine eigene an.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Häufige Fragen</h2>
+      <div class="faq"><details><summary>Ich habe es während der Abklingzeit genutzt.</summary><p>Kein Problem. Im Verlauf wird vermerkt, dass es während der Abklingzeit war, und die Abklingzeit beginnt ab diesem Moment neu. Das fließt in deine Einhaltungsquote und die Anzahl gebrochener Abklingzeiten in den Statistiken ein.</p></details>
+<details><summary>Wie wird die Ersparnis berechnet?</summary><p>Wenn du für einen Eintrag geschätzte Kosten angibst, schätzt die App, wie oft dich die Abklingzeit diesen Monat vom Geldausgeben abgehalten hat, und zeigt den Betrag. Das ist eine Schätzung, kein exakter Wert. Einträge ohne geschätzte Kosten zählen nicht mit.</p></details>
+<details><summary>Ich bekomme keine Mitteilungen.</summary><p>Sieh auf deinem iPhone unter Einstellungen &gt; Mitteilungen &gt; CoolTime nach. Steht auf dem ersten Bildschirm der App, dass Mitteilungen aus sind, bringt dich die Schaltfläche „Einstellungen“ dort direkt hin.</p></details>
+<details><summary>Wie füge ich das Widget hinzu?</summary><p>Halte den Home-Bildschirm gedrückt, tippe oben links auf +, suche CoolTime und füge es hinzu. Auch für den Sperrbildschirm gibt es Widgets. Sie zeigen, was du gerade nutzen kannst und wie viel Zeit noch bleibt.</p></details>
+<details><summary>Wie lösche ich meinen Verlauf?</summary><p>Löschst du einen Eintrag, wird auch sein Verlauf gelöscht. Löschst du die App, ist alles weg. Deine Daten liegen nur auf deinem Gerät, gelöschte Daten lassen sich also nicht wiederherstellen.</p></details>
+<details><summary>Wird zwischen meinen Geräten synchronisiert?</summary><p>Noch nicht. Deine Daten liegen nur auf diesem einen iPhone. Synchronisierung zwischen Geräten und Backups stehen unter Einstellungen &gt; Geplante Funktionen auf der Liste.</p></details>
+<details><summary>Ist das wirklich kostenlos?</summary><p>Ja. Keine Funktion steckt hinter einer Bezahlschranke. Wenn dir die App gefällt, kannst du dem Entwickler in den Einstellungen ein Trinkgeld geben. Wenn nicht, ändert sich nichts.</p></details>
+<details><summary>Werden meine Daten irgendwohin geschickt?</summary><p>Nein. Es gibt kein Konto und keine Werbung, und deine Abklingzeiten und dein Verlauf liegen nur auf deinem iPhone. Beim Entwickler kommen nur anonyme Nutzungsstatistiken, Fehlerberichte und Feedback an, das du selbst schickst. Details findest du unten in der Datenschutzerklärung.</p></details>
+<details><summary>Ich habe einen Fehler gefunden oder wünsche mir eine Funktion.</summary><p>Sag uns Bescheid: in der App unter Einstellungen &gt; Support &gt; Feedback senden, per Instagram-DM an @lee25_ios oder per E-Mail an die Adresse unten. Hing ein Bildschirm, schreib dazu, was du gerade gemacht hast und welche iOS-Version du nutzt. So finden wir den Fehler viel schneller.</p></details></div>
+      <p class="contact">Fragen oder Feedback? Schreib an <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Abklingzeit setzen,<br>bevor es wieder juckt</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Gratis im App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Sprache"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de" aria-current="page">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Datenschutzerklärung</a> · <a href="support.html">Support und Kontakt</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="แอป iPhone ที่ตั้งเวลารอให้การใช้จ่ายและนิสัย เหมือนคูลดาวน์สกิลในเกม">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: ตั้งคูลดาวน์ให้การใช้จ่ายตามใจ</title>
+  <meta name="description" content="สั่งเดลิเวอรี่ 3 วันครั้ง ซื้อเสื้อผ้า 2 สัปดาห์ครั้ง ตั้งคูลดาวน์ให้การใช้จ่ายเหมือนสกิลในเกม แล้วรอจนใช้ได้อีกครั้ง ทุกฟีเจอร์ใช้ฟรี">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: ตั้งคูลดาวน์ให้การใช้จ่ายตามใจ">
+  <meta property="og:description" content="สั่งเดลิเวอรี่ 3 วันครั้ง ซื้อเสื้อผ้า 2 สัปดาห์ครั้ง ตั้งคูลดาวน์ให้การใช้จ่ายเหมือนสกิลในเกม แล้วรอจนใช้ได้อีกครั้ง ทุกฟีเจอร์ใช้ฟรี">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/th/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/th/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">รอให้คูลดาวน์จบก่อน</div>
-    </div>
+  <a class="skip" href="#main">ข้ามไปที่เนื้อหา</a>
+  <header class="bar">
+    <a class="brand" href="../th/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">ภาษา</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">เกี่ยวกับแอป</a>
-    <a href="support.html">ช่วยเหลือและติดต่อ</a>
-    <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" aria-current="true">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>แรงกระตุ้นก็ต้องมีคูลดาวน์</h1>
-  <p class="lede">เหมือนสกิลในเกม คุณตั้งเวลารอให้การใช้จ่ายและนิสัยของตัวเอง สั่งเดลิเวอรี่ 3 วันครั้ง ซื้อเสื้อผ้า 2 สัปดาห์ครั้ง หลังใช้แล้ววงแหวนจะค่อย ๆ เต็มขึ้นจนกว่าคุณจะใช้ได้อีกครั้ง</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>อยากช้อป?<br>คูลดาวน์ก่อน</h1>
+        <p class="lead">ตั้งเวลารอให้การใช้จ่ายเหมือนสกิลในเกม พอใช้แล้ววงกลมจะว่างลง แล้วค่อย ๆ เต็มขึ้นจนกว่าคุณจะใช้ได้อีกครั้ง</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">โหลดฟรีบน App Store</a><a class="try" href="#try">ลองเล่นตรงนี้ ↓</a></div>
+        <p class="muted small">ทุกฟีเจอร์ใช้ฟรี ไม่ต้องสมัครบัญชี ไม่มีโฆษณา</p>
+      </div>
+      <div class="phone"><img src="../img/th/01-home.jpg" alt="อยากช้อป? คูลดาวน์ก่อน" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>วิธีใช้งาน</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>สร้างคูลดาวน์</h3>
-      <p>ตั้งชื่อ เลือกอีโมจิ และกำหนดเวลารอ (ชั่วโมง วัน สัปดาห์ หรือเดือน) รายการยอดนิยมอย่างอาหาร ช้อปปิ้ง บันเทิง สุขภาพ และการเงิน เพิ่มได้ด้วยการแตะครั้งเดียวจากเทมเพลตแนะนำ</p>
-    </div>
-    <div class="card">
-      <h3>ใช้</h3>
-      <p>เมื่อใช้ ให้แตะ<strong>ใช้</strong> คูลดาวน์จะเริ่มนับใหม่ คุณจดบันทึกเหตุผลและค่าใช้จ่ายจริงไว้ได้ ถ้าใช้ระหว่างคูลดาวน์ ก็จะถูกบันทึกไว้เช่นกัน</p>
-    </div>
-    <div class="card">
-      <h3>แจ้งเตือนเมื่อจบ</h3>
-      <p>เมื่อคูลดาวน์จบ คุณจะได้รับการแจ้งเตือน วิดเจ็ตบนหน้าจอโฮมจะแสดงสิ่งที่ใช้ได้ตอนนี้และเวลาที่เหลือทันที</p>
-    </div>
-    <div class="card">
-      <h3>สถิติ</h3>
-      <p>แสดงว่าคุณรักษาคูลดาวน์ได้ดีแค่ไหน (อัตราการรักษาวินัย) บันทึกแยกตามหมวดหมู่ จำนวนครั้งที่ฝ่าฝืน และเงินที่ประหยัดได้เดือนนี้ของรายการที่ใส่ค่าใช้จ่ายโดยประมาณไว้</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>ลองเล่นตรงนี้</h2>
+      <p class="muted">เลือกรายการ แตะ “ใช้” แล้วเลื่อนเวลาไปทีละวัน ลองดูด้วยว่าถ้าใช้ระหว่างคูลดาวน์จะเกิดอะไรขึ้น</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;ลองเล่นตรงนี้&quot;, &quot;lead&quot;: &quot;เลือกรายการ แตะ “ใช้” แล้วเลื่อนเวลาไปทีละวัน ลองดูด้วยว่าถ้าใช้ระหว่างคูลดาวน์จะเกิดอะไรขึ้น&quot;, &quot;nextDay&quot;: &quot;วันถัดไป&quot;, &quot;note&quot;: &quot;ตรงนี้กดปุ่มเพื่อข้ามไปทีละวัน แต่ในแอปเวลาจะเดินจริง และคุณจะได้รับการแจ้งเตือนเมื่อคูลดาวน์จบ&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;เดลิเวอรี่อาหาร&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;สั่งเดลิเวอรี่ทุก 3 วัน&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;คาเฟ่&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;กาแฟวันเว้นวัน&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;ซื้อเสื้อผ้า&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;เสื้อผ้าทุก 2 สัปดาห์&quot;}], &quot;use&quot;: &quot;ใช้&quot;, &quot;breakShort&quot;: &quot;ฝ่าฝืน&quot;, &quot;breakIt&quot;: &quot;ฝ่าฝืนคูลดาวน์&quot;, &quot;warnTitle&quot;: &quot;กำลังคูลดาวน์!&quot;, &quot;warnText&quot;: &quot;ถ้าใช้ตอนนี้ อัตราการรักษาวินัยจะลดลง&quot;, &quot;ready&quot;: &quot;ใช้ได้&quot;, &quot;left&quot;: &quot;เวลาที่เหลือ: %@&quot;, &quot;dh&quot;: &quot;%lld วัน %lld ชม.&quot;, &quot;half&quot;: &quot;%@ ครึ่งทางแล้ว!&quot;, &quot;end&quot;: &quot;%@ คูลดาวน์จบแล้ว!&quot;, &quot;compliance&quot;: &quot;การรักษาวินัย&quot;, &quot;total&quot;: &quot;ใช้ทั้งหมด&quot;, &quot;breaks&quot;: &quot;จำนวนครั้งที่ฝ่าฝืน&quot;}"></div>
+    </section>
 
-  <h2>บันทึกของคุณอยู่ในอุปกรณ์ของคุณ</h2>
-  <div class="card">
-    <p>ไม่มีบัญชี ไม่มีโฆษณา คูลดาวน์และประวัติการใช้งานถูกเก็บไว้ใน iPhone ของคุณเท่านั้น และไม่ถูกส่งให้นักพัฒนา สิ่งที่ไปถึงนักพัฒนามีเพียงสถิติการใช้งานแบบไม่ระบุตัวตน รายงานข้อผิดพลาด และความคิดเห็นที่คุณส่งเอง ดูรายละเอียดได้ใน<a href="privacy.html">นโยบายความเป็นส่วนตัว</a></p>
-  </div>
+    <section class="problem reveal">
+      <h2>เคยไหม “ครั้งนี้ครั้งเดียว” แต่สัปดาห์เดียวปาไปสี่ครั้ง</h2>
+      <p>เปิดแอปเดลิเวอรี่ทีไรก็รู้สึกว่าไม่ได้สั่งมานานแล้ว แต่พอนึกจริง ๆ กลับจำไม่ได้ว่าครั้งล่าสุดคือเมื่อไร CoolTime บอกให้รู้ว่าคุณใช้ครั้งล่าสุดเมื่อไรและจะใช้ได้อีกเมื่อไร คุณจึงตัดสินใจจากกติกาที่ตั้งไว้ล่วงหน้า ไม่ใช่จากอารมณ์ตอนนั้น</p>
+    </section>
 
-  <p class="meta">iPhone · ไทย</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>หยุดคิดอีกนิดก่อนฝ่าฝืน</h2>
+        <p>ถ้าจะใช้ระหว่างคูลดาวน์ แอปจะบอกเวลาที่เหลือและเตือนว่าอัตราการรักษาวินัยจะลดลง<br>ถ้ายังจำเป็นต้องใช้ ก็จดเหตุผลและค่าใช้จ่ายจริงไว้ได้ ครั้งที่ฝ่าฝืนจะถูกเก็บไว้ในประวัติด้วย</p>
+      </div>
+      <div class="phone"><img src="../img/th/02-break.jpg" alt="หยุดคิดอีกนิดก่อนฝ่าฝืน" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">ช่วยเหลือและติดต่อ</a> · <a href="privacy.html">นโยบายความเป็นส่วนตัว</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>ความอดทนที่เห็นเป็นตัวเลข</h2>
+        <p>อัตราการรักษาวินัย ประวัติแยกตามรายการและหมวดหมู่ และจำนวนครั้งที่ฝ่าฝืน ดูได้ครบในหน้าเดียว<br>ถ้าใส่ค่าใช้จ่ายโดยประมาณให้รายการไว้ แอปจะประมาณให้ด้วยว่าเดือนนี้คุณประหยัดไปได้เท่าไร</p>
+      </div>
+      <div class="phone"><img src="../img/th/03-stats.jpg" alt="ความอดทนที่เห็นเป็นตัวเลข" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>คูลดาวน์ยอดนิยม แตะเดียวก็ได้</h2>
+        <p>เลือกจากเทมเพลตแนะนำได้ทันที ตั้งแต่ท่องเที่ยว ช้อปปิ้ง อาหาร ไปจนถึงสุขภาพและการเงิน<br>มีการแจ้งเตือนเมื่อคูลดาวน์ผ่านไปครึ่งทางและเมื่อจบ ส่วนวิดเจ็ตบนหน้าจอโฮมและหน้าจอล็อกก็แสดงเวลาที่เหลือให้เห็นทันที</p>
+      </div>
+      <div class="phone"><img src="../img/th/04-templates.jpg" alt="คูลดาวน์ยอดนิยม แตะเดียวก็ได้" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>เริ่มได้ใน 3 ขั้นตอน</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>เพิ่มรายการ</h3><p>ตั้งชื่อ เลือกอีโมจิ และกำหนดเวลารอเป็นชั่วโมง วัน สัปดาห์ หรือเดือน หรือจะเลือกจากเทมเพลตก็ได้</p></li>
+<li class="card"><span class="n">2</span><h3>ใช้เมื่อไร แตะ “ใช้”</h3><p>คูลดาวน์เริ่มนับทันที และวงกลมจะว่างลง</p></li>
+<li class="card"><span class="n">3</span><h3>แจ้งเตือนมาเมื่อไร ใช้ได้อีก</h3><p>เมื่อคูลดาวน์จบจะมีการแจ้งเตือน แค่อนุญาตการแจ้งเตือนครั้งแรกครั้งเดียวก็พอ</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>คูลดาวน์ในเทมเพลตแนะนำ</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 ท่องเที่ยว</dt><dd>เที่ยวต่างประเทศ · เที่ยวในประเทศ · พักโรงแรม</dd></div><div><dt>🛍️ ช้อปปิ้ง</dt><dd>ซื้อเสื้อผ้า · ซื้อตามอารมณ์ · อุปกรณ์อิเล็กทรอนิกส์</dd></div><div><dt>🍔 อาหาร</dt><dd>ฟาสต์ฟู้ด · เดลิเวอรี่อาหาร · คาเฟ่ · ของหวาน · ทานข้าวนอกบ้าน · มื้อดึก</dd></div><div><dt>🎮 บันเทิง</dt><dd>เติมเงินในเกม · โรงภาพยนตร์ · ดูซีรีส์รวดเดียว · คอนเสิร์ต/การแสดง</dd></div><div><dt>💅 ไลฟ์สไตล์</dt><dd>ดื่มแอลกอฮอล์ · แท็กซี่ · ทำเล็บ · ร้านทำผม · นวด/สปา</dd></div><div><dt>🏃 สุขภาพ</dt><dd>วันพักผ่อน (เว้นการออกกำลังกาย) · วันโกงอาหาร</dd></div><div><dt>💰 การเงิน</dt><dd>ซื้อขายหุ้น · ล็อตเตอรี่</dd></div></dl>
+      </div>
+      <p class="muted">แต่ละเทมเพลตมีระยะเวลารอและค่าใช้จ่ายโดยประมาณที่เหมาะสมใส่ไว้ให้แล้ว ถ้าไม่มีสิ่งที่ต้องการ ก็สร้างเองได้</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>คำถามที่พบบ่อย</h2>
+      <div class="faq"><details><summary>เผลอใช้ระหว่างคูลดาวน์ไปแล้ว</summary><p>ไม่เป็นไร ประวัติจะบันทึกว่าใช้ระหว่างคูลดาวน์ และคูลดาวน์จะเริ่มนับใหม่ตั้งแต่ตอนนั้น ครั้งนี้จะนับรวมในอัตราการรักษาวินัยและจำนวนครั้งที่ฝ่าฝืนในหน้าสถิติด้วย</p></details>
+<details><summary>เงินที่ประหยัดได้คำนวณอย่างไร</summary><p>ถ้าใส่ค่าใช้จ่ายโดยประมาณให้รายการไว้ แอปจะประมาณว่าเดือนนี้คูลดาวน์ช่วยให้คุณใช้น้อยลงกี่ครั้ง แล้วแสดงเป็นจำนวนเงิน ตัวเลขนี้เป็นค่าประมาณ ไม่ใช่ยอดที่แน่นอน และรายการที่ไม่ได้ใส่ค่าใช้จ่ายจะไม่ถูกนำมาคิด</p></details>
+<details><summary>ไม่ได้รับการแจ้งเตือน</summary><p>ตรวจสอบที่ การตั้งค่า &gt; การแจ้งเตือน &gt; CoolTime บน iPhone ถ้าหน้าแรกของแอปแสดงว่าการแจ้งเตือนปิดอยู่ แตะปุ่มการตั้งค่าตรงนั้นเพื่อไปที่หน้านั้นได้ทันที</p></details>
+<details><summary>เพิ่มวิดเจ็ตอย่างไร</summary><p>แตะค้างที่หน้าจอโฮม แตะ + ที่มุมซ้ายบน ค้นหา CoolTime แล้วเพิ่ม มีวิดเจ็ตสำหรับหน้าจอล็อกด้วย โดยจะแสดงสิ่งที่ใช้ได้ตอนนี้และเวลาที่เหลือ</p></details>
+<details><summary>อยากลบประวัติ</summary><p>เมื่อลบรายการ ประวัติของรายการนั้นจะถูกลบไปด้วย ถ้าลบแอป ประวัติทั้งหมดจะหายไป ประวัติเก็บไว้ในเครื่องเท่านั้น จึงกู้คืนไม่ได้หลังลบ</p></details>
+<details><summary>ซิงค์กับอุปกรณ์อื่นได้ไหม</summary><p>ยังไม่ได้ ประวัติอยู่ใน iPhone เครื่องที่คุณใช้อยู่เครื่องเดียว การซิงค์ข้ามอุปกรณ์และการสำรองข้อมูลอยู่ในรายการที่ การตั้งค่า &gt; ฟีเจอร์ที่กำลังจะมา</p></details>
+<details><summary>ฟรีจริงไหม</summary><p>ฟรีจริง ไม่มีฟีเจอร์ไหนที่ต้องจ่ายเงินเพื่อปลดล็อก ถ้าชอบแอปก็ส่งทิปให้นักพัฒนาได้จากหน้าการตั้งค่า แต่ถ้าไม่ส่งก็ไม่มีอะไรเปลี่ยน</p></details>
+<details><summary>ข้อมูลของฉันถูกส่งไปที่ไหนหรือเปล่า</summary><p>ไม่ ไม่มีบัญชี ไม่มีโฆษณา คูลดาวน์และประวัติการใช้งานเก็บไว้ใน iPhone ของคุณเท่านั้น สิ่งที่นักพัฒนาได้รับมีเพียงสถิติการใช้งานแบบไม่ระบุตัวตน รายงานข้อผิดพลาด และความคิดเห็นที่คุณส่งเอง อ่านรายละเอียดได้ในนโยบายความเป็นส่วนตัวด้านล่าง</p></details>
+<details><summary>เจอบั๊กหรืออยากได้ฟีเจอร์ใหม่</summary><p>บอกเราได้ที่ การตั้งค่า &gt; ช่วยเหลือ &gt; ส่งความคิดเห็น ในแอป ส่งข้อความทาง Instagram ที่ @lee25_ios หรือส่งอีเมลตามที่อยู่ด้านล่าง ถ้าหน้าจอค้าง ช่วยบอกด้วยว่าตอนนั้นทำอะไรอยู่และใช้ iOS เวอร์ชันไหน จะช่วยให้เราหาสาเหตุได้เร็วขึ้นมาก</p></details></div>
+      <p class="contact">มีคำถามหรือข้อเสนอแนะ เขียนถึงเราได้ที่ <a href="mailto:leeo@kakao.com">leeo@kakao.com</a></p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>ตั้งคูลดาวน์ไว้<br>ก่อนใจจะอยากอีกรอบ</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">โหลดฟรีบน App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="ภาษา"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th" aria-current="page">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">นโยบายความเป็นส่วนตัว</a> · <a href="support.html">ช่วยเหลือและติดต่อ</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

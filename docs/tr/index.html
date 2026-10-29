@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Harcamalara ve alışkanlıklara, oyundaki bir yeteneğin bekleme süresi gibi bir bekleme süresi ekleyen iPhone uygulaması.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: Anlık harcamalara bekleme süresi</title>
+  <meta name="description" content="Üç günde bir yemek siparişi, iki haftada bir kıyafet. Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. Tüm özellikler ücretsiz.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: Anlık harcamalara bekleme süresi">
+  <meta property="og:description" content="Üç günde bir yemek siparişi, iki haftada bir kıyafet. Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. Tüm özellikler ücretsiz.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/tr/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/tr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Bekleme süresi bitene kadar bekle</div>
-    </div>
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header class="bar">
+    <a class="brand" href="../tr/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Dil</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">Hakkında</a>
-    <a href="support.html">Destek ve iletişim</a>
-    <a href="privacy.html">Gizlilik Politikası</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" hreflang="pl" lang="pl">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" aria-current="true">Türkçe</a></nav>
 
-  <h1>Dürtülerin için de bir bekleme süresi</h1>
-  <p class="lede">Oyundaki bir yeteneğin bekleme süresi gibi, harcamalarına ve alışkanlıklarına bir bekleme süresi koyarsın. Üç günde bir yemek siparişi, iki haftada bir kıyafet alışverişi. Kullandıktan sonra, tekrar kullanabileceğin ana kadar bir halka yavaşça dolar.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Canın alışveriş mi çekti?<br>Önce bekleme süresi</h1>
+        <p class="lead">Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. Kullandığında halka boşalır, sonra yeniden izin verilene kadar yavaşça dolar.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">App Store'dan ücretsiz al</a><a class="try" href="#try">Burada dene ↓</a></div>
+        <p class="muted small">Tüm özellikler ücretsiz. Hesap yok, reklam yok.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/01-home.jpg" alt="Canın alışveriş mi çekti? Önce bekleme süresi" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Nasıl kullanılır</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Bekleme süresi oluştur</h3>
-      <p>Bir ad, bir emoji ve ne kadar bekleyeceğini (saat, gün, hafta veya ay) seç. Yemek, alışveriş, eğlence, sağlık ve finans gibi yaygın öğeleri önerilen şablonlardan tek dokunuşla ekleyebilirsin.</p>
-    </div>
-    <div class="card">
-      <h3>Kullan</h3>
-      <p>Bir şeyi kullandığında <strong>Kullan</strong>'a dokun, bekleme süresi baştan başlar. Nedenini ve gerçek maliyeti not edebilirsin. Bekleme süresi içinde kullanırsan bu da kaydedilir.</p>
-    </div>
-    <div class="card">
-      <h3>Bitince bildirim</h3>
-      <p>Bir bekleme süresi bittiğinde bildirim alırsın. Ana ekrandaki widget, şu an neyi kullanabileceğini ve ne kadar süre kaldığını hemen gösterir.</p>
-    </div>
-    <div class="card">
-      <h3>İstatistikler</h3>
-      <p>Bekleme sürelerine ne kadar uyduğunu (uyum oranı), kategoriye göre kayıtları, bir bekleme süresini kaç kez bozduğunu ve tahmini maliyet girilen öğeler için bu ayki tasarrufu gösterir.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Burada dene</h2>
+      <p class="muted">Bir öğe seç, Kullan'a dokun, sonra zamanı gün gün ilerlet. Bekleme süresi dolmadan kullanırsan ne olduğunu da görebilirsin.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Burada dene&quot;, &quot;lead&quot;: &quot;Bir öğe seç, Kullan&#x27;a dokun, sonra zamanı gün gün ilerlet. Bekleme süresi dolmadan kullanırsan ne olduğunu da görebilirsin.&quot;, &quot;nextDay&quot;: &quot;Ertesi gün&quot;, &quot;note&quot;: &quot;Burada günleri bir düğmeyle atlıyorsun. Uygulamada ise gerçek zaman akar ve süre bitince bildirim alırsın.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Yemek siparişi&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Üç günde bir sipariş&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Kafe&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Kahve iki günde bir&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Kıyafet alışverişi&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Kıyafet iki haftada bir&quot;}], &quot;use&quot;: &quot;Kullan&quot;, &quot;breakShort&quot;: &quot;Boz&quot;, &quot;breakIt&quot;: &quot;Bekleme süresini boz&quot;, &quot;warnTitle&quot;: &quot;Bekleme süresinde!&quot;, &quot;warnText&quot;: &quot;Şimdi kullanırsan uyum oranın düşer&quot;, &quot;ready&quot;: &quot;Kullanılabilir&quot;, &quot;left&quot;: &quot;Kalan süre: %@&quot;, &quot;dh&quot;: &quot;%lld gün %lld sa&quot;, &quot;half&quot;: &quot;%@ Yarı yola geldin!&quot;, &quot;end&quot;: &quot;%@ Bekleme süresi bitti!&quot;, &quot;compliance&quot;: &quot;Uyum&quot;, &quot;total&quot;: &quot;Toplam kullanım&quot;, &quot;breaks&quot;: &quot;Bozma sayısı&quot;}"></div>
+    </section>
 
-  <h2>Kayıtların cihazında kalır</h2>
-  <div class="card">
-    <p>Hesap yok, reklam yok. Bekleme sürelerin ve kullanım geçmişin yalnızca iPhone'unda saklanır ve geliştiriciye asla gönderilmez. Geliştiriciye ulaşanlar yalnızca anonim kullanım istatistikleri, hata raporları ve senin kendi gönderdiğin geri bildirimlerdir. Ayrıntılar <a href="privacy.html">Gizlilik Politikası</a>'nda.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Bir haftada dört kez “sadece bu seferlik” dediğin oldu mu?</h2>
+      <p>Yemek uygulamasını her açtığında sanki uzun zamandır sipariş vermemişsin gibi gelir, ama son seferin ne zaman olduğunu tam hatırlamazsın. CoolTime en son ne zaman kullandığını ve ne zaman yeniden kullanabileceğini gösterir. Böylece kararı o anki hevesin değil, önceden koyduğun kural verir.</p>
+    </section>
 
-  <p class="meta">iPhone · Türkçe</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Bozmadan önce bir an dur</h2>
+        <p>Bekleme süresi dolmadan bir şeyi kullanmaya kalkarsan uygulama kalan süreyi gösterir ve uyum oranının düşeceğini hatırlatır.<br>Yine de gerekiyorsa nedenini ve gerçek maliyetini not edebilirsin. Bozduğun an da geçmişinde kalır.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/02-break.jpg" alt="Bozmadan önce bir an dur" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Destek ve iletişim</a> · <a href="privacy.html">Gizlilik Politikası</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Sabrın rakamlarla</h2>
+        <p>Uyum oranın, öğeye ve kategoriye göre geçmişin ve bozma sayın tek ekranda.<br>Bir öğeye tahmini maliyet girersen bu ay ne kadar biriktirdiğini de tahmin eder.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/03-stats.jpg" alt="Sabrın rakamlarla" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Sık kullanılan süreler tek dokunuşla</h2>
+        <p>Seyahatten alışverişe, yemekten sağlığa ve finansa kadar önerilen şablonlardan seçip hemen ekle.<br>Bekleme süresi yarılandığında ve bittiğinde bildirim alırsın; Ana Ekran ve Kilitli Ekran widget'ları da kalan süreyi gösterir.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/04-templates.jpg" alt="Sık kullanılan süreler tek dokunuşla" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Üç adımda başla</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Bir öğe ekle</h3><p>Bir ad, bir emoji ve saat, gün, hafta ya da ay olarak ne kadar bekleyeceğini seç. İstersen hazır bir şablon al.</p></li>
+<li class="card"><span class="n">2</span><h3>Kullanınca Kullan'a dokun</h3><p>Bekleme süresi o an başlar ve halka boşalır.</p></li>
+<li class="card"><span class="n">3</span><h3>Bildirim gelince yeniden kullan</h3><p>Süre bitince bildirim alırsın. Bildirimlere bir kez izin vermen yeterli.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Önerilen şablonlardaki bekleme süreleri</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Seyahat</dt><dd>Yurt dışı seyahati · Yurt içi seyahat · Otel tatili</dd></div><div><dt>🛍️ Alışveriş</dt><dd>Kıyafet alışverişi · Anlık alışveriş · Elektronik</dd></div><div><dt>🍔 Yemek</dt><dd>Fast food · Yemek siparişi · Kafe · Tatlı · Dışarıda yemek · Gece atıştırması</dd></div><div><dt>🎮 Eğlence</dt><dd>Oyun içi satın alma · Sinema · Dizi maratonu · Konser / gösteri</dd></div><div><dt>💅 Yaşam tarzı</dt><dd>Alkol · Taksi · Tırnak bakımı · Kuaför · Masaj / spa</dd></div><div><dt>🏃 Sağlık</dt><dd>Dinlenme günü (antrenmanı atla) · Kaçamak günü</dd></div><div><dt>💰 Finans</dt><dd>Hisse alım satımı · Piyango</dd></div></dl>
+      </div>
+      <p class="muted">Her şablon uygun bir bekleme süresi ve tahmini maliyetle gelir. Aradığını bulamadın mı? Kendin oluştur.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Sık sorulan sorular</h2>
+      <div class="faq"><details><summary>Bekleme süresindeyken kullandım.</summary><p>Sorun değil. Geçmişinde bekleme süresi içinde kullanıldığı işaretlenir ve bekleme süresi o andan itibaren yeniden başlar. Bu, İstatistikler'deki uyum oranına ve bozma sayısına yansır.</p></details>
+<details><summary>Tasarruf nasıl hesaplanıyor?</summary><p>Bir öğeye tahmini maliyet girersen uygulama, bu ay bekleme süresi sayesinde kaç kez vazgeçtiğini tahmin eder ve karşılığındaki tutarı gösterir. Bu kesin bir rakam değil, bir tahmindir; tahmini maliyeti olmayan öğeler hesaba katılmaz.</p></details>
+<details><summary>Bildirim gelmiyor.</summary><p>iPhone'unda Ayarlar &gt; Bildirimler &gt; CoolTime bölümünü kontrol et. Uygulamanın ilk ekranında bildirimlerin kapalı olduğu yazıyorsa oradaki Ayarlar düğmesi seni doğrudan oraya götürür.</p></details>
+<details><summary>Widget'ı nasıl eklerim?</summary><p>Ana ekrana dokunup basılı tut, sol üstteki +'ya dokun, CoolTime'ı bul ve ekle. Kilitli Ekran widget'ları da var. Şu an neyi kullanabileceğini ve kalan süreyi gösterirler.</p></details>
+<details><summary>Kayıtlarımı nasıl silerim?</summary><p>Bir öğeyi silersen kayıtları da silinir. Uygulamayı silersen tüm kayıtlar gider. Kayıtlar yalnızca cihazında durduğu için silinenler geri getirilemez.</p></details>
+<details><summary>Diğer cihazlarımla eşitleniyor mu?</summary><p>Henüz değil. Kayıtların yalnızca bu iPhone'da duruyor. Cihazlar arası eşitleme ve yedekleme, Ayarlar &gt; Gelecek Özellikler listesinde yer alıyor.</p></details>
+<details><summary>Gerçekten ücretsiz mi?</summary><p>Evet. Ödeme yapmadan açılmayan hiçbir özellik yok. Uygulamayı seversen Ayarlar'dan geliştiriciye bahşiş gönderebilirsin, ama göndermesen de hiçbir şey değişmez.</p></details>
+<details><summary>Kayıtlarım bir yere gönderiliyor mu?</summary><p>Hayır. Hesap yok, reklam yok; bekleme sürelerin ve geçmişin yalnızca iPhone'unda saklanır. Geliştiriciye yalnızca anonim kullanım istatistikleri, hata raporları ve kendi gönderdiğin geri bildirimler ulaşır. Ayrıntılar aşağıdaki Gizlilik Politikası'nda.</p></details>
+<details><summary>Hata buldum ya da bir özellik istiyorum.</summary><p>Uygulamada Ayarlar &gt; Destek &gt; Geri Bildirim Gönder'den, Instagram'da @lee25_ios hesabına mesaj atarak ya da aşağıdaki e-posta adresinden yazabilirsin. Bir ekran takıldıysa ne yaptığını ve iOS sürümünü de eklersen sorunu çok daha hızlı buluruz.</p></details></div>
+      <p class="contact">Soru veya önerin mi var? <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> adresine yaz.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Bir sonraki istekten önce<br>bekleme süresini koy</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">App Store'dan ücretsiz al</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Dil"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav>
+    <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="support.html">Destek ve iletişim</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

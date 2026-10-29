@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: odotusaika heräteostoksille",
+  "description": "Noutoruoka kolmen päivän välein, uudet vaatteet kahden viikon välein. Anna kulutukselle odotusaika kuin pelin taidolle. Kaikki on ilmaista.",
+  "hero": {
+    "headline": "Tekee mieli tuhlata?\nEnsin odotusaika.",
+    "lead": "Anna kulutukselle odotusaika, ihan kuin pelin taidolle. Kun käytät jotain, ympyrä tyhjenee ja täyttyy hitaasti, kunnes saat taas.",
+    "cta": "Ilmaiseksi App Storesta",
+    "note": "Kaikki ominaisuudet ovat ilmaisia. Ei tiliä, ei mainoksia."
+  },
+  "demo": {
+    "title": "Kokeile tässä",
+    "lead": "Valitse kohde, napauta Käytä ja siirrä aikaa eteenpäin päivä kerrallaan. Näet myös, mitä tapahtuu, jos käytät sen odotusajan aikana.",
+    "nextDay": "Seuraava päivä",
+    "note": "Tässä päivä vaihtuu napista. Sovelluksessa kuluu oikea aika, ja saat ilmoituksen, kun odotus on ohi.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Ruoan kotiinkuljetus",
+        "days": 3,
+        "every": "Ruokatoimitus kolmen päivän välein"
+      },
+      {
+        "emoji": "☕",
+        "name": "Kahvila",
+        "days": 2,
+        "every": "Kahvi joka toinen päivä"
+      },
+      {
+        "emoji": "👕",
+        "name": "Vaatteiden osto",
+        "days": 14,
+        "every": "Vaatteita kahden viikon välein"
+      }
+    ],
+    "use": "Käytä",
+    "breakShort": "Riko",
+    "breakIt": "Riko odotusaika",
+    "warnTitle": "Odotusaika käynnissä!",
+    "warnText": "Jos käytät sen nyt, noudattamisprosenttisi laskee",
+    "ready": "Käytettävissä",
+    "left": "Aikaa jäljellä: %@",
+    "dh": "%lld pv %lld t",
+    "half": "%@ Puoliväli saavutettu!",
+    "end": "%@ Odotusaika päättyi!",
+    "compliance": "Noudattaminen",
+    "total": "Käyttökertoja yhteensä",
+    "breaks": "Rikkomiskertoja"
+  },
+  "problem": {
+    "title": "Onko ”vain tämän kerran” toistunut neljästi samalla viikolla?",
+    "text": "Joka kerta kun avaat ruokalähettisovelluksen, tuntuu kuin edellisestä kerrasta olisi pitkä aika. Mutta milloin se oikeastaan oli? CoolTime näyttää, milloin viimeksi käytit jotain ja milloin saat taas. Silloin päätöksen tekee etukäteen asettamasi sääntö eikä hetken mielihalu."
+  },
+  "features": [
+    {
+      "title": "Vielä yksi tauko ennen rikkomista",
+      "text": "Jos yrität käyttää jotain odotusajan aikana, sovellus näyttää jäljellä olevan ajan ja varoittaa, että noudattamisprosenttisi laskee.\nTarvitsetko sitä silti? Kirjaa syy ja todellinen hinta. Rikkominen jää historiaan.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Itsekuri numeroina",
+      "text": "Noudattamisprosentti, historia kohteittain ja luokittain sekä rikkomiskerrat samassa näkymässä.\nKun annat kohteelle arvioidun hinnan, sovellus arvioi myös, paljonko säästit tässä kuussa.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Yleiset odotusajat yhdellä napautuksella",
+      "text": "Valitse suositelluista malleista matkoista, ostoksista ja ruoasta aina terveyteen ja talouteen.\nSaat ilmoituksen, kun odotusajasta on kulunut puolet ja kun se päättyy, ja kotinäytön ja lukitusnäytön widgetit näyttävät jäljellä olevan ajan.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Kolme askelta alkuun",
+    "items": [
+      {
+        "title": "Lisää kohde",
+        "text": "Valitse nimi, emoji ja odotusaika tunteina, päivinä, viikkoina tai kuukausina. Tai ota valmis malli."
+      },
+      {
+        "title": "Napauta Käytä, kun käytät",
+        "text": "Odotusaika alkaa heti, ja ympyrä tyhjenee."
+      },
+      {
+        "title": "Kun ilmoitus tulee, saat taas",
+        "text": "Saat ilmoituksen, kun odotusaika on ohi. Ilmoitukset tarvitsee sallia vain kerran."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Suositeltujen mallien odotusajat",
+    "rows": [
+      [
+        "🌏 Matkailu",
+        "Ulkomaanmatka · Kotimaanmatka · Hotellilomailu"
+      ],
+      [
+        "🛍️ Shoppailu",
+        "Vaatteiden osto · Heräteostos · Elektroniikka"
+      ],
+      [
+        "🍔 Ruoka",
+        "Pikaruoka · Ruoan kotiinkuljetus · Kahvila · Jälkiruoka · Ravintolassa syöminen · Yöpala"
+      ],
+      [
+        "🎮 Viihde",
+        "Pelien sisäiset ostot · Elokuvateatteri · Sarjamaraton · Konsertti / esitys"
+      ],
+      [
+        "💅 Elämäntapa",
+        "Alkoholi · Taksi · Kynsien laitto · Kampaamo · Hieronta / kylpylä"
+      ],
+      [
+        "🏃 Terveys",
+        "Lepopäivä (treeni väliin) · Cheat day"
+      ],
+      [
+        "💰 Raha-asiat",
+        "Osakekauppa · Lotto"
+      ]
+    ],
+    "note": "Jokaisessa mallissa on valmiina järkevä odotusaika ja arvioitu hinta. Eikö omaasi löydy? Tee oma."
+  },
+  "faq": {
+    "title": "Kysymyksiä",
+    "items": [
+      {
+        "q": "Käytin sen odotusajan aikana.",
+        "a": "Ei hätää. Historiaan merkitään, että käytit sen odotusajan aikana, ja odotusaika alkaa siitä hetkestä alusta. Se näkyy Tilastoissa noudattamisprosentissa ja rikkomiskerroissa."
+      },
+      {
+        "q": "Miten säästö lasketaan?",
+        "a": "Kun annat kohteelle arvioidun hinnan, sovellus arvioi, montako kertaa odotusaika sai sinut jättämään väliin tässä kuussa, ja näyttää summan. Se on arvio eikä tarkka luku, eikä kohteita ilman arvioitua hintaa lasketa mukaan."
+      },
+      {
+        "q": "En saa ilmoituksia.",
+        "a": "Tarkista iPhonesta Asetukset > Ilmoitukset > CoolTime. Jos sovelluksen ensimmäinen näkymä kertoo, että ilmoitukset ovat pois päältä, siinä oleva Asetukset-painike vie suoraan oikeaan paikkaan."
+      },
+      {
+        "q": "Miten lisään widgetin?",
+        "a": "Paina kotinäyttöä pitkään, napauta vasemmasta yläkulmasta +, etsi CoolTime ja lisää se. Myös lukitusnäytölle on widgetit. Ne näyttävät, mitä voit käyttää nyt ja paljonko aikaa on jäljellä."
+      },
+      {
+        "q": "Miten poistan kirjaukseni?",
+        "a": "Kun poistat kohteen, myös sen kirjaukset poistuvat. Sovelluksen poistaminen poistaa kaiken. Kirjaukset ovat vain laitteellasi, joten poistettuja ei voi palauttaa."
+      },
+      {
+        "q": "Synkronoituuko se muihin laitteisiini?",
+        "a": "Ei vielä. Kirjauksesi ovat vain tässä yhdessä iPhonessa. Laitteiden välinen synkronointi ja varmuuskopiot ovat listalla kohdassa Asetukset > Tulevat ominaisuudet."
+      },
+      {
+        "q": "Onko se oikeasti ilmainen?",
+        "a": "On. Mitään ei ole lukittu maksun taakse. Jos pidät sovelluksesta, voit tukea kehittäjää pienellä summalla Asetuksista, mutta mikään ei muutu, vaikka et tukisi."
+      },
+      {
+        "q": "Lähteekö kirjauksiani minnekään?",
+        "a": "Ei. Tiliä ja mainoksia ei ole, ja odotusaikasi ja historiasi tallentuvat vain iPhoneesi. Kehittäjä saa ainoastaan anonyymit käyttötilastot, virheraportit ja palautteen, jonka itse lähetät. Lisätietoja on alla tietosuojakäytännössä."
+      },
+      {
+        "q": "Löysin bugin tai kaipaan uutta ominaisuutta.",
+        "a": "Kerro siitä sovelluksessa kohdassa Asetukset > Tuki > Lähetä palautetta, Instagram-viestillä @lee25_ios tai sähköpostilla alla olevaan osoitteeseen. Jos jokin näkymä jumittui, kerro mitä olit tekemässä ja iOS-versiosi, niin löydämme vian paljon nopeammin."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Aseta odotusaika\nennen seuraavaa mielihalua",
+    "cta": "Ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Kysyttävää tai palautetta? Kirjoita osoitteeseen {email}.",
+    "links": [
+      [
+        "Tuki ja yhteydenotto",
+        "support.html"
+      ]
+    ]
+  }
+}

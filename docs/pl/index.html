@@ -1,88 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>CoolTime</title>
-<meta name="description" content="Aplikacja na iPhone’a, która dodaje czas oczekiwania wydatkom i nawykom, jak czas odnowienia umiejętności w grze.">
-<link rel="canonical" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
-<link rel="stylesheet" href="../style.css">
-<link rel="icon" href="../icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolTime: czas oczekiwania na impulsywne wydatki</title>
+  <meta name="description" content="Jedzenie z dostawą raz na 3 dni, ubrania raz na 2 tygodnie. Ustaw wydatkom czas oczekiwania jak umiejętności w grze. Wszystko za darmo.">
+  <meta name="theme-color" content="#3366E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6755988507">
+  <link rel="canonical" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/CoolTime/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/CoolTime/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/CoolTime/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/CoolTime/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/CoolTime/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/CoolTime/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/CoolTime/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/CoolTime/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/CoolTime/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/CoolTime/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/CoolTime/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/CoolTime/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/CoolTime/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/CoolTime/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/CoolTime/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/CoolTime/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/CoolTime/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/CoolTime/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/CoolTime/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/CoolTime/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/CoolTime/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/CoolTime/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/CoolTime/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/CoolTime/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CoolTime: czas oczekiwania na impulsywne wydatki">
+  <meta property="og:description" content="Jedzenie z dostawą raz na 3 dni, ubrania raz na 2 tygodnie. Ustaw wydatkom czas oczekiwania jak umiejętności w grze. Wszystko za darmo.">
+  <meta property="og:url" content="https://m1zz.github.io/CoolTime/pl/">
+  <meta property="og:image" content="https://m1zz.github.io/CoolTime/img/pl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../sitegen.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#3366E6}@media (prefers-color-scheme:dark){:root{--accent:#598CFF}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <img src="../icon.png" alt="">
-    <div>
-      <div class="name">CoolTime</div>
-      <div class="sub">Poczekaj, aż skończy się czas oczekiwania</div>
-    </div>
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="bar">
+    <a class="brand" href="../pl/"><img src="../icon.png" alt="" width="32" height="32">CoolTime</a>
+    <a class="lang-link" href="#languages">Język</a>
   </header>
-  <nav class="top">
-    <a href="./" aria-current="page">O aplikacji</a>
-    <a href="support.html">Pomoc i kontakt</a>
-    <a href="privacy.html">Polityka prywatności</a>
-  </nav>
-  <nav class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../ru/" hreflang="ru" lang="ru">Русский</a> <a href="../es/" hreflang="es" lang="es">Español</a> <a href="../de/" hreflang="de" lang="de">Deutsch</a> <a href="../fr/" hreflang="fr" lang="fr">Français</a> <a href="../it/" hreflang="it" lang="it">Italiano</a> <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="../th/" hreflang="th" lang="th">ไทย</a> <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="../cs/" hreflang="cs" lang="cs">Čeština</a> <a href="../da/" hreflang="da" lang="da">Dansk</a> <a href="../el/" hreflang="el" lang="el">Ελληνικά</a> <a href="../fi/" hreflang="fi" lang="fi">Suomi</a> <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a> <a href="../pl/" aria-current="true">Polski</a> <a href="../sv/" hreflang="sv" lang="sv">Svenska</a> <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
 
-  <h1>Czas oczekiwania także dla Twoich impulsów</h1>
-  <p class="lede">Jak czas odnowienia umiejętności w grze, ustawiasz czas oczekiwania dla wydatków i nawyków. Dostawa jedzenia raz na 3 dni, zakupy ubrań raz na 2 tygodnie. Po użyciu pierścień powoli się napełnia, aż będziesz mógł(-ła) zrobić to znowu.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Kusi, żeby kupić?<br>Najpierw odczekaj.</h1>
+        <p class="lead">Daj swoim wydatkom czas oczekiwania, jak umiejętności w grze. Po użyciu kółko się opróżnia i powoli napełnia, aż znów będzie wolno.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6755988507">Za darmo w App Store</a><a class="try" href="#try">Wypróbuj tutaj ↓</a></div>
+        <p class="muted small">Wszystkie funkcje za darmo. Bez konta i bez reklam.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/01-home.jpg" alt="Kusi, żeby kupić? Najpierw odczekaj." width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <div class="ring" aria-hidden="true"><span>🍔</span></div>
 
-  <h2>Jak to działa</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Utwórz czas oczekiwania</h3>
-      <p>Wybierz nazwę, emoji i czas oczekiwania (godziny, dni, tygodnie lub miesiące). Popularne pozycje z jedzenia, zakupów, rozrywki, zdrowia i finansów dodasz jednym stuknięciem z polecanych szablonów.</p>
-    </div>
-    <div class="card">
-      <h3>Użyj</h3>
-      <p>Gdy czegoś używasz, stuknij <strong>Użyj</strong>, a czas oczekiwania zacznie się od nowa. Możesz dodać notatkę z powodem i rzeczywisty koszt. Jeśli użyjesz tego w czasie oczekiwania, także to zostanie zapisane.</p>
-    </div>
-    <div class="card">
-      <h3>Powiadomienie na koniec</h3>
-      <p>Gdy czas oczekiwania się skończy, dostaniesz powiadomienie. Widżet na ekranie początkowym od razu pokazuje, co możesz teraz użyć i ile czasu zostało.</p>
-    </div>
-    <div class="card">
-      <h3>Statystyki</h3>
-      <p>Pokazują, jak dobrze przestrzegasz czasów oczekiwania (wskaźnik przestrzegania), zapisy według kategorii, ile razy złamano czas oczekiwania oraz oszczędności z tego miesiąca dla pozycji z szacowanym kosztem.</p>
-    </div>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Wypróbuj tutaj</h2>
+      <p class="muted">Wybierz pozycję, stuknij Użyj i przesuwaj czas o jeden dzień do przodu. Zobaczysz też, co się stanie, gdy użyjesz jej w czasie oczekiwania.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Wypróbuj tutaj&quot;, &quot;lead&quot;: &quot;Wybierz pozycję, stuknij Użyj i przesuwaj czas o jeden dzień do przodu. Zobaczysz też, co się stanie, gdy użyjesz jej w czasie oczekiwania.&quot;, &quot;nextDay&quot;: &quot;Następny dzień&quot;, &quot;note&quot;: &quot;Tutaj przeskakujesz dzień przyciskiem. W aplikacji płynie prawdziwy czas, a gdy oczekiwanie się skończy, dostaniesz powiadomienie.&quot;, &quot;items&quot;: [{&quot;emoji&quot;: &quot;🍕&quot;, &quot;name&quot;: &quot;Dostawa jedzenia&quot;, &quot;days&quot;: 3, &quot;every&quot;: &quot;Dostawa jedzenia raz na 3 dni&quot;}, {&quot;emoji&quot;: &quot;☕&quot;, &quot;name&quot;: &quot;Kawiarnia&quot;, &quot;days&quot;: 2, &quot;every&quot;: &quot;Kawa co drugi dzień&quot;}, {&quot;emoji&quot;: &quot;👕&quot;, &quot;name&quot;: &quot;Zakupy odzieżowe&quot;, &quot;days&quot;: 14, &quot;every&quot;: &quot;Ubrania raz na 2 tygodnie&quot;}], &quot;use&quot;: &quot;Użyj&quot;, &quot;breakShort&quot;: &quot;Złam&quot;, &quot;breakIt&quot;: &quot;Złam czas oczekiwania&quot;, &quot;warnTitle&quot;: &quot;Trwa czas oczekiwania!&quot;, &quot;warnText&quot;: &quot;Jeśli użyjesz tego teraz, spadnie Twój wskaźnik przestrzegania&quot;, &quot;ready&quot;: &quot;Dostępne&quot;, &quot;left&quot;: &quot;Pozostały czas: %@&quot;, &quot;dh&quot;: &quot;%lld d %lld godz.&quot;, &quot;half&quot;: &quot;%@ Połowa za Tobą!&quot;, &quot;end&quot;: &quot;%@ Czas oczekiwania minął!&quot;, &quot;compliance&quot;: &quot;Przestrzeganie&quot;, &quot;total&quot;: &quot;Wszystkich użyć&quot;, &quot;breaks&quot;: &quot;Liczba złamań&quot;}"></div>
+    </section>
 
-  <h2>Twoje zapisy zostają na Twoim urządzeniu</h2>
-  <div class="card">
-    <p>Bez kont, bez reklam. Czasy oczekiwania i historia użycia są przechowywane tylko na Twoim iPhonie i nigdy nie są wysyłane twórcy. Do twórcy trafiają jedynie anonimowe statystyki użycia, raporty o błędach i opinie, które sam(a) wyślesz. Szczegóły znajdziesz w <a href="privacy.html">Polityce prywatności</a>.</p>
-  </div>
+    <section class="problem reveal">
+      <h2>Czy „tylko ten jeden raz” zdarzył Ci się cztery razy w tygodniu?</h2>
+      <p>Za każdym razem, gdy otwierasz aplikację z jedzeniem, masz wrażenie, że to pierwszy raz od dawna. Tylko kiedy właściwie był ten ostatni? CoolTime pokazuje, kiedy ostatnio czegoś użyłeś(-aś) i kiedy znów możesz. Dzięki temu decyduje zasada ustalona wcześniej, a nie chwilowy nastrój.</p>
+    </section>
 
-  <p class="meta">iPhone · Polski</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Jeszcze jedna pauza przed złamaniem</h2>
+        <p>Gdy chcesz czegoś użyć w czasie oczekiwania, aplikacja pokaże, ile czasu zostało, i ostrzeże, że spadnie Twój wskaźnik przestrzegania.<br>Nadal potrzebujesz? Zapisz powód i rzeczywisty koszt. Złamanie zostaje w historii.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/02-break.jpg" alt="Jeszcze jedna pauza przed złamaniem" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="support.html">Pomoc i kontakt</a> · <a href="privacy.html">Polityka prywatności</a></footer>
-</div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Samokontrola w liczbach</h2>
+        <p>Wskaźnik przestrzegania, historia według pozycji i kategorii oraz liczba złamań, wszystko na jednym ekranie.<br>Gdy podasz szacowany koszt pozycji, aplikacja oszacuje też, ile zaoszczędziłeś(-aś) w tym miesiącu.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/03-stats.jpg" alt="Samokontrola w liczbach" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Popularne czasy oczekiwania jednym stuknięciem</h2>
+        <p>Wybierz z polecanych szablonów: od podróży, zakupów i jedzenia po zdrowie i finanse.<br>Powiadomienie przyjdzie w połowie czasu oczekiwania i na jego koniec, a widżety na ekranie początkowym i ekranie blokady pokażą, ile zostało.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/04-templates.jpg" alt="Popularne czasy oczekiwania jednym stuknięciem" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Zaczynasz w trzech krokach</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Dodaj pozycję</h3><p>Wybierz nazwę, emoji i czas oczekiwania w godzinach, dniach, tygodniach lub miesiącach. Albo sięgnij po szablon.</p></li>
+<li class="card"><span class="n">2</span><h3>Stuknij Użyj, gdy z czegoś korzystasz</h3><p>Czas oczekiwania rusza od razu, a kółko się opróżnia.</p></li>
+<li class="card"><span class="n">3</span><h3>Przyszło powiadomienie? Możesz znowu</h3><p>Dostaniesz powiadomienie, gdy czas oczekiwania minie. Wystarczy raz zezwolić na powiadomienia.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Czasy oczekiwania w polecanych szablonach</h2>
+      <div class="card table">
+        <dl><div><dt>🌏 Podróże</dt><dd>Podróż zagraniczna · Podróż krajowa · Pobyt w hotelu</dd></div><div><dt>🛍️ Zakupy</dt><dd>Zakupy odzieżowe · Zakup impulsywny · Elektronika</dd></div><div><dt>🍔 Jedzenie</dt><dd>Fast food · Dostawa jedzenia · Kawiarnia · Deser · Jedzenie na mieście · Nocna przekąska</dd></div><div><dt>🎮 Rozrywka</dt><dd>Zakupy w grach · Kino · Maraton seriali · Koncert / występ</dd></div><div><dt>💅 Styl życia</dt><dd>Alkohol · Taksówka · Manicure · Fryzjer · Masaż / spa</dd></div><div><dt>🏃 Zdrowie</dt><dd>Dzień odpoczynku (bez treningu) · Cheat day</dd></div><div><dt>💰 Finanse</dt><dd>Handel akcjami · Loteria</dd></div></dl>
+      </div>
+      <p class="muted">Każdy szablon ma rozsądny czas oczekiwania i szacowany koszt. Brakuje Twojego? Stwórz własny.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Pytania</h2>
+      <div class="faq"><details><summary>Użyłem(-am) tego w czasie oczekiwania.</summary><p>Nic się nie stało. Historia oznaczy to jako użycie w czasie oczekiwania, a czas oczekiwania zacznie się od tej chwili od nowa. Wliczy się to do wskaźnika przestrzegania i liczby złamań w Statystykach.</p></details>
+<details><summary>Jak liczone są oszczędności?</summary><p>Jeśli podasz szacowany koszt pozycji, aplikacja oszacuje, ile razy w tym miesiącu czas oczekiwania Cię powstrzymał, i pokaże tę kwotę. To szacunek, a nie dokładna liczba, a pozycje bez szacowanego kosztu nie są liczone.</p></details>
+<details><summary>Nie dostaję powiadomień.</summary><p>Na iPhonie sprawdź Ustawienia &gt; Powiadomienia &gt; CoolTime. Jeśli pierwszy ekran aplikacji informuje, że powiadomienia są wyłączone, przycisk Ustawienia przeniesie Cię tam od razu.</p></details>
+<details><summary>Jak dodać widżet?</summary><p>Przytrzymaj palec na ekranie początkowym, stuknij + w lewym górnym rogu, znajdź CoolTime i dodaj widżet. Są też widżety na ekran blokady. Pokazują, czego możesz użyć teraz i ile czasu zostało.</p></details>
+<details><summary>Jak usunąć moje zapisy?</summary><p>Usunięcie pozycji usuwa też jej zapisy. Usunięcie aplikacji usuwa wszystko. Zapisy są tylko na Twoim urządzeniu, więc po usunięciu nie da się ich odzyskać.</p></details>
+<details><summary>Czy dane synchronizują się z innymi urządzeniami?</summary><p>Jeszcze nie. Twoje zapisy są tylko na tym jednym iPhonie. Synchronizacja między urządzeniami i kopie zapasowe są na liście w Ustawienia &gt; Nadchodzące funkcje.</p></details>
+<details><summary>Czy to naprawdę za darmo?</summary><p>Tak. Nic nie jest zablokowane za opłatą. Jeśli aplikacja Ci się podoba, możesz wesprzeć twórcę drobną kwotą w Ustawieniach, ale bez tego nic się nie zmienia.</p></details>
+<details><summary>Czy moje zapisy są gdzieś wysyłane?</summary><p>Nie. Nie ma konta ani reklam, a Twoje czasy oczekiwania i historia są przechowywane tylko na iPhonie. Twórca dostaje wyłącznie anonimowe statystyki użycia, raporty błędów i opinie, które sam(a) wyślesz. Szczegóły znajdziesz poniżej w Polityce prywatności.</p></details>
+<details><summary>Znalazłem(-am) błąd albo brakuje mi funkcji.</summary><p>Daj znać w aplikacji przez Ustawienia &gt; Pomoc &gt; Wyślij opinię, w wiadomości na Instagramie do @lee25_ios albo mailowo na adres poniżej. Jeśli jakiś ekran się zawiesił, napisz, co robiłeś(-aś), i podaj wersję iOS. Znajdziemy przyczynę znacznie szybciej.</p></details></div>
+      <p class="contact">Pytania albo uwagi? Napisz na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Ustaw czas oczekiwania,<br>zanim przyjdzie ochota</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6755988507">Za darmo w App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Język"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl" aria-current="page">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Polityka prywatności</a> · <a href="support.html">Pomoc i kontakt</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

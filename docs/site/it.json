@@ -1,0 +1,178 @@
+{
+  "title": "CoolTime: un tempo di ricarica per gli acquisti d’impulso",
+  "description": "Cibo a domicilio ogni 3 giorni, vestiti ogni 2 settimane. Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Tutto gratis.",
+  "hero": {
+    "headline": "Voglia di spendere?\nPrima la ricarica.",
+    "lead": "Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Lo usi e il cerchio si svuota, poi si riempie piano piano finché non puoi rifarlo.",
+    "cta": "Gratis su App Store",
+    "note": "Tutte le funzioni sono gratis. Niente account, niente pubblicità."
+  },
+  "demo": {
+    "title": "Provalo qui",
+    "lead": "Scegli un elemento, tocca Usa e fai avanzare il tempo un giorno alla volta. Puoi anche vedere cosa succede se lo usi durante la ricarica.",
+    "nextDay": "Giorno dopo",
+    "note": "Qui i giorni passano con un pulsante. Nell’app scorre il tempo vero e alla fine ti arriva una notifica.",
+    "items": [
+      {
+        "emoji": "🍕",
+        "name": "Cibo a domicilio",
+        "days": 3,
+        "every": "Consegna a domicilio ogni 3 giorni"
+      },
+      {
+        "emoji": "☕",
+        "name": "Bar",
+        "days": 2,
+        "every": "Caffè a giorni alterni"
+      },
+      {
+        "emoji": "👕",
+        "name": "Shopping di vestiti",
+        "days": 14,
+        "every": "Vestiti ogni 2 settimane"
+      }
+    ],
+    "use": "Usa",
+    "breakShort": "Rompi",
+    "breakIt": "Rompi il tempo di ricarica",
+    "warnTitle": "In ricarica!",
+    "warnText": "Se lo usi ora, il tuo tasso di rispetto calerà",
+    "ready": "Disponibile",
+    "left": "Tempo rimanente: %@",
+    "dh": "%lld g %lld h",
+    "half": "%@ A metà strada!",
+    "end": "%@ Ricarica terminata!",
+    "compliance": "Rispetto",
+    "total": "Usi totali",
+    "breaks": "Volte rotte"
+  },
+  "problem": {
+    "title": "Ti è mai capitato di dire «solo per stavolta» quattro volte in una settimana?",
+    "text": "Ogni volta che apri l’app delle consegne sembra passata un’eternità, ma quando sia stata l’ultima volta, di preciso, non lo ricordi. CoolTime ti mostra quando hai usato qualcosa l’ultima volta e quando puoi rifarlo, così a decidere è la regola che ti sei dato prima, non l’umore del momento."
+  },
+  "features": [
+    {
+      "title": "Un’ultima pausa prima di rompere",
+      "text": "Se provi a usare qualcosa durante la ricarica, l’app ti mostra il tempo rimanente e ti avvisa che il tasso di rispetto calerà.\nTi serve comunque? Annota il motivo e quanto è costato davvero. La rottura resta nella cronologia.",
+      "shot": "02-break"
+    },
+    {
+      "title": "Il tuo autocontrollo in numeri",
+      "text": "Tasso di rispetto, cronologia per elemento e per categoria e quante volte hai rotto una ricarica, tutto in una schermata.\nSe dai a un elemento un costo stimato, l’app stima anche quanto hai risparmiato questo mese.",
+      "shot": "03-stats"
+    },
+    {
+      "title": "Le ricariche più comuni con un tocco",
+      "text": "Scegli tra i modelli consigliati, dai viaggi allo shopping e al cibo fino a salute e finanza.\nRicevi una notifica a metà ricarica e alla fine, e i widget della schermata Home e del blocco schermo mostrano il tempo rimanente.",
+      "shot": "04-templates"
+    }
+  ],
+  "steps": {
+    "title": "Tre passi per iniziare",
+    "items": [
+      {
+        "title": "Aggiungi un elemento",
+        "text": "Scegli nome, emoji e quanto aspettare: ore, giorni, settimane o mesi. Oppure parti da un modello."
+      },
+      {
+        "title": "Quando lo usi, tocca Usa",
+        "text": "La ricarica parte in quel momento e il cerchio si svuota."
+      },
+      {
+        "title": "Arriva la notifica? Via libera",
+        "text": "Quando la ricarica finisce ti arriva una notifica. Basta consentire le notifiche una volta."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Le ricariche dei modelli consigliati",
+    "rows": [
+      [
+        "🌏 Viaggi",
+        "Viaggio all’estero · Viaggio nel paese · Pausa in hotel"
+      ],
+      [
+        "🛍️ Shopping",
+        "Shopping di vestiti · Acquisto impulsivo · Elettronica"
+      ],
+      [
+        "🍔 Cibo",
+        "Fast food · Cibo a domicilio · Bar · Dolci · Ristorante · Spuntino notturno"
+      ],
+      [
+        "🎮 Intrattenimento",
+        "Acquisti nei giochi · Cinema · Maratona di serie · Concerto / spettacolo"
+      ],
+      [
+        "💅 Stile di vita",
+        "Alcol · Taxi · Nail art · Parrucchiere · Massaggio / spa"
+      ],
+      [
+        "🏃 Salute",
+        "Giorno di riposo (salta l’allenamento) · Sgarro"
+      ],
+      [
+        "💰 Finanza",
+        "Trading azionario · Lotteria"
+      ]
+    ],
+    "note": "Ogni modello ha già un intervallo sensato e un costo stimato. Non trovi quello che cerchi? Crealo tu."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "L’ho usato durante una ricarica.",
+        "a": "Nessun problema. La cronologia segna che l’hai usato durante la ricarica, e il tempo di ricarica riparte da quel momento. Conta nel tasso di rispetto e nel numero di ricariche rotte nelle Statistiche."
+      },
+      {
+        "q": "Come viene calcolato il risparmio?",
+        "a": "Se inserisci un costo stimato per un elemento, l’app stima quanti usi ti ha evitato la ricarica questo mese e ti mostra l’importo. È una stima, non una cifra esatta, e gli elementi senza costo stimato restano fuori dal calcolo."
+      },
+      {
+        "q": "Non ricevo le notifiche.",
+        "a": "Sul tuo iPhone controlla Impostazioni > Notifiche > CoolTime. Se la prima schermata dell’app dice che le notifiche sono disattivate, il pulsante Impostazioni lì ti porta direttamente."
+      },
+      {
+        "q": "Come aggiungo il widget?",
+        "a": "Tieni premuta la schermata Home, tocca + in alto a sinistra, cerca CoolTime e aggiungilo. Ci sono anche i widget per il blocco schermo. Mostrano cosa puoi usare adesso e quanto tempo resta."
+      },
+      {
+        "q": "Come elimino la cronologia?",
+        "a": "Eliminando un elemento elimini anche la sua cronologia. Eliminando l’app sparisce tutto. I dati stanno solo sul tuo dispositivo, quindi una volta eliminati non si possono recuperare."
+      },
+      {
+        "q": "Si sincronizza con gli altri miei dispositivi?",
+        "a": "Non ancora. I tuoi dati stanno solo su questo iPhone. La sincronizzazione tra dispositivi e i backup sono nell’elenco in Impostazioni > Funzioni in arrivo."
+      },
+      {
+        "q": "È davvero gratis?",
+        "a": "Sì. Nessuna funzione è a pagamento. Se l’app ti piace puoi lasciare una mancia allo sviluppatore dalle Impostazioni, ma se non lo fai non cambia nulla."
+      },
+      {
+        "q": "I miei dati vengono inviati da qualche parte?",
+        "a": "No. Niente account né pubblicità, e le tue ricariche e la cronologia restano solo sul tuo iPhone. Allo sviluppatore arrivano soltanto statistiche d’uso anonime, rapporti sugli errori e il feedback che invii tu. Trovi i dettagli nell’Informativa sulla privacy qui sotto."
+      },
+      {
+        "q": "Ho trovato un bug o vorrei una funzione.",
+        "a": "Scrivici dall’app in Impostazioni > Assistenza > Invia feedback, in DM su Instagram a @lee25_ios o via email all’indirizzo qui sotto. Se una schermata si è bloccata, dicci cosa stavi facendo e la tua versione di iOS: troveremo il problema molto più in fretta."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Metti la ricarica\nprima della prossima tentazione",
+    "cta": "Gratis su App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Informativa sulla privacy",
+    "contact": "Domande o suggerimenti? Scrivi a {email}.",
+    "links": [
+      [
+        "Assistenza e contatti",
+        "support.html"
+      ]
+    ]
+  }
+}
