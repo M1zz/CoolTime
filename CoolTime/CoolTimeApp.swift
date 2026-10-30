@@ -45,6 +45,8 @@ struct CoolTimeApp: App {
             HomeView()
                 .leeoSatisfactionCheck(CoolTimeSpec.self)
                 .task { await CoolTimeTip.tipJar.startStandalone() }
+                // 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
+                .foldAware()
         }
         .modelContainer(sharedModelContainer)
         .onChange(of: scenePhase) { _, newPhase in

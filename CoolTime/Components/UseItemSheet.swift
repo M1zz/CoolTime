@@ -52,7 +52,7 @@ struct UseItemSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("취소") {
+                    Button("취소", systemImage: "xmark") {
                         isPresented = false
                     }
                 }

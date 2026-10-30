@@ -9,8 +9,20 @@ struct HomeView: View {
     @State private var manager = CooldownManager()
     @State private var selectedItem: CooldownItem?
     @State private var showOnboarding = !UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
+    @Environment(\.foldLayout) private var fold
 
     var body: some View {
+        // 아이폰 듀오를 펴면 왼쪽(세로면 아래)에 쿨타임 목록, 오른쪽(위)에 통계가 선다.
+        // 접혀 있거나 보통 아이폰이면 `FoldSplitView` 는 목록만 그린다. 지금 화면 그대로.
+        FoldSplitView {
+            homeStack
+        } result: {
+            StatsView(manager: manager, showsDone: false)
+                .environment(\.foldLayout, .single)
+        }
+    }
+
+    private var homeStack: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 20) {
@@ -57,11 +69,14 @@ struct HomeView: View {
             .navigationTitle("쿨타임")
             .toolbar {
                 ToolbarItemGroup(placement: .topBarLeading) {
-                    Button(action: { manager.showingStats = true }) {
-                        Image(systemName: "chart.bar.fill")
-                            .foregroundStyle(AppTheme.cooldown)
+                    // 펼친 화면에서는 통계가 늘 옆 판에 서 있으므로 여는 버튼이 필요 없다.
+                    if !fold.isUnfolded {
+                        Button(action: { manager.showingStats = true }) {
+                            Image(systemName: "chart.bar.fill")
+                                .foregroundStyle(AppTheme.cooldown)
+                        }
+                        .accessibilityLabel("통계 보기")
                     }
-                    .accessibilityLabel("통계 보기")
 
                     Button(action: { manager.showingSettings = true }) {
                         Image(systemName: "gearshape.fill")
@@ -106,6 +121,7 @@ struct HomeView: View {
             }
             .fullScreenCover(isPresented: $showOnboarding) {
                 OnboardingView(isPresented: $showOnboarding)
+                    .foldConfined()
             }
         }
         .onAppear {
@@ -495,7 +511,7 @@ struct SettingsView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("완료") { dismiss() }
+                    Button("완료", systemImage: "checkmark") { dismiss() }
                 }
             }
         }

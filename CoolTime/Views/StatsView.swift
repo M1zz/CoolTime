@@ -5,6 +5,8 @@ import Charts
 struct StatsView: View {
     @Environment(\.dismiss) private var dismiss
     var manager: CooldownManager
+    /// 시트로 열 때만 완료 버튼을 단다. 아이폰 듀오를 폈을 때 옆 판에 늘 서 있을 때는 닫을 것이 없다.
+    var showsDone = true
     
     var body: some View {
         NavigationStack {
@@ -31,8 +33,10 @@ struct StatsView: View {
             .navigationTitle("통계")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
-                    Button("완료") { dismiss() }
+                if showsDone {
+                    ToolbarItem(placement: .confirmationAction) {
+                        Button("완료", systemImage: "checkmark") { dismiss() }
+                    }
                 }
             }
         }

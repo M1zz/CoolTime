@@ -176,11 +176,11 @@ struct AddItemView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("취소") { dismiss() }
+                    Button("취소", systemImage: "xmark") { dismiss() }
                 }
                 
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("추가") {
+                    Button("추가", systemImage: "checkmark") {
                         addItem()
                     }
                     .disabled(name.isEmpty)

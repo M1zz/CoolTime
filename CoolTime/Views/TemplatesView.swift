@@ -41,7 +41,7 @@ struct TemplatesView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("완료") { dismiss() }
+                    Button("완료", systemImage: "checkmark") { dismiss() }
                 }
             }
         }
