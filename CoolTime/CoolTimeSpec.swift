@@ -3,7 +3,7 @@ import LeeoKit
 
 enum CoolTimeSpec: LeeoAppSpec {
     static let appName = "쿨타임"
-    static let developerEmail = "mizzking75@gmail.com"
+    static let developerEmail = "leeo@kakao.com"
     static let feedback = LeeoFeedbackConfig(containerIdentifier: "iCloud.com.Ysoup.FeedbackHub", appIdentifier: "com.Ysoup.CoolTime")
 
     /// 개인정보 처리방침·지원·소개 페이지 (docs/ 를 GitHub Pages 로 서빙).
