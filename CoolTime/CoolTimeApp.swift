@@ -8,7 +8,8 @@ import LeeoKit
 struct CoolTimeApp: App {
     @Environment(\.scenePhase) private var scenePhase
 
-    var sharedModelContainer: ModelContainer = {
+    /// `static let` 이라 처음 꺼낼 때 열린다 — init 에서 금고(bootstrap 안)가 예약된 복원을 적용한 뒤다.
+    private static let sharedModelContainer: ModelContainer = {
         let schema = Schema([
             CooldownItem.self,
         ])
@@ -35,12 +36,13 @@ struct CoolTimeApp: App {
     }()
 
     init() {
+        // 백업 금고 · 앱 실행 등록(리뷰/만족도 프롬프트 게이팅) · 크래시 진단 · 익명 사용 통계 (FeedbackHub).
+        // 금고가 예약된 복원을 적용해야 하므로 저장소보다 먼저 켠다.
+        LeeoKit.bootstrap(CoolTimeSpec.self)
         // 알림 카테고리 설정
         NotificationManager.shared.setupNotificationCategories()
-        // 앱 실행 등록(리뷰/만족도 프롬프트 게이팅) · 크래시 진단 · 익명 사용 통계 (FeedbackHub)
-        LeeoKit.bootstrap(CoolTimeSpec.self)
         // Siri · 단축어가 같은 저장소를 쓰게 한다 (→ CoolTimeIntents.swift)
-        let container = sharedModelContainer
+        let container = Self.sharedModelContainer
         AppDependencyManager.shared.add(dependency: container)
     }
 
@@ -53,7 +55,7 @@ struct CoolTimeApp: App {
                 // 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
                 .foldAware()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(Self.sharedModelContainer)
         .onChange(of: scenePhase) { _, newPhase in
             switch newPhase {
             case .active:
