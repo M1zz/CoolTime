@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import AppIntents
 import WidgetKit
 import LeeoKit
 
@@ -38,6 +39,9 @@ struct CoolTimeApp: App {
         NotificationManager.shared.setupNotificationCategories()
         // 앱 실행 등록(리뷰/만족도 프롬프트 게이팅) · 크래시 진단 · 익명 사용 통계 (FeedbackHub)
         LeeoKit.bootstrap(CoolTimeSpec.self)
+        // Siri · 단축어가 같은 저장소를 쓰게 한다 (→ CoolTimeIntents.swift)
+        let container = sharedModelContainer
+        AppDependencyManager.shared.add(dependency: container)
     }
 
     var body: some Scene {

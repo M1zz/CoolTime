@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4262375CE3F18AF133E142 /* CoolTimeIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */; };
 		51B9D52994CE9C3BCF6146DC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F8001F068C8CE41802E8A319 /* Localizable.xcstrings */; };
 		7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */; };
 		7E0390B931D7C9EF59A6686C /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2E19A2083D3D4C5000D551 /* LeeoKit */; };
@@ -31,6 +32,7 @@
 		B7A0000100F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0000200F /* OnboardingView.swift */; };
 		B7A00001010 /* UseItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002010 /* UseItemSheet.swift */; };
 		B7A00001011 /* ItemCardCompact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002011 /* ItemCardCompact.swift */; };
+		B9AB5D5626ED5B1A0339512F /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 
 /* Begin PBXFileReference section */
 		210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeRoadmap.swift; sourceTree = "<group>"; };
+		3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeIntents.swift; sourceTree = "<group>"; };
 		7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeSpec.swift; sourceTree = "<group>"; };
 		9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -162,6 +166,8 @@
 				7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */,
 				210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */,
 				F8001F068C8CE41802E8A319 /* Localizable.xcstrings */,
+				4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */,
+				3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */,
 			);
 			path = CoolTime;
 			sourceTree = "<group>";
@@ -347,6 +353,7 @@
 			files = (
 				B7A00001002 /* Assets.xcassets in Resources */,
 				51B9D52994CE9C3BCF6146DC /* Localizable.xcstrings in Resources */,
+				B9AB5D5626ED5B1A0339512F /* AppShortcuts.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +389,7 @@
 				B7A00001011 /* ItemCardCompact.swift in Sources */,
 				7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */,
 				A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */,
+				3E4262375CE3F18AF133E142 /* CoolTimeIntents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
