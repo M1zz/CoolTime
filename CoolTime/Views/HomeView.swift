@@ -8,6 +8,7 @@ struct HomeView: View {
     @Environment(\.colorScheme) private var colorScheme
     @State private var manager = CooldownManager()
     @State private var selectedItem: CooldownItem?
+    private let router = CoolTimeRouter.shared
     @State private var showOnboarding = !UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
     @Environment(\.foldLayout) private var fold
 
@@ -117,6 +118,7 @@ struct HomeView: View {
                     set: { if !$0 { selectedItem = nil } }
                 )) { note, cost in
                     manager.useItem(item, note: note, actualCost: cost)
+                    CoolTimeLibrary.donateUse(of: item)
                 }
             }
             .fullScreenCover(isPresented: $showOnboarding) {
@@ -129,6 +131,13 @@ struct HomeView: View {
             #if DEBUG
             openScreenshotScreen()
             #endif
+        }
+        // Spotlight · Siri 에서 누른 항목을 연다 (→ CoolTimeIntents.swift)
+        .task(id: router.openItemID) {
+            guard let id = router.openItemID else { return }
+            router.openItemID = nil
+            manager.fetchItems()
+            selectedItem = manager.items.first { $0.id == id }
         }
     }
 

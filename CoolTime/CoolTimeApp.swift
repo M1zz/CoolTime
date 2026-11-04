@@ -63,9 +63,11 @@ struct CoolTimeApp: App {
                 NotificationManager.shared.clearBadge()
                 // 위젯 리프레시
                 WidgetCenter.shared.reloadAllTimelines()
+                Task { await CoolTimeLibrary.reindex(Self.sharedModelContainer) }
             case .background:
                 // 백그라운드로 가면 위젯 업데이트
                 WidgetCenter.shared.reloadAllTimelines()
+                Task { await CoolTimeLibrary.reindex(Self.sharedModelContainer) }
             default:
                 break
             }

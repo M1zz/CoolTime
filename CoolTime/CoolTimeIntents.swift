@@ -6,9 +6,11 @@
 //   - "쿨타임, 커피 써도 돼?": 남은 대기 시간을 알려 준다.
 //   - "쿨타임, 커피 썼어": 사용을 남긴다. 아직 쿨타임 중이면 정말 남길지 한 번 묻는다.
 //   - "쿨타임에 새 항목 추가": 이름과 대기 일수로 새 항목을 만든다(앱처럼 처음 쓸 때부터 돈다).
+//   - Spotlight: 항목 이름이 색인돼 Siri 도 찾는다. 누르면 그 항목의 사용 화면이 열린다.
 //
 
 import AppIntents
+import CoreSpotlight
 import Foundation
 import SwiftData
 
@@ -32,6 +34,8 @@ struct CooldownItemEntity: AppEntity {
         emoji = item.emoji
     }
 }
+
+extension CooldownItemEntity: IndexedEntity {}
 
 struct CooldownItemQuery: EntityStringQuery {
     @Dependency private var container: ModelContainer
@@ -58,6 +62,7 @@ struct CheckCooldownIntent: AppIntent {
     )
 
     @Parameter(title: LocalizedStringResource("항목", comment: "Siri: item parameter"),
+               description: LocalizedStringResource("남은 쿨타임을 확인할 항목", comment: "Siri: check cooldown item parameter description"),
                requestValueDialog: IntentDialog(LocalizedStringResource("어떤 항목인가요?", comment: "Siri: ask which item")))
     var item: CooldownItemEntity
 
@@ -83,8 +88,15 @@ struct UseItemIntent: AppIntent {
     )
 
     @Parameter(title: LocalizedStringResource("항목", comment: "Siri: item parameter"),
+               description: LocalizedStringResource("방금 쓴 항목", comment: "Siri: use item parameter description"),
                requestValueDialog: IntentDialog(LocalizedStringResource("어떤 항목인가요?", comment: "Siri: ask which item")))
     var item: CooldownItemEntity
+
+    init() {}
+
+    init(item: CooldownItemEntity) {
+        self.item = item
+    }
 
     @Dependency private var container: ModelContainer
 
@@ -116,10 +128,13 @@ struct AddCooldownIntent: AppIntent {
     )
 
     @Parameter(title: LocalizedStringResource("이름", comment: "Siri: item name parameter"),
+               description: LocalizedStringResource("쿨타임을 걸 대상의 이름", comment: "Siri: add cooldown name parameter description"),
                requestValueDialog: IntentDialog(LocalizedStringResource("무엇에 쿨타임을 걸까요?", comment: "Siri: ask item name")))
     var name: String
 
-    @Parameter(title: LocalizedStringResource("대기 일수", comment: "Siri: cooldown days parameter"), default: 7,
+    @Parameter(title: LocalizedStringResource("대기 일수", comment: "Siri: cooldown days parameter"),
+               description: LocalizedStringResource("한 번 쓰고 다시 쓸 때까지 기다릴 날수", comment: "Siri: add cooldown days parameter description"),
+               default: 7,
                inclusiveRange: (1, 365))
     var days: Int
 
@@ -136,6 +151,31 @@ struct AddCooldownIntent: AppIntent {
         try context.save()
         return .result(dialog: IntentDialog(LocalizedStringResource("\(trimmed)을 \(days)일 쿨타임으로 추가했어요.", comment: "Siri: item added. Arguments: name, days")))
     }
+}
+
+/// 항목을 연다. Spotlight · Siri 결과를 누르면 여기로 와서 그 항목의 사용 화면이 뜬다.
+struct OpenCooldownItemIntent: OpenIntent {
+    static let title = LocalizedStringResource("항목 열기", comment: "Siri/Spotlight: open a cooldown item")
+    static let description = IntentDescription(
+        LocalizedStringResource("앱에서 그 항목을 열어 사용을 남길 수 있게 합니다.", comment: "Siri: open item description")
+    )
+
+    @Parameter(title: LocalizedStringResource("항목", comment: "Siri: item parameter"),
+               description: LocalizedStringResource("열 항목", comment: "Siri: open item parameter description"))
+    var target: CooldownItemEntity
+
+    @MainActor
+    func perform() async throws -> some IntentResult {
+        CoolTimeRouter.shared.openItemID = target.id
+        return .result()
+    }
+}
+
+/// 인텐트가 화면에 부탁하는 것. HomeView 가 보고 그 항목을 연다.
+@MainActor @Observable
+final class CoolTimeRouter {
+    static let shared = CoolTimeRouter()
+    var openItemID: UUID?
 }
 
 struct CoolTimeShortcuts: AppShortcutsProvider {
@@ -177,6 +217,18 @@ enum CoolTimeLibrary {
 
     static func item(_ id: UUID, in container: ModelContainer) -> CooldownItem? {
         items(in: container).first { $0.id == id }
+    }
+
+    /// Spotlight 에 싣는 항목을 지금 것에 맞춘다. 앱을 열 때와 뒤로 보낼 때 부른다.
+    static func reindex(_ container: ModelContainer) async {
+        let index = CSSearchableIndex.default()
+        try? await index.deleteAppEntities(ofType: CooldownItemEntity.self)
+        try? await index.indexAppEntities(items(in: container).map(CooldownItemEntity.init))
+    }
+
+    /// 앱에서 쓴 것을 Siri 에 알린다. 다음에 "썼어" 를 고르기 쉬워진다.
+    static func donateUse(of item: CooldownItem) {
+        IntentDonationManager.shared.donate(intent: UseItemIntent(item: CooldownItemEntity(item)))
     }
 
     /// "3일 4시간" 처럼 읽히는 남은 시간. 기기 언어로 적는다.
