@@ -3,6 +3,200 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.4
+
+### 앱스토어 (한국어)
+
+Siri에게 지금 써도 되는지 물어볼 수 있어요
+Siri로 쓴 기록을 남기고 새 항목도 만들어요
+iPhone 검색에서 항목을 바로 찾아 열어요
+매일 자동 백업하고 iCloud나 파일로 되살려요
+VoiceOver와 큰 글씨로 더 편하게 써요
+
+### App Store (English)
+
+Ask Siri if an item is ready to use
+Log a use or add items with Siri
+Open items right from iPhone search
+Daily backup, restore via iCloud or file
+Better with VoiceOver and larger text
+
+### App Store (en-GB)
+
+Ask Siri if an item is ready to use
+Log a use or add items with Siri
+Open items right from iPhone search
+Daily backup, restore via iCloud or file
+Better with VoiceOver and larger text
+
+### 앱스토어 (중국어 간체)
+
+可以问 Siri 现在能不能用
+用 Siri 记录使用或添加新项目
+在 iPhone 搜索中直接打开项目
+每天自动备份，可从 iCloud 或文件恢复
+旁白和大字体下更好用
+
+### 앱스토어 (중국어 번체)
+
+可以問 Siri 現在能不能用
+用 Siri 記錄使用或新增項目
+在 iPhone 搜尋中直接打開項目
+每天自動備份，可從 iCloud 或檔案還原
+旁白與大字體下更好用
+
+### 앱스토어 (일본어)
+
+今使っていいかSiriに聞けます
+Siriで使用を記録し、新しい項目も作れます
+iPhoneの検索から項目をすぐ開けます
+毎日自動でバックアップ、iCloudからも復元
+VoiceOverや大きな文字で使いやすく
+
+### 앱스토어 (러시아어)
+
+Siri скажет, сколько ещё ждать
+Отмечайте и добавляйте через Siri
+Открывайте элементы из поиска iPhone
+Ежедневная копия, возврат из iCloud
+Удобнее с VoiceOver и крупным текстом
+
+### 앱스토어 (스페인어)
+
+Pregunta a Siri si ya puedes usarlo
+Registra usos o añade elementos con Siri
+Abre elementos desde la búsqueda
+Copia diaria y restauración desde iCloud
+Mejor con VoiceOver y texto grande
+
+### 앱스토어 (독일어)
+
+Frag Siri, ob du es wieder nutzen darfst
+Nutzung und Einträge per Siri erfassen
+Einträge direkt in der iPhone-Suche
+Tägliches Backup, Wiederherstellung
+Besser mit VoiceOver und großem Text
+
+### 앱스토어 (프랑스어)
+
+Demandez à Siri si c’est déjà permis
+Notez un usage ou ajoutez avec Siri
+Ouvrez un élément depuis la recherche
+Sauvegarde quotidienne et restauration
+Mieux avec VoiceOver et le texte agrandi
+
+### 앱스토어 (이탈리아어)
+
+Chiedi a Siri se puoi già usarlo
+Registra usi e aggiungi voci con Siri
+Apri gli elementi dalla ricerca iPhone
+Backup quotidiano e ripristino da iCloud
+Meglio con VoiceOver e testo grande
+
+### 앱스토어 (포르투갈어(브라질)) (pt-BR)
+
+Pergunte à Siri se já pode usar
+Registre usos e crie itens com a Siri
+Abra itens pela busca do iPhone
+Backup diário e restauração pelo iCloud
+Melhor com VoiceOver e texto grande
+
+### 앱스토어 (태국어)
+
+ถาม Siri ได้ว่าตอนนี้ใช้ได้หรือยัง
+บันทึกการใช้และเพิ่มรายการด้วย Siri
+เปิดรายการได้จากการค้นหาบน iPhone
+สำรองทุกวัน กู้คืนจาก iCloud หรือไฟล์ได้
+ใช้ VoiceOver และตัวอักษรใหญ่ได้ดีขึ้น
+
+### 앱스토어 (베트남어)
+
+Hỏi Siri xem đã dùng được chưa
+Ghi lần dùng hoặc thêm mục bằng Siri
+Mở mục ngay từ tìm kiếm iPhone
+Sao lưu mỗi ngày, khôi phục từ iCloud
+Dùng VoiceOver và chữ lớn dễ hơn
+
+### 앱스토어 (체코어)
+
+Zeptejte se Siri, jestli už můžete
+Zapište použití nebo přidejte přes Siri
+Položky otevřete z hledání iPhonu
+Denní záloha a obnova z iCloudu
+Lepší s VoiceOver a velkým písmem
+
+### 앱스토어 (덴마크어)
+
+Spørg Siri, om du må bruge det igen
+Registrér brug eller tilføj med Siri
+Åbn elementer direkte fra søgning
+Daglig backup og gendannelse fra iCloud
+Bedre med VoiceOver og stor tekst
+
+### 앱스토어 (그리스어)
+
+Ρωτήστε τη Siri αν επιτρέπεται ξανά
+Καταγραφή και προσθήκη με τη Siri
+Ανοίξτε στοιχεία από την αναζήτηση
+Καθημερινό αντίγραφο και επαναφορά
+Καλύτερο με VoiceOver και μεγάλο κείμενο
+
+### 앱스토어 (핀란드어)
+
+Kysy Siriltä, saako jo käyttää
+Kirjaa käyttö tai lisää kohde Sirillä
+Avaa kohteet suoraan iPhonen hausta
+Päivittäinen varmuuskopio ja palautus
+Sujuvampi VoiceOver ja iso teksti
+
+### 앱스토어 (인도네시아어)
+
+Tanya Siri apakah sudah boleh dipakai
+Catat atau tambah item lewat Siri
+Buka item dari pencarian iPhone
+Cadangan harian, pulihkan dari iCloud
+VoiceOver dan teks besar lebih nyaman
+
+### 앱스토어 (노르웨이어(보크말))
+
+Spør Siri om du kan bruke det igjen
+Registrer bruk eller legg til med Siri
+Åpne elementer rett fra søk på iPhone
+Daglig sikkerhetskopi og gjenoppretting
+Bedre med VoiceOver og stor tekst
+
+### 앱스토어 (네덜란드어)
+
+Vraag Siri of je het weer mag gebruiken
+Leg gebruik vast of voeg toe met Siri
+Open items via zoeken op iPhone
+Dagelijkse back-up en terugzetten
+Beter met VoiceOver en grote tekst
+
+### 앱스토어 (폴란드어)
+
+Zapytaj Siri, czy już możesz użyć
+Zapisuj użycie i dodawaj przez Siri
+Otwieraj elementy z wyszukiwania
+Codzienna kopia i przywracanie z iCloud
+Lepiej z VoiceOver i dużym tekstem
+
+### 앱스토어 (스웨덴어)
+
+Fråga Siri om du får använda det igen
+Logga eller lägg till objekt med Siri
+Öppna objekt direkt från sök på iPhone
+Daglig säkerhetskopia och återställning
+Bättre med VoiceOver och stor text
+
+### 앱스토어 (튀르키예어)
+
+Kullanma zamanı geldi mi, Siri’ye sor
+Kullanımı kaydet veya Siri ile öğe ekle
+Öğeleri iPhone aramasından aç
+Günlük yedek, iCloud’dan geri yükleme
+VoiceOver ve büyük metinle daha iyi
+
 ## 1.0.3
 
 ### 앱스토어 (한국어)
