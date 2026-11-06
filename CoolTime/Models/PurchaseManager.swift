@@ -34,6 +34,9 @@ final class PurchaseManager {
     /// 이번 실행에서 영수증을 실제로 읽었는가. 읽기 전에는 위젯에 칸을 적지 않는다(산 사람이 잠기지 않게).
     @ObservationIgnored private var entitlementsChecked = false
 
+    /// 팔기 시작했는가. 아니면 아무것도 막지 않는다 (→ WidgetDataStore.isSelling).
+    private(set) var isSelling = WidgetDataStore.isSelling
+
     private(set) var products: [Product] = []
     private(set) var ownedProductIDs: Set<String> = []
     /// 지금 살아 있는 구독. 있으면 설정에 '평생으로 바꾸기' 가 선다.
@@ -64,7 +67,7 @@ final class PurchaseManager {
                                    foreverPass: foreverPass.isActive)
     }
 
-    func allows(_ feature: ProFeature) -> Bool { tier >= feature.tier }
+    func allows(_ feature: ProFeature) -> Bool { !isSelling || tier >= feature.tier }
 
     /// 무료 한도 안에서 하나 더 걸 수 있는가.
     func canAddItem(currentCount: Int) -> Bool {
@@ -138,6 +141,11 @@ final class PurchaseManager {
         ownedProductIDs = store.purchasedProductIDs
         isWorking = store.purchasingProductID != nil || store.isRestoring
         failureMessage = store.lastError
+        if !isSelling, products.contains(where: { ProEntitlement.productIDs.contains($0.id) }) {
+            WidgetDataStore.markSelling()
+            isSelling = true
+            WidgetCenter.shared.reloadAllTimelines()
+        }
 
         // 위젯은 App Group 의 그 한 줄만 읽는다. 영수증을 읽은 뒤에만 적고, 칸이 바뀐 판에만 다시 그린다.
         if entitlementsChecked {

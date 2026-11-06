@@ -56,6 +56,7 @@ struct WidgetDataStore {
     private static let itemsKey = "widget_cooldown_items"
     private static let statsKey = "widget_stats"
     private static let tierKey = "pro_tier"
+    private static let onSaleKey = "plans.onSale"
 
     // MARK: - 칸 (무료 0 · Plus 1 · Pro 2)
 
@@ -65,11 +66,19 @@ struct WidgetDataStore {
         defaults.set(rawValue, forKey: tierKey)
     }
 
+    /// **팔기 시작했는가.** 유료 칸 상품을 하나도 못 불러온 기기는 한도로 막지 않는다 — 앱도 위젯도.
+    /// ⚠️ App Store Connect 에 상품이 서기 전에 빌드가 나가면, 살 수 없는데 막히는 사람이 생긴다.
+    ///    한 번이라도 불러온 기기는 기억해 둔다 — 그 뒤로 잠깐 오프라인이어도 다시 한도가 선다.
+    static var isSelling: Bool { sharedDefaults?.bool(forKey: onSaleKey) ?? false }
+
+    /// `PurchaseManager` 만 부른다.
+    static func markSelling() { sharedDefaults?.set(true, forKey: onSaleKey) }
+
     /// 위젯이 열려 있는가(Pro).
     /// ⚠️ 적힌 값이 없으면 **연다.** 앱이 아직 영수증을 못 읽은 것이지 무료라는 뜻이 아니다 —
     ///    업데이트 뒤 앱을 열기 전에 산 사람의 위젯이 잠기면 안 된다.
     static var unlocksWidget: Bool {
-        guard let raw = sharedDefaults?.object(forKey: tierKey) as? Int else { return true }
+        guard isSelling, let raw = sharedDefaults?.object(forKey: tierKey) as? Int else { return true }
         return raw >= 2
     }
 
