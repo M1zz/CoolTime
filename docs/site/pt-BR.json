@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: uma recarga para as compras por impulso",
-  "description": "Delivery a cada 3 dias, roupa nova a cada 2 semanas. Coloque uma recarga nos seus gastos, como numa habilidade de jogo. Tudo grátis.",
+  "description": "Delivery a cada 3 dias, roupa nova a cada 2 semanas. Coloque uma recarga nos seus gastos, como numa habilidade de jogo. Grátis para até 5 itens.",
   "hero": {
     "headline": "Bateu vontade de gastar?\nPrimeiro, a recarga.",
     "lead": "Coloque uma recarga nos seus gastos, como numa habilidade de jogo. Usou, o círculo esvazia e vai enchendo devagar até você poder de novo.",
     "cta": "Baixe grátis na App Store",
-    "note": "Todos os recursos são grátis. Sem conta, sem anúncios."
+    "note": "Grátis para até 5 itens. Sem conta, sem anúncios."
   },
   "demo": {
     "title": "Teste aqui",
@@ -146,8 +146,8 @@
         "a": "Ainda não. Seus registros ficam só neste iPhone. Sincronização entre aparelhos e backup estão na lista em Ajustes > Recursos a caminho."
       },
       {
-        "q": "É grátis mesmo?",
-        "a": "É. Nenhum recurso fica bloqueado atrás de pagamento. Se gostar do app, você pode mandar uma gorjeta ao desenvolvedor pelos Ajustes, mas nada muda se não mandar."
+        "q": "O que é grátis?",
+        "a": "Até 5 itens são grátis, assim como o aviso antes de quebrar uma recarga, a notificação de fim, a taxa de cumprimento geral, a economia, o histórico e a exportação em CSV. O Plus tira o limite de itens e manda uma notificação de incentivo na metade da recarga. O Pro inclui tudo do Plus e ainda widgets para a Tela de Início e a Tela Bloqueada, o cumprimento por item e por categoria e a atividade recente. Você escolhe uma assinatura semanal, mensal ou anual, ou paga uma vez para sempre. As gorjetas nos Ajustes são à parte e não desbloqueiam nada."
       },
       {
         "q": "Meus registros são enviados para algum lugar?",

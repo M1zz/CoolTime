@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: czas oczekiwania na impulsywne wydatki",
-  "description": "Jedzenie z dostawą raz na 3 dni, ubrania raz na 2 tygodnie. Ustaw wydatkom czas oczekiwania jak umiejętności w grze. Wszystko za darmo.",
+  "description": "Jedzenie z dostawą raz na 3 dni, ubrania raz na 2 tygodnie. Ustaw wydatkom czas oczekiwania jak umiejętności w grze. Do 5 pozycji za darmo.",
   "hero": {
     "headline": "Kusi, żeby kupić?\nNajpierw odczekaj.",
     "lead": "Daj swoim wydatkom czas oczekiwania, jak umiejętności w grze. Po użyciu kółko się opróżnia i powoli napełnia, aż znów będzie wolno.",
     "cta": "Za darmo w App Store",
-    "note": "Wszystkie funkcje za darmo. Bez konta i bez reklam."
+    "note": "Do 5 pozycji za darmo. Bez konta i bez reklam."
   },
   "demo": {
     "title": "Wypróbuj tutaj",
@@ -146,8 +146,8 @@
         "a": "Jeszcze nie. Twoje zapisy są tylko na tym jednym iPhonie. Synchronizacja między urządzeniami i kopie zapasowe są na liście w Ustawienia > Nadchodzące funkcje."
       },
       {
-        "q": "Czy to naprawdę za darmo?",
-        "a": "Tak. Nic nie jest zablokowane za opłatą. Jeśli aplikacja Ci się podoba, możesz wesprzeć twórcę drobną kwotą w Ustawieniach, ale bez tego nic się nie zmienia."
+        "q": "Co jest za darmo?",
+        "a": "Za darmo masz do 5 pozycji, ostrzeżenie przed złamaniem czasu oczekiwania, powiadomienie o jego końcu, ogólny wskaźnik przestrzegania, zaoszczędzoną kwotę, historię i eksport do CSV. Plus znosi limit pozycji i w połowie czasu oczekiwania wysyła powiadomienie z dopingiem. Pro ma wszystko z Plus, a do tego widżety na ekran początkowy i ekran blokady, przestrzeganie według pozycji i kategorii oraz ostatnią aktywność. Możesz wybrać subskrypcję tygodniową, miesięczną lub roczną albo zapłacić raz na zawsze. Wsparcie twórcy w Ustawieniach to osobna sprawa i niczego nie odblokowuje."
       },
       {
         "q": "Czy moje zapisy są gdzieś wysyłane?",

@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: Abklingzeit für Spontankäufe",
-  "description": "Essen bestellen alle 3 Tage, neue Klamotten alle 2 Wochen. Gib deinen Ausgaben eine Abklingzeit wie einer Fähigkeit im Spiel. Komplett gratis.",
+  "description": "Essen bestellen alle 3 Tage, neue Klamotten alle 2 Wochen. Gib deinen Ausgaben eine Abklingzeit wie einer Fähigkeit im Spiel. Bis zu 5 Einträge kostenlos.",
   "hero": {
     "headline": "Lust auf Shopping?\nErst die Abklingzeit.",
     "lead": "Gib deinen Ausgaben eine Abklingzeit, wie einer Fähigkeit im Spiel. Einmal genutzt, leert sich der Kreis und füllt sich dann langsam wieder, bis du wieder darfst.",
     "cta": "Gratis im App Store",
-    "note": "Alle Funktionen kostenlos. Kein Konto, keine Werbung."
+    "note": "Bis zu 5 Einträge kostenlos. Kein Konto, keine Werbung."
   },
   "demo": {
     "title": "Probier es hier aus",
@@ -146,8 +146,8 @@
         "a": "Noch nicht. Deine Daten liegen nur auf diesem einen iPhone. Synchronisierung zwischen Geräten und Backups stehen unter Einstellungen > Geplante Funktionen auf der Liste."
       },
       {
-        "q": "Ist das wirklich kostenlos?",
-        "a": "Ja. Keine Funktion steckt hinter einer Bezahlschranke. Wenn dir die App gefällt, kannst du dem Entwickler in den Einstellungen ein Trinkgeld geben. Wenn nicht, ändert sich nichts."
+        "q": "Was ist kostenlos?",
+        "a": "Bis zu 5 Einträge sind kostenlos, dazu die Warnung, bevor du eine Abklingzeit brichst, die Mitteilung zum Ende, deine Einhaltungsquote insgesamt, das Gesparte, der Verlauf und der CSV-Export. Plus hebt die Begrenzung auf und schickt dir zur Hälfte der Abklingzeit eine aufmunternde Mitteilung. Pro enthält alles aus Plus und dazu Widgets für Home- und Sperrbildschirm, die Einhaltung nach Eintrag und Kategorie sowie die letzten Aktivitäten. Du wählst ein Wochen-, Monats- oder Jahresabo oder zahlst einmal für immer. Trinkgeld in den Einstellungen ist davon getrennt und schaltet nichts frei."
       },
       {
         "q": "Werden meine Daten irgendwohin geschickt?",

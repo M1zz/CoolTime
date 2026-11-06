@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: a cooldown for impulse spending",
-  "description": "Takeout every 3 days, new clothes every 2 weeks. Put a cooldown on spending like a game skill and wait until it's ready again. Every feature is free.",
+  "description": "Takeout every 3 days, new clothes every 2 weeks. Put a cooldown on spending like a game skill and wait until it's ready again. Free for up to 5 items.",
   "hero": {
     "headline": "Want to splurge?\nCooldown first.",
     "lead": "Give your spending a cooldown, like a skill in a game. Use it and the circle empties, then slowly fills until you're allowed again.",
     "cta": "Get it free on the App Store",
-    "note": "Every feature is free. No account, no ads."
+    "note": "Free for up to 5 items. No account, no ads."
   },
   "demo": {
     "title": "Try it here",
@@ -146,8 +146,8 @@
         "a": "Not yet. Your records live on this one iPhone. Sync across devices and backups are on the list in Settings > Coming Features."
       },
       {
-        "q": "Is it really free?",
-        "a": "Yes. Nothing is locked behind a payment. If you like the app you can send the developer a tip from Settings, but nothing changes if you don't."
+        "q": "What's free?",
+        "a": "Up to 5 items are free, along with the warning before you break a cooldown, end notifications, your overall compliance rate, savings and history, and CSV export. Plus removes the item limit and sends a cheer notification at the halfway point. Pro adds Home Screen and Lock Screen widgets, compliance by item and by category, and recent activity on top of Plus. Choose a weekly, monthly or yearly subscription, or pay once for lifetime. Tips in Settings are separate and unlock nothing."
       },
       {
         "q": "Are my records sent anywhere?",

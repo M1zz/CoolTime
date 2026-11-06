@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: ventetid på impulskjøp",
-  "description": "Takeaway hver tredje dag, nye klær annenhver uke. Sett en ventetid på forbruket som på en evne i et spill. Alle funksjoner er gratis.",
+  "description": "Takeaway hver tredje dag, nye klær annenhver uke. Sett en ventetid på forbruket som på en evne i et spill. Opptil 5 elementer er gratis.",
   "hero": {
     "headline": "Lyst til å handle?\nVentetid først.",
     "lead": "Gi forbruket ditt en ventetid, akkurat som en evne i et spill. Når du har brukt noe, tømmes sirkelen og fylles sakte opp igjen til du kan igjen.",
     "cta": "Hent gratis i App Store",
-    "note": "Alle funksjoner er gratis. Ingen konto, ingen reklame."
+    "note": "Opptil 5 elementer gratis. Ingen konto, ingen reklame."
   },
   "demo": {
     "title": "Prøv det her",
@@ -146,8 +146,8 @@
         "a": "Ikke ennå. Registreringene ligger på denne ene iPhonen. Synkronisering mellom enheter og sikkerhetskopi står på listen under Innstillinger > Kommende funksjoner."
       },
       {
-        "q": "Er det virkelig gratis?",
-        "a": "Ja. Ingenting er låst bak betaling. Liker du appen, kan du støtte utvikleren med et lite beløp under Innstillinger, men ingenting endrer seg om du lar være."
+        "q": "Hva er gratis?",
+        "a": "Opptil 5 elementer er gratis, sammen med varselet før du bryter en ventetid, varslingen når den er over, den samlede etterlevelsesprosenten, hva du har spart, loggen og eksport til CSV. Plus fjerner grensen for antall elementer og sender et oppmuntrende varsel halvveis. Pro har alt i Plus, og i tillegg widgeter for Hjem-skjermen og låseskjermen, etterlevelse per element og kategori og nylig aktivitet. Du velger ukentlig, månedlig eller årlig abonnement, eller betaler én gang for alltid. Bidrag under Innstillinger er noe for seg og låser ikke opp noe."
       },
       {
         "q": "Blir registreringene mine sendt noe sted?",

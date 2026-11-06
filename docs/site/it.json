@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: un tempo di ricarica per gli acquisti d’impulso",
-  "description": "Cibo a domicilio ogni 3 giorni, vestiti ogni 2 settimane. Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Tutto gratis.",
+  "description": "Cibo a domicilio ogni 3 giorni, vestiti ogni 2 settimane. Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Gratis fino a 5 elementi.",
   "hero": {
     "headline": "Voglia di spendere?\nPrima la ricarica.",
     "lead": "Dai alle tue spese un tempo di ricarica, come a un’abilità in un gioco. Lo usi e il cerchio si svuota, poi si riempie piano piano finché non puoi rifarlo.",
     "cta": "Gratis su App Store",
-    "note": "Tutte le funzioni sono gratis. Niente account, niente pubblicità."
+    "note": "Gratis fino a 5 elementi. Niente account, niente pubblicità."
   },
   "demo": {
     "title": "Provalo qui",
@@ -146,8 +146,8 @@
         "a": "Non ancora. I tuoi dati stanno solo su questo iPhone. La sincronizzazione tra dispositivi e i backup sono nell’elenco in Impostazioni > Funzioni in arrivo."
       },
       {
-        "q": "È davvero gratis?",
-        "a": "Sì. Nessuna funzione è a pagamento. Se l’app ti piace puoi lasciare una mancia allo sviluppatore dalle Impostazioni, ma se non lo fai non cambia nulla."
+        "q": "Cosa si può usare gratis?",
+        "a": "Fino a 5 elementi sono gratis, insieme all’avviso prima di rompere una ricarica, alla notifica di fine, al tasso di rispetto complessivo, ai risparmi, alla cronologia e all’esportazione in CSV. Plus toglie il limite di elementi e ti manda una notifica di incoraggiamento a metà ricarica. Pro comprende tutto Plus e aggiunge i widget per la schermata Home e il blocco schermo, il rispetto per elemento e per categoria e l’attività recente. Puoi scegliere un abbonamento settimanale, mensile o annuale, oppure pagare una volta sola per sempre. Le mance dalle Impostazioni sono a parte e non sbloccano nulla."
       },
       {
         "q": "I miei dati vengono inviati da qualche parte?",

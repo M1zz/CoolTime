@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: väntetid för impulsköp",
-  "description": "Hämtmat var tredje dag, nya kläder varannan vecka. Sätt en väntetid på dina utgifter som på en förmåga i ett spel. Alla funktioner är gratis.",
+  "description": "Hämtmat var tredje dag, nya kläder varannan vecka. Sätt en väntetid på dina utgifter som på en förmåga i ett spel. Upp till 5 objekt är gratis.",
   "hero": {
     "headline": "Sugen på att handla?\nVäntetid först.",
     "lead": "Ge dina utgifter en väntetid, precis som en förmåga i ett spel. När du har använt något töms cirkeln och fylls sakta på igen tills du får igen.",
     "cta": "Hämta gratis i App Store",
-    "note": "Alla funktioner är gratis. Inget konto, ingen reklam."
+    "note": "Upp till 5 objekt gratis. Inget konto, ingen reklam."
   },
   "demo": {
     "title": "Testa här",
@@ -146,8 +146,8 @@
         "a": "Inte än. Dina registreringar finns bara på den här iPhonen. Synkning mellan enheter och säkerhetskopior står på listan under Inställningar > Kommande funktioner."
       },
       {
-        "q": "Är det verkligen gratis?",
-        "a": "Ja. Inget är låst bakom betalning. Gillar du appen kan du stötta utvecklaren med en slant under Inställningar, men inget ändras om du låter bli."
+        "q": "Vad är gratis?",
+        "a": "Upp till 5 objekt är gratis, liksom varningen innan du bryter en väntetid, notisen när den är slut, din samlade följsamhet, vad du sparat, historiken och export till CSV. Plus tar bort gränsen för antal objekt och skickar en peppande notis halvvägs. Pro har allt i Plus och dessutom widgetar för hemskärmen och låsskärmen, följsamhet per objekt och kategori samt senaste aktivitet. Du väljer prenumeration per vecka, månad eller år, eller betalar en gång för alltid. Bidrag under Inställningar är fristående och låser inte upp något."
       },
       {
         "q": "Skickas mina registreringar någonstans?",

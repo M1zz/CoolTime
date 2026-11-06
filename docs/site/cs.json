@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: čekací doba pro impulzivní utrácení",
-  "description": "Rozvoz jednou za 3 dny, nové oblečení jednou za 2 týdny. Nastav výdajům čekací dobu jako schopnosti ve hře. Všechny funkce zdarma.",
+  "description": "Rozvoz jednou za 3 dny, nové oblečení jednou za 2 týdny. Nastav výdajům čekací dobu jako schopnosti ve hře. Až 5 položek zdarma.",
   "hero": {
     "headline": "Chuť utrácet?\nNejdřív si počkej.",
     "lead": "Dej svým výdajům čekací dobu, jakou má schopnost ve hře. Po použití se kruh vyprázdní a pomalu se plní, dokud to zase nebudeš smět.",
     "cta": "Stáhni zdarma v App Storu",
-    "note": "Všechny funkce zdarma. Bez účtu a bez reklam."
+    "note": "Až 5 položek zdarma. Bez účtu a bez reklam."
   },
   "demo": {
     "title": "Vyzkoušej si to",
@@ -146,8 +146,8 @@
         "a": "Zatím ne. Záznamy máš jen v tomto jednom iPhonu. Synchronizace mezi zařízeními a zálohy jsou na seznamu v Nastavení > Připravované funkce."
       },
       {
-        "q": "Je to opravdu zdarma?",
-        "a": "Ano. Nic není schované za platbou. Pokud se ti aplikace líbí, můžeš vývojáře v Nastavení podpořit drobným příspěvkem. Když to neuděláš, nic se nezmění."
+        "q": "Co je zdarma?",
+        "a": "Zdarma máš až 5 položek, varování před porušením čekací doby, upozornění na její konec, celkovou míru dodržování, ušetřenou částku, historii a export do CSV. Plus ruší limit položek a v polovině čekací doby ti pošle povzbuzující upozornění. Pro obsahuje vše z Plus a navíc widgety na plochu a zamčenou obrazovku, dodržování podle položek a kategorií a nedávnou aktivitu. Vybrat si můžeš týdenní, měsíční nebo roční předplatné, případně jednorázový nákup navždy. Příspěvek vývojáři v Nastavení je zvlášť a nic neodemyká."
       },
       {
         "q": "Posílají se moje záznamy někam?",

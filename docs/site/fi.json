@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: odotusaika heräteostoksille",
-  "description": "Noutoruoka kolmen päivän välein, uudet vaatteet kahden viikon välein. Anna kulutukselle odotusaika kuin pelin taidolle. Kaikki on ilmaista.",
+  "description": "Noutoruoka kolmen päivän välein, uudet vaatteet kahden viikon välein. Anna kulutukselle odotusaika kuin pelin taidolle. Enintään 5 kohdetta ilmaiseksi.",
   "hero": {
     "headline": "Tekee mieli tuhlata?\nEnsin odotusaika.",
     "lead": "Anna kulutukselle odotusaika, ihan kuin pelin taidolle. Kun käytät jotain, ympyrä tyhjenee ja täyttyy hitaasti, kunnes saat taas.",
     "cta": "Ilmaiseksi App Storesta",
-    "note": "Kaikki ominaisuudet ovat ilmaisia. Ei tiliä, ei mainoksia."
+    "note": "Enintään 5 kohdetta ilmaiseksi. Ei tiliä, ei mainoksia."
   },
   "demo": {
     "title": "Kokeile tässä",
@@ -146,8 +146,8 @@
         "a": "Ei vielä. Kirjauksesi ovat vain tässä yhdessä iPhonessa. Laitteiden välinen synkronointi ja varmuuskopiot ovat listalla kohdassa Asetukset > Tulevat ominaisuudet."
       },
       {
-        "q": "Onko se oikeasti ilmainen?",
-        "a": "On. Mitään ei ole lukittu maksun taakse. Jos pidät sovelluksesta, voit tukea kehittäjää pienellä summalla Asetuksista, mutta mikään ei muutu, vaikka et tukisi."
+        "q": "Mikä on ilmaista?",
+        "a": "Ilmaiseksi saat enintään 5 kohdetta sekä varoituksen ennen kuin rikot odotusajan, ilmoituksen sen päättyessä, kokonaisnoudattamisprosentin, säästöt, historian ja CSV-viennin. Plus poistaa kohteiden enimmäismäärän ja lähettää kannustavan ilmoituksen odotuksen puolivälissä. Pro sisältää kaiken, mitä Plusissa on, ja lisäksi widgetit koti- ja lukitusnäytölle, noudattamisen kohteittain ja luokittain sekä viimeaikaisen toiminnan. Voit valita viikko-, kuukausi- tai vuositilauksen tai maksaa kerran pysyvästä käytöstä. Asetuksista annettava tuki on erillinen eikä avaa mitään."
       },
       {
         "q": "Lähteekö kirjauksiani minnekään?",

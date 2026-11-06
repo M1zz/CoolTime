@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: Anlık harcamalara bekleme süresi",
-  "description": "Üç günde bir yemek siparişi, iki haftada bir kıyafet. Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. Tüm özellikler ücretsiz.",
+  "description": "Üç günde bir yemek siparişi, iki haftada bir kıyafet. Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. 5 öğeye kadar ücretsiz.",
   "hero": {
     "headline": "Canın alışveriş mi çekti?\nÖnce bekleme süresi",
     "lead": "Harcamalarına oyundaki bir yetenek gibi bekleme süresi koy. Kullandığında halka boşalır, sonra yeniden izin verilene kadar yavaşça dolar.",
     "cta": "App Store'dan ücretsiz al",
-    "note": "Tüm özellikler ücretsiz. Hesap yok, reklam yok."
+    "note": "5 öğeye kadar ücretsiz. Hesap yok, reklam yok."
   },
   "demo": {
     "title": "Burada dene",
@@ -146,8 +146,8 @@
         "a": "Henüz değil. Kayıtların yalnızca bu iPhone'da duruyor. Cihazlar arası eşitleme ve yedekleme, Ayarlar > Gelecek Özellikler listesinde yer alıyor."
       },
       {
-        "q": "Gerçekten ücretsiz mi?",
-        "a": "Evet. Ödeme yapmadan açılmayan hiçbir özellik yok. Uygulamayı seversen Ayarlar'dan geliştiriciye bahşiş gönderebilirsin, ama göndermesen de hiçbir şey değişmez."
+        "q": "Neler ücretsiz?",
+        "a": "5 öğeye kadar ücretsiz; bekleme süresini bozmadan önceki uyarı, süre bitince gelen bildirim, genel uyum oranın, biriktirdiğin tutar, geçmiş ve CSV dışa aktarma da ücretsiz. Plus öğe sınırını kaldırır ve sürenin yarısında seni yüreklendiren bir bildirim gönderir. Pro, Plus'taki her şeye ek olarak Ana ekran ve Kilitli Ekran widget'ları, öğeye ve kategoriye göre uyum oranı ve son etkinlikleri sunar. Haftalık, aylık ya da yıllık abonelik seçebilir veya bir kez ödeyip ömür boyu kullanabilirsin. Ayarlar'daki bahşiş bunlardan ayrıdır ve hiçbir şeyi açmaz."
       },
       {
         "q": "Kayıtlarım bir yere gönderiliyor mu?",

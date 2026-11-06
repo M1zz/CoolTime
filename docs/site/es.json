@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: un tiempo de espera para tus caprichos",
-  "description": "Comida a domicilio cada 3 días, ropa cada 2 semanas. Ponle a tus gastos una espera, como a una habilidad de un juego. Todo gratis.",
+  "description": "Comida a domicilio cada 3 días, ropa cada 2 semanas. Ponle a tus gastos una espera, como a una habilidad de un juego. Gratis hasta 5 elementos.",
   "hero": {
     "headline": "¿Te vas a dar un capricho?\nPrimero, la espera.",
     "lead": "Ponle a tus gastos un tiempo de espera, como a una habilidad de un juego. Lo usas y el círculo se vacía. Luego se va llenando poco a poco hasta que puedes volver a hacerlo.",
     "cta": "Gratis en la App Store",
-    "note": "Todas las funciones son gratis. Sin cuenta y sin anuncios."
+    "note": "Gratis hasta 5 elementos. Sin cuenta y sin anuncios."
   },
   "demo": {
     "title": "Pruébalo aquí",
@@ -146,8 +146,8 @@
         "a": "Todavía no. Tus registros están solo en este iPhone. La sincronización entre dispositivos y las copias de seguridad están en la lista de Ajustes > Funciones en camino."
       },
       {
-        "q": "¿De verdad es gratis?",
-        "a": "Sí. No hay nada bloqueado tras un pago. Si te gusta la app, puedes dejarle una propina al desarrollador desde Ajustes, pero si no lo haces no cambia nada."
+        "q": "¿Qué es gratis?",
+        "a": "Hasta 5 elementos son gratis, junto con el aviso antes de romper una espera, la notificación al terminar, la tasa de cumplimiento general, lo ahorrado, el historial y la exportación a CSV. Plus quita el límite de elementos y te envía un aviso de ánimo a mitad de la espera. Pro incluye todo lo de Plus y añade widgets para la pantalla de inicio y la de bloqueo, el cumplimiento por elemento y por categoría y la actividad reciente. Puedes elegir una suscripción semanal, mensual o anual, o un pago único de por vida. Las propinas de Ajustes van aparte y no desbloquean nada."
       },
       {
         "q": "¿Se envían mis registros a algún sitio?",

@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: Waktu Jeda untuk Belanja Impulsif",
-  "description": "Pesan antar 3 hari sekali, baju baru 2 minggu sekali. Beri pengeluaran waktu jeda seperti skill di game, lalu tunggu sampai siap lagi. Semua gratis.",
+  "description": "Pesan antar 3 hari sekali, baju baru 2 minggu sekali. Beri pengeluaran waktu jeda seperti skill di game, lalu tunggu sampai siap lagi. Gratis hingga 5 item.",
   "hero": {
     "headline": "Pengin jajan?\nJeda dulu.",
     "lead": "Beri pengeluaranmu waktu jeda, seperti skill di dalam game. Setelah dipakai, lingkarannya kosong lalu terisi perlahan sampai kamu boleh memakainya lagi.",
     "cta": "Unduh gratis di App Store",
-    "note": "Semua fitur gratis. Tanpa akun, tanpa iklan."
+    "note": "Gratis hingga 5 item. Tanpa akun, tanpa iklan."
   },
   "demo": {
     "title": "Coba di sini",
@@ -146,8 +146,8 @@
         "a": "Belum. Catatanmu hanya ada di iPhone yang sedang kamu pakai. Sinkronisasi antarperangkat dan cadangan sudah masuk daftar di Pengaturan > Fitur yang Akan Datang."
       },
       {
-        "q": "Benar-benar gratis?",
-        "a": "Ya. Tidak ada fitur yang dikunci di balik pembayaran. Kalau suka aplikasinya, kamu bisa memberi tip ke pengembang dari Pengaturan, tapi tidak ada yang berubah kalau tidak."
+        "q": "Apa saja yang gratis?",
+        "a": "Kamu bisa memakai hingga 5 item secara gratis, lengkap dengan peringatan sebelum melanggar waktu jeda, notifikasi saat selesai, tingkat kepatuhan keseluruhan, jumlah yang dihemat, riwayat, dan ekspor ke CSV. Plus menghapus batas jumlah item dan mengirim notifikasi penyemangat saat waktu jeda sudah separuh jalan. Pro berisi semua yang ada di Plus, ditambah widget Layar Utama dan Layar Terkunci, kepatuhan per item dan per kategori, serta aktivitas terbaru. Kamu bisa memilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali untuk selamanya. Tip dari Pengaturan terpisah dan tidak membuka fitur apa pun."
       },
       {
         "q": "Apakah catatanku dikirim ke suatu tempat?",

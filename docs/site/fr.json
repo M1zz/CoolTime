@@ -1,11 +1,11 @@
 {
   "title": "CoolTime : un temps de recharge pour vos achats impulsifs",
-  "description": "Un repas livré tous les 3 jours, des vêtements toutes les 2 semaines. Mettez vos dépenses en recharge, comme une compétence de jeu. Tout est gratuit.",
+  "description": "Un repas livré tous les 3 jours, des vêtements toutes les 2 semaines. Mettez vos dépenses en recharge, comme une compétence de jeu. Gratuit jusqu’à 5 éléments.",
   "hero": {
     "headline": "Envie de craquer ?\nRecharge d’abord.",
     "lead": "Donnez à vos dépenses un temps de recharge, comme à une compétence dans un jeu. Une fois utilisé, le cercle se vide, puis se remplit lentement jusqu’à ce que vous y ayez de nouveau droit.",
     "cta": "Gratuit sur l’App Store",
-    "note": "Toutes les fonctions sont gratuites. Ni compte ni publicité."
+    "note": "Gratuit jusqu’à 5 éléments. Ni compte ni publicité."
   },
   "demo": {
     "title": "Essayez ici",
@@ -146,8 +146,8 @@
         "a": "Pas encore. Vos données restent uniquement sur cet iPhone. La synchronisation entre appareils et les sauvegardes figurent dans Réglages > Fonctionnalités à venir."
       },
       {
-        "q": "C’est vraiment gratuit ?",
-        "a": "Oui. Aucune fonction n’est payante. Si l’app vous plaît, vous pouvez laisser un pourboire au développeur depuis les Réglages, mais rien ne change si vous ne le faites pas."
+        "q": "Qu’est-ce qui est gratuit ?",
+        "a": "Jusqu’à 5 éléments sont gratuits, tout comme l’avertissement avant de rompre une recharge, la notification de fin, le taux de respect global, les économies, l’historique et l’export CSV. Plus supprime la limite d’éléments et vous envoie un encouragement à mi-parcours. Pro comprend tout Plus, avec en plus les widgets pour l’écran d’accueil et l’écran verrouillé, le taux de respect par élément et par catégorie, et l’activité récente. Choisissez un abonnement hebdomadaire, mensuel ou annuel, ou un achat unique à vie. Les pourboires des Réglages sont à part et ne débloquent rien."
       },
       {
         "q": "Mes données sont-elles envoyées quelque part ?",

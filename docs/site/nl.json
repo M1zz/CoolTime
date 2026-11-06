@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: een wachttijd voor impulsaankopen",
-  "description": "Bezorgen om de 3 dagen, nieuwe kleren om de 2 weken. Zet een wachttijd op je uitgaven, zoals bij een skill in een game. Alle functies gratis.",
+  "description": "Bezorgen om de 3 dagen, nieuwe kleren om de 2 weken. Zet een wachttijd op je uitgaven, zoals bij een skill in een game. Gratis tot 5 items.",
   "hero": {
     "headline": "Zin om te shoppen?\nEerst de wachttijd.",
     "lead": "Geef je uitgaven een wachttijd, net als een skill in een game. Gebruik je iets, dan loopt de cirkel leeg en vult hij zich langzaam tot het weer mag.",
     "cta": "Gratis in de App Store",
-    "note": "Alle functies zijn gratis. Geen account, geen advertenties."
+    "note": "Gratis tot 5 items. Geen account, geen advertenties."
   },
   "demo": {
     "title": "Probeer het hier",
@@ -146,8 +146,8 @@
         "a": "Nog niet. Je gegevens staan op deze ene iPhone. Synchronisatie tussen apparaten en back-ups staan op de lijst onder Instellingen > Komende functies."
       },
       {
-        "q": "Is het echt gratis?",
-        "a": "Ja. Er zit niets achter een betaalmuur. Vind je de app fijn, dan kun je de ontwikkelaar vanuit Instellingen een fooi geven, maar er verandert niets als je dat niet doet."
+        "q": "Wat is gratis?",
+        "a": "Tot 5 items zijn gratis, net als de waarschuwing voordat je een wachttijd doorbreekt, de melding als die voorbij is, je totale naleefpercentage, wat je hebt bespaard, je geschiedenis en export naar CSV. Plus haalt de limiet op items weg en stuurt halverwege een aanmoedigende melding. Pro heeft alles van Plus en daarnaast widgets voor het beginscherm en het toegangsscherm, naleving per item en per categorie en recente activiteit. Je kiest een week-, maand- of jaarabonnement, of betaalt eenmalig voor altijd. Een fooi via Instellingen staat daar los van en ontgrendelt niets."
       },
       {
         "q": "Worden mijn gegevens ergens naartoe gestuurd?",

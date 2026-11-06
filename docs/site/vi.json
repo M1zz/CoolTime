@@ -1,11 +1,11 @@
 {
   "title": "CoolTime: Thời gian chờ cho chi tiêu bốc đồng",
-  "description": "Đặt đồ ăn 3 ngày một lần, mua quần áo 2 tuần một lần. Đặt thời gian chờ cho chi tiêu như hồi chiêu trong game. Mọi tính năng đều miễn phí.",
+  "description": "Đặt đồ ăn 3 ngày một lần, mua quần áo 2 tuần một lần. Đặt thời gian chờ cho chi tiêu như hồi chiêu trong game. Miễn phí tối đa 5 mục.",
   "hero": {
     "headline": "Muốn vung tiền?\nĐợi hồi chiêu đã",
     "lead": "Đặt thời gian chờ cho chi tiêu, như hồi chiêu của một kỹ năng trong game. Dùng xong, vòng tròn trống trơn rồi đầy dần lên cho đến lúc bạn được dùng lại.",
     "cta": "Tải miễn phí tại App Store",
-    "note": "Mọi tính năng đều miễn phí. Không cần tài khoản, không quảng cáo."
+    "note": "Miễn phí tối đa 5 mục. Không cần tài khoản, không quảng cáo."
   },
   "demo": {
     "title": "Thử ngay tại đây",
@@ -146,8 +146,8 @@
         "a": "Hiện chưa có. Dữ liệu chỉ nằm trên chiếc iPhone bạn đang dùng. Đồng bộ giữa các thiết bị và sao lưu đã có trong danh sách Cài đặt > Tính năng sắp có."
       },
       {
-        "q": "Có thật sự miễn phí không?",
-        "a": "Có. Không có tính năng nào phải trả tiền mới mở được. Nếu thích ứng dụng, bạn có thể ủng hộ nhà phát triển một khoản nhỏ trong Cài đặt, còn không thì cũng chẳng có gì thay đổi."
+        "q": "Những gì được dùng miễn phí?",
+        "a": "Bạn được dùng miễn phí tối đa 5 mục, kèm cảnh báo trước khi phá thời gian chờ, thông báo khi hết giờ, tỷ lệ tuân thủ chung, số tiền tiết kiệm, lịch sử và xuất CSV. Plus bỏ giới hạn số mục và gửi thông báo cổ vũ khi đã chờ được nửa chặng. Pro có mọi thứ của Plus, thêm tiện ích cho Màn hình chính và Màn hình khóa, tỷ lệ tuân thủ theo từng mục và danh mục, cùng hoạt động gần đây. Bạn có thể chọn gói theo tuần, tháng, năm hoặc trả một lần dùng trọn đời. Khoản ủng hộ trong Cài đặt là riêng và không mở thêm tính năng nào."
       },
       {
         "q": "Dữ liệu của tôi có bị gửi đi đâu không?",
