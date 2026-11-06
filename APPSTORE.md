@@ -55,6 +55,11 @@ https://m1zz.github.io/CoolTime/
 
 기록은 이 기기에만 저장되며 계정이 필요 없습니다.
 
+구독 안내
+쿨타임 Plus와 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
+이용약관(EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+개인정보처리방침: https://m1zz.github.io/CoolTime/privacy.html
+
 ## en
 
 ### 지원 URL
@@ -109,6 +114,11 @@ Notifications and widgets
 Get a notification when a cooldown is halfway through and when it ends, and check the time left right on your Home Screen and Lock Screen widgets.
 
 Your records stay on this device, and no account is needed.
+
+Subscriptions
+CoolTime Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless canceled at least 24 hours before the period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/CoolTime/en/privacy.html
 
 ## en-GB
 
@@ -165,6 +175,11 @@ Get a notification when a cooldown is halfway through and when it ends, and chec
 
 Your records stay on this device, and no account is needed.
 
+Subscriptions
+CoolTime Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless cancelled at least 24 hours before the period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/CoolTime/en/privacy.html
+
 ## zh-Hans
 
 ### 지원 URL
@@ -219,6 +234,11 @@ https://m1zz.github.io/CoolTime/zh-Hans/
 冷却过半和结束时都会发出通知，在主屏幕和锁定屏幕小组件上可以直接查看剩余时间。
 
 记录只保存在这台设备上，无需账号。
+
+订阅说明
+冷却时间 Plus 和 Pro 均为自动续期订阅。费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
+使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隐私政策: https://m1zz.github.io/CoolTime/zh-Hans/privacy.html
 
 ## zh-Hant
 
@@ -275,6 +295,11 @@ https://m1zz.github.io/CoolTime/zh-Hant/
 
 記錄只儲存在這台裝置上，不需要帳號。
 
+訂閱說明
+冷卻時間 Plus 與 Pro 皆為自動續訂訂閱。費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
+使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隱私權政策: https://m1zz.github.io/CoolTime/zh-Hant/privacy.html
+
 ## ja
 
 ### 지원 URL
@@ -329,6 +354,11 @@ https://m1zz.github.io/CoolTime/ja/
 クールタイムが半分過ぎたときと終わったときに通知し、ホーム画面とロック画面のウィジェットで残り時間をすぐに確認できます。
 
 記録はこの端末にだけ保存され、アカウントは不要です。
+
+サブスクリプションについて
+クールタイムのPlusとProは自動更新のサブスクリプションです。期間終了の24時間前までに解約しない限り、Apple Accountに自動で請求されます。設定のサブスクリプション管理からいつでも解約できます。
+利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+プライバシーポリシー: https://m1zz.github.io/CoolTime/ja/privacy.html
 
 ## ru
 
@@ -385,6 +415,11 @@ CoolTime — приложение о привычках трат: вы ждёт�
 
 Записи хранятся только на этом устройстве, учётная запись не нужна.
 
+Подписки
+CoolTime Plus и Pro — подписки с автопродлением. Оплата списывается с вашего Apple Account, а подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
+Условия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Политика конфиденциальности: https://m1zz.github.io/CoolTime/ru/privacy.html
+
 ## es
 
 ### 지원 URL
@@ -439,6 +474,11 @@ Notificaciones y widgets
 Recibe un aviso cuando la espera llega a la mitad y cuando termina, y consulta el tiempo restante en los widgets de la pantalla de inicio y de bloqueo.
 
 Tus registros se guardan solo en este dispositivo y no necesitas cuenta.
+
+Suscripciones
+CoolTime Plus y Pro son suscripciones de renovación automática. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
+Términos de uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de privacidad: https://m1zz.github.io/CoolTime/es/privacy.html
 
 ## de
 
@@ -495,6 +535,11 @@ Du erhältst eine Mitteilung, wenn die Hälfte der Abklingzeit um ist und wenn s
 
 Deine Daten bleiben auf diesem Gerät, ein Konto brauchst du nicht.
 
+Abonnements
+CoolTime Plus und Pro sind Abos mit automatischer Verlängerung. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du es jederzeit in den Einstellungen.
+Nutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Datenschutzerklärung: https://m1zz.github.io/CoolTime/de/privacy.html
+
 ## fr
 
 ### 지원 URL
@@ -549,6 +594,11 @@ Notifications et widgets
 Recevez une notification à la moitié de la recharge et à sa fin, et consultez le temps restant directement dans les widgets de l’écran d’accueil et de l’écran verrouillé.
 
 Vos données restent sur cet appareil et aucun compte n’est nécessaire.
+
+Abonnements
+CoolTime Plus et Pro sont des abonnements à renouvellement automatique. Le paiement est débité sur votre compte Apple, et l’abonnement se renouvelle sauf résiliation au moins 24 heures avant la fin de la période. Gérez-le ou résiliez-le à tout moment dans Réglages.
+Conditions d'utilisation (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Politique de confidentialité: https://m1zz.github.io/CoolTime/fr/privacy.html
 
 ## it
 
@@ -605,6 +655,11 @@ Ricevi una notifica a metà ricarica e alla fine, e controlla il tempo rimanente
 
 I tuoi dati restano su questo dispositivo e non serve alcun account.
 
+Abbonamenti
+CoolTime Plus e Pro sono abbonamenti a rinnovo automatico. Il pagamento viene addebitato sul tuo Apple Account e l’abbonamento si rinnova se non lo disdici almeno 24 ore prima della scadenza. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
+Condizioni d'uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Informativa sulla privacy: https://m1zz.github.io/CoolTime/it/privacy.html
+
 ## pt-BR
 
 ### 지원 URL
@@ -659,6 +714,11 @@ Notificações e widgets
 Receba um aviso na metade da recarga e quando ela terminar, e confira o tempo restante direto nos widgets da Tela de Início e da Tela Bloqueada.
 
 Seus registros ficam só neste dispositivo e não é preciso ter conta.
+
+Assinaturas
+CoolTime Plus e Pro são assinaturas com renovação automática. A cobrança é feita na sua Conta Apple e a assinatura é renovada, a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de Privacidade: https://m1zz.github.io/CoolTime/pt-BR/privacy.html
 
 ## th
 
@@ -715,6 +775,11 @@ CoolTime คือแอปสร้างนิสัยการใช้จ�
 
 บันทึกถูกเก็บไว้ในอุปกรณ์เครื่องนี้เท่านั้น ไม่ต้องมีบัญชี
 
+การสมัครสมาชิก
+CoolTime Plus และ Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุเว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
+ข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+นโยบายความเป็นส่วนตัว: https://m1zz.github.io/CoolTime/th/privacy.html
+
 ## vi
 
 ### 지원 URL
@@ -769,6 +834,11 @@ Thông báo và tiện ích
 Nhận thông báo khi thời gian chờ đi được nửa chặng và khi kết thúc, rồi xem thời gian còn lại ngay trên tiện ích Màn hình chính và Màn hình khóa.
 
 Dữ liệu chỉ lưu trên thiết bị này và không cần tài khoản.
+
+Gói đăng ký
+CoolTime Plus và Pro là các gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
+Điều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Chính sách quyền riêng tư: https://m1zz.github.io/CoolTime/vi/privacy.html
 
 ## cs
 
@@ -825,6 +895,11 @@ Dostaneš upozornění v polovině čekací doby i na jejím konci a zbývajíc�
 
 Záznamy se ukládají jen do tohoto zařízení a nepotřebuješ žádný účet.
 
+Předplatné
+CoolTime Plus a Pro jsou automaticky obnovovaná předplatná. Platba se strhává z vašeho účtu Apple a předplatné se obnoví, pokud ho nezrušíte alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžete kdykoli v Nastavení.
+Podmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Zásady ochrany osobních údajů: https://m1zz.github.io/CoolTime/cs/privacy.html
+
 ## da
 
 ### 지원 URL
@@ -880,6 +955,11 @@ Få besked, når en ventetid er halvvejs, og når den slutter, og se den restere
 
 Dine registreringer gemmes kun på denne enhed, og du behøver ingen konto.
 
+Abonnementer
+CoolTime Plus og Pro er abonnementer, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
+Brugsvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privatlivspolitik: https://m1zz.github.io/CoolTime/da/privacy.html
+
 ## el
 
 ### 지원 URL
@@ -933,6 +1013,11 @@ Delivery, ψώνια, γλυκά στο καφέ. Όταν σου έρθει η 
 Λάβε ειδοποίηση όταν η αναμονή φτάσει στη μέση και όταν τελειώσει, και δες τον χρόνο που απομένει κατευθείαν στα γραφικά στοιχεία της Αρχικής οθόνης και της οθόνης κλειδώματος.
 
 Οι καταγραφές αποθηκεύονται μόνο σε αυτή τη συσκευή και δεν χρειάζεσαι λογαριασμό.
+
+Συνδρομές
+Οι συνδρομές CoolTime Plus και Pro ανανεώνονται αυτόματα. Η χρέωση γίνεται στον λογαριασμό Apple σου και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσεις τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Μπορείς να τη διαχειριστείς ή να την ακυρώσεις οποτεδήποτε από τις Ρυθμίσεις.
+Όροι χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Πολιτική απορρήτου: https://m1zz.github.io/CoolTime/el/privacy.html
 
 ## fi
 
@@ -989,6 +1074,11 @@ Saat ilmoituksen, kun odotusajasta on kulunut puolet ja kun se päättyy, ja nä
 
 Kirjauksesi tallennetaan vain tälle laitteelle, eikä tiliä tarvita.
 
+Tilaukset
+CoolTime Plus ja Pro ovat automaattisesti uusiutuvia tilauksia. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru tilaus milloin tahansa Asetuksissa.
+Käyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Tietosuojakäytäntö: https://m1zz.github.io/CoolTime/fi/privacy.html
+
 ## id
 
 ### 지원 URL
@@ -1043,6 +1133,11 @@ Notifikasi dan widget
 Dapatkan pemberitahuan saat waktu jeda sudah setengah jalan dan saat selesai, lalu lihat sisa waktu langsung di widget Layar Utama dan Layar Kunci.
 
 Catatanmu hanya disimpan di perangkat ini dan tidak perlu akun.
+
+Langganan
+CoolTime Plus dan Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple Anda dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
+Ketentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Kebijakan Privasi: https://m1zz.github.io/CoolTime/id/privacy.html
 
 ## nb
 
@@ -1099,6 +1194,11 @@ Få beskjed når ventetiden er halvveis og når den er over, og se gjenstående 
 
 Registreringene lagres bare på denne enheten, og du trenger ingen konto.
 
+Abonnementer
+CoolTime Plus og Pro er abonnementer som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
+Bruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Personvernerklæring: https://m1zz.github.io/CoolTime/nb/privacy.html
+
 ## nl
 
 ### 지원 URL
@@ -1153,6 +1253,11 @@ Meldingen en widgets
 Krijg een melding als de wachttijd halverwege is en als hij afloopt, en zie de resterende tijd direct in widgets op het beginscherm en het toegangsscherm.
 
 Je vastleggingen blijven alleen op dit apparaat en je hebt geen account nodig.
+
+Abonnementen
+CoolTime Plus en Pro zijn automatisch verlengende abonnementen. De betaling loopt via je Apple Account en het abonnement wordt verlengd tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
+Gebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacybeleid: https://m1zz.github.io/CoolTime/nl/privacy.html
 
 ## pl
 
@@ -1209,6 +1314,11 @@ Dostaniesz powiadomienie w połowie czasu oczekiwania i po jego zakończeniu, a 
 
 Zapisy są przechowywane tylko na tym urządzeniu i nie potrzebujesz konta.
 
+Subskrypcje
+CoolTime Plus i Pro to subskrypcje odnawiane automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj nią lub anuluj ją w dowolnej chwili w Ustawieniach.
+Warunki korzystania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Polityka prywatności: https://m1zz.github.io/CoolTime/pl/privacy.html
+
 ## sv
 
 ### 지원 URL
@@ -1264,6 +1374,11 @@ Få en avisering när väntetiden är halvvägs och när den tar slut, och se å
 
 Dina registreringar sparas bara på den här enheten, och du behöver inget konto.
 
+Prenumerationer
+CoolTime Plus och Pro är prenumerationer som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
+Användarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Integritetspolicy: https://m1zz.github.io/CoolTime/sv/privacy.html
+
 ## tr
 
 ### 지원 URL
@@ -1318,6 +1433,11 @@ Bildirimler ve widget'lar
 Bekleme süresi yarıya geldiğinde ve bittiğinde bildirim al, kalan süreyi doğrudan Ana Ekran ve Kilit Ekranı widget'larından gör.
 
 Kayıtların yalnızca bu cihazda saklanır ve hesap gerekmez.
+
+Abonelikler
+CoolTime Plus ve Pro otomatik yenilenen aboneliklerdir. Ödeme Apple Hesabınızdan alınır ve dönem bitmeden en az 24 saat önce iptal edilmezse abonelik yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.
+Kullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Gizlilik Politikası: https://m1zz.github.io/CoolTime/tr/privacy.html
 
 ## 손쉬운 사용
 
