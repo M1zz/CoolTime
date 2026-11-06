@@ -11,6 +11,11 @@ struct HomeView: View {
     private let router = CoolTimeRouter.shared
     @State private var showOnboarding = !UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
     @Environment(\.foldLayout) private var fold
+    @State private var purchases = PurchaseManager.shared
+    /// 잠긴 위젯을 눌러 들어왔을 때(스크린샷 `-screenshotScreen paywall` 도) 띄우는 Pro 페이월.
+    @State private var showsProPaywall = false
+    /// 구독 6개월째 · 갱신 7일 전의 구독 졸업 제안.
+    @State private var showsGraduation = false
 
     var body: some View {
         // 아이폰 듀오를 펴면 왼쪽(세로면 아래)에 쿨타임 목록, 오른쪽(위)에 통계가 선다.
@@ -35,9 +40,11 @@ struct HomeView: View {
                     // 요약 카드
                     summarySection
 
-                    // 응원 부탁 — 쿨타임을 꽤 지켜 온 사람에게, 드물게(방금 쓰고 돌아온 자리)
-                    LeeoTipAskSlot<CoolTimeSpec>(tipJar: CoolTimeTip.tipJar,
-                                                 reached: CoolTimeTipMoments.reachedNow(in: manager.items))
+                    // 응원 부탁 — 이미 Pro 를 가진 사람에게만, 쿨타임을 꽤 지켜 왔을 때 드물게(방금 쓰고 돌아온 자리)
+                    if purchases.tier == .pro {
+                        LeeoTipAskSlot<CoolTimeSpec>(tipJar: CoolTimeTip.tipJar,
+                                                     reached: CoolTimeTipMoments.reachedNow(in: manager.items))
+                    }
 
                     // 검색 바 (아이템이 있을 때만)
                     if !manager.items.isEmpty {
@@ -121,6 +128,14 @@ struct HomeView: View {
                     CoolTimeLibrary.donateUse(of: item)
                 }
             }
+            .sheet(isPresented: $showsProPaywall) {
+                PaywallView(highlight: .pro)
+            }
+            .sheet(isPresented: $showsGraduation) {
+                LeeoGraduationOfferView(graduate: purchases.product(ProEntitlement.graduateID)) {
+                    await purchases.didGraduate()
+                }
+            }
             .fullScreenCover(isPresented: $showOnboarding) {
                 OnboardingView(isPresented: $showOnboarding)
                     .foldConfined()
@@ -131,6 +146,16 @@ struct HomeView: View {
             #if DEBUG
             openScreenshotScreen()
             #endif
+        }
+        // 잠긴 위젯(Pro 아님)을 누르면 여기로 온다 (→ SharedData.swift 의 CoolTimeWidgetLink)
+        .onOpenURL { url in
+            if url == CoolTimeWidgetLink.paywall, !purchases.allows(.widgets) { showsProPaywall = true }
+        }
+        // 구독 졸업: 6개월째와 갱신 7일 전에 한 번씩. 영수증을 읽고 난 뒤에 본다.
+        .onChange(of: purchases.graduationIsDue) { _, due in
+            guard due, !showOnboarding else { return }
+            purchases.markGraduationOffered()
+            showsGraduation = true
         }
         // Spotlight · Siri 에서 누른 항목을 연다 (→ CoolTimeIntents.swift)
         .task(id: router.openItemID) {
@@ -150,6 +175,7 @@ struct HomeView: View {
             case "break": selectedItem = manager.onCooldownItems.first { $0.emoji == "👕" }
             case "stats": manager.showingStats = true
             case "templates": manager.showingTemplates = true
+            case "paywall": showsProPaywall = true
             default: break
             }
         }
@@ -500,10 +526,15 @@ struct SummaryCard: View {
 /// 설정 화면 (개발자 문의 포함)
 struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
+    @State private var purchases = PurchaseManager.shared
+    @State private var showsPaywall = false
+    @State private var showsGraduation = false
+    @State private var showsManageSubscription = false
 
     var body: some View {
         NavigationStack {
             Form {
+                planSection
                 DeveloperContactSection()
                 Section {
                     LeeoSupportSection<CoolTimeSpec>()
@@ -521,6 +552,39 @@ struct SettingsView: View {
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("완료", systemImage: "checkmark") { dismiss() }
+                }
+            }
+            .sheet(isPresented: $showsPaywall) { PaywallView() }
+            .sheet(isPresented: $showsGraduation) {
+                LeeoGraduationOfferView(graduate: purchases.product(ProEntitlement.graduateID)) {
+                    await purchases.didGraduate()
+                }
+            }
+            .manageSubscriptionsSheet(isPresented: $showsManageSubscription)
+        }
+    }
+
+    /// 쿨타임 Plus · Pro. 구독 중이면 구독 관리와 '평생으로 바꾸기' 가 늘 아래에 선다.
+    private var planSection: some View {
+        Section {
+            Button {
+                showsPaywall = true
+            } label: {
+                HStack {
+                    Label {
+                        Text("쿨타임 Plus · Pro")
+                    } icon: {
+                        Image(systemName: "sparkles")
+                    }
+                    Spacer()
+                    Text(verbatim: purchases.tier.title)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            if purchases.subscription != nil {
+                Button(LeeoLadderText.manageSubscription) { showsManageSubscription = true }
+                if purchases.product(ProEntitlement.graduateID) != nil {
+                    Button(LeeoLadderText.switchToLifetimeEntry) { showsGraduation = true }
                 }
             }
         }

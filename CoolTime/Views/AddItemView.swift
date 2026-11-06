@@ -15,6 +15,11 @@ struct AddItemView: View {
     @State private var cooldownUnit: CooldownUnit = .days
     
     @State private var showEmojiPicker = false
+    @State private var purchases = PurchaseManager.shared
+    /// 무료 한도에 닿았거나 Plus 기능을 눌렀을 때 띄우는 페이월.
+    @State private var paywallTier: ProTier?
+    /// 한도에 막혀 페이월을 띄웠다. 닫고 왔을 때 열렸으면 하던 추가를 마친다.
+    @State private var addAfterPaywall = false
     
     enum CooldownUnit: String, CaseIterable {
         case hours = "시간"
@@ -159,6 +164,11 @@ struct AddItemView: View {
                     }
                 }
                 
+                // 절반 응원 알림 — 하루 이상 쿨타임에만 (Plus)
+                if cooldownUnit.toSeconds(cooldownValue) >= 86400 {
+                    halfwayCheerSection
+                }
+
                 // 비용 (선택)
                 Section("예상 비용 (선택)") {
                     HStack {
@@ -171,6 +181,12 @@ struct AddItemView: View {
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
+            }
+            .sheet(item: $paywallTier, onDismiss: {
+                if addAfterPaywall, manager.canAddItem { addItem() }
+                addAfterPaywall = false
+            }) { tier in
+                PaywallView(highlight: tier)
             }
             .navigationTitle("새 쿨타임")
             .navigationBarTitleDisplayMode(.inline)
@@ -230,7 +246,54 @@ struct AddItemView: View {
         }
     }
 
+    private var halfwayCheerSection: some View {
+        Section {
+            if purchases.allows(.halfwayCheer) {
+                HStack {
+                    Label {
+                        Text("절반 응원 알림")
+                    } icon: {
+                        Image(systemName: "hands.clap.fill")
+                    }
+                    Spacer()
+                    Image(systemName: "checkmark")
+                        .foregroundStyle(AppTheme.ready)
+                        .accessibilityHidden(true)
+                }
+                .accessibilityElement(children: .combine)
+                .accessibilityValue(Text("켜짐", comment: "Add item: the halfway cheer notification is on"))
+            } else {
+                Button {
+                    paywallTier = .plus
+                } label: {
+                    HStack {
+                        Label {
+                            Text("절반 응원 알림")
+                        } icon: {
+                            Image(systemName: "hands.clap")
+                        }
+                        Spacer()
+                        Image(systemName: "lock.fill")
+                            .foregroundStyle(.secondary)
+                            .accessibilityHidden(true)
+                        Text(verbatim: "Plus")
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                .accessibilityHint(Text("Plus에서 열려요"))
+            }
+        } footer: {
+            Text("쿨타임이 반 지나면 \"반 왔어요\" 하고 응원해 드려요.", comment: "Add item: what the halfway cheer notification does")
+        }
+    }
+
     private func addItem() {
+        // 무료는 다섯 개까지. 여섯 번째는 Plus 페이월을 띄우고, 사고 돌아오면 그대로 추가한다.
+        guard manager.canAddItem else {
+            addAfterPaywall = true
+            paywallTier = .plus
+            return
+        }
         let duration = cooldownUnit.toSeconds(cooldownValue)
         let cost = Int(estimatedCost)
         

@@ -55,6 +55,23 @@ struct WidgetDataStore {
 
     private static let itemsKey = "widget_cooldown_items"
     private static let statsKey = "widget_stats"
+    private static let tierKey = "pro_tier"
+
+    // MARK: - 칸 (무료 0 · Plus 1 · Pro 2)
+
+    /// 앱이 영수증을 확인하고 적는다(`PurchaseManager`). 위젯은 결제를 조회하지 않고 이것만 읽는다.
+    static func saveTier(_ rawValue: Int) {
+        guard let defaults = sharedDefaults, defaults.object(forKey: tierKey) as? Int != rawValue else { return }
+        defaults.set(rawValue, forKey: tierKey)
+    }
+
+    /// 위젯이 열려 있는가(Pro).
+    /// ⚠️ 적힌 값이 없으면 **연다.** 앱이 아직 영수증을 못 읽은 것이지 무료라는 뜻이 아니다 —
+    ///    업데이트 뒤 앱을 열기 전에 산 사람의 위젯이 잠기면 안 된다.
+    static var unlocksWidget: Bool {
+        guard let raw = sharedDefaults?.object(forKey: tierKey) as? Int else { return true }
+        return raw >= 2
+    }
 
     // MARK: - Items
 
@@ -97,6 +114,12 @@ struct WidgetDataStore {
         }
         return stats
     }
+}
+
+/// 위젯이 앱을 여는 링크.
+enum CoolTimeWidgetLink {
+    /// 잠긴 위젯(Pro 아님)을 누르면 앱이 Pro 페이월을 띄운다.
+    static let paywall = URL(string: "cooltime://paywall")!
 }
 
 /// 위젯용 통계 데이터

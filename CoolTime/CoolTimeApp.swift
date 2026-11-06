@@ -51,7 +51,8 @@ struct CoolTimeApp: App {
             HomeView()
                 .leeoSatisfactionCheck(CoolTimeSpec.self)
                 .storeFallbackNotice()
-                .task { await CoolTimeTip.tipJar.startStandalone() }
+                // 산 칸을 영수증으로 다시 읽는다(팁 엔진도 스토어가 함께 깨운다).
+                .task { await PurchaseManager.shared.refresh() }
                 // 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
                 .foldAware()
         }
@@ -64,6 +65,8 @@ struct CoolTimeApp: App {
                 // 위젯 리프레시
                 WidgetCenter.shared.reloadAllTimelines()
                 Task { await CoolTimeLibrary.reindex(Self.sharedModelContainer) }
+                // 다른 기기에서 샀거나 구독이 끝났을 수 있다.
+                Task { await PurchaseManager.shared.refresh() }
             case .background:
                 // 백그라운드로 가면 위젯 업데이트
                 WidgetCenter.shared.reloadAllTimelines()

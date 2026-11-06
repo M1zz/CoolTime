@@ -7,6 +7,11 @@ struct StatsView: View {
     var manager: CooldownManager
     /// 시트로 열 때만 완료 버튼을 단다. 아이폰 듀오를 폈을 때 옆 판에 늘 서 있을 때는 닫을 것이 없다.
     var showsDone = true
+    @State private var purchases = PurchaseManager.shared
+    @State private var showsPaywall = false
+
+    /// 아이템별 · 카테고리별 준수율과 최근 활동 흐름은 Pro. 무료는 흐리게 미리 본다.
+    private var insightsLocked: Bool { !purchases.allows(.insights) }
     
     var body: some View {
         NavigationStack {
@@ -17,12 +22,15 @@ struct StatsView: View {
                     
                     // 준수율 차트
                     complianceChart
-                    
+                        .proLocked(insightsLocked, tier: .pro) { showsPaywall = true }
+
                     // 카테고리별 통계
                     categoryStats
-                    
+                        .proLocked(insightsLocked, tier: .pro) { showsPaywall = true }
+
                     // 최근 활동
                     recentActivity
+                        .proLocked(insightsLocked, tier: .pro) { showsPaywall = true }
                     
                     // 개별 아이템 상세
                     itemDetails
@@ -32,7 +40,22 @@ struct StatsView: View {
             .background(Color(.systemGroupedBackground))
             .navigationTitle("통계")
             .navigationBarTitleDisplayMode(.inline)
+            .sheet(isPresented: $showsPaywall) {
+                PaywallView(highlight: .pro)
+            }
             .toolbar {
+                // 기록 내보내기는 무료다.
+                ToolbarItem(placement: .topBarLeading) {
+                    ShareLink(item: HistoryCSV(items: manager.items),
+                              preview: SharePreview("기록 CSV 내보내기")) {
+                        Label {
+                            Text("기록 CSV 내보내기")
+                        } icon: {
+                            Image(systemName: "square.and.arrow.up")
+                        }
+                    }
+                    .disabled(manager.items.isEmpty)
+                }
                 if showsDone {
                     ToolbarItem(placement: .confirmationAction) {
                         Button("완료", systemImage: "checkmark") { dismiss() }
@@ -281,13 +304,16 @@ struct StatsView: View {
                         }
                         .font(.caption)
                         
-                        HStack {
-                            Text("준수율")
-                            Spacer()
-                            Text("\(Int(item.complianceRate * 100))%")
-                                .foregroundStyle(barColor(for: item.complianceRate))
+                        // 아이템별 준수율은 Pro (위 차트와 같은 값)
+                        if !insightsLocked {
+                            HStack {
+                                Text("준수율")
+                                Spacer()
+                                Text("\(Int(item.complianceRate * 100))%")
+                                    .foregroundStyle(barColor(for: item.complianceRate))
+                            }
+                            .font(.caption)
                         }
-                        .font(.caption)
                         
                         if let cost = item.estimatedCost, item.totalUseCount > 0 {
                             HStack {

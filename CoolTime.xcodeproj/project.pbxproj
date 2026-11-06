@@ -33,6 +33,10 @@
 		B7A00001010 /* UseItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002010 /* UseItemSheet.swift */; };
 		B7A00001011 /* ItemCardCompact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002011 /* ItemCardCompact.swift */; };
 		B9AB5D5626ED5B1A0339512F /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */; };
+		C0011001 /* ProPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012001 /* ProPlan.swift */; };
+		C0011002 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012002 /* PurchaseManager.swift */; };
+		C0011003 /* HistoryExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012003 /* HistoryExport.swift */; };
+		C0011004 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012004 /* PaywallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,12 @@
 		B7A00002011 /* ItemCardCompact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardCompact.swift; sourceTree = "<group>"; };
 		B7A00003001 /* CoolTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8001F068C8CE41802E8A319 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C0012001 /* ProPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPlan.swift; sourceTree = "<group>"; };
+		C0012002 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		C0012003 /* HistoryExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryExport.swift; sourceTree = "<group>"; };
+		C0012004 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		C0012005 /* CoolTime.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoolTime.storekit; sourceTree = "<group>"; };
+		C0012006 /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -150,6 +160,7 @@
 				9C61BFBD2EDD56D200BC5930 /* widget */,
 				9C61BFB82EDD56D200BC5930 /* Frameworks */,
 				B7A00005003 /* Products */,
+				C0012006 /* widgetExtension.entitlements */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +179,7 @@
 				F8001F068C8CE41802E8A319 /* Localizable.xcstrings */,
 				4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */,
 				3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */,
+				C0012005 /* CoolTime.storekit */,
 			);
 			path = CoolTime;
 			sourceTree = "<group>";
@@ -187,6 +199,9 @@
 				B7A00002003 /* CooldownItem.swift */,
 				B7A00002004 /* CooldownTemplate.swift */,
 				B7A0000200D /* SharedData.swift */,
+				C0012001 /* ProPlan.swift */,
+				C0012002 /* PurchaseManager.swift */,
+				C0012003 /* HistoryExport.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +223,7 @@
 				B7A00002008 /* TemplatesView.swift */,
 				B7A00002009 /* StatsView.swift */,
 				B7A0000200F /* OnboardingView.swift */,
+				C0012004 /* PaywallView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -387,6 +403,10 @@
 				B7A0000100F /* OnboardingView.swift in Sources */,
 				B7A00001010 /* UseItemSheet.swift in Sources */,
 				B7A00001011 /* ItemCardCompact.swift in Sources */,
+				C0011001 /* ProPlan.swift in Sources */,
+				C0011002 /* PurchaseManager.swift in Sources */,
+				C0011003 /* HistoryExport.swift in Sources */,
+				C0011004 /* PaywallView.swift in Sources */,
 				7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */,
 				A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */,
 				3E4262375CE3F18AF133E142 /* CoolTimeIntents.swift in Sources */,
@@ -413,6 +433,7 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -444,6 +465,7 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

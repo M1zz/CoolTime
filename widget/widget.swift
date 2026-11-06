@@ -391,6 +391,16 @@ struct CoolTimeWidgetEntryView: View {
     var entry: CoolTimeProvider.Entry
 
     var body: some View {
+        // 위젯은 Pro. 잠겼으면 무엇이 잠겼는지 말하고, 누르면 앱의 페이월로 간다.
+        if !WidgetDataStore.unlocksWidget {
+            LockedWidgetView()
+        } else {
+            unlocked
+        }
+    }
+
+    @ViewBuilder
+    private var unlocked: some View {
         switch family {
         case .systemSmall:
             SmallWidgetView(entry: entry)
@@ -488,6 +498,15 @@ struct CoolTimeAccessoryView: View {
     let entry: CoolTimeAccessoryEntry
 
     var body: some View {
+        if !WidgetDataStore.unlocksWidget {
+            LockedWidgetView()
+        } else {
+            unlocked
+        }
+    }
+
+    @ViewBuilder
+    private var unlocked: some View {
         switch family {
         case .accessoryCircular:
             circularView
@@ -574,6 +593,48 @@ struct CoolTimeAccessoryView: View {
         } else {
             Text("✅ \(entry.availableCount)개 사용 가능")
         }
+    }
+}
+
+// MARK: - 잠긴 위젯 (Pro 아님)
+
+/// "Pro에서 열려요". 누르면 앱이 Pro 페이월을 띄운다.
+struct LockedWidgetView: View {
+    @Environment(\.widgetFamily) private var family
+
+    var body: some View {
+        Group {
+            switch family {
+            case .accessoryInline:
+                Label {
+                    Text("Pro에서 열려요")
+                } icon: {
+                    Image(systemName: "lock.fill")
+                }
+            case .accessoryCircular:
+                Image(systemName: "lock.fill")
+                    .font(.title3)
+                    .accessibilityLabel(Text("Pro에서 열려요"))
+            case .accessoryRectangular:
+                Label {
+                    Text("Pro에서 열려요")
+                        .font(.headline)
+                } icon: {
+                    Image(systemName: "lock.fill")
+                }
+            default:
+                VStack(spacing: 8) {
+                    Image(systemName: "lock.fill")
+                        .font(.title2)
+                        .foregroundStyle(.secondary)
+                    Text("Pro에서 열려요")
+                        .font(.headline)
+                        .multilineTextAlignment(.center)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
+        }
+        .widgetURL(CoolTimeWidgetLink.paywall)
     }
 }
 

@@ -7,6 +7,9 @@ struct TemplatesView: View {
     
     @State private var selectedCategory: TemplateCategory?
     @State private var addedTemplates: Set<UUID> = []
+    /// 무료 한도에 막힌 템플릿. 페이월을 닫고 왔을 때 열렸으면 마저 추가한다.
+    @State private var pendingTemplate: CooldownTemplate?
+    @State private var showsPaywall = false
     
     var body: some View {
         NavigationStack {
@@ -37,6 +40,12 @@ struct TemplatesView: View {
                 .padding()
             }
             .background(Color(.systemGroupedBackground))
+            .sheet(isPresented: $showsPaywall, onDismiss: {
+                if let pendingTemplate, manager.canAddItem { addTemplate(pendingTemplate) }
+                pendingTemplate = nil
+            }) {
+                PaywallView(highlight: .plus)
+            }
             .navigationTitle("템플릿")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -69,6 +78,12 @@ struct TemplatesView: View {
     }
     
     private func addTemplate(_ template: CooldownTemplate) {
+        // 무료는 다섯 개까지. 여섯 번째는 Plus 페이월.
+        guard manager.canAddItem else {
+            pendingTemplate = template
+            showsPaywall = true
+            return
+        }
         manager.addFromTemplate(template)
         addedTemplates.insert(template.id)
         

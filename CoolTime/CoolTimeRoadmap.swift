@@ -21,7 +21,7 @@ extension CoolTimeSpec {
         .init(id: "sync.icloud", status: .planned,
               title: NSLocalizedString("기기 간 동기화", comment: "Roadmap item: sync across devices"),
               detail: NSLocalizedString("아이폰과 아이패드에서 같은 쿨타임을 이어서 봐요.", comment: "Roadmap item detail: sync across devices")),
-        .init(id: "backup", status: .planned,
+        .init(id: "backup", status: .building,
               title: NSLocalizedString("백업과 내보내기", comment: "Roadmap item: backup and export"),
               detail: NSLocalizedString("쿨타임 기록을 파일로 저장하고 다시 불러올 수 있어요.", comment: "Roadmap item detail: backup and export")),
         .init(id: "data.delete", status: .planned,

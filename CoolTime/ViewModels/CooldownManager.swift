@@ -6,6 +6,7 @@ import UserNotifications
 import WidgetKit
 
 /// 쿨타임 관리 매니저
+@MainActor
 @Observable
 final class CooldownManager {
 
@@ -102,7 +103,7 @@ final class CooldownManager {
     }
 
     deinit {
-        timerCancellable?.cancel()
+        // 타이머는 AnyCancellable 이 사라질 때 저절로 멈춘다.
         NotificationCenter.default.removeObserver(self)
     }
 
@@ -119,7 +120,7 @@ final class CooldownManager {
             object: nil,
             queue: .main
         ) { [weak self] _ in
-            self?.handleAppBecameActive()
+            MainActor.assumeIsolated { self?.handleAppBecameActive() }
         }
 
         NotificationCenter.default.addObserver(
@@ -127,7 +128,7 @@ final class CooldownManager {
             object: nil,
             queue: .main
         ) { [weak self] _ in
-            self?.handleAppWillResignActive()
+            MainActor.assumeIsolated { self?.handleAppWillResignActive() }
         }
     }
 
@@ -194,6 +195,9 @@ final class CooldownManager {
             print("Failed to fetch items: \(error)")
         }
     }
+
+    /// 하나 더 걸 수 있는가. 무료는 다섯 개까지다(→ ProFeature.freeItemLimit). 막히면 Plus 페이월을 띄운다.
+    var canAddItem: Bool { PurchaseManager.shared.canAddItem(currentCount: items.count) }
 
     func addItem(_ item: CooldownItem) {
         guard let context = modelContext else { return }
@@ -293,7 +297,8 @@ final class CooldownManager {
             name: item.name,
             emoji: item.emoji,
             cooldownDuration: item.cooldownDuration,
-            enableHalfwayNotification: item.cooldownDuration >= 86400
+            // 하루 이상 쿨타임의 "반 왔어요" 응원은 Plus 부터. 끝 알림은 누구나 받는다.
+            enableHalfwayNotification: item.cooldownDuration >= 86400 && PurchaseManager.shared.allows(.halfwayCheer)
         )
     }
 

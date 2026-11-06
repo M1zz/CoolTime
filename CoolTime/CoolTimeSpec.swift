@@ -13,8 +13,26 @@ enum CoolTimeSpec: LeeoAppSpec {
         marketingURL: URL(string: "https://m1zz.github.io/CoolTime/")!
     )
 
-    /// 결제 없음 — 앱 안에 StoreKit·페이월 코드가 존재하지 않는다.
-    static let monetization = LeeoMonetization.free
+    /// 무료 · Plus · Pro. 칸마다 주 · 월 · 연 구독과 평생 (→ Models/ProPlan.swift, Models/PurchaseManager.swift).
+    static let monetization = LeeoMonetization.freemiumSubscription(
+        LeeoSubscriptionConfig(
+            productIDs: ProEntitlement.productIDs,
+            // 자체 약관이 없으므로 애플 표준 사용권 계약(EULA)을 건다. 구독을 파는 앱의 심사 필수 항목이다.
+            termsURL: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!,
+            entitlementIDs: ProEntitlement.entitlementIDs,
+            gate: LeeoGatePolicy(
+                freeLimits: [Gate.items: ProFeature.freeItemLimit],
+                // 칸(Plus · Pro)마다 무엇이 열리는지는 `ProFeature.tier` 가 정한다(→ Models/ProPlan.swift).
+                proOnly: Set(ProFeature.allCases.filter { $0 != .unlimitedItems }.map(\.rawValue))),
+            // 위젯과 함께 쓰는 통. 권한 캐시가 여기 산다.
+            cacheSuiteName: WidgetDataStore.appGroupID,
+            // 개발자 응원 팁. 아무것도 열지 않는다. ⚠️ productIDs · entitlementIDs 에 넣지 않는다.
+            tipJar: LeeoTipJarConfig(productIDs: ProEntitlement.tipProductIDs)))
+
+    /// 게이트 열쇠말.
+    enum Gate {
+        static let items = "items"
+    }
 
     /// App Store 앱 ID — 리뷰 링크 · 친구에게 소개하기에 쓴다.
     static var appStoreID: String? { "6755988507" }
@@ -25,14 +43,10 @@ enum CoolTimeSpec: LeeoAppSpec {
 
 // MARK: - 팁 (개발자 응원하기)
 
-/// 무료 앱이라 LeeoStore 가 없다. 팁 엔진을 여기 하나 두고, 앱을 열 때 `startStandalone()` 을 부른다.
+/// 팁 엔진은 `LeeoStore` 가 쥔다(결제 리스너를 하나로). 응원 부탁은 이미 Pro 를 가진 사람에게만 한다.
 @MainActor
 enum CoolTimeTip {
-    static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
-        "com.Ysoup.CoolTime.tip.small",
-        "com.Ysoup.CoolTime.tip.medium",
-        "com.Ysoup.CoolTime.tip.large",
-    ]))
+    static var tipJar: LeeoTipJar { PurchaseManager.shared.tipJar }
 }
 
 /// 팁을 부탁할 만한 순간 — 쿨타임을 **깨지 않고** 기다렸다 쓴 횟수(아이템마다 첫 사용은 기다린 게 아니라 뺀다). 큰 것부터.

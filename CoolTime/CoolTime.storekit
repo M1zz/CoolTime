@@ -1,0 +1,342 @@
+{
+  "identifier": "1E48B765-CFCB-4F0B-8DCA-C53F9A6010E0",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "17.99",
+      "familyShareable": true,
+      "internalID": "D9CBD6A6-659E-4C4E-BB7F-23A353C5DF16",
+      "localizations": [
+        {
+          "description": "참고 싶은 것 모두에 쿨타임을 걸고, 반 지나면 응원 알림을 받아요.",
+          "displayName": "쿨타임 Plus 평생",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Put a cooldown on everything you want to hold back on, with a cheer at the halfway point.",
+          "displayName": "CoolTime Plus Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.Ysoup.CoolTime.plus.lifetime",
+      "referenceName": "Plus 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "26.99",
+      "familyShareable": true,
+      "internalID": "59CDD87B-B778-4248-BAD4-A726FDF97D45",
+      "localizations": [
+        {
+          "description": "Plus 전부에 홈 · 잠금화면 위젯, 아이템별 · 카테고리별 준수율, 최근 활동 흐름을 더해요.",
+          "displayName": "쿨타임 Pro 평생",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Everything in Plus, plus Home and Lock Screen widgets, keep rates by item and category, and recent activity.",
+          "displayName": "CoolTime Pro Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.cooltime.pro.lifetime",
+      "referenceName": "Pro 평생 (기존 평생구매 상품)",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "8.99",
+      "familyShareable": true,
+      "internalID": "A2718BC9-478D-4323-B7E7-83A1A02AC9A2",
+      "localizations": [
+        {
+          "description": "Plus 평생을 산 분이 Pro 평생으로 올려요.",
+          "displayName": "Plus 평생에서 Pro 평생으로",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "For Plus Lifetime owners: move up to Pro Lifetime.",
+          "displayName": "Plus to Pro Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.Ysoup.CoolTime.pro.upgrade",
+      "referenceName": "Plus 평생 → Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "17.99",
+      "familyShareable": true,
+      "internalID": "9AED02F9-E492-44C1-9529-683A4D3BAE90",
+      "localizations": [
+        {
+          "description": "구독하던 분께 드리는 Pro 평생이에요.",
+          "displayName": "쿨타임 Pro 평생 (구독 졸업)",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Pro Lifetime at a lower price for subscribers.",
+          "displayName": "CoolTime Pro Lifetime for Subscribers",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.Ysoup.CoolTime.pro.graduate",
+      "referenceName": "졸업 Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "ABDF22A7-42F3-45B9-9682-2C56ED731EF0",
+      "localizations": [
+        {
+          "description": "개발자를 응원해요. 기능은 열리지 않아요.",
+          "displayName": "작은 응원",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Support the developer. Unlocks nothing.",
+          "displayName": "Small Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.Ysoup.CoolTime.tip.small",
+      "referenceName": "팁 small",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "C977ABE1-9831-427B-8E98-F0DF63C00C72",
+      "localizations": [
+        {
+          "description": "개발자를 응원해요. 기능은 열리지 않아요.",
+          "displayName": "보통 응원",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Support the developer. Unlocks nothing.",
+          "displayName": "Medium Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.Ysoup.CoolTime.tip.medium",
+      "referenceName": "팁 medium",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "4.99",
+      "familyShareable": false,
+      "internalID": "B25F102B-DCD0-4047-AFA1-F4D3247DD1BF",
+      "localizations": [
+        {
+          "description": "개발자를 응원해요. 기능은 열리지 않아요.",
+          "displayName": "큰 응원",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Support the developer. Unlocks nothing.",
+          "displayName": "Large Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.Ysoup.CoolTime.tip.large",
+      "referenceName": "팁 large",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "0",
+    "_developerTeamID": "QGAQ3AY3R3",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "EB8B290A-805B-4A98-BA43-A2AE7FC7DA09",
+      "localizations": [],
+      "name": "쿨타임 Plus · Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "8.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "66ADC8EE-169B-4BC8-A6AD-35B20B93C87E",
+          "introductoryOffer": {
+            "internalID": "9AFD3953-B072-4D66-AA93-3E9A533EBC0F",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y",
+            "displayPrice": "4.49"
+          },
+          "localizations": [
+            {
+              "description": "Plus 전부에 홈 · 잠금화면 위젯, 아이템별 · 카테고리별 준수율, 최근 활동 흐름을 더해요.",
+              "displayName": "쿨타임 Pro 연간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Everything in Plus, plus Home and Lock Screen widgets, keep rates by item and category, and recent activity.",
+              "displayName": "CoolTime Pro Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.Ysoup.CoolTime.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Pro 연",
+          "subscriptionGroupID": "EB8B290A-805B-4A98-BA43-A2AE7FC7DA09",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "2.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "A468C9C9-A900-41DA-A8A9-4F89999B7662",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Plus 전부에 홈 · 잠금화면 위젯, 아이템별 · 카테고리별 준수율, 최근 활동 흐름을 더해요.",
+              "displayName": "쿨타임 Pro 월간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Everything in Plus, plus Home and Lock Screen widgets, keep rates by item and category, and recent activity.",
+              "displayName": "CoolTime Pro Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.Ysoup.CoolTime.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Pro 월",
+          "subscriptionGroupID": "EB8B290A-805B-4A98-BA43-A2AE7FC7DA09",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.49",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "51FF4951-9C2C-44D3-A99B-556A6DE91EAB",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Plus 전부에 홈 · 잠금화면 위젯, 아이템별 · 카테고리별 준수율, 최근 활동 흐름을 더해요.",
+              "displayName": "쿨타임 Pro 주간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Everything in Plus, plus Home and Lock Screen widgets, keep rates by item and category, and recent activity.",
+              "displayName": "CoolTime Pro Weekly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.Ysoup.CoolTime.pro.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Pro 주",
+          "subscriptionGroupID": "EB8B290A-805B-4A98-BA43-A2AE7FC7DA09",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "5.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "B1BB3DCA-B043-4C98-8F78-C8987D9543A8",
+          "introductoryOffer": {
+            "internalID": "C94447A7-8EB1-49E8-B1E0-62D91BA61B06",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y",
+            "displayPrice": "2.99"
+          },
+          "localizations": [
+            {
+              "description": "참고 싶은 것 모두에 쿨타임을 걸고, 반 지나면 응원 알림을 받아요.",
+              "displayName": "쿨타임 Plus 연간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Put a cooldown on everything you want to hold back on, with a cheer at the halfway point.",
+              "displayName": "CoolTime Plus Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.Ysoup.CoolTime.plus.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Plus 연",
+          "subscriptionGroupID": "EB8B290A-805B-4A98-BA43-A2AE7FC7DA09",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "A019F171-D516-4B50-9FE2-C52154A32A6C",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "참고 싶은 것 모두에 쿨타임을 걸고, 반 지나면 응원 알림을 받아요.",
+              "displayName": "쿨타임 Plus 월간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Put a cooldown on everything you want to hold back on, with a cheer at the halfway point.",
+              "displayName": "CoolTime Plus Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.Ysoup.CoolTime.plus.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Plus 월",
+          "subscriptionGroupID": "EB8B290A-805B-4A98-BA43-A2AE7FC7DA09",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "0.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "D0846E38-8402-44F5-B29C-54BC5BC06913",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "참고 싶은 것 모두에 쿨타임을 걸고, 반 지나면 응원 알림을 받아요.",
+              "displayName": "쿨타임 Plus 주간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Put a cooldown on everything you want to hold back on, with a cheer at the halfway point.",
+              "displayName": "CoolTime Plus Weekly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.Ysoup.CoolTime.plus.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Plus 주",
+          "subscriptionGroupID": "EB8B290A-805B-4A98-BA43-A2AE7FC7DA09",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

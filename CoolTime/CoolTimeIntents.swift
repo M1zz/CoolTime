@@ -145,6 +145,13 @@ struct AddCooldownIntent: AppIntent {
         guard !trimmed.isEmpty else {
             throw $name.needsValueError(IntentDialog(LocalizedStringResource("무엇에 쿨타임을 걸까요?", comment: "Siri: ask item name")))
         }
+        // 앱과 같은 한도. 무료는 다섯 개까지다(→ ProFeature.freeItemLimit).
+        let count = CoolTimeLibrary.items(in: container).count
+        guard await MainActor.run(body: { PurchaseManager.shared.canAddItem(currentCount: count) }) else {
+            return .result(dialog: IntentDialog(LocalizedStringResource(
+                "무료로는 쿨타임을 \(ProFeature.freeItemLimit)개까지 걸 수 있어요. 더 걸려면 앱에서 Plus를 열어 주세요.",
+                comment: "Siri: free item limit reached. Argument is the limit (5)")))
+        }
         let context = ModelContext(container)
         // 앱에서 추가할 때와 같다. 쿨타임은 처음 쓸 때부터 돈다.
         context.insert(CooldownItem(name: trimmed, emoji: "⏳", cooldownDuration: TimeInterval(days) * 86_400))
