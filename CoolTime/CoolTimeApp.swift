@@ -50,6 +50,8 @@ struct CoolTimeApp: App {
         WindowGroup {
             HomeView()
                 .leeoSatisfactionCheck(CoolTimeSpec.self)
+                // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
+                .leeoFeedbackReplyNotice(CoolTimeSpec.self)
                 .storeFallbackNotice()
                 // 산 칸을 영수증으로 다시 읽는다(팁 엔진도 스토어가 함께 깨운다).
                 .task { await PurchaseManager.shared.refresh() }
