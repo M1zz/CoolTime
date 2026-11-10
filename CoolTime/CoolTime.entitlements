@@ -8,6 +8,7 @@
 	</array>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
+		<string>iCloud.com.Ysoup.CoolTime</string>
 		<string>iCloud.com.Ysoup.FeedbackHub</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
