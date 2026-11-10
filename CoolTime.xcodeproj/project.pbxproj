@@ -16,6 +16,7 @@
 		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */; };
 		B7A00001001 /* CoolTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002001 /* CoolTimeApp.swift */; };
+		7A1C0DE3AB000002 /* CloudKitSchemaWarmup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */; };
 		B7A00001002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A00002002 /* Assets.xcassets */; };
 		B7A00001003 /* CooldownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002003 /* CooldownItem.swift */; };
 		B7A00001004 /* CooldownTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002004 /* CooldownTemplate.swift */; };
@@ -72,6 +73,7 @@
 		9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		B7A00002001 /* CoolTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTimeApp.swift; sourceTree = "<group>"; };
+		7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSchemaWarmup.swift; sourceTree = "<group>"; };
 		B7A00002002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A00002003 /* CooldownItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownItem.swift; sourceTree = "<group>"; };
 		B7A00002004 /* CooldownTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownTemplate.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				B7A00002001 /* CoolTimeApp.swift */,
+				7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */,
 				B7A00005004 /* Models */,
 				B7A00005005 /* ViewModels */,
 				B7A00005006 /* Views */,
@@ -388,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A00001001 /* CoolTimeApp.swift in Sources */,
+				7A1C0DE3AB000002 /* CloudKitSchemaWarmup.swift in Sources */,
 				B7A00001003 /* CooldownItem.swift in Sources */,
 				B7A00001004 /* CooldownTemplate.swift in Sources */,
 				B7A00001005 /* CooldownManager.swift in Sources */,

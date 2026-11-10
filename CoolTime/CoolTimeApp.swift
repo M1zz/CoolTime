@@ -53,6 +53,11 @@ struct CoolTimeApp: App {
     private(set) static var usesCloud = false
 
     init() {
+        #if DEBUG
+        CloudKitSchemaWarmup.runIfRequested(Self.sharedModelContainer) {
+            [CooldownItem(name: "표본", emoji: "🧊", cooldownDuration: 60)]
+        }
+        #endif
         // 백업 금고 · 앱 실행 등록(리뷰/만족도 프롬프트 게이팅) · 크래시 진단 · 익명 사용 통계 (FeedbackHub).
         // 금고가 예약된 복원을 적용해야 하므로 저장소보다 먼저 켠다.
         LeeoKit.bootstrap(CoolTimeSpec.self)
