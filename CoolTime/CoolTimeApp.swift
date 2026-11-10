@@ -13,8 +13,20 @@ struct CoolTimeApp: App {
         let schema = Schema([
             CooldownItem.self,
         ])
-        // 앱 데이터는 기기에만 둔다. entitlements 의 iCloud 컨테이너(FeedbackHub)는 피드백 전송용이라,
-        // 지정하지 않으면 SwiftData 가 그 컨테이너로 CloudKit 동기화를 켜려다 스키마 검사에서 실패한다.
+        // 1. 사용자의 iCloud(앱 자체 컨테이너의 개인 데이터베이스). 기기에 있던 기록은 그대로 올라가고,
+        //    새 기기는 계정에 있던 것을 받아 온다. 컨테이너를 이름으로 못박는다 — 비워 두면(.automatic)
+        //    entitlements 의 첫 컨테이너(FeedbackHub, 피드백 전송용)로 가려다 스키마 검사에서 실패한다.
+        if let synced = try? ModelContainer(
+            for: schema,
+            configurations: ModelConfiguration(schema: schema, cloudKitDatabase: .private(cloudContainer))
+        ) {
+            usesCloud = true
+            #if DEBUG
+            ScreenshotSeed.applyIfRequested(to: synced)
+            #endif
+            return synced
+        }
+        // 2. 같은 파일을 기기 안에서만. entitlement 가 없거나 컨테이너가 아직 없는 빌드도 기록은 잃지 않는다.
         let modelConfiguration = ModelConfiguration(
             schema: schema,
             isStoredInMemoryOnly: false,
@@ -34,6 +46,11 @@ struct CoolTimeApp: App {
             return StoreFallback.memoryContainer(schema: schema, after: error)
         }
     }()
+
+    /// 앱 자체 iCloud 컨테이너. entitlements 에 이 이름이 있어야 1 단계가 열린다.
+    static let cloudContainer = "iCloud.com.Ysoup.CoolTime"
+    /// 이번 실행이 iCloud 와 이어져 열렸는가 (sharedModelContainer 가 한 번 정한다).
+    private(set) static var usesCloud = false
 
     init() {
         // 백업 금고 · 앱 실행 등록(리뷰/만족도 프롬프트 게이팅) · 크래시 진단 · 익명 사용 통계 (FeedbackHub).

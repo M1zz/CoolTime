@@ -4,20 +4,21 @@ import SwiftData
 /// 쿨타임 아이템 모델
 @Model
 final class CooldownItem {
-    var id: UUID
-    var name: String
-    var emoji: String
-    var cooldownDuration: TimeInterval  // 쿨타임 기간 (초 단위)
-    var lastUsedDate: Date?             // 마지막 사용 시각
-    var estimatedCost: Int?             // 예상 비용 (선택)
-    var category: String
-    var isActive: Bool                  // 활성화 여부
-    var createdAt: Date
+    // 모든 속성에 기본값을 둔다 — CloudKit 동기화 규칙(옵셔널이거나 기본값)이다. 저장 파일은 그대로다.
+    var id: UUID = UUID()
+    var name: String = ""
+    var emoji: String = ""
+    var cooldownDuration: TimeInterval = 0  // 쿨타임 기간 (초 단위)
+    var lastUsedDate: Date?                 // 마지막 사용 시각
+    var estimatedCost: Int?                 // 예상 비용 (선택)
+    var category: String = "기타"
+    var isActive: Bool = true               // 활성화 여부
+    var createdAt: Date = Date()
     
     // 통계용
-    var totalUseCount: Int              // 총 사용 횟수
-    var breakCount: Int                 // 쿨타임 깬 횟수
-    var usageHistory: [UsageRecord]     // 사용 기록
+    var totalUseCount: Int = 0              // 총 사용 횟수
+    var breakCount: Int = 0                 // 쿨타임 깬 횟수
+    var usageHistory: [UsageRecord] = []    // 사용 기록
     
     init(
         name: String,
