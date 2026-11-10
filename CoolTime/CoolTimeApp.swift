@@ -54,7 +54,7 @@ struct CoolTimeApp: App {
 
     init() {
         #if DEBUG
-        CloudKitSchemaWarmup.runIfRequested(Self.sharedModelContainer) {
+        CloudKitSchemaWarmup.runIfRequested(Self.sharedModelContainer, cloudContainer: Self.cloudContainer) {
             [CooldownItem(name: "표본", emoji: "🧊", cooldownDuration: 60)]
         }
         #endif
