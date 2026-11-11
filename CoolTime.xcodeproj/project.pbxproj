@@ -13,7 +13,9 @@
 		7E0390B931D7C9EF59A6686C /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2E19A2083D3D4C5000D551 /* LeeoKit */; };
 		9C61BFBA2EDD56D200BC5930 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */; };
 		9C61BFBC2EDD56D200BC5930 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */; };
-		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; platformFilters = (
+				ios,
+			); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */; };
 		B7A00001001 /* CoolTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002001 /* CoolTimeApp.swift */; };
 		7A1C0DE3AB000002 /* CloudKitSchemaWarmup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */; };
@@ -422,6 +424,9 @@
 /* Begin PBXTargetDependency section */
 		9C61BFCC2EDD56D300BC5930 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
 			target = 9C61BFB62EDD56D200BC5930 /* widgetExtension */;
 			targetProxy = 9C61BFCB2EDD56D300BC5930 /* PBXContainerItemProxy */;
 		};
@@ -638,11 +643,13 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -673,11 +680,13 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -719,7 +728,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.42.0;
+				minimumVersion = 3.43.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

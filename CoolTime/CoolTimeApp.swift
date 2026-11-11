@@ -87,13 +87,17 @@ struct CoolTimeApp: App {
                 // 앱이 활성화되면 뱃지 초기화
                 NotificationManager.shared.clearBadge()
                 // 위젯 리프레시
+                #if !os(visionOS)   // visionOS 2 에는 위젯이 없다 — 위젯 확장은 iOS 에만 묶여 있다
                 WidgetCenter.shared.reloadAllTimelines()
+                #endif
                 Task { await CoolTimeLibrary.reindex(Self.sharedModelContainer) }
                 // 다른 기기에서 샀거나 구독이 끝났을 수 있다.
                 Task { await PurchaseManager.shared.refresh() }
             case .background:
                 // 백그라운드로 가면 위젯 업데이트
+                #if !os(visionOS)   // visionOS 2 에는 위젯이 없다 — 위젯 확장은 iOS 에만 묶여 있다
                 WidgetCenter.shared.reloadAllTimelines()
+                #endif
                 Task { await CoolTimeLibrary.reindex(Self.sharedModelContainer) }
             default:
                 break

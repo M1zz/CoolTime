@@ -144,13 +144,17 @@ final class PurchaseManager {
         if !isSelling, products.contains(where: { ProEntitlement.productIDs.contains($0.id) }) {
             WidgetDataStore.markSelling()
             isSelling = true
+            #if !os(visionOS)   // visionOS 2 에는 위젯이 없다 — 위젯 확장은 iOS 에만 묶여 있다
             WidgetCenter.shared.reloadAllTimelines()
+            #endif
         }
 
         // 위젯은 App Group 의 그 한 줄만 읽는다. 영수증을 읽은 뒤에만 적고, 칸이 바뀐 판에만 다시 그린다.
         if entitlementsChecked {
             WidgetDataStore.saveTier(tier.rawValue)
+            #if !os(visionOS)   // visionOS 2 에는 위젯이 없다 — 위젯 확장은 iOS 에만 묶여 있다
             if before != tier { WidgetCenter.shared.reloadAllTimelines() }
+            #endif
         }
     }
 }

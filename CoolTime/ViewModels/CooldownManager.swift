@@ -351,7 +351,9 @@ final class CooldownManager {
         )
         WidgetDataStore.saveStats(stats)
 
+        #if !os(visionOS)   // visionOS 2 에는 위젯이 없다 — 위젯 확장은 iOS 에만 묶여 있다
         WidgetCenter.shared.reloadAllTimelines()
+        #endif
     }
 }
 

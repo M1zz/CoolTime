@@ -87,9 +87,11 @@ struct TemplatesView: View {
         manager.addFromTemplate(template)
         addedTemplates.insert(template.id)
         
-        // 햅틱 피드백
+        // 햅틱 피드백 (Vision Pro 에는 진동이 없다)
+        #if !os(visionOS)
         let generator = UIImpactFeedbackGenerator(style: .medium)
         generator.impactOccurred()
+        #endif
     }
 }
 
