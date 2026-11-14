@@ -13,6 +13,15 @@ BUNDLE=com.Ysoup.CoolTime.watchkitapp
 ALL=(ko en en-GB ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr)
 if (( $# )); then LANGS=($@); else LANGS=($ALL); fi
 
+locale_of() {
+  case $1 in
+    ko) echo ko_KR ;; en) echo en_US ;; en-GB) echo en_GB ;; zh-Hans) echo zh_CN ;; zh-Hant) echo zh_TW ;;
+    ja) echo ja_JP ;; ru) echo ru_RU ;; es) echo es_ES ;; de) echo de_DE ;; fr) echo fr_FR ;; it) echo it_IT ;;
+    pt-BR) echo pt_BR ;; th) echo th_TH ;; vi) echo vi_VN ;; cs) echo cs_CZ ;; da) echo da_DK ;; el) echo el_GR ;;
+    fi) echo fi_FI ;; id) echo id_ID ;; nb) echo nb_NO ;; nl) echo nl_NL ;; pl) echo pl_PL ;; sv) echo sv_SE ;;
+    tr) echo tr_TR ;; *) echo en_US ;;
+  esac
+}
 t() { perl -e 'alarm shift; exec @ARGV' "$@"; }   # 시뮬레이터가 멈추면 기다리지 않는다
 
 t 120 xcrun simctl boot $DEV 2>/dev/null
@@ -30,7 +39,7 @@ for lang in $LANGS; do
     file=$out/watch-0$n-$scene.png
     for try in 1 2 3; do
       t 120 xcrun simctl launch --terminate-running-process $DEV $BUNDLE \
-        -watchDemo YES -watchDemoOpen $open -AppleLanguages "($lang)" >/dev/null 2>&1 || continue
+        -watchDemo YES -watchDemoOpen $open -AppleLanguages "($lang)" -AppleLocale $(locale_of $lang) >/dev/null 2>&1 || continue
       sleep 6
       tmp=${TMPDIR:-/tmp}/cooltime-watch-$$.png
       t 60 xcrun simctl io $DEV screenshot $tmp >/dev/null 2>&1 && mv -f $tmp $file && break
