@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061D8270FB029BA671767EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED74E0454024B1C1F3CB1ADC /* Assets.xcassets */; };
+		13BB50847B6A2A3615F3223F /* WatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAC9B539528F37276952268 /* WatchStore.swift */; };
+		22100603E714453DE9021D41 /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A3CFBECEE6A96B1775D07 /* WatchLink.swift */; };
+		223B93121D9960109C10252D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47CC6C933E9D096D61CB8AF /* Foundation.framework */; };
+		28DD20A51FD8E3A9A9F722B3 /* CoolTimeWatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28B4A3C9A4E39E2E43F010 /* CoolTimeWatchLink.swift */; };
+		3184C6355A90BA90347214B4 /* CooldownComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9A6AC38FD9F07022CED077 /* CooldownComplication.swift */; };
 		3E4262375CE3F18AF133E142 /* CoolTimeIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */; };
+		444D2C1D88C6B4DB5D1007DA /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 14A8FA2D1B42803469EC43A3 /* Localizable.xcstrings */; };
 		51B9D52994CE9C3BCF6146DC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F8001F068C8CE41802E8A319 /* Localizable.xcstrings */; };
+		6A49EE2009F3D4B9637E141F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47CC6C933E9D096D61CB8AF /* Foundation.framework */; };
+		6E9D57C2648A6DD31E2C6DCC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 14A8FA2D1B42803469EC43A3 /* Localizable.xcstrings */; };
+		72629C7EC172777029C1A2A8 /* CoolTimeWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FFD66514CB19707667EC625C /* CoolTimeWatch.app */; platformFilters = (ios, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72DE86628C475B0D7BA5FC76 /* CoolTimeWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55594632ED81C03AB884A478 /* CoolTimeWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75D5F6B0114933E06D9CB20D /* CoolTimeWatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28B4A3C9A4E39E2E43F010 /* CoolTimeWatchLink.swift */; };
+		7A1C0DE3AB000002 /* CloudKitSchemaWarmup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */; };
 		7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */; };
 		7E0390B931D7C9EF59A6686C /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2E19A2083D3D4C5000D551 /* LeeoKit */; };
 		9C61BFBA2EDD56D200BC5930 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */; };
 		9C61BFBC2EDD56D200BC5930 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */; };
-		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; platformFilters = (
-				ios,
-			); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C61BFCD2EDD56D300BC5930 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */; platformFilters = (ios, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0CC8A5D1B8A289E97DAFABB /* CoolTimeWatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28B4A3C9A4E39E2E43F010 /* CoolTimeWatchLink.swift */; };
 		A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */; };
 		B7A00001001 /* CoolTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002001 /* CoolTimeApp.swift */; };
-		7A1C0DE3AB000002 /* CloudKitSchemaWarmup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */; };
 		B7A00001002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A00002002 /* Assets.xcassets */; };
 		B7A00001003 /* CooldownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002003 /* CooldownItem.swift */; };
 		B7A00001004 /* CooldownTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002004 /* CooldownTemplate.swift */; };
@@ -35,11 +46,14 @@
 		B7A0000100F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0000200F /* OnboardingView.swift */; };
 		B7A00001010 /* UseItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002010 /* UseItemSheet.swift */; };
 		B7A00001011 /* ItemCardCompact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002011 /* ItemCardCompact.swift */; };
+		B8E9B4D8FBAE855E0958E8FD /* PhoneWatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB7D9F7FF3229A4AD28B75 /* PhoneWatchLink.swift */; };
 		B9AB5D5626ED5B1A0339512F /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */; };
 		C0011001 /* ProPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012001 /* ProPlan.swift */; };
 		C0011002 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012002 /* PurchaseManager.swift */; };
 		C0011003 /* HistoryExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012003 /* HistoryExport.swift */; };
 		C0011004 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012004 /* PaywallView.swift */; };
+		DE2375C7CBF473553F8770C5 /* WatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAC9B539528F37276952268 /* WatchStore.swift */; };
+		E2DE6734E38D6254937B3F05 /* CoolTimeWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8DBE98D66714AA2EF09C0 /* CoolTimeWatchApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +64,34 @@
 			remoteGlobalIDString = 9C61BFB62EDD56D200BC5930;
 			remoteInfo = widgetExtension;
 		};
+		BBCE0A73532AB943CA431BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A00008001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91D53B404C983E2B7D70122;
+			remoteInfo = CoolTimeWatchWidget;
+		};
+		E128923C57692D400A180975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A00008001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 927E662EFA3B58D5BC41F37B;
+			remoteInfo = CoolTimeWatch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		00BA7109F6902FD44D6E640E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				72629C7EC172777029C1A2A8 /* CoolTimeWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C61BFD22EDD56D300BC5930 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,18 +103,38 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD6E3560E787715F5E228D6A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72DE86628C475B0D7BA5FC76 /* CoolTimeWatchWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14A8FA2D1B42803469EC43A3 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeRoadmap.swift; sourceTree = "<group>"; };
 		3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		4B28B4A3C9A4E39E2E43F010 /* CoolTimeWatchLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeWatchLink.swift; sourceTree = "<group>"; };
 		4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeIntents.swift; sourceTree = "<group>"; };
+		55594632ED81C03AB884A478 /* CoolTimeWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoolTimeWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9A6AC38FD9F07022CED077 /* CooldownComplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CooldownComplication.swift; sourceTree = "<group>"; };
+		699CF6E36A010E38FC454D90 /* CoolTimeWatchWidget.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = CoolTimeWatchWidget.entitlements; sourceTree = "<group>"; };
+		6D1A3CFBECEE6A96B1775D07 /* WatchLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchLink.swift; sourceTree = "<group>"; };
+		7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSchemaWarmup.swift; sourceTree = "<group>"; };
+		7AAC9B539528F37276952268 /* WatchStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchStore.swift; sourceTree = "<group>"; };
 		7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeSpec.swift; sourceTree = "<group>"; };
+		858AB56599E01929DF3AD622 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9ECB7D9F7FF3229A4AD28B75 /* PhoneWatchLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneWatchLink.swift; sourceTree = "<group>"; };
 		B7A00002001 /* CoolTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTimeApp.swift; sourceTree = "<group>"; };
-		7A1C0DE2AB000002 /* CloudKitSchemaWarmup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSchemaWarmup.swift; sourceTree = "<group>"; };
 		B7A00002002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A00002003 /* CooldownItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownItem.swift; sourceTree = "<group>"; };
 		B7A00002004 /* CooldownTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownTemplate.swift; sourceTree = "<group>"; };
@@ -93,13 +152,18 @@
 		B7A00002010 /* UseItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseItemSheet.swift; sourceTree = "<group>"; };
 		B7A00002011 /* ItemCardCompact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardCompact.swift; sourceTree = "<group>"; };
 		B7A00003001 /* CoolTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8001F068C8CE41802E8A319 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		BBB8DBE98D66714AA2EF09C0 /* CoolTimeWatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeWatchApp.swift; sourceTree = "<group>"; };
 		C0012001 /* ProPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPlan.swift; sourceTree = "<group>"; };
 		C0012002 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		C0012003 /* HistoryExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryExport.swift; sourceTree = "<group>"; };
 		C0012004 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		C0012005 /* CoolTime.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = CoolTime.storekit; sourceTree = "<group>"; };
 		C0012006 /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
+		D2DB652F078509D652450CF0 /* CoolTimeWatch.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = CoolTimeWatch.entitlements; sourceTree = "<group>"; };
+		D47CC6C933E9D096D61CB8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED74E0454024B1C1F3CB1ADC /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8001F068C8CE41802E8A319 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		FFD66514CB19707667EC625C /* CoolTimeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTimeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -128,6 +192,22 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4AD48FE2118A7D94FBCBA94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A49EE2009F3D4B9637E141F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8470446CBFDA577BCC5A2840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223B93121D9960109C10252D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C61BFB42EDD56D200BC5930 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,11 +228,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59D9B6A435F2B469CB7E64C8 /* CoolTimeWatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				699CF6E36A010E38FC454D90 /* CoolTimeWatchWidget.entitlements */,
+				5B9A6AC38FD9F07022CED077 /* CooldownComplication.swift */,
+				858AB56599E01929DF3AD622 /* Info.plist */,
+			);
+			name = CoolTimeWatchWidget;
+			path = CoolTimeWatchWidget;
+			sourceTree = "<group>";
+		};
+		790BC5D25685C53379DCCAC2 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				D47CC6C933E9D096D61CB8AF /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
 		9C61BFB82EDD56D200BC5930 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9C61BFB92EDD56D200BC5930 /* WidgetKit.framework */,
 				9C61BFBB2EDD56D200BC5930 /* SwiftUI.framework */,
+				790BC5D25685C53379DCCAC2 /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +265,8 @@
 				9C61BFB82EDD56D200BC5930 /* Frameworks */,
 				B7A00005003 /* Products */,
 				C0012006 /* widgetExtension.entitlements */,
+				BA7C6A09B781D2A65DB08F94 /* CoolTimeWatch */,
+				59D9B6A435F2B469CB7E64C8 /* CoolTimeWatchWidget */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +287,8 @@
 				4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */,
 				3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */,
 				C0012005 /* CoolTime.storekit */,
+				4B28B4A3C9A4E39E2E43F010 /* CoolTimeWatchLink.swift */,
+				9ECB7D9F7FF3229A4AD28B75 /* PhoneWatchLink.swift */,
 			);
 			path = CoolTime;
 			sourceTree = "<group>";
@@ -194,6 +298,8 @@
 			children = (
 				B7A00003001 /* CoolTime.app */,
 				9C61BFB72EDD56D200BC5930 /* widgetExtension.appex */,
+				FFD66514CB19707667EC625C /* CoolTimeWatch.app */,
+				55594632ED81C03AB884A478 /* CoolTimeWatchWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,9 +358,42 @@
 			path = Theme;
 			sourceTree = "<group>";
 		};
+		BA7C6A09B781D2A65DB08F94 /* CoolTimeWatch */ = {
+			isa = PBXGroup;
+			children = (
+				ED74E0454024B1C1F3CB1ADC /* Assets.xcassets */,
+				D2DB652F078509D652450CF0 /* CoolTimeWatch.entitlements */,
+				BBB8DBE98D66714AA2EF09C0 /* CoolTimeWatchApp.swift */,
+				14A8FA2D1B42803469EC43A3 /* Localizable.xcstrings */,
+				6D1A3CFBECEE6A96B1775D07 /* WatchLink.swift */,
+				7AAC9B539528F37276952268 /* WatchStore.swift */,
+			);
+			name = CoolTimeWatch;
+			path = CoolTimeWatch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		927E662EFA3B58D5BC41F37B /* CoolTimeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448AE7282797186D764D18CC /* Build configuration list for PBXNativeTarget "CoolTimeWatch" */;
+			buildPhases = (
+				333423049687907F1637388A /* Sources */,
+				8470446CBFDA577BCC5A2840 /* Frameworks */,
+				7C2A9FF8CA4A276FDC6824E4 /* Resources */,
+				BD6E3560E787715F5E228D6A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF81B8851DB1CB985D30989 /* PBXTargetDependency */,
+			);
+			name = CoolTimeWatch;
+			productName = CoolTimeWatch;
+			productReference = FFD66514CB19707667EC625C /* CoolTimeWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9C61BFB62EDD56D200BC5930 /* widgetExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C61BFCF2EDD56D300BC5930 /* Build configuration list for PBXNativeTarget "widgetExtension" */;
@@ -283,11 +422,13 @@
 				B7A00004001 /* Frameworks */,
 				B7A00004003 /* Resources */,
 				9C61BFD22EDD56D300BC5930 /* Embed Foundation Extensions */,
+				00BA7109F6902FD44D6E640E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9C61BFCC2EDD56D300BC5930 /* PBXTargetDependency */,
+				08ACF36A45088EBAC2C86795 /* PBXTargetDependency */,
 			);
 			name = CoolTime;
 			packageProductDependencies = (
@@ -296,6 +437,23 @@
 			productName = CoolTime;
 			productReference = B7A00003001 /* CoolTime.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B91D53B404C983E2B7D70122 /* CoolTimeWatchWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE86B3CB87B2D67B5D64038 /* Build configuration list for PBXNativeTarget "CoolTimeWatchWidget" */;
+			buildPhases = (
+				2283FC843F843C9B7DB0B39F /* Sources */,
+				4AD48FE2118A7D94FBCBA94D /* Frameworks */,
+				9EA51EAAA9D682C1D0AAD9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolTimeWatchWidget;
+			productName = CoolTimeWatchWidget;
+			productReference = 55594632ED81C03AB884A478 /* CoolTimeWatchWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -356,15 +514,34 @@
 			targets = (
 				B7A00006001 /* CoolTime */,
 				9C61BFB62EDD56D200BC5930 /* widgetExtension */,
+				927E662EFA3B58D5BC41F37B /* CoolTimeWatch */,
+				B91D53B404C983E2B7D70122 /* CoolTimeWatchWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7C2A9FF8CA4A276FDC6824E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061D8270FB029BA671767EB9 /* Assets.xcassets in Resources */,
+				6E9D57C2648A6DD31E2C6DCC /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C61BFB52EDD56D200BC5930 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA51EAAA9D682C1D0AAD9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444D2C1D88C6B4DB5D1007DA /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +558,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2283FC843F843C9B7DB0B39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3184C6355A90BA90347214B4 /* CooldownComplication.swift in Sources */,
+				28DD20A51FD8E3A9A9F722B3 /* CoolTimeWatchLink.swift in Sources */,
+				13BB50847B6A2A3615F3223F /* WatchStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333423049687907F1637388A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DE6734E38D6254937B3F05 /* CoolTimeWatchApp.swift in Sources */,
+				22100603E714453DE9021D41 /* WatchLink.swift in Sources */,
+				DE2375C7CBF473553F8770C5 /* WatchStore.swift in Sources */,
+				75D5F6B0114933E06D9CB20D /* CoolTimeWatchLink.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C61BFB32EDD56D200BC5930 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,12 +614,23 @@
 				7B32960ACE29316B5A91EF60 /* CoolTimeSpec.swift in Sources */,
 				A3B89E4EF10B7E34724B3F0A /* CoolTimeRoadmap.swift in Sources */,
 				3E4262375CE3F18AF133E142 /* CoolTimeIntents.swift in Sources */,
+				A0CC8A5D1B8A289E97DAFABB /* CoolTimeWatchLink.swift in Sources */,
+				B8E9B4D8FBAE855E0958E8FD /* PhoneWatchLink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		08ACF36A45088EBAC2C86795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoolTimeWatch;
+			platformFilters = (
+				ios,
+			);
+			target = 927E662EFA3B58D5BC41F37B /* CoolTimeWatch */;
+			targetProxy = E128923C57692D400A180975 /* PBXContainerItemProxy */;
+		};
 		9C61BFCC2EDD56D300BC5930 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilters = (
@@ -430,19 +639,149 @@
 			target = 9C61BFB62EDD56D200BC5930 /* widgetExtension */;
 			targetProxy = 9C61BFCB2EDD56D300BC5930 /* PBXContainerItemProxy */;
 		};
+		EDF81B8851DB1CB985D30989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoolTimeWatchWidget;
+			target = B91D53B404C983E2B7D70122 /* CoolTimeWatchWidget */;
+			targetProxy = BBCE0A73532AB943CA431BEE /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		667AEFB39D004856B0AE91E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CoolTimeWatchWidget/CoolTimeWatchWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolTimeWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolTime;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6A1700E7B5BC0CC29C745037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CoolTimeWatchWidget/CoolTimeWatchWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoolTimeWatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolTime;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime.watchkitapp.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		6FB2105D2A29F0CB79843152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoolTimeWatch/CoolTimeWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolTime;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Ysoup.CoolTime;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		98BD43549AAD3C5BD2109E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoolTimeWatch/CoolTimeWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CoolTime;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Ysoup.CoolTime;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ysoup.CoolTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
 		9C61BFD02EDD56D300BC5930 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
-				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -470,11 +809,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
-				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -693,6 +1032,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0CE86B3CB87B2D67B5D64038 /* Build configuration list for PBXNativeTarget "CoolTimeWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1700E7B5BC0CC29C745037 /* Release */,
+				667AEFB39D004856B0AE91E4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448AE7282797186D764D18CC /* Build configuration list for PBXNativeTarget "CoolTimeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB2105D2A29F0CB79843152 /* Release */,
+				98BD43549AAD3C5BD2109E40 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9C61BFCF2EDD56D300BC5930 /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -728,7 +1085,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.43.0;
+				minimumVersion = 3.44.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

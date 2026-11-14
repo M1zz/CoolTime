@@ -341,6 +341,9 @@ final class CooldownManager {
             )
         }
         WidgetDataStore.saveItems(widgetItems)
+        #if os(iOS)
+        PhoneWatchLink.shared.push(widgetItems)   // 손목도 같은 목록으로
+        #endif
 
         let stats = WidgetStats(
             totalItems: items.count,

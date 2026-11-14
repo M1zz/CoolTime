@@ -66,6 +66,10 @@ struct CoolTimeApp: App {
         // Siri · 단축어가 같은 저장소를 쓰게 한다 (→ CoolTimeIntents.swift)
         let container = Self.sharedModelContainer
         AppDependencyManager.shared.add(dependency: container)
+        #if os(iOS)
+        // 애플워치: 목록을 손목으로 보내고, 손목의 [썼어요] 를 받는다 (→ PhoneWatchLink.swift)
+        MainActor.assumeIsolated { PhoneWatchLink.shared.activate(container) }
+        #endif
     }
 
     var body: some Scene {

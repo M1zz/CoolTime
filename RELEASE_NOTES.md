@@ -10,144 +10,168 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 이제 Apple Vision Pro에서도 쓸 수 있어요
 넓은 창에서 대기 중인 항목을 한눈에 봐요
 기록은 iCloud로 iPhone과 그대로 이어져요
+Apple Watch에서 남은 시간을 보고 바로 써요
 
 ### App Store (English)
 
 Now available on Apple Vision Pro
 All your cooldowns in one wide window
 Everything syncs with iPhone via iCloud
+Check and log cooldowns on Apple Watch
 
 ### App Store (en-GB)
 
 Now available on Apple Vision Pro
 All your cooldowns in one wide window
 Everything syncs with iPhone via iCloud
+Check and log cooldowns on Apple Watch
 
 ### 앱스토어 (중국어 간체)
 
 现在也能在 Apple Vision Pro 上使用
 在宽大的窗口中一览等待中的项目
 记录通过 iCloud 与 iPhone 保持同步
+在 Apple Watch 上查看剩余时间并直接记录
 
 ### 앱스토어 (중국어 번체)
 
 現在也能在 Apple Vision Pro 上使用
 在寬大的視窗中一覽等待中的項目
 記錄透過 iCloud 與 iPhone 保持同步
+在 Apple Watch 上查看剩餘時間並直接記錄
 
 ### 앱스토어 (일본어)
 
 Apple Vision Proでも使えるようになりました
 広いウインドウで待機中の項目を一望
 記録はiCloudでiPhoneとそのまま続きます
+Apple Watchで残り時間を見てすぐ記録できます
 
 ### 앱스토어 (러시아어)
 
 Теперь и на Apple Vision Pro
 Все ожидания в одном широком окне
 Через iCloud всё синхронно с iPhone
+Остаток и отметки прямо на Apple Watch
 
 ### 앱스토어 (스페인어)
 
 Ya disponible en Apple Vision Pro
 Todas tus esperas en una gran ventana
 Todo sigue en el iPhone gracias a iCloud
+Consulta y registra en el Apple Watch
 
 ### 앱스토어 (독일어)
 
 Jetzt auch auf Apple Vision Pro
 Alle Wartezeiten in einem großen Fenster
 Per iCloud synchron mit dem iPhone
+Restzeit und Eintrag auf der Apple Watch
 
 ### 앱스토어 (프랑스어)
 
 Désormais aussi sur Apple Vision Pro
 Toutes vos attentes en grande fenêtre
 Tout suit sur l’iPhone grâce à iCloud
+Temps restant et suivi sur l’Apple Watch
 
 ### 앱스토어 (이탈리아어)
 
 Ora anche su Apple Vision Pro
 Tutte le attese in una finestra ampia
 Con iCloud tutto segue l’iPhone
+Tempo rimasto e registro su Apple Watch
 
 ### 앱스토어 (포르투갈어(브라질)) (pt-BR)
 
 Agora também no Apple Vision Pro
 Todas as esperas em uma janela ampla
 Tudo sincroniza com o iPhone pelo iCloud
+Veja o tempo e registre no Apple Watch
 
 ### 앱스토어 (태국어)
 
 ใช้งานได้แล้วบน Apple Vision Pro
 เห็นรายการที่รอทั้งหมดในหน้าต่างกว้าง
 ข้อมูลซิงค์กับ iPhone ผ่าน iCloud
+ดูเวลาที่เหลือและบันทึกได้บน Apple Watch
 
 ### 앱스토어 (베트남어)
 
 Nay đã có trên Apple Vision Pro
 Mọi mục đang chờ trong một cửa sổ rộng
 Dữ liệu đồng bộ với iPhone qua iCloud
+Xem và ghi lại ngay trên Apple Watch
 
 ### 앱스토어 (체코어)
 
 Nyní také na Apple Vision Pro
 Všechna čekání v jednom širokém okně
 Díky iCloudu vše navazuje na iPhone
+Zbývající čas a záznam na Apple Watch
 
 ### 앱스토어 (덴마크어)
 
 Nu også på Apple Vision Pro
 Alle ventetider i ét bredt vindue
 Alt følger med din iPhone via iCloud
+Ventetid og registrering på Apple Watch
 
 ### 앱스토어 (그리스어)
 
 Τώρα και στο Apple Vision Pro
 Όλες οι αναμονές σε ένα μεγάλο παράθυρο
 Με το iCloud συνεχίζετε από το iPhone
+Χρόνος και καταγραφή στο Apple Watch
 
 ### 앱스토어 (핀란드어)
 
 Nyt myös Apple Vision Prossa
 Kaikki odotukset leveässä ikkunassa
 iCloud pitää tiedot iPhonen tahdissa
+Jäljellä oleva aika Apple Watchilla
 
 ### 앱스토어 (인도네시아어)
 
 Kini tersedia di Apple Vision Pro
 Semua jeda tunggu dalam jendela lebar
 Data sinkron dengan iPhone lewat iCloud
+Cek sisa waktu dan catat di Apple Watch
 
 ### 앱스토어 (노르웨이어(보크말))
 
 Nå også på Apple Vision Pro
 Alle ventetider i ett bredt vindu
 Alt følger med iPhone via iCloud
+Ventetid og registrering på Apple Watch
 
 ### 앱스토어 (네덜란드어)
 
 Nu ook op Apple Vision Pro
 Al je wachttijden in één breed venster
 Via iCloud blijft alles gelijk op iPhone
+Bekijk en registreer op je Apple Watch
 
 ### 앱스토어 (폴란드어)
 
 Teraz także na Apple Vision Pro
 Wszystkie odliczania w szerokim oknie
 iCloud łączy dane z iPhone’em
+Sprawdzaj czas i zapisuj na Apple Watch
 
 ### 앱스토어 (스웨덴어)
 
 Nu även på Apple Vision Pro
 Alla väntetider i ett brett fönster
 Allt följer med din iPhone via iCloud
+Se tiden kvar och logga på Apple Watch
 
 ### 앱스토어 (튀르키예어)
 
 Artık Apple Vision Pro'da da
 Tüm beklemeler geniş bir pencerede
 Kayıtlar iCloud ile iPhone'da da güncel
+Kalan süre ve kayıt Apple Watch'ta
 
 ## 1.0.4
 
