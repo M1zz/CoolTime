@@ -84,7 +84,7 @@ Wait before you impulse buy
 
 ### 키워드
 
-habit,budget,savings,self control,no spend,frugal,delivery,coffee,shopping,discipline,tracker,money
+nobuy,regret,urge,compulsive,splurge,temptation,wishlist,challenge,addiction,no spend,frugal,budget
 
 ### 프로모션 텍스트
 
@@ -204,7 +204,7 @@ https://m1zz.github.io/CoolTime/zh-Hans/
 
 ### 키워드
 
-省钱,存钱,记账,自律,习惯养成,戒购物,不乱花钱,理财,倒计时,计时器,外卖,奶茶,咖啡,戒酒,游戏充值,预算,目标,克制,自控,打卡,节制,延迟满足,存款,开销,账本,小目标,拒绝剁手,攒钱
+不乱花钱,节制,延迟满足,拒绝剁手,消费冷静,心愿单,拔草,断舍离,种草,想买清单,剁手,极简,克制,戒酒,咖啡,预算,自控,存款,奶茶,小目标,游戏充值,习惯养成,目标,省钱,倒计时,自律,存钱
 
 ### 프로모션 텍스트
 
@@ -324,7 +324,7 @@ https://m1zz.github.io/CoolTime/ja/
 
 ### 키워드
 
-節約,貯金,家計簿,自制心,無駄遣い,節制,ダイエット,タイマー,カウントダウン,デリバリー,カフェ,コーヒー,お酒,ゲーム課金,目標,予算,我慢,自己管理,サブスク,出費,倹約,貯蓄,支出
+衝動買い防止,無駄遣い防止,散財,物欲,我慢アプリ,買い物記録,買い物依存,欲しい物,ほしいものリスト,節約アプリ,貯金アプリ,節制,我慢,自制心,予算,無駄遣い,サブスク,カウントダウン,コーヒー
 
 ### 프로모션 텍스트
 
