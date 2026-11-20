@@ -28,7 +28,7 @@ https://m1zz.github.io/CoolTime/
 
 ### 프로모션 텍스트
 
-참고 싶은 행동에 쿨타임을 걸어 보세요. 다시 해도 되는 때까지 남은 시간을 확인하며 차분히 기다리는 습관을 만들 수 있어요.
+연말 모임에 연말 세일까지, 지갑이 쉽게 열리는 때입니다. 쇼핑, 배달 음식, 카페 디저트에 쿨타임을 걸고, 기다린 만큼 아낀 돈을 확인하세요.
 
 ### 설명
 
@@ -88,7 +88,7 @@ nobuy,regret,urge,compulsive,splurge,temptation,wishlist,challenge,addiction,no 
 
 ### 프로모션 텍스트
 
-Put a cooldown on the things you want to hold off on. See how long until it's okay again, and build the habit of waiting calmly.
+Holiday parties and big sales make it easy to overspend. Put a cooldown on shopping, takeout and treats, wait it out, and see how much you saved.
 
 ### 설명
 
@@ -148,7 +148,7 @@ habit,budget,savings,self control,no spend,frugal,takeaway,coffee,shopping,disci
 
 ### 프로모션 텍스트
 
-Put a cooldown on the things you want to hold off on. See how long until it's okay again, and build the habit of waiting calmly.
+Christmas dos and big sales make it easy to overspend. Put a cooldown on shopping, takeaways and treats, wait it out, and see how much you've saved.
 
 ### 설명
 
@@ -208,7 +208,7 @@ https://m1zz.github.io/CoolTime/zh-Hans/
 
 ### 프로모션 텍스트
 
-给想克制的行为设一个冷却时间吧。看着距离可以再次使用还剩多久，慢慢养成从容等待的习惯。
+年底聚会多，促销也一波接一波，钱包最容易失守。给购物、外卖和甜点设个冷却时间，等一等，看看省下了多少钱。
 
 ### 설명
 
@@ -268,7 +268,7 @@ https://m1zz.github.io/CoolTime/zh-Hant/
 
 ### 프로모션 텍스트
 
-為想克制的行為設定冷卻時間吧。看著距離可以再次使用還剩多久，慢慢養成從容等待的習慣。
+年底聚會多，優惠檔期也一波接一波，荷包最容易失守。幫購物、外送和甜點設個冷卻時間，等一等，看看省下多少錢。
 
 ### 설명
 
@@ -328,7 +328,7 @@ https://m1zz.github.io/CoolTime/ja/
 
 ### 프로모션 텍스트
 
-我慢したい行動にクールタイムをかけてみましょう。また使えるようになるまでの残り時間を見ながら、落ち着いて待つ習慣をつくれます。
+忘年会に年末セール、財布のひもがゆるみやすい季節です。買い物やデリバリー、スイーツにクールタイムをかけて、待った分だけ浮いたお金を確かめましょう。
 
 ### 설명
 
@@ -388,7 +388,7 @@ CoolTime: пауза перед тратой
 
 ### 프로모션 텍스트
 
-Поставьте перезарядку на то, от чего хотите воздержаться. Смотрите, сколько осталось до следующего раза, и вырабатывайте привычку спокойно ждать.
+Новогодние застолья и распродажи — время, когда деньги утекают незаметно. Поставьте перезарядку на покупки, доставку еды и сладости и смотрите, сколько сэкономили.
 
 ### 설명
 
@@ -448,7 +448,7 @@ ahorro,hábitos,autocontrol,presupuesto,dinero,reto,sin gastos,café,alcohol,tem
 
 ### 프로모션 텍스트
 
-Pon un tiempo de espera a lo que quieres controlar. Mira cuánto falta para poder volver a hacerlo y crea el hábito de esperar con calma.
+Entre cenas de empresa y rebajas, el fin de año invita a gastar. Pon un tiempo de espera a las compras, la comida a domicilio y los caprichos, y mira cuánto ahorras.
 
 ### 설명
 
@@ -508,7 +508,7 @@ Sparen,Gewohnheit,Selbstkontrolle,Budget,Finanzen,Timer,Lieferdienst,Kaffee,Alko
 
 ### 프로모션 텍스트
 
-Leg eine Abklingzeit auf das, worauf du verzichten möchtest. Sieh, wie lange es noch dauert, und gewöhne dir an, gelassen zu warten.
+Weihnachtsfeiern und Rabattaktionen machen es leicht, zu viel auszugeben. Leg eine Abklingzeit auf Shopping, Lieferdienste und Naschereien und sieh, wie viel du sparst.
 
 ### 설명
 
@@ -568,7 +568,7 @@ Patientez avant de dépenser
 
 ### 프로모션 텍스트
 
-Placez un temps de recharge sur ce que vous voulez retenir. Voyez le temps restant avant de pouvoir recommencer et prenez l’habitude d’attendre sereinement.
+Fêtes de fin d'année et promos à la chaîne : on dépense vite. Placez un temps de recharge sur le shopping, les livraisons et les douceurs, et voyez vos économies.
 
 ### 설명
 
@@ -628,7 +628,7 @@ risparmio,abitudini,autocontrollo,budget,soldi,sfida,no spese,consegna,caffè,al
 
 ### 프로모션 텍스트
 
-Imposta un tempo di ricarica su ciò che vuoi limitare. Guarda quanto manca prima di poterlo rifare e crea l’abitudine di aspettare con calma.
+Cene di fine anno e saldi rendono facile spendere troppo. Imposta un tempo di ricarica su shopping, cibo a domicilio e sfizi, e guarda quanto hai risparmiato.
 
 ### 설명
 
@@ -688,7 +688,7 @@ economia,hábitos,autocontrole,orçamento,dinheiro,desafio,sem gastos,delivery,c
 
 ### 프로모션 텍스트
 
-Coloque uma recarga no que você quer segurar. Veja quanto falta para poder fazer de novo e crie o hábito de esperar com calma.
+Confraternizações e promoções de fim de ano deixam fácil gastar demais. Coloque uma recarga nas compras, no delivery e nos docinhos e veja quanto você economizou.
 
 ### 설명
 
@@ -748,7 +748,7 @@ CoolTime: พักก่อนใช้จ่าย
 
 ### 프로모션 텍스트
 
-ตั้งคูลดาวน์ให้สิ่งที่อยากยั้งไว้ ดูเวลาที่เหลือกว่าจะทำได้อีกครั้ง แล้วสร้างนิสัยรอคอยอย่างใจเย็น
+ปลายปีทั้งงานเลี้ยงทั้งโปรลดราคา เงินหมดง่ายกว่าที่คิด ตั้งคูลดาวน์ให้การช้อปปิ้ง สั่งอาหาร และของหวาน แล้วดูว่าประหยัดไปได้เท่าไร
 
 ### 설명
 
@@ -808,7 +808,7 @@ tiết kiệm,thói quen,tự chủ,ngân sách,tài chính,thử thách,đồ �
 
 ### 프로모션 텍스트
 
-Đặt thời gian chờ cho những điều bạn muốn kiềm chế. Xem còn bao lâu nữa mới được làm lại và tạo thói quen kiên nhẫn chờ đợi.
+Cuối năm tiệc tùng, khuyến mãi dồn dập, tiền đi lúc nào không hay. Đặt thời gian chờ cho mua sắm, đồ ăn giao tận nơi và đồ ngọt, rồi xem bạn tiết kiệm được bao nhiêu.
 
 ### 설명
 
@@ -868,7 +868,7 @@ Chvilku počkej před nákupem
 
 ### 프로모션 텍스트
 
-Nastav čekací dobu u toho, co si chceš odepřít. Sleduj, kolik zbývá, než to smíš znovu, a vypěstuj si návyk klidně čekat.
+Vánoční večírky a slevy svádějí k utrácení. Nastav čekací dobu na nákupy, rozvoz jídla i sladkosti a sleduj, kolik ušetříš.
 
 ### 설명
 
@@ -928,7 +928,7 @@ opsparing,vaner,selvkontrol,budget,udfordring,pengefri,levering,kaffe,alkohol,ti
 
 ### 프로모션 텍스트
 
-Sæt en ventetid på det, du vil lade være med. Se, hvor lang tid der er til, du må igen, og skab en vane med at vente roligt.
+Julefrokoster og udsalg gør det let at bruge for meget. Sæt en ventetid på shopping, takeaway og søde sager, og se, hvor meget du sparer.
 
 ### 설명
 
@@ -988,7 +988,7 @@ CoolTime: Πρώτα αναμονή
 
 ### 프로모션 텍스트
 
-Βάλε αναμονή σε ό,τι θέλεις να συγκρατήσεις. Δες πόσο μένει μέχρι να το κάνεις ξανά και χτίσε τη συνήθεια να περιμένεις ήρεμα.
+Γιορτινά τραπέζια και εκπτώσεις κάνουν εύκολο το παραπάνω ξόδεμα. Βάλε αναμονή σε ψώνια, ντελίβερι και γλυκά και δες πόσα γλίτωσες.
 
 ### 설명
 
@@ -1047,7 +1047,7 @@ säästäminen,tottumukset,itsekuri,budjetti,raha,haaste,rahaton,kotiinkuljetus,
 
 ### 프로모션 텍스트
 
-Aseta odotusaika asioille, joita haluat hillitä. Näe, paljonko aikaa on jäljellä, ja opettele odottamaan rauhassa.
+Pikkujoulut ja alennusmyynnit houkuttelevat tuhlaamaan. Aseta odotusaika shoppailulle, ruokatilauksille ja herkuille ja näe, paljonko säästät.
 
 ### 설명
 
@@ -1107,7 +1107,7 @@ hemat,tabungan,kebiasaan,kontrol diri,anggaran,uang,tantangan,tanpa belanja,pesa
 
 ### 프로모션 텍스트
 
-Beri waktu jeda pada hal yang ingin kamu tahan. Lihat sisa waktu sampai boleh lagi, lalu bangun kebiasaan menunggu dengan tenang.
+Akhir tahun penuh acara kumpul dan diskon besar, dompet jadi gampang jebol. Beri waktu jeda pada belanja, pesan antar, dan jajan, lalu lihat berapa yang kamu hemat.
 
 ### 설명
 
@@ -1167,7 +1167,7 @@ sparing,vaner,selvkontroll,budsjett,utfordring,pengefri,levering,kaffe,alkohol,t
 
 ### 프로모션 텍스트
 
-Sett en ventetid på det du vil holde igjen på. Se hvor lenge det er til du kan igjen, og bygg vanen med å vente rolig.
+Julebord og salg gjør det lett å bruke for mye. Sett en ventetid på shopping, takeaway og godsaker, og se hvor mye du sparer.
 
 ### 설명
 
@@ -1227,7 +1227,7 @@ sparen,gewoontes,zelfbeheersing,budget,uitdaging,geldloos,bezorging,koffie,alcoh
 
 ### 프로모션 텍스트
 
-Zet een wachttijd op wat je wilt uitstellen. Zie hoe lang het nog duurt tot het weer mag en bouw de gewoonte op om rustig te wachten.
+Kerstborrels en uitverkoop maken te veel uitgeven verleidelijk. Zet een wachttijd op shoppen, bezorgmaaltijden en snoep en zie hoeveel je bespaart.
 
 ### 설명
 
@@ -1287,7 +1287,7 @@ oszczędzanie,nawyki,samokontrola,budżet,pieniądze,wyzwanie,bez wydatków,dost
 
 ### 프로모션 텍스트
 
-Ustaw czas oczekiwania na to, czego chcesz sobie odmówić. Zobacz, ile zostało do kolejnego razu, i wyrób nawyk spokojnego czekania.
+Firmowe wigilie i wyprzedaże kuszą, by wydać za dużo. Ustaw czas oczekiwania na zakupy, jedzenie na dowóz i słodycze, i zobacz, ile oszczędzasz.
 
 ### 설명
 
@@ -1347,7 +1347,7 @@ sparande,vanor,självkontroll,budget,pengar,utmaning,spendera inte,leverans,kaff
 
 ### 프로모션 텍스트
 
-Sätt en väntetid på det du vill hålla igen på. Se hur länge det är kvar tills du får igen, och bygg vanan att vänta lugnt.
+Julbord och reor gör det lätt att handla för mycket. Sätt en väntetid på shopping, hämtmat och godis, och se hur mycket du sparar.
 
 ### 설명
 
@@ -1407,7 +1407,7 @@ tasarruf,birikim,alışkanlık,özdenetim,bütçe,para,meydan okuma,harcamasız,
 
 ### 프로모션 텍스트
 
-Kendini tutmak istediğin şeylere bekleme süresi koy. Tekrar yapabilmene ne kadar kaldığını gör ve sakince bekleme alışkanlığı edin.
+Yılbaşı buluşmaları ve indirimler fazla harcamayı kolaylaştırır. Alışverişe, yemek siparişine ve tatlılara bekleme süresi koy, ne kadar tasarruf ettiğini gör.
 
 ### 설명
 
