@@ -924,7 +924,7 @@ Pause før du bruger penge
 
 ### 키워드
 
-opsparing,vaner,selvkontrol,budget,udfordring,pengefri,levering,kaffe,alkohol,timer,mål
+opsparing,vaner,selvkontrol,budget,udfordring,pengefri,levering,kaffe,alkohol,timer,mål,impulskøb
 
 ### 프로모션 텍스트
 
@@ -1163,7 +1163,7 @@ Pause før du bruker penger
 
 ### 키워드
 
-sparing,vaner,selvkontroll,budsjett,utfordring,pengefri,levering,kaffe,alkohol,tidtaker,mål
+sparing,vaner,selvkontroll,budsjett,utfordring,pengefri,levering,kaffe,alkohol,tidtaker,mål,shopping
 
 ### 프로모션 텍스트
 
@@ -1223,7 +1223,7 @@ Pauze voor je geld uitgeeft
 
 ### 키워드
 
-sparen,gewoontes,zelfbeheersing,budget,uitdaging,geldloos,bezorging,koffie,alcohol,timer,doelen
+sparen,gewoontes,zelfbeheersing,budget,uitdaging,geldloos,bezorging,koffie,alcohol,timer,doelen,sale
 
 ### 프로모션 텍스트
 
