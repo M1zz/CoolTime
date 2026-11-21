@@ -66,6 +66,8 @@ TEXTS = {
            ("Se hur länge<br>du höll ut", "Följsamhet per objekt och historik i en överblick"), ("Från resor till leverans<br>med ett tryck", "Välj en vanlig väntetid och börja direkt")],
     "tr": [("Önce bekleme süresi,<br>sonra alışveriş", "Sipariş ve alışveriş, bekleme süresi bitince"), ("Bekleme süresinde<br>bir kez daha dur", "Bozarsan uyum oranının düşeceğini hatırlatırız"),
            ("Ne kadar<br>dayandığını gör", "Öğe bazında uyum ve kullanım geçmişi tek bakışta"), ("Seyahatten yemek siparişine<br>tek dokunuşla", "Sık kullanılan bir bekleme süresi seç ve hemen başla")],
+    "ar": [("التهدئة أولًا<br>ثم الشراء", "التوصيل والتسوق ينتظران انتهاء فترة التهدئة"), ("في فترة التهدئة؟<br>توقّف مرة أخرى", "ننبهك أن كسرها يُخفض نسبة التزامك"),
+           ("كم صبرت؟<br>الأرقام تخبرك", "الالتزام لكل عنصر وسجل الاستخدام بنظرة واحدة"), ("من السفر إلى التوصيل<br>بلمسة واحدة", "اختر فترة تهدئة شائعة وابدأ فورًا")],
 }
 STORE = {lang: lang for lang in TEXTS}   # 앱 언어 = App Store 로케일
 
@@ -125,6 +127,26 @@ body { background:%(dark_bg)s; }
 """,
 }
 
+# 오른쪽에서 왼쪽으로 쓰는 언어(아랍어): 글은 오른쪽에서 시작하고, 기울인 기기는 거울처럼 뒤집는다.
+# 가운데 맞춘 장면(hero-bleed · dark)은 dir=rtl 만으로 맞는다.
+RTL = {"ar", "he"}
+# 아랍어는 글자가 이어 쓰여서 글자 사이를 좁히면 끊어진다. SF Pro 엔 아랍 글자가 없다.
+RTL_CSS = """
+body { font-family:"SF Arabic","Geeza Pro",-apple-system,sans-serif; }
+.headline, .sub { letter-spacing:0; }
+.headline { line-height:1.3; }
+"""
+RTL_LAYOUTS = {
+    "left-text": """
+.headline { text-align:right; margin:280px 105px 0 90px; }
+.sub { text-align:right; margin:44px 109px 0 90px; }
+.wrap { left:auto; right:290px; perspective-origin:70% 30%; }
+.phone { transform:rotateY(-16deg) rotateX(2deg); }
+""",
+    "text-bottom": ".phone { transform:rotateY(10deg) rotateX(2deg); }",
+    "flat-rotate": ".wrap { left:auto; right:115px; } .phone { transform:rotate(6deg); }",
+}
+
 TEXT_FIRST = '<div class="headline">{h}</div><div class="sub">{s}</div><div class="wrap"><div class="phone"><img src="{img}"></div></div>'
 PHONE_FIRST = '<div class="wrap"><div class="phone"><img src="{img}"></div></div><div class="headline">{h}</div><div class="sub">{s}</div>'
 # ⚠️ 글꼴은 "SF Pro Display" 를 먼저 쓴다. 헤드리스 Chrome 의 -apple-system 은 é · á · ñ 같은 글자를 다른 글꼴로 그려 어긋난다.
@@ -136,7 +158,7 @@ function fit(el, want, min){ let size = parseFloat(getComputedStyle(el).fontSize
 const h = document.querySelector('.headline'), s = document.querySelector('.sub');
 fit(h, h.querySelectorAll('br').length + 1, 60); fit(s, 2, 34);
 </script>"""
-HTML = '<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
+HTML = '<!doctype html><html lang="{lang}"{dir}><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
 def raw_for(lang, fname):
@@ -156,8 +178,10 @@ def main(langs):
             assert src.exists(), f"원본 없음: {src}"
             tpl = PHONE_FIRST if layout == "text-bottom" else TEXT_FIRST
             css = BASE_CSS % vals + LAYOUTS[layout] % vals if "%(" in LAYOUTS[layout] else BASE_CSS % vals + LAYOUTS[layout]
+            if lang in RTL:
+                css += RTL_CSS + RTL_LAYOUTS.get(layout, "")
             html = tmp / f"{lang}-{fname}.html"
-            page = HTML.format(lang=lang, css=css, body=tpl.format(h=h, s=s, img=src.as_uri()))
+            page = HTML.format(lang=lang, dir=' dir="rtl"' if lang in RTL else "", css=css, body=tpl.format(h=h, s=s, img=src.as_uri()))
             html.write_text(page.replace("</body>", FIT_JS + "</body>"), encoding="utf-8")
             out = out_dir / fname
             # Chrome 은 그림을 다 쓰고도 안 끝나거나, 아무것도 안 그리고 끝날 때가 있다.

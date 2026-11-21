@@ -1,7 +1,7 @@
 #!/bin/zsh
 # 애플워치 스토어 스크린샷 — 꾸미지 않은 화면을 docs/screenshots/watch/<언어>/ 에 둔다 (416×496, Series 46mm).
 #
-# 사용법: zsh scripts/capture_watch.sh <워치 시뮬레이터 UDID> [언어 ...]   (언어를 안 주면 24개 모두)
+# 사용법: zsh scripts/capture_watch.sh <워치 시뮬레이터 UDID> [언어 ...]   (언어를 안 주면 25개 모두)
 #   - Debug 빌드가 build/dd/Build/Products/Debug-watchsimulator/CoolTimeWatch.app 에 있어야 한다(-watchDemo 는 DEBUG 전용).
 # 장면: list(쿨타임 목록) · detail(한 항목의 링과 [썼어요])
 set -u
@@ -10,7 +10,7 @@ cd "$(dirname "$0")/.."
 DEV=$1; shift
 APP=build/dd/Build/Products/Debug-watchsimulator/CoolTimeWatch.app
 BUNDLE=com.Ysoup.CoolTime.watchkitapp
-ALL=(ko en en-GB ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr)
+ALL=(ko en en-GB ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr ar)
 if (( $# )); then LANGS=($@); else LANGS=($ALL); fi
 
 locale_of() {
@@ -19,7 +19,7 @@ locale_of() {
     ja) echo ja_JP ;; ru) echo ru_RU ;; es) echo es_ES ;; de) echo de_DE ;; fr) echo fr_FR ;; it) echo it_IT ;;
     pt-BR) echo pt_BR ;; th) echo th_TH ;; vi) echo vi_VN ;; cs) echo cs_CZ ;; da) echo da_DK ;; el) echo el_GR ;;
     fi) echo fi_FI ;; id) echo id_ID ;; nb) echo nb_NO ;; nl) echo nl_NL ;; pl) echo pl_PL ;; sv) echo sv_SE ;;
-    tr) echo tr_TR ;; *) echo en_US ;;
+    tr) echo tr_TR ;; ar) echo ar_SA ;; *) echo en_US ;;
   esac
 }
 t() { perl -e 'alarm shift; exec @ARGV' "$@"; }   # 시뮬레이터가 멈추면 기다리지 않는다
