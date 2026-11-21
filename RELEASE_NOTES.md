@@ -173,6 +173,13 @@ Tüm beklemeler geniş bir pencerede
 Kayıtlar iCloud ile iPhone'da da güncel
 Kalan süre ve kayıt Apple Watch'ta
 
+### 앱스토어 (아랍어)
+
+متاح الآن على Apple Vision Pro أيضًا
+كل فترات التهدئة في نافذة واحدة واسعة
+تتزامن سجلاتك مع iPhone عبر iCloud
+تابع الوقت المتبقي وسجّل من Apple Watch
+
 ## 1.0.4
 
 ### 앱스토어 (한국어)
@@ -366,6 +373,14 @@ Kullanımı kaydet veya Siri ile öğe ekle
 Öğeleri iPhone aramasından aç
 Günlük yedek, iCloud’dan geri yükleme
 VoiceOver ve büyük metinle daha iyi
+
+### 앱스토어 (아랍어)
+
+اسأل Siri إن كان العنصر جاهزًا للاستخدام
+سجّل استخدامًا أو أضف عناصر عبر Siri
+افتح العناصر مباشرة من بحث iPhone
+نسخ احتياطي يومي واستعادة من iCloud
+تجربة أريح مع VoiceOver والخط الكبير
 
 ## 1.0.3
 
