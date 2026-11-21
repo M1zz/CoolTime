@@ -503,6 +503,7 @@
 				pl,
 				sv,
 				tr,
+				ar,
 			);
 			mainGroup = B7A00005001;
 			packageReferences = (

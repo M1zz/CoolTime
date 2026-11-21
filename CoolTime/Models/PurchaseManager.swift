@@ -67,7 +67,13 @@ final class PurchaseManager {
                                    foreverPass: foreverPass.isActive)
     }
 
-    func allows(_ feature: ProFeature) -> Bool { !isSelling || tier >= feature.tier }
+    func allows(_ feature: ProFeature) -> Bool {
+        #if DEBUG
+        // 스토어 스크린샷은 모든 칸이 열린 화면으로 찍는다 (scripts/capture_*.sh 가 -screenshotSeed 로 켠다)
+        if ScreenshotSeed.isOn { return true }
+        #endif
+        return !isSelling || tier >= feature.tier
+    }
 
     /// 무료 한도 안에서 하나 더 걸 수 있는가.
     func canAddItem(currentCount: Int) -> Bool {

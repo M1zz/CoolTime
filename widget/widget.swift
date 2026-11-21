@@ -161,13 +161,13 @@ struct MediumWidgetView: View {
 
                 HStack(spacing: 12) {
                     StatBox(
-                        value: "\(entry.availableItems.count)",
+                        value: entry.availableItems.count.formatted(),
                         label: String(localized: "사용 가능"),
                         color: readyColor
                     )
 
                     StatBox(
-                        value: "\(entry.onCooldownItems.count)",
+                        value: entry.onCooldownItems.count.formatted(),
                         label: String(localized: "대기 중"),
                         color: cooldownColor
                     )
@@ -273,6 +273,8 @@ struct LargeWidgetView: View {
                         .stroke(readyColor, style: StrokeStyle(lineWidth: 4, lineCap: .round))
                         .frame(width: 50, height: 50)
                         .rotationEffect(.degrees(-90))
+                        // 시계처럼 위에서 시계 방향으로 찬다. 오른쪽에서 왼쪽으로 쓰는 언어(아랍어)에선 회전이 거꾸로 돌아 아래에서 시작했다
+                        .environment(\.layoutDirection, .leftToRight)
 
                     Text("\(Int(entry.stats.complianceRate * 100))%")
                         .font(.caption2)
@@ -530,6 +532,8 @@ struct CoolTimeAccessoryView: View {
                     .trim(from: 0, to: item.cooldownProgress)
                     .stroke(Color.primary, style: StrokeStyle(lineWidth: 4, lineCap: .round))
                     .rotationEffect(.degrees(-90))
+                    // 시계처럼 위에서 시계 방향으로 찬다. 오른쪽에서 왼쪽으로 쓰는 언어(아랍어)에선 회전이 거꾸로 돌아 아래에서 시작했다
+                    .environment(\.layoutDirection, .leftToRight)
 
                 VStack(spacing: 0) {
                     Text(item.emoji)

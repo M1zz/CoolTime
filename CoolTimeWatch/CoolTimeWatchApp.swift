@@ -98,6 +98,8 @@ struct CooldownDetail: View {
                         .trim(from: 0, to: progress(at: context.date))
                         .stroke(cooling ? Color.orange : Color.green, style: .init(lineWidth: 8, lineCap: .round))
                         .rotationEffect(.degrees(-90))
+                        // 시계처럼 위에서 시계 방향으로 찬다. 오른쪽에서 왼쪽으로 쓰는 언어(아랍어)에선 회전이 거꾸로 돌아 아래에서 시작했다
+                        .environment(\.layoutDirection, .leftToRight)
                     VStack(spacing: 0) {
                         Text(item.emoji).font(.title2)
                         if cooling {

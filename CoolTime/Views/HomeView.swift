@@ -271,7 +271,7 @@ struct HomeView: View {
             HStack(spacing: 12) {
                 SummaryCard(
                     title: String(localized: "준수율"),
-                    value: "\(Int(manager.overallComplianceRate * 100))%",
+                    value: "\(Int(manager.overallComplianceRate * 100).formatted())%",
                     icon: "checkmark.shield.fill",
                     color: AppTheme.complianceColor(for: manager.overallComplianceRate),
                     colorScheme: colorScheme

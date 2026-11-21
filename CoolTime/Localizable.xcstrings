@@ -3,6 +3,12 @@
   "strings" : {
     "%@ %@, 사용 가능" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@، جاهز"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
     },
     "%@ %@, 쿨타임 %@ 남음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ %@، يتبقى %@ من فترة التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +311,12 @@
     },
     "%@ 절반 달성!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ وصلت إلى المنتصف!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -447,6 +465,12 @@
     },
     "%@ 쿨타임 종료!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ انتهت فترة التهدئة!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -595,6 +619,12 @@
     },
     "%@ 쿨타임의 절반을 지났어요! 조금만 더 힘내세요 💪" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجاوزت منتصف فترة التهدئة لـ %@! اصمد قليلًا بعد 💪"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -743,6 +773,12 @@
     },
     "%@ 쿨타임이 끝났어요. 이제 사용할 수 있어요!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهت فترة التهدئة لـ %@. يمكنك استخدامه الآن!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -891,6 +927,48 @@
     },
     "%lld개" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصر"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "عنصر واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "عنصران"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عناصر"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصرًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصر"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -1267,6 +1345,48 @@
     },
     "%lld개월" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld شهر"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "شهر"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "شهران"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld أشهر"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld شهرًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld شهر"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1415,6 +1535,48 @@
     },
     "%lld개월마다" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld شهر"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل شهر"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل شهرين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld أشهر"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld شهرًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld شهر"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -1731,6 +1893,48 @@
     },
     "%lld분" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دقيقة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "دقيقتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقائق"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld دقيقة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1879,6 +2083,12 @@
     },
     "%lld분 %lld초" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld د %lld ث"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2027,6 +2237,48 @@
     },
     "%lld시간" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ساعة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "ساعة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "ساعتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ساعات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ساعة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ساعة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2175,6 +2427,12 @@
     },
     "%lld시간 %lld분" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld س %lld د"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2323,6 +2581,48 @@
     },
     "%lld시간마다" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld ساعة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل ساعة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل ساعتين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld ساعات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld ساعة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld ساعة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -2627,6 +2927,48 @@
     },
     "%lld일" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld يوم"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "يوم"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "يومان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld أيام"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld يومًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld يوم"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2775,6 +3117,12 @@
     },
     "%lld일 %lld시간" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ي %lld س"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2923,6 +3271,48 @@
     },
     "%lld일마다" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld يوم"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل يوم"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل يومين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld أيام"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld يومًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld يوم"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -3239,6 +3629,48 @@
     },
     "%lld주" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld أسبوع"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أسبوع"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أسبوعان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld أسابيع"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld أسبوعًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld أسبوع"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3387,6 +3819,48 @@
     },
     "%lld주마다" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld أسبوع"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل أسبوع"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل أسبوعين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld أسابيع"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld أسبوعًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كل %lld أسبوع"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -3703,6 +4177,48 @@
     },
     "%lld초" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثانية"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "ثانية"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "ثانيتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثوانٍ"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثانية"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ثانية"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3851,6 +4367,48 @@
     },
     "%lld회" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld مرة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "مرة واحدة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "مرتان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld مرات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld مرة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld مرة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -4215,6 +4773,48 @@
     },
     "%lld회 사용" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld استخدام"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "استخدام واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "استخدامان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld استخدامات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld استخدامًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld استخدام"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -4591,6 +5191,12 @@
     },
     "'%@' 검색 결과 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا نتائج لـ «%@»"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4739,6 +5345,12 @@
     },
     "1개월" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شهر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4887,6 +5499,12 @@
     },
     "1주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5035,6 +5653,12 @@
     },
     "2개월" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شهران"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5183,6 +5807,12 @@
     },
     "2주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوعان"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5331,6 +5961,12 @@
     },
     "3일" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ثلاثة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5480,6 +6116,12 @@
     "Face ID 잠금" : {
       "comment" : "Roadmap item: Face ID lock",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قفل Face ID"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5629,6 +6271,12 @@
     "Face ID나 Touch ID로 앱을 잠가 내 쿨타임 기록을 지켜요." : {
       "comment" : "Roadmap item detail: Face ID lock",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقفل التطبيق بـ Face ID أو Touch ID ليبقى سجلك خاصًا بك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5778,6 +6426,12 @@
     "Siri에게 말하거나 단축어로 바로 사용 기록을 남겨요." : {
       "comment" : "Roadmap item detail: Siri and Shortcuts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل الاستخدام فورًا بطلب من Siri أو عبر اختصار."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5927,6 +6581,12 @@
     "Siri와 단축어" : {
       "comment" : "Roadmap item: Siri and Shortcuts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri والاختصارات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6076,6 +6736,12 @@
     "VoiceOver로 더 편하게" : {
       "comment" : "Roadmap item: better VoiceOver support",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجربة أفضل مع VoiceOver"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6224,6 +6890,12 @@
     },
     "값" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القيمة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6372,6 +7044,12 @@
     },
     "개발자에게 문의" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل مع المطوّر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6520,6 +7198,12 @@
     },
     "개월" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أشهر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6668,6 +7352,12 @@
     },
     "건너뛰기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6816,6 +7506,12 @@
     },
     "검색 결과 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا نتائج"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6964,6 +7660,12 @@
     },
     "검색어 지우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح البحث"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7112,6 +7814,12 @@
     },
     "게임 과금" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشتريات الألعاب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7260,6 +7968,12 @@
     },
     "게임 과금은 2주에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشتريات الألعاب مرة كل أسبوعين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7408,6 +8122,12 @@
     },
     "게임의 스킬 쿨타임처럼\n소비와 행동에 대기 시간을 설정해요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مثل انتظار المهارات في الألعاب،\nضع وقت انتظار لمشترياتك وعاداتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7556,6 +8276,12 @@
     },
     "경고: 쿨타임 중입니다. 지금 사용하면 준수율이 낮아집니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنبيه: هذا العنصر في فترة التهدئة. استخدامه الآن سيُخفض نسبة التزامك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7704,6 +8430,12 @@
     },
     "계속 힘내기 💪" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأواصل الصبر 💪"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7852,6 +8584,12 @@
     },
     "고가 쇼핑 (10만원+)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشتريات كبيرة (فوق مئة ألف وون)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8000,6 +8738,12 @@
     },
     "곧!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قريبًا!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8148,6 +8892,12 @@
     },
     "공연은 2달에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحفلات مرة كل شهرين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8296,6 +9046,12 @@
     },
     "국내여행" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رحلة داخلية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8445,6 +9201,12 @@
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "comment" : "Roadmap item detail: large text layouts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تكبير الخط تترتب الشاشات من جديد بشكل مريح دون أن يُقتطع منها شيء."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8594,6 +9356,12 @@
     "기기 간 동기화" : {
       "comment" : "Roadmap item: sync across devices",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزامنة بين أجهزتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8742,6 +9510,12 @@
     },
     "기본 정보" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المعلومات الأساسية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8890,6 +9664,12 @@
     },
     "깨기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كسر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9038,6 +9818,12 @@
     },
     "깬 횟수" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرات الكسر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9186,6 +9972,12 @@
     },
     "나만의 통계로\n습관을 분석하세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حلّل عاداتك\nبإحصاءاتك الخاصة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9334,6 +10126,12 @@
     },
     "나중에" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لاحقًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9482,6 +10280,12 @@
     },
     "남은 시간: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوقت المتبقي: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9631,6 +10435,12 @@
     "내 데이터 한 번에 지우기" : {
       "comment" : "Roadmap item: delete all data",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احذف كل بياناتك دفعة واحدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9779,6 +10589,12 @@
     },
     "네일아트" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تزيين الأظافر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9927,6 +10743,12 @@
     },
     "네일은 3주에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأظافر مرة كل ثلاثة أسابيع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10075,6 +10897,12 @@
     },
     "넷플릭스 빈지워칭" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاهدة المسلسلات المتواصلة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10223,6 +11051,12 @@
     },
     "다른 키워드로 검색해보세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جرّب كلمة بحث أخرى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10371,6 +11205,12 @@
     },
     "다음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10519,6 +11359,12 @@
     },
     "다이어트 치팅은 주 1회" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يوم حرّ في الحمية مرة أسبوعيًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10667,6 +11513,12 @@
     },
     "단위" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوحدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10815,6 +11667,12 @@
     },
     "달달한 건 4일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحلويات مرة كل أربعة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10964,6 +11822,12 @@
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요." : {
       "comment" : "Roadmap item detail: colors and contrast",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبقى كل شيء واضحًا حتى مع زيادة التباين أو صعوبة التمييز بين الألوان."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11113,6 +11977,12 @@
     "더 많은 나라 말로 앱을 쓸 수 있게 해요." : {
       "comment" : "Roadmap item detail: more languages",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق بلغات أكثر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11262,6 +12132,12 @@
     "더 많은 언어" : {
       "comment" : "Roadmap item: more languages",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغات أكثر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11410,6 +12286,12 @@
     },
     "디저트" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحلويات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11558,6 +12440,12 @@
     },
     "로또" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليانصيب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11706,6 +12594,12 @@
     },
     "로또는 주 1회" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليانصيب مرة أسبوعيًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11854,6 +12748,12 @@
     },
     "마사지/스파" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مساج / سبا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12002,6 +12902,12 @@
     },
     "마사지는 2주에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المساج مرة كل أسبوعين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12150,6 +13056,12 @@
     },
     "메모 (선택)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظة (اختياري)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12298,6 +13210,12 @@
     },
     "모든 아이템이 쿨타임 중이에요. %lld개 대기 중!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل العناصر في فترة التهدئة. بانتظار: %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12446,6 +13364,12 @@
     },
     "몰아보기는 3일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المشاهدة المتواصلة مرة كل ثلاثة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12594,6 +13518,12 @@
     },
     "미용실" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صالون الشعر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12742,6 +13672,12 @@
     },
     "미용실은 한 달에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صالون الشعر مرة في الشهر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12890,6 +13826,12 @@
     },
     "배달은 3일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توصيل الطعام مرة كل ثلاثة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13038,6 +13980,12 @@
     },
     "배달음식" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توصيل الطعام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13187,6 +14135,12 @@
     "백업과 내보내기" : {
       "comment" : "Roadmap item: backup and export",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النسخ الاحتياطي والتصدير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13335,6 +14289,12 @@
     },
     "버그 제보와 기능 제안을 환영합니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نرحّب ببلاغات الأخطاء واقتراحات الميزات."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13484,6 +14444,12 @@
     "보기 편한 색과 대비" : {
       "comment" : "Roadmap item: better colors and contrast",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألوان وتباين أريح للعين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13632,6 +14598,12 @@
     },
     "비용을 입력하면 절약 금액을 계산해드려요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل التكلفة وسنحسب لك ما وفّرته"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13780,6 +14752,12 @@
     },
     "사용" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13928,6 +14906,12 @@
     },
     "사용 가능" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاهز"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14076,6 +15060,12 @@
     },
     "사용 가능 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاهز (%lld)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14224,6 +15214,48 @@
     },
     "사용 가능한 아이템 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصر جاهز"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "عنصر واحد جاهز"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "عنصران جاهزان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عناصر جاهزة"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصرًا جاهزًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصر جاهز"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -14600,6 +15632,12 @@
     },
     "사용 가능한 아이템 %lld개! 쿨타임 중 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاهز: %lld · في التهدئة: %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14748,6 +15786,12 @@
     },
     "사용 완료" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم الاستخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14896,6 +15940,12 @@
     },
     "사용하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدمه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15044,6 +16094,12 @@
     },
     "삭제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15192,6 +16248,12 @@
     },
     "상세 기록" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السجل التفصيلي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15340,6 +16402,12 @@
     },
     "새 쿨타임" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فترة تهدئة جديدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15488,6 +16556,12 @@
     },
     "새 쿨타임 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة فترة تهدئة جديدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15636,6 +16710,12 @@
     },
     "설정" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعدادات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15784,6 +16864,12 @@
     },
     "술 마시기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكحول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15932,6 +17018,12 @@
     },
     "시간" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ساعات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16080,6 +17172,12 @@
     },
     "시작하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16228,6 +17326,12 @@
     },
     "실제 비용 (선택)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التكلفة الفعلية (اختياري)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16377,6 +17481,12 @@
     "쓰는 요령 알려 주기" : {
       "comment" : "Roadmap item: tips",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصائح مفيدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16525,6 +17635,12 @@
     },
     "아이콘" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأيقونة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16673,6 +17789,12 @@
     },
     "아이템" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنصر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16821,6 +17943,12 @@
     },
     "아이템 검색..." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابحث في العناصر…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16969,6 +18097,12 @@
     },
     "아이템별 준수율" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الالتزام حسب العنصر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17118,6 +18252,12 @@
     "아이패드나 맥에서 키보드만으로 주요 기능을 쓸 수 있어요." : {
       "comment" : "Roadmap item detail: keyboard control",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم الميزات الرئيسية بلوحة المفاتيح وحدها على iPad أو Mac."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17267,6 +18407,12 @@
     "아이폰과 아이패드에서 같은 쿨타임을 이어서 봐요." : {
       "comment" : "Roadmap item detail: sync across devices",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تابع فترات التهدئة نفسها على iPhone وiPad."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17415,6 +18561,12 @@
     },
     "아직 쿨타임 아이템이 없어요. 추가해보세요!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد عناصر في فترة التهدئة بعد. أضف واحدًا!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17563,6 +18715,12 @@
     },
     "아직 쿨타임이 없습니다. 템플릿에서 추가하거나 직접 만들어보세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد فترات تهدئة بعد. أضف واحدة من القوالب أو أنشئها بنفسك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17711,6 +18869,12 @@
     },
     "아직 쿨타임이 없어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد فترات تهدئة بعد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17859,6 +19023,12 @@
     },
     "아직 활동이 없어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد نشاط بعد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18007,6 +19177,12 @@
     },
     "알림으로\n놓치지 마세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا تفوّت شيئًا\nمع الإشعارات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18155,6 +19331,12 @@
     },
     "알림이 꺼져있습니다. 설정 버튼을 눌러 알림을 켜세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإشعارات متوقفة. اضغط زر الإعدادات لتفعيلها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18303,6 +19485,12 @@
     },
     "알림이 꺼져있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإشعارات متوقفة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18452,6 +19640,12 @@
     "알아 두면 편한 기능을 알맞은 때에 살짝 알려 줘요." : {
       "comment" : "Roadmap item detail: tips",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تلميحات لطيفة عن ميزات مفيدة في الوقت المناسب."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18600,6 +19794,12 @@
     },
     "야식" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجبات آخر الليل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18748,6 +19948,12 @@
     },
     "야식은 5일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجبات آخر الليل مرة كل خمسة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18897,6 +20103,12 @@
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
       "comment" : "Roadmap item detail: what's new",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند فتح التطبيق أول مرة بعد التحديث، نعرض لك ما الجديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19046,6 +20258,12 @@
     "업데이트 소식" : {
       "comment" : "Roadmap item: what's new",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الجديد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19194,6 +20412,12 @@
     },
     "영화관" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السينما"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19342,6 +20566,12 @@
     },
     "영화는 2주에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السينما مرة كل أسبوعين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19490,6 +20720,12 @@
     },
     "예상 비용 (선택)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التكلفة المتوقعة (اختياري)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19638,6 +20874,12 @@
     },
     "예상 절약" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التوفير المتوقع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19786,6 +21028,12 @@
     },
     "예상: ₩%@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المتوقع: ₩%@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19934,6 +21182,12 @@
     },
     "오늘의 쿨타임" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فترات التهدئة اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20082,6 +21336,12 @@
     },
     "옷 쇼핑" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شراء الملابس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20230,6 +21490,12 @@
     },
     "옷은 2주에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملابس مرة كل أسبوعين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20378,6 +21644,12 @@
     },
     "완료" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20526,6 +21798,12 @@
     },
     "왜 사용하나요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لماذا تستخدمه الآن؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20674,6 +21952,12 @@
     },
     "외식" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأكل في المطاعم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20822,6 +22106,12 @@
     },
     "외식은 주 1회" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المطاعم مرة في الأسبوع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20970,6 +22260,12 @@
     },
     "운동 쉬는 날은 3일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يوم راحة من التمرين كل ثلاثة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21119,6 +22415,12 @@
     "움직임 줄이기" : {
       "comment" : "Roadmap item: reduce motion",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقليل الحركة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21268,6 +22570,12 @@
     "움직임 줄이기를 켜면 화면 효과가 차분해져요." : {
       "comment" : "Roadmap item detail: reduce motion",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تفعيل تقليل الحركة تهدأ مؤثرات الشاشة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21417,6 +22725,12 @@
     "원하면 앱 안에서 쿨타임 기록을 모두 지울 수 있어요." : {
       "comment" : "Roadmap item detail: delete all data",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "امسح سجل فترات التهدئة كله من داخل التطبيق متى شئت."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21565,6 +22879,12 @@
     },
     "음주는 3일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكحول مرة كل ثلاثة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21713,6 +23033,12 @@
     },
     "이름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21861,6 +23187,12 @@
     },
     "이메일로 문의하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راسل المطوّر بالبريد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22009,6 +23341,12 @@
     },
     "이번 달 예상 절약 금액 %lld원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التوفير المتوقع هذا الشهر: %lld وون"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22157,6 +23495,12 @@
     },
     "인스타그램 DM (@lee25_ios)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رسالة على Instagram (@lee25_ios)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22305,6 +23649,12 @@
     },
     "일" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22453,6 +23803,12 @@
     },
     "자주 사용하는 쿨타임 항목들이에요\n탭해서 바로 추가하세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فترات تهدئة شائعة\nاضغط على أي منها لإضافتها فورًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22601,6 +23957,12 @@
     },
     "전자기기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأجهزة الإلكترونية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22749,6 +24111,12 @@
     },
     "전자기기는 6개월에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأجهزة الإلكترونية مرة كل ستة أشهر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22897,6 +24265,12 @@
     },
     "전체 준수율" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسبة الالتزام الكلية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23045,6 +24419,12 @@
     },
     "절약 금액을\n확인하세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعرف كم\nوفّرت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23193,6 +24573,12 @@
     },
     "주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسابيع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23341,6 +24727,12 @@
     },
     "주식 매매" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تداول الأسهم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23489,6 +24881,12 @@
     },
     "준수율" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الالتزام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23637,6 +25035,12 @@
     },
     "준수율 %lld퍼센트" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسبة الالتزام %lld بالمئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23785,6 +25189,12 @@
     },
     "준수율과 카테고리별 통계로\n더 나은 습관을 만들어가요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسبة الالتزام وإحصاءات الفئات\nتساعدك على بناء عادات أفضل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23933,6 +25343,12 @@
     },
     "지금 사용하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدمه الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24081,6 +25497,12 @@
     },
     "지금 사용하면 준수율이 낮아집니다" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدامه الآن سيُخفض نسبة التزامك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24229,6 +25651,12 @@
     },
     "지원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدعم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24377,6 +25805,12 @@
     },
     "직접 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف بنفسك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24525,6 +25959,12 @@
     },
     "총 사용" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجمالي الاستخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24673,6 +26113,12 @@
     },
     "총 아이템" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجمالي العناصر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24821,6 +26267,12 @@
     },
     "총 지출 (추정)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجمالي الإنفاق (تقديري)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24969,6 +26421,12 @@
     },
     "최근 활동" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النشاط الأخير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25117,6 +26575,12 @@
     },
     "추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25265,6 +26729,12 @@
     },
     "추천 템플릿" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قوالب مقترحة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25413,6 +26883,12 @@
     },
     "충동 매매 방지, 주 1회" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجنّب الصفقات المندفعة، مرة أسبوعيًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25561,6 +27037,12 @@
     },
     "충동구매" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشراء الاندفاعي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25709,6 +27191,12 @@
     },
     "충동구매는 일주일에 한 번만" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشراء الاندفاعي مرة واحدة في الأسبوع فقط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25857,6 +27345,12 @@
     },
     "취소" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26005,6 +27499,12 @@
     },
     "치팅데이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يوم حرّ في الحمية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26153,6 +27653,12 @@
     },
     "카테고리" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26301,6 +27807,12 @@
     },
     "카테고리별" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسب الفئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26449,6 +27961,12 @@
     },
     "카페" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المقهى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26597,6 +28115,12 @@
     },
     "커피는 이틀에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القهوة مرة كل يومين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26745,6 +28269,12 @@
     },
     "콘서트/공연" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفلات / عروض"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26893,6 +28423,12 @@
     },
     "쿨타임" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27042,6 +28578,12 @@
     "쿨타임 기록을 파일로 저장하고 다시 불러올 수 있어요." : {
       "comment" : "Roadmap item detail: backup and export",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ سجل فترات التهدئة في ملف واستعده لاحقًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27190,6 +28732,12 @@
     },
     "쿨타임 깨고 사용하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكسر فترة التهدئة واستخدمه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27338,6 +28886,12 @@
     },
     "쿨타임 깨기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كسر فترة التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27486,6 +29040,12 @@
     },
     "쿨타임 깬 횟수" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرات كسر التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27634,6 +29194,12 @@
     },
     "쿨타임 리셋" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة ضبط فترة التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27782,6 +29348,12 @@
     },
     "쿨타임 종료 알림을 받으려면 설정에서 켜주세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فعّل الإشعارات من الإعدادات لتصلك تنبيهات انتهاء فترة التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27930,6 +29502,12 @@
     },
     "쿨타임 주기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مدة التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28078,6 +29656,12 @@
     },
     "쿨타임 중" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28226,6 +29810,12 @@
     },
     "쿨타임 중 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في التهدئة (%lld)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28374,6 +29964,48 @@
     },
     "쿨타임 중인 아이템 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصر في التهدئة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "عنصر واحد في التهدئة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "عنصران في التهدئة"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عناصر في التهدئة"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصرًا في التهدئة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld عنصر في التهدئة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -28750,6 +30382,12 @@
     },
     "쿨타임 중입니다!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في فترة التهدئة!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28898,6 +30536,12 @@
     },
     "쿨타임으로\n충동을 관리하세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحكّم في اندفاعك\nبفترات التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29046,6 +30690,12 @@
     },
     "쿨타임을 지킬 때마다\n얼마나 절약했는지 알려드려요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلما التزمت بفترة التهدئة\nنخبرك كم وفّرت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29194,6 +30844,12 @@
     },
     "쿨타임이 끝나면 알려드릴게요\n위젯으로도 확인할 수 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سننبهك عند انتهاء فترة التهدئة\nويمكنك المتابعة من الأداة أيضًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29343,6 +30999,12 @@
     "큰 글씨에 맞춘 화면" : {
       "comment" : "Roadmap item: layouts that fit large text sizes",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشات تناسب الخط الكبير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29491,6 +31153,12 @@
     },
     "큰 지출은 한 달에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإنفاق الكبير مرة في الشهر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29640,6 +31308,12 @@
     "키보드로 조작하기" : {
       "comment" : "Roadmap item: keyboard control",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحكم بلوحة المفاتيح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29788,6 +31462,12 @@
     },
     "택시" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاكسي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29936,6 +31616,12 @@
     },
     "택시는 3일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاكسي مرة كل ثلاثة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30084,6 +31770,12 @@
     },
     "탭하여 사용하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط للاستخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30232,6 +31924,12 @@
     },
     "탭하여 쿨타임 깨기, 길게 눌러 더 많은 옵션" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط لكسر فترة التهدئة، واضغط مطولًا لمزيد من الخيارات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30380,6 +32078,12 @@
     },
     "템플릿" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القوالب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30528,6 +32232,12 @@
     },
     "템플릿에서 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف من القوالب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30676,6 +32386,12 @@
     },
     "템플릿에서 추가하거나\n직접 만들어보세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف واحدة من القوالب\nأو أنشئها بنفسك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30824,6 +32540,12 @@
     },
     "통계" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإحصاءات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30972,6 +32694,12 @@
     },
     "통계 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الإحصاءات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31120,6 +32848,12 @@
     },
     "패스트푸드" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوجبات السريعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31268,6 +33002,12 @@
     },
     "패스트푸드는 5일에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوجبات السريعة مرة كل خمسة أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31417,6 +33157,12 @@
     "펼치는 아이폰 화면" : {
       "comment" : "Roadmap item: foldable iPhone layout",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشة iPhone القابل للطي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31566,6 +33312,12 @@
     "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요." : {
       "comment" : "Roadmap item detail: foldable iPhone layout",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم الشاشة العريضة في iPhone القابل للطي كجزأين متجاورين."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31714,6 +33466,12 @@
     },
     "한 달에 한 번 국내여행" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رحلة داخلية مرة في الشهر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31862,6 +33620,12 @@
     },
     "해외여행" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السفر للخارج"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32010,6 +33774,12 @@
     },
     "해외여행은 2달에 한 번이면 충분해요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رحلة للخارج كل شهرين تكفي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32158,6 +33928,12 @@
     },
     "호캉스" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إقامة فندقية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32306,6 +34082,12 @@
     },
     "호텔 힐링은 3주에 한 번" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استراحة فندقية مرة كل ثلاثة أسابيع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32455,6 +34237,12 @@
     "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요." : {
       "comment" : "Roadmap item detail: better VoiceOver support",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ VoiceOver كل زر وكل تفصيل كاملًا وبالترتيب الصحيح."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32603,6 +34391,12 @@
     },
     "휴식의 날 (운동 스킵)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يوم راحة (بلا تمرين)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32751,6 +34545,12 @@
     },
     "여행" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السفر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32899,6 +34699,12 @@
     },
     "쇼핑" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التسوق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33047,6 +34853,12 @@
     },
     "음식" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الطعام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33195,6 +35007,12 @@
     },
     "엔터테인먼트" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الترفيه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33343,6 +35161,12 @@
     },
     "라이프스타일" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسلوب الحياة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33491,6 +35315,12 @@
     },
     "건강" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصحة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33639,6 +35469,12 @@
     },
     "금융" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33787,6 +35623,12 @@
     },
     "기타" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أخرى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33936,6 +35778,48 @@
     "지금까지 쿨타임을 %lld번 지켜 냈어요" : {
       "comment" : "Tip ask card: how many times the person waited out a cooldown before using again",
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "صبرت حتى نهاية فترة التهدئة %lld مرة حتى الآن"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "صبرت حتى نهاية فترة التهدئة مرة واحدة حتى الآن"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "صبرت حتى نهاية فترة التهدئة مرتين حتى الآن"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "صبرت حتى نهاية فترة التهدئة %lld مرات حتى الآن"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "صبرت حتى نهاية فترة التهدئة %lld مرة حتى الآن"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "صبرت حتى نهاية فترة التهدئة %lld مرة حتى الآن"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -34348,6 +36232,12 @@
     },
     "기록을 열지 못했어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر فتح سجلاتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34490,6 +36380,12 @@
     },
     "저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجلاتك المحفوظة لم تُحذف. لكن ما تضيفه الآن لن يُحفظ، لذا أغلق التطبيق وافتحه من جديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34632,6 +36528,12 @@
     },
     "쿨타임 항목" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنصر تهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34774,6 +36676,12 @@
     },
     "써도 될까?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل يمكنني استخدامه؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34916,6 +36824,12 @@
     },
     "그 항목의 쿨타임이 얼마나 남았는지 알려 줍니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يخبرك بالمدة المتبقية من فترة التهدئة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35058,6 +36972,12 @@
     },
     "항목" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنصر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35200,6 +37120,12 @@
     },
     "어떤 항목인가요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أي عنصر؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35342,6 +37268,12 @@
     },
     "그 항목을 찾지 못했어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم أجد هذا العنصر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35484,6 +37416,12 @@
     },
     "%@, 이제 써도 돼요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ جاهز. تفضّل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35626,6 +37564,12 @@
     },
     "%@은 아직 %@ 남았어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتبقى %2$@ حتى يصبح %1$@ جاهزًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35768,6 +37712,12 @@
     },
     "썼어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل استخدامًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35910,6 +37860,12 @@
     },
     "사용을 남기고 쿨타임을 다시 시작합니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يسجّل استخدامًا ويبدأ فترة التهدئة من جديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36052,6 +38008,12 @@
     },
     "아직 %@ 남았어요. 그래도 남길까요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتبقى %@ بعد. هل تسجّله رغم ذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36194,6 +38156,12 @@
     },
     "남겼어요. 다음은 %@ 뒤예요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم التسجيل. الاستخدام التالي بعد %@."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36336,6 +38304,12 @@
     },
     "쿨타임 걸기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة فترة تهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36478,6 +38452,12 @@
     },
     "이름과 대기 일수로 새 항목을 만듭니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ينشئ عنصرًا جديدًا باسم وعدد أيام الانتظار."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36620,6 +38600,12 @@
     },
     "무엇에 쿨타임을 걸까요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "على أي شيء تريد وضع فترة تهدئة؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36762,6 +38748,12 @@
     },
     "대기 일수" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أيام الانتظار"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36904,6 +38896,12 @@
     },
     "%@을 %lld일 쿨타임으로 추가했어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أُضيف %1$@ بفترة تهدئة عدد أيامها %2$lld."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37046,6 +39044,12 @@
     },
     "Check Cooldown" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل يمكنني استخدامه؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37194,6 +39198,12 @@
     },
     "Log a Use" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل استخدامًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37342,6 +39352,12 @@
     },
     "Add Cooldown" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة فترة تهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37491,6 +39507,12 @@
     "남은 쿨타임을 확인할 항목" : {
       "comment" : "Siri: check cooldown item parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنصر الذي تريد معرفة المتبقي من فترة تهدئته"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37634,6 +39656,12 @@
     "방금 쓴 항목" : {
       "comment" : "Siri: use item parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنصر الذي استخدمته للتو"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37777,6 +39805,12 @@
     "쿨타임을 걸 대상의 이름" : {
       "comment" : "Siri: add cooldown name parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم ما تريد وضع فترة تهدئة عليه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37920,6 +39954,12 @@
     "한 번 쓰고 다시 쓸 때까지 기다릴 날수" : {
       "comment" : "Siri: add cooldown days parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد الأيام التي تنتظرها بعد الاستخدام قبل أن تستخدمه مجددًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38063,6 +40103,12 @@
     "항목 열기" : {
       "comment" : "Siri/Spotlight: open a cooldown item",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح العنصر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38206,6 +40252,12 @@
     "앱에서 그 항목을 열어 사용을 남길 수 있게 합니다." : {
       "comment" : "Siri: open item description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح العنصر في التطبيق لتسجّل استخدامه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38349,6 +40401,12 @@
     "열 항목" : {
       "comment" : "Siri: open item parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنصر المراد فتحه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38492,6 +40550,12 @@
     "앱 이름 없이 Siri에게" : {
       "comment" : "Roadmap item: Siri AI without saying the app name",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri دون ذكر اسم التطبيق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38641,6 +40705,12 @@
     "앱 이름을 말하지 않아도 Siri가 내 항목을 찾아 남은 시간을 알려 주고 사용을 남겨요." : {
       "comment" : "Roadmap item detail: Siri AI without saying the app name",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حتى دون ذكر اسم التطبيق، يجد Siri عنصرك ويخبرك بالوقت المتبقي ويسجّل الاستخدام."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38789,6 +40859,12 @@
     },
     "무료" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجاني"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38937,6 +41013,12 @@
     },
     "지르고 싶은 것 다섯 개에 쿨타임 걸기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فترة تهدئة لخمسة أشياء تغريك بشرائها"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39085,6 +41167,12 @@
     },
     "참고 싶은 것 모두에 쿨타임" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فترة تهدئة لكل ما تريد مقاومته"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39233,6 +41321,12 @@
     },
     "앱을 안 열어도 보이고, 숫자로 돌아보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تراها دون فتح التطبيق، وتراجع عاداتك بالأرقام"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39381,6 +41475,12 @@
     },
     "무제한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بلا حدود"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39529,6 +41629,12 @@
     },
     "쿨타임 아이템" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عناصر التهدئة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39677,6 +41783,12 @@
     },
     "깨기 전 경고 · 메모 · 비용 기록" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنبيه قبل الكسر · ملاحظات · التكلفة الفعلية"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39825,6 +41937,12 @@
     },
     "끝 알림" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنبيه عند الانتهاء"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39973,6 +42091,12 @@
     },
     "전체 준수율 · 아낀 금액 · 사용 기록" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الالتزام الكلي · المبلغ الموفَّر · السجل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40121,6 +42245,12 @@
     },
     "기록 CSV 내보내기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصدير السجل بصيغة CSV"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40269,6 +42399,12 @@
     },
     "절반 응원 알림" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تشجيع في منتصف المدة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40417,6 +42553,12 @@
     },
     "아이템별 · 카테고리별 준수율" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الالتزام حسب العنصر · حسب الفئة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40565,6 +42707,12 @@
     },
     "최근 활동 흐름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النشاط الأخير"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40713,6 +42861,12 @@
     },
     "홈 · 잠금화면 위젯" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدوات الشاشة الرئيسية · شاشة القفل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40861,6 +43015,12 @@
     },
     "이 Apple 계정에서 구매한 기록을 찾지 못했어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على أي مشتريات لحساب Apple هذا."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41009,6 +43169,12 @@
     },
     "요금제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطط"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41157,6 +43323,12 @@
     },
     "구매 복원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة المشتريات"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41305,6 +43477,12 @@
     },
     "쿨타임 Plus · Pro" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime Plus · Pro"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41453,6 +43631,12 @@
     },
     "참은 만큼 더 잘 보이게. 연 구독이나 평생 중에 고르세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاهد كل رغبة قاومتها. اختر الاشتراك السنوي أو مدى الحياة."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41601,6 +43785,12 @@
     },
     "포함" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متضمَّن"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41749,6 +43939,12 @@
     },
     "없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير متضمَّن"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41897,6 +44093,12 @@
     },
     "지금 쓰는 칸" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطتك الحالية"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42045,6 +44247,12 @@
     },
     "월 구독 · %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شهري · %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42193,6 +44401,12 @@
     },
     "주 구독 · %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوعي · %@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42341,6 +44555,12 @@
     },
     "주 · 월 구독으로 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الاشتراك الأسبوعي والشهري"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42489,6 +44709,12 @@
     },
     "주 구독 시작" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الأسبوعي"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42637,6 +44863,12 @@
     },
     "월 구독 시작" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الشهري"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42785,6 +45017,12 @@
     },
     "연 구독 시작" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ السنوي"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42933,6 +45171,12 @@
     },
     "Pro 평생으로 올리기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الترقية إلى Pro مدى الحياة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43081,6 +45325,12 @@
     },
     "평생으로 사기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشترِ مدى الحياة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43229,6 +45479,12 @@
     },
     "값을 불러오는 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ تحميل الأسعار…"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43377,6 +45633,12 @@
     },
     "요금제를 불러오지 못했어요. 인터넷 연결을 확인하고 다시 불러와 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر تحميل الخطط. تحقّق من اتصالك بالإنترنت وحاول مجددًا."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43525,6 +45787,12 @@
     },
     "다시 불러오기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة المحاولة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43673,6 +45941,12 @@
     },
     "구독은 기간이 끝나기 24시간 전까지 해지하지 않으면 같은 요금으로 자동 갱신되고, Apple 계정으로 결제됩니다. 연 구독을 처음 시작하면 첫 해는 할인된 값으로 결제되고 그 뒤에는 정가로 갱신됩니다. 해지와 관리는 App Store 계정 설정에서 할 수 있어요. 평생은 구독이 아니라 한 번만 결제합니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تتجدد الاشتراكات تلقائيًا بالسعر نفسه ما لم تُلغَ قبل أربع وعشرين ساعة على الأقل من نهاية المدة، ويُخصم المبلغ من حساب Apple. عند بدء الاشتراك السنوي لأول مرة تُدفع السنة الأولى بالسعر المخفّض، ثم يتجدد بالسعر العادي. يمكنك إدارة اشتراكاتك وإلغاؤها من إعدادات حسابك في App Store. خيار مدى الحياة ليس اشتراكًا، بل دفعة واحدة فقط."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43821,6 +46095,12 @@
     },
     "이용약관" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شروط الاستخدام"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43969,6 +46249,12 @@
     },
     "개인정보 처리방침" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سياسة الخصوصية"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44117,6 +46403,12 @@
     },
     "코드 사용" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استرداد رمز"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44265,6 +46557,12 @@
     },
     "Pro에서 열려요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متاح مع Pro"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44413,6 +46711,12 @@
     },
     "Plus에서 열려요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متاح مع Plus"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44561,6 +46865,12 @@
     },
     "켜짐" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مفعّل"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44709,6 +47019,12 @@
     },
     "쿨타임이 반 지나면 \"반 왔어요\" 하고 응원해 드려요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عندما تنقضي نصف فترة التهدئة نشجّعك قائلين: «وصلت إلى المنتصف!»"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44857,6 +47173,12 @@
     },
     "날짜" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاريخ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45005,6 +47327,12 @@
     },
     "쿨타임 중 사용" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استُخدم أثناء التهدئة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45153,6 +47481,12 @@
     },
     "비용" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التكلفة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45301,6 +47635,12 @@
     },
     "메모" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظة"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45449,6 +47789,12 @@
     },
     "무료로는 쿨타임을 %lld개까지 걸 수 있어요. 더 걸려면 앱에서 Plus를 열어 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحد الأقصى في الخطة المجانية هو %lld من فترات التهدئة. لإضافة المزيد افتح Plus في التطبيق."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",

@@ -3,6 +3,12 @@
   "strings" : {
     "쿨타임" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CoolTime"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
     },
     "썼어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل استخدامًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +311,12 @@
     },
     "지금 써도 돼요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاهز للاستخدام الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -447,6 +465,12 @@
     },
     "iPhone에서 쿨타임을 걸면 여기에 떠요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فترات التهدئة التي تضعها على iPhone تظهر هنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -595,6 +619,12 @@
     },
     "아직 쿨타임 중이에요. 그래도 남길까요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يزال في فترة التهدئة. هل تسجّله رغم ذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -743,6 +773,12 @@
     },
     "남기기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّله"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -891,6 +927,12 @@
     },
     "참을게요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأنتظر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1039,6 +1081,12 @@
     },
     "남은 쿨타임" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المتبقي من التهدئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1235,12 @@
     },
     "모두 써도 돼요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلها جاهزة للاستخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1335,6 +1389,12 @@
     },
     "iPhone에서 Pro로 열 수 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتحها مع Pro على iPhone"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1483,6 +1543,12 @@
     },
     "가장 먼저 끝나는 쿨타임의 남은 시간을 보여 줘요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض الوقت المتبقي لأقرب فترة تهدئة تنتهي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1631,6 +1697,12 @@
     },
     "배달 음식" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توصيل الطعام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1779,6 +1851,12 @@
     },
     "온라인 쇼핑" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التسوق عبر الإنترنت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1927,6 +2005,12 @@
     },
     "카페 음료" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشروبات المقهى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

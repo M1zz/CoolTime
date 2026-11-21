@@ -83,6 +83,8 @@ struct StatsView: View {
                     )
                     .frame(width: 120, height: 120)
                     .rotationEffect(.degrees(-90))
+                    // 시계처럼 위에서 시계 방향으로 찬다. 오른쪽에서 왼쪽으로 쓰는 언어(아랍어)에선 회전이 거꾸로 돌아 아래에서 시작했다
+                    .environment(\.layoutDirection, .leftToRight)
                     .accessibilityHidden(true)
                 
                 VStack(spacing: 4) {
@@ -103,17 +105,17 @@ struct StatsView: View {
             // 요약 통계
             HStack(spacing: 24) {
                 StatItem(
-                    value: "\(manager.items.count)",
+                    value: manager.items.count.formatted(),
                     label: String(localized: "총 아이템")
                 )
                 
                 StatItem(
-                    value: "\(totalUsageCount)",
+                    value: totalUsageCount.formatted(),
                     label: String(localized: "총 사용")
                 )
                 
                 StatItem(
-                    value: "\(totalBreakCount)",
+                    value: totalBreakCount.formatted(),
                     label: String(localized: "깬 횟수")
                 )
             }
@@ -160,12 +162,24 @@ struct StatsView: View {
                 Chart(manager.items.filter { $0.totalUseCount > 0 }) { item in
                     BarMark(
                         x: .value("준수율", item.complianceRate * 100),
-                        y: .value("아이템", "\(item.emoji) \(item.name)")
+                        y: .value("아이템", "\(item.emoji) \(item.name)"),
+                        height: .ratio(0.45)
                     )
                     .foregroundStyle(barColor(for: item.complianceRate))
+                    // 항목 이름은 막대 바로 위에 직접 단다. 축 글자로 두면 아랍어처럼 키가 큰 글자가 칸 경계선에 걸쳐 막대와 겹쳤다.
+                    .annotation(position: .top, alignment: .leading, spacing: 2) {
+                        Text(verbatim: "\(item.emoji) \(item.name)")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                            .lineLimit(1)
+                    }
                 }
-                .frame(height: CGFloat(manager.items.filter { $0.totalUseCount > 0 }.count) * 40)
+                .frame(height: CGFloat(manager.items.filter { $0.totalUseCount > 0 }.count) * 44)
                 .chartXScale(domain: 0...100)
+                .chartYAxis { AxisMarks { _ in AxisGridLine() } }
+                // 0→100 눈금은 데이터 축이라 아랍어에서도 왼쪽에서 오른쪽으로 둔다.
+                // 뒤집으면 항목 이름이 막대 위가 아니라 막대에 겹쳐 그려졌다.
+                .environment(\.layoutDirection, .leftToRight)
             } else {
                 // iOS 16 이하 대체 UI
                 ForEach(manager.items.filter { $0.totalUseCount > 0 }) { item in
