@@ -52,6 +52,10 @@ final class PurchaseManager {
             preconditionFailure("계약에 페이월이 없다. CoolTimeSpec.monetization 을 확인할 것")
         }
         store = LeeoStore(config: config, grandfather: {
+            #if DEBUG
+            // 스크린샷 모드에선 영수증을 묻지 않는다 — 시뮬레이터가 Apple 계정 로그인 창과 키보드를 띄워 화면을 가린다
+            if ScreenshotSeed.isOn { return false }
+            #endif
             // 페이월 전 빌드를 받은 사람은 Pro. 실제 App Store 결제만 믿는다 — 샌드박스(TestFlight · 심사)의
             // originalAppVersion 은 늘 "1.0" 이라, 믿으면 모두가 Pro 가 되어 페이월을 시험할 수 없다.
             guard let result = try? await AppTransaction.shared, case .verified(let app) = result,
