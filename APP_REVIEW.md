@@ -16,44 +16,12 @@
 2. TestFlight 에서 아래 메모의 3) · 4) 를 한 번 따라가 본다 (샌드박스 계정).
 3. App Store Connect: 빌드를 새 것으로 바꾸고, 인앱 구매 9개가 이 제출에 그대로 들어 있는지 본다.
    유료 앱 계약(Paid Apps Agreement)이 활성인지도 확인한다.
-4. 아래 '심사 메모' 를 App Review Information > Notes 에 넣는다.
+4. 심사 메모는 배포가 `APPSTORE.md` 에서 올린다 (`--publish 쿨타임 --dry-run --text-only` 로 확인).
 5. 아래 '답장' 을 보내고 다시 제출한다.
 
 ## 심사 메모 (App Review Information > Notes)
 
-```
-WHERE TO FIND THE IN-APP PURCHASES
-
-All purchases are on the "Plans" screen:
-Home screen > gear icon (top left) > Settings > first row "CoolTime Plus · Pro".
-(On first launch, tap "Skip" or "Get Started" to leave onboarding.)
-
-The Plans screen has two cards, "Plus" and "Pro".
-
-1) On the Plus card
-   - Yearly / Lifetime picker: CoolTime Plus Yearly, CoolTime Plus Lifetime
-   - Tap "See weekly and monthly": CoolTime Plus Monthly, CoolTime Plus Weekly
-
-2) On the Pro card
-   - Yearly / Lifetime picker: CoolTime Pro Yearly (and the existing Pro Lifetime)
-   - Tap "See weekly and monthly": CoolTime Pro Monthly, CoolTime Pro Weekly
-
-3) Plus to Pro Lifetime — shown only to owners of Plus Lifetime
-   - Buy "CoolTime Plus Lifetime" on the Plus card (the Plans screen closes).
-   - Open Settings > "CoolTime Plus · Pro" again.
-   - On the Pro card choose "Lifetime": the button reads "Upgrade to Pro Lifetime".
-
-4) CoolTime Pro Lifetime for Subs — shown only while a subscription is active
-   - Start any subscription (for example Pro Weekly on the Pro card).
-   - Open Settings: a new row "Switch to Lifetime" appears under "CoolTime Plus · Pro".
-   - Tap it to see the offer.
-
-The Plans screen also opens when adding a 6th cooldown item, and from the
-"Unlocks with Pro" label in Stats (chart icon, top left).
-
-No storefront or device restrictions. No account or login is needed.
-"Restore", "Terms of Use" and "Privacy Policy" are on the Plans screen.
-```
+원본은 `APPSTORE.md` 의 `## 심사 메모` 절이다. DeployBar 가 배포할 때 메모 칸에 올리므로 손으로 넣지 않는다.
 
 ## 답장 (Resolution Center)
 

@@ -1511,3 +1511,37 @@ darkInterface
 differentiateWithoutColor
 sufficientContrast
 reducedMotion
+
+## 심사 메모
+
+WHERE TO FIND THE IN-APP PURCHASES
+
+All 9 In-App Purchases in this submission are sold on the "Plans" screen of this build. The same steps work on iPhone and iPad.
+
+Home screen > gear icon (top left) > Settings > first row "CoolTime Plus · Pro".
+(On first launch, tap "Skip" or "Get Started" to leave onboarding.)
+
+The Plans screen has two cards, "Plus" and "Pro".
+
+1) Plus card
+   Yearly / Lifetime picker: CoolTime Plus Yearly, CoolTime Plus Lifetime
+   Tap "See weekly and monthly": CoolTime Plus Monthly, CoolTime Plus Weekly
+
+2) Pro card
+   Yearly / Lifetime picker: CoolTime Pro Yearly
+   Tap "See weekly and monthly": CoolTime Pro Monthly, CoolTime Pro Weekly
+
+3) Plus to Pro Lifetime (shown only to owners of Plus Lifetime)
+   Buy "CoolTime Plus Lifetime" on the Plus card. The Plans screen closes.
+   Open Settings > "CoolTime Plus · Pro" again.
+   On the Pro card choose "Lifetime". The button reads "Upgrade to Pro Lifetime".
+
+4) CoolTime Pro Lifetime for Subs (shown only while a subscription is active)
+   Start any subscription, for example Pro Weekly on the Pro card.
+   Open Settings. A new row "Switch to Lifetime" appears under "CoolTime Plus · Pro".
+   Tap it to see the offer.
+
+The Plans screen also opens when adding a 6th cooldown item, and from the "Unlocks with Pro" label in Stats (chart icon, top left).
+
+No storefront or device restrictions. No account or login is needed.
+"Restore", "Terms of Use" and "Privacy Policy" are on the Plans screen.
