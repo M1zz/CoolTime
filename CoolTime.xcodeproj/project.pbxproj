@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1C0AA010000000000000001 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = C1C0AA010000000000000000 /* AppIcon.icon */; };
+		C1C0AA010000000000000002 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = C1C0AA010000000000000000 /* AppIcon.icon */; };
 		061D8270FB029BA671767EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED74E0454024B1C1F3CB1ADC /* Assets.xcassets */; };
 		13BB50847B6A2A3615F3223F /* WatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAC9B539528F37276952268 /* WatchStore.swift */; };
 		22100603E714453DE9021D41 /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A3CFBECEE6A96B1775D07 /* WatchLink.swift */; };
@@ -117,6 +119,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C1C0AA010000000000000000 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		14A8FA2D1B42803469EC43A3 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeRoadmap.swift; sourceTree = "<group>"; };
 		3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
@@ -281,6 +284,7 @@
 				B7A00005007 /* Components */,
 				B7A00005008 /* Theme */,
 				B7A00002002 /* Assets.xcassets */,
+				C1C0AA010000000000000000 /* AppIcon.icon */,
 				7B24944E03832EA64EE36A57 /* CoolTimeSpec.swift */,
 				210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */,
 				F8001F068C8CE41802E8A319 /* Localizable.xcstrings */,
@@ -527,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				061D8270FB029BA671767EB9 /* Assets.xcassets in Resources */,
+				C1C0AA010000000000000002 /* AppIcon.icon in Resources */,
 				6E9D57C2648A6DD31E2C6DCC /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A00001002 /* Assets.xcassets in Resources */,
+				C1C0AA010000000000000001 /* AppIcon.icon in Resources */,
 				51B9D52994CE9C3BCF6146DC /* Localizable.xcstrings in Resources */,
 				B9AB5D5626ED5B1A0339512F /* AppShortcuts.xcstrings in Resources */,
 			);

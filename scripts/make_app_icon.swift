@@ -5,14 +5,16 @@
 //  사용법 (저장소 루트에서):
 //    swift scripts/make_app_icon.swift
 //
-//  그림: 쿨타임 고리(4분의 3이 찬 진행 고리) 안에 쇼핑백 하나. "사고 싶은 것에 쿨타임을 건다."
-//  색은 앱의 쿨타임 그라데이션(AppTheme.cooldown → cooldownAccent) 그대로다.
+//  그림: 게임 스킬 칸처럼 쿨타임이 도는 다이얼 위의 쇼핑백. 남은 3분의 1을 반투명 그늘이 덮는다.
+//
+//  원본은 Icon Composer 문서 CoolTime/AppIcon.icon 이다 (아이폰 · 워치).
+//  바탕색 · 유리 · 그림자 같은 설정은 그 안의 icon.json 에 있고 Icon Composer 로 열어 고칠 수 있다.
+//  이 스크립트는 그 문서의 레이어 그림을 그리고, 레이어를 쓰지 못하는 곳에 같은 그림을 내보낸다.
 //
 //  만드는 것:
-//    · iOS 앱 · 위젯 확장: 기본 / 다크 / 틴트 (1024, 불투명)
-//    · watchOS: 기본 (1024, 불투명)
-//    · visionOS: Back(바탕) · Middle(고리 길) · Front(진행 고리 + 쇼핑백) 3단
-//    · docs/icon.png (소개 페이지, 256)
+//    · CoolTime/AppIcon.icon/Assets: dial(다이얼) · bag(쇼핑백) · cooldown(남은 쿨타임) 레이어
+//    · visionOS: Back(바탕) · Middle(다이얼) · Front(쇼핑백 + 쿨타임) 3단
+//    · docs/icon.png: Icon Composer 가 렌더한 소개 페이지 아이콘 (256)
 //
 
 import CoreGraphics
@@ -20,134 +22,76 @@ import Foundation
 import ImageIO
 import UniformTypeIdentifiers
 
-let size = 1024
+let size: CGFloat = 1024
 let root = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+let space = CGColorSpace(name: CGColorSpace.sRGB)!
 
 func rgb(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat, _ a: CGFloat = 1) -> CGColor {
-    CGColor(colorSpace: CGColorSpace(name: CGColorSpace.sRGB)!, components: [r, g, b, a])!
+    CGColor(colorSpace: space, components: [r, g, b, a])!
 }
 
-/// 그림 한 장의 색.
-struct Palette {
-    /// 바탕 그라데이션(왼쪽 위 → 오른쪽 아래). nil 이면 투명.
-    var background: [CGColor]?
-    /// 고리의 빈 길.
-    var track: CGColor
-    /// 찬 고리와 쇼핑백. 두 색이면 그라데이션으로 칠한다.
-    var ink: [CGColor]
-}
+let center = CGPoint(x: 512, y: 512)
+let dialRadius: CGFloat = 400
 
-enum Part { case background, track, glyph }
+/// 쇼핑백 몸통 — 아래로 살짝 넓어진다.
+let bagBody: CGPath = {
+    let cx: CGFloat = 512, top: CGFloat = 448, bottom: CGFloat = 760
+    let topHalf: CGFloat = 176, bottomHalf: CGFloat = 200, corner: CGFloat = 46
+    let p = CGMutablePath()
+    p.move(to: CGPoint(x: cx - topHalf + corner, y: top))
+    p.addArc(tangent1End: CGPoint(x: cx + topHalf, y: top), tangent2End: CGPoint(x: cx + bottomHalf, y: bottom), radius: corner)
+    p.addArc(tangent1End: CGPoint(x: cx + bottomHalf, y: bottom), tangent2End: CGPoint(x: cx - bottomHalf, y: bottom), radius: corner * 1.3)
+    p.addArc(tangent1End: CGPoint(x: cx - bottomHalf, y: bottom), tangent2End: CGPoint(x: cx - topHalf, y: top), radius: corner * 1.3)
+    p.addArc(tangent1End: CGPoint(x: cx - topHalf, y: top), tangent2End: CGPoint(x: cx + topHalf, y: top), radius: corner)
+    p.closeSubpath()
+    return p
+}()
 
-let blue = rgb(0.35, 0.55, 1.0)       // AppTheme.cooldown
-let purple = rgb(0.7, 0.4, 1.0)       // AppTheme.cooldownAccent
-let white = rgb(1, 1, 1)
+/// 손잡이 — 끝이 몸통 안으로 묻힌다.
+let bagHandle: CGPath = {
+    let cx: CGFloat = 512, top: CGFloat = 448, half: CGFloat = 88, arcY = top - 26
+    let h = CGMutablePath()
+    h.move(to: CGPoint(x: cx - half, y: top + 30))
+    h.addLine(to: CGPoint(x: cx - half, y: arcY))
+    h.addArc(center: CGPoint(x: cx, y: arcY), radius: half, startAngle: .pi, endAngle: 0, clockwise: false)
+    h.addLine(to: CGPoint(x: cx + half, y: top + 30))
+    return h.copy(strokingWithWidth: 42, lineCap: .butt, lineJoin: .round, miterLimit: 10)
+}()
 
-let light = Palette(background: [rgb(0.27, 0.50, 1.0), rgb(0.66, 0.36, 1.0)],
-                    track: rgb(1, 1, 1, 0.26), ink: [white])
-let dark = Palette(background: [rgb(0.09, 0.10, 0.16), rgb(0.04, 0.04, 0.07)],
-                   track: rgb(1, 1, 1, 0.12), ink: [rgb(0.45, 0.65, 1.0), rgb(0.78, 0.52, 1.0)])
-let tinted = Palette(background: [rgb(0.11, 0.11, 0.11), rgb(0.03, 0.03, 0.03)],
-                     track: rgb(1, 1, 1, 0.22), ink: [rgb(0.96, 0.96, 0.96)])
+/// 남은 쿨타임 — 12시에서 시계 반대 방향으로 3분의 1.
+let cooldownWedge: CGPath = {
+    let p = CGMutablePath()
+    p.move(to: center)
+    p.addArc(center: center, radius: dialRadius, startAngle: .pi / 6 * 5, endAngle: .pi * 1.5, clockwise: false)
+    p.closeSubpath()
+    return p
+}()
 
-func render(_ palette: Palette, parts: Set<Part>, opaque: Bool, pixels: Int = size) -> CGImage {
-    let space = CGColorSpace(name: CGColorSpace.sRGB)!
-    let alpha: CGImageAlphaInfo = opaque ? .noneSkipLast : .premultipliedLast
-    let ctx = CGContext(data: nil, width: pixels, height: pixels, bitsPerComponent: 8, bytesPerRow: 0,
-                        space: space, bitmapInfo: alpha.rawValue)!
-    // 왼쪽 위가 원점인 1024 좌표로 그린다.
-    let scale = CGFloat(pixels) / CGFloat(size)
-    ctx.translateBy(x: 0, y: CGFloat(pixels))
-    ctx.scaleBy(x: scale, y: -scale)
-    ctx.interpolationQuality = .high
-    let full = CGRect(x: 0, y: 0, width: size, height: size)
+enum Layer { case background, dial, bag, cooldown }
 
-    func gradient(_ colors: [CGColor]) -> CGGradient {
-        CGGradient(colorsSpace: space, colors: colors as CFArray, locations: nil)!
-    }
-    /// 지금 클립 안을 색(들)으로 칠한다.
-    func fill(_ colors: [CGColor], from start: CGPoint = .zero, to end: CGPoint = CGPoint(x: size, y: size)) {
-        if colors.count == 1 {
-            ctx.setFillColor(colors[0])
-            ctx.fill(full)
-        } else {
-            ctx.drawLinearGradient(gradient(colors), start: start, end: end,
-                                   options: [.drawsBeforeStartLocation, .drawsAfterEndLocation])
+func render(_ layers: [Layer], opaque: Bool = false) -> CGImage {
+    let ctx = CGContext(data: nil, width: Int(size), height: Int(size), bitsPerComponent: 8, bytesPerRow: 0, space: space,
+                        bitmapInfo: (opaque ? CGImageAlphaInfo.noneSkipLast : .premultipliedLast).rawValue)!
+    // 왼쪽 위가 원점인 좌표로 그린다.
+    ctx.translateBy(x: 0, y: size)
+    ctx.scaleBy(x: 1, y: -1)
+    for layer in layers {
+        switch layer {
+        case .background:   // icon.json 의 바탕 그라데이션과 같은 색
+            let gradient = CGGradient(colorsSpace: space, colors: [rgb(0.33, 0.56, 1.0), rgb(0.66, 0.38, 1.0)] as CFArray, locations: nil)!
+            ctx.drawLinearGradient(gradient, start: CGPoint(x: 205, y: 0), end: CGPoint(x: 819, y: size), options: [.drawsBeforeStartLocation, .drawsAfterEndLocation])
+        case .dial:
+            ctx.setFillColor(rgb(1, 1, 1, 0.22))
+            ctx.fillEllipse(in: CGRect(x: center.x - dialRadius, y: center.y - dialRadius, width: dialRadius * 2, height: dialRadius * 2))
+        case .bag:
+            ctx.setFillColor(rgb(1, 1, 1))
+            ctx.addPath(bagBody); ctx.fillPath()
+            ctx.addPath(bagHandle); ctx.fillPath()
+        case .cooldown:
+            ctx.setFillColor(rgb(0.14, 0.08, 0.40, 0.72))
+            ctx.addPath(cooldownWedge); ctx.fillPath()
         }
     }
-
-    if parts.contains(.background), let background = palette.background {
-        fill(background)
-        // 위쪽에 아주 옅은 빛.
-        ctx.saveGState()
-        ctx.drawRadialGradient(gradient([rgb(1, 1, 1, 0.16), rgb(1, 1, 1, 0)]),
-                               startCenter: CGPoint(x: 300, y: 220), startRadius: 0,
-                               endCenter: CGPoint(x: 300, y: 220), endRadius: 760, options: [])
-        ctx.restoreGState()
-    }
-
-    let center = CGPoint(x: 512, y: 512)
-    let radius: CGFloat = 308
-    let ringWidth: CGFloat = 84
-
-    if parts.contains(.track) {
-        ctx.setStrokeColor(palette.track)
-        ctx.setLineWidth(ringWidth)
-        ctx.addArc(center: center, radius: radius, startAngle: 0, endAngle: .pi * 2, clockwise: false)
-        ctx.strokePath()
-    }
-
-    if parts.contains(.glyph) {
-        let ink = CGMutablePath()
-
-        // 진행 고리 — 12시에서 시계 방향으로 4분의 3.
-        let arc = CGMutablePath()
-        arc.addArc(center: center, radius: radius, startAngle: -.pi / 2, endAngle: .pi, clockwise: false)
-        ink.addPath(arc.copy(strokingWithWidth: ringWidth, lineCap: .round, lineJoin: .round, miterLimit: 10))
-
-        // 쇼핑백 — 아래로 살짝 넓어지는 몸통.
-        let top: CGFloat = 446, bottom: CGFloat = 690
-        let topHalf: CGFloat = 126, bottomHalf: CGFloat = 148, corner: CGFloat = 36
-        let body = CGMutablePath()
-        body.move(to: CGPoint(x: 512 - topHalf + corner, y: top))
-        body.addArc(tangent1End: CGPoint(x: 512 + topHalf, y: top), tangent2End: CGPoint(x: 512 + bottomHalf, y: bottom), radius: corner)
-        body.addArc(tangent1End: CGPoint(x: 512 + bottomHalf, y: bottom), tangent2End: CGPoint(x: 512 - bottomHalf, y: bottom), radius: corner + 10)
-        body.addArc(tangent1End: CGPoint(x: 512 - bottomHalf, y: bottom), tangent2End: CGPoint(x: 512 - topHalf, y: top), radius: corner + 10)
-        body.addArc(tangent1End: CGPoint(x: 512 - topHalf, y: top), tangent2End: CGPoint(x: 512 + topHalf, y: top), radius: corner)
-        body.closeSubpath()
-
-        // 손잡이 — 몸통 위로 솟은 부분은 칠하고, 몸통 안으로 내려온 끝은 파낸다.
-        let handleHalf: CGFloat = 56, handleWidth: CGFloat = 26, handleTop: CGFloat = top - 26
-        let handle = CGMutablePath()
-        handle.move(to: CGPoint(x: 512 - handleHalf, y: top + 4))
-        handle.addLine(to: CGPoint(x: 512 - handleHalf, y: handleTop))
-        handle.addArc(center: CGPoint(x: 512, y: handleTop), radius: handleHalf, startAngle: .pi, endAngle: 0, clockwise: false)
-        handle.addLine(to: CGPoint(x: 512 + handleHalf, y: top + 4))
-        let legs = CGMutablePath()
-        for x in [512 - handleHalf, 512 + handleHalf] {
-            legs.move(to: CGPoint(x: x, y: top - 4))
-            legs.addLine(to: CGPoint(x: x, y: top + 62))
-        }
-
-        ctx.saveGState()
-        if parts.contains(.background) {
-            ctx.setShadow(offset: CGSize(width: 0, height: -10 * scale), blur: 28 * scale, color: rgb(0.1, 0.05, 0.4, 0.28))
-        }
-        ctx.beginTransparencyLayer(auxiliaryInfo: nil)
-        for path in [ink, body, handle.copy(strokingWithWidth: handleWidth, lineCap: .butt, lineJoin: .round, miterLimit: 10)] {
-            ctx.saveGState()
-            ctx.addPath(path)
-            ctx.clip(using: .winding)
-            fill(palette.ink, from: CGPoint(x: 200, y: 200), to: CGPoint(x: 824, y: 824))
-            ctx.restoreGState()
-        }
-        ctx.setBlendMode(.clear)
-        ctx.addPath(legs.copy(strokingWithWidth: handleWidth, lineCap: .round, lineJoin: .round, miterLimit: 10))
-        ctx.fillPath()
-        ctx.endTransparencyLayer()
-        ctx.restoreGState()
-    }
-
     return ctx.makeImage()!
 }
 
@@ -159,21 +103,29 @@ func write(_ image: CGImage, to path: String) {
     print("✓ \(path)")
 }
 
-let everything: Set<Part> = [.background, .track, .glyph]
-let lightIcon = render(light, parts: everything, opaque: true)
-let darkIcon = render(dark, parts: everything, opaque: true)
-let tintedIcon = render(tinted, parts: everything, opaque: true)
+// Icon Composer 레이어
+let icon = "CoolTime/AppIcon.icon"
+write(render([.dial]), to: "\(icon)/Assets/dial.png")
+write(render([.bag]), to: "\(icon)/Assets/bag.png")
+write(render([.cooldown]), to: "\(icon)/Assets/cooldown.png")
 
-for catalog in ["CoolTime/Assets.xcassets", "widget/Assets.xcassets"] {
-    write(lightIcon, to: "\(catalog)/AppIcon.appiconset/AppIcon.png")
-    write(darkIcon, to: "\(catalog)/AppIcon.appiconset/AppIcon-dark.png")
-    write(tintedIcon, to: "\(catalog)/AppIcon.appiconset/AppIcon-tinted.png")
-}
-write(lightIcon, to: "CoolTimeWatch/Assets.xcassets/AppIcon.appiconset/AppIcon.png")
-
+// visionOS 3단
 let stack = "CoolTime/Assets.xcassets/AppIcon.solidimagestack"
-write(render(light, parts: [.background], opaque: true), to: "\(stack)/Back.solidimagestacklayer/Content.imageset/Back.png")
-write(render(light, parts: [.track], opaque: false), to: "\(stack)/Middle.solidimagestacklayer/Content.imageset/Middle.png")
-write(render(light, parts: [.glyph], opaque: false), to: "\(stack)/Front.solidimagestacklayer/Content.imageset/Front.png")
+write(render([.background], opaque: true), to: "\(stack)/Back.solidimagestacklayer/Content.imageset/Back.png")
+write(render([.dial]), to: "\(stack)/Middle.solidimagestacklayer/Content.imageset/Middle.png")
+write(render([.bag, .cooldown]), to: "\(stack)/Front.solidimagestacklayer/Content.imageset/Front.png")
 
-write(render(light, parts: everything, opaque: true, pixels: 256), to: "docs/icon.png")
+// 소개 페이지는 Icon Composer 가 렌더한 그림을 쓴다.
+let ictool = "/Applications/Xcode.app/Contents/Applications/Icon Composer.app/Contents/Executables/ictool"
+func export(_ rendition: String, pixels: Int, to path: String) {
+    let process = Process()
+    process.executableURL = URL(fileURLWithPath: ictool)
+    process.arguments = [icon, "--export-image", "--output-file", path, "--platform", "iOS", "--rendition", rendition,
+                         "--width", "\(pixels)", "--height", "\(pixels)", "--scale", "1"]
+    process.standardOutput = FileHandle.nullDevice
+    try! process.run()
+    process.waitUntilExit()
+    guard process.terminationStatus == 0 else { fatalError("ictool 실패: \(path)") }
+    print("✓ \(path)")
+}
+export("Default", pixels: 256, to: "docs/icon.png")
