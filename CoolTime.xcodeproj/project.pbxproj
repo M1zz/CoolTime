@@ -50,6 +50,7 @@
 		B7A00001011 /* ItemCardCompact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A00002011 /* ItemCardCompact.swift */; };
 		B8E9B4D8FBAE855E0958E8FD /* PhoneWatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB7D9F7FF3229A4AD28B75 /* PhoneWatchLink.swift */; };
 		B9AB5D5626ED5B1A0339512F /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */; };
+		395857B3579B4D01B5DEB135 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F87303CF395857B3579B4D01 /* InfoPlist.xcstrings */; };
 		C0011001 /* ProPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012001 /* ProPlan.swift */; };
 		C0011002 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012002 /* PurchaseManager.swift */; };
 		C0011003 /* HistoryExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0012003 /* HistoryExport.swift */; };
@@ -123,6 +124,7 @@
 		14A8FA2D1B42803469EC43A3 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		210EE58A9E0CA658B5FC4C78 /* CoolTimeRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeRoadmap.swift; sourceTree = "<group>"; };
 		3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		F87303CF395857B3579B4D01 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		4B28B4A3C9A4E39E2E43F010 /* CoolTimeWatchLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeWatchLink.swift; sourceTree = "<group>"; };
 		4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoolTimeIntents.swift; sourceTree = "<group>"; };
 		55594632ED81C03AB884A478 /* CoolTimeWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoolTimeWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -290,6 +292,7 @@
 				F8001F068C8CE41802E8A319 /* Localizable.xcstrings */,
 				4DBB9368AAAF3FBFEEDAD376 /* CoolTimeIntents.swift */,
 				3E8684F09481615763E85F45 /* AppShortcuts.xcstrings */,
+				F87303CF395857B3579B4D01 /* InfoPlist.xcstrings */,
 				C0012005 /* CoolTime.storekit */,
 				4B28B4A3C9A4E39E2E43F010 /* CoolTimeWatchLink.swift */,
 				9ECB7D9F7FF3229A4AD28B75 /* PhoneWatchLink.swift */,
@@ -559,6 +562,7 @@
 				C1C0AA010000000000000001 /* AppIcon.icon in Resources */,
 				51B9D52994CE9C3BCF6146DC /* Localizable.xcstrings in Resources */,
 				B9AB5D5626ED5B1A0339512F /* AppShortcuts.xcstrings in Resources */,
+				395857B3579B4D01B5DEB135 /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
