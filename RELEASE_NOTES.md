@@ -70,7 +70,7 @@ Du kannst den Hinweis 3 Tage ausblenden
 
 ### 앱스토어 (Français)
 
-Le nom de l’app s’affiche dans votre langue
+Le nom de l’app est dans votre langue
 L’app vous prévient pendant les promos
 Premier abonnement à prix réduit
 Vous pouvez masquer l’annonce 3 jours
@@ -154,7 +154,7 @@ Je kunt de melding 3 dagen verbergen
 
 ### 앱스토어 (Polski)
 
-Nazwa aplikacji wyświetla się w Twoim języku
+Nazwa aplikacji jest w Twoim języku
 Aplikacja powie Ci o promocjach
 Nowi subskrybenci zaczną w niższej cenie
 Powiadomienie możesz ukryć na 3 dni
