@@ -7,150 +7,175 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 
 ### 앱스토어 (한국어)
 
+홈 화면의 앱 이름이 내 언어로 보여요
 할인 기간에는 앱을 열 때 소식을 알려 드려요
 처음 구독하면 할인된 값으로 시작할 수 있어요
 원하지 않으면 3일 동안 보지 않을 수 있어요
 
 ### 앱스토어 (English)
 
+The app name now appears in your language
 The app now tells you when a sale is on
 New subscribers start at a lower price
 You can hide the sale notice for 3 days
 
 ### 앱스토어 (en-GB)
 
+The app name now appears in your language
 The app now tells you when a sale is on
 New subscribers start at a lower price
 You can hide the sale notice for 3 days
 
 ### 앱스토어 (简体中文)
 
+主屏幕上的应用名称会以你的语言显示
 优惠期间打开应用时会通知你
 首次订阅可以优惠价开始
 也可以选择3天内不再显示
 
 ### 앱스토어 (繁體中文)
 
+主畫面上的 App 名稱會以你的語言顯示
 優惠期間開啟 App 時會通知你
 首次訂閱可用優惠價開始
 也可以選擇3天內不再顯示
 
 ### 앱스토어 (日本語)
 
+ホーム画面のアプリ名があなたの言語で表示されます
 セール期間中はアプリを開くとお知らせします
 初めての登録なら割引価格で始められます
 お知らせは3日間非表示にできます
 
 ### 앱스토어 (Русский)
 
+Название приложения теперь на вашем языке
 Приложение сообщит о скидках при запуске
 Новая подписка по сниженной цене
 Уведомление можно скрыть на 3 дня
 
 ### 앱스토어 (Español)
 
+El nombre de la app aparece en tu idioma
 La app te avisa cuando hay ofertas
 Tu primera suscripción tiene descuento
 Puedes ocultar el aviso durante 3 días
 
 ### 앱스토어 (Deutsch)
 
+Der App-Name erscheint in deiner Sprache
 Die App zeigt dir laufende Angebote
 Neue Abos starten zum reduzierten Preis
 Du kannst den Hinweis 3 Tage ausblenden
 
 ### 앱스토어 (Français)
 
+Le nom de l’app s’affiche dans votre langue
 L’app vous prévient pendant les promos
 Premier abonnement à prix réduit
 Vous pouvez masquer l’annonce 3 jours
 
 ### 앱스토어 (Italiano)
 
+Il nome dell’app appare nella tua lingua
 L’app ti avvisa quando c’è un’offerta
 Con il primo abbonamento parti scontato
 Puoi nascondere l’avviso per 3 giorni
 
 ### 앱스토어 (pt-BR)
 
+O nome do app aparece no seu idioma
 O app avisa quando há promoção
 A primeira assinatura tem desconto
 Você pode ocultar o aviso por 3 dias
 
 ### 앱스토어 (ไทย)
 
+ชื่อแอปบนหน้าโฮมแสดงเป็นภาษาของคุณ
 ช่วงลดราคา เราจะแจ้งเมื่อคุณเปิดแอป
 สมัครครั้งแรกเริ่มได้ในราคาพิเศษ
 ซ่อนการแจ้งเตือนได้ 3 วัน
 
 ### 앱스토어 (Tiếng Việt)
 
+Tên ứng dụng hiện theo ngôn ngữ của bạn
 Khi có ưu đãi, ứng dụng sẽ báo cho bạn
 Lần đăng ký đầu tiên có giá ưu đãi
 Bạn có thể ẩn thông báo trong 3 ngày
 
 ### 앱스토어 (Čeština)
 
+Název aplikace se zobrazí ve vašem jazyce
 Během slev vám dáme vědět po otevření
 Noví předplatitelé začnou se slevou
 Oznámení můžete na 3 dny skrýt
 
 ### 앱스토어 (Dansk)
 
+Appens navn vises nu på dit sprog
 Appen fortæller dig, når der er udsalg
 Nye abonnenter starter til nedsat pris
 Du kan skjule beskeden i 3 dage
 
 ### 앱스토어 (Ελληνικά)
 
+Το όνομα της εφαρμογής στη γλώσσα σου
 Η εφαρμογή σας ενημερώνει για προσφορές
 Οι νέοι συνδρομητές ξεκινούν με έκπτωση
 Μπορείτε να την κρύψετε για 3 μέρες
 
 ### 앱스토어 (Suomi)
 
+Sovelluksen nimi näkyy omalla kielelläsi
 Alennuksista kerrotaan, kun avaat apin
 Uudet tilaajat aloittavat alennushintaan
 Ilmoituksen voi piilottaa 3 päiväksi
 
 ### 앱스토어 (Indonesia)
 
+Nama aplikasi tampil dalam bahasamu
 App memberi tahu saat ada diskon
 Pelanggan baru mulai dengan harga diskon
 Pemberitahuan bisa disembunyikan 3 hari
 
 ### 앱스토어 (Norsk bokmål)
 
+Appnavnet vises nå på ditt språk
 Appen sier fra når det er salg
 Nye abonnenter starter til redusert pris
 Du kan skjule meldingen i 3 dager
 
 ### 앱스토어 (Nederlands)
 
+De appnaam verschijnt in jouw taal
 De app laat weten wanneer er korting is
 Nieuwe abonnees beginnen met korting
 Je kunt de melding 3 dagen verbergen
 
 ### 앱스토어 (Polski)
 
+Nazwa aplikacji wyświetla się w Twoim języku
 Aplikacja powie Ci o promocjach
 Nowi subskrybenci zaczną w niższej cenie
 Powiadomienie możesz ukryć na 3 dni
 
 ### 앱스토어 (Svenska)
 
+Appens namn visas nu på ditt språk
 Appen berättar nu när det är rea
 Nya prenumeranter börjar till lägre pris
 Du kan dölja meddelandet i 3 dagar
 
 ### 앱스토어 (Türkçe)
 
+Uygulama adı artık kendi dilinde görünür
 Uygulama indirimleri size haber verir
 Yeni aboneler indirimli başlayabilir
 Bildirimi 3 gün gizleyebilirsiniz
 
 ### 앱스토어 (아랍어)
 
+يظهر اسم التطبيق الآن بلغتك
 نخبرك بالعروض عند فتح التطبيق
 المشتركون الجدد يبدؤون بسعر مخفّض
 يمكنك إخفاء التنبيه لمدة 3 أيام
