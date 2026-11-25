@@ -14,6 +14,8 @@ struct HomeView: View {
     @State private var purchases = PurchaseManager.shared
     /// 잠긴 위젯을 눌러 들어왔을 때(스크린샷 `-screenshotScreen paywall` 도) 띄우는 Pro 페이월.
     @State private var showsProPaywall = false
+    /// 할인 배너에서 연 페이월
+    @State private var showsSalePaywall = false
     /// 구독 6개월째 · 갱신 7일 전의 구독 졸업 제안.
     @State private var showsGraduation = false
 
@@ -128,6 +130,9 @@ struct HomeView: View {
                     CoolTimeLibrary.donateUse(of: item)
                 }
             }
+            // 할인 기간이면 앱을 연 뒤 한 번 할인 배너를 띄운다. 단추는 요금제를 연다 (LeeoKit).
+            .leeoSaleBanner { showsSalePaywall = true }
+            .sheet(isPresented: $showsSalePaywall) { PaywallView() }
             .sheet(isPresented: $showsProPaywall) {
                 PaywallView(highlight: .pro)
             }
