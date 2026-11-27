@@ -4,6 +4,7 @@ import SwiftData
 import Combine
 import UserNotifications
 import WidgetKit
+import LeeoKit
 
 /// 쿨타임 관리 매니저
 @MainActor
@@ -205,6 +206,7 @@ final class CooldownManager {
         context.insert(item)
         saveContext()
         fetchItems()
+        LeeoAnalyticsCenter.track(.custom(name: "cooldown_started", parameters: [:]))
     }
 
     func addFromTemplate(_ template: CooldownTemplate) {

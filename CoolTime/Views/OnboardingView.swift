@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import LeeoKit
 
 struct OnboardingView: View {
     @Binding var isPresented: Bool
@@ -64,7 +65,7 @@ struct OnboardingView: View {
             // 버튼
             VStack(spacing: 12) {
                 if currentPage == pages.count - 1 {
-                    Button(action: completeOnboarding) {
+                    Button { completeOnboarding(skipped: false) } label: {
                         Text("시작하기")
                             .font(.headline)
                             .frame(maxWidth: .infinity)
@@ -80,7 +81,7 @@ struct OnboardingView: View {
                 }
 
                 if currentPage < pages.count - 1 {
-                    Button(action: completeOnboarding) {
+                    Button { completeOnboarding(skipped: true) } label: {
                         Text("건너뛰기")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
@@ -99,8 +100,9 @@ struct OnboardingView: View {
         }
     }
 
-    private func completeOnboarding() {
+    private func completeOnboarding(skipped: Bool) {
         UserDefaults.standard.set(true, forKey: "hasCompletedOnboarding")
+        LeeoAnalyticsCenter.track(.custom(name: skipped ? "onboarding_skipped" : "onboarding_completed", parameters: [:]))
         isPresented = false
     }
 }
